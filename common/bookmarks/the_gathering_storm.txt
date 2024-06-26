@@ -92,11 +92,8 @@ bookmarks = {
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
 			}
 			focuses = {
-				CAN_north_american_alliance
 				
 			}
 		}

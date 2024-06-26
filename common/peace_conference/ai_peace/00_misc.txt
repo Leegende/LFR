@@ -199,7 +199,6 @@ peace_ai_desires = {
         peace_action_type = { liberate force_government puppet take_states }
         enable = {
             ROOT.FROM = { 
-				is_mer_country_to_not_release = yes
 			}
         }
         ai_desire = -1000

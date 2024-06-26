@@ -184,7 +184,6 @@ country_event = {
 				limit = {
 					amount_taken_ideas = {
 					   amount < 3
-					   slots = { political_advisor }
 					}
 				}
 				add_ideas = GRE_aristotle_onassis

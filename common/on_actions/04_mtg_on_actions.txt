@@ -2261,20 +2261,7 @@ on_actions = {
 						add_core_of = GER
 					}
 				}
-				SWI = {
-					every_owned_state = {
-						delete_unit = { 
-							state = PREV 
-							disband = no 
-						}
-					}
-					release = FRA
-					release = BGN
-					release = ITA
-					release = LOM
-					release = GER
-					release = GRS
-				}
+				
 			}
 			if = {
 				limit = {
