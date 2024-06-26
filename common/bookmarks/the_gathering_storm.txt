@@ -74,9 +74,6 @@ bookmarks = {
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
 			}
 			focuses = {
 				SOV_behead_the_snake
@@ -99,9 +96,8 @@ bookmarks = {
 				CAN_conscription_crisis
 			}
 			focuses = {
-				CAN_skewer_the_eagle
 				CAN_north_american_alliance
-				CAN_join_comintern
+				
 			}
 		}
 		"HUN"={
@@ -186,4 +182,5 @@ bookmarks = {
 			focuses = {
 			}
 		}
+	}
 }
