@@ -513,7 +513,7 @@ news_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 				}
 				set_global_flag = SPR_anarchists_won
 			}
@@ -545,7 +545,7 @@ news_event = {
 				if = {
 					limit = {
 						tag = SPC
-						SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+						SPC = {  }
 					}
 					set_global_flag = { flag = SPR_anarchist_victory_timer_flag value = 1 days = 365 }
 				}
@@ -783,7 +783,7 @@ news_event = {
 			SPC = { has_capitulated = no }
 			NOT = { tag = SPC }
 			NOT = { original_tag = SPR }
-			SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+			SPC = {  }
 		}
 	}
 	option = {
@@ -996,7 +996,7 @@ news_event = {
 			if = {
 				limit = {
 					tag = SPC
-					SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+					SPC = {  }
 				}
 				set_global_flag = { flag = SPR_anarchist_victory_timer_flag value = 1 days = 365 }
 			}
@@ -2868,7 +2868,7 @@ news_event = {
 		trigger = {
 			tag = SPD
 			OR = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_hinder_nkvd_interference
 			}
 		}

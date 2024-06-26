@@ -4524,7 +4524,6 @@ news_event = {
 
 	trigger = {
 		tag = GER
-		has_tech = rocket_engines
 	}
 
 	mean_time_to_happen = {

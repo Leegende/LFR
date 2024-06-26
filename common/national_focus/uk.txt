@@ -68,9 +68,7 @@ focus_tree = {
 				}
 			}
 			else = {
-				hidden_effect = {
-					set_technology = { lar_decryption_bonus_tech = 1 }
-				}
+				
 				custom_effect_tooltip = lar_decryption_bonus_tt
 			}
 		}
@@ -2133,7 +2131,7 @@ focus_tree = {
 				limit = {
 					has_government = neutrality
 					NOT = {
-						has_completed_focus = SPR_regional_defense_council_of_aragon
+						
 					}
 				}
 				every_other_country = {

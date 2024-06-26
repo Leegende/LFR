@@ -5491,11 +5491,11 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = {
-				has_tech = basic_small_airframe
+				
 				add = -10
 			}
 			modifier = {
-				has_tech = improved_small_airframe
+				
 				add = -10
 			}
 			modifier = {
@@ -5533,11 +5533,11 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = {
-				has_tech = basic_medium_airframe
+				
 				add = -10
 			}
 			modifier = {
-				has_tech = improved_medium_airframe
+				
 				add = -10
 			}
 			modifier = {
@@ -5918,13 +5918,13 @@ country_event = {
 			}
 			modifier = {
 				GER = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				GER = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -5938,12 +5938,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					GER = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					GER = { }
@@ -5970,13 +5970,13 @@ country_event = {
 			}
 			modifier = {
 				ITA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ITA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -5990,12 +5990,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ITA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ITA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ITA = { }
@@ -6022,13 +6022,13 @@ country_event = {
 			}
 			modifier = {
 				FRA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				FRA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -6042,12 +6042,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					FRA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					FRA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					FRA = { }
@@ -6074,13 +6074,13 @@ country_event = {
 			}
 			modifier = {
 				ENG = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ENG = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -6094,12 +6094,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ENG = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ENG = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ENG = { }
@@ -6125,13 +6125,13 @@ country_event = {
 			}
 			modifier = {
 				USA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				USA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -6145,12 +6145,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					USA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					USA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					USA = { }
@@ -6561,13 +6561,13 @@ country_event = {
 			}
 			modifier = {
 				GER = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				GER = {
-					has_tech = improved_medium_airframe
+					
 				}
 				add = 10
 			}
@@ -6581,12 +6581,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					GER = { has_tech = improved_medium_airframe}
-					HUN = { NOT = { has_tech = improved_medium_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					GER = { }
@@ -6613,13 +6613,13 @@ country_event = {
 			}
 			modifier = {
 				ITA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ITA = {
-					has_tech = improved_medium_airframe
+					
 				}
 				add = 10
 			}
@@ -6633,12 +6633,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ITA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ITA = { has_tech = improved_medium_airframe}
-					HUN = { NOT = { has_tech = improved_medium_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ITA = { }
@@ -6665,13 +6665,13 @@ country_event = {
 			}
 			modifier = {
 				FRA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				FRA = {
-					has_tech = improved_medium_airframe
+					
 				}
 				add = 10
 			}
@@ -6685,12 +6685,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					FRA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					FRA = { has_tech = improved_medium_airframe}
-					HUN = { NOT = { has_tech = improved_medium_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					FRA = { }
@@ -6717,13 +6717,13 @@ country_event = {
 			}
 			modifier = {
 				ENG = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ENG = {
-					has_tech = improved_medium_airframe
+					
 				}
 				add = 10
 			}
@@ -6737,12 +6737,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ENG = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ENG = { has_tech = improved_medium_airframe}
-					HUN = { NOT = { has_tech = improved_medium_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ENG = { }
@@ -6768,13 +6768,13 @@ country_event = {
 			}
 			modifier = {
 				USA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				USA = {
-					has_tech = improved_medium_airframe
+					
 				}
 				add = 10
 			}
@@ -6788,12 +6788,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					USA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					USA = { has_tech = improved_medium_airframe}
-					HUN = { NOT = { has_tech = improved_medium_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					USA = { }
@@ -7192,11 +7192,11 @@ country_event = {
 				factor = 0
 			}
 			modifier = {
-				has_tech = basic_small_airframe
+				
 				add = -10
 			}
 			modifier = {
-				has_tech = improved_small_airframe
+				
 				add = -10
 			}
 			modifier = {
@@ -7253,11 +7253,11 @@ country_event = {
 				factor = 0
 			}
 			modifier = {
-				has_tech = basic_medium_airframe
+				
 				add = -10
 			}
 			modifier = {
-				has_tech = improved_medium_airframe
+				
 				add = -10
 			}
 			modifier = {
@@ -7647,13 +7647,13 @@ country_event = {
 			}
 			modifier = {
 				GER = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				GER = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -7667,12 +7667,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					GER = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					GER = { }
@@ -7699,13 +7699,13 @@ country_event = {
 			}
 			modifier = {
 				ITA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ITA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -7719,12 +7719,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ITA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ITA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ITA = { }
@@ -7751,13 +7751,13 @@ country_event = {
 			}
 			modifier = {
 				FRA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				FRA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -7771,12 +7771,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					FRA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					FRA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					FRA = { }
@@ -7802,13 +7802,13 @@ country_event = {
 			}
 			modifier = {
 				ENG = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ENG = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -7822,12 +7822,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ENG = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ENG = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					ENG = { }
@@ -7853,13 +7853,13 @@ country_event = {
 			}
 			modifier = {
 				USA = {
-					has_tech = basic_small_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				USA = {
-					has_tech = improved_small_airframe
+					
 				}
 				add = 10
 			}
@@ -7873,12 +7873,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					USA = { has_tech = basic_small_airframe}
-					HUN = { NOT = { has_tech = basic_small_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					USA = { has_tech = improved_small_airframe}
-					HUN = { NOT = { has_tech = improved_small_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
 					USA = { }
@@ -8289,13 +8289,13 @@ country_event = {
 			}
 			modifier = {
 				GER = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				GER = {
-					has_tech = improved_medium_airframe 
+					 
 				}
 				add = 10
 			}
@@ -8309,12 +8309,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					GER = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					GER = { has_tech = improved_medium_airframe }
-					HUN = { NOT = { has_tech = improved_medium_airframe  } }
+					GER = {  }
+					HUN = { NOT = {   } }
 				}
 				AND = {
 					GER = { }
@@ -8341,13 +8341,13 @@ country_event = {
 			}
 			modifier = {
 				ITA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ITA = {
-					has_tech = improved_medium_airframe 
+					 
 				}
 				add = 10
 			}
@@ -8361,12 +8361,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ITA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					ITA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ITA = { has_tech = improved_medium_airframe }
-					HUN = { NOT = { has_tech = improved_medium_airframe  } }
+					ITA = {  }
+					HUN = { NOT = {   } }
 				}
 				AND = {
 					ITA = { }
@@ -8393,13 +8393,13 @@ country_event = {
 			}
 			modifier = {
 				FRA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				FRA = {
-					has_tech = improved_medium_airframe 
+					 
 				}
 				add = 10
 			}
@@ -8413,12 +8413,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					FRA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					FRA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					FRA = { has_tech = improved_medium_airframe }
-					HUN = { NOT = { has_tech = improved_medium_airframe  } }
+					FRA = {  }
+					HUN = { NOT = {   } }
 				}
 				AND = {
 					FRA = { }
@@ -8444,13 +8444,13 @@ country_event = {
 			}
 			modifier = {
 				ENG = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				ENG = {
-					has_tech = improved_medium_airframe 
+					 
 				}
 				add = 10
 			}
@@ -8464,12 +8464,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ENG = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					ENG = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					ENG = { has_tech = improved_medium_airframe }
-					HUN = { NOT = { has_tech = improved_medium_airframe  } }
+					ENG = {  }
+					HUN = { NOT = {   } }
 				}
 				AND = {
 					ENG = { }
@@ -8495,13 +8495,13 @@ country_event = {
 			}
 			modifier = {
 				USA = {
-					has_tech = basic_medium_airframe
+					
 				}
 				add = 10
 			}
 			modifier = {
 				USA = {
-					has_tech = improved_medium_airframe 
+					 
 				}
 				add = 10
 			}
@@ -8515,12 +8515,12 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					USA = { has_tech = basic_medium_airframe}
-					HUN = { NOT = { has_tech = basic_medium_airframe } }
+					USA = { }
+					HUN = { NOT = {  } }
 				}
 				AND = {
-					USA = { has_tech = improved_medium_airframe }
-					HUN = { NOT = { has_tech = improved_medium_airframe  } }
+					USA = {  }
+					HUN = { NOT = {   } }
 				}
 				AND = {
 					USA = { }

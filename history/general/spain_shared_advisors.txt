@@ -809,7 +809,7 @@ every_possible_country = {
 			}
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate
-				NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+				NOT = {  }
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
 					NOT = { tag = SPA }
@@ -841,7 +841,7 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
 				has_completed_focus = SPR_communal_military_strategies
@@ -985,10 +985,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1021,10 +1021,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1057,10 +1057,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1169,7 +1169,7 @@ every_possible_country = {
 			available = {
 				NOT = {
 					has_completed_focus = SPR_crush_the_revolution
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1202,10 +1202,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1238,10 +1238,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1313,7 +1313,7 @@ every_possible_country = {
 			}
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate
-				NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+				NOT = {  }
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
 					NOT = { tag = SPA }
@@ -1345,10 +1345,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1381,10 +1381,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1573,7 +1573,7 @@ every_possible_country = {
 			}
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate
-				NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+				NOT = {  }
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
 					NOT = { tag = SPA }
@@ -1609,7 +1609,7 @@ every_possible_country = {
 			}
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate
-				NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
+				NOT = {  }
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
 					NOT = { tag = SPA }
@@ -1713,10 +1713,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1749,10 +1749,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1785,10 +1785,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1821,10 +1821,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1857,10 +1857,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1893,10 +1893,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -1929,10 +1929,10 @@ every_possible_country = {
 					tag = SPA
 					tag = SPB
 				}
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 			}
 			available = {
-				has_completed_focus = SPR_regional_defense_council_of_aragon
+				
 				has_completed_focus = SPR_masters_of_our_own_fate
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -2137,7 +2137,7 @@ every_possible_country = {
 					factor = 0.000
 					OR = {
 						has_completed_focus = SPA_a_great_spain 
-						has_completed_focus = SPR_regional_defense_council_of_aragon 
+						 
 						has_completed_focus = SPR_the_anti_fascist_workers_revolution 
 					}
 				}
@@ -2371,7 +2371,7 @@ every_possible_country = {
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate 
 				NOT = {
-					has_completed_focus = SPR_regional_defense_council_of_aragon 
+					 
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -2422,7 +2422,7 @@ every_possible_country = {
 			available = {
 				has_completed_focus = SPR_masters_of_our_own_fate 
 				NOT = {
-					has_completed_focus = SPR_regional_defense_council_of_aragon 
+					 
 				}
 				custom_trigger_tooltip = {
 					tooltip = SPR_not_nationalist_spain_tt
@@ -2598,7 +2598,7 @@ every_possible_country = {
 					factor = 0.000
 					OR = {
 						has_completed_focus = SPA_a_great_spain 
-						has_completed_focus = SPR_regional_defense_council_of_aragon 
+						 
 						has_completed_focus = SPR_the_anti_fascist_workers_revolution 
 					}
 				}
@@ -2798,7 +2798,7 @@ every_possible_country = {
 				NOT = {
 					has_completed_focus = SPA_the_phalanx_ascendant
 					has_completed_focus = SPA_supremacy_of_the_communion
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 					has_completed_focus = SPR_the_anti_fascist_workers_revolution
 				}
 			}

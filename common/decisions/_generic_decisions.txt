@@ -1927,7 +1927,7 @@ foreign_politics = {
 			NOT = {
 				AND = {
 					original_tag = SPR
-					has_completed_focus = SPR_regional_defense_council_of_aragon
+					
 				}
 			}
 		}
