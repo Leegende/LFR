@@ -3619,7 +3619,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_tech = synth_oil_experiments
 		}
 
 		bypass = {
@@ -3649,8 +3648,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HUN_synthetic_industry"
 			if = {
-				limit = { NOT = { has_tech = synth_oil_experiments } }
-				custom_effect_tooltip = HUN_synthetic_oil_tt
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -4190,8 +4187,8 @@ focus_tree = {
 			}
 			else = {
 				NOT = {
-					has_tech = advanced_small_airframe
-					has_tech = advanced_medium_airframe
+					
+					
 				}
 			}
 			OR = {
@@ -4286,8 +4283,8 @@ focus_tree = {
 			}
 			else = {
 				NOT = {
-					has_tech = advanced_small_airframe
-					has_tech = advanced_medium_airframe
+					
+					
 				}
 			}
 			OR = {

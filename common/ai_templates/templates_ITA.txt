@@ -870,7 +870,7 @@ mountaineers_ITA = {
 		modifier = {
 			factor = 0
 			NOT = {
-				has_tech = tech_mountaineers
+				has_tech = 
 			}
 		}
 	}

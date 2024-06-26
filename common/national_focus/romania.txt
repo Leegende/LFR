@@ -3840,7 +3840,6 @@
 		}
 
 		available = {
-			has_tech = tech_mountaineers
 		}
 
 		bypass = {

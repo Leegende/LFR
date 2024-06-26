@@ -525,7 +525,6 @@ ITA_missiolinis = {
 				has_tech = construction5
 			}
 			else = { #Absurd fallback just in case
-				has_tech = nukes
 			}
 		}
 

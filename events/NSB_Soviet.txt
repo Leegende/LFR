@@ -7072,23 +7072,7 @@ country_event = {
 	option = { # Good
 		name = NSB_soviet_atomic_bomb_project.1.a
 
-		if = {
-			limit = {
-				NOT = { has_tech = nukes }
-			}
-			add_tech_bonus = {
-				name = SOV_soviet_atomic_bomb_project
-				bonus = 1
-				uses = 1
-				category = nuclear
-			}
-		}
-		else = {
-			add_timed_idea = {
-				idea = SOV_stolen_vital_nuclear_information
-				days = 180
-			}
-		}
+		
 	}
 }
 

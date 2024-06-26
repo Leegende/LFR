@@ -67,7 +67,7 @@ ENG_fighter = {
 		priority = {
 			factor = 10
 			modifier = { 
-				has_tech = advanced_small_airframe 
+				
 				factor = 0
 			}
 		}
