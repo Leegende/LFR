@@ -21,15 +21,15 @@ is_available_fighter_HUN = {
 			}
 		}
 		AND = {
-			
+			has_tech = basic_small_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = basic_small_airframe}
 			}
 		}
 		AND = {
-			
+			has_tech = improved_small_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = improved_small_airframe}
 			}
 		}
 		AND = {
@@ -65,15 +65,15 @@ is_available_heavy_fighter_HUN = {
 			}
 		}
 		AND = {
-			
+			has_tech = basic_medium_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = basic_medium_airframe}
 			}
 		}
 		AND = {
-			
+			has_tech = improved_medium_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = improved_medium_airframe}
 			}
 		}
 		AND = {
@@ -109,15 +109,15 @@ is_available_cas_HUN = {
 			}
 		}
 		AND = {
-			
+			has_tech = basic_small_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = basic_small_airframe}
 			}
 		}
 		AND = {
-			
+			has_tech = improved_small_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = improved_small_airframe}
 			}
 		}
 		AND = {
@@ -153,15 +153,15 @@ is_available_tac_HUN = {
 			}
 		}
 		AND = {
-			
+			has_tech = basic_medium_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = basic_medium_airframe}
 			}
 		}
 		AND = {
-			
+			has_tech = improved_medium_airframe
 			ROOT = { 
-				NOT = { }
+				NOT = { has_tech = improved_medium_airframe}
 			}
 		}
 		AND = {

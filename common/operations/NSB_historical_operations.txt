@@ -212,6 +212,8 @@ nuclear_espionage = { ### 1/50
 	}
 	available = {
 		FROM = {
+			has_tech = 
+			NOT = { has_war_with = ROOT }
 		}
 	}
 	visible = {

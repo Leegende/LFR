@@ -17,7 +17,7 @@ GER_fighter = {
 		priority = {
 			factor = 1
 			modifier = { 
-				
+				has_tech = basic_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -44,7 +44,7 @@ GER_fighter = {
 		priority = {
 			factor = 100
 			modifier = { 
-				
+				has_tech = improved_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -165,7 +165,7 @@ GER_cas = {
 		priority = {
 			factor = 10
 			modifier = { 
-				
+				has_tech = basic_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -380,7 +380,7 @@ GER_tactical_bomber = {
 		priority = {
 			factor = 100
 			modifier = { 
-				
+				has_tech = basic_medium_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}

@@ -3088,7 +3088,7 @@ focus_tree = {
 		relative_position_id = ITA_bersaglieri
 		cost = 10
 		available = {
-			
+			has_tech = paratroopers
 		}
 
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER}
@@ -3862,8 +3862,8 @@ focus_tree = {
 				limit = {
 					has_dlc = "By Blood Alone"
 				}
-				
-				
+				has_tech = improved_small_airframe
+				has_tech = improved_medium_airframe
 			}
 			else = {
 				has_tech = fighter2
@@ -4981,7 +4981,7 @@ focus_tree = {
 		relative_position_id = ITA_expand_naval_facilities
 		cost = 10
 		available = {
-			
+			has_tech = marines
 		}
 
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_MANPOWER}
@@ -7921,7 +7921,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_security_militias"
 			add_ideas = ITA_camicie_nere
-			
+			hidden_effect = {
+				set_technology = {
+					camicie_nere_security_militias = 1
+					popup = no
+				}
+			}
 			if = {
 				limit = {
 					NOT = { has_completed_focus = ITA_disband_the_blackshirts }

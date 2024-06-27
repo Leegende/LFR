@@ -1023,7 +1023,7 @@ operation_coup_government = { ### 7 1/70
 			target = FROM
 			value > 35
 		}
-		NOT = {  }
+		NOT = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 	}
 
 	equipment = {
@@ -1315,7 +1315,9 @@ operation_boost_resistance = { ### 8 2/40
 		FROM.FROM = {
 			if = {
 				limit = {
-					
+					ROOT = {
+						has_completed_focus = SWI_export_saboteurs
+					}
 				}
 				add_resistance_target = {
 					amount = 25
@@ -1362,7 +1364,9 @@ operation_boost_resistance = { ### 8 2/40
 		FROM.FROM = {
 			if = {
 				limit = {
-					
+					ROOT = {
+						has_completed_focus = SWI_export_saboteurs
+					}
 				}
 				add_resistance_target = {
 					amount = 25

@@ -7685,7 +7685,7 @@ country_event = {
 			set_global_flag = { flag = SPR_civil_war_startup value = 1 days = 3 } # Make AI avoid attacking for a few days
 			if = {
 				limit = {
-					
+					has_completed_focus = SPR_regional_defense_council_of_aragon
 				}
 				set_politics = {
 					ruling_party = neutrality
@@ -8523,7 +8523,7 @@ country_event = {
 		effect_tooltip = {
 			if = {
 				limit = {
-					
+					has_completed_focus = SPR_regional_defense_council_of_aragon
 					NOT = { has_government = neutrality }
 				}
 				set_politics = {

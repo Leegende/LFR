@@ -19,7 +19,7 @@ generic_fighter = {
 		priority = {
 			factor = 1
 			modifier = { 
-				
+				has_tech = basic_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -46,7 +46,7 @@ generic_fighter = {
 		priority = {
 			factor = 100
 			modifier = { 
-				
+				has_tech = improved_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -344,7 +344,7 @@ generic_cv_fighter = {
 		priority = {
 			factor = 1
 			modifier = { 
-				
+				has_tech = basic_small_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -692,7 +692,7 @@ generic_tactical_bomber = {
 		priority = {
 			factor = 100
 			modifier = { 
-				
+				has_tech = basic_medium_airframe
 				factor = 0 #let's not waste XP here
 			}
 		}

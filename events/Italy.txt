@@ -235,11 +235,30 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		
+		name = italy.5.a	#sounds good
+		ITA = {
+			country_event = { days = 1 id = italy.6 }
+		}
+		# REVISIT Balance research bonus, also in event below
+		add_tech_bonus = {
+			bonus = 1.0
+			uses = 1
+			technology = tech_mountaineers2
+		}
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.35
+			uses = 2
+			category = naval_doctrine
+		}
 	}
 	
 	option = {
-		
+		name = italy.5.b	#no way 
+		ai_chance = { factor = 0 }
+		add_political_power = -10
+		ITA = {
+			country_event = { days = 1 id = italy.7 }
+		}
 	}
 }
 
