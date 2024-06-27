@@ -4,7 +4,7 @@
 # Political advisors
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = CZE tag = ROM tag = HOL original_tag = SPR original_tag = POL } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = CZE tag = ROM tag = HOL tag = IRE original_tag = SPR original_tag = POL } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -47,7 +47,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = CZE tag = HOL original_tag = SPR original_tag = POL } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = CZE tag = HOL tag = IRE original_tag = SPR original_tag = POL } }
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = democratic_reformer characters = yes }
@@ -89,7 +89,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = ROM tag = CZE tag = HOL original_tag = SPR original_tag = POR original_tag = POL original_tag=LAT } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = ROM tag = CZE tag = HOL tag = IRE original_tag = SPR original_tag = POR original_tag = POL original_tag=LAT } }
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
@@ -361,7 +361,21 @@ every_possible_country = {
 }
 
 every_possible_country = {
-	limit = {
+		limit = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = USA tag = CAN tag = CZE tag = ROM tag = HOL tag = IRE original_tag = SPR original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			NOT = { OR = { tag = SWI } }
+		}
 	}
 	generate_character = {
 		token_base = generic_captain_of_industry # token will be TAG_token_base

@@ -1,2 +1,46 @@
 ideas = {
+    industrial_concern = {
+
+		goulding_chemicals = {
+			allowed = {
+				original_tag = IRE
+			}
+			traits = { industrial_concern }
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.15
+			}
+		}
+
+		murphy_radio = {
+			allowed = {
+				original_tag = IRE
+			}	
+			traits = { electronics_developer }
+			modifier = {
+				production_speed_radar_station_factor = 0.1
+			}
+			research_bonus = {
+				electronics = 0.1
+				industry = 0.1
+			}
+		}
+
+		mcmullan_bros = {
+			allowed = {
+				original_tag = IRE
+			}
+			traits = { refinery_concern }
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.1
+			}
+		}
+	}
 }
