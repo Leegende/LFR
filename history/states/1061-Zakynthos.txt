@@ -1,19 +1,29 @@
-
-state={
-	id=1061
-	name="STATE_1061"
-	history={
+#args4
+#1550-Kerkyra.txt
+#1551-Kephalonia.txt
+#1561-Lefkada.txt
+state = {
+	id = 1061
+	name = "STATE_1061"
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
 		}
+		victory_points = {
+			20249
+			2
+		}
 	}
-	provinces={
-		20284 
+	provinces = {
+		20284
+		20249
+		20283
+		20361
 	}
-	manpower=24683
-	state_category=small_island
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 134743
+	state_category = small_island
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

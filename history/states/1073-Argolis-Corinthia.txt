@@ -1,25 +1,85 @@
-
-state={
-	id=1073
-	name="STATE_1073"
-	history={
+#args7
+#1089-Laconia.txt
+#1536-Messenia.txt
+#1537-Elis.txt
+#1538-Arcadia.txt
+#1539-Achaea.txt
+#1562-Kythira.txt
+state = {
+	id = 1073
+	name = "STATE_1073"
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
+			20250 = {
+				naval_base = 1
+			}
+			arms_factory = 1
+			20251 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			9588 2
+			9588
+			2
 		}
 		victory_points = {
-			1904 2
+			1904
+			2
+		}
+		victory_points = {
+			433
+			2
+		}
+		victory_points = {
+			20250
+			5
+		}
+		victory_points = {
+			8576
+			2
+		}
+		victory_points = {
+			20269
+			2
+		}
+		victory_points = {
+			20251
+			10
 		}
 	}
-	provinces={
-		1904 5696 9588 20261 20271 
+	provinces = {
+		1904
+		5696
+		9588
+		20261
+		20271
+		433
+		4235
+		15459
+		20264
+		8137
+		20250
+		20267
+		20268
+		8576
+		20262
+		1856
+		20265
+		20266
+		20269
+		20270
+		6097
+		6302
+		15353
+		20251
+		20263
+		20282
 	}
-	manpower=164737
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 739360
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

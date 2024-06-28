@@ -1,32 +1,115 @@
-
-state={
-	id=1528
-	name="STATE_1528"
-
-	resources = { aluminium = 27 }
-	history={
+#args6
+#1529-Skopje.txt
+#1530-Kumanovo.txt
+#1531-__tip.txt
+#2755-Kavadartsi.txt
+#2899-Drachevo.txt
+state = {
+	id = 1528
+	name = "STATE_1528"
+	resources = {
+		aluminium = 27
+	}
+	history = {
 		owner = YUG
 		add_core_of = YUG
 		add_core_of = MAC
 		add_claim_by = BUL
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
 		}
 		victory_points = {
-			20199 5 
+			20199
+			5
 		}
 		victory_points = {
-			14979 5 
+			14979
+			5
 		}
-
+		victory_points = {
+			20237
+			2
+		}
+		victory_points = {
+			1945
+			2
+		}
+		victory_points = {
+			14917
+			5
+		}
+		victory_points = {
+			20236
+			2
+		}
+		victory_points = {
+			86
+			2
+		}
+		victory_points = {
+			20226
+			20
+		}
+		victory_points = {
+			404
+			2
+		}
 	}
-
-	provinces={
-		3571 4184 5004 14949 14979 14984 16173 16184 16444 17294 20199 20225 20234 
+	provinces = {
+		3571
+		4184
+		5004
+		14949
+		14979
+		14984
+		16173
+		16184
+		16444
+		17294
+		20199
+		20225
+		20234
+		17051
+		20237
+		1945
+		16421
+		6105
+		14917
+		14935
+		14972
+		20236
+		20246
+		86
+		4288
+		9101
+		16237
+		16929
+		19158
+		20214
+		18692
+		20213
+		3389
+		3587
+		20226
+		7358
+		7748
+		14879
+		404
+		2831
+		17267
+		18306
+		20229
+		20238
+		4059
+		4914
+		20247
+		14891
+		14912
+		17543
 	}
-	manpower=193214
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	manpower = 1104774
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

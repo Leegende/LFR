@@ -1,20 +1,52 @@
-
-state={
-	id=1173
-	name="STATE_1173"
-	history={
+#args4
+#1558-Chania.txt
+#1559-Rethymno.txt
+#1560-Heraklion.txt
+state = {
+	id = 1173
+	name = "STATE_1173"
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		add_core_of = CRT
 		buildings = {
 			infrastructure = 2
+			20349 = {
+				naval_base = 1
+			}
+			20350 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			20349
+			5
+		}
+		victory_points = {
+			20352
+			2
+		}
+		victory_points = {
+			20350
+			10
 		}
 	}
-	provinces={
-		3835 4520 
+	provinces = {
+		3835
+		4520
+		4060
+		20349
+		20351
+		1622
+		20352
+		15621
+		20350
+		20353
+		20354
+		20355
 	}
-	manpower=48283
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 380303
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

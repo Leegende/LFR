@@ -1,27 +1,65 @@
-
-state={
-	id=1546
-	name="STATE_1546"
-
-	history={
+#args8
+#1547-Chalkidiki.txt
+#1549-Serres.txt
+#1557-Oros_Athos.txt
+#2000-Stavros.txt
+#2748-Koufalia.txt
+#2940-Lefkochori.txt
+#941-Thessaloniki.txt
+state = {
+	id = 1546
+	name = "STATE_1546"
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		add_claim_by = BUL
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 2
+			15074 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			5637 2 
+			5637
+			2
 		}
-
+		victory_points = {
+			4131
+			5
+		}
+		victory_points = {
+			15074
+			20
+		}
 	}
-
-	provinces={
-		5567 5637 20344 
+	provinces = {
+		5567
+		5637
+		20344
+		4346
+		15084
+		15133
+		15167
+		20285
+		4131
+		7731
+		15072
+		20340
+		20341
+		20345
+		20281
+		6660
+		17548
+		9314
+		20343
+		20346
+		1020
+		15074
+		15097
 	}
-	manpower=53441
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	manpower = 875885
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
 }

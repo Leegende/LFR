@@ -1,9 +1,18 @@
-
-state={
-	id=1548
-	name="STATE_1548"
-
-	history={
+#args11
+#1969-Didymoteicho.txt
+#2005-Feres.txt
+#2006-Petrota.txt
+#2016-Katafigio.txt
+#2751-Xanthi.txt
+#2756-Thasos.txt
+#2840-Skaloti.txt
+#910-Evros.txt
+#929-Drama.txt
+#937-Rhodope.txt
+state = {
+	id = 1548
+	name = "STATE_1548"
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		add_claim_by = BUL
@@ -11,21 +20,60 @@ state={
 			infrastructure = 2
 			9240 = {
 				naval_base = 1
-
 			}
-
+			20338 = {
+				naval_base = 1
+			}
+			arms_factory = 1
 		}
 		victory_points = {
-			9240 5 
+			9240
+			5
 		}
-
+		victory_points = {
+			3756
+			2
+		}
+		victory_points = {
+			20338
+			5
+		}
+		victory_points = {
+			3101
+			2
+		}
+		victory_points = {
+			20337
+			2
+		}
 	}
-
-	provinces={
-		9038 9240 15036 
+	provinces = {
+		9038
+		9240
+		15036
+		2680
+		3417
+		1094
+		15895
+		16499
+		20360
+		1272
+		3756
+		20286
+		4509
+		20336
+		4231
+		8483
+		20338
+		3101
+		8011
+		1428
+		6549
+		20337
+		20339
 	}
-	manpower=81639
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	manpower = 390001
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }
