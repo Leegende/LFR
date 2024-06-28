@@ -1,9 +1,8 @@
-
 state={
-	id=1703
-	name="STATE_1703"
+	id=1708
+	name="STATE_1708"
 	provinces={
-		5465 7581 11089 11129 11149 11179 11225 
+		8430 10963 10968 11003 20648 
 	}
 	history={
 	    owner = GER
@@ -15,10 +14,10 @@ state={
 		add_core_of = SHL
 		add_core_of = HLS
 		victory_points = {
-			11089 2 #Bad Oldesloe
+			8430 5 #Neumünster
 		}
     }
-	manpower=137754
+	manpower=148025
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = rural

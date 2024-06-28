@@ -1,7 +1,6 @@
-
 state={
-	id=1686
-	name="STATE_1686"
+	id=2529
+	name="STATE_2529"
 	history={
 		owner = GER
 		add_core_of = GER
@@ -9,16 +8,13 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = THU
-		add_core_of = SXC
+		add_core_of = SXM
     }
 	provinces={
-		2943 7501 12267 18720 18815 
+		6462 8464 12489 
 	}
-	resources={
-		steel=5
-	}
-	manpower=257456
+	manpower=92500
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }

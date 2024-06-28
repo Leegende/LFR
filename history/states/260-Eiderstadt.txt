@@ -1,25 +1,30 @@
 
 state={
-	id=1703
-	name="STATE_1703"
-	provinces={
-		5465 7581 11089 11129 11149 11179 11225 
-	}
+	id=260
+	name="STATE_260"
+
 	history={
-	    owner = GER
+		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = PRE
 		add_core_of = SHL
-		add_core_of = HLS
+		add_core_of = SLW
+		add_core_of = NFR
 		victory_points = {
-			11089 2 #Bad Oldesloe
+			10903 2 
 		}
-    }
-	manpower=137754
+
+	}
+
+	provinces={
+		4894 10810 10830 10903 20650 
+	}
+	manpower=104331
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category = rural
 }

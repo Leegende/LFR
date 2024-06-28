@@ -1,25 +1,26 @@
 
 state={
-	id=1703
-	name="STATE_1703"
+	id=1705
+	name="STATE_1705"
 	provinces={
-		5465 7581 11089 11129 11149 11179 11225 
+		2380 5595 6671 6882 10986 11008 11012 11039 11065 11120 11148 
 	}
 	history={
 	    owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+			dockyard = 2
 		}
 		add_core_of = PRE
 		add_core_of = SHL
 		add_core_of = HLS
 		victory_points = {
-			11089 2 #Bad Oldesloe
+			11120 2 #Elmshorn
 		}
     }
-	manpower=137754
+	manpower=245531
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = rural
+	state_category = large_town
 }
