@@ -1,24 +1,27 @@
+
 state={
-	id=1653
-	name="STATE_1653"
+	id=273
+	name="STATE_273"
+
 	history={
 		owner = GER
+		victory_points = {
+			9308 5 
+		}
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = SIL 
-		add_claim_by = CZE
-		victory_points = {
-			12599 2 #Glatz
-		}
-    }
-	provinces={
-		12529 12599 12614 12666 
+		add_core_of = POM
+
 	}
-	manpower=178802
+
+	provinces={
+		9308 11040 20561 
+	}
+	manpower=104573
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category = town
 }

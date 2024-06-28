@@ -1,24 +1,23 @@
+
 state={
-	id=1670
-	name="STATE_1670"
+	id=449
+	name="STATE_449"
 	provinces={
-		12210 12251 12287 12326 20612 
+		4904 8233 12122 12183 20609 
 	}
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
-			industrial_complex = 1
 			infrastructure = 4
 		}
 		add_core_of = SAX
-		add_core_of = LUS
         victory_points = {
-            12210 2 #Bautzen
+            20609 2 #Meissen
         }
     }
-	manpower=349830
+	manpower=249442
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = city
+	state_category = large_town
 }

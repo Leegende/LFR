@@ -1,8 +1,9 @@
-
 state={
-	id=1623
-	name="STATE_1623"
-
+	id=2561
+	name="STATE_2561"
+	provinces={
+		2115 11266 
+	}
 	history={
 		owner = GER
 		add_core_of = GER
@@ -10,18 +11,12 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = PRE
+		add_core_of = WPR
 		add_core_of = POM
-		add_core_of = PML
-		victory_points = {
-			8562 2 #Lauenburg
-		}
+		add_core_of = WSP
 	}
-
-	provinces={
-		5647 8562 10958 20541 20544 
-	}
-	manpower=89595
+	manpower=32663
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
 }

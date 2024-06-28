@@ -1,10 +1,6 @@
-
 state={
-	id=1724
-	name="STATE_1724"
-	provinces={
-		632 7156 8357 11295 11343 11398 11430 20641 20681 
-	}
+	id=1640
+	name="STATE_1640"
 	history={
 		owner = GER
 		add_core_of = GER
@@ -12,15 +8,15 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = PRE
-		add_core_of = HAN
-		victory_points = {
-			11343 5 #Lüneburg
-		}
+		add_core_of = BRN
         victory_points = {
-            11430 2 #Uelzen
+            6130 2 #Prenzlau
         }
     }
-	manpower=141365
+	provinces={
+		1359 2447 6130 11373 11424 20574 
+	}
+	manpower=123015
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = rural

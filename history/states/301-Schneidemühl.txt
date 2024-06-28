@@ -1,24 +1,27 @@
+
 state={
-	id=1653
-	name="STATE_1653"
+	id=301
+	name="STATE_301"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+		
 		}
 		add_core_of = PRE
-		add_core_of = SIL 
-		add_claim_by = CZE
+		add_core_of = POM 
+		add_core_of = WSP
+		add_core_of = WPR
 		victory_points = {
-			12599 2 #Glatz
+			748 5 #Schneidemühl
 		}
-    }
-	provinces={
-		12529 12599 12614 12666 
 	}
-	manpower=178802
+	provinces={
+		748 3349 11344 11399 
+	}
+	manpower=53349
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
-	state_category = town
 }

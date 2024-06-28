@@ -1,7 +1,7 @@
 
 state={
-	id=1637
-	name="STATE_1637"
+	id=1642
+	name="STATE_1642"
 	history={
 		owner = GER
 		add_core_of = GER
@@ -11,14 +11,14 @@ state={
 		add_core_of = PRE
 		add_core_of = BRN
         victory_points = {
-            11365 2 #Wittenberge
+            20569 2 #Schwedt
         }
     }
 	provinces={
-		1554 2578 6528 7493 9072 11365 11500 20568 20596 
+		11361 20569 20570 20594 
 	}
-	manpower=162116
+	manpower=66138
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = town
+	state_category = pastoral
 }
