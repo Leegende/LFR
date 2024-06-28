@@ -1,10 +1,18 @@
-state={
-	id=2714
-	name="STATE_2714"
-	provinces={
-		9221 4781 11744
+#args3
+#2715-Hinter_Ems.txt
+#2716-Bunde_und_Wener.txt
+state = {
+	id = 2714
+	name = "STATE_2714"
+	provinces = {
+		9221
+		4781
+		11744
+		11718
+		19899
+		11342
 	}
-	history={
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
@@ -13,8 +21,8 @@ state={
 		add_core_of = PRE
 		add_core_of = HAN
 	}
-	manpower=42000
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 77600
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

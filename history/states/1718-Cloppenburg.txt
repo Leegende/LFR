@@ -1,23 +1,96 @@
-
-state={
-	id=1718
-	name="STATE_1718"
-	provinces={
-		7367 8302 11420 11532 20690 
+#args4
+#1728-Lingen.txt
+#1729-Leer.txt
+#350-Meppen.txt
+state = {
+	id = 1718
+	name = "STATE_1718"
+	provinces = {
+		7367
+		8302
+		11420
+		11532
+		20690
+		4980
+		20683
+		4664
+		7792
+		10909
+		11866
+		19879
+		20685
+		20807
+		20863
+		9366
+		11224
+		11299
+		20687
+		20688
+		20696
+		1243
+		240
+		1050
+		11232
+		11253
+		11293
+		20656
+		20661
+		1716
+		8727
+		11324
+		11372
+		11405
+		11463
+		4950
+		7578
+		11479
+		11552
+		20684
 	}
-	history={
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
+			dockyard = 1
+			fuel_silo = 1
 		}
 		add_core_of = OLD
 		victory_points = {
-			7367 2 #Cloppenburg
+			7367
+			2
 		}
-    }
-	manpower=118665
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		victory_points = {
+			4980
+			5
+		}
+		victory_points = {
+			4664
+			2
+		}
+		victory_points = {
+			20688
+			5
+		}
+		victory_points = {
+			1050
+			5
+		}
+		victory_points = {
+			240
+			2
+		}
+		victory_points = {
+			11372
+			10
+		}
+		victory_points = {
+			20684
+			2
+		}
+	}
+	manpower = 986487
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = rural
 }

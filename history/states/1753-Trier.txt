@@ -1,28 +1,128 @@
-
-state={
-	id=1753
-	name="STATE_1753"
-	provinces={
-		1105 5991 12836 
+#args12
+#1756-Kaiserslautern.txt
+#1757-Ludwigshafen.txt
+#1758-Birkenfeld.txt
+#1760-Sankt_Wendel.txt
+#2337-Merzig-Waden.txt
+#2340-Landau_in_der_Pfalz.txt
+#2343-Bemkastel.txt
+#506-Kreuznach.txt
+#521-Mainz.txt
+#524-Zweibruecken.txt
+#537-Saarland.txt
+state = {
+	id = 1753
+	name = "STATE_1753"
+	provinces = {
+		1105
+		5991
+		12836
+		4903
+		8499
+		9016
+		12902
+		12915
+		12953
+		20741
+		4408
+		5086
+		12985
+		20743
+		20731
+		12853
+		8803
+		12910
+		6884
+		13106
+		12798
+		1905
+		7401
+		8179
+		12737
+		12746
+		20740
+		2682
+		7510
+		12876
+		20713
+		20729
+		6957
+		9577
+		13035
+		13073
+		20742
+		6453
+		9312
+		9478
+		12977
+		12993
+		13047
 	}
-	resources={
-		steel=8
+	resources = {
+		steel = 8
 	}
-	history={
-	    owner = GER
-        victory_points = {
-            12836 10 #Trier
-        }
+	history = {
+		owner = GER
+		victory_points = {
+			12836
+			10
+		}
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
+			industrial_complex = 1
 		}
 		add_core_of = PRE
 		add_core_of = RHN
 		set_demilitarized_zone = yes
-    }
-	manpower=249817
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+		victory_points = {
+			12953
+			5
+		}
+		victory_points = {
+			20743
+			10
+		}
+		victory_points = {
+			5086
+			5
+		}
+		victory_points = {
+			12853
+			2
+		}
+		victory_points = {
+			13106
+			2
+		}
+		victory_points = {
+			7401
+			2
+		}
+		victory_points = {
+			20729
+			10
+		}
+		victory_points = {
+			12876
+			5
+		}
+		victory_points = {
+			6957
+			2
+		}
+		victory_points = {
+			13047
+			10
+		}
+		victory_points = {
+			6453
+			2
+		}
+	}
+	manpower = 2818000
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

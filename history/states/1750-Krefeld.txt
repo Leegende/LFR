@@ -1,35 +1,133 @@
-state={
-	id=1750
-	name="STATE_1750"
-	resources={
-		steel=4
+#args12
+#1751-Koeln.txt
+#1752-Wittlich.txt
+#2338-Julich.txt
+#2339-Monschau.txt
+#2718-Selfkant.txt
+#423-Kleve.txt
+#460-Aachen.txt
+#469-Bonn.txt
+#477-Schleiden.txt
+#488-Koblenz.txt
+#503-Bittburg.txt
+state = {
+	id = 1750
+	name = "STATE_1750"
+	resources = {
+		steel = 4
 	}
-	history={
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
+			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		add_core_of = PRE
 		add_core_of = RHN
-        victory_points = {
-            20734 10 #Neuss
-        }
-        victory_points = {
-            8475 20 #Mönchengladbach
-        }
-        victory_points = {
-            20734 20 #Krefeld
-        }
+		victory_points = {
+			20734
+			10
+		}
+		victory_points = {
+			8475
+			20
+		}
+		victory_points = {
+			20734
+			20
+		}
 		set_demilitarized_zone = yes
-    }
-	provinces={
-		8475 8897 20734 
+		victory_points = {
+			20736
+			40
+		}
+		victory_points = {
+			5555
+			5
+		}
+		victory_points = {
+			8536
+			5
+		}
+		victory_points = {
+			8240
+			5
+		}
+		victory_points = {
+			11955
+			2
+		}
+		victory_points = {
+			12390
+			20
+		}
+		victory_points = {
+			12434
+			20
+		}
+		victory_points = {
+			12461
+			2
+		}
+		victory_points = {
+			20739
+			10
+		}
+		victory_points = {
+			12582
+			2
+		}
 	}
-	manpower=724942
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	provinces = {
+		8475
+		8897
+		20734
+		5412
+		5555
+		8349
+		20736
+		5419
+		8906
+		20732
+		20744
+		7002
+		8536
+		12404
+		5406
+		12306
+		4941
+		8240
+		9187
+		11955
+		12019
+		1259
+		12390
+		12400
+		12434
+		12461
+		20735
+		770
+		12421
+		12523
+		3647
+		7340
+		12582
+		12621
+		20733
+		20739
+		5396
+		5691
+		6311
+		6559
+		12700
+		12778
+	}
+	manpower = 3580679
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = large_city
 }
-
