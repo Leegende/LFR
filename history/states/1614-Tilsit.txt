@@ -1,25 +1,85 @@
-
-state={
-	id=1614
-	name="STATE_1614"
-
-	history={
+#args6
+#1615-Insterburg.txt
+#2334-Heilingenbeil.txt
+#2335-Gumbinnen.txt
+#2484-Labiau.txt
+#252-K__nigsberg.txt
+state = {
+	id = 1614
+	name = "STATE_1614"
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
+			19906 = {
+				naval_base = 5
+			}
+			anti_air_building = 2
 		}
 		add_core_of = PRE
 		add_core_of = LTM
 		add_core_of = ESP
-		victory_points = { 10752 2 }
+		victory_points = {
+			10752
+			2
+		}
+		victory_points = {
+			10893
+			2
+		}
+		victory_points = {
+			10853
+			2
+		}
+		victory_points = {
+			19906
+			20
+		}
+		victory_points = {
+			3541
+			2
+		}
 	}
-
-	provinces={
-		1120 7485 7828 10752 10795 18151 20459 
+	provinces = {
+		1120
+		7485
+		7828
+		10752
+		10795
+		18151
+		20459
+		1237
+		7926
+		10893
+		10894
+		17194
+		5773
+		6563
+		10855
+		10879
+		10885
+		10910
+		19936
+		20458
+		20471
+		2000
+		2882
+		10837
+		10853
+		10840
+		20457
+		20473
+		3541
+		7846
+		8131
+		19906
+		19933
+		20472
 	}
-	manpower=208974
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+	manpower = 1081296
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }
