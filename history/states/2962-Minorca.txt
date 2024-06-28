@@ -1,31 +1,31 @@
 
 state={
-	id=1016
-	name="STATE_1016"
+	id=2962
+	name="STATE_2962"
 
 	history={
 		owner = SPR
 		add_core_of = BAL
 		add_core_of = SPR
 		buildings = {
-			infrastructure = 3
-			15241 = {
-				naval_base = 2
+			infrastructure = 2
+			19805 = {
+				naval_base = 1
 
 			}
 
 		}
 		victory_points = {
-			15241 20 
+			19805 2 
 		}
 
 	}
 
 	provinces={
-		1711 4335 7251 15241 
+		19805 
 	}
-	manpower=376700
+	manpower=68459
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=small_island
 	local_supplies=0.000
 }

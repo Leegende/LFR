@@ -1,21 +1,21 @@
 
 state={
-	id=104
-	name="STATE_104"
+	id=70
+	name="STATE_70"
 	history = {
 		owner = DEN
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SHL
-		add_core_of = SLW
+		victory_points = { 19618 2 }
+		victory_points = { 9674 2 }
 	}
 	provinces={
-		7789 9548 10729 
+		9091 9674 10720 19618 
 	}
-	manpower=63300
+	manpower=114600
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	state_category = pastoral
+	state_category = rural
 }

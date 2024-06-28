@@ -1,41 +1,23 @@
-#args2
-#866-Corse-du-Sud.txt
-state = {
-	id = 1422
-	name = "STATE_1422"
-	history = {
+
+state={
+	id=1422
+	name="STATE_1422"
+	history={
 		owner = FRA
 		add_core_of = FRA
-		victory_points = {
-			20495
-			2
-		}
+        victory_points = {
+            20495 2 #Bastia
+        }
 		buildings = {
 			infrastructure = 4
-			8443 = {
-				naval_base = 3
-			}
 		}
 		add_core_of = COR
-		victory_points = {
-			8443
-			5
-		}
+    }
+	provinces={
+		566 6968 7721 14875 20495 
 	}
-	provinces = {
-		566
-		6968
-		7721
-		14875
-		20495
-		1754
-		8443
-		8850
-		14903
-		20506
-	}
-	manpower = 322899
-	buildings_max_level_factor = 1.000
-	state_category = town
-	local_supplies = 0.000
+	manpower=179341
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
