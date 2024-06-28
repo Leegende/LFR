@@ -1,22 +1,87 @@
-state={
-	id=1672
-	name="STATE_1672"
-	provinces={
-		535 6951 9343 12338 20614 
+#args2
+#411-Delitzsch.txt
+state = {
+	id = 1672
+	name = "STATE_1672"
+	provinces = {
+		535
+		6951
+		9343
+		12338
+		20614
+		7350
+		12143
+		12153
+		12208
+		12227
+		20608
+		8041
+		12544
+		12612
+		20613
+		7035
+		8466
+		9193
+		12504
+		12562
+		7377
+		12159
+		12216
+		12321
+		12355
+		20610
+		12379
+		12402
+		12423
+		12435
+		12472
+		12517
+		2992
+		6373
+		12079
+		12101
+		20620
+		1609
+		12262
+		4904
+		8233
 	}
-	history={
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 3
+			industrial_complex = 2
 		}
 		add_core_of = SAX
-        victory_points = {
-            6951 2 #Freiberg
-        }
-    }
-	manpower=178594
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		victory_points = {
+			6951
+			2
+		}
+		victory_points = {
+			20608
+			40
+		}
+		victory_points = {
+			8041
+			5
+		}
+		victory_points = {
+			7035
+			5
+		}
+		victory_points = {
+			12379
+			20
+		}
+		victory_points = {
+			12517
+			2
+		}
+	}
+	manpower = 3775371
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = town
 }

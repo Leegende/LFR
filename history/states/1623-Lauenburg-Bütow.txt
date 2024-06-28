@@ -1,27 +1,168 @@
-
-state={
-	id=1623
-	name="STATE_1623"
-
-	history={
+#args4
+#1647-Crossen.txt
+#1648-Sternberg.txt
+#1649-Grenzmark.txt
+state = {
+	id = 1623
+	name = "STATE_1623"
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = PRE
 		add_core_of = POM
 		add_core_of = PML
 		victory_points = {
-			8562 2 #Lauenburg
+			8562
+			2
+		}
+		victory_points = {
+			6762
+			10
+		}
+		victory_points = {
+			3207
+			2
+		}
+		victory_points = {
+			9655
+			5
+		}
+		victory_points = {
+			5107
+			5
+		}
+		victory_points = {
+			748
+			5
+		}
+		victory_points = {
+			20551
+			10
+		}
+		victory_points = {
+			9308
+			5
+		}
+		victory_points = {
+			20578
+			2
 		}
 	}
-
-	provinces={
-		5647 8562 10958 20541 20544 
+	provinces = {
+		5647
+		8562
+		10958
+		20541
+		20544
+		9566
+		11076
+		11151
+		11242
+		11313
+		2057
+		4382
+		5072
+		6762
+		10950
+		11004
+		20549
+		20560
+		1518
+		3427
+		11354
+		11366
+		11545
+		20555
+		3207
+		3919
+		6144
+		8253
+		11077
+		11194
+		11265
+		18556
+		20546
+		2829
+		8492
+		11331
+		11374
+		20552
+		708
+		2932
+		9655
+		674
+		19024
+		2115
+		11266
+		2530
+		4473
+		10892
+		10933
+		1725
+		5107
+		8337
+		10971
+		20542
+		4806
+		11425
+		11481
+		484
+		3481
+		5663
+		5690
+		11027
+		11209
+		11278
+		748
+		3349
+		11344
+		11399
+		3839
+		7438
+		11448
+		11513
+		11580
+		11581
+		20550
+		20551
+		20587
+		20597
+		4095
+		11058
+		11098
+		11130
+		11180
+		20548
+		20562
+		1035
+		7416
+		9267
+		11150
+		20543
+		9308
+		11040
+		20561
+		3525
+		6757
+		11799
+		20578
+		4157
+		4259
+		11623
+		11686
+		20564
+		20573
+		6502
+		9069
+		9334
+		11732
 	}
-	manpower=89595
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	manpower = 1891379
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

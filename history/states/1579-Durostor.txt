@@ -1,12 +1,15 @@
-state={
-	id=1579
-	name="STATE_1579"
-	history={
+#args2
+#818-Bazargic.txt
+state = {
+	id = 1579
+	name = "STATE_1579"
+	history = {
 		owner = ROM
 		add_core_of = ROM
 		add_core_of = BUL
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 			industrial_complex = 1
 		}
 		add_core_of = DOB
@@ -14,13 +17,29 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = { 9647 1 }
+		victory_points = {
+			9647
+			1
+		}
+		victory_points = {
+			5762
+			2
+		}
 	}
-	provinces={
-		2117 9647 14650 
+	provinces = {
+		2117
+		9647
+		14650
+		2129
+		5385
+		5762
+		7187
+		7780
+		14623
+		14656
 	}
-	manpower=221970
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 396900
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = large_town
 }

@@ -1,24 +1,71 @@
-state={
-	id=1670
-	name="STATE_1670"
-	provinces={
-		12210 12251 12287 12326 20612 
+#args2
+#1980-Reichenau_in_Sachsen.txt
+state = {
+	id = 1670
+	name = "STATE_1670"
+	provinces = {
+		12210
+		12251
+		12287
+		12326
+		20612
+		2462
+		12209
+		3304
+		6493
+		7811
+		9212
+		12118
+		12167
+		12184
+		12220
+		20583
+		12356
+		20611
+		12268
+		12122
+		12183
+		20609
+		12327
 	}
-	history={
+	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = SAX
 		add_core_of = LUS
-        victory_points = {
-            12210 2 #Bautzen
-        }
-    }
-	manpower=349830
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+		victory_points = {
+			12210
+			2
+		}
+		victory_points = {
+			12220
+			5
+		}
+		victory_points = {
+			7811
+			2
+		}
+		victory_points = {
+			20611
+			2
+		}
+		victory_points = {
+			12268
+			20
+		}
+		victory_points = {
+			20609
+			2
+		}
+	}
+	manpower = 1876805
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = city
 }
