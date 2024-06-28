@@ -1,25 +1,21 @@
 
 state={
-	id=1762
-	name="STATE_1762"
-
+	id=1774
+	name="STATE_1774"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BDN
-		victory_points = {
-			5270 5 #Villingen-Schewnningen
-		}
-
-	}
-
+		add_core_of = BAY
+		add_core_of = FRN
+		victory_points = { 4871 5 }
+    }
 	provinces={
-		2655 5270 13647 20750 
+		4871 8198 12638 12674 12731 20777 20778 
 	}
-	manpower=191195
+	manpower=173777
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

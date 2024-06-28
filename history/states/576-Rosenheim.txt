@@ -1,26 +1,23 @@
 
 state={
-	id=1762
-	name="STATE_1762"
-
+	id=576
+	name="STATE_576"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BDN
+		add_core_of = BAY
 		victory_points = {
-			5270 5 #Villingen-Schewnningen
+			8752 5 #Rosenheim
 		}
-
-	}
-
+    }
 	provinces={
-		2655 5270 13647 20750 
+		1374 3950 8752 9204 13442 13513 13547 20789 20795 
 	}
-	manpower=191195
+	manpower=222376
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+	state_category = large_town
 }

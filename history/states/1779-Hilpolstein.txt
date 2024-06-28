@@ -1,26 +1,23 @@
-
 state={
-	id=1766
-	name="STATE_1766"
-
+	id=1779
+	name="STATE_1779"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = WUR
-		set_demilitarized_zone = yes
+		add_core_of = BAY
+		add_core_of = FRN
         victory_points = {
-            13312 2 #Calw
+            13130 1 #Weissenburg im Bayern
         }
-	}
-
+    }
 	provinces={
-		3354 13312 20766 
+		6243 8039 9390 13121 13130 13177 
 	}
-	manpower=117828
+	manpower=108074
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
+	state_category = rural
 }

@@ -1,22 +1,21 @@
-
 state={
-	id=1780
-	name="STATE_1780"
+	id=1787
+	name="STATE_1787"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 		}
 		add_core_of = BAY
 		victory_points = {
-			5572 2 #Neuburg an der Donau
+			7580 2 #Deggendorf
 		}
     }
 	provinces={
-		4946 5572 8394 13186 13286 20800 20801 20803 
+		5605 7580 8278 13223 20784 20785 
 	}
-	manpower=163679
+	manpower=156050
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = town

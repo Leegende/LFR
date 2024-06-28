@@ -1,25 +1,26 @@
 
 state={
-	id=1762
-	name="STATE_1762"
-
+	id=495
+	name="STATE_495"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BDN
+		add_core_of = BAY
+		add_core_of = FRN
 		victory_points = {
-			5270 5 #Villingen-Schewnningen
+			20774 5 #Bayreuth
 		}
-
-	}
-
+		victory_points = {
+			12687 2 #Kulmbach
+		}
+    }
 	provinces={
-		2655 5270 13647 20750 
+		3283 3398 5117 9157 12687 20774 
 	}
-	manpower=191195
+	manpower=157693
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -1,8 +1,7 @@
 
 state={
-	id=1762
-	name="STATE_1762"
-
+	id=616
+	name="STATE_616"
 	history={
 		owner = GER
 		add_core_of = GER
@@ -11,16 +10,14 @@ state={
 		}
 		add_core_of = BDN
 		victory_points = {
-			5270 5 #Villingen-Schewnningen
+			13597 5 #Konstanz
 		}
-
-	}
-
+    }
 	provinces={
-		2655 5270 13647 20750 
+		7819 13593 13597 18899 20751 20758 
 	}
-	manpower=191195
+	manpower=146991
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
+	state_category = rural
 }

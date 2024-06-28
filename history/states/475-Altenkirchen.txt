@@ -1,7 +1,7 @@
 
 state={
-	id=1766
-	name="STATE_1766"
+	id=475
+	name="STATE_475"
 
 	history={
 		owner = GER
@@ -9,18 +9,16 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = WUR
+		add_core_of = PRE
+		add_core_of = RHN
 		set_demilitarized_zone = yes
-        victory_points = {
-            13312 2 #Calw
-        }
 	}
 
 	provinces={
-		3354 13312 20766 
+		6796 7190 12438 
 	}
-	manpower=117828
+	manpower=138855
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

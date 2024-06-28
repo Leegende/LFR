@@ -1,22 +1,21 @@
-
 state={
-	id=1780
-	name="STATE_1780"
+	id=1785
+	name="STATE_1785"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 		}
 		add_core_of = BAY
 		victory_points = {
-			5572 2 #Neuburg an der Donau
+			8013 5 #Landshut
 		}
     }
 	provinces={
-		4946 5572 8394 13186 13286 20800 20801 20803 
+		2843 3007 3841 7552 8013 13213 13276 13374 
 	}
-	manpower=163679
+	manpower=189853
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = town

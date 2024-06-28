@@ -1,25 +1,24 @@
 
 state={
-	id=1762
-	name="STATE_1762"
-
+	id=1776
+	name="STATE_1776"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BDN
+		add_core_of = SXC
+		add_core_of = BAY
+		add_core_of = FRN
 		victory_points = {
-			5270 5 #Villingen-Schewnningen
+			18962 2 #Coburg
 		}
-
-	}
-
+    }
 	provinces={
-		2655 5270 13647 20750 
+		12660 18962 
 	}
-	manpower=191195
+	manpower=190985
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
