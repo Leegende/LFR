@@ -1,127 +1,25 @@
-#args4
-#583-Finist__re.txt
-#587-Ille-et-Vilaine.txt
-#615-Morbihan.txt
-state = {
-	id = 578
-	name = "STATE_578"
-	provinces = {
-		913
-		2022
-		3188
-		6013
-		8588
-		9003
-		13256
-		13330
-		13349
-		13350
-		13434
-		4572
-		4718
-		5809
-		9327
-		13340
-		13346
-		13362
-		13465
-		13492
-		13525
-		13526
-		13556
-		13585
-		19819
-		19820
-		655
-		5017
-		5484
-		6728
-		7625
-		13267
-		13293
-		13351
-		13400
-		13416
-		13459
-		13481
-		13542
-		13557
-		1658
-		2077
-		4267
-		5517
-		6654
-		7847
-		13493
-		13527
-		13537
-		13605
-		13616
-		13658
-		13691
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		913 2022 3188 6013 8588 9003 13256 13330 13349 13350 13434 
 	}
-	history = {
+	history={
 		owner = FRA
-		add_core_of = FRA
+		add_core_of =FRA
 		buildings = {
 			infrastructure = 4
-			13330 = {
-				naval_base = 1
-			}
-			13346 = {
-				naval_base = 10
-			}
-			dockyard = 3
-			13267 = {
-				naval_base = 1
-			}
-			13616 = {
-				naval_base = 4
-			}
-			13658 = {
-				naval_base = 1
-			}
-			dockyard = 1
+			13330 = { naval_base = 1 }
 		}
 		add_core_of = BRI
-		victory_points = {
-			13330
-			5
-		}
-		victory_points = {
-			8588
-			2
-		}
-		victory_points = {
-			13346
-			10
-		}
-		victory_points = {
-			13526
-			5
-		}
-		victory_points = {
-			13459
-			20
-		}
-		victory_points = {
-			13267
-			5
-		}
-		victory_points = {
-			13351
-			2
-		}
-		victory_points = {
-			13616
-			5
-		}
-		victory_points = {
-			13658
-			5
-		}
-	}
-	manpower = 2396600
-	buildings_max_level_factor = 1.000
+        victory_points = {
+            13330 5 #Saint-Brieuc
+        }
+        victory_points = {
+            8588 2 #Lannion
+        }
+    }
+	manpower=531800
+	buildings_max_level_factor=1.000
 	state_category = large_city
 }

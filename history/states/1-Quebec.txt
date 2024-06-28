@@ -1,132 +1,36 @@
-#args21
-#10-New_Hampshire.txt
-#11-New_York.txt
-#12-Vermont.txt
-#18-Connecticut.txt
-#2-Massachusetts.txt
-#21-Pennsylvania.txt
-#26-Maryland.txt
-#28-Virginia.txt
-#2920-St_Pierre_et_Miquelon.txt
-#31-North_Carolina.txt
-#32-West_Virginia.txt
-#43-Delaware.txt
-#47-New_Jersey.txt
-#55-Rhode_Island.txt
-#6-New_Brunswick.txt
-#60-Prince_Edward_Island.txt
-#64-Newfoundland.txt
-#7-Maine.txt
-#8-Nova_Scotia.txt
-#9-Ontario.txt
-state = {
-	id = 1
-	name = "STATE_1"
-	history = {
-		owner = DMZ
-		add_core_of = DMZ
+
+state={
+	id=1
+	name="STATE_1"
+	
+	resources = { aluminium = 5 }
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			19370 = {
+				naval_base = 6
+			}
+			air_base = 3
+		}
+		
+		add_core_of = CAN
+		victory_points = { 19367 80 }
+		victory_points = { 19370 40 }
+		victory_points = { 19371 10 }
+		victory_points = { 19369 10 }
+		victory_points = { 19368 10 }
 	}
-	provinces = {
-		10
-		151
-		313
-		1578
-		2648
-		3666
-		4185
-		4660
-		5429
-		5655
-		5689
-		6001
-		7831
-		9676
-		19243
-		19367
-		19368
-		19369
-		19370
-		19371
-		19372
-		19378
-		19384
-		1253
-		1589
-		9143
-		9177
-		9590
-		9679
-		9680
-		9681
-		9682
-		18618
-		18673
-		18790
-		19343
-		19349
-		19355
-		19363
-		19364
-		9678
-		19244
-		19381
-		1363
-		19345
-		19346
-		19347
-		19348
-		1998
-		9683
-		19356
-		19357
-		19360
-		84
-		9685
-		19351
-		19352
-		19353
-		1136
-		3033
-		5240
-		19358
-		19359
-		19386
-		19107
-		1714
-		4114
-		4919
-		7671
-		19361
-		19362
-		19354
-		19350
-		1234
-		19344
-		1445
-		7148
-		19374
-		19375
-		19379
-		19380
-		19383
-		19385
-		616
-		6108
-		8146
-		19373
-		19377
-		7747
-		19376
-		19382
-		3811
-		9677
-		18679
-		18797
-		19365
-		19366
+	
+	provinces={
+		10 151 313 1578 2648 3666 4185 4660 5429 5655 5689 6001 7831 9676 19243 19367 19368 19369 19370 19371 19372 19378 19384 
 	}
-	manpower = 1
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = wasteland
+	
+	manpower=3103068
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = megalopolis
 }

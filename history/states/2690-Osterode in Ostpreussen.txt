@@ -1,7 +1,7 @@
 
 state={
-	id=1614
-	name="STATE_1614"
+	id=2690
+	name="STATE_2690"
 
 	history={
 		owner = GER
@@ -10,16 +10,17 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = LTM
 		add_core_of = ESP
-		victory_points = { 10752 2 }
+		add_core_of = MAS
+		victory_points = { 11161 2 }
+		victory_points = { 11248 2 }
 	}
 
 	provinces={
-		1120 7485 7828 10752 10795 18151 20459 
+		281 899 2684 8528 11113 11161 11168 11190 11226 11248 
 	}
-	manpower=208974
+	manpower=101293
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 	local_supplies=0.000
 }

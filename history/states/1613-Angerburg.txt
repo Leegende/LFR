@@ -1,25 +1,22 @@
 
 state={
-	id=1614
-	name="STATE_1614"
-
-	history={
+	id=1613
+	name="STATE_1613"
+    history={
 		owner = GER
 		add_core_of = GER
+		add_core_of = LTM
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = LTM
 		add_core_of = ESP
-		victory_points = { 10752 2 }
-	}
-
+    }
 	provinces={
-		1120 7485 7828 10752 10795 18151 20459 
+		1099 7004 10939 10965 10999 19312 
 	}
-	manpower=208974
+	manpower=85802
 	buildings_max_level_factor=1.000
-	state_category=large_town
 	local_supplies=0.000
+	state_category = rural
 }

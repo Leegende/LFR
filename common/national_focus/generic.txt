@@ -14,7 +14,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 0
-		cost = 1000
+		cost = 10
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
