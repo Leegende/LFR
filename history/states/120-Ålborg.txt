@@ -1,7 +1,9 @@
-
-state={
-	id=120
-	name="STATE_120"
+#args3
+#140-Hj__rring.txt
+#144-Thisted.txt
+state = {
+	id = 120
+	name = "STATE_120"
 	history = {
 		owner = DEN
 		add_core_of = DEN
@@ -9,14 +11,50 @@ state={
 			air_base = 2
 			infrastructure = 4
 			industrial_complex = 1
+			10305 = {
+				naval_base = 1
+			}
 		}
-		victory_points = { 2707 10 }
+		victory_points = {
+			2707
+			10
+		}
+		victory_points = {
+			6640
+			2
+		}
+		victory_points = {
+			10305
+			2
+		}
 	}
-	provinces={
-		2494 2707 6345 7065 10344 10345 10352 10381 18616 18664 19606 19608 
+	provinces = {
+		2494
+		2707
+		6345
+		7065
+		10344
+		10345
+		10352
+		10381
+		18616
+		18664
+		19606
+		19608
+		3230
+		3565
+		6640
+		10305
+		10318
+		19489
+		2341
+		6154
+		7048
+		10377
+		19097
 	}
-	manpower=194400
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	manpower = 431800
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

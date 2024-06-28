@@ -1,9 +1,10 @@
-
-state={
-	id=1016
-	name="STATE_1016"
-
-	history={
+#args3
+#2962-Minorca.txt
+#2963-Ibiza.txt
+state = {
+	id = 1016
+	name = "STATE_1016"
+	history = {
 		owner = SPR
 		add_core_of = BAL
 		add_core_of = SPR
@@ -11,21 +12,38 @@ state={
 			infrastructure = 3
 			15241 = {
 				naval_base = 2
-
 			}
-
+			19805 = {
+				naval_base = 1
+			}
+			19804 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			15241 20 
+			15241
+			20
 		}
-
+		victory_points = {
+			19805
+			2
+		}
+		victory_points = {
+			19804
+			2
+		}
 	}
-
-	provinces={
-		1711 4335 7251 15241 
+	provinces = {
+		1711
+		4335
+		7251
+		15241
+		19805
+		19804
+		20538
 	}
-	manpower=376700
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower = 555701
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

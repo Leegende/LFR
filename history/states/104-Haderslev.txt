@@ -1,7 +1,9 @@
-
-state={
-	id=104
-	name="STATE_104"
+#args3
+#139-__benr__-S__nderborg.txt
+#246-T__nder.txt
+state = {
+	id = 104
+	name = "STATE_104"
 	history = {
 		owner = DEN
 		add_core_of = DEN
@@ -10,12 +12,25 @@ state={
 		}
 		add_core_of = SHL
 		add_core_of = SLW
+		victory_points = {
+			19617
+			2
+		}
 	}
-	provinces={
-		7789 9548 10729 
+	provinces = {
+		7789
+		9548
+		10729
+		10768
+		19614
+		19617
+		8755
+		19615
+		19616
+		19642
 	}
-	manpower=63300
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 184700
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = pastoral
 }

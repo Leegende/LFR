@@ -1,27 +1,86 @@
-
-state={
-	id=1420
-	name="STATE_1420"
-
-	history={
+#args6
+#1421-Sassari.txt
+#2894-Alghero.txt
+#2967-Oristano.txt
+#2968-Ogliastra.txt
+#944-Cagliari.txt
+state = {
+	id = 1420
+	name = "STATE_1420"
+	history = {
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = SRD
 		buildings = {
 			infrastructure = 2
-
+			7275 = {
+				naval_base = 5
+			}
+			20497 = {
+				naval_base = 1
+			}
+			industrial_complex = 1
+			20034 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			2660 2 
+			2660
+			2
 		}
-
+		victory_points = {
+			20035
+			10
+		}
+		victory_points = {
+			7275
+			5
+		}
+		victory_points = {
+			19084
+			1
+		}
+		victory_points = {
+			20496
+			2
+		}
+		victory_points = {
+			20034
+			5
+		}
 	}
-
-	provinces={
-		2660 2790 6905 18710 18978 
+	provinces = {
+		2660
+		2790
+		6905
+		18710
+		18978
+		1111
+		4722
+		7275
+		8329
+		9246
+		15063
+		20035
+		20497
+		20498
+		19084
+		6055
+		15156
+		20496
+		4139
+		20499
+		3180
+		7969
+		8141
+		8344
+		9613
+		15239
+		15249
+		20034
 	}
-	manpower=180024
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	manpower = 1034200
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

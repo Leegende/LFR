@@ -1,9 +1,16 @@
-
-state={
-	id=1075
-	name="STATE_1075"
-
-	history={
+#args9
+#1412-Trapani.txt
+#1413-Agrigento.txt
+#1414-Messina.txt
+#1415-Catania.txt
+#1416-Enna.txt
+#1417-Caltanissetta.txt
+#1418-Siracusa.txt
+#1419-Ragusa.txt
+state = {
+	id = 1075
+	name = "STATE_1075"
+	history = {
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = SIC
@@ -12,21 +19,94 @@ state={
 			dockyard = 1
 			15356 = {
 				naval_base = 2
-
 			}
-
+			7121 = {
+				naval_base = 5
+			}
+			dockyard = 1
+			15350 = {
+				naval_base = 8
+			}
+			industrial_complex = 1
+			dockyard = 1
+			5351 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			15356 40 
+			15356
+			40
 		}
-
+		victory_points = {
+			7121
+			5
+		}
+		victory_points = {
+			2068
+			5
+		}
+		victory_points = {
+			15350
+			20
+		}
+		victory_points = {
+			20020
+			25
+		}
+		victory_points = {
+			15418
+			2
+		}
+		victory_points = {
+			15438
+			5
+		}
+		victory_points = {
+			15461
+			5
+		}
+		victory_points = {
+			5351
+			10
+		}
+		victory_points = {
+			5843
+			5
+		}
 	}
-
-	provinces={
-		3253 5079 15356 15378 15395 
+	provinces = {
+		3253
+		5079
+		15356
+		15378
+		15395
+		7121
+		15361
+		2068
+		6420
+		15452
+		6037
+		15350
+		20032
+		4689
+		7072
+		15413
+		20020
+		15418
+		15419
+		7087
+		15438
+		15461
+		20033
+		4007
+		5351
+		15480
+		5843
+		15491
+		16394
 	}
-	manpower=890800
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	manpower = 3969315
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
 }
