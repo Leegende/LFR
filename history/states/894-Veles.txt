@@ -1,9 +1,9 @@
 
 state={
-	id=1528
-	name="STATE_1528"
+	id=894
+	name="STATE_894"
 
-	resources = { aluminium = 27 }
+	resources = { chromium = 118 }
 	history={
 		owner = YUG
 		add_core_of = YUG
@@ -14,18 +14,18 @@ state={
 
 		}
 		victory_points = {
-			20199 5 
+			14917 5 #Veles
 		}
 		victory_points = {
-			14979 5 
+			20236 2 #Negotino
 		}
 
 	}
 
 	provinces={
-		3571 4184 5004 14949 14979 14984 16173 16184 16444 17294 20199 20225 20234 
+		14917 14935 14972 20236 20246 
 	}
-	manpower=193214
+	manpower=129031
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

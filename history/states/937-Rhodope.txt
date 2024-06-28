@@ -1,30 +1,27 @@
 
 state={
-	id=1548
-	name="STATE_1548"
+	id=937
+	name="STATE_937"
 
 	history={
 		owner = GRE
 		add_core_of = GRE
+		add_core_of = THR
+		add_core_of = WTH
 		add_claim_by = BUL
 		buildings = {
-			infrastructure = 2
-			9240 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 1
+			arms_factory = 1
 		}
 		victory_points = {
-			9240 5 
+			20337 2 #Komotiní
 		}
-
 	}
 
 	provinces={
-		9038 9240 15036 
+		1428 6549 20337 20339 
 	}
-	manpower=81639
+	manpower=96554
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

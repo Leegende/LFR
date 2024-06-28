@@ -1,27 +1,20 @@
-
 state={
-	id=1546
-	name="STATE_1546"
-
+	id=2016
+	name="STATE_2016"
 	history={
 		owner = GRE
 		add_core_of = GRE
+		add_core_of = THR
 		add_claim_by = BUL
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 1
 		}
-		victory_points = {
-			5637 2 
-		}
-
 	}
-
 	provinces={
-		5567 5637 20344 
+		1272 
 	}
-	manpower=53441
+	manpower=240
+	state_category=wasteland
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

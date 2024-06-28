@@ -1,7 +1,9 @@
-
 state={
-	id=1061
-	name="STATE_1061"
+	id=1562
+	name="STATE_1562"
+	provinces={
+		20282 
+	}
 	history={
 		owner = GRE
 		add_core_of = GRE
@@ -9,11 +11,8 @@ state={
 			infrastructure = 2
 		}
 	}
-	provinces={
-		20284 
-	}
-	manpower=24683
-	state_category=small_island
+	manpower=8642
+	state_category=tiny_island
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

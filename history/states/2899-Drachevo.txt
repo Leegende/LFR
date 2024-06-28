@@ -1,26 +1,24 @@
 
 state={
-	id=1546
-	name="STATE_1546"
+	id=2899
+	name="STATE_2899"
 
 	history={
-		owner = GRE
-		add_core_of = GRE
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = MAC
 		add_claim_by = BUL
 		buildings = {
 			infrastructure = 2
 
 		}
-		victory_points = {
-			5637 2 
-		}
 
 	}
 
 	provinces={
-		5567 5637 20344 
+		14891 14912 17543 
 	}
-	manpower=53441
+	manpower=33809
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
