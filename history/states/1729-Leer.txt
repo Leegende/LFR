@@ -1,8 +1,8 @@
 state={
-	id=2714
-	name="STATE_2714"
+	id=1729
+	name="STATE_1729"
 	provinces={
-		9221 4781 11744
+		4664 7792
 	}
 	history={
 		owner = GER
@@ -12,9 +12,13 @@ state={
 		}
 		add_core_of = PRE
 		add_core_of = HAN
-	}
-	manpower=42000
-	state_category=pastoral
+		add_core_of = EFR
+		victory_points = {
+			4664 2 #Leer
+		}
+    }
+	manpower=83258
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	state_category = rural
 }

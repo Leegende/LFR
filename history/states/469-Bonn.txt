@@ -1,17 +1,14 @@
 
 state={
-	id=1753
-	name="STATE_1753"
-	provinces={
-		1105 5991 12836 
-	}
-	resources={
-		steel=8
-	}
+	id=469
+	name="STATE_469"
 	history={
-	    owner = GER
+		owner = GER
+		victory_points = {
+            12434 20 #Bonn
+        }
         victory_points = {
-            12836 10 #Trier
+            12461 2 #Euskirchen
         }
 		add_core_of = GER
 		buildings = {
@@ -21,8 +18,11 @@ state={
 		add_core_of = RHN
 		set_demilitarized_zone = yes
     }
-	manpower=249817
+	provinces={
+		12434 12461 20735 
+	}
+	manpower=283783
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
+	state_category = city
 }

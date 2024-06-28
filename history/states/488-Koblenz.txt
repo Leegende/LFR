@@ -1,28 +1,29 @@
 
 state={
-	id=1753
-	name="STATE_1753"
+	id=488
+	name="STATE_488"
 	provinces={
-		1105 5991 12836 
-	}
-	resources={
-		steel=8
+		3647 7340 12582 12621 20733 20739 
 	}
 	history={
-	    owner = GER
+		owner = GER
         victory_points = {
-            12836 10 #Trier
+            20739 10 #Koblenz
+        }
+        victory_points = {
+            12582 2 #Andernach
         }
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 		}
 		add_core_of = PRE
 		add_core_of = RHN
 		set_demilitarized_zone = yes
     }
-	manpower=249817
+	manpower=350021
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
+	state_category = city
 }

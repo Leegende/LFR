@@ -1,22 +1,21 @@
 
 state={
-	id=1718
-	name="STATE_1718"
-	provinces={
-		7367 8302 11420 11532 20690 
-	}
+	id=503
+	name="STATE_503"
 	history={
 		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = OLD
-		victory_points = {
-			7367 2 #Cloppenburg
-		}
+		add_core_of = PRE
+		add_core_of = RHN
+		set_demilitarized_zone = yes
     }
-	manpower=118665
+	provinces={
+		5396 5691 6311 6559 12700 12778 
+	}
+	manpower=93083
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category = rural

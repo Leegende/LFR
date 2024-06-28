@@ -1,18 +1,9 @@
 
 state={
-	id=1753
-	name="STATE_1753"
-	provinces={
-		1105 5991 12836 
-	}
-	resources={
-		steel=8
-	}
+	id=2718
+	name="STATE_2718"
 	history={
-	    owner = GER
-        victory_points = {
-            12836 10 #Trier
-        }
+		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
@@ -21,8 +12,11 @@ state={
 		add_core_of = RHN
 		set_demilitarized_zone = yes
     }
-	manpower=249817
+	provinces={
+		12306
+	}
+	manpower=12600
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral
 	local_supplies=0.000
 }
