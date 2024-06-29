@@ -1,16 +1,105 @@
-
-state={
-	id=1021
-	name="STATE_1021"
-	provinces={
-		4085 4242 8766 15216 15243 15284 19741 
+#args17
+#1026-Portalegre.txt
+#1042-Lisboa.txt
+#1053-__vora.txt
+#1072-Beja.txt
+#1096-Faro.txt
+#847-Set__bal.txt
+#903-Viana_do_Castelo.txt
+#911-Bragan__a.txt
+#915-Vila_Real.txt
+#922-Braga.txt
+#935-Porto.txt
+#947-Viseu.txt
+#954-Guarda.txt
+#962-Aveiro.txt
+#985-Coimbra.txt
+#990-Castelo_Branco.txt
+state = {
+	id = 1021
+	name = "STATE_1021"
+	provinces = {
+		4085
+		4242
+		8766
+		15216
+		15243
+		15284
+		19741
+		636
+		3278
+		8247
+		6912
+		15297
+		19738
+		1852
+		4405
+		15304
+		15331
+		15337
+		15345
+		19727
+		19743
+		6341
+		15402
+		15425
+		19735
+		19736
+		19742
+		19744
+		2034
+		4739
+		19737
+		6076
+		19733
+		19734
+		6458
+		19729
+		939
+		2597
+		6287
+		8785
+		15007
+		20517
+		3287
+		8581
+		14934
+		1270
+		14924
+		14946
+		14953
+		9673
+		14990
+		19728
+		19731
+		1660
+		5291
+		5941
+		7853
+		359
+		8195
+		15089
+		19739
+		1470
+		6159
+		15035
+		15115
+		4278
+		4510
+		15145
+		15166
+		19732
+		2224
+		3232
+		4982
+		6276
 	}
-	history={
+	history = {
 		owner = DMZ
 		add_core_of = DMZ
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	manpower = 17
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
 }
