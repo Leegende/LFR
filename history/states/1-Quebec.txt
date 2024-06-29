@@ -1,10 +1,13 @@
-
-state={
-	id=1
-	name="STATE_1"
-	
-	resources = { aluminium = 5 }
-	history={
+#args3
+#28-Virginia.txt
+#31-North_Carolina.txt
+state = {
+	id = 1
+	name = "STATE_1"
+	resources = {
+		aluminium = 5
+	}
+	history = {
 		owner = CAN
 		buildings = {
 			infrastructure = 3
@@ -15,22 +18,246 @@ state={
 				naval_base = 6
 			}
 			air_base = 3
+			industrial_complex = 1
+			dockyard = 3
+			industrial_complex = 5
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 3
+			industrial_complex = 5
+			dockyard = 4
+			industrial_complex = 2
+			dockyard = 4
+			industrial_complex = 7
+			industrial_complex = 2
+			industrial_complex = 1
+			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 4
+			industrial_complex = 2
+			industrial_complex = 3
 		}
-		
 		add_core_of = CAN
-		victory_points = { 19367 80 }
-		victory_points = { 19370 40 }
-		victory_points = { 19371 10 }
-		victory_points = { 19369 10 }
-		victory_points = { 19368 10 }
+		victory_points = {
+			19367
+			80
+		}
+		victory_points = {
+			19370
+			40
+		}
+		victory_points = {
+			19371
+			10
+		}
+		victory_points = {
+			19369
+			10
+		}
+		victory_points = {
+			19368
+			10
+		}
+		victory_points = {
+			19343
+			80
+		}
+		victory_points = {
+			9679
+			20
+		}
+		victory_points = {
+			19364
+			20
+		}
+		victory_points = {
+			19363
+			10
+		}
+		victory_points = {
+			19349
+			5
+		}
+		victory_points = {
+			19346
+			40
+		}
+		victory_points = {
+			19360
+			80
+		}
+		victory_points = {
+			19351
+			40
+		}
+		victory_points = {
+			19352
+			45
+		}
+		victory_points = {
+			19379
+			5
+		}
+		victory_points = {
+			19375
+			5
+		}
+		victory_points = {
+			19374
+			5
+		}
+		victory_points = {
+			19373
+			5
+		}
+		victory_points = {
+			19376
+			20
+		}
+		victory_points = {
+			7747
+			2
+		}
+		victory_points = {
+			19366
+			80
+		}
+		victory_points = {
+			3811
+			10
+		}
+		victory_points = {
+			19365
+			10
+		}
+		victory_points = {
+			3033
+			20
+		}
+		victory_points = {
+			19359
+			20
+		}
+		victory_points = {
+			19358
+			5
+		}
+		victory_points = {
+			19361
+			20
+		}
+		victory_points = {
+			1714
+			10
+		}
+		victory_points = {
+			19362
+			5
+		}
 	}
-	
-	provinces={
-		10 151 313 1578 2648 3666 4185 4660 5429 5655 5689 6001 7831 9676 19243 19367 19368 19369 19370 19371 19372 19378 19384 
+	provinces = {
+		10
+		151
+		313
+		1578
+		2648
+		3666
+		4185
+		4660
+		5429
+		5655
+		5689
+		6001
+		7831
+		9676
+		19243
+		19367
+		19368
+		19369
+		19370
+		19371
+		19372
+		19378
+		19384
+		1253
+		1589
+		9143
+		9177
+		9590
+		9679
+		9680
+		9681
+		9682
+		18618
+		18673
+		18790
+		19343
+		19349
+		19355
+		19363
+		19364
+		9678
+		19244
+		19381
+		1363
+		19345
+		19346
+		19347
+		19348
+		1998
+		9683
+		19356
+		19357
+		19360
+		84
+		9685
+		19351
+		19352
+		19353
+		19354
+		19350
+		1234
+		19344
+		1445
+		7148
+		19374
+		19375
+		19379
+		19380
+		19383
+		616
+		6108
+		8146
+		19373
+		19377
+		7747
+		19376
+		19382
+		3811
+		9677
+		18679
+		18797
+		19365
+		19366
+		1136
+		3033
+		5240
+		19358
+		19359
+		19386
+		1714
+		4114
+		4919
+		7671
+		19361
+		19362
 	}
-	
-	manpower=3103068
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 52699606
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = megalopolis
 }
