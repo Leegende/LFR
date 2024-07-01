@@ -1,26 +1,184 @@
-
-state={
-	id=1234
-	name="STATE_1234"
-
-	history={
+#args4
+#2207.txt
+#2226.txt
+#2236.txt
+state = {
+	id = 1234
+	name = "STATE_1234"
+	history = {
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 4
+			industrial_complex = 1
 		}
 		victory_points = {
-		    15743 10 #Hillah
-		}	
+			15743
+			10
+		}
+		victory_points = {
+			18541
+			5
+		}
+		victory_points = {
+			19138
+			10
+		}
+		victory_points = {
+			18736
+			10
+		}
+		victory_points = {
+			19127
+			2
+		}
+		victory_points = {
+			18632
+			40
+		}
+		victory_points = {
+			19155
+			5
+		}
+		victory_points = {
+			8753
+			5
+		}
+		victory_points = {
+			18878
+			10
+		}
+		victory_points = {
+			18560
+			10
+		}
+		victory_points = {
+			18763
+			10
+		}
+		victory_points = {
+			1449
+			2
+		}
 	}
-
-	provinces={
-		849 8519 15711 15732 15743 18959 
+	provinces = {
+		849
+		8519
+		15711
+		15732
+		15743
+		18959
+		634
+		15778
+		18541
+		19134
+		964
+		18654
+		18670
+		18777
+		19131
+		19138
+		19145
+		1603
+		2325
+		15747
+		18715
+		18742
+		19123
+		19128
+		19137
+		4025
+		8670
+		18736
+		19120
+		19124
+		19126
+		19127
+		19130
+		19132
+		19133
+		8103
+		18568
+		18612
+		548
+		3471
+		2514
+		5642
+		18544
+		18547
+		18749
+		4727
+		5906
+		18694
+		18761
+		19147
+		19148
+		19207
+		1489
+		1694
+		5263
+		6197
+		7253
+		8753
+		18632
+		18724
+		19146
+		19149
+		19150
+		19155
+		19208
+		3534
+		6014
+		8161
+		19135
+		19136
+		19139
+		343
+		3148
+		5236
+		7185
+		15810
+		19237
+		19238
+		6503
+		18554
+		19143
+		19144
+		418
+		7551
+		18563
+		18869
+		18873
+		18878
+		370
+		6622
+		7123
+		15754
+		15769
+		18560
+		18887
+		19112
+		1449
+		2665
+		8419
+		18634
+		18763
+		19119
+		19125
+		397
+		1657
+		19122
+		5421
+		5571
+		18671
+		19110
+		19117
+		19121
 	}
-	manpower=371708
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	manpower = 2427581
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

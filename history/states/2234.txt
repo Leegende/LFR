@@ -1,19 +1,73 @@
-
-state={
-	id=2234
-	name="STATE_2234"
+#args4
+#2198.txt
+#2209.txt
+#1209.txt
+state = {
+	id = 2234
+	name = "STATE_2234"
 	history = {
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
 			infrastructure = 1
 		}
+		victory_points = {
+			18868
+			10
+		}
+		victory_points = {
+			18605
+			10
+		}
 	}
-	provinces={
-		4449 5227 5280 5797 5858 15678 15698 18558 18653 18719 18860 
+	provinces = {
+		4449
+		5227
+		5280
+		5797
+		5858
+		15678
+		15698
+		18558
+		18653
+		18719
+		18860
+		34
+		79
+		897
+		1357
+		2014
+		2298
+		3613
+		4080
+		4737
+		5007
+		5979
+		7229
+		8567
+		15685
+		15709
+		15752
+		15761
+		19159
+		231
+		519
+		18666
+		18868
+		19206
+		4609
+		5181
+		15700
+		18567
+		18594
+		18605
+		18640
+		19204
+		19205
+		19242
 	}
-	manpower=3036
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 361886
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }
