@@ -1,9 +1,17 @@
-
-state={
-	id=1075
-	name="STATE_1075"
-
-	history={
+#args10
+#1419.txt
+#2915.txt
+#1415.txt
+#1417.txt
+#1412.txt
+#1416.txt
+#1418.txt
+#1414.txt
+#1413.txt
+state = {
+	id = 1075
+	name = "STATE_1075"
+	history = {
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = SIC
@@ -12,21 +20,86 @@ state={
 			dockyard = 1
 			15356 = {
 				naval_base = 2
-
 			}
-
+			industrial_complex = 1
+			dockyard = 1
+			dockyard = 1
 		}
 		victory_points = {
-			15356 40 
+			15356
+			40
 		}
-
+		victory_points = {
+			5843
+			5
+		}
+		victory_points = {
+			20020
+			25
+		}
+		victory_points = {
+			15438
+			5
+		}
+		victory_points = {
+			15461
+			5
+		}
+		victory_points = {
+			7121
+			5
+		}
+		victory_points = {
+			15418
+			2
+		}
+		victory_points = {
+			5351
+			10
+		}
+		victory_points = {
+			15350
+			20
+		}
+		victory_points = {
+			2068
+			5
+		}
 	}
-
-	provinces={
-		3253 5079 15356 15378 15395 
+	provinces = {
+		3253
+		5079
+		15356
+		15378
+		15395
+		5843
+		15491
+		16394
+		20540
+		4689
+		7072
+		15413
+		20020
+		7087
+		15438
+		15461
+		20033
+		7121
+		15361
+		15418
+		15419
+		4007
+		5351
+		15480
+		6037
+		15350
+		20032
+		2068
+		6420
+		15452
 	}
-	manpower=890800
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	manpower = 3987012
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
 }
