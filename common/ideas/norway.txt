@@ -965,26 +965,7 @@ ideas = {
 			}
 		}
 
-		NOR_norsk_hydro = {
-
-			picture = generic_refining_concern_1
 		
-			allowed = {
-				original_tag = NOR
-				has_aat = no
-			}
-			
-			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.1
-			}
-			
-			traits = { refinery_concern }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
 		NOR_aat_norsk_hydro = {
 

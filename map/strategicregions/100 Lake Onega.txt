@@ -1,0 +1,17 @@
+strategic_region = {
+	id = 100
+	name = "STRATEGICREGION_100"
+	provinces = {
+		17449
+		17773
+		16800
+		
+		
+		
+		
+		
+	}
+	weather = {
+		
+	}
+}

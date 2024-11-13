@@ -1265,15 +1265,7 @@ ideas = {
 						has_dlc = "Together for Victory"
 					}
 				}
-				NOT = {
-					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = MAN
-						}
-						has_dlc = "Waking the Tiger"
-					}
-				}
+				
 				NOT = {
 					AND = {
 						OR = { tag = MEX }
@@ -1286,12 +1278,7 @@ ideas = {
 						has_dlc = "Battle for the Bosporus"
 					}
 				}
-				NOT = {
-					AND = {
-						OR = { tag = ETH tag = SWI }
-						has_dlc = "By Blood Alone"
-					}
-				}
+				
 			}
 			
 			cost = 150
@@ -1664,15 +1651,7 @@ ideas = {
 				NOT = {
 					has_allowed_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
-				NOT = {
-					AND = {
-						has_DLC = "Waking the Tiger"
-						OR = {
-							original_tag = MAN
-							is_literally_china = yes
-						}
-					}
-				}
+				
 				NOT = {
 					AND = {
 						OR = { tag = HOL tag = MEX }

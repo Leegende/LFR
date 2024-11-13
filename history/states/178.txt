@@ -1,7 +1,5 @@
-#args2
-#1633.txt
 state = {
-id = 178
+	id = 178
 	name = "STATE_178"
 	provinces = {
 		2578
@@ -107,7 +105,6 @@ id = 178
 			arms_factory = 1
 		}
 		add_core_of = SWE
-	
 		victory_points = {
 			6227
 			5
@@ -158,8 +155,7 @@ id = 178
 		aluminium = 5
 	}
 	manpower = 1898756
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = city
 }
-
