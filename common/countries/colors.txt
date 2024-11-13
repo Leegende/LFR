@@ -7,10 +7,7 @@ USA = {
 	color = rgb { 43 89 202 }
 	color_ui = rgb { 43 89 202 }
 }
-NEL = {
-	color = rgb { 0 99 56 }
-	color_ui = rgb { 0 99 56 }
-}
+
 NFL = {
 	color = rgb { 186 12 47 }
 	color_ui = rgb { 186 12 47 }
