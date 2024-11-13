@@ -1,20 +1,11 @@
 state = {
-id = 1
+	id = 1
 	name = "STATE_1"
 	history = {
-		owner = USA
+		owner = DMZ
 		buildings = {
-			infrastructure = 3
-			19370 = {
-				naval_base = 6
-			}
-			air_base = 3
-			industrial_complex = 1
-			dockyard = 1
-			arms_factory = 1
-			
 		}
-		add_core_of = USA
+		add_core_of = DMZ
 		victory_points = {
 			19367
 			80
@@ -230,7 +221,7 @@ id = 1
 		19362
 	}
 	manpower = 52699606
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = megalopolis
 }
