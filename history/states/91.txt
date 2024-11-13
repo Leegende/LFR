@@ -1,0 +1,24 @@
+
+state={
+id = 91
+	name="STATE_91"
+					
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+		}
+	    victory_points = {
+		    21202 10 #Tanta
+		}
+	}
+	
+	provinces={
+		328 21177 21202 
+	}
+	manpower=771962
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

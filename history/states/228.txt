@@ -1,0 +1,17 @@
+state={
+id = 228
+	name="STATE_228"		
+	history = {
+		owner = ENG
+		add_core_of = ENG
+	}
+	provinces={
+		18809 19101
+	}
+	manpower=1
+	state_category=wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

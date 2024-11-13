@@ -1,0 +1,79 @@
+
+state = {
+id = 22
+	name = "STATE_22"
+	provinces = {
+		436
+		931
+		4008
+		4122
+		4693
+		5008
+		5166
+		5516
+		6098
+		7650
+		15271
+		15299
+		15314
+		15341
+		19740
+		19745
+		19782
+		19783
+		19803
+		18656
+		670
+		2304
+		3325
+		5450
+		5493
+		6471
+		9596
+		15175
+		15191
+		15230
+		15280
+		19746
+		19784
+		19799
+	}
+	resources = {
+		tungsten = 4.000
+	}
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+		}
+		victory_points = {
+			19745
+			11
+		}
+		victory_points = {
+			19740
+			10
+		}
+		victory_points = {
+			4122
+			2
+		}
+		victory_points = {
+			18656
+			2
+		}
+		victory_points = {
+			19746
+			5
+		}
+		victory_points = {
+			15175
+			2
+		}
+	}
+	manpower = 1205513
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}
+

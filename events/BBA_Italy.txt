@@ -570,6 +570,7 @@ country_event = {
 							OR = {
 								amount_taken_ideas = {
 									amount > 2
+									slots = { political_advisor }
 								}
 								has_country_flag = ITA_missiolini_bolster_political_cabinet_triggered_flag #Trigger only once
 							}
@@ -579,6 +580,7 @@ country_event = {
 							date > 1942.1.1
 							amount_taken_ideas = {
 								amount < 2
+								slots = { political_advisor }
 							}
 						}
 						modifier = { #Do not re-roll same missiolini
@@ -593,6 +595,7 @@ country_event = {
 							OR = {
 								amount_taken_ideas = {
 									amount > 2
+									slots = { high_command }
 								}
 								has_country_flag = ITA_missiolini_bolster_military_high_command_triggered_flag #Trigger only once
 							}
@@ -602,6 +605,7 @@ country_event = {
 							date > 1942.1.1
 							amount_taken_ideas = {
 								amount < 2
+								slots = { high_command }
 							}
 						}
 						modifier = { #Do not re-roll same missiolini
@@ -1430,7 +1434,125 @@ country_event = {
 
 ### STRENGTHEN THE AIRFORCE ###
 # Strengthen the Airforce - Missiolini
+unit_leader_event = {
+	id = BBA_italy_missiolinis.71
+	title = BBA_italy_missiolinis.71.t
+	desc = BBA_italy_missiolinis.71.desc
+	picture = GFX_report_event_generic_mussolini
+	
+	is_triggered_only = yes
 
+	trigger = {
+		ITA_missiolinis_cd_ready = yes #IF NO OTHER MISSIOLINI HAS BEEN ACTIVATED RECENTLY, GO AHEAD
+		ITA_missiolinis_system_available = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			ITA_missiolinis_initialize_new_mission_effect = yes
+			set_country_flag = ITA_missiolini_strengthen_the_airforce_triggered_flag #Less probable to have this more than once
+			#Establish goal - Figthers
+			#log = "Fighters in stockpile = [?ROOT.num_equipment@small_plane_airframe]"
+			set_variable = { ITA_missiolinis_fighters_goal = num_equipment@small_plane_airframe }
+			#log = "Fighters deployed = [?ROOT.num_deployed_planes_with_type@small_plane_airframe]"
+			add_to_variable = { ITA_missiolinis_fighters_goal = num_deployed_planes_with_type@small_plane_airframe }
+			#log = "Total figthers in country = [?ROOT.ITA_missiolinis_fighters_goal]"
+			
+			#Add to goal - CV Figthers
+			#log = "CV Fighters in stockpile = [?ROOT.num_equipment@cv_small_plane_airframe]"
+			#add_to_variable = { ITA_missiolinis_fighters_goal = num_equipment@cv_small_plane_airframe }
+			#log = "CV Fighters deployed = [?ROOT.num_deployed_planes_with_type@cv_small_plane_airframe]"
+			#add_to_variable = { ITA_missiolinis_fighters_goal = num_deployed_planes_with_type@cv_small_plane_airframe }
+			
+			add_to_variable = { ITA_missiolinis_fighters_goal = ITA_missiolinis_fighters_to_produce }
+			#log = "Total figthers to produce = [?ROOT.ITA_missiolinis_fighters_goal]"
+
+
+
+			#Establish goal - Bombers (CAS)
+			#log = "CAS in stockpile = [?ROOT.num_equipment@small_plane_cas_airframe]"
+			set_variable = { ITA_missiolinis_cas_goal = num_equipment@small_plane_cas_airframe }
+			#log = "CAS deployed = [?ROOT.num_deployed_planes_with_type@small_plane_cas_airframe]"
+			add_to_variable = { ITA_missiolinis_cas_goal = num_deployed_planes_with_type@small_plane_cas_airframe }
+			#Add to goal - Bombers (CV CAS)
+			#log = "CV CAS in stockpile = [?ROOT.num_equipment@cv_small_plane_cas_airframe]"
+			#add_to_variable = { ITA_missiolinis_cas_goal = num_equipment@cv_small_plane_cas_airframe }
+			#log = "CV CAS deployed = [?ROOT.num_deployed_planes_with_type@cv_small_plane_cas_airframe]"
+			#add_to_variable = { ITA_missiolinis_cas_goal = num_deployed_planes_with_type@cv_small_plane_cas_airframe }
+			#log = "Total CAS in country = [?ROOT.ITA_missiolinis_cas_goal]"
+			add_to_variable = { ITA_missiolinis_cas_goal = ITA_missiolinis_bombers_to_produce }
+			#log = "Total CAS to produce = [?ROOT.ITA_missiolinis_cas_goal]"
+
+			#Establish goal - Bombers (Nav)
+			#log = "Naval Bombers in stockpile = [?ROOT.num_equipment@nav_bomber_equipment]"
+			set_variable = { ITA_missiolinis_naval_bombers_goal = num_equipment@nav_bomber_equipment }
+			#log = "Naval Bombers deployed = [?ROOT.num_deployed_planes_with_type@nav_bomber_equipment]"
+			add_to_variable = { ITA_missiolinis_naval_bombers_goal = num_deployed_planes_with_type@nav_bomber_equipment }
+			#Add to goal - Bombers (CV Nav)
+			#log = "Naval Bombers in stockpile = [?ROOT.num_equipment@nav_bomber_equipment]"
+			#add_to_variable = { ITA_missiolinis_naval_bombers_goal = num_equipment@nav_bomber_equipment }
+			#log = "Naval Bombers deployed = [?ROOT.num_deployed_planes_with_type@nav_bomber_equipment]"
+			#add_to_variable = { ITA_missiolinis_naval_bombers_goal = num_deployed_planes_with_type@nav_bomber_equipment }
+			#log = "Total naval bombers in country = [?ROOT.ITA_missiolinis_naval_bombers_goal]"
+			add_to_variable = { ITA_missiolinis_naval_bombers_goal = ITA_missiolinis_bombers_to_produce }
+			#log = "Total naval bombers to produce = [?ROOT.ITA_missiolinis_naval_bombers_goal]"
+
+			#Establish goal - Bombers (Tac)
+			#log = "Tactical Bombers in stockpile = [?ROOT.num_equipment@tac_bomber_equipment]"
+			set_variable = { ITA_missiolinis_tactical_bombers_goal = num_equipment@tac_bomber_equipment }
+			#log = "Tactical Bombers deployed = [?ROOT.num_deployed_planes_with_type@tac_bomber_equipment]"
+			add_to_variable = { ITA_missiolinis_tactical_bombers_goal = num_deployed_planes_with_type@tac_bomber_equipment }
+			#log = "Total tactical bombers in country = [?ROOT.ITA_missiolinis_tactical_bombers_goal]"
+			add_to_variable = { ITA_missiolinis_tactical_bombers_goal = ITA_missiolinis_bombers_to_produce }
+			#log = "Total tactical bombers to produce = [?ROOT.ITA_missiolinis_tactical_bombers_goal]"
+		}
+	}
+
+	# OK dude
+	option = { 
+		name = BBA_italy_missiolinis.71.a
+		ai_chance = {
+			base = 10
+		}
+
+		activate_mission = ITA_missiolini_strengthen_the_airforce
+
+		ITA_mussolinis_reroll_cleanup_if_necessary = yes #To clear stuff if coming from a reroll
+	}
+
+	# Re-roll
+	option = { 
+		name = BBA_italy_missiolinis.council
+
+		ai_chance = {
+			base = 0
+		}
+
+		trigger = {
+			has_completed_focus = ITA_boost_the_grand_council_of_fascism
+			NOT = { has_country_flag = ITA_missiolinis_rerolling_flag }
+		}
+
+		ITA_missiolinis_reroll_cost = yes
+
+		hidden_effect = {
+			#Revert mission initialization from immediate effect
+			ITA_missiolinis_revert_new_mission_initialization_effect = yes
+
+			#Revert other stuff in the immediate effect
+			clr_country_flag = ITA_missiolini_strengthen_the_airforce_triggered_flag
+			set_variable = { ITA_missiolinis_fighters_goal = 0 }
+			set_variable = { ITA_missiolinis_cas_goal = 0 }
+			set_variable = { ITA_missiolinis_naval_bombers_goal = 0 }
+			set_variable = { ITA_missiolinis_tactical_bombers_goal = 0 }
+
+
+			#Re-roll
+			set_variable = { ITA_missiolini_reroll_from = 3 } #STRENGTHEN THE AIRFORCE
+			country_event = { id = BBA_italy_missiolinis.00 hours = 20 }
+		}
+	}
+}
 
 # Strengthen the Airforce - FAILURE 
 country_event = {

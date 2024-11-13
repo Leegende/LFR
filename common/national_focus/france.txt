@@ -1238,7 +1238,9 @@
 			log = "[GetDateText]: [Root.GetName]: Focus FRA_infantry_tanks"
 			IF = {
 				limit = { has_dlc = "Arms Against Tyranny" }
-				
+				mio:FRA_renault_organization = {
+					add_mio_funds = 2000
+				}
 			}
 			ELSE = {
 				custom_effect_tooltip = available_designer
@@ -1587,7 +1589,10 @@
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
-				
+				mio:FRA_hotchkiss_organization = {
+					add_mio_funds = 1500
+					add_mio_research_bonus = 0.02
+				}
 			}
 			ELSE = {
 				custom_effect_tooltip = available_designer

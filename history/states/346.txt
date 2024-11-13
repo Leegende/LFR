@@ -1,0 +1,45 @@
+
+state = {
+id = 346
+	name = "STATE_346"
+	history = {
+		owner = ENG
+		buildings = {
+			
+		}
+		add_core_of = ENG
+		
+	}
+	provinces = {
+		11872
+		11918
+		2370
+		7881
+		11864
+		11891
+		11912
+		11935
+		11954
+		11965
+		12032
+		113
+		5813
+		11919
+		12038
+		12117
+		12156
+		12008
+		12031
+		12199
+		4687
+		4569
+		2445
+		3966
+		8946
+	}
+	manpower = 52699606
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = megalopolis
+}
+

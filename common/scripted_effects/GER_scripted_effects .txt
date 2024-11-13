@@ -641,6 +641,22 @@ MR_pact_transfer_state_effect_OG = {
 		}
 		else_if = {
 			limit = {
+				RKL = { exists = yes }
+				
+			}
+			every_state = {
+				limit = {
+					is_vilnius = yes
+					NOT = {
+						state = 1135
+						state = 236
+					}
+				}
+				transfer_state_to = LIT
+			}
+		}
+		else_if = {
+			limit = {
 				NOT = {
 					any_other_country = {
 						is_in_faction_with = SOU

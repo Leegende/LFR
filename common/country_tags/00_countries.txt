@@ -164,8 +164,6 @@ LIE = "countries/Liechtenstein.txt"
 MNC = "countries/Monaco.txt"
 VAT = "countries/Vatican.txt"
 
-DMZ = "countries/Wasteland.txt"
-
 ###German Releasables
 PRE = "countries/Prussia.txt"
 ESP = "countries/East Prussia.txt"

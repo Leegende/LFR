@@ -1,0 +1,68 @@
+#args5
+#1335.txt
+#1857.txt
+#2843.txt
+#2844.txt
+state = {
+id = 101
+	name = "STATE_101"
+	history = {
+		owner = SPR
+		add_core_of = ENG
+		buildings = {
+			2265 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			18144
+			5
+		}
+		victory_points = {
+			15851
+			1
+		}
+		victory_points = {
+			2166
+			2
+		}
+		victory_points = {
+			4878
+			1
+		}
+	}
+	provinces = {
+		360
+		1334
+		2265
+		18144
+		590
+		2176
+		5112
+		15851
+		21664
+		196
+		517
+		301
+		2055
+		3270
+		5874
+		2166
+		3415
+		2297
+		15842
+		3017
+		1736
+		4369
+		4878
+		21663
+		21660
+		21661
+		21662
+	}
+	manpower = 87740
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
+

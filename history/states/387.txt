@@ -1,0 +1,49 @@
+#args2
+#950.txt
+state = {
+id = 387
+	name = "STATE_387"
+	provinces = {
+		2420
+		3466
+		3474
+		7867
+		8682
+		9004
+		15054
+		15146
+		19747
+		20516
+		4769
+		9050
+		15077
+		15100
+		15108
+		15117
+		20515
+	}
+	resources = {
+		tungsten = 10.000
+	}
+	history = {
+		owner = SPR
+		
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19747
+			10
+		}
+		victory_points = {
+			15100
+			5
+		}
+	}
+	manpower = 572800
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}
+

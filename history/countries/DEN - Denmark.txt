@@ -1,4 +1,4 @@
-﻿capital = 315
+﻿capital = 375
 every_owned_state = { set_state_flag = DEN_INITIAL_STATE }
 
 
@@ -14,7 +14,6 @@ set_stability = 1
 set_war_support = 1
 
 add_ideas = {
-	artificial_intelligence
 }
 
 set_politics = {
@@ -29,8 +28,6 @@ set_popularities = {
 }
 
 
-#### COUNTRY LEADERS ####
-recruit_character = DEN_thorvald_stauning
 
 
 

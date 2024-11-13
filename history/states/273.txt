@@ -1,0 +1,19 @@
+
+state={
+id = 273
+	name="STATE_227"
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+
+	provinces={
+		136 188 5835 7094 10723 16922 18199 19907 19935 
+	}
+	
+}
+

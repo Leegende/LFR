@@ -1,0 +1,26 @@
+
+state={
+id = 85
+	name="STATE_85"
+					
+	history={
+		owner = ITA
+		add_core_of = ENG
+		buildings = {
+			21063 = { naval_base = 1 }
+		}
+	
+	    victory_points = {
+		    21063 5 #Sirte
+			}
+	}
+	
+	provinces={
+		163 1397 2983 4452 7513 9371 15795 15808 21050 21058 21063 
+	}
+	manpower=18995
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

@@ -3,11 +3,9 @@ technologies = {
 
 	@1918 = 0
 	@1934 = 2
-	@1935 = 3
 	@1936 = 4
-	@1937 = 5
 	@1938 = 5
-	@1939 = 7
+	@1939 = 6
 	@1940 = 7
 	@1941 = 8
 	@1942 = 9
@@ -18,8 +16,6 @@ technologies = {
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
-
-		show_equipment_icon = yes
 
 		enable_equipments = {
 			light_tank_chassis_0
@@ -58,13 +54,12 @@ technologies = {
 			tank_heavy_fixed_superstructure_turret
 			tank_super_heavy_four_man_tank_turret
 			tank_super_heavy_three_man_tank_turret
+			tank_modern_tank_turret
 			sloped_armor
 			extra_ammo_storage
 			wet_ammo_storage
 			smoke_launchers
-			ap_shells
-			heat_shells
-
+			expanded_fuel_tank
 		}
 		enable_subunits = {
 			light_armor
@@ -116,7 +111,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = 1 }
+			position = { x = 2 y = 0 }
 		}
 
 		ai_will_do = {
@@ -144,10 +139,8 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -162,12 +155,177 @@ technologies = {
 		enable_subunits = {
 			light_armor
 		}
-		enable_equipment_modules = {
-			light_tank_soft_gun_1
-			light_tank_hard_gun_1
+
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
+		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
 
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
 
+					load_oob = "unlock_tanks"
+				}
+
+				if = { #Italian templates
+					limit = {
+						original_tag = ITA
+					#	has_completed_focus = ITA_italian_tankettes
+					}
+					ITA_add_improved_light_tank_templates = yes
+				}
+				
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Vickers Medium Mark II"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_heavy_machine_gun 
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 2
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_ENG_basic_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "M2 Light Tank"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = additional_machine_guns
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_USA_basic_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "Hotchkiss H35"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_close_support_gun
+							turret_type_slot = tank_light_one_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_cast_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 3
+							tank_nsb_armor_upgrade = 3
+						}
+						icon = "GFX_FRA_basic_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "T-26"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 2
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_SOV_basic_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					create_equipment_variant = {
+						name = "Panzer I"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_heavy_machine_gun 
+							turret_type_slot = tank_light_one_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 1
+						}
+						icon = "GFX_GER_basic_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "L3/35"
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_heavy_machine_gun 
+							turret_type_slot = tank_light_fixed_superstructure_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 1
+						}
+						icon = "GFX_ITA_basic_light_tank_medium"
+					}
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
 
 		path = {
 			leads_to_tech = improved_light_tank_chassis
@@ -175,10 +333,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = @1936 }
+			position = { x = -1 y = @1934 }
 		}
 
 		ai_will_do = {
@@ -206,10 +364,8 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -222,12 +378,6 @@ technologies = {
 			light_tank_aa_chassis_2
 		}
 
-		enable_equipment_modules = {
-			light_tank_soft_gun_2
-			light_tank_hard_gun_2
-		}
-
-
 		path = {
 			leads_to_tech = advanced_light_tank_chassis
 			research_cost_coeff = 1
@@ -239,11 +389,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1936
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = @1940 }
+			position = { x = -1 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -252,14 +402,9 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
-				}
 			}
 			modifier = {
 				is_major = yes
-				not = { tag = JAP }
 				has_war = yes
 				factor = 10 #you are embarassing yourself
 			}
@@ -292,13 +437,269 @@ technologies = {
 				}
 				ITA_add_improved_light_tank_templates = yes
 			}
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Cruiser Mk. III/IV"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon 
+							turret_type_slot = tank_light_three_man_tank_turret 
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 4
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_ENG_improved_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "M3 Stuart"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = additional_machine_guns
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 3
+						}
+						icon = "GFX_USA_improved_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "FCM 36"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_close_support_gun
+							turret_type_slot = tank_light_one_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_welded_armor 
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 3
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_FRA_improved_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "BT-7"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 8
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_SOV_improved_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					create_equipment_variant = {
+						name = "Panzer II"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_auto_cannon 
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_GER_improved_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "L6/40"
+						type = light_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_auto_cannon 
+							turret_type_slot = tank_light_one_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 3
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_ITA_improved_light_tank_medium"
+					}
+				}
+			}
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+
+
+	amphibious_tank_chassis = { #SchwimmPanzer II
+
+		enable_equipments = {
+			amphibious_tank_chassis_1
+		}
+
+		enable_subunits = {
+			amphibious_armor
+		}
+
+		path = {
+			leads_to_tech = amphibious_drive
+			research_cost_coeff = 1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2
+		start_year = 1938
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = 5 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+				NOT = {
+					TAG = GER
+				}
+			}
+			modifier = {
+				original_tag = USA
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_drive = { #SchwimmPanzer II
+
+
+		enable_equipment_modules = {
+			amphibious_drive
+		}
+
+		enable_equipments = {
+			light_tank_amphibious_chassis_0
+			medium_tank_amphibious_chassis_0
+			heavy_tank_amphibious_chassis_0
+			light_tank_amphibious_chassis_1
+			medium_tank_amphibious_chassis_1
+			heavy_tank_amphibious_chassis_1
+			light_tank_amphibious_chassis_2
+			medium_tank_amphibious_chassis_2
+			heavy_tank_amphibious_chassis_2
+			light_tank_amphibious_chassis_3
+			medium_tank_amphibious_chassis_3
+			heavy_tank_amphibious_chassis_3
+		}
+
+		research_cost = 2
+		start_year = 1941
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -4 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				original_tag = USA
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
 		}
 	}
 
@@ -311,23 +712,12 @@ technologies = {
 			light_tank_aa_chassis_3
 		}
 
-		path = {
-			leads_to_tech = main_battle_tank_chassis
-			research_cost_coeff = 1
-		}
-
-		enable_equipment_modules = {
-			light_tank_soft_gun_3
-			light_tank_hard_gun_3
-		}
-
-
 		research_cost = 2
-		start_year = 1943
+		start_year = 1940
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = @1943 }
+			position = { x = -1 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -354,63 +744,158 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
 		}
-	}
-	amphibious_tank_chassis = { #SchwimmPanzer II
-
-		enable_equipments = {
-			amphibious_tank_chassis_1
-		}
-
-		enable_subunits = {
-			amphibious_armor
-		}
-
-		research_cost = 2
-		start_year = 1938
-
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				factor = 2
-				is_major = yes
-				NOT = {
-					TAG = GER
-				}
-			}
-			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
-				factor = 2
-			}
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
+		
+		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Mk.VII Tetrarch"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon 
+							turret_type_slot = tank_light_two_man_tank_turret 
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_ENG_advanced_light_tank_medium"
 					}
 				}
-				factor = 0
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "M24 Chaffee"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon
+							turret_type_slot = tank_light_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_USA_advanced_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "AMX 12T"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon
+							turret_type_slot = tank_light_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor 
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_FRA_advanced_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "T-70"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_light_one_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 6
+						}
+						icon = "GFX_SOV_advanced_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					create_equipment_variant = {
+						name = "VK1602 Leopard"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_close_support_gun 
+							turret_type_slot = tank_light_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+							special_type_slot_3 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 7
+							tank_nsb_armor_upgrade = 7
+						}
+						icon = "GFX_GER_advanced_light_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "L8/42"
+						type = light_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2 
+							turret_type_slot = tank_light_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_ITA_advanced_light_tank_medium"
+					}
+				}
 			}
 		}
-
-		categories = {
-			mio_cat_tech_all_armor_and_modules
-			armor
-			tp_tech
-		}
 	}
-	basic_medium_tank_chassis = { #Panzer III
 
-		sub_technologies = {
-			amphibious_tank_chassis
-		}
+	basic_medium_tank_chassis = { #Panzer III
 
 		enable_equipments = {
 			medium_tank_chassis_1
@@ -418,12 +903,6 @@ technologies = {
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
 		}
-
-		enable_equipment_modules = {
-			medium_tank_soft_gun_1
-			medium_tank_hard_gun_1
-		}
-
 
 		enable_subunits = {
 			medium_armor
@@ -435,8 +914,206 @@ technologies = {
 			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Mk.VI Crusader"
+						type = medium_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon 
+							turret_type_slot = tank_medium_three_man_tank_turret 
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 7
+							tank_nsb_armor_upgrade = 5
+						}
+						icon = "GFX_ENG_basic_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					load_oob = "USA_medium_tank_division"
+					create_equipment_variant = {
+						name = "M3 Lee"
+						type = medium_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_medium_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 7
+							tank_nsb_armor_upgrade = 3
+						}
+						icon = "GFX_USA_basic_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+						is_ai = yes
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_engineers }
+						}
+						set_technology = { tech_engineers = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_recon }
+						}
+						set_technology = { tech_recon = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_logistics_company }
+						}
+						set_technology = { tech_logistics_company = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_maintenance_company }
+						}
+						set_technology = { tech_maintenance_company = 1 }
+					}
+					load_oob = "USA_AI_medium_tank_division"
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "AMC 35"
+						type = medium_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_medium_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor 
+							engine_type_slot = tank_gasoline_engine
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 4
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_FRA_basic_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					load_oob = "SOV_medium_tank_division"
+					create_equipment_variant = {
+						name = "T-28"
+						type = medium_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_close_support_gun
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = secondary_turret_hmg
+							special_type_slot_3 = secondary_turret_hmg
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 10
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_SOV_basic_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+						is_ai = yes
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_engineers }
+						}
+						set_technology = { tech_engineers = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_recon }
+						}
+						set_technology = { tech_recon = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_logistics_company }
+						}
+						set_technology = { tech_logistics_company = 1 }
+					}
+					if = {
+						limit = {
+							NOT = { has_tech = tech_maintenance_company }
+						}
+						set_technology = { tech_maintenance_company = 1 }
+					}
+					load_oob = "SOV_AI_medium_tank_division"
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "Fiat M11/39"
+						type = medium_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2 
+							turret_type_slot = tank_medium_fixed_superstructure_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = secondary_turret_hmg
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 4
+							tank_nsb_armor_upgrade = 3
+						}
+						icon = "GFX_ITA_basic_medium_tank_medium"
+					}
+				}
+			}
 		}
 
 		path = {
@@ -445,11 +1122,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1938
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = 4 }
 		}
 
 		ai_will_do = {
@@ -458,10 +1135,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
-				}
 				date > "1938.1.1"
 			}
 			modifier = {
@@ -491,18 +1164,14 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_medium_armor
-			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
-	improved_medium_tank_chassis = { #Panzer IV
 
-		sub_technologies = {
-			amphibious_drive
-		}
+
+	improved_medium_tank_chassis = { #Panzer IV
 
 		enable_equipments = {
 			medium_tank_chassis_2
@@ -511,22 +1180,17 @@ technologies = {
 			medium_tank_aa_chassis_2
 		}
 
-		enable_equipment_modules = {
-			medium_tank_soft_gun_2
-			medium_tank_hard_gun_2
-		}
-
 		path = {
 			leads_to_tech = advanced_medium_tank_chassis
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1940 }
+			position = { x = 2 y = @1939 }
 		}
 
 		on_research_complete = {
@@ -534,11 +1198,135 @@ technologies = {
 				limit = {
 					original_tag = ITA
 					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
+					#	has_completed_focus = ITA_end_fiat_ansaldo_duopoly
+					#	has_completed_focus = ITA_modernize_ansaldo_facilities
 					}
 				}
 				ITA_add_improved_medium_tank_templates = yes
+			}
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Mk.VIII Cromwell"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon_2 
+							turret_type_slot = tank_medium_three_man_tank_turret 
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 12
+							tank_nsb_armor_upgrade = 8
+						}
+						icon = "GFX_ENG_improved_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "M4 Sherman"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon_2
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_cast_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = stabilizer
+							special_type_slot_3 = sloped_armor
+							special_type_slot_4 = easy_maintenance
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 5
+						}
+						icon = "GFX_USA_improved_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "SOMUA S35"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon
+							turret_type_slot = tank_medium_one_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_cast_armor 
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 4
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_FRA_improved_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "T-34"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon_2
+							turret_type_slot = tank_medium_two_man_tank_turret
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 10
+							tank_nsb_armor_upgrade = 7
+						}
+						icon = "GFX_SOV_improved_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "Fiat M13/40"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon 
+							turret_type_slot = tank_medium_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = additional_machine_guns
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 3
+						}
+						icon = "GFX_ITA_improved_medium_tank_medium"
+					}
+				}
 			}
 		}
 
@@ -548,10 +1336,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
-				}
 			}
 			modifier = {
 				date < "1941.1.1"
@@ -584,68 +1368,11 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_medium_armor
-			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
-	amphibious_drive = { #SchwimmPanzer II
-
-
-		enable_equipment_modules = {
-			amphibious_drive
-		}
-
-		enable_equipments = {
-			light_tank_amphibious_chassis_0
-			medium_tank_amphibious_chassis_0
-			heavy_tank_amphibious_chassis_0
-			light_tank_amphibious_chassis_1
-			medium_tank_amphibious_chassis_1
-			heavy_tank_amphibious_chassis_1
-			light_tank_amphibious_chassis_2
-			medium_tank_amphibious_chassis_2
-			heavy_tank_amphibious_chassis_2
-			light_tank_amphibious_chassis_3
-			medium_tank_amphibious_chassis_3
-			heavy_tank_amphibious_chassis_3
-		}
-
-		research_cost = 2
-		start_year = 1940
-
-		ai_will_do = {
-			factor = 0.5
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
-				factor = 2
-			}
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
-
-		categories = {
-			mio_cat_tech_all_armor_and_modules
-			armor
-			tp_tech
-		}
-	}
 	advanced_medium_tank_chassis = { #Panther
 
 		enable_equipments = {
@@ -654,30 +1381,181 @@ technologies = {
 			medium_tank_artillery_chassis_3
 			medium_tank_aa_chassis_3
 		}
-		enable_equipment_modules = {
-			medium_tank_soft_gun_3
-			medium_tank_hard_gun_3
-		}
+
 		path = {
 			leads_to_tech = main_battle_tank_chassis
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1943
+		start_year = 1942
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 2 y = @1942 }
 		}
 
 		on_research_complete = {
 			if = { #Italian templates
 				limit = {
 					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+				#	has_completed_focus = ITA_ferrea_mole_ferreo_cuore
 				}
 				ITA_add_advanced_medium_tank_templates = yes
+			}
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "A34 Comet"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2 
+							turret_type_slot = tank_medium_three_man_tank_turret 
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 12
+							tank_nsb_armor_upgrade = 10
+						}
+						icon = "GFX_ENG_advanced_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "T25"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = stabilizer
+							special_type_slot_3 = sloped_armor
+							special_type_slot_4 = easy_maintenance
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 6
+						}
+						icon = "GFX_USA_advanced_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "Somua SARL42"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon_2
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_cast_armor 
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = smoke_launchers
+							special_type_slot_4 = auto_loader
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 6
+						}
+						icon = "GFX_FRA_advanced_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "T-44"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 6
+						}
+						icon = "GFX_SOV_advanced_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					create_equipment_variant = {
+						name = "Panzer V Panther"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_interleaved_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 8
+							tank_nsb_armor_upgrade = 9
+						}
+						icon = "GFX_GER_advanced_medium_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "Fiat M16/43"
+						type = medium_tank_chassis_3
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_medium_cannon 
+							turret_type_slot = tank_medium_three_man_tank_turret
+							suspension_type_slot = tank_christie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = additional_machine_guns
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 5
+						}
+						icon = "GFX_ITA_advanced_medium_tank_medium"
+					}
+				}
 			}
 		}
 
@@ -701,10 +1579,8 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_medium_armor
-			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -715,11 +1591,11 @@ technologies = {
 			modern_tank_destroyer_chassis_1
 			modern_tank_artillery_chassis_1
 			modern_tank_aa_chassis_1
-			
 		}
-		enable_equipment_modules = {
-			tank_modern_tank_turret
+		enable_subunits = {
+			modern_armor
 		}
+
 		research_cost = 2.5
 		start_year = 1945
 
@@ -748,10 +1624,170 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_medium_armor
-			mio_cat_tech_medium_armor_and_modules
+		}
+		
+		on_research_complete = {
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					create_equipment_variant = {
+						name = "Centurion"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2 
+							turret_type_slot = tank_modern_tank_turret 
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+							special_type_slot_3 = stabilizer
+							special_type_slot_4 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 10
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_ENG_main_battle_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					create_equipment_variant = {
+						name = "M46 Patton"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_modern_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_cast_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = wet_ammo_storage
+							special_type_slot_3 = sloped_armor
+							special_type_slot_4 = easy_maintenance
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 13
+							tank_nsb_armor_upgrade = 5
+						}
+						icon = "GFX_USA_main_battle_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = FRA
+					}
+					create_equipment_variant = {
+						name = "Somua SARL42"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_modern_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_cast_armor 
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = smoke_launchers
+							special_type_slot_4 = auto_loader
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 14
+							tank_nsb_armor_upgrade = 4
+						}
+						icon = "GFX_FRA_main_battle_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = SOV
+					}
+					create_equipment_variant = {
+						name = "T-54"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_modern_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_cast_armor
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = sloped_armor
+							special_type_slot_3 = easy_maintenance
+							special_type_slot_4 = stabilizer
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 14
+							tank_nsb_armor_upgrade = 8
+						}
+						icon = "GFX_SOV_main_battle_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					create_equipment_variant = {
+						name = "E-50 Standardpanzer"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2
+							turret_type_slot = tank_modern_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+							special_type_slot_3 = armor_skirts
+							special_type_slot_4 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 14
+							tank_nsb_armor_upgrade = 6
+						}
+						icon = "GFX_GER_main_battle_tank_medium"
+					}
+				}
+				if = {
+					limit = {
+						original_tag = ITA
+					}
+					create_equipment_variant = {
+						name = "P45"
+						type = modern_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_high_velocity_cannon_2 
+							turret_type_slot = tank_modern_tank_turret
+							suspension_type_slot = tank_torsion_bar_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_diesel_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+							special_type_slot_3 = stabilizer
+							special_type_slot_4 = sloped_armor
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 18
+							tank_nsb_armor_upgrade = 8
+						}
+						icon = "GFX_ITA_main_battle_tank_medium"
+					}
+				}
+			}
 		}
 	}
 
@@ -768,16 +1804,29 @@ technologies = {
 		enable_subunits = {
 			heavy_armor
 		}
-		enable_equipment_modules = {
-			heavy_tank_soft_gun_1
-			heavy_tank_hard_gun_1
-		}
+
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
 			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
@@ -788,11 +1837,11 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1934
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1936 }
+			position = { x = 5 y = 2 }
 		}
 
 		ai_will_do = {
@@ -816,18 +1865,11 @@ technologies = {
 				tag = FRA
 				factor = 3
 			}
-			modifier = {
-				tag = JAP
-				num_of_military_factories < 100
-				factor = 0
-			}
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -839,23 +1881,23 @@ technologies = {
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
 		}
-		enable_equipment_modules = {
-			heavy_tank_soft_gun_2
-			heavy_tank_hard_gun_2
-		}
 
 		path = {
 			leads_to_tech = advanced_heavy_tank_chassis
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = super_heavy_tank_chassis
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 1939
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1940 }
+			position = { x = 5 y = @1939 }
 		}
 
 		on_research_complete = {
@@ -863,21 +1905,43 @@ technologies = {
 				limit = {
 					original_tag = ITA
 					OR = {
-						has_completed_focus = ITA_end_fiat_ansaldo_duopoly
-						has_completed_focus = ITA_modernize_ansaldo_facilities
+					#	has_completed_focus = ITA_end_fiat_ansaldo_duopoly
+					#	has_completed_focus = ITA_modernize_ansaldo_facilities
 					}
 				}
 				ITA_add_improved_heavy_tank_templates = yes
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					load_oob = "GER_Tiger_Division"
+					create_equipment_variant = {
+						name = "Tiger Ausf. H1"
+						type = medium_tank_chassis_2
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_heavy_cannon_2
+							turret_type_slot = 	tank_heavy_three_man_tank_turret 
+							suspension_type_slot = tank_interleaved_suspension
+							armor_type_slot = tank_welded_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+							special_type_slot_2 = smoke_launchers
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 8
+							tank_nsb_armor_upgrade = 10
+						}
+						icon = "GFX_GER_improved_heavy_tank_medium"
+					}
+				}
 			}
 		}
 
 		ai_will_do = {
 			factor = 0.8
-			modifier = {
-				tag = JAP
-				num_of_military_factories < 100
-				factor = 0
-			}
 			modifier = {
 				factor = 1.2
 				date > "1942.1.1"
@@ -895,29 +1959,19 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
 
 	advanced_heavy_tank_chassis = { #King Tiger
 
-		sub_technologies = {
-			super_heavy_tank_chassis
-		}
 		enable_equipments = {
 			heavy_tank_chassis_3
 			heavy_tank_destroyer_chassis_3
 			heavy_tank_artillery_chassis_3
 			heavy_tank_aa_chassis_3
-		}
-
-		enable_equipment_modules = {
-			heavy_tank_soft_gun_3
-			heavy_tank_hard_gun_3
 		}
 
 		path = {
@@ -926,18 +1980,18 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 1942
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 5 y = @1943 }
+			position = { x = 5 y = @1942 }
 		}
 
 		on_research_complete = {
 			if = { #Italian templates
 				limit = {
 					original_tag = ITA
-					has_completed_focus = ITA_ferrea_mole_ferreo_cuore
+				#	has_completed_focus = ITA_ferrea_mole_ferreo_cuore
 				}
 				ITA_add_advanced_heavy_tank_templates = yes
 			}
@@ -963,10 +2017,8 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -977,10 +2029,6 @@ technologies = {
 			super_heavy_tank_destroyer_chassis_1
 			super_heavy_tank_artillery_chassis_1
 			super_heavy_tank_aa_chassis_1
-		}
-
-		enable_equipment_modules = {
-			
 		}
 
 		enable_subunits = {
@@ -1005,9 +2053,21 @@ technologies = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = ITA_capo_supremo
+					#	has_completed_focus = ITA_capo_supremo
 					}
 					ITA_add_il_duce_sh_tank_template_and_production = yes
+				}
+				else_if = {
+					limit = {
+					#	has_completed_focus = ITA_modern_musculus
+					}
+					ITA_add_modern_musculus_sh_tank_template_and_production = yes
+				}
+				else_if = {
+					limit = {
+					#	has_completed_focus = ITA_a_time_for_war
+					}
+					ITA_add_hand_of_god_sh_tank_template_and_production = yes
 				}
 			}
 		}
@@ -1017,10 +2077,8 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
 			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1040,10 +2098,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1935 }
+			position = { x = 3 y = @1934 }
 		}
 
 		ai_will_do = {
@@ -1075,11 +2133,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1099,10 +2153,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1938
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1938 }
+			position = { x = 3 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1134,11 +2188,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1156,10 +2206,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
+			position = { x = 3 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -1191,11 +2241,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1242,11 +2288,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1265,7 +2307,7 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1935 }
+			position = { x = 2 y = @1934 }
 		}
 
 		ai_will_do = {
@@ -1297,11 +2339,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1319,10 +2357,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1938
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 2 y = @1936 }
 		}
 
 		ai_will_do = {
@@ -1354,11 +2392,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1374,10 +2408,10 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 2 y = @1940 }
 		}
 
 		ai_will_do = {
@@ -1409,11 +2443,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1458,13 +2488,7 @@ technologies = {
 		}
 
 		categories = {
-			mio_cat_tech_all_armor_and_modules
 			armor
-			mio_cat_tech_light_armor_and_modules
-			mio_cat_tech_medium_armor_and_modules
-			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
-
-	
 }

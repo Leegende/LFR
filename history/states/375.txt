@@ -1,0 +1,93 @@
+#args9
+#178.txt
+#216.txt
+#315.txt
+#240.txt
+#277.txt
+#20.txt
+#247.txt
+#347.txt
+state = {
+id = 375
+	name = "STATE_375"
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			19618
+			2
+		}
+		victory_points = {
+			9674
+			2
+		}
+		victory_points = {
+			19619
+			2
+		}
+		victory_points = {
+			10625
+			80
+		}
+		victory_points = {
+			10686
+			10
+		}
+		victory_points = {
+			5092
+			2
+		}
+		victory_points = {
+			7574
+			2
+		}
+	}
+	provinces = {
+		9091
+		9674
+		10720
+		19618
+		569
+		7194
+		10650
+		19619
+		19620
+		3612
+		7786
+		10561
+		10592
+		10625
+		10640
+		4072
+		6240
+		7073
+		8625
+		10686
+		4745
+		5092
+		5506
+		10683
+		10714
+		19622
+		19623
+		19624
+		19625
+		7574
+		19613
+		19621
+		4863
+		8725
+	}
+	manpower = 1809100
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}
+

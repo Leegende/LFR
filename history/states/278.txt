@@ -1,0 +1,97 @@
+#args8
+#2363.txt
+#2364.txt
+#759.txt
+#774.txt
+#781.txt
+#797.txt
+#800.txt
+state = {
+id = 278
+	name = "STATE_199"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			14383
+			10
+		}
+		victory_points = {
+			20386
+			5
+		}
+		victory_points = {
+			14437
+			2
+		}
+		victory_points = {
+			20395
+			10
+		}
+		victory_points = {
+			14535
+			20
+		}
+		victory_points = {
+			4777
+			2
+		}
+		victory_points = {
+			14556
+			2
+		}
+	}
+	provinces = {
+		14301
+		17815
+		2545
+		14389
+		16909
+		144
+		14340
+		14368
+		14383
+		14409
+		14427
+		14470
+		1645
+		6152
+		6430
+		7464
+		7474
+		14390
+		14437
+		20386
+		1573
+		2437
+		5645
+		8564
+		14538
+		17275
+		20395
+		68
+		1429
+		4908
+		8996
+		9208
+		14535
+		14596
+		14597
+		2837
+		4777
+		14644
+		14556
+	}
+	manpower = 1597131
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}
+

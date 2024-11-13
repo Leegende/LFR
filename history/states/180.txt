@@ -1,0 +1,20 @@
+
+state={
+id = 180
+	name="STATE_180"
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			19626 = { naval_base = 1 }
+		}
+	}
+	provinces={
+		19626 19627 
+	}
+	manpower=45900
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = small_island
+}
+

@@ -1,0 +1,81 @@
+#args2
+#276.txt
+state = {
+id = 312
+	name = "STATE_312"
+	provinces = {
+		1994
+		2364
+		6018
+		8501
+		10806
+		10823
+		10891
+		18787
+		3156
+		5582
+		10733
+		10801
+		10811
+		19389
+		19390
+		1755
+		2536
+		10871
+		10876
+		10908
+		10926
+		5859
+		7130
+		9360
+		10884
+		10985
+		19310
+		1890
+		10897
+	}
+	history = {
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			industrial_complex = 1
+			1994 = {
+				naval_base = 1
+			}
+			industrial_complex = 1
+			dockyard = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1994
+			20
+		}
+		victory_points = {
+			10823
+			2
+		}
+		victory_points = {
+			19389
+			5
+		}
+		victory_points = {
+			10876
+			2
+		}
+		victory_points = {
+			10884
+			1
+		}
+		victory_points = {
+			10897
+			2
+		}
+	}
+	manpower = 1225200
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
+}
+

@@ -5427,7 +5427,180 @@ focus_tree = {
 		}		
 	}
 
+	focus = {
+		id = GER_japan_friend
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = GER_rhineland }
+		mutually_exclusive = { focus = GER_china_friend }
+		allow_branch = { has_global_flag = NEVER }
+		available = {
+			is_subject = no
+			AND = {
+				country_exists = JAP
+				JAP = { is_subject = no }
+				NOT = { has_war_with = JAP }
+				JAP = {
+					custom_trigger_tooltip = {
+						tooltip = GER_alone_or_peace_faction_tt
+						is_alone_or_in_faction_at_peace_with_GER = yes
+					}
+				}
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = GER_rhineland
+		cost = 10
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_in_faction_with = JAP
+				factor = 0 #GER-sempai has already noticed you!
+			}
+		}	
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GER_japan_friend"
+			
+			custom_effect_tooltip = GER_japan_friend_tt
+			set_global_flag = falkenhausen_recalled
+			if = {
+				limit = {
+					has_dlc = "Waking the Tiger"
+				}
+				create_corps_commander = {
+					name = "Alexander von Falkenhausen"
+					gfx = GFX_portrait_chi_alexander_von_falkenhausen
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 3
+					legacy_id = 603
+					traits = { infantry_officer }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_china_friend
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = GER_rhineland }
+		mutually_exclusive = { focus = GER_japan_friend }
+		allow_branch = { has_global_flag = NEVER }
+		available = {
+			is_subject = no
+			AND = {
+				country_exists = CHI
+				CHI = { is_subject = no }
+				NOT = { has_war_with = CHI }
+				CHI = {
+					custom_trigger_tooltip = {
+						tooltip = GER_alone_or_peace_faction_tt
+						is_alone_or_in_faction_at_peace_with_GER = yes
+					}
+				}
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = GER_rhineland
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				is_in_faction_with = JAP
+				factor = 0
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GER_china_friend"
+			
+		}
+	}
 	
+	focus = {
+		id = GER_swedish_trade_agreement
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = GER_rhineland }
+		available = {
+			is_subject = no
+			AND = {
+				country_exists = SWE
+				SWE = { is_subject = no }
+				NOT = { has_war_with = SWE }
+				SWE = {
+					custom_trigger_tooltip = {
+						tooltip = GER_alone_or_peace_faction_tt
+						is_alone_or_in_faction_at_peace_with_GER = yes
+					}
+				}
+			}
+		}
+		x = -2
+		y = 1
+		relative_position_id = GER_rhineland
+		cost = 10
+		ai_will_do = {
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			SWE = {
+				country_event = { id = AAT_germany.1 hours = 5 random_hours = 5 }
+			}
+
+			custom_effect_tooltip = if_they_accept_tt
+			effect_tooltip = {
+				SWE = {
+					add_offsite_building = {
+						type = industrial_complex
+						level = 2
+					}
+
+					add_offsite_building = {
+						type = arms_factory
+						level = 1
+					}
+
+					add_timed_idea = {
+						idea = GER_german_swedish_trade_agreement
+						days = 480
+					}
+
+					give_resource_rights = {
+						receiver = ROOT 
+						state = 2707 #Västerbotten 
+					}
+					give_resource_rights = {
+						receiver = ROOT 
+						state = 45 #Västerbotten 
+					}
+					give_resource_rights = {
+						receiver = ROOT 
+						state = 2706#Västerbotten 
+					}
+					give_resource_rights = {
+						receiver = ROOT 
+						state = 2710 #Västerbotten 
+					}
+				}
+
+				add_opinion_modifier = {
+					target = SWE # target of the relation
+					modifier = GER_SWE_historic_trade_Partners
+				}
+			}
+		}
+	}
+
 	focus = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
@@ -8350,7 +8523,9 @@ focus_tree = {
 				}
 				country_event = { id = generic.1 }
 			}
-			
+			JAP = {
+				add_opinion_modifier = { target = GER modifier = befriended_the_dutch }
+			}
 		}
 	}
 
@@ -12524,31 +12699,42 @@ focus_tree = {
 			custom_effect_tooltip = GER_the_mannheim_project_tt
 			if = {
 				limit = {
+					NOT = { has_tech = atomic_research }
 				}
 				add_tech_bonus = {
 					name = GER_the_mannheim_project
 					bonus = 1.0
 					ahead_reduction = 2
+					technology = atomic_research
 				}
 			}
 			if = {
 				limit = {
+					has_tech = atomic_research
+					NOT = { has_tech = nuclear_reactor }
 				}
 				add_tech_bonus = {
 					name = GER_the_mannheim_project
 					bonus = 1.0
 					ahead_reduction = 2
+					technology = nuclear_reactor
 				}
 			}
 			if = {
 				limit = {
+					has_tech = nuclear_reactor
 				}
 				55 = {
-					
+					add_building_construction = {
+						type = nuclear_reactor
+						level = 1
+						instant_build = yes
+					}
 				}
 				add_tech_bonus = {
 					name = GER_the_mannheim_project
 					bonus = 1.0
+					technology = nukes
 				}
 			}
 		}

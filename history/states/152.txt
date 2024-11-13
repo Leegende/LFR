@@ -1,0 +1,67 @@
+#args10
+#1969.txt
+#2005.txt
+#2006.txt
+#2016.txt
+#2751.txt
+#2756.txt
+#2840.txt
+#910.txt
+#937.txt
+state = {
+id = 152
+	name = "STATE_152"
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			9240 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			9240
+			5
+		}
+		victory_points = {
+			3756
+			2
+		}
+		victory_points = {
+			20338
+			5
+		}
+		victory_points = {
+			20337
+			2
+		}
+	}
+	provinces = {
+		9038
+		9240
+		15036
+		2680
+		3417
+		1094
+		15895
+		16499
+		20360
+		1272
+		3756
+		20286
+		4509
+		20336
+		4231
+		8483
+		20338
+		1428
+		6549
+		20337
+		20339
+	}
+	manpower = 330800
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
+

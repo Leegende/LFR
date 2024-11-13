@@ -1,4 +1,4 @@
-﻿capital = 508
+﻿capital = 237
 
 set_technology = {
 	infantry_weapons = 1
@@ -12,7 +12,6 @@ set_stability = 1
 set_war_support = 1
 
 add_ideas = {
-	artificial_intelligence
 }
 
 set_politics = {
@@ -25,4 +24,3 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-recruit_character = POL_ignacy_moscicki

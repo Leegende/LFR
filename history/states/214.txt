@@ -1,0 +1,27 @@
+state={
+id = 214
+	name="STATE_214"
+					
+	history={
+		owner = ITA
+		add_core_of = ENG
+		buildings = {
+		}
+	
+	    victory_points = {
+		    21082 5 #Garian
+			}
+			victory_points = {
+				21077 5 #Iefren
+			}
+	}
+	
+	provinces={
+		6394 21069 21082 	978 8673 21067 21077 
+	}
+	manpower=44665
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

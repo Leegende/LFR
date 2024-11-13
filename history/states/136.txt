@@ -1,0 +1,59 @@
+#args6
+#1514.txt
+#1515.txt
+#1516.txt
+#2856.txt
+#735.txt
+state = {
+id = 136
+	name = "STATE_136"
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+		}
+		victory_points = {
+			14328
+			20
+		}
+		victory_points = {
+			14265
+			2
+		}
+		victory_points = {
+			14201
+			2
+		}
+		victory_points = {
+			14117
+			5
+		}
+	}
+	provinces = {
+		8270
+		15985
+		2136
+		8942
+		14265
+		14312
+		14323
+		14328
+		17510
+		2506
+		14201
+		14259
+		14124
+		14166
+		14195
+		18030
+		1650
+		14117
+		14145
+		14147
+	}
+	manpower = 815882
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
+

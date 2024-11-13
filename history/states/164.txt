@@ -1,0 +1,47 @@
+
+state = {
+id = 164
+	name = "STATE_164"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			969 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			969
+			10
+		}
+	}
+	manpower = 5
+	buildings_max_level_factor = 0.000
+	local_supplies = 0.000
+	state_category = wasteland
+	provinces = {
+		969
+		9764
+		2848
+		8281
+		761
+		1408
+		2272
+		3218
+		5226
+		2812
+		2905
+		6881
+		9484
+		9743
+		9745
+		9749
+		256
+		1072
+		1425
+		2755
+		6975
+		8163
+	}
+}
+

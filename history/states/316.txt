@@ -1,0 +1,17 @@
+
+state={
+id = 316
+	name="STATE_316"
+	provinces={
+		18655 18745 18851 18852 
+	}
+	history = {
+		owner = ENG
+	}
+	impassable=yes
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
+

@@ -1,0 +1,20 @@
+state={
+id = 138
+	name="STATE_138"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			14584 = { naval_base = 1 }
+		}
+		victory_points = { 14584 5 }
+	}
+	provinces={
+		14584 
+	}
+	manpower=22844
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

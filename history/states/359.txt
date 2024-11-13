@@ -1,0 +1,46 @@
+#args2
+#48-Austurland.txt
+state = {
+id = 359
+	name = "STATE_359"
+	provinces = {
+		382
+		476
+		804
+		1013
+		1139
+		3030
+		3876
+		4216
+		7642
+		7808
+		9739
+		134
+		1317
+		1323
+		2250
+		4054
+		4411
+		4970
+		5195
+		5298
+		7040
+		7858
+		9740
+		9746
+		9755
+		9769
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	manpower = 2
+	buildings_max_level_factor = 0.000
+	local_supplies = 0.000
+	state_category = wasteland
+}
+

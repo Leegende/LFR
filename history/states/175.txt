@@ -1,0 +1,24 @@
+state={
+id = 175
+	name="STATE_175"
+	history = {
+		add_core_of = ENG
+		owner = ENG
+		buildings = { 
+			20535 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			20535 1
+		}
+	}
+	provinces={
+		20535 20536 
+	}
+	manpower=258367
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

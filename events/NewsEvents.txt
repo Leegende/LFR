@@ -8685,6 +8685,7 @@ news_event = {
 		trigger = {
 			OR = {
 				tag = MEX
+				tag = ARG
 			}
 		}
 	}
@@ -8704,6 +8705,7 @@ news_event = {
 				OR = {
 					tag = USA
 					tag = MEX
+					tag = ARG
 				}
 			}
 		}
@@ -8716,6 +8718,7 @@ news_event = {
 				has_government = democratic
 				tag = USA
 				tag = MEX
+				tag = ARG
 			}
 		}
 	}

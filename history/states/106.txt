@@ -1,0 +1,40 @@
+
+state = {
+id = 106
+	name = "STATE_106"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			19151 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			19151
+			20
+		}
+		victory_points = {
+			19153
+			10
+		}
+	}
+	provinces = {
+		1708
+		17204
+		17545
+		18119
+		19151
+		19153
+		19156
+		17731
+		4211
+		16128
+		18055
+	}
+	manpower = 114120
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

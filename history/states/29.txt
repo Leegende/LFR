@@ -1,0 +1,95 @@
+#args3
+#1620.txt
+#1621.txt
+state = {
+id = 29
+	name = "STATE_29"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			15356 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			15356
+			40
+		}
+		victory_points = {
+			5843
+			5
+		}
+		victory_points = {
+			20020
+			25
+		}
+		victory_points = {
+			15438
+			5
+		}
+		victory_points = {
+			15461
+			5
+		}
+		victory_points = {
+			7121
+			5
+		}
+		victory_points = {
+			15418
+			2
+		}
+		victory_points = {
+			5351
+			10
+		}
+		victory_points = {
+			15350
+			20
+		}
+		victory_points = {
+			2068
+			5
+		}
+	}
+	provinces = {
+		20540
+		3253
+		5079
+		15356
+		15378
+		15395
+		5843
+		15491
+		16394
+		4689
+		7072
+		15413
+		20020
+		7087
+		15438
+		15461
+		20033
+		7121
+		15361
+		15418
+		15419
+		4007
+		5351
+		15480
+		6037
+		15350
+		20032
+		2068
+		6420
+		15452
+		20537
+		15083
+	}
+	manpower = 4000300
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}
+

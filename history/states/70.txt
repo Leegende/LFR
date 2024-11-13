@@ -1,0 +1,25 @@
+
+state={
+id = 70
+	name="STATE_70"
+					
+	history={
+		owner = ITA
+		add_core_of = ENG
+		buildings = {
+		}
+	
+	    victory_points = {
+		    4456 5 #El Agelat
+			}
+	}
+	
+	provinces={
+		4110 4456 21089 
+	}
+	manpower=46559
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

@@ -1365,6 +1365,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1372,6 +1373,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1379,12 +1381,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}			
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}
 
@@ -1455,6 +1459,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1462,6 +1467,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1469,12 +1475,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}						
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}			
 
@@ -1533,6 +1541,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1540,6 +1549,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1547,12 +1557,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}			
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}
 
@@ -1623,6 +1635,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1630,6 +1643,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1637,12 +1651,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}			
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}
 
@@ -1713,6 +1729,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1720,6 +1737,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1727,12 +1745,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}			
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}
 
@@ -1804,6 +1824,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 3
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1811,6 +1832,7 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 2
+					slots = { political_advisor }
 				}
 			}
 			modifier = {
@@ -1818,12 +1840,14 @@ country_event = {
 				has_war = no
 				amount_taken_ideas = {
 					amount < 1
+					slots = { political_advisor }
 				}
 			}			
 			modifier = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
+					slots = { army_chief }
 				}
 			}
 

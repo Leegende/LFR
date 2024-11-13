@@ -1,0 +1,88 @@
+#args3
+#1056.txt
+#974.txt
+state = {
+id = 8
+	name = "STATE_8"
+	provinces = {
+		1467
+		1843
+		3762
+		4875
+		5667
+		6199
+		6810
+		7798
+		15247
+		15296
+		19811
+		19812
+		1350
+		2210
+		5529
+		6167
+		8354
+		8455
+		15309
+		15340
+		19779
+		19780
+		4996
+		6750
+		8493
+		15155
+		15184
+		15192
+		15207
+	}
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			15247 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			6199
+			5
+		}
+		victory_points = {
+			1843
+			2
+		}
+		victory_points = {
+			15247
+			40
+		}
+		victory_points = {
+			15309
+			5
+		}
+		victory_points = {
+			19779
+			5
+		}
+		victory_points = {
+			19780
+			20
+		}
+		victory_points = {
+			5529
+			20
+		}
+		victory_points = {
+			15192
+			10
+		}
+		victory_points = {
+			4996
+			2
+		}
+	}
+	manpower = 1961800
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = metropolis
+}
+

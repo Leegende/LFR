@@ -18574,7 +18574,7 @@
 18573;28;61;31;land;false;mountain;1
 18574;2;11;89;lake;false;lakes;1
 18575;17;83;27;lake;false;lakes;7
-18576;74;24;40;land;true;plains;7
+18576;74;24;40;land;false;plains;5
 18577;9;7;88;lake;false;lakes;1
 18578;46;21;63;lake;false;lakes;1
 18579;7;95;47;lake;false;lakes;7
@@ -19220,7 +19220,7 @@
 19219;78;49;20;land;false;plains;1
 19220;9;63;39;land;false;plains;1
 19221;92;9;1;lake;true;lakes;7
-19222;41;30;59;land;true;lakes;7
+19222;41;30;59;land;false;desert;5
 19223;90;7;38;land;false;mountain;1
 19224;1;91;46;land;false;mountain;1
 19225;180;255;46;land;false;mountain;7

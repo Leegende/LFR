@@ -73,7 +73,7 @@ GER_fighter = {
 		priority = {
 			factor = 10
 			modifier = { 
-				
+				has_tech = advanced_small_airframe 
 				factor = 0 #let's not waste XP here
 			}
 		}

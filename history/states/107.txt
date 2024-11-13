@@ -1,0 +1,48 @@
+#args4
+#242.txt
+#244.txt
+#275.txt
+state = {
+id = 107
+	name = "STATE_107"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+	provinces = {
+		9039
+		9492
+		10615
+		16721
+		19952
+		19953
+		3092
+		9044
+		10743
+		17371
+		19930
+		20460
+		1297
+		6481
+		6742
+		10651
+		10693
+		10762
+		20461
+		2938
+		4651
+		5439
+		6467
+		7360
+		7685
+		10915
+		10951
+		18139
+		19950
+	}
+}
+

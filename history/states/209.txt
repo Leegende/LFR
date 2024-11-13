@@ -1,0 +1,65 @@
+#args3
+#1824.txt
+#1858.txt
+state = {
+id = 209
+	name = "STATE_209"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			21014 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			21014
+			10
+		}
+		victory_points = {
+			20917
+			5
+		}
+		victory_points = {
+			20922
+			1
+		}
+		victory_points = {
+			21012
+			20
+		}
+		victory_points = {
+			21013
+			5
+		}
+		victory_points = {
+			20921
+			2
+		}
+		victory_points = {
+			21011
+			20
+		}
+	}
+	provinces = {
+		20924
+		21014
+		20915
+		20917
+		20918
+		20920
+		20922
+		21012
+		20916
+		20919
+		20921
+		20923
+		21011
+		21013
+	}
+	manpower = 1114253
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

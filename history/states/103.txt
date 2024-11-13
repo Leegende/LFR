@@ -1,0 +1,20 @@
+
+state={
+id = 103
+	name="STATE_103"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+
+	provinces={
+		367 1223 3827 6099 6446 10066 10070 10090 16114 16163 17021 18135 18167 19972 19979 4973
+	}
+	
+}
+

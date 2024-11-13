@@ -9046,6 +9046,8 @@ SOV_infiltrate_foreign_atomic_programs_dec_cat = {
 			modifier = {
 				factor = 0.5
 				OR = {
+					has_tech = nukes
+					is_researching_technology = nukes
 				}
 			}
 		}
@@ -9062,6 +9064,7 @@ SOV_infiltrate_foreign_atomic_programs_dec_cat = {
 
 		available = {
 			NOT = { has_country_flag = SOV_nuclear_espionage_ongoing_flag }
+			FROM = { has_tech = atomic_research }
 		}
 
 		visible = {

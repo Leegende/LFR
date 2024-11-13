@@ -212,7 +212,7 @@ nuclear_espionage = { ### 1/50
 	}
 	available = {
 		FROM = {
-			has_tech = 
+			has_tech = atomic_research
 			NOT = { has_war_with = ROOT }
 		}
 	}
@@ -222,6 +222,7 @@ nuclear_espionage = { ### 1/50
 			is_major = yes
 			NOT = { has_country_flag = SOV_nuclear_espionage_flag } # This operation can only be done once in a country
 			NOT = { has_war_with = ROOT }
+			has_tech = atomic_research
 		}
 	}
 

@@ -1,0 +1,65 @@
+
+state = {
+id = 30
+	name = "STATE_30"
+	provinces = {
+		1516
+		4758
+		5851
+		9384
+		15422
+		19771
+		19798
+		110
+		1039
+		1611
+		1785
+		4047
+		4165
+		7546
+		15411
+		19796
+		2830
+		4706
+		5098
+		5892
+		6552
+		15513
+		19767
+		19770
+	}
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			19771 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			19771
+			10
+		}
+		victory_points = {
+			7546
+			40
+		}
+		victory_points = {
+			1785
+			2
+		}
+		victory_points = {
+			19770
+			10
+		}
+		victory_points = {
+			19767
+			20
+		}
+	}
+	manpower = 1721300
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
+}
+

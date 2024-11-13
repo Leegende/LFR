@@ -1,0 +1,72 @@
+#args5
+#2059.txt
+#2069.txt
+#2122.txt
+#2123.txt
+state = {
+id = 241
+	name = "STATE_159"
+	provinces = {
+		2025
+		13272
+		12436
+		12357
+		2965
+		5957
+		4731
+		3709
+		9243
+		8295
+		7182
+		947
+		4320
+
+		4444
+
+		1597
+		1701
+		12433
+		119
+		4058
+		7910
+		9061
+		12476
+		12532
+		12575
+		2966
+		3532
+		12096
+		12223
+		12263
+		12300
+		12315
+		12569
+		3652
+		4927
+		7301
+		12437
+		12507
+		12513
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			12532
+			5
+		}
+		victory_points = {
+			8295
+			5
+		}
+	}
+	manpower = 730621
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

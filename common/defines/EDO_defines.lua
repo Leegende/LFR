@@ -5,7 +5,7 @@ NDefines.NFrontend.CAMERA_MIN_HEIGHT = 50.0
 NDefines.NFrontend.CAMERA_MAX_HEIGHT = 3800.0
 NDefines.NGraphics.PROVINCE_NAME_DRAW_DISTANCE = 1000.0 			-- Remove province names beyond this distance
 
-NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 3
+NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 1.74
 NDefines.NGame.SAVE_VERSION = 7
 NDefines.NGame.HANDS_OFF_START_TAG = "LIE"
 

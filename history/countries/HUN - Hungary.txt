@@ -40,39 +40,7 @@ set_technology = {
 set_cosmetic_tag = HUN_neutrality
 
 
-recruit_character = HUN_miklos_horthy
-recruit_character = HUN_matyas_rakosi
-recruit_character = HUN_arpad_szakasits
-recruit_character = HUN_geza_lakatos
-recruit_character = HUN_ivan_hindy
-recruit_character = HUN_karoly_beregfy
-recruit_character = HUN_lajos_veress
-recruit_character = HUN_ferenc_feketehalmyczeydner
-recruit_character = HUN_istvan_szechenyi
-recruit_character = HUN_francois_deak
-recruit_character = HUN_gyorgy_jendrassik
-recruit_character = HUN_jeno_ratz
-recruit_character = HUN_henrik_werth
-recruit_character = HUN_hugo_sonyi
-recruit_character = HUN_ferenc_szombathelyi
-recruit_character = HUN_gusztav_jany
-recruit_character = HUN_dezso_laszlo
-recruit_character = HUN_reszo_kastner
-recruit_character = HUN_shvoy_kalman
-recruit_character = HUN_sandor_magyarossy
-recruit_character = HUN_bela_rakosi
-recruit_character = HUN_kalman_kanya
-recruit_character = HUN_jozsef_szell
-recruit_character = HUN_vilmos_roder
-recruit_character = HUN_zoltan_tildy
-recruit_character = HUN_laszlo_rajk
-recruit_character = HUN_kalman_daranyi
-recruit_character = HUN_lajos_remenyi_schneller
-recruit_character = HUN_gusztav_gratz
-recruit_character = HUN_gyula_gombos_de_jakfa
-recruit_character = HUN_franz_friedrich
-recruit_character = HUN_ferenc_szalasi
-recruit_character = HUN_otto_von_habsburg
+
 
 set_politics = {
 	ruling_party = neutrality
@@ -100,7 +68,6 @@ create_equipment_variant = {
 		special_type_slot_3 = extra_ammo_storage
 		special_type_slot_4 = extra_ammo_storage
 	}
-	icon = "GFX_HUN_basic_light_tank_medium"
 	upgrades = {
 		tank_nsb_engine_upgrade = 0
 		tank_nsb_armor_upgrade = 9
@@ -129,7 +96,6 @@ if = {
 			tank_nsb_engine_upgrade = 9
 			tank_nsb_armor_upgrade = 9
 		}
-		icon = "GFX_FRA_basic_light_tank_medium"
 	}
 }
 

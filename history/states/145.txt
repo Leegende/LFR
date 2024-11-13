@@ -1,0 +1,50 @@
+#args2
+#738.txt
+state = {
+id = 145
+	name = "STATE_145"
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+		}
+		victory_points = {
+			14354
+			2
+		}
+		victory_points = {
+			7456
+			2
+		}
+		victory_points = {
+			8544
+			10
+		}
+		victory_points = {
+			8299
+			5
+		}
+	}
+	provinces = {
+		4534
+		6321
+		14354
+		18118
+		20244
+		20245
+		7456
+		8339
+		14420
+		8544
+		3662
+		8299
+		9624
+		14236
+		14285
+	}
+	manpower = 525537
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}
+

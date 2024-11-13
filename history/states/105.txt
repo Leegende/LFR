@@ -1,0 +1,83 @@
+#args8
+#1338.txt
+#1341.txt
+#1343.txt
+#2299.txt
+#2300.txt
+#2301.txt
+#2934.txt
+state = {
+id = 105
+	name = "STATE_105"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			16954 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			16954
+			10
+		}
+		victory_points = {
+			17898
+			2
+		}
+		victory_points = {
+			16977
+			80
+		}
+		victory_points = {
+			18230
+			10
+		}
+		victory_points = {
+			16829
+			40
+		}
+		victory_points = {
+			16125
+			40
+		}
+		victory_points = {
+			17690
+			2
+		}
+	}
+	provinces = {
+		3096
+		15906
+		16954
+		17010
+		17898
+		1702
+		8185
+		9273
+		16977
+		6693
+		6777
+		7611
+		18229
+		18230
+		16112
+		17288
+		16084
+		16125
+		16829
+		17466
+		16226
+		17910
+		4329
+		15896
+		16701
+		17690
+		17146
+	}
+	manpower = 169386
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

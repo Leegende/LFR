@@ -1,7 +1,6 @@
-﻿capital = 26
+﻿capital = 1
 
 starting_train_buffer = 5
-starting_truck_buffer = 5
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -14,35 +13,6 @@ if = {
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_intelligence_agency = yes
-	add_ideas = usa_oss
-}
-
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "USA_1936_air_bba"
-		set_technology = {
-			iw_small_airframe = 1
-			basic_small_airframe = 1
-			iw_medium_airframe = 1
-			basic_medium_airframe = 1
-			engines_1 = 1
-			engines_2 = 1
-			aa_lmg = 1
-			early_bombs = 1
-			aircraft_construction = 1
-		}
-	else = {
-		set_air_oob = "USA_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			cv_CAS1 = 1
-			naval_bomber1 = 1
-			CAS1 = 1
-			early_bomber = 1
-		}
-	}
 }
 
 set_research_slots = 4
@@ -80,31 +50,10 @@ set_technology = {
 	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	marines = 1
 	basic_train = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_oob = "USA_1936"
-	set_technology = {
-		gwtank = 1
 
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-	set_oob = "USA_1936_nsb"
-	add_ideas = bureau_of_ordnance_spirit
-}
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -153,7 +102,6 @@ if = {
 }
 
 #Monroe Doctrine
-give_guarantee = CAN
 
 
 
@@ -173,79 +121,12 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
 	great_depression
 	disarmed_nation
 	free_trade
 	home_of_the_free
-	usa_manpower_from_west
-	usa_resources_from_west
 }
-recruit_character = USA_earl_browder
-recruit_character = USA_william_dudley_pelley
-recruit_character = USA_franklin_delano_roosevelt
-recruit_character = USA_george_s_patton
-recruit_character = USA_omar_bradley
-recruit_character = USA_dwight_d_eisenhower
-recruit_character = USA_geoffrey_keyes
-recruit_character = USA_lucian_truscott
-recruit_character = USA_mark_clark
-recruit_character = USA_douglas_macarthur
-recruit_character = USA_walter_krueger
-recruit_character = USA_lloyd_fredendall
-recruit_character = USA_leslie_mcnair
-recruit_character = USA_jonathan_wainwright
-recruit_character = USA_russell_hartle
-recruit_character = USA_leonard_gerow
-recruit_character = USA_edward_brooks
-recruit_character = USA_clarence_huebner
-recruit_character = USA_alexander_patch
-recruit_character = USA_william_simpson
-recruit_character = USA_j_lawton_collins
-recruit_character = USA_courtney_hodges
-recruit_character = USA_joseph_stilwell
-recruit_character = USA_oscar_griswold
-recruit_character = USA_maurice_rose
-recruit_character = USA_alexander_vandegrift
-recruit_character = USA_ernest_king
-recruit_character = USA_chester_w_nimitz
-recruit_character = USA_william_halsey_jr
-recruit_character = USA_frank_jack_fletcher
-recruit_character = USA_raymond_a_spruance
-recruit_character = USA_harold_rainsford_stark
-recruit_character = USA_arleigh_burke
-recruit_character = USA_charles_m_cooke_jr
-recruit_character = USA_carnot_wheeler
-recruit_character = USA_robert_goddard
-recruit_character = USA_robert_oppenheimer
-recruit_character = USA_curtis_lemay
-recruit_character = USA_thomas_kinkaid
-recruit_character = USA_henry_arnold
-recruit_character = USA_dewitt_clinton_ramsey
-recruit_character = USA_harold_mcclelland
-recruit_character = USA_charles_lindbergh
-recruit_character = USA_george_kenney
-recruit_character = USA_john_cannon
-recruit_character = USA_george_marshall
-recruit_character = USA_carl_spaatz
-recruit_character = USA_marc_mitscher
-recruit_character = USA_jimmy_doolittle
-recruit_character = USA_claire_lee_chennault
-recruit_character = USA_john_winant
-recruit_character = USA_henry_morgenthau
-recruit_character = USA_william_donovan
-recruit_character = USA_whittaker_chambers
-recruit_character = USA_robert_taft
-recruit_character = USA_donald_nelson
-recruit_character = USA_joseph_mccarthy
-recruit_character = USA_cordell_hull
-recruit_character = USA_harold_ickes
-recruit_character = USA_william_regnery
-recruit_character = USA_joseph_patterson
-recruit_character = USA_henry_stimson
-recruit_character = USA_victor_perlo
-recruit_character = USA_charles_coughlin
-recruit_character = USA_harry_white
+
 
 
 if = {
@@ -1061,8 +942,6 @@ if = {
 		name_group = USA_CV_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
@@ -1077,8 +956,6 @@ if = {
 		name_group = USA_CV_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
@@ -1094,8 +971,6 @@ if = {
 		name_group = USA_CV_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_deck_slot_1 = ship_deck_space
-			fixed_ship_deck_slot_2 = ship_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_2

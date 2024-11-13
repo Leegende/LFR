@@ -1,0 +1,29 @@
+#args2
+#157.txt
+state = {
+id = 133
+	name = "STATE_133"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+	provinces = {
+		19985
+		19986
+		19987
+		19988
+		19989
+		19990
+		19991
+		19992
+		19993
+		19982
+		19983
+		19984
+	}
+}
+

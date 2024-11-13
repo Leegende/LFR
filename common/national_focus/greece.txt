@@ -4348,7 +4348,15 @@ focus_tree = {
 				show_mio_tooltip = GRE_biamax_organization
 				show_mio_tooltip = GRE_pyrkal_organization
 				show_mio_tooltip = GRE_petropoulos_organization
-				
+				mio:GRE_biamax_organization = {
+					add_mio_size = 1
+				}
+				mio:GRE_pyrkal_organization = {
+					add_mio_size = 1
+				}
+				mio:GRE_petropoulos_organization = {
+					add_mio_size = 1
+				}
 			}
 		}
 	}	
@@ -5284,6 +5292,8 @@ focus_tree = {
 				name = special_bonus
 				bonus = 1.0
 				uses = 2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
 			}
 			custom_effect_tooltip = GRE_mountain_training_effect
 			hidden_effect = { set_technology = { mountain_warfare = 1 } }

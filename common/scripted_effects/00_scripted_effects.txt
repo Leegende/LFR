@@ -1792,7 +1792,7 @@ bba_get_fighter_GER_effect = { #creates a fighter design if necessary and export
 			GER = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -1826,7 +1826,7 @@ bba_get_fighter_GER_effect = { #creates a fighter design if necessary and export
 	else_if = {
 		limit = {
 			GER = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -1880,7 +1880,7 @@ bba_get_cas_GER_effect = { #creates a CAS design if necessary and exports a numb
 			GER = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -1914,7 +1914,7 @@ bba_get_cas_GER_effect = { #creates a CAS design if necessary and exports a numb
 	else_if = {
 		limit = {
 			GER = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -1968,7 +1968,7 @@ bba_get_tac_GER_effect = { #creates a tac design if necessary and exports a numb
 			GER = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2002,7 +2002,7 @@ bba_get_tac_GER_effect = { #creates a tac design if necessary and exports a numb
 	else_if = {
 		limit = {
 			GER = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2079,7 +2079,7 @@ bba_get_heavy_fighter_GER_effect = { #creates a heavy_fighter design if necessar
 			GER = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2114,7 +2114,7 @@ bba_get_heavy_fighter_GER_effect = { #creates a heavy_fighter design if necessar
 	else_if = {
 		limit = {
 			GER = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2206,7 +2206,7 @@ bba_get_fighter_ENG_effect = { #creates a fighter design if necessary and export
 			ENG = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -2240,7 +2240,7 @@ bba_get_fighter_ENG_effect = { #creates a fighter design if necessary and export
 	else_if = {
 		limit = {
 			ENG = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -2314,7 +2314,7 @@ bba_get_cas_ENG_effect = { #creates a CAS design if necessary and exports a numb
 			ENG = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -2349,7 +2349,7 @@ bba_get_cas_ENG_effect = { #creates a CAS design if necessary and exports a numb
 	else_if = {
 		limit = {
 			ENG = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -2404,7 +2404,7 @@ bba_get_tac_ENG_effect = { #creates a tac design if necessary and exports a numb
 			ENG = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2439,7 +2439,7 @@ bba_get_tac_ENG_effect = { #creates a tac design if necessary and exports a numb
 	else_if = {
 		limit = {
 			ENG = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2515,7 +2515,7 @@ bba_get_heavy_fighter_ENG_effect = { #creates a heavy_fighter design if necessar
 			ENG = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2551,7 +2551,7 @@ bba_get_heavy_fighter_ENG_effect = { #creates a heavy_fighter design if necessar
 	else_if = {
 		limit = {
 			ENG = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2608,7 +2608,7 @@ bba_get_fighter_USA_effect = { #creates a fighter design if necessary and export
 			USA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -2642,7 +2642,7 @@ bba_get_fighter_USA_effect = { #creates a fighter design if necessary and export
 	else_if = {
 		limit = {
 			USA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -2697,7 +2697,7 @@ bba_get_cas_USA_effect = { #creates a CAS design if necessary and exports a numb
 			USA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -2731,7 +2731,7 @@ bba_get_cas_USA_effect = { #creates a CAS design if necessary and exports a numb
 	else_if = {
 		limit = {
 			USA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -2786,7 +2786,7 @@ bba_get_tac_USA_effect = { #creates a tac design if necessary and exports a numb
 			USA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2821,7 +2821,7 @@ bba_get_tac_USA_effect = { #creates a tac design if necessary and exports a numb
 	else_if = {
 		limit = {
 			USA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2898,7 +2898,7 @@ bba_get_heavy_fighter_USA_effect = { #creates a heavy_fighter design if necessar
 			USA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -2934,7 +2934,7 @@ bba_get_heavy_fighter_USA_effect = { #creates a heavy_fighter design if necessar
 	else_if = {
 		limit = {
 			USA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -2989,7 +2989,7 @@ bba_get_fighter_ITA_effect = { #creates a fighter design if necessary and export
 			ITA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -3022,7 +3022,7 @@ bba_get_fighter_ITA_effect = { #creates a fighter design if necessary and export
 	else_if = {
 		limit = {
 			ITA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -3077,7 +3077,7 @@ bba_get_cas_ITA_effect = { #creates a CAS design if necessary and exports a numb
 			ITA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -3111,7 +3111,7 @@ bba_get_cas_ITA_effect = { #creates a CAS design if necessary and exports a numb
 	else_if = {
 		limit = {
 			ITA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -3166,7 +3166,7 @@ bba_get_tac_ITA_effect = { #creates a tac design if necessary and exports a numb
 			ITA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -3202,7 +3202,7 @@ bba_get_tac_ITA_effect = { #creates a tac design if necessary and exports a numb
 	else_if = {
 		limit = {
 			ITA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -3280,7 +3280,7 @@ bba_get_heavy_fighter_ITA_effect = { #creates a heavy_fighter design if necessar
 			ITA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -3316,7 +3316,7 @@ bba_get_heavy_fighter_ITA_effect = { #creates a heavy_fighter design if necessar
 	else_if = {
 		limit = {
 			ITA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -3407,7 +3407,7 @@ bba_get_fighter_FRA_effect = { #creates a fighter design if necessary and export
 			FRA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -3441,7 +3441,7 @@ bba_get_fighter_FRA_effect = { #creates a fighter design if necessary and export
 	else_if = {
 		limit = {
 			FRA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -3494,7 +3494,7 @@ bba_get_cas_FRA_effect = { #creates a CAS design if necessary and exports a numb
 			FRA = {
 				has_tech = improved_small_airframe
 				NOT = {
-					
+					has_tech = advanced_small_airframe
 				}
 			}
 		}
@@ -3530,7 +3530,7 @@ bba_get_cas_FRA_effect = { #creates a CAS design if necessary and exports a numb
 	else_if = {
 		limit = {
 			FRA = {
-				
+				has_tech = advanced_small_airframe
 			}
 		}
 		if = {
@@ -3584,7 +3584,7 @@ bba_get_tac_FRA_effect = { #creates a tac design if necessary and exports a numb
 			FRA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -3619,7 +3619,7 @@ bba_get_tac_FRA_effect = { #creates a tac design if necessary and exports a numb
 	else_if = {
 		limit = {
 			FRA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -3697,7 +3697,7 @@ bba_get_heavy_fighter_FRA_effect = { #creates a heavy_fighter design if necessar
 			FRA = {
 				has_tech = improved_medium_airframe
 				NOT = {
-					
+					has_tech = advanced_medium_airframe
 				}
 			}
 		}
@@ -3733,7 +3733,7 @@ bba_get_heavy_fighter_FRA_effect = { #creates a heavy_fighter design if necessar
 	else_if = {
 		limit = {
 			FRA = {
-				
+				has_tech = advanced_medium_airframe
 			}
 		}
 		if = {
@@ -3772,7 +3772,7 @@ bba_get_heavy_fighter_FRA_effect = { #creates a heavy_fighter design if necessar
 bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
-			
+			has_tech = advanced_small_airframe
 		}
 		create_production_license = {
 			target = event_target:license_target
@@ -3811,7 +3811,7 @@ bba_create_cas_license_effect = { #this assumes that the corresponding get_cas_e
 bba_create_fighter_license_effect = { #this assumes that the corresponding get_fighter_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
-			
+			has_tech = advanced_small_airframe
 		}
 		create_production_license = {
 			target = event_target:license_target
@@ -3850,7 +3850,7 @@ bba_create_fighter_license_effect = { #this assumes that the corresponding get_f
 bba_create_tac_license_effect = { #this assumes that the corresponding get_tac_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
-			
+			has_tech = advanced_medium_airframe
 		}
 		create_production_license = {
 			target = event_target:license_target
@@ -3889,7 +3889,7 @@ bba_create_tac_license_effect = { #this assumes that the corresponding get_tac_e
 bba_create_heavy_fighter_license_effect = { #this assumes that the corresponding get_fighter_effect has run already to generate a design template if necessary
 	if = {
 		limit = {
-			
+			has_tech = advanced_medium_airframe
 		}
 		create_production_license = {
 			target = event_target:license_target

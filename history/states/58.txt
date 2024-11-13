@@ -1,0 +1,83 @@
+
+state = {
+id = 58
+	name = "STATE_58"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		}
+		victory_points = {
+			21024
+			2
+		}
+		victory_points = {
+			21022
+			5
+		}
+		victory_points = {
+			7745
+			2
+		}
+		victory_points = {
+			21020
+			2
+		}
+		victory_points = {
+			15693
+			2
+		}
+		victory_points = {
+			21018
+			2
+		}
+		victory_points = {
+			1352
+			2
+		}
+	}
+	provinces = {
+		180
+		836
+		5644
+		15645
+		21024
+		5359
+		21021
+		21643
+		21644
+		1038
+		7745
+		15697
+		21019
+		21022
+		21642
+		828
+		2821
+		5028
+		8618
+		1352
+		15693
+		15703
+		15712
+		21015
+		21016
+		21017
+		21018
+		21020
+		452
+		1826
+		2111
+		2637
+		2762
+		3815
+		5220
+		95
+		4496
+	}
+	manpower = 433607
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

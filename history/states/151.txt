@@ -1,0 +1,107 @@
+#args2
+#1557.txt
+state = {
+id = 151
+	name = "STATE_151"
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		}
+		victory_points = {
+			20342
+			2
+		}
+		victory_points = {
+			5637
+			2
+		}
+		victory_points = {
+			4131
+			5
+		}
+		victory_points = {
+			20293
+			2
+		}
+		victory_points = {
+			3101
+			2
+		}
+		victory_points = {
+			15074
+			20
+		}
+		victory_points = {
+			20292
+			2
+		}
+		victory_points = {
+			955
+			2
+		}
+	}
+	provinces = {
+		7411
+		15003
+		20342
+		5567
+		5637
+		20344
+		4346
+		15084
+		15133
+		15167
+		20285
+		4131
+		7731
+		15072
+		20340
+		20341
+		20345
+		20293
+		6660
+		17548
+		9314
+		20343
+		15110
+		20347
+		20346
+		3101
+		8011
+		1020
+		15074
+		15097
+		20291
+		20292
+		955
+		20295
+		20298
+		20299
+		20300
+		20301
+		20302
+		20303
+		20304
+		20305
+		20306
+		20307
+		20311
+		20312
+		20319
+		20320
+		20310
+		20287
+		20296
+		20289
+		20290
+		20288
+		11865
+		20281
+	}
+	manpower = 1255729
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
+
