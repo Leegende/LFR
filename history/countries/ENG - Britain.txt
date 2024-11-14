@@ -1,15 +1,11 @@
 ﻿capital = 346
-
 set_oob = "ENG_1936"
 set_air_oob = "ENG_1936_air_bba"
-
 starting_train_buffer = 100
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.1
 add_command_power = 20
-
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -34,47 +30,6 @@ set_technology = {
 	gwtank_chassis = 1
 	basic_light_tank_chassis = 1
 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-		basic_torpedo = 1
-		sonar = 1
-		smoke_generator = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_armor_scheme = 1
-		mtg_transport = 1
-		basic_dp_light_battery = 1
-
-
-		early_fighter = 1
-		early_bomber = 1
-		CAS1 = 1
-		fighter1 = 1
-		tactical_bomber1 = 1
-		naval_bomber1 = 1
-	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
-}
 
 add_ideas = {
 	ENG_the_war_to_end_all_wars
@@ -82,27 +37,21 @@ add_ideas = {
 }
 
 set_convoys = 800
-
-if = {
-	limit = { has_dlc = "La Resistance" }
-	create_intelligence_agency = yes
-	set_faction_spymaster = yes
-}
-
+create_intelligence_agency = yes
+set_faction_spymaster = yes
 set_autonomy = {
 	target = IRE
 	autonomous_state = autonomy_dominion
-				 
 }
+
 add_to_tech_sharing_group = commonwealth_research
-
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = yes	##suspended through duration of war, which is handled via event
 }
+
 set_popularities = {
 	democratic = 97
 	fascism = 2
@@ -115,61 +64,10 @@ add_to_faction = IRE
 add_to_faction = YUG
 add_to_faction = GRE
 add_to_faction = FRA
-
-
-
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Nancy Wake"
-		GFX = GFX_portrait_nancy_wake
-		traits = { operative_escape_artist }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ENG }
-	}
-
-	create_operative_leader = {
-		name = "Diana Rowden"
-		GFX = GFX_portrait_diana_rowden
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { ENG }
-	}
-
-	create_operative_leader = {
-		name = "Juan Pujol"
-		GFX = GFX_portrait_juan_pujol
-		traits = { operative_double_agent }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG GER }
-	}
-
-	create_operative_leader = {
-		name = "Dusko Popov"
-		GFX = GFX_portrait_dusko_popov
-		traits = { operative_double_agent }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { ENG GER YUG }
-	}
-}
-
-### Ship Variants ###
-
-
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	
 	create_equipment_variant = {
 		name = "Infantry Breakthrough Light Tank "
 		type = light_tank_chassis_1

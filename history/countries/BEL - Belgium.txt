@@ -6,12 +6,14 @@ set_technology = {
 	tech_trucks = 1
 	basic_train = 1
 }
-set_research_slots = 1
+set_research_slots = 0
 set_convoys = 200
 set_stability = 1 
 set_war_support = 1
 
 add_ideas = {
+	disarmed_nation
+
 }
 
 set_politics = {
