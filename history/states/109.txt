@@ -1,13 +1,10 @@
-#args4
-#174.txt
-#67.txt
-#91.txt
+
 state = {
 id = 109
 	name = "STATE_109"
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = DMZ
+		add_core_of = DMZ
 	}
 	manpower = 1
 	buildings_max_level_factor = 1.000

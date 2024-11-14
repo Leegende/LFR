@@ -1,10 +1,5 @@
-#args5
-#54-J__mtland.txt
-#66-V__sternorrland.txt
-#84-G__vleborg.txt
-#88-Kopparberg.txt
 state = {
-id = 325
+	id = 325
 	name = "STATE_325"
 	provinces = {
 		869
@@ -146,38 +141,10 @@ id = 325
 	history = {
 		owner = SWE
 		add_core_of = SWE
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		victory_points = {
-			9797
-			5
-		}
-		victory_points = {
-			19539
-			5
-		}
-		victory_points = {
-			2098
-			2
-		}
-		victory_points = {
-			19538
-			5
-		}
-		victory_points = {
-			19569
-			2
-		}
-		victory_points = {
-			9339
-			2
-		}
 	}
-	manpower = 948500
-	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

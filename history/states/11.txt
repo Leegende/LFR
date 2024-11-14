@@ -2,8 +2,8 @@ state={
 id = 11
 	name="STATE_11"
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = ITA
+		add_core_of = SWE
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

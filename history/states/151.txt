@@ -40,6 +40,10 @@ id = 151
 			955
 			2
 		}
+		victory_points = {
+			15110
+			2
+		}
 	}
 	provinces = {
 		7411

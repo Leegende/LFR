@@ -5,8 +5,8 @@ id = 191
 
 	name = "STATE_191"
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = DMZ
+		add_core_of = DMZ
 	}
 	manpower = 1
 	buildings_max_level_factor = 1.000

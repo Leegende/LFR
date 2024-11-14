@@ -1,26 +1,21 @@
-state={
-id = 235
-	name="STATE_1976"
-		
-				
+state = {
+	id = 235
+	name = "STATE_235"
 	history = {
-		owner = SPR
-		add_core_of = FRA
+		owner = FRA
+		add_core_of = SWE
 		buildings = {
-			infrastructure = 1
-			347 = { naval_base = 1 }
 		}
-	    victory_points = {
-		    347 2 #Sidi Ifni
-			}
+		victory_points = {
+			347
+			2
+		}
 	}
-	
-	provinces={
-		347 
+	provinces = {
+		347
 	}
-	manpower=16640
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 16640
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

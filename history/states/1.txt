@@ -3,125 +3,8 @@ state = {
 	name = "STATE_1"
 	history = {
 		owner = DMZ
-		buildings = {
-		}
 		add_core_of = DMZ
-		victory_points = {
-			19367
-			80
-		}
-		victory_points = {
-			19370
-			40
-		}
-		victory_points = {
-			19371
-			10
-		}
-		victory_points = {
-			19369
-			10
-		}
-		victory_points = {
-			19368
-			10
-		}
-		victory_points = {
-			19343
-			80
-		}
-		victory_points = {
-			9679
-			20
-		}
-		victory_points = {
-			19364
-			20
-		}
-		victory_points = {
-			19363
-			10
-		}
-		victory_points = {
-			19349
-			5
-		}
-		victory_points = {
-			19346
-			40
-		}
-		victory_points = {
-			19360
-			80
-		}
-		victory_points = {
-			19351
-			40
-		}
-		victory_points = {
-			19352
-			45
-		}
-		victory_points = {
-			19379
-			5
-		}
-		victory_points = {
-			19375
-			5
-		}
-		victory_points = {
-			19374
-			5
-		}
-		victory_points = {
-			19373
-			5
-		}
-		victory_points = {
-			19376
-			20
-		}
-		victory_points = {
-			7747
-			2
-		}
-		victory_points = {
-			19366
-			80
-		}
-		victory_points = {
-			3811
-			10
-		}
-		victory_points = {
-			19365
-			10
-		}
-		victory_points = {
-			3033
-			20
-		}
-		victory_points = {
-			19359
-			20
-		}
-		victory_points = {
-			19358
-			5
-		}
-		victory_points = {
-			19361
-			20
-		}
-		victory_points = {
-			1714
-			10
-		}
-		victory_points = {
-			19362
-			5
-		}
+		
 	}
 	provinces = {
 		10
@@ -220,8 +103,8 @@ state = {
 		19361
 		19362
 	}
-	manpower = 52699606
-	buildings_max_level_factor = 1
+	manpower = 1
+	buildings_max_level_factor = 0
 	local_supplies = 0
-	state_category = megalopolis
+	state_category = wasteland
 }

@@ -1,18 +1,19 @@
-state={
-id = 208
-	name="STATE_208"
+state = {
+	id = 208
+	name = "STATE_208"
 	history = {
-		owner = NOR
-		add_core_of = ENG
+		owner = ENG
+		add_core_of = SWE
 		buildings = {
 		}
 	}
-	provinces={
-		20925 20926 20927 
+	provinces = {
+		20925
+		20926
+		20927
 	}
-	manpower=35
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category=tiny_island
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
 }
-

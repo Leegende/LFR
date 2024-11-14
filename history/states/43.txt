@@ -3,11 +3,8 @@ id = 43
 	name = "STATE_43"
 	history = {
 		owner = FRA
-		add_core_of = ENG
+		add_core_of = SWE
 		buildings = {
-			21315 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
 			21315

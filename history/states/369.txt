@@ -1,39 +1,13 @@
-#args2
-#1618.txt
 state = {
-id = 369
+	id = 369
 	name = "STATE_369"
 	history = {
 		owner = NOR
 		add_core_of = NOR
-		buildings = {
-			infrastructure = 2
-			19451 = {
-				naval_base = 2
-			}
-			industrial_complex = 1
-			industrial_complex = 1
-			dockyard = 1
-		}
-		victory_points = {
-			19451
-			5
-		}
-		victory_points = {
-			7335
-			1
-		}
-		victory_points = {
-			8701
-			2
-		}
-		victory_points = {
-			19517
-			1
-		}
-		
 	}
 	provinces = {
+		5127
+		8242
 		1560
 		1975
 		2042
@@ -162,11 +136,10 @@ id = 369
 		19469
 		19470
 		19521
-		
 	}
-	manpower = 4166197
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-	local_supplies = 0.000
+	manpower = 1
+	buildings_max_level_factor = 1
+	impassable = yes
+	state_category = wasteland
+	local_supplies = 0
 }
-

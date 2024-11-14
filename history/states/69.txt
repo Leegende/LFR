@@ -3,8 +3,8 @@ id = 69
 	name="STATE_69"
 					
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 		}
 	

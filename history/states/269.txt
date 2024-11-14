@@ -1,14 +1,10 @@
-
 state = {
-id = 269
+	id = 269
 	name = "STATE_189"
 	history = {
 		owner = ENG
-		
 		buildings = {
-			infrastructure = 2
 		}
-		set_demilitarized_zone = yes
 		victory_points = {
 			19157
 			80
@@ -31,7 +27,6 @@ id = 269
 	}
 	manpower = 79000
 	state_category = wasteland
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

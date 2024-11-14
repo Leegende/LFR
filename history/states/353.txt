@@ -1,12 +1,10 @@
-
 state = {
-id = 353
+	id = 353
 	name = "STATE_353"
 	history = {
 		owner = IRE
 		add_core_of = IRE
 		buildings = {
-			
 		}
 		victory_points = {
 			19388
@@ -67,8 +65,7 @@ id = 353
 		11874
 	}
 	manpower = 670608
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = rural
 }
-

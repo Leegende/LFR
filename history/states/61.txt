@@ -1,15 +1,15 @@
-
 state = {
-id = 61
+	id = 61
 	name = "STATE_61"
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
 		}
 	}
 	provinces = {
-		18576 19222
+		18576
+		19222
 		1267
 		20963
 		15811
@@ -32,7 +32,6 @@ id = 61
 		15883
 		1008
 		1894
-		
 		2503
 		6071
 		210
@@ -48,15 +47,7 @@ id = 61
 		6335
 		15872
 		15877
-		
-		
 		2417
-		
-		
-		
-		
-		
-		
 		18891
 		187
 		473
@@ -66,9 +57,8 @@ id = 61
 		16189
 	}
 	manpower = 1
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = wasteland
 	impassable = yes
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

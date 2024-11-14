@@ -1,20 +1,18 @@
-
-state={
-id = 26
-	name="STATE_26"
+state = {
+	id = 26
+	name = "STATE_26"
 	history = {
-		owner = ITA
-		add_core_of = ITA
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
-		
 		}
 	}
-	provinces={
-		712 
+	provinces = {
+		712
 	}
-	manpower=8864
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category = enclave
+	manpower = 1
+	impassable = yes
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = wasteland
 }
-

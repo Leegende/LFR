@@ -1,5 +1,5 @@
 state = {
-id = 7
+	id = 7
 	name = "STATE_7"
 	provinces = {
 		618
@@ -120,7 +120,6 @@ id = 7
 			40
 		}
 		buildings = {
-			
 		}
 		victory_points = {
 			15048
@@ -132,8 +131,7 @@ id = 7
 		}
 	}
 	manpower = 653121
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

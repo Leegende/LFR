@@ -1,124 +1,9 @@
-
 state = {
-id = 35
+	id = 35
 	name = "STATE_35"
 	history = {
 		owner = SWE
 		add_core_of = SWE
-		buildings = {
-		}
-		victory_points = {
-			19532
-			5
-		}
-		victory_points = {
-			3857
-			10
-		}
-		victory_points = {
-			10027
-			2
-		}
-		victory_points = {
-			19537
-			10
-		}
-		victory_points = {
-			19535
-			10
-		}
-		victory_points = {
-			19594
-			2
-		}
-		victory_points = {
-			19536
-			5
-		}
-		victory_points = {
-			10092
-			2
-		}
-		victory_points = {
-			944
-			2
-		}
-		victory_points = {
-			19542
-			80
-		}
-		victory_points = {
-			19531
-			40
-		}
-		victory_points = {
-			19534
-			10
-		}
-		victory_points = {
-			10137
-			5
-		}
-		victory_points = {
-			3916
-			2
-		}
-		victory_points = {
-			6413
-			5
-		}
-		victory_points = {
-			4811
-			3
-		}
-		victory_points = {
-			2701
-			2
-		}
-		victory_points = {
-			19530
-			5
-		}
-		victory_points = {
-			6329
-			5
-		}
-		victory_points = {
-			10537
-			2
-		}
-		victory_points = {
-			238
-			2
-		}
-		victory_points = {
-			10475
-			2
-		}
-		victory_points = {
-			10646
-			20
-		}
-		victory_points = {
-			19533
-			10
-		}
-		victory_points = {
-			5438
-			2
-		}
-		victory_points = {
-			7431
-			2
-		}
-		victory_points = {
-			10248
-			5
-		}
-		victory_points = {
-			10184
-			2
-		}
 	}
 	provinces = {
 		338
@@ -389,9 +274,9 @@ id = 35
 		19629
 		19628
 	}
-	manpower = 4913447
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 0.000
+	manpower = 1
+	buildings_max_level_factor = 1
+	impassable = yes
+	state_category = wasteland
+	local_supplies = 0
 }
-

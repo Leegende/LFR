@@ -1,16 +1,10 @@
-#args3
-#1824.txt
-#1858.txt
 state = {
-id = 209
+	id = 209
 	name = "STATE_209"
 	history = {
 		owner = ENG
-		add_core_of = ENG
+		add_core_of = SWE
 		buildings = {
-			21014 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
 			21014
@@ -57,9 +51,8 @@ id = 209
 		21011
 		21013
 	}
-	manpower = 1114253
+	manpower = 1
 	state_category = city
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

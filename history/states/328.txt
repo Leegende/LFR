@@ -1,27 +1,11 @@
-#args7
-#1520.txt
-#1521.txt
-#2939.txt
-#1524.txt
-#2242.txt
-#2372.txt
 state = {
-id = 328
+	id = 328
 	name = "STATE_328"
-	resources = {
-		aluminium = 3
-	}
 	history = {
-		owner = ALB
-		add_core_of = ALB
-		
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-			industrial_complex = 1
 		}
-		
 		victory_points = {
 			6282
 			2
@@ -69,12 +53,6 @@ id = 328
 		20235
 		2237
 		9634
-		
-		
-		
-		
-		
-		
 		20241
 		20279
 		6282
@@ -126,8 +104,7 @@ id = 328
 		20215
 	}
 	manpower = 1401743
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

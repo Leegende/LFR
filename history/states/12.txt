@@ -1,5 +1,5 @@
 state = {
-id = 12
+	id = 12
 	name = "STATE_12"
 	provinces = {
 		2585
@@ -21,11 +21,6 @@ id = 12
 		5784
 		20258
 		20272
-		
-		
-		
-		
-		
 		20332
 		20252
 		20308
@@ -56,7 +51,6 @@ id = 12
 		owner = GRE
 		add_core_of = GRE
 		buildings = {
-			
 		}
 		victory_points = {
 			20327
@@ -86,14 +80,10 @@ id = 12
 			20256
 			5
 		}
-		victory_points = {
-			15110
-			2
-		}
+		
 	}
 	manpower = 3259576
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

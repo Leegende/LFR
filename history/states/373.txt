@@ -1,4 +1,3 @@
-
 state={
 id = 373
 	name="STATE_373"
@@ -10,11 +9,6 @@ id = 373
 		add_core_of = SWE
 		victory_points = { 19385 10 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			19385 = {
-				naval_base = 1
-			}
 		}
 	}
 	manpower=284872

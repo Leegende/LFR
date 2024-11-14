@@ -1,6 +1,5 @@
-
 state = {
-id = 38
+	id = 38
 	name = "STATE_38"
 	history = {
 		owner = NOR
@@ -38,7 +37,6 @@ id = 38
 			9521
 			2
 		}
-		
 	}
 	provinces = {
 		140
@@ -98,8 +96,6 @@ id = 38
 		2968
 		3752
 		3867
-		5127
-		8242
 		8398
 		9785
 		9792
@@ -148,13 +144,9 @@ id = 38
 		19524
 		19525
 		19526
-		
-		
-	
 	}
 	manpower = 2962230
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = town
 }
-

@@ -1,25 +1,16 @@
-state={
-id = 340
-	name="STATE_340"
-	provinces={
-		5603 
+state = {
+	id = 340
+	name = "STATE_340"
+	provinces = {
+		5603
 	}
-	resources = {
-		chromium = 40
-		rubber = 68
-	}
-	history={
+	history = {
 		owner = BEL
 		buildings = {
-			infrastructure = 1
-			5603 = {
-				naval_base = 5
-			}
 		}
-    }
-	manpower=11184000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	}
+	manpower = 11184000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = pastoral
 }
-

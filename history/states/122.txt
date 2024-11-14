@@ -1,12 +1,9 @@
-
-state={
-id = 122
-	name="STATE_122"
-	
-	history={
-		owner = POL
-		
-		add_core_of = POL
+state = {
+	id = 122
+	name = "STATE_122"
+	history = {
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 		}
 		victory_points = {
@@ -42,8 +39,7 @@ id = 122
 		19176
 	}
 	manpower = 540207
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }
-
