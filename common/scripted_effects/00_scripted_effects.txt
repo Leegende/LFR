@@ -180,68 +180,9 @@ GER_democratic_nations_ai_strategies = {
 		value = -200
 	}
 	# Estonia
-	add_ai_strategy = {
-		type = protect
-		id = "EST"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = ignore
-		id = "EST"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = befriend
-		id = "EST"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = alliance
-		id = "EST"
-		value = -200
-	}
-	# Latvia
-	add_ai_strategy = {
-		type = protect
-		id = "LAT"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = ignore
-		id = "LAT"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = befriend
-		id = "LAT"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = alliance
-		id = "LAT"
-		value = -200
-	}
+	
 	# Lithuania
-	add_ai_strategy = {
-		type = protect
-		id = "LIT"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = ignore
-		id = "LIT"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = befriend
-		id = "LIT"
-		value = -200
-	}
-	add_ai_strategy = {
-		type = alliance
-		id = "LIT"
-		value = -200
-	}
+	
 	# Romania
 	add_ai_strategy = {
 		type = protect
@@ -672,7 +613,6 @@ remove_naval_treaty_effect = {
 }
 
 civil_war_anti_exploiter_punitive_action = {
-	# Anti-exploiter punitive brigades! BET YA DIDN'T SEE THAT COMING DID YA?!
 	if = {
 		limit = {
 			has_army_size = {
@@ -1164,84 +1104,9 @@ gain_random_agency_upgrade = { #Gives a random agency upgrade or grants a free a
 	}
 }
 
-join_allies_effect = {
-	if = {
-		limit = {
-			ENG = {
-				is_faction_leader = yes
-				has_government = democratic
-				not = { has_war_with = ROOT }
-			}
-		}
-		ENG = { country_event = generic.2 }
-	}
-	else = {
-		get_best_alliance_match_democratic_effect = yes
-		var:best_leader = {
-			country_event = generic.2
-		}
-	}
-}
 
-#Should remove any and all fascist foreign influence, to be updated
-remove_fascist_spirits_effect = {
-	if = {
-		limit = { has_idea = fascist_influence }
-		remove_ideas = fascist_influence
-	}
-	if = {
-		limit = { has_idea = american_influence_drift_fascism }
-		remove_ideas = american_influence_drift_fascism
-	}
-	if = {
-		limit = { has_idea = GER_align_hungary }
-		remove_ideas = GER_align_hungary
-	}
-	if = {
-		limit = { has_idea = GER_align_romania }
-		remove_ideas = GER_align_romania
-	}
-}
 
-#Should remove any and all communist foreign influence
-remove_communist_spirits_effect = {
-	if = {
-		limit = { has_idea = american_influence_drift_communism }
-		remove_ideas = american_influence_drift_communism
-	}
-	if = {
-		limit = { has_idea = comintern_influence }
-		remove_ideas = comintern_influence
-	}
-	if = {
-		limit = { has_idea = pan_slavic_propaganda }
-		remove_ideas = pan_slavic_propaganda
-	}
-	if = {
-		limit = { has_idea = agitated_peasants }
-		remove_ideas = agitated_peasants
-	}
-	if = {
-		limit = { has_idea = armed_communist_militants }
-		remove_ideas = armed_communist_militants
-	}
-	if = {
-		limit = { has_idea = BALTIC_communist_propaganda }
-		remove_ideas = BALTIC_communist_propaganda
-	}
-	if = {
-		limit = { has_idea = BALTIC_communist_militancy }
-		remove_ideas = BALTIC_communist_militancy
-	}
-}
 
-#Should remove any and all democratic foreign influence
-remove_democratic_spirits_effect = {
-	if = {
-		limit = { has_idea = democratic_influence }
-		remove_ideas = democratic_influence
-	}
-}
 
 #Adds current ruling popularity to a new ideology - useful to represent ideological shifts within the same party
 add_ruling_to_dem = {
