@@ -1,7 +1,7 @@
 #args2
 #234.txt
 state = {
-id = 251
+	id = 251
 	name = "STATE_170"
 	provinces = {
 		9638
@@ -11,8 +11,6 @@ id = 251
 		3536
 		7268
 		10414
-
-
 		10470
 		10519
 		4101
@@ -51,7 +49,6 @@ id = 251
 			industrial_complex = 1
 			dockyard = 2
 		}
-		
 		victory_points = {
 			10519
 			1
@@ -64,9 +61,12 @@ id = 251
 			6749
 			10
 		}
+		victory_points = {
+			10470
+			2
+		}
 	}
 	manpower = 1896500
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
 }
-

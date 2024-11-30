@@ -93,30 +93,12 @@ id = 268
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			20146
-			2
-		}
-		victory_points = {
-			20190
-			2
-		}
-		victory_points = {
-			20171
-			5
-		}
-		victory_points = {
-			14668
-			10
-		}
-		victory_points = {
-			14668
-			10
-		}
-		victory_points = {
-			4403
-			2
-		}
+		
+		
+		
+		
+		
+		
 		victory_points = {
 			10492
 			10

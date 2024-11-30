@@ -1,8 +1,7 @@
-
-state={
-id = 352
-	name="STATE_352"
-	provinces={
+state = {
+	id = 352
+	name = "STATE_352"
+	provinces = {
 		11260
 		1865
 		1080
@@ -61,7 +60,6 @@ id = 352
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 3
 		}
@@ -73,10 +71,25 @@ id = 352
 			11379
 			20
 		}
+		victory_points = {
+			11548
+			5
+		}
+		victory_points = {
+			1361
+			2
+		}
+		victory_points = {
+			18650
+			2
+		}
+		victory_points = {
+			506
+			2
+		}
 	}
-	manpower=17452
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 17452
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

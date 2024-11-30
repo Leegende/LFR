@@ -63,10 +63,7 @@ id = 253
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			12750
-			5
-		}
+		
 		victory_points = {
 			6360
 			10

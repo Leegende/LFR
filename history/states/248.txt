@@ -150,18 +150,12 @@ id = 248
 			11394
 			20
 		}
-		victory_points = {
-			4358
-			2
-		}
+		
 		victory_points = {
 			19075
 			2
 		}
-		victory_points = {
-			16873
-			2
-		}
+		
 		
 		
 	}

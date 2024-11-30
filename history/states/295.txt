@@ -1,8 +1,5 @@
-#args3
-#2422.txt
-#2423.txt
 state = {
-id = 295
+	id = 295
 	name = "STATE_218"
 	provinces = {
 		1772
@@ -22,26 +19,6 @@ id = 295
 		2473
 		4653
 		6542
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		1153
 		1614
 		2463
@@ -51,43 +28,35 @@ id = 295
 		12188
 		12217
 		12296
-		
 		12384
-		
 		3191
 		3906
-		
 		5043
 		5749
 		5997
 		6278
-		
 		6844
-		
-		
 		8732
 		12540
 		12595
 		12662
 		12714
-		
 		18368
 	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
-		
-		
 		buildings = {
 			infrastructure = 3
 		}
-		
 		victory_points = {
 			7343
 			20
 		}
-		
+		victory_points = {
+			12610
+			2
+		}
 		victory_points = {
 			12188
 			20
@@ -107,7 +76,6 @@ id = 295
 	}
 	manpower = 800973
 	state_category = large_town
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

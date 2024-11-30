@@ -39,30 +39,15 @@ id = 299
 			2
 		}
 		
-		victory_points = {
-			8742
-			10
-		}
-		victory_points = {
-			8960
-			2
-		}
-		victory_points = {
-			1726
-			2
-		}
+	
+		
+		
 		victory_points = {
 			9002
 			2
 		}
-		victory_points = {
-			5804
-			5
-		}
-		victory_points = {
-			9145
-			2
-		}
+		
+		
 
 	}
 	provinces = {

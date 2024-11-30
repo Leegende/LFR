@@ -1,17 +1,8 @@
-#args3
-#840.txt
-#852.txt
 state = {
-id = 376
+	id = 376
 	name = "STATE_376"
-	resources = {
-		steel = 25.000
-		aluminium = 11.000
-	}
 	provinces = {
 		149
-		
-		
 		3923
 		4167
 		6829
@@ -46,20 +37,12 @@ id = 376
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		
-		
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			
-			arms_factory = 1
-			dockyard = 1
 		}
 		victory_points = {
 			14431
 			20
 		}
-		
 		victory_points = {
 			20492
 			5
@@ -74,8 +57,7 @@ id = 376
 		}
 	}
 	manpower = 1392630
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

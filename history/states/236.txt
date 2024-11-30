@@ -77,10 +77,7 @@ id = 236
 		
 		
 		
-		victory_points = {
-			10895
-			5
-		}
+		
 		
 		victory_points = {
 			10920
@@ -106,10 +103,7 @@ id = 236
 			6231
 			5
 		}
-		victory_points = {
-			7764
-			5
-		}
+		
 		victory_points = {
 			19922
 			5

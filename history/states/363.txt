@@ -1,11 +1,9 @@
-
 state = {
-id = 363
+	id = 363
 	name = "STATE_363"
 	history = {
 		owner = SOV
 		buildings = {
-			
 		}
 		add_core_of = SOV
 		victory_points = {
@@ -16,9 +14,26 @@ id = 363
 			16723
 			10
 		}
-
-
-
+		victory_points = {
+			5025
+			5
+		}
+		victory_points = {
+			14544
+			2
+		}
+		victory_points = {
+			7491
+			5
+		}
+		victory_points = {
+			14498
+			2
+		}
+		victory_points = {
+			14463
+			2
+		}
 	}
 	provinces = {
 		14542
@@ -73,8 +88,7 @@ id = 363
 		9367
 	}
 	manpower = 52699606
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = megalopolis
 }
-

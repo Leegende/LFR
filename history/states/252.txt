@@ -10,7 +10,7 @@
 #2687.txt
 #436.txt
 state = {
-id = 252
+	id = 252
 	name = "STATE_171"
 	provinces = {
 		438
@@ -21,32 +21,18 @@ id = 252
 		12452
 		12499
 		12572
-		
-		
-		
-		
 		7169
-		
 		4298
-		
 		6813
 		12238
-		
-		
-		
-		
 		8203
-		
 		8917
-		
 		12174
 		876
 		8854
 		12308
 		12432
 		15772
-		
-		
 		4035
 		5234
 		5256
@@ -96,21 +82,18 @@ id = 252
 		}
 		owner = SOV
 		add_core_of = SOV
-		
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		victory_points = {
-			4731
-			5
-		}
-		victory_points = {
 			6813
 			1
 		}
-		
+		victory_points = {
+			12750
+			5
+		}
 		victory_points = {
 			12308
 			5
@@ -118,10 +101,6 @@ id = 252
 		victory_points = {
 			8854
 			2
-		}
-		victory_points = {
-			2025
-			80
 		}
 		victory_points = {
 			12573
@@ -137,8 +116,7 @@ id = 252
 		}
 	}
 	manpower = 2331895
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

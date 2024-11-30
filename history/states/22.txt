@@ -1,6 +1,5 @@
-
 state = {
-id = 22
+	id = 22
 	name = "STATE_22"
 	provinces = {
 		436
@@ -38,9 +37,6 @@ id = 22
 		19784
 		19799
 	}
-	resources = {
-		tungsten = 4.000
-	}
 	history = {
 		owner = SPR
 		add_core_of = SPR
@@ -72,8 +68,7 @@ id = 22
 		}
 	}
 	manpower = 1205513
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = large_city
 }
-

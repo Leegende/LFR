@@ -1,20 +1,13 @@
-#args2
-#2650.txt
 state = {
-id = 285
+	id = 285
 	name = "STATE_207"
-	resources = {
-		aluminium = 6.000
-	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
-		
 		victory_points = {
 			6513
 			10
@@ -27,38 +20,8 @@ id = 285
 			4848
 			2
 		}
-		
-		victory_points = {
-			18127
-			10
-		}
-		
-		victory_points = {
-			5025
-			5
-		}
-		victory_points = {
-			14544
-			2
-		}
 		victory_points = {
 			917
-			2
-		}
-		victory_points = {
-			7491
-			5
-		}
-		victory_points = {
-			14498
-			2
-		}
-		victory_points = {
-			14463
-			2
-		}
-		victory_points = {
-			5980
 			2
 		}
 		victory_points = {
@@ -118,9 +81,6 @@ id = 285
 		16961
 		455
 		1017
-
-		
-		
 		1566
 		1789
 		2299
@@ -128,7 +88,6 @@ id = 285
 		7079
 		8758
 		8885
-
 		9968
 		9983
 		10013
@@ -136,7 +95,6 @@ id = 285
 		10044
 		10073
 		10106
-
 		56
 		286
 		917
@@ -146,7 +104,6 @@ id = 285
 		2300
 		2464
 		2744
-
 		2746
 		2787
 		2844
@@ -161,9 +118,6 @@ id = 285
 		8074
 		8621
 		8665
-
-
-
 		63
 		2404
 		2718
@@ -180,18 +134,6 @@ id = 285
 		10034
 		16120
 		16287
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
 		1131
 		1673
 		2005
@@ -298,8 +240,7 @@ id = 285
 		18968
 	}
 	manpower = 2540309
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

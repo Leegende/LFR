@@ -1,9 +1,10 @@
-
-state={
-id = 335
-	name="STATE_335"
-	provinces={
-		11023 10949 10918
+state = {
+	id = 335
+	name = "STATE_335"
+	provinces = {
+		11023
+		10949
+		10918
 		1322
 		4962
 		10925
@@ -31,7 +32,6 @@ id = 335
 		9145
 		1763
 		10881
-
 		11154
 		11084
 		11114
@@ -40,14 +40,11 @@ id = 335
 		11240
 		7812
 		3225
-
-		
 		1726
 		2185
 		2878
 		4916
 		6789
-
 		8742
 		8960
 		10994
@@ -55,7 +52,6 @@ id = 335
 		11184
 		11272
 		11273
-
 		1061
 		6440
 		11140
@@ -63,15 +59,12 @@ id = 335
 		6586
 		747
 		6297
-
 	}
-	history={
+	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 2
-
 		}
 		victory_points = {
 			1322
@@ -85,10 +78,29 @@ id = 335
 			11347
 			2
 		}
+		victory_points = {
+			8742
+			10
+		}
+		victory_points = {
+			8960
+			2
+		}
+		victory_points = {
+			1726
+			2
+		}
+		victory_points = {
+			5804
+			5
+		}
+		victory_points = {
+			9145
+			2
+		}
 	}
 	state_category = rural
-	manpower=1
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

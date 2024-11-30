@@ -109,10 +109,7 @@ id = 242
 			8175
 			10
 		}
-		victory_points = {
-			12935
-			1
-		}
+		
 		victory_points = {
 			15840
 			5

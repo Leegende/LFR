@@ -114,14 +114,8 @@ id = 264
 		}
 		
 		
-		victory_points = {
-			1361
-			2
-		}
-		victory_points = {
-			18650
-			2
-		}
+		
+		
 		victory_points = {
 			10959
 			10
@@ -130,10 +124,7 @@ id = 264
 			11163
 			20
 		}
-		victory_points = {
-			506
-			2
-		}
+		
 	}
 	manpower = 1860837
 	state_category = metropolis

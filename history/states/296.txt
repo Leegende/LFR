@@ -103,10 +103,7 @@ id = 296
 			5
 		}
 		
-		victory_points = {
-			12610
-			2
-		}
+		
 	}
 	manpower = 1495632
 	state_category = pastoral

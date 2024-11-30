@@ -2,12 +2,11 @@
 #2620.txt
 #270.txt
 state = {
-id = 322
+	id = 322
 	name = "STATE_322"
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -43,6 +42,10 @@ id = 322
 		victory_points = {
 			11321
 			2
+		}
+		victory_points = {
+			11327
+			5
 		}
 	}
 	provinces = {
@@ -128,8 +131,7 @@ id = 322
 		11357
 	}
 	manpower = 2063007
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

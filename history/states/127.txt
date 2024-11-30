@@ -74,6 +74,10 @@ id = 127
 			13040
 			20
 		}
+		victory_points = {
+			6771
+			2
+		}
 	}
 	manpower = 2201300
 	buildings_max_level_factor = 1.000

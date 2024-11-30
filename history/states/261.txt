@@ -156,22 +156,10 @@ id = 261
 		
 		
 		
-		victory_points = {
-			18999
-			10
-		}
-		victory_points = {
-			1863
-			5
-		}
-		victory_points = {
-			8129
-			5
-		}
-		victory_points = {
-			10708
-			5
-		}
+		
+		
+		
+		
 		victory_points = {
 			18528
 			40
@@ -184,10 +172,7 @@ id = 261
 			11432
 			10
 		}
-		victory_points = {
-			11327
-			5
-		}
+		
 		victory_points = {
 			11320
 			2

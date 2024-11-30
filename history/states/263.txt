@@ -76,10 +76,7 @@ id = 263
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		victory_points = {
-			11548
-			5
-		}
+		
 		victory_points = {
 			11703
 			5

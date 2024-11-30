@@ -1,7 +1,7 @@
 #args2
 #2979.txt
 state = {
-id = 189
+	id = 189
 	name = "STATE_189"
 	history = {
 		owner = SOV
@@ -18,13 +18,31 @@ id = 189
 			7983
 			5
 		}
+		victory_points = {
+			5146
+			2
+		}
+		victory_points = {
+			18999
+			10
+		}
+		victory_points = {
+			1863
+			5
+		}
+		victory_points = {
+			8129
+			5
+		}
+		victory_points = {
+			10708
+			5
+		}
 		buildings = {
 		}
-		
 	}
 	provinces = {
 		342
-
 		1836
 		1940
 		2630
@@ -46,15 +64,12 @@ id = 189
 		10358
 		10393
 		10432
-
 		17244
 		10488
 		10496
 		10522
-
 		10532
 		10608
-		
 		165
 		2108
 		5869
@@ -69,7 +84,6 @@ id = 189
 		10767
 		52
 		8764
-
 		421
 		1753
 		1863
@@ -90,8 +104,6 @@ id = 189
 		9118
 		2322
 		4612
-
-
 		10619
 		10657
 		10674
@@ -104,14 +116,6 @@ id = 189
 		18395
 		18414
 		18999
-
-
-
-
-
-
-
-
 		2508
 		3257
 		3693
@@ -129,8 +133,6 @@ id = 189
 		16987
 		17774
 		18140
-		
-		
 		4860
 		9316
 		8688
@@ -138,8 +140,7 @@ id = 189
 		10493
 	}
 	manpower = 1776853
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = metropolis
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

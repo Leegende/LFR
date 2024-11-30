@@ -1,32 +1,12 @@
-#args7
-#2385.txt
-#2643.txt
-#2645.txt
-#2646.txt
-#2647.txt
-#2648.txt
 state = {
-id = 239
+	id = 239
 	name = "STATE_156"
-	resources = {
-		steel = 25.000
-	}
 	provinces = {
-		
-		
 		10695
 		10634
-		
 		10655
 		6752
 		10606
-
-
-
-
-
-
-
 		48
 		2125
 		3719
@@ -58,8 +38,6 @@ id = 239
 		19039
 		884
 		3289
-		
-		
 		4071
 		4225
 		5010
@@ -67,18 +45,12 @@ id = 239
 		6246
 		6700
 		7484
-		
 		8110
 		10717
 		10727
 		10728
-		
-		
 		10788
-		
 		10809
-		
-		
 		10833
 		576
 		3073
@@ -125,12 +97,10 @@ id = 239
 	history = {
 		owner = SOV
 		add_core_of = SOV
-
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
-
 		victory_points = {
 			7806
 			80
@@ -176,12 +146,12 @@ id = 239
 			2
 		}
 		victory_points = {
-			6752 5
+			6752
+			5
 		}
 	}
 	manpower = 2305013
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = megalopolis
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

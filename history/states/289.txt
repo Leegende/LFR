@@ -1,7 +1,7 @@
 #args2
 #642.txt
 state = {
-id = 289
+	id = 289
 	name = "STATE_211"
 	provinces = {
 		5980
@@ -149,12 +149,14 @@ id = 289
 		}
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		
+		victory_points = {
+			5980
+			2
+		}
 		victory_points = {
 			14484
 			20
@@ -265,8 +267,7 @@ id = 289
 		}
 	}
 	manpower = 3544993
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

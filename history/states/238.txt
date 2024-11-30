@@ -1,18 +1,38 @@
-
 state = {
-id = 238
+	id = 238
 	name = "STATE_155"
-	resources = {
-	}
 	history = {
 		owner = FRA
 		buildings = {
-			
 		}
 		add_core_of = FRA
 		victory_points = {
 			13834
 			5
+		}
+		victory_points = {
+			2226
+			5
+		}
+		victory_points = {
+			6919
+			10
+		}
+		victory_points = {
+			19814
+			20
+		}
+		victory_points = {
+			6799
+			5
+		}
+		victory_points = {
+			13722
+			10
+		}
+		victory_points = {
+			5178
+			2
 		}
 	}
 	provinces = {
@@ -25,8 +45,6 @@ id = 238
 		13762
 		6727
 		8134
-
-
 		13834
 		8561
 		2226
@@ -69,8 +87,7 @@ id = 238
 		6195
 	}
 	manpower = 52699606
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = megalopolis
 }
-

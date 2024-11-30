@@ -1,8 +1,3 @@
-#args5
-#2059.txt
-#2069.txt
-#2122.txt
-#2123.txt
 state = {
 id = 241
 	name = "STATE_159"
@@ -52,8 +47,6 @@ id = 241
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
 		}
 		victory_points = {
 			12532
@@ -62,6 +55,14 @@ id = 241
 		victory_points = {
 			8295
 			5
+		}
+		victory_points = {
+			4731
+			5
+		}
+		victory_points = {
+			2025
+			80
 		}
 	}
 	manpower = 730621

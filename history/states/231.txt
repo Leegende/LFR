@@ -149,22 +149,8 @@ id = 231
 			10480
 			2
 		}
-		victory_points = {
-			11918
-			5
-		}
-		victory_points = {
-			12032
-			10
-		}
-		victory_points = {
-			11935
-			10
-		}
-		victory_points = {
-			12038
-			80
-		}
+		
+		
 		victory_points = {
 			19095
 			10

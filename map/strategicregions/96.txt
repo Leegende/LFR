@@ -2,20 +2,8 @@ strategic_region = {
 	id = 96
 	name = "STRATEGICREGION_96"
 	provinces = {
-		18520  
-		 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		18520
 	}
 	weather = {
-		
 	}
 }

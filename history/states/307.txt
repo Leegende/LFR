@@ -1,16 +1,9 @@
-#args3
-#2628.txt
-#430.txt
 state = {
-id = 307
+	id = 307
 	name = "STATE_232"
-	resources = {
-		chromium = 16.000
-	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 2
 		}
@@ -35,7 +28,6 @@ id = 307
 		1077
 		1263
 		1443
-		
 		1859
 		2286
 		2306
@@ -56,7 +48,6 @@ id = 307
 		4457
 		4498
 		4561
-		
 		4714
 		4913
 		5269
@@ -70,7 +61,6 @@ id = 307
 		7357
 		7696
 		7699
-		
 		7992
 		7997
 		8094
@@ -80,7 +70,6 @@ id = 307
 		8685
 		8734
 		8825
-		
 		9527
 		12627
 		12768
@@ -103,8 +92,6 @@ id = 307
 		13373
 		13399
 		13414
-		
-		
 		18272
 		18644
 		19103
@@ -232,8 +219,7 @@ id = 307
 		18781
 	}
 	manpower = 246466
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-
