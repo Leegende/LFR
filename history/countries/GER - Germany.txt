@@ -63,6 +63,3 @@ set_popularities = {
 add_ideas = {
 	
 }
-
-add_ideas = GER_mefo_bills_1
-activate_mission = GER_mefo_bills_mission
