@@ -1,6 +1,5 @@
 technologies = {
-	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	gwtank = { #Leichttraktor
+	gwtank = {
 
 		enable_equipments = {
 			gw_tank_equipment
@@ -485,26 +484,7 @@ technologies = {
 			position = { x = -8 y = 7 }
 		}
 		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				original_tag = USA
-				factor = 2
-			}
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
+		
 		
 		categories = {
 			armor
@@ -526,26 +506,7 @@ technologies = {
 			position = { x = -8 y = 9 }
 		}
 		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				original_tag = USA
-				factor = 2
-			}
-			modifier = {
-				not = {
-					any_controlled_state = {
-						is_coastal = yes
-					}
-				}
-				factor = 0
-			}
-		}
+		
 		
 		categories = {
 			armor
@@ -731,34 +692,7 @@ technologies = {
 			}
 		}
 		
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						original_tag = USA
-					}
-					load_oob = "USA_medium_tank_division"
-					if = {
-						limit = {
-							is_ai = yes
-						}
-						load_oob = "USA_AI_medium_tank_division"
-					}
-				}
-				if = {
-					limit = {
-						original_tag = SOV
-					}
-					load_oob = "SOV_medium_tank_division"
-					if = {
-						limit = {
-							is_ai = yes
-						}
-						load_oob = "SOV_AI_medium_tank_division"
-					}
-				}
-			}
-		}
+		
 		
 		categories = {
 			armor
@@ -1666,17 +1600,7 @@ technologies = {
 			name = armour_folder
 			position = { x = 4 y = 8 }
 		}
-		
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						original_tag = GER
-					}
-					load_oob = "GER_Tiger_Division"
-				}
-			}
-		}
+	
 		
 		sub_technologies = {
 			improved_heavy_td
