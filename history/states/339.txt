@@ -1,6 +1,5 @@
-
 state = {
-id = 339
+	id = 339
 	name = "STATE_339"
 	provinces = {
 		12389
@@ -44,18 +43,9 @@ id = 339
 		12448
 	}
 	history = {
-		owner = BEL
-		add_core_of = BEL
-		
-		
+		owner = HOL
+		add_core_of = HOL
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
-			industrial_complex = 1
-			arms_factory = 1
-			arms_factory = 3
-			industrial_complex = 4
 		}
 		victory_points = {
 			12389
@@ -115,8 +105,7 @@ id = 339
 		}
 	}
 	manpower = 5192600
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = large_city
 }
-

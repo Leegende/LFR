@@ -1,19 +1,13 @@
 #args2
 #2369.txt
 state = {
-id = 281
+	id = 281
 	name = "STATE_203"
 	history = {
-		owner = BEL
-		add_core_of = BEL
+		owner = HOL
+		add_core_of = HOL
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			industrial_complex = 2
-			arms_factory = 1
-			industrial_complex = 1
 		}
-		
 		victory_points = {
 			12901
 			2
@@ -100,7 +94,6 @@ id = 281
 	}
 	manpower = 3028946
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

@@ -1,4 +1,4 @@
-name="Magna Europa: Reloaded"
+name="LFR"
 version="1"
 tags={
 	"Map"
