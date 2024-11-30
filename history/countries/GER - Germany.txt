@@ -63,3 +63,8 @@ set_popularities = {
 add_ideas = {
 	
 }
+create_country_leader = {
+	name = GER_adolf_hitler
+	picture = x
+	ideology = conservatism
+}

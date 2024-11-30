@@ -1,11 +1,6 @@
 characters = {
 	GER_adolf_hitler = {
 		name = GER_adolf_hitler
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_adolf_hitler
-			}
-		}
 		country_leader = {
 			ideology = nazism
 			traits = {
