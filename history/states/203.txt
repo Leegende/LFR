@@ -28,6 +28,10 @@ id = 203
 			5302
 			1
 		}
+		victory_points = {
+			20810
+			1
+		}
 	}
 	provinces = {
 		7218

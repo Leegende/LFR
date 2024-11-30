@@ -1,7 +1,5 @@
-#args2
-#276.txt
 state = {
-id = 312
+	id = 312
 	name = "STATE_312"
 	provinces = {
 		1994
@@ -35,18 +33,9 @@ id = 312
 		10897
 	}
 	history = {
-		owner = IRE
-		add_core_of = IRE
+		owner = ENG
+		add_core_of = ENG
 		buildings = {
-			infrastructure = 4
-			dockyard = 1
-			industrial_complex = 1
-			1994 = {
-				naval_base = 1
-			}
-			industrial_complex = 1
-			dockyard = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			1994
@@ -74,8 +63,7 @@ id = 312
 		}
 	}
 	manpower = 1225200
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = large_city
 }
-

@@ -1,11 +1,9 @@
-
 state = {
-id = 358
+	id = 358
 	name = "STATE_358"
 	history = {
 		owner = SOV
 		buildings = {
-			
 		}
 		add_core_of = SOV
 		victory_points = {
@@ -16,7 +14,22 @@ id = 358
 			7738
 			2
 		}
-
+		victory_points = {
+			18610
+			40
+		}
+		victory_points = {
+			10296
+			2
+		}
+		victory_points = {
+			10221
+			20
+		}
+		victory_points = {
+			10160
+			2
+		}
 	}
 	provinces = {
 		496
@@ -29,7 +42,6 @@ id = 358
 		10220
 		10221
 		10224
-
 		1349
 		2080
 		2312
@@ -54,12 +66,8 @@ id = 358
 		18996
 		18336
 		18722
-
 		18838
 		18929
-
-
-
 		10178
 		10200
 		10206
@@ -72,8 +80,6 @@ id = 358
 		18814
 		18820
 		18842
-		
-
 		10160
 		10230
 		10237
@@ -86,8 +92,6 @@ id = 358
 		18585
 		18610
 		18641
-		
-		
 		2149
 		2769
 		3388
@@ -102,8 +106,7 @@ id = 358
 		10147
 	}
 	manpower = 52699606
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = megalopolis
 }
-
