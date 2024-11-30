@@ -1,7 +1,7 @@
-strategic_region={
-	id=25
-	name="STRATEGICREGION_25"
-	provinces={
+strategic_region = {
+	id = 25
+	name = "STRATEGICREGION_25"
+	provinces = {
 		12871
 		16767
 		20070
@@ -579,8 +579,6 @@ strategic_region={
 		13579
 		13608
 	}
-	weather={
-	
-		
+	weather = {
 	}
 }

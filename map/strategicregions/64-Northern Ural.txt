@@ -6,7 +6,6 @@ strategic_region = {
 		18114
 		17988
 		18188
-
 		9734
 		4213
 		415
@@ -69,9 +68,7 @@ strategic_region = {
 		9720
 		18540
 		19214
-
 	}
 	weather = {
-		
 	}
 }

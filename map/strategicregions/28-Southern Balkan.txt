@@ -1,7 +1,7 @@
-strategic_region={
-	id=28
-	name="STRATEGICREGION_28"
-	provinces={
+strategic_region = {
+	id = 28
+	name = "STRATEGICREGION_28"
+	provinces = {
 		1626
 		5056
 		14425
@@ -177,12 +177,7 @@ strategic_region={
 		20235
 		2237
 		9634
-		
-		
 		19109
-		
-		
-		
 		20241
 		20279
 		6282
@@ -446,8 +441,6 @@ strategic_region={
 		17108
 		20372
 	}
-	weather={
-	
-		
+	weather = {
 	}
 }

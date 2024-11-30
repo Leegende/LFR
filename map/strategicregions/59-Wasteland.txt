@@ -2,7 +2,8 @@ strategic_region = {
 	id = 59
 	name = "STRATEGICREGION_59"
 	provinces = {
-		18576 19222
+		18576
+		19222
 		1267
 		20963
 		15811
@@ -25,7 +26,6 @@ strategic_region = {
 		15883
 		1008
 		1894
-		
 		2503
 		6071
 		210
@@ -41,15 +41,7 @@ strategic_region = {
 		6335
 		15872
 		15877
-		
-		
 		2417
-		
-		
-		
-		
-		
-		
 		18891
 		187
 		473
@@ -57,9 +49,7 @@ strategic_region = {
 		2309
 		15820
 		16189
-	
 	}
 	weather = {
-		
 	}
 }

@@ -1,6 +1,6 @@
-strategic_region={
-	id=43
-	name="STRATEGICREGION_43"
+strategic_region = {
+	id = 43
+	name = "STRATEGICREGION_43"
 	provinces = {
 		291
 		428
@@ -365,9 +365,6 @@ strategic_region={
 		16961
 		455
 		1017
-
-		
-		
 		1566
 		1789
 		2299
@@ -375,7 +372,6 @@ strategic_region={
 		7079
 		8758
 		8885
-
 		9968
 		9983
 		10013
@@ -383,7 +379,6 @@ strategic_region={
 		10044
 		10073
 		10106
-
 		56
 		286
 		917
@@ -393,7 +388,6 @@ strategic_region={
 		2300
 		2464
 		2744
-
 		2746
 		2787
 		2844
@@ -408,9 +402,6 @@ strategic_region={
 		8074
 		8621
 		8665
-
-
-
 		63
 		2404
 		2718
@@ -427,18 +418,6 @@ strategic_region={
 		10034
 		16120
 		16287
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
 		1131
 		1673
 		2005
@@ -544,9 +523,6 @@ strategic_region={
 		16586
 		18968
 	}
-	
-	weather={
-	
-		
+	weather = {
 	}
 }

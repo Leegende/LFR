@@ -1,8 +1,18 @@
-strategic_region={
-	id=10
-	name="STRATEGICREGION_10"
-	provinces={
-		89 891 3766 4208 5380 7529 7885 13898 13944 13952 13962 
+strategic_region = {
+	id = 10
+	name = "STRATEGICREGION_10"
+	provinces = {
+		89
+		891
+		3766
+		4208
+		5380
+		7529
+		7885
+		13898
+		13944
+		13952
+		13962
 		2345
 		2577
 		6709
@@ -228,21 +238,15 @@ strategic_region={
 		20023
 		5932
 		14583
-	
 		8498
 		20309
 		14579
 		14606
 		19168
-		
-		
 		337
 		14578
 		14497
-		
 	}
-	weather={
-	
-		
+	weather = {
 	}
 }
