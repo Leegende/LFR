@@ -111,13 +111,7 @@ technologies = {
 			position = { x = -2 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				tag = USA
-				factor = 4
-			}
-		}
+		
 		
 		categories = {
 			electronics
@@ -146,20 +140,7 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 5
-			}
-			modifier = {
-				date < "1938.1.1"
-				factor = 0.5
-			}
-		}
+		
 		
 		categories = {
 			electronics
@@ -199,20 +180,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 5
-			}
-			modifier = {
-				date < "1939.1.1"
-				factor = 0.5
-			}
-		}
+		
 		
 		categories = {
 			electronics
@@ -248,20 +216,7 @@ technologies = {
 			position = { x = -2 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 4
-			}
-			modifier = {
-				date < "1940.1.1"
-				factor = 0.5
-			}
-		}
+		
 		
 		categories = {
 			electronics
@@ -298,20 +253,7 @@ technologies = {
 			position = { x = -2 y = 12 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 4
-			}
-			modifier = {
-				date < "1941.1.1"
-				factor = 0.5
-			}
-		}
+		
 		
 		categories = {
 			electronics
@@ -341,17 +283,7 @@ technologies = {
 			position = { x = -2 y = 14 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 5
-			}
-		}
-		
+	
 		categories = {
 			electronics
 			radar_tech
@@ -812,23 +744,7 @@ technologies = {
 			position = { x = 0 y = 4 }
 		}
 		
-		ai_will_do = {
-			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 3
-			}
-			modifier = {
-				OR = {
-					can_research = improved_fire_control_system
-					has_tech = improved_fire_control_system
-				}
-				factor = 0
-			}
-		}
+	
 		
 		categories = {
 			electronics
@@ -851,24 +767,7 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 8 }
 		}
-		
-		ai_will_do = {
-			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 3
-			}
-			modifier = {
-				OR = {
-					can_research = advanced_fire_control_system
-					has_tech = advanced_fire_control_system
-				}
-				factor = 0
-			}
-		}
+	
 		
 		categories = {
 			electronics
@@ -893,17 +792,7 @@ technologies = {
 			position = { x = 0 y = 12 }
 		}
 		
-		ai_will_do = {
-			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				factor = 3
-			}
-			
-		}
+	
 		
 		categories = {
 			electronics
@@ -1188,10 +1077,7 @@ technologies = {
 				date > "1943.1.1"
 			}
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
+		
 		}
 		
 		categories = {
@@ -1256,13 +1142,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-		}
+	
 		
 		categories = {
 			nuclear
