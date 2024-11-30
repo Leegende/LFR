@@ -1,16 +1,13 @@
 #args2
 #1303.txt
 state = {
-id = 88
+	id = 88
 	name = "STATE_88"
 	history = {
 		owner = ENG
 		add_core_of = SWE
 		buildings = {
-			infrastructure = 1
-			21188 = {
-				naval_base = 1
-			}
+			
 		}
 		victory_points = {
 			21188
@@ -45,7 +42,6 @@ id = 88
 	}
 	manpower = 85489
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

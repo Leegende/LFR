@@ -1,12 +1,10 @@
-
 state = {
-id = 56
+	id = 56
 	name = "STATE_56"
 	history = {
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			infrastructure = 1
 		}
 		victory_points = {
 			15897
@@ -42,12 +40,8 @@ id = 56
 		15695
 		15737
 		20881
-		
-		
-		
 		6724
 		20884
-		
 		155
 		1226
 		1656
@@ -97,7 +91,6 @@ id = 56
 	}
 	manpower = 894620
 	state_category = wasteland
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

@@ -13,7 +13,7 @@ id = 336
 			20324 = {
 				naval_base = 1
 			}
-			infrastructure = 3
+			
 		}
 	}
 	provinces = {

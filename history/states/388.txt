@@ -6,7 +6,7 @@ id = 388
 		owner = FIN
 		add_core_of = FIN
 		buildings = {
-			infrastructure = 2
+			
 			19649 = { naval_base = 1 }
 		}
 		victory_points = { 19649 2 }

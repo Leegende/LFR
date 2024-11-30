@@ -9,7 +9,7 @@ id = 331
 		
 		add_core_of = SPR
 		buildings = {
-			infrastructure = 3
+			
 		}
     }
 	manpower=1000

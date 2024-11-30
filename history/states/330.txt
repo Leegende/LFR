@@ -197,7 +197,7 @@ id = 330
 		add_core_of = SOV
 		
 		buildings = {
-			infrastructure = 2
+			
 		}
 		victory_points = {
 			53

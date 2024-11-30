@@ -47,12 +47,12 @@ id = 338
 		add_core_of = ENG
 		
 		buildings = {
-			infrastructure = 2
-			dockyard = 2
+			
+			
 			radar_station = 1
 			anti_air_building = 2
-			industrial_complex = 1
-			arms_factory = 1
+			
+			
 			fuel_silo = 1
 		}
 		victory_points = {

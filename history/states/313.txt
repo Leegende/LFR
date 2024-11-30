@@ -10,7 +10,7 @@ id = 313
 			5380 2 
 		}
 		buildings = {
-			infrastructure = 2
+			
 			
 
 		}

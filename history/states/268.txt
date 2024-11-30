@@ -91,7 +91,7 @@ id = 268
 		add_core_of = SOV
 		
 		buildings = {
-			infrastructure = 3
+			
 		}
 		
 		

@@ -64,7 +64,8 @@ add_ideas = {
 	
 }
 create_country_leader = {
-	name = GER_adolf_hitler
-	picture = x
-	ideology = conservatism
+	name = "Adolf Hitler"
+	desc = ADOLF_HITLER_DESC
+	picture = "gfx/leaders/GER/portrait_GER_adolf_hitler.dds"
+	ideology = nazism
 }

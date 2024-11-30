@@ -42,7 +42,6 @@ set_autonomy = {
 	autonomous_state = autonomy_dominion
 }
 
-add_to_tech_sharing_group = commonwealth_research
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"

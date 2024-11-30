@@ -103,10 +103,10 @@ id = 264
 		add_core_of = SOV
 		
 		buildings = {
-			infrastructure = 3
+			
 			air_base = 8
-			industrial_complex = 1
-			industrial_complex = 1
+			
+			
 		}
 		victory_points = {
 			11069

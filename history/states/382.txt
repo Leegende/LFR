@@ -8,7 +8,7 @@ id = 382
 		
 		add_core_of = SPR
 		buildings = {
-			infrastructure = 1
+			
 		}
 		victory_points = {
 			3956 10 #Pamplona

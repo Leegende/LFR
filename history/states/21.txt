@@ -7,7 +7,7 @@ id = 21
 		add_core_of = POL
 
 		buildings = {
-			infrastructure = 3
+			
 		}
 		victory_points = {
 			12451

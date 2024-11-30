@@ -149,9 +149,9 @@ id = 261
 		add_core_of = SOV
 		
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			
+			
+			
 		}
 		
 		

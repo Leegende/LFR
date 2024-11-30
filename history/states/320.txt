@@ -12,14 +12,14 @@ id = 320
 		add_core_of = FRA
 		
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			
+			
 			anti_air_building = 2
 			13059 = {
 				bunker = 10
 			}
 			anti_air_building = 2
-			industrial_complex = 1
+			
 		}
 		victory_points = {
 			13059

@@ -9,7 +9,7 @@ id = 365
 		
 		
 		buildings = {
-			infrastructure = 3
+			
 		}
 		
 		victory_points = {

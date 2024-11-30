@@ -19,7 +19,7 @@ id = 249
 		
 		
 		buildings = {
-			infrastructure = 3
+			
 		}
 		
 		victory_points = {

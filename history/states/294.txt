@@ -3,17 +3,12 @@
 #2738.txt
 #412.txt
 state = {
-id = 294
+	id = 294
 	name = "STATE_217"
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
-		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			synthetic_refinery = 1
 		}
 		victory_points = {
 			12115
@@ -84,9 +79,6 @@ id = 294
 		8477
 		12704
 		2274
-
-
-
 		12350
 		2675
 		4363
@@ -164,8 +156,7 @@ id = 294
 		17439
 	}
 	manpower = 1496264
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

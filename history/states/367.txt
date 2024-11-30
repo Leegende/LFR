@@ -61,12 +61,12 @@ id = 367
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			infrastructure = 4
+			
 			13330 = {
 				naval_base = 1
 			}
 			dockyard = 3
-			dockyard = 1
+			
 		}
 		
 		victory_points = {

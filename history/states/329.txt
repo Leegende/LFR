@@ -70,7 +70,7 @@ id = 329
 			20
 		}
 		buildings = {
-			infrastructure = 1
+			
 		}
 	}
 	manpower = 364793

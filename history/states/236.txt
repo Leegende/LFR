@@ -1,7 +1,5 @@
-#args2
-#2567.txt
 state = {
-id = 236
+	id = 236
 	name = "STATE_153"
 	provinces = {
 		21641
@@ -9,7 +7,6 @@ id = 236
 		11198
 		11234
 		11282
-		
 		90
 		6271
 		6866
@@ -67,18 +64,7 @@ id = 236
 		owner = POL
 		add_core_of = POL
 		buildings = {
-			infrastructure = 2
-			arms_factory = 2
-			synthetic_refinery = 1
-			dockyard = 2
-			industrial_complex = 1
 		}
-	
-		
-		
-		
-		
-		
 		victory_points = {
 			10920
 			20
@@ -103,7 +89,6 @@ id = 236
 			6231
 			5
 		}
-		
 		victory_points = {
 			19922
 			5
@@ -119,7 +104,6 @@ id = 236
 	}
 	manpower = 2410879
 	state_category = enclave
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

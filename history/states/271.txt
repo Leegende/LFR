@@ -17,8 +17,8 @@ id = 271
 		owner = POL
 		add_core_of = POL
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+			
+			
 		}
 		
 		

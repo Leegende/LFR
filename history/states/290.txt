@@ -60,7 +60,7 @@ id = 290
 		owner = SOV
 		
 		buildings = {
-			infrastructure = 3
+			
 		}
 		add_core_of = SOV
 		

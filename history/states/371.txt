@@ -59,8 +59,8 @@ id = 371
 		add_core_of = FRA
 		
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			
+			
 		}
 		victory_points = {
 			19813

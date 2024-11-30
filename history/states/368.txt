@@ -5,7 +5,7 @@ id = 368
 		owner = ROM
 		add_core_of = ROM
 		buildings = {
-			infrastructure = 3
+			
 		}
 		victory_points = {
 			13410

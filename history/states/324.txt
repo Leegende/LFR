@@ -9,9 +9,9 @@ id = 324
 		
 		
 		buildings = {
-			infrastructure = 3
-			dockyard = 2
-			industrial_complex = 1
+			
+			
+			
 		}
 		victory_points = {
 			9077

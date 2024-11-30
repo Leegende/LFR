@@ -82,7 +82,7 @@ id = 345
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
-			infrastructure = 3
+			
 		}
 		victory_points = {
 			4264

@@ -5,7 +5,7 @@ id = 13
 		owner = SPR
 		add_core_of = SPR
 		buildings = {
-			infrastructure = 3
+			
 			15241 = {
 				naval_base = 2
 			}

@@ -18,7 +18,7 @@ id = 332
 		owner = FIN
 		add_core_of = FIN
 		buildings = {
-			infrastructure = 2
+			
 		}
 		
 	}

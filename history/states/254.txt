@@ -67,11 +67,11 @@ id = 254
 		
 		
 		buildings = {
-			infrastructure = 3
+			
 			3523 = {
 				naval_base = 10
 			}
-			dockyard = 1
+			
 		}
 		victory_points = {
 			6966

@@ -6,7 +6,7 @@ id = 337
 		#add_core_of=SPM
 		victory_points = { 19107 1 }
 		buildings = {
-			infrastructure = 2
+			
 			19107 = {
 				naval_base = 1
 			}

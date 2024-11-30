@@ -68,8 +68,8 @@ id = 245
 		
 		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			
+			
 		}
 		victory_points = {
 			12935

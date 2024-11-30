@@ -9,11 +9,11 @@ id = 378
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			infrastructure = 2
+			
 			fuel_silo = 1
 			dockyard = 3
-			arms_factory = 1
-			industrial_complex = 1
+			
+			
 		}
 		
 		

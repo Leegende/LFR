@@ -6,8 +6,8 @@ id = 351
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			
+			
 		}
 		victory_points = {
 			2352

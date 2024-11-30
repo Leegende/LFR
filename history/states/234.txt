@@ -26,8 +26,8 @@ id = 234
 		owner = CZE
 		add_core_of = CZE
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			
+			
 		}
 		
 		
