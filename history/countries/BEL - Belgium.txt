@@ -12,7 +12,6 @@ set_stability = 1
 set_war_support = 1
 
 add_ideas = {
-	disarmed_nation
 
 }
 

@@ -1,30 +1,6 @@
 ﻿capital = 142
-
 set_oob = "YUG_1936"
-
-every_owned_state = {
-	set_state_flag = YUG_INITIAL_STATE
-}
-
 set_research_slots = 3
-
-
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		YUG_idea_croatian_opposition
-		YUG_idea_macedonian_opposition
-		YUG_idea_slovene_nationalism
-		YUG_idea_serbian_general_staff
-	}
-}
-add_ideas = {
-	anti_german_military
-}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -54,6 +30,7 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 15
 	fascism = 10
@@ -62,24 +39,3 @@ set_popularities = {
 }
 
 set_stability = 0.6
-
-create_equipment_variant = {
-	name = "Infantry Breakthrough Light Tank "
-	type = light_tank_chassis_1
-	modules = {
-		main_armament_slot = light_tank_hard_gun_1
-		turret_type_slot = tank_light_three_man_tank_turret
-		suspension_type_slot = tank_interleaved_suspension
-		armor_type_slot = tank_riveted_armor
-		engine_type_slot = tank_petrol_electric_engine
-		special_type_slot_1 = tank_radio_1
-		special_type_slot_2 = extra_ammo_storage
-		special_type_slot_3 = extra_ammo_storage
-		special_type_slot_4 = extra_ammo_storage
-	}
-1	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 4
-	}
-}
-

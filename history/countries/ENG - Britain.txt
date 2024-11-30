@@ -32,8 +32,6 @@ set_technology = {
 }
 
 add_ideas = {
-	ENG_the_war_to_end_all_wars
-	george_v
 }
 
 set_convoys = 800
@@ -49,7 +47,7 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes	##suspended through duration of war, which is handled via event
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -64,28 +62,3 @@ add_to_faction = IRE
 add_to_faction = YUG
 add_to_faction = GRE
 add_to_faction = FRA
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	create_equipment_variant = {
-		name = "Infantry Breakthrough Light Tank "
-		type = light_tank_chassis_1
-		modules = {
-			main_armament_slot = light_tank_hard_gun_1
-			turret_type_slot = tank_light_three_man_tank_turret
-			suspension_type_slot = tank_interleaved_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_petrol_electric_engine
-			special_type_slot_1 = tank_radio_1
-			special_type_slot_2 = extra_ammo_storage
-			special_type_slot_3 = extra_ammo_storage
-			special_type_slot_4 = extra_ammo_storage
-		}
-		icon = "GFX_ENG_basic_light_tank_medium"
-		upgrades = {
-			tank_nsb_engine_upgrade = 0
-			tank_nsb_armor_upgrade = 4
-		}
-	}
-}
