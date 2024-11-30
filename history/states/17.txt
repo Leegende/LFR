@@ -2,12 +2,9 @@ state = {
 	id = 17
 	name = "STATE_17"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
-		buildings = {
-		}
 	}
 	manpower = 1
+	impassable = yes
 	buildings_max_level_factor = 1
 	state_category = wasteland
 	local_supplies = 0

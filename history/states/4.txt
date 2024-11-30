@@ -1,14 +1,13 @@
 state = {
-id = 4
+	id = 4
 	name = "STATE_4"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
 	}
 	manpower = 1
-	buildings_max_level_factor = 1.000
+	impassable = yes
+	buildings_max_level_factor = 1
 	state_category = wasteland
-	local_supplies = 0.000
+	local_supplies = 0
 	provinces = {
 		1621
 		4606
@@ -948,4 +947,3 @@ id = 4
 		21471
 	}
 }
-

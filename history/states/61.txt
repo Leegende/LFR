@@ -2,10 +2,6 @@ state = {
 	id = 61
 	name = "STATE_61"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
-		buildings = {
-		}
 	}
 	provinces = {
 		18576

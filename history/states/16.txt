@@ -81,8 +81,6 @@ id = 16
 		6276
 	}
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
 	}
 	manpower = 1
 	impassable = yes

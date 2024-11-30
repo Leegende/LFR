@@ -2,8 +2,6 @@ state = {
 	id = 78
 	name = "STATE_78"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
 	}
 	manpower = 1
 	buildings_max_level_factor = 1

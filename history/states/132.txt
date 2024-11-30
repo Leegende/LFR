@@ -106,9 +106,8 @@ state = {
 		13757
 	}
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
 	}
+	impassable = yes
 	manpower = 1
 	state_category = wasteland
 	buildings_max_level_factor = 1
