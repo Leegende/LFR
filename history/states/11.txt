@@ -12,5 +12,7 @@ id = 11
 	provinces={
 	  19026
 	}
-}
 
+        manpower=1
+        state_category = town
+}

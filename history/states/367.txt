@@ -109,5 +109,7 @@ id = 367
 	manpower = 2396600
 	buildings_max_level_factor = 1.000
 	state_category = large_city
-}
 
+        manpower=1
+        state_category = town
+}

@@ -84,5 +84,7 @@ id = 50
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	state_category = tiny_island
-}
 
+        manpower=1
+        state_category = town
+}

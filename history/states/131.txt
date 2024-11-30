@@ -30,5 +30,7 @@ id = 131
 		19978
 		19981
 	}
-}
 
+        manpower=1
+        state_category = town
+}

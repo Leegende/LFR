@@ -61,4 +61,6 @@ state = {
 	state_category = wasteland
 	impassable = yes
 	local_supplies = 0
+        manpower=1
+        state_category = town
 }

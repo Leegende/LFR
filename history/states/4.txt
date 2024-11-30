@@ -947,5 +947,7 @@ id = 4
 		21440
 		21471
 	}
-}
 
+        manpower=1
+        state_category = town
+}

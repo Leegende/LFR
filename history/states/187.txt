@@ -82,5 +82,7 @@ id = 187
 	buildings_max_level_factor = 1.000
 	state_category = metropolis
 	local_supplies = 0.000
-}
 
+        manpower=1
+        state_category = town
+}
