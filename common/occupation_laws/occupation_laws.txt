@@ -1,119 +1,28 @@
 foreign_civilian_oversight = {
 	icon = 3
 	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
-
 	state_modifier = {
-		resistance_target 				= -0.15
-		required_garrison_factor 		= -0.80
-		resistance_damage_to_garrison 	= -0.25
-		compliance_gain 				= 0.000
-		local_factories 				= 0.00
-		local_resources 				= 0.00
+		resistance_target = -0.15
+		required_garrison_factor = -0.8
+		resistance_damage_to_garrison = -0.25
+		compliance_gain = 0
+		local_factories = 0
+		local_resources = 0
 	}
 	starting_law = yes
-
-	ai_will_do = {
-		base = 120
-		modifier = {
-			check_variable  = { resistance_target_without_law > 0.29}
-			add = 100
-		}
-		
-		modifier = {
-			FROM = {
-				has_government = fascism
-			}
-			factor = 0
-		}
-	}
 }
 
 forced_labor_occupation = {
 	icon = 8
 	sound_effect = "Martial_Law_Interface_Forced_Labor_Occupation"
-
 	state_modifier = {
-		resistance_target 					= -0.45
-		compliance_gain 					= -0.08
-		resistance_damage_to_garrison 		= 0.3
-		required_garrison_factor 			= 0.0
-		local_resources 					= 0.35
-		local_factories 					= 0.25
-		repair_speed_infrastructure_factor 	= 0.25
-
+		resistance_target = -0.45
+		compliance_gain = -0.08
+		resistance_damage_to_garrison = 0.3
+		required_garrison_factor = 0
+		local_resources = 0.35
+		local_factories = 0.25
+		repair_speed_infrastructure_factor = 0.25
 		custom_modifier_tooltip = "resource_sabotage_decrease_tooltip"
 	}
-
-	ai_will_do = {
-		# enabled if has damaged infra
-		# gets higher score if more are damaged
-		# even more prio at war
-		base = 0
-
-		modifier = {
-			set_temp_variable = { requirement_limit = 1.5 }
-			if = {
-				limit = { occupation_law = forced_labor_occupation }
-				set_temp_variable = { requirement_limit = 1.3 }
-			}
-			check_variable = { garrison_min_support_ratio < requirement_limit }
-			factor = 0
-		}
-
-		modifier = {
-			set_temp_variable = { num_damaged = damaged_building_level@infrastructure }
-
-			check_variable = { num_damaged > 0 }
-			clamp_temp_variable = { var = num_damaged max = 8 }
-			multiply_temp_variable = { num_damaged = 80 }
-			add_to_temp_variable = { num_damaged = 200 }
-			FROM = {
-				has_war = yes
-				add_to_temp_variable = { num_damaged = 100 }
-			}
-			add = num_damaged
-		}
-
-		modifier = {
-			# if compliance is high enough, we are getting good enough resoruces already
-			compliance < 40
-
-			# if we are desiring a resource produced here
-			set_temp_variable = { releveant_resources = 0 }
-
-			set_temp_variable = { t = resource@oil }
-			multiply_temp_variable = { t = ai_desire_oil }
-			add_to_temp_variable = { releveant_resources = t }
-
-			set_temp_variable = { t = resource@aluminium }
-			multiply_temp_variable = { t = ai_desire_aluminium }
-			add_to_temp_variable = { releveant_resources = t }
-
-			set_temp_variable = { t = resource@rubber }
-			multiply_temp_variable = { t = ai_desire_rubber }
-			add_to_temp_variable = { releveant_resources = t }
-
-			set_temp_variable = { t = resource@tungsten }
-			multiply_temp_variable = { t = ai_desire_tungsten }
-			add_to_temp_variable = { releveant_resources = t }
-
-			set_temp_variable = { t = resource@steel }
-			multiply_temp_variable = { t = ai_desire_steel }
-			add_to_temp_variable = { releveant_resources = t }
-
-			set_temp_variable = { t = resource@chromium }
-			multiply_temp_variable = { t = ai_desire_chromium }
-			add_to_temp_variable = { releveant_resources = t }
-
-			check_variable = { releveant_resources > 0 }
-			clamp_temp_variable = { var = releveant_resources max = 40 }
-			divide_temp_variable = { releveant_resources = 40 }
-			multiply_temp_variable = { releveant_resources = 200 }
-			add_to_temp_variable = { releveant_resources = 100 }
-			add = releveant_resources
-		}
-	}
 }
-
-
-
