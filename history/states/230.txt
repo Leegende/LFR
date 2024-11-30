@@ -55,6 +55,4 @@ state = {
 		15010
 		21464
 	}
-        manpower=1
-        state_category = town
 }

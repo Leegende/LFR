@@ -1,0 +1,32 @@
+﻿air_wings = {
+	435 = { 
+		cv_CAS_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+		cv_CAS_equipment_1 = {
+			owner = ENG
+			amount = 100
+		}
+		tac_bomber_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+		tac_bomber_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+		tac_bomber_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+		tac_bomber_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+		tac_bomber_equipment_1 = {
+			owner = ENG
+			amount = 100
+		} 
+	}
+}

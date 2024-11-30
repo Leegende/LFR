@@ -59,7 +59,5 @@ id = 111
 		19013
 		18294
 	}
-
-        manpower=1
-        state_category = town
 }
+
