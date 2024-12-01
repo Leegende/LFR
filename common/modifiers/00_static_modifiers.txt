@@ -212,11 +212,9 @@ gain_focus = {
 	political_power_cost = 1
 }
 
-#license production
 
 
 
-# applies when stability > 50%
 stability_good_modifier = {
 	industrial_capacity_factory = 0.20
 	industrial_capacity_dockyard = 0.20
@@ -224,7 +222,6 @@ stability_good_modifier = {
 	political_power_factor = 0.1
 }
 
-# applies when stability < 50%
 stability_bad_modifier = {
 	industrial_capacity_factory = -0.50
 	industrial_capacity_dockyard = -0.50
@@ -239,9 +236,7 @@ war_support_good_modifier = {
 }
 
 war_support_bad_modifier = {
-	mobilization_speed = -0.500 # Reduce mobilization speed by half.
-	#army_noncore_attack_factor = -0.50  # Attacking or defending on non-core takes a huge penalty.
-	#army_noncore_defence_factor = -0.50
+	mobilization_speed = -0.500
 	command_power_gain_mult = -0.95
 	surrender_limit = -0.3
 }
