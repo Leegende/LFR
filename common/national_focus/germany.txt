@@ -1,0 +1,810 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	FOCUS_FILTER_RESEARCH = 522
+	FOCUS_FILTER_INDUSTRY = 509
+	FOCUS_FILTER_BALANCE_OF_POWER = 200
+	FOCUS_FILTER_SOV_POLITICAL_PARANOIA = 111
+	FOCUS_FILTER_PROPAGANDA = 110
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+}
+
+focus_tree = {
+	id = german_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = {
+		x = 5000
+		y = 5000
+	}
+	############################################################################################################################
+	############################################################################################################################
+	############################################################################################################################
+	############################################################################################################################
+	#TERRITORIAL AMBITIONS
+	focus = {
+		id = GER_rhineland
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 0
+		cost = 7
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_anschluss
+		icon = GFX_goal_anschluss
+		x = -5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_demand_sudetenland
+		icon = GFX_goal_anschluss
+		x = -3
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_demand_memel
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_first_vienna_award
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_end_of_czechoslovakia
+		icon = GFX_goal_anschluss
+		x = 3
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_second_vienna_award
+		icon = GFX_goal_anschluss
+		x = 5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_mol_rib_pact
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 2.5
+		cost = 1
+		prerequisite = {
+			focus = GER_anschluss
+		}
+		prerequisite = {
+			focus = GER_demand_sudetenland
+		}
+		prerequisite = {
+			focus = GER_demand_memel
+		}
+		prerequisite = {
+			focus = GER_first_vienna_award
+		}
+		prerequisite = {
+			focus = GER_end_of_czechoslovakia
+		}
+		prerequisite = {
+			focus = GER_second_vienna_award
+		}
+		relative_position_id = GER_rhineland
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_fall_weiss
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1.5
+		cost = 1
+		prerequisite = {
+			focus = GER_mol_rib_pact
+		}
+		relative_position_id = GER_mol_rib_pact
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_integrate_hungary
+		icon = GFX_goal_anschluss
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_mol_rib_pact
+		}
+		relative_position_id = GER_mol_rib_pact
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_integrate_romania
+		icon = GFX_goal_anschluss
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_mol_rib_pact
+		}
+		relative_position_id = GER_mol_rib_pact
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_fall_gelb
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_weiss
+		}
+		relative_position_id = GER_fall_weiss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_seize_western_gold_reserves
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_gelb
+		}
+		relative_position_id = GER_fall_gelb
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_operation_weseruebung
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_weiss
+		}
+		relative_position_id = GER_fall_weiss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_secure_swedish_trade
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_operation_weseruebung
+		}
+		relative_position_id = GER_operation_weseruebung
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_expand_the_ss
+		icon = GFX_goal_anschluss
+		x = -3
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_weiss
+		}
+		relative_position_id = GER_fall_weiss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_exploit_foreign_workers
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_expand_the_ss
+		}
+		relative_position_id = GER_expand_the_ss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_integrate_east_prussia
+		icon = GFX_goal_anschluss
+		x = 3
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_weiss
+		}
+		relative_position_id = GER_fall_weiss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_strike_the_rebellion
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_integrate_east_prussia
+		}
+		relative_position_id = GER_integrate_east_prussia
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_avenge_versailles
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = GER_fall_weiss
+		}
+		relative_position_id = GER_fall_weiss
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_moderate_integration
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		relative_position_id = GER_avenge_versailles
+		mutually_exclusive = {
+			focus = GER_forced_slavery
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_civil_administration
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_moderate_integration
+		}
+		relative_position_id = GER_moderate_integration
+		mutually_exclusive = {
+			focus = GER_forced_slavery
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_forced_slavery
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		mutually_exclusive = {
+			focus = GER_moderate_integration
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_plunder_the_west
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_forced_slavery
+		}
+		relative_position_id = GER_forced_slavery
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_send_rommel
+		icon = GFX_goal_anschluss
+		x = -5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		mutually_exclusive = {
+			focus = GER_send_guderian
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_panzer_greift_an
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_send_rommel
+		}
+		
+		relative_position_id = GER_send_rommel
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_send_guderian
+		icon = GFX_goal_anschluss
+		x = -7
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		mutually_exclusive = {
+			focus = GER_send_rommel
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_achtung_panzer
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_send_guderian
+		}
+		relative_position_id = GER_send_guderian
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_festung_tobruk
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_send_guderian focus = GER_send_rommel
+		}
+		
+		relative_position_id = GER_send_guderian
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_break_the_bars
+		icon = GFX_goal_anschluss
+		x = 5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		mutually_exclusive = {
+			focus = GER_fortress_europa
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_unternehmen_felix
+		icon = GFX_goal_anschluss
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_break_the_bars
+		}
+		relative_position_id = GER_break_the_bars
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_fortress_europa
+		icon = GFX_goal_anschluss
+		x = 7
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		mutually_exclusive = {
+			focus = GER_break_the_bars
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_fortress_the_coast
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_fortress_europa
+		}
+		relative_position_id = GER_fortress_europa
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_atlantikwall
+		icon = GFX_goal_anschluss
+		x = 1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_break_the_bars focus = GER_fortress_europa
+		}
+	
+		relative_position_id = GER_break_the_bars
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_prepare_the_final_blow
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_avenge_versailles
+		}
+		relative_position_id = GER_avenge_versailles
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_unternehmen_barbarossa
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_prepare_the_final_blow
+		}
+		relative_position_id = GER_prepare_the_final_blow
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_ostwall
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_prepare_the_final_blow
+		}
+		relative_position_id = GER_prepare_the_final_blow
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_ostwall
+		icon = GFX_goal_anschluss
+		x = -1.5
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = GER_unternehmen_barbarossa
+		}
+		relative_position_id = GER_unternehmen_barbarossa
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_totaler_krieg
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_unternehmen_barbarossa
+		}
+		relative_position_id = GER_unternehmen_barbarossa
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+	}
+}
