@@ -68,6 +68,18 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+				instantTextBoxType = {
+					name = "armored_car_subtitle_weapons"
+					position = { x = 740 y = 25 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "ARMORED CARS"
+					maxWidth = 100
+					maxHeight = 33
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 
 				
 
@@ -211,8 +223,13 @@ guiTypes = {
 				slotsize = { width = 50 height = 50 }
 				format = "LEFT"
 			}
-
-			
+			gridboxtype = {
+				name = "tech_special_forces_tree"
+				position = { x = 0 y = 100 }
+				slotsize = { width = 50 height = 50 }
+				format = "UP"
+			}
+		
 		}
 
 		containerWindowType = {
