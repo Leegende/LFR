@@ -7,11 +7,9 @@ id = 388
 		add_core_of = FIN
 		buildings = {
 			
-			19649 = { naval_base = 1 }
 		}
 		victory_points = { 19649 2 }
 		set_demilitarized_zone = yes
-		add_dynamic_modifier = { modifier = autonomous_state }
 	}
 	provinces={
 		19648 19649 19650 

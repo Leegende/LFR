@@ -5,6 +5,7 @@ id = 128
 	history = {
 		owner = CZE
 		add_core_of = CZE
+		set_state_flag = SUDETENLAND
 		buildings = {
 		}
 		victory_points = {
@@ -104,6 +105,7 @@ id = 128
 	manpower = 2719158
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
+	
 	state_category = rural
 }
 

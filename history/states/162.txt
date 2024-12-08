@@ -6,6 +6,7 @@ id = 162
 	history = {
 		owner = ROM
 		add_core_of = ROM
+		set_state_flag = SECONDVIENNA
 		buildings = {
 		}
 		victory_points = {

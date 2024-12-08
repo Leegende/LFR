@@ -35,14 +35,26 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = 0
 		y = 0
-		cost = 7
+		cost = 5
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_demilitarized_zone = yes
+				}
+				set_demilitarized_zone = no
+			}
+			add_political_power = 150
+			add_war_support = 0.05
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.1
+				}
+			}
 		}
 	}
 	focus = {
@@ -50,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = -5
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -58,10 +70,29 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = AUS
+				}
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 75
+			add_war_support = 0.05
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.2
+				}
+				every_state = {
+					limit = {
+						is_core_of = AUS
+					}
+					remove_core_of = AUS
+				}
+			}
 		}
 	}
 	focus = {
@@ -69,18 +100,45 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = -3
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_anschluss
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					has_state_flag = SUDETENLAND
+				}
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 50
+			add_war_support = 0.05
+			add_threat = 5
+			hidden_effect = {
+				128 = {
+					remove_core_of = CZE
+				}
+				126 = {
+					remove_core_of = CZE
+				}
+				234 = {
+					transfer_state_to = POL
+					add_core_of = POL
+					remove_core_of = CZE
+				}
+				news_event = {
+					hours = 0
+					id = news.3
+				}
+			}
 		}
 	}
 	focus = {
@@ -88,18 +146,31 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = -1
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_anschluss
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			273 = {
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 25
+			add_war_support = 0.05
+			add_threat = 3
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.4
+				}
+			}
 		}
 	}
 	focus = {
@@ -107,18 +178,30 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = 1
 		y = 1
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_anschluss
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			HUN = {
+				transfer_state = 130
+				add_political_power = 75
+				add_war_support = 0.05
+			}
+			add_threat = 3
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.5
+				}
+			}
 		}
 	}
 	focus = {
@@ -126,18 +209,56 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = 3
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_demand_sudetenland
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = CZE
+					NOT = {
+						has_state_flag = SLOVAKIA
+						has_state_flag = SUDETENLAND
+					}
+				}
+				transfer_state_to = GER
+				hidden_effect = {
+					set_compliance = 100
+					set_resistance = 0
+				}
+			}
+			add_political_power = 50
+			add_war_support = 0.05
+			HUN = {
+				every_state = {
+					limit = {
+						is_core_of = CZE
+						has_state_flag = SLOVAKIA
+					}
+					transfer_state_to = HUN
+					hidden_effect = {
+						set_compliance = 100
+						set_resistance = 0
+					}
+				}
+				add_political_power = 50
+				add_war_support = 0.05
+			}
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.6
+				}
+			}
 		}
 	}
 	focus = {
@@ -145,18 +266,39 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = 5
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_first_vienna_award
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			HUN = {
+				every_state = {
+					limit = {
+						has_state_flag = SECONDVIENNA
+					}
+					transfer_state_to = HUN
+					hidden_effect = {
+						set_compliance = 100
+						set_resistance = 0
+					}
+				}
+				add_political_power = 150
+				add_war_support = 0.05
+			}
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.7
+				}
+			}
 		}
 	}
 	focus = {
@@ -229,6 +371,16 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			puppet = HUN
+			HUN = {
+				276 = {
+					set_building_level = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -248,6 +400,16 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			puppet = ROM
+			ROM = {
+				163 = {
+					set_building_level = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -748,7 +910,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
 	focus = {
 		id = GER_ostwall
 		icon = GFX_goal_anschluss
@@ -791,14 +952,12 @@ focus_tree = {
 	###############################################################################
 	###############################################################################
 	#Industry
-
 	focus = {
 		id = GER_four_year_plan
 		icon = GFX_goal_anschluss
 		x = 30
 		y = 0
 		cost = 1
-		
 		mutually_exclusive = {
 			focus = GER_four_year_plan
 		}
@@ -821,7 +980,6 @@ focus_tree = {
 			focus = GER_four_year_plan
 		}
 		relative_position_id = GER_four_year_plan
-		
 		available = {
 			always = yes
 		}
@@ -841,7 +999,6 @@ focus_tree = {
 			focus = GER_war_economy
 		}
 		relative_position_id = GER_war_economy
-		
 		available = {
 			always = yes
 		}
@@ -861,7 +1018,6 @@ focus_tree = {
 			focus = GER_autarky
 		}
 		relative_position_id = GER_autarky
-		
 		available = {
 			always = yes
 		}
@@ -881,7 +1037,6 @@ focus_tree = {
 			focus = GER_war_economy
 		}
 		relative_position_id = GER_war_economy
-		
 		available = {
 			always = yes
 		}
@@ -901,7 +1056,6 @@ focus_tree = {
 			focus = GER_krupp_merger
 		}
 		relative_position_id = GER_krupp_merger
-		
 		available = {
 			always = yes
 		}
@@ -924,7 +1078,6 @@ focus_tree = {
 			focus = GER_deutscher_stahl
 		}
 		relative_position_id = GER_war_economy
-		
 		available = {
 			always = yes
 		}
@@ -943,9 +1096,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_reichsarbeiterdienst
 		}
-
 		relative_position_id = GER_reichsarbeiterdienst
-		
 		available = {
 			always = yes
 		}
@@ -1039,7 +1190,8 @@ focus_tree = {
 		y = 2
 		cost = 1
 		prerequisite = {
-			focus = GER_secure_the_lifeline focus = GER_kickstart_rubber_production
+			focus = GER_secure_the_lifeline
+			focus = GER_kickstart_rubber_production
 		}
 		relative_position_id = GER_ig_farben
 		available = {
@@ -1084,7 +1236,6 @@ focus_tree = {
 			focus = GER_economical_integration
 		}
 		relative_position_id = GER_economical_integration
-		
 		available = {
 			always = yes
 		}
@@ -1104,7 +1255,6 @@ focus_tree = {
 			focus = GER_substitute_trade
 		}
 		relative_position_id = GER_substitute_trade
-		
 		available = {
 			always = yes
 		}
@@ -1124,7 +1274,6 @@ focus_tree = {
 			focus = GER_substitute_trade
 		}
 		relative_position_id = GER_substitute_trade
-		
 		available = {
 			always = yes
 		}
@@ -1144,7 +1293,6 @@ focus_tree = {
 			focus = GER_substitute_trade
 		}
 		relative_position_id = GER_substitute_trade
-		
 		available = {
 			always = yes
 		}
@@ -1177,7 +1325,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
 	focus = {
 		id = GER_trade_deal
 		icon = GFX_goal_anschluss
@@ -1206,9 +1353,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_trade_deal
 		}
-		
-		relative_position_id =  GER_trade_deal
-
+		relative_position_id = GER_trade_deal
 		available = {
 			always = yes
 		}
@@ -1227,9 +1372,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_trade_deal
 		}
-		
-		relative_position_id =  GER_trade_deal
-
+		relative_position_id = GER_trade_deal
 		available = {
 			always = yes
 		}
@@ -1248,9 +1391,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_trade_deal
 		}
-		
-		relative_position_id =  GER_trade_deal
-
+		relative_position_id = GER_trade_deal
 		available = {
 			always = yes
 		}
@@ -1292,7 +1433,6 @@ focus_tree = {
 			focus = GER_schacht_plan
 		}
 		relative_position_id = GER_schacht_plan
-	
 		available = {
 			always = yes
 		}
@@ -1312,7 +1452,6 @@ focus_tree = {
 			focus = GER_reichsautobahn
 		}
 		relative_position_id = GER_reichsautobahn
-	
 		available = {
 			always = yes
 		}
@@ -1322,7 +1461,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
 	focus = {
 		id = GER_hermann_goring_werke
 		icon = GFX_goal_anschluss
@@ -1333,7 +1471,6 @@ focus_tree = {
 			focus = GER_kdf_wagen
 		}
 		relative_position_id = GER_kdf_wagen
-	
 		available = {
 			always = yes
 		}
@@ -1343,5 +1480,4 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
 }

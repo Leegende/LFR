@@ -6,6 +6,7 @@ id = 126
 	history = {
 		owner = CZE
 		add_core_of = CZE
+		set_state_flag = SUDETENLAND
 		buildings = {
 		}
 		victory_points = {
