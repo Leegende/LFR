@@ -51,9 +51,21 @@ guiTypes = {
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "GUNS"
-					maxWidth = 600
-					maxHeight = 62
+					maxWidth = 75
+					maxHeight = 33
 					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "truck_subtitle_weapons"
+					position = { x = 477 y = 25 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "TRUCKS"
+					maxWidth = 100
+					maxHeight = 33
+					format = center
 					Orientation = "UPPER_LEFT"
 				}
 
