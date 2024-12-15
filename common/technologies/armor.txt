@@ -1,0 +1,369 @@
+technologies = {
+	#########
+	@light_tank = -6
+	@medium_tank = 0
+	@heavy_tank = 6
+	########
+	@soft_attack_upgrade = -3
+	@hard_attack_upgrade = 3
+	########
+	@1936 = 0
+	@1937 = 1
+	@1938 = 2
+	@1939 = 3
+	@1940 = 4
+	@1941 = 5
+	@1942 = 6
+	@1944 = 8
+	basic_tank = {
+		enable_equipments = {
+			gw_tank_equipment
+		}
+		path = {
+			leads_to_tech = basic_light_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_medium_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = basic_heavy_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = soft_attack_upgrade
+		}
+		path = {
+			leads_to_tech = hard_attack_upgrade
+		}
+		research_cost = 0
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = {
+				x = @medium_tank
+				y = @1936
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	basic_light_tank = {
+		enable_equipments = {
+			light_tank_equipment_1
+		}
+		enable_subunits = {
+			light_armor
+		}
+		path = {
+			leads_to_tech = improved_light_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = {
+				x = @light_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	improved_light_tank = {
+		enable_equipments = {
+			light_tank_equipment_2
+		}
+		path = {
+			leads_to_tech = advanced_light_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = {
+				x = @light_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	advanced_light_tank = {
+		enable_equipments = {
+			light_tank_equipment_3
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+		}
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = {
+				x = @light_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	basic_medium_tank = {
+		enable_equipments = {
+			medium_tank_equipment_1
+		}
+		path = {
+			leads_to_tech = improved_medium_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = {
+				x = @medium_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+	}
+	improved_medium_tank = {
+		enable_equipments = {
+			medium_tank_equipment_2
+		}
+		path = {
+			leads_to_tech = advanced_medium_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = {
+				x = @medium_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	advanced_medium_tank = {
+		enable_equipments = {
+			medium_tank_equipment_3
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = {
+				x = @medium_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	main_battle_tank = {
+		enable_equipments = {
+			modern_tank_equipment_1
+		}
+		enable_subunits = {
+			modern_armor
+		}
+		research_cost = 2.5
+		start_year = 1945
+		folder = {
+			name = armour_folder
+			position = {
+				x = @medium_tank
+				y = @1944
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	basic_heavy_tank = {
+		enable_equipments = {
+			heavy_tank_equipment_1
+		}
+		path = {
+			leads_to_tech = improved_heavy_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	improved_heavy_tank = {
+		enable_equipments = {
+			heavy_tank_equipment_2
+		}
+		path = {
+			leads_to_tech = advanced_heavy_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	advanced_heavy_tank = {
+		enable_equipments = {
+			heavy_tank_equipment_3
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	soft_attack_upgrade = {
+		research_cost = 2.5
+		start_year = 1936
+		path = {
+			leads_to_tech = soft_attack_upgrade1
+		}
+		folder = {
+			name = armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	soft_attack_upgrade1 = {
+		research_cost = 2.5
+		start_year = 1936
+		path = {
+			leads_to_tech = soft_attack_upgrade2
+		}
+		folder = {
+			name = armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	soft_attack_upgrade2 = {
+		research_cost = 2.5
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	hard_attack_upgrade = {
+		research_cost = 2.5
+		start_year = 1936
+		path = {
+			leads_to_tech = hard_attack_upgrade1
+		}
+		folder = {
+			name = armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	hard_attack_upgrade1 = {
+		research_cost = 2.5
+		start_year = 1936
+		path = {
+			leads_to_tech = hard_attack_upgrade2
+		}
+		folder = {
+			name = armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	hard_attack_upgrade2 = {
+		research_cost = 2.5
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+}
