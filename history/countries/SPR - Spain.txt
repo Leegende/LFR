@@ -1,17 +1,12 @@
 ﻿capital = 386
-
-oob = "SPR_1936"
-
-
 set_popularities = {
 	democratic = 41
 	fascism = 37
 	communism = 7
 	neutrality = 15
 }
+
 add_ideas = {
-	
 }
 
 set_research_slots = 3
-

@@ -10,10 +10,7 @@ add_ideas = {
 set_convoys = 800
 create_intelligence_agency = yes
 set_faction_spymaster = yes
-set_autonomy = {
-	target = IRE
-	autonomous_state = autonomy_dominion
-}
+
 
 set_politics = {
 	ruling_party = democratic

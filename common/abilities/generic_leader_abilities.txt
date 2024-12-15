@@ -58,7 +58,6 @@ ability = {
 		allowed = {
 			is_leading_army_group = no
 			is_border_war = no
-			OWNER = { NOT = { has_completed_focus = SPA_cultivate_fanaticism } }
 		}
 		
 		cost = 0.22
@@ -172,7 +171,6 @@ ability = {
 		}
 		
 		unit_modifiers = {
-			paratrooper_count_per_plane = 1.0
 			paradrop_organization_factor = 2.0
 			paratrooper_aa_defense = 0.5
 		}

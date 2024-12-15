@@ -10,7 +10,7 @@ technologies = {
 	###################
 	@heavy_arty_left = 6
 	@heavy_arty_center = 8
-	@heavy_arty_right = 9
+	@heavy_arty_right = 10
 	##################
 	@1936 = 0
 	@1937 = 2
