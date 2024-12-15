@@ -10,7 +10,6 @@ set_convoys = 300
 
 
 
-set_oob = "FRA_1936"
 
 
 

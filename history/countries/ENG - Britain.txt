@@ -1,13 +1,9 @@
 ﻿capital = 346
-set_oob = "ENG_1936"
-set_air_oob = "ENG_1936_air_bba"
 starting_train_buffer = 100
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.1
 add_command_power = 20
-
-
 add_ideas = {
 }
 

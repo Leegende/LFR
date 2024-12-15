@@ -25,6 +25,5 @@ set_popularities = {
 	democratic = 100
 }
 
-recruit_character = BEL_hubert_pierlot
 
 

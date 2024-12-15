@@ -1,6 +1,4 @@
 ﻿capital = 375
-every_owned_state = { set_state_flag = DEN_INITIAL_STATE }
-
 
 set_technology = {
 	infantry_weapons = 1

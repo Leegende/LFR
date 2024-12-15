@@ -1,5 +1,4 @@
 ﻿capital = 163
-set_oob = "ROM_1936"
 
 every_owned_state = {
 	set_state_flag = ROM_INITIAL_STATE

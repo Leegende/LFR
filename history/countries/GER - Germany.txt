@@ -1,6 +1,4 @@
 ﻿capital = 179
-set_oob = "GER_1936"
-set_air_oob = "GER_1936_air_bba"
 every_owned_state = {
 	set_state_flag = GER_INITIAL_STATE
 }

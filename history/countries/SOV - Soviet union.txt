@@ -1,5 +1,4 @@
-﻿capital = 163
-set_oob = "SOV_1936"
+﻿capital = 231
 every_owned_state = {
 	set_state_flag = SOV_INITIAL_STATE
 }

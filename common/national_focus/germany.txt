@@ -615,9 +615,7 @@ focus_tree = {
 			focus = GER_moderate_integration
 		}
 		relative_position_id = GER_moderate_integration
-		mutually_exclusive = {
-			focus = GER_forced_slavery
-		}
+		
 		available = {
 			always = yes
 		}
@@ -1214,9 +1212,7 @@ focus_tree = {
 			focus = GER_schacht_plan
 		}
 		relative_position_id = GER_four_year_plan
-		mutually_exclusive = {
-			focus = GER_four_year_plan
-		}
+		
 		available = {
 			always = yes
 		}
@@ -1312,9 +1308,7 @@ focus_tree = {
 			focus = GER_four_year_plan
 			focus = GER_schacht_plan
 		}
-		mutually_exclusive = {
-			focus = GER_four_year_plan
-		}
+		
 		relative_position_id = GER_four_year_plan
 		available = {
 			always = yes
@@ -1411,9 +1405,7 @@ focus_tree = {
 			focus = GER_four_year_plan
 		}
 		relative_position_id = GER_four_year_plan
-		mutually_exclusive = {
-			focus = GER_four_year_plan
-		}
+		
 		available = {
 			always = yes
 		}
