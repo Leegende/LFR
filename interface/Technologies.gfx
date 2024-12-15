@@ -477,22 +477,22 @@ spriteTypes = {
 	}		
 	
 	SpriteType = {
-		name = "GFX_support_weapons4_medium"
+		name = "GFX_soft_attack_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/support_weapons4.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_support_weapons3_medium"
+		name = "GFX_soft_attack_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/support_weapons3.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_support_weapons2_medium"
+		name = "GFX_soft_attack_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/support_weapons2.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_support_weapons_medium"
+		name = "GFX_soft_attack_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/support_weapons.dds"
 	}		
 	
@@ -580,17 +580,23 @@ spriteTypes = {
 		name = "GFX_extreme_environment_training_medium"
 		texturefile = "gfx/interface/technologies/tech_extreme_environment_training.dds"
 	}
-
-
-
+	SpriteType = {
+		name = "GFX_hard_attack_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_at4.dds"
+	}
 
 	SpriteType = {
-		name = "GFX_infantry_at2_medium"
+		name = "GFX_hard_attack_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_at3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hard_attack_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/infantry_at2.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_infantry_at_medium"
+		name = "GFX_hard_attack_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry_at.dds"
 	}	
 	
