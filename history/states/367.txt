@@ -1,6 +1,5 @@
-
 state = {
-id = 367
+	id = 367
 	name = "STATE_367"
 	provinces = {
 		913
@@ -61,14 +60,11 @@ id = 367
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			
 			13330 = {
 				naval_base = 1
 			}
-			dockyard = 3
 			
 		}
-		
 		victory_points = {
 			13330
 			5
@@ -107,7 +103,6 @@ id = 367
 		}
 	}
 	manpower = 2396600
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_city
 }
-

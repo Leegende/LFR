@@ -1,8 +1,7 @@
 state = {
 	id = 4
 	name = "STATE_4"
-	history = {
-	}
+	
 	manpower = 1
 	impassable = yes
 	buildings_max_level_factor = 1
