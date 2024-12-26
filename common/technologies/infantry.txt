@@ -1,29 +1,29 @@
 technologies = {
 	#######################################
 	@1936 = 0
-	@1937 = 4
-	@1938 = 8
-	@1939 = 12
-	@1940 = 16
-	@1941 = 20
-	@1942 = 24
-	@1943 = 28
-	@1944 = 32
-	@1945 = 36
+	@1937 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
 	#######################################
 	@soft_y = 3
 	@guns_y = 4
 	@hard_y = 5
 	#######################################
-	@truck_y = 10
-	@armored_car_y = 16
+	@truck_y = 8
+	@armored_car_y = 12
 	@amphibious_y = 20
 	#######################################
-	@special_forces_left_y = 26
-	@special_forces_y = 27
-	@special_forces_right_y = 28
+	@special_forces_left_y = 19
+	@special_forces_y = 20
+	@special_forces_right_y = 21
 	#######################################
-	@train_y = 22
+	@train_y = 16
 	#######################################
 	infantry_weapons = {
 		enable_equipments = {
@@ -293,16 +293,13 @@ technologies = {
 			factor = 1
 		}
 	}
-	tech_trucks = {
+	motorised_infantry = {
 		enable_equipments = {
-			motorized_equipment_0
+			motorized_equipment_1
 		}
 		path = {
-			leads_to_tech = motorised_infantry
+			leads_to_tech = mechanised_infantry
 			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = armored_car1
 		}
 		research_cost = 0
 		start_year = 1936
@@ -322,41 +319,15 @@ technologies = {
 			factor = 1
 		}
 	}
-	motorised_infantry = {
-		enable_equipments = {
-			motorized_equipment_1
-		}
-		sub_technologies = {
-			motorized_rocket_unit
-		}
-		path = {
-			leads_to_tech = mechanised_infantry
-			research_cost_coeff = 1
-		}
-		research_cost = 1.5
-		start_year = 1937
-		folder = {
-			name = infantry_folder
-			position = {
-				x = @truck_y
-				y = @1937
-			}
-		}
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	mechanised_infantry = {
 		enable_equipments = {
 			mechanized_equipment_1
 		}
 		path = {
 			leads_to_tech = mechanised_infantry2
+		}
+		sub_technologies = {
+			motorized_rocket_unit
 		}
 		research_cost = 2
 		start_year = 1938
@@ -381,14 +352,7 @@ technologies = {
 			amphibious_mechanized_equipment_1
 		}
 		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = {
-				x = @amphibious_y
-				y = @1940
-			}
-		}
+		start_year = 1941
 		categories = {
 			motorized_equipment
 			mio_cat_tech_all_motorized_mechanized
@@ -406,13 +370,6 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = {
-				x = @amphibious_y
-				y = @1942
-			}
-		}
 		categories = {
 			motorized_equipment
 			mio_cat_tech_all_motorized_mechanized
@@ -481,13 +438,10 @@ technologies = {
 		}
 	}
 	motorized_rocket_unit = {
-		enable_subunits = {
-			motorized_rocket_brigade
-		}
 		enable_equipments = {
 			motorized_rocket_equipment_1
 		}
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1939
 		categories = {
 			mot_rockets
@@ -594,13 +548,13 @@ technologies = {
 		path = {
 			leads_to_tech = improved_special_forces
 		}
-		research_cost = 1.5
-		start_year = 1939
+		research_cost = 1
+		start_year = 1938
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_y
-				y = @1939
+				y = 0
 			}
 		}
 		categories = {
@@ -620,13 +574,13 @@ technologies = {
 		path = {
 			leads_to_tech = extreme_environment_training
 		}
-		research_cost = 1.5
-		start_year = 1940
+		research_cost = 1
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_left_y
-				y = @1940
+				y = 2
 			}
 		}
 		categories = {
@@ -647,13 +601,13 @@ technologies = {
 			leads_to_tech = survival_training
 			research_cost_coeff = 1
 		}
-		research_cost = 1.5
-		start_year = 1940
+		research_cost = 1
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_right_y
-				y = @1940
+				y = 2
 			}
 		}
 		categories = {
@@ -671,13 +625,13 @@ technologies = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
 		}
-		research_cost = 1.5
-		start_year = 1942
+		research_cost = 1
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_left_y
-				y = @1942
+				y = 4
 			}
 		}
 		categories = {
@@ -695,13 +649,13 @@ technologies = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
 		}
-		research_cost = 1.5
-		start_year = 1942
+		research_cost = 1
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_right_y
-				y = @1942
+				y = 4
 			}
 		}
 		categories = {
@@ -715,13 +669,13 @@ technologies = {
 		}
 	}
 	elite_forces = {
-		research_cost = 1.5
-		start_year = 1943
+		research_cost = 1
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
 				x = @special_forces_y
-				y = @1943
+				y = 6
 			}
 		}
 		categories = {
@@ -749,7 +703,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = railway_gun
-			research_cost_coeff = 1
 		}
 		categories = {
 			train_tech
@@ -759,7 +712,7 @@ technologies = {
 		enable_equipments = {
 			railway_gun_equipment
 		}
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1938
 		path = {
 			leads_to_tech = railway_gun2

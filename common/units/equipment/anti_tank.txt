@@ -1,0 +1,101 @@
+equipments = {
+	anti_tank_equipment = {
+		year = 1936
+		is_archetype = yes
+		picture = archetype_anti_tank_equipment
+		active = yes
+		type = {
+			anti_tank
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	anti_tank_equipment_1 = {
+		year = 1938
+		archetype = anti_tank_equipment
+		priority = 90
+		visual_level = 0
+	}
+	anti_tank_equipment_2 = {
+		year = 1940
+		archetype = anti_tank_equipment
+		parent = anti_tank_equipment_1
+		priority = 90
+		visual_level = 1
+	}
+	anti_tank_equipment_3 = {
+		year = 1942
+		archetype = anti_tank_equipment
+		parent = anti_tank_equipment_2
+		priority = 90
+		visual_level = 2
+	}
+
+
+	pack_anti_tank_equipment = {
+		year = 1936
+		is_archetype = yes
+		picture = archetype_anti_tank_equipment
+		active = yes
+		type = {
+			anti_tank
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	pack_anti_tank_equipment_1 = {
+		year = 1938
+		archetype = pack_anti_tank_equipment
+		priority = 90
+		visual_level = 0
+	}
+	pack_anti_tank_equipment_2 = {
+		year = 1940
+		archetype = pack_anti_tank_equipment
+		parent = pack_anti_tank_equipment_1
+		priority = 90
+		visual_level = 1
+	}
+	pack_anti_tank_equipment_3 = {
+		year = 1942
+		archetype = pack_anti_tank_equipment
+		parent = pack_anti_tank_equipment_2
+		priority = 90
+		visual_level = 2
+	}
+
+	heavy_anti_tank_equipment = {
+		year = 1936
+		is_archetype = yes
+		picture = archetype_anti_tank_equipment
+		active = yes
+		type = {
+			anti_tank
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	heavy_anti_tank_equipment_1 = {
+		year = 1938
+		archetype = heavy_anti_tank_equipment
+		priority = 90
+		visual_level = 0
+	}
+	heavy_anti_tank_equipment_2 = {
+		year = 1940
+		archetype = heavy_anti_tank_equipment
+		parent = heavy_anti_tank_equipment_1
+		priority = 90
+		visual_level = 1
+	}
+	heavy_anti_tank_equipment_3 = {
+		year = 1942
+		archetype = heavy_anti_tank_equipment
+		parent = heavy_anti_tank_equipment_2
+		priority = 90
+		visual_level = 2
+	}
+}

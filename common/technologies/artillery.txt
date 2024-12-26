@@ -25,6 +25,11 @@ technologies = {
 	basic_artillery = {
 		enable_equipments = {
 			artillery_equipment
+			pack_artillery_equipment
+			pack_anti_tank_equipment
+			heavy_artillery_equipment
+			heavy_anti_tank_equipment
+			anti_air_equipment
 		}
 		path = {
 			leads_to_tech = light_artillery_upgrade
@@ -83,7 +88,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_artillery_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -102,7 +107,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_anti_tank_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -146,7 +151,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_artillery_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -165,7 +170,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_anti_tank_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -206,7 +211,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_artillery_equipment_3
 		}
 		folder = {
 			name = artillery_folder
@@ -225,7 +230,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			pack_anti_tank_equipment_3
 		}
 		folder = {
 			name = artillery_folder
@@ -269,7 +274,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			artillery_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -288,7 +293,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			anti_tank_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -332,7 +337,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			artillery_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -351,7 +356,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			anti_tank_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -392,7 +397,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			artillery_equipment_3
 		}
 		folder = {
 			name = artillery_folder
@@ -411,7 +416,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			anti_tank_equipment_3
 		}
 		folder = {
 			name = artillery_folder
@@ -455,7 +460,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_artillery_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -474,7 +479,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_anti_tank_equipment_1
 		}
 		folder = {
 			name = artillery_folder
@@ -518,7 +523,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_artillery_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -537,7 +542,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_anti_tank_equipment_2
 		}
 		folder = {
 			name = artillery_folder
@@ -578,7 +583,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_artillery_equipment_3
 		}
 		folder = {
 			name = artillery_folder
@@ -597,7 +602,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1938
 		enable_equipments = {
-			artillery_equipment
+			heavy_anti_tank_equipment_3
 		}
 		folder = {
 			name = artillery_folder

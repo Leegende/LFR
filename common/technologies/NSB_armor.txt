@@ -16,8 +16,35 @@ technologies = {
 	@1942 = 6
 	@1944 = 8
 	basic_tank = {
-		enable_equipments = {
-			gw_tank_equipment
+		enable_equipment_modules = {
+			tank_torsion_bar_suspension
+			tank_riveted_armor
+			tank_gasoline_engine
+			tank_diesel_engine
+			tank_petrol_electric_engine
+			tank_cast_armor
+			tank_christie_suspension
+			tank_bogie_suspension
+			tank_interleaved_suspension
+			tank_light_one_man_tank_turret
+			tank_light_two_man_tank_turret
+			tank_light_three_man_tank_turret
+			tank_light_fixed_superstructure_turret
+			tank_medium_one_man_tank_turret
+			tank_medium_two_man_tank_turret
+			tank_medium_three_man_tank_turret
+			tank_medium_fixed_superstructure_turret
+			tank_heavy_two_man_tank_turret
+			tank_heavy_three_man_tank_turret
+			tank_heavy_fixed_superstructure_turret
+			tank_super_heavy_four_man_tank_turret
+			tank_super_heavy_three_man_tank_turret
+			tank_modern_tank_turret
+			sloped_armor
+			extra_ammo_storage
+			wet_ammo_storage
+			smoke_launchers
+			expanded_fuel_tank
 		}
 		path = {
 			leads_to_tech = basic_light_tank
@@ -40,7 +67,7 @@ technologies = {
 		research_cost = 0
 		start_year = 1936
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @medium_tank
 				y = @1936
@@ -52,7 +79,10 @@ technologies = {
 	}
 	basic_light_tank = {
 		enable_equipments = {
-			light_tank_equipment_1
+			light_tank_chassis_1
+			light_tank_destroyer_chassis_1
+			light_tank_artillery_chassis_1
+			light_tank_aa_chassis_1
 		}
 		enable_subunits = {
 			light_armor
@@ -64,7 +94,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1934
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @light_tank
 				y = @1938
@@ -76,7 +106,10 @@ technologies = {
 	}
 	improved_light_tank = {
 		enable_equipments = {
-			light_tank_equipment_2
+			light_tank_chassis_2
+			light_tank_destroyer_chassis_2
+			light_tank_artillery_chassis_2
+			light_tank_aa_chassis_2
 		}
 		path = {
 			leads_to_tech = advanced_light_tank
@@ -85,7 +118,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @light_tank
 				y = @1940
@@ -97,7 +130,10 @@ technologies = {
 	}
 	advanced_light_tank = {
 		enable_equipments = {
-			light_tank_equipment_3
+			light_tank_chassis_3
+			light_tank_destroyer_chassis_3
+			light_tank_artillery_chassis_3
+			light_tank_aa_chassis_3
 		}
 		path = {
 			leads_to_tech = main_battle_tank
@@ -105,7 +141,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1941
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @light_tank
 				y = @1942
@@ -117,7 +153,10 @@ technologies = {
 	}
 	basic_medium_tank = {
 		enable_equipments = {
-			medium_tank_equipment_1
+			medium_tank_chassis_1
+			medium_tank_destroyer_chassis_1
+			medium_tank_artillery_chassis_1
+			medium_tank_aa_chassis_1
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
@@ -126,7 +165,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1939
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @medium_tank
 				y = @1938
@@ -141,7 +180,10 @@ technologies = {
 	}
 	improved_medium_tank = {
 		enable_equipments = {
-			medium_tank_equipment_2
+			medium_tank_chassis_2
+			medium_tank_destroyer_chassis_2
+			medium_tank_artillery_chassis_2
+			medium_tank_aa_chassis_2
 		}
 		path = {
 			leads_to_tech = advanced_medium_tank
@@ -150,7 +192,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1941
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @medium_tank
 				y = @1940
@@ -162,8 +204,12 @@ technologies = {
 	}
 	advanced_medium_tank = {
 		enable_equipments = {
-			medium_tank_equipment_3
+			medium_tank_chassis_3
+			medium_tank_destroyer_chassis_3
+			medium_tank_artillery_chassis_3
+			medium_tank_aa_chassis_3
 		}
+
 		path = {
 			leads_to_tech = main_battle_tank
 			research_cost_coeff = 1
@@ -171,7 +217,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1943
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @medium_tank
 				y = @1942
@@ -183,7 +229,10 @@ technologies = {
 	}
 	main_battle_tank = {
 		enable_equipments = {
-			modern_tank_equipment_1
+			modern_tank_chassis_1
+			modern_tank_destroyer_chassis_1
+			modern_tank_artillery_chassis_1
+			modern_tank_aa_chassis_1
 		}
 		enable_subunits = {
 			modern_armor
@@ -191,7 +240,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1945
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @medium_tank
 				y = @1944
@@ -203,7 +252,10 @@ technologies = {
 	}
 	basic_heavy_tank = {
 		enable_equipments = {
-			heavy_tank_equipment_1
+			heavy_tank_chassis_1
+			heavy_tank_destroyer_chassis_1
+			heavy_tank_artillery_chassis_1
+			heavy_tank_aa_chassis_1
 		}
 		path = {
 			leads_to_tech = improved_heavy_tank
@@ -212,7 +264,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1934
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @heavy_tank
 				y = @1938
@@ -224,7 +276,10 @@ technologies = {
 	}
 	improved_heavy_tank = {
 		enable_equipments = {
-			heavy_tank_equipment_2
+			heavy_tank_chassis_2
+			heavy_tank_destroyer_chassis_2
+			heavy_tank_artillery_chassis_2
+			heavy_tank_aa_chassis_2
 		}
 		path = {
 			leads_to_tech = advanced_heavy_tank
@@ -233,7 +288,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1941
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @heavy_tank
 				y = @1940
@@ -248,7 +303,10 @@ technologies = {
 	}
 	advanced_heavy_tank = {
 		enable_equipments = {
-			heavy_tank_equipment_3
+			heavy_tank_chassis_3
+			heavy_tank_destroyer_chassis_3
+			heavy_tank_artillery_chassis_3
+			heavy_tank_aa_chassis_3
 		}
 		path = {
 			leads_to_tech = main_battle_tank
@@ -257,7 +315,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1943
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @heavy_tank
 				y = @1942
@@ -277,7 +335,7 @@ technologies = {
 			leads_to_tech = soft_attack_upgrade1
 		}
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @soft_attack_upgrade
 				y = @1938
@@ -294,7 +352,7 @@ technologies = {
 			leads_to_tech = soft_attack_upgrade2
 		}
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @soft_attack_upgrade
 				y = @1940
@@ -308,7 +366,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @soft_attack_upgrade
 				y = @1942
@@ -325,7 +383,7 @@ technologies = {
 			leads_to_tech = hard_attack_upgrade1
 		}
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @hard_attack_upgrade
 				y = @1938
@@ -342,7 +400,7 @@ technologies = {
 			leads_to_tech = hard_attack_upgrade2
 		}
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @hard_attack_upgrade
 				y = @1940
@@ -356,7 +414,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = {
-			name = NSB_armour_folder
+			name = nsb_armour_folder
 			position = {
 				x = @hard_attack_upgrade
 				y = @1942

@@ -1,7 +1,7 @@
 technologies = {
 	early_fighter = {
 		enable_equipments = {
-			cv_fighter_equipment_0
+			fighter_equipment_0
 		}
 		path = {
 			leads_to_tech = fighter1
@@ -34,7 +34,7 @@ technologies = {
 	}
 	fighter1 = {
 		enable_equipments = {
-			cv_fighter_equipment_1
+			fighter_equipment_1
 		}
 		path = {
 			leads_to_tech = fighter2
@@ -82,7 +82,7 @@ technologies = {
 	}
 	fighter2 = {
 		enable_equipments = {
-			cv_fighter_equipment_2
+			fighter_equipment_2
 		}
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -141,7 +141,7 @@ technologies = {
 	}
 	fighter3 = {
 		enable_equipments = {
-			cv_fighter_equipment_3
+			fighter_equipment_3
 		}
 		path = {
 			leads_to_tech = jet_fighter1
@@ -197,7 +197,7 @@ technologies = {
 			name = bba_air_techs_folder
 			position = {
 				x = 0
-				y = 12
+				y = 10
 			}
 		}
 		categories = {
@@ -209,7 +209,7 @@ technologies = {
 	}
 	CAS1 = {
 		enable_equipments = {
-			cv_CAS_equipment_1
+			CAS_equipment_1
 		}
 		path = {
 			leads_to_tech = CAS2
@@ -250,7 +250,7 @@ technologies = {
 	}
 	CAS2 = {
 		enable_equipments = {
-			cv_CAS_equipment_2
+			CAS_equipment_2
 		}
 		path = {
 			leads_to_tech = CAS3
@@ -300,7 +300,7 @@ technologies = {
 	}
 	CAS3 = {
 		enable_equipments = {
-			cv_CAS_equipment_3
+			CAS_equipment_3
 		}
 		path = {
 			leads_to_tech = jet_fighter1
@@ -350,7 +350,7 @@ technologies = {
 	}
 	naval_bomber1 = {
 		enable_equipments = {
-			cv_nav_bomber_equipment_1
+			nav_bomber_equipment_1
 		}
 		path = {
 			leads_to_tech = naval_bomber2
@@ -375,7 +375,7 @@ technologies = {
 	}
 	naval_bomber2 = {
 		enable_equipments = {
-			cv_nav_bomber_equipment_2
+			nav_bomber_equipment_2
 		}
 		path = {
 			leads_to_tech = naval_bomber3
@@ -400,7 +400,7 @@ technologies = {
 	}
 	naval_bomber3 = {
 		enable_equipments = {
-			cv_nav_bomber_equipment_3
+			nav_bomber_equipment_3
 		}
 		path = {
 			leads_to_tech = jet_fighter1
@@ -444,7 +444,7 @@ technologies = {
 		folder = {
 			name = bba_air_techs_folder
 			position = {
-				x = 4
+				x = 2
 				y = 2
 			}
 		}
@@ -518,7 +518,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = jet_tactical_bomber1
-			research_cost_coeff = 1.2
 		}
 		research_cost = 2
 		start_year = 1944
@@ -691,7 +690,7 @@ technologies = {
 			name = bba_air_techs_folder
 			position = {
 				x = 2
-				y = 12
+				y = 10
 			}
 		}
 		categories = {
