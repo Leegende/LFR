@@ -2,37 +2,7 @@ state = {
 	id = 383
 	name = "STATE_383"
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		buildings = {
-			
-			
-			
-		}
-		victory_points = {
-			9211
-			10
-		}
-		victory_points = {
-			14811
-			5
-		}
-		victory_points = {
-			8308
-			5
-		}
-		victory_points = {
-			19753
-			20
-		}
-		victory_points = {
-			1129
-			2
-		}
-		victory_points = {
-			14947
-			5
-		}
+	
 	}
 	provinces = {
 		2712
@@ -80,8 +50,8 @@ state = {
 		19790
 		19791
 	}
-	manpower = 1264600
+	manpower = 1
 	buildings_max_level_factor = 1
-	state_category = city
+	state_category = wasteland
 	local_supplies = 0
 }

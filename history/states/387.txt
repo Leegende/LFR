@@ -21,21 +21,10 @@ state = {
 		20515
 	}
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		buildings = {
-		}
-		victory_points = {
-			19747
-			10
-		}
-		victory_points = {
-			15100
-			5
-		}
+		
 	}
-	manpower = 572800
+	manpower = 1
 	buildings_max_level_factor = 1
-	state_category = city
+	state_category = wasteland
 	local_supplies = 0
 }

@@ -1,7 +1,3 @@
-#args4
-#883.txt
-#901.txt
-#926.txt
 state = {
 id = 384
 	name = "STATE_384"
@@ -42,41 +38,11 @@ id = 384
 		19787
 	}
 	history = {
-		owner = SPR
-		add_core_of = SPR
 		
-		buildings = {
-			
-			
-		}
-		victory_points = {
-			19754
-			10
-		}
-		victory_points = {
-			7708
-			2
-		}
-		victory_points = {
-			3682
-			10
-		}
-		victory_points = {
-			3440
-			10
-		}
-		victory_points = {
-			2372
-			2
-		}
-		victory_points = {
-			19748
-			5
-		}
 	}
-	manpower = 906600
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = wasteland
 	local_supplies = 0.000
 }
 

@@ -16,7 +16,6 @@ equipments = {
 		archetype = pack_artillery_equipment
 		priority = 50
 		visual_level = 1
-		defense = 15
 	}
 	pack_artillery_equipment_2 = {
 		year = 1940

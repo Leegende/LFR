@@ -1,58 +1,8 @@
-#args2
-#2328.txt
 state = {
 id = 173
 	name = "STATE_173"
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		victory_points = {
-			8033
-			2
-		}
-		buildings = {
 		
-		}
-		victory_points = {
-			19759
-			10
-		}
-		victory_points = {
-			19761
-			5
-		}
-		victory_points = {
-			5400
-			2
-		}
-		victory_points = {
-			6046
-			2
-		}
-		victory_points = {
-			14960
-			80
-		}
-		victory_points = {
-			19808
-			10
-		}
-		victory_points = {
-			7694
-			5
-		}
-		victory_points = {
-			19760
-			10
-		}
-		victory_points = {
-			7586
-			10
-		}
-		victory_points = {
-			5490
-			2
-		}
 	}
 	provinces = {
 		8033
@@ -93,8 +43,8 @@ id = 173
 		5490
 		14988
 	}
-	manpower = 3015500
-	state_category = pastoral
+	manpower = 1
+	state_category = wasteland
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

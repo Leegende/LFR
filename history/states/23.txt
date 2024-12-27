@@ -24,34 +24,11 @@ id = 23
 		19778
 	}
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		buildings = {
-		}
-		victory_points = {
-			4729
-			10
-		}
-		victory_points = {
-			19764
-			20
-		}
-		victory_points = {
-			19778
-			5
-		}
-		victory_points = {
-			15387
-			20
-		}
-		victory_points = {
-			3862
-			2
-		}
+	
 	}
-	manpower = 998700
+	manpower = 1
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = city
+	state_category = wasteland
 }
 
