@@ -3,8 +3,8 @@ state = {
 id = 51
 	name = "STATE_51"
 	history = {
-		owner = SPR
-		add_core_of = ENG
+		owner = FRA
+		add_core_of = SWE
 		buildings = {
 		}
 		victory_points = {

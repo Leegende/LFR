@@ -17,7 +17,6 @@ NOR = "countries/Norway.txt"
 POL = "countries/Poland.txt"
 ROM = "countries/Romania.txt"
 SOV = "countries/Soviet Union.txt"
-SPR = "countries/Spain.txt"
 SWE = "countries/Sweden.txt"
 YUG = "countries/Yugoslavia.txt"
 

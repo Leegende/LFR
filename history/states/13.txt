@@ -2,26 +2,7 @@ state = {
 id = 13
 	name = "STATE_13"
 	history = {
-		owner = SPR
-		add_core_of = SPR
-		buildings = {
-			
-			15241 = {
-				naval_base = 2
-			}
-		}
-		victory_points = {
-			15241
-			20
-		}
-		victory_points = {
-			19805
-			2
-		}
-		victory_points = {
-			19804
-			2
-		}
+		
 	}
 	provinces = {
 		1711

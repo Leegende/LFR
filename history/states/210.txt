@@ -3,15 +3,7 @@ id = 210
 	name="STATE_210"
 			
 	history={
-		owner = SPR
-		add_core_of = SPR
-		buildings = {
-			20911 = { naval_base = 1 }
-		}
-	
-	    victory_points = {
-		    20911 5 #Melilla
-			}
+
 	}
 	
 	provinces={
