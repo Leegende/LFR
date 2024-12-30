@@ -1,6 +1,3 @@
-#args3
-#1678.txt
-#1679.txt
 state = {
 	id = 179
 	name = "STATE_179"
@@ -9,9 +6,6 @@ state = {
 		add_core_of = GER
 		buildings = {
 		}
-		
-		
-	
 		victory_points = {
 			20638
 			2
@@ -20,11 +14,6 @@ state = {
 			20634
 			20
 		}
-		
-		
-		
-		
-	
 		victory_points = {
 			11622
 			2
@@ -48,15 +37,6 @@ state = {
 		801
 		7757
 		11920
-		
-		
-		
-		
-	
-		
-		
-		
-		
 		5058
 		11559
 		11612
@@ -76,34 +56,12 @@ state = {
 		20634
 		20625
 		20618
-
-		
-
-	
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
 		7655
 		8484
 		11533
 		11541
 		11622
 		11710
-		
-		
 		5847
 		11956
 		11983
@@ -124,7 +82,6 @@ state = {
 		12053
 		12085
 		20615
-		
 		20621
 		5106
 		12182
@@ -133,7 +90,7 @@ state = {
 		12258
 		20619
 	}
-	manpower = 9027752
+	manpower = 2700431
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = town

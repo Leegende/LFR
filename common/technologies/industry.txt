@@ -1010,8 +1010,6 @@ technologies = {
 				y = 9
 			}
 		}
-		enable_equipment_modules = {
-		}
 		
 		categories = {
 			electronics
@@ -1049,7 +1047,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_radio_3
-			lc_radio_3		
 		}
 		
 		categories = {

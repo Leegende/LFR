@@ -249,6 +249,12 @@ equipment_modules = {
 			build_cost_ic = 1.5
 		}
 	}
+	
+
+	
+	
+	
+	
 	tank_small_turret_1 = {
 		abbreviation = "m1m"
 		category = tank_small_turret_type_1
@@ -324,6 +330,156 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.3
 	}
+	tank_medium_turret_1 = {
+		abbreviation = "m1m"
+		category = tank_medium_turret_type_1
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_medium_1
+			}
+		}
+		add_stats = {
+			build_cost_ic = 6
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 5
+		}
+		dismantle_cost_ic = 3
+	}
+	tank_medium_turret_2 = {
+		abbreviation = "m2m"
+		category = tank_medium_turret_type_2
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_medium_1
+				tank_armament_tier_medium_2
+			}
+		}
+		add_stats = {
+			build_cost_ic = 7
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 8
+		}
+		dismantle_cost_ic = 0.3
+	}
+	tank_medium_turret_3 = {
+		abbreviation = "m3m"
+		category = tank_medium_turret_type_3
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_medium_1
+				tank_armament_tier_medium_2
+				tank_armament_tier_medium_3
+			}
+		}
+		add_stats = {
+			build_cost_ic = 8
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 8
+		}
+		dismantle_cost_ic = 0.3
+	}
+	tank_heavy_turret_1 = {
+		abbreviation = "m1m"
+		category = tank_heavy_turret_type_1
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_heavy_1
+			}
+		}
+		add_stats = {
+			build_cost_ic = 6
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 5
+		}
+		dismantle_cost_ic = 3
+	}
+	tank_heavy_turret_2 = {
+		abbreviation = "m2m"
+		category = tank_heavy_turret_type_2
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_heavy_1
+				tank_armament_tier_heavy_2
+			}
+		}
+		add_stats = {
+			build_cost_ic = 7
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 8
+		}
+		dismantle_cost_ic = 0.3
+	}
+	tank_heavy_turret_3 = {
+		abbreviation = "m3m"
+		category = tank_heavy_turret_type_3
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+			artillery
+		}
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_armament_tier_heavy_1
+				tank_armament_tier_heavy_2
+				tank_armament_tier_heavy_3
+			}
+		}
+		add_stats = {
+			build_cost_ic = 8
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			steel = 8
+		}
+		dismantle_cost_ic = 0.3
+	}
 	small_soft_cannon_1 = {
 		abbreviation = "ssc1"
 		category = tank_armament_tier_small_1
@@ -355,6 +511,216 @@ equipment_modules = {
 	small_soft_cannon_3 = {
 		abbreviation = "ssc3"
 		category = tank_armament_tier_small_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	small_hard_cannon_1 = {
+		abbreviation = "ssc1"
+		category = tank_armament_tier_small_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	small_hard_cannon_2 = {
+		abbreviation = "ssc2"
+		category = tank_armament_tier_small_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	small_hard_cannon_3 = {
+		abbreviation = "ssc3"
+		category = tank_armament_tier_small_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_soft_cannon_1 = {
+		abbreviation = "ssc1"
+		category = tank_armament_tier_medium_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_soft_cannon_2 = {
+		abbreviation = "ssc2"
+		category = tank_armament_tier_medium_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_soft_cannon_3 = {
+		abbreviation = "ssc3"
+		category = tank_armament_tier_medium_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_hard_cannon_1 = {
+		abbreviation = "ssc1"
+		category = tank_armament_tier_medium_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_hard_cannon_2 = {
+		abbreviation = "ssc2"
+		category = tank_armament_tier_medium_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	medium_hard_cannon_3 = {
+		abbreviation = "ssc3"
+		category = tank_armament_tier_medium_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_soft_cannon_1 = {
+		abbreviation = "ssc1"
+		category = tank_armament_tier_heavy_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_soft_cannon_2 = {
+		abbreviation = "ssc2"
+		category = tank_armament_tier_heavy_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_soft_cannon_3 = {
+		abbreviation = "ssc3"
+		category = tank_armament_tier_heavy_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_hard_cannon_1 = {
+		abbreviation = "ssc1"
+		category = tank_armament_tier_heavy_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_hard_cannon_2 = {
+		abbreviation = "ssc2"
+		category = tank_armament_tier_heavy_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		add_stats = {
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			steel = 2
+		}
+	}
+	heavy_hard_cannon_3 = {
+		abbreviation = "ssc3"
+		category = tank_armament_tier_heavy_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {

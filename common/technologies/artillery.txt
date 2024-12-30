@@ -112,6 +112,9 @@ technologies = {
 		enable_equipments = {
 			pack_anti_tank_equipment_1
 		}
+		enable_equipment_modules = {
+			small_hard_cannon_1
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -178,6 +181,9 @@ technologies = {
 		enable_equipments = {
 			pack_anti_tank_equipment_2
 		}
+		enable_equipment_modules = {
+			small_hard_cannon_2
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -241,6 +247,9 @@ technologies = {
 		enable_equipments = {
 			pack_anti_tank_equipment_3
 		}
+		enable_equipment_modules = {
+			small_hard_cannon_3
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -285,6 +294,9 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_1
 		}
+		enable_equipment_modules = {
+			medium_soft_cannon_1
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -303,6 +315,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			anti_tank_equipment_1
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_1
 		}
 		folder = {
 			name = artillery_folder
@@ -348,6 +363,9 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_2
 		}
+		enable_equipment_modules = {
+			medium_soft_cannon_2
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -366,6 +384,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_2
 		}
 		folder = {
 			name = artillery_folder
@@ -408,6 +429,9 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_3
 		}
+		enable_equipment_modules = {
+			medium_soft_cannon_3
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -426,6 +450,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_3
 		}
 		folder = {
 			name = artillery_folder
@@ -471,6 +498,9 @@ technologies = {
 		enable_equipments = {
 			heavy_artillery_equipment_1
 		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_1
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -489,6 +519,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			heavy_anti_tank_equipment_1
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_1
 		}
 		folder = {
 			name = artillery_folder
@@ -534,6 +567,9 @@ technologies = {
 		enable_equipments = {
 			heavy_artillery_equipment_2
 		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_2
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -552,6 +588,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			heavy_anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_2
 		}
 		folder = {
 			name = artillery_folder
@@ -594,6 +633,9 @@ technologies = {
 		enable_equipments = {
 			heavy_artillery_equipment_3
 		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_3
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -612,6 +654,9 @@ technologies = {
 		start_year = 1938
 		enable_equipments = {
 			heavy_anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_3
 		}
 		folder = {
 			name = artillery_folder
