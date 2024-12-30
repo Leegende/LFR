@@ -27,9 +27,6 @@ ideas = {
 			available = {
 				always = yes
 			}
-			ai_will_do = {
-				factor = 1
-			}
 			modifier = {
 				conscription = 0.015
 			}
@@ -46,8 +43,6 @@ ideas = {
 			modifier = {
 				conscription = 0.025
 			}
-			ai_will_do = {
-			}
 			cancel_if_invalid = no
 		}
 		extensive_conscription = {
@@ -60,8 +55,6 @@ ideas = {
 					}
 				}
 				has_war_support > 0.2
-			}
-			ai_will_do = {
 			}
 			cost = 150
 			removal_cost = -1
@@ -81,8 +74,6 @@ ideas = {
 					}
 				}
 				has_war_support > 0.2
-			}
-			ai_will_do = {
 			}
 			cost = 150
 			removal_cost = -1
@@ -105,8 +96,6 @@ ideas = {
 				}
 				has_war_support > 0.2
 			}
-			ai_will_do = {
-			}
 			cost = 150
 			removal_cost = -1
 			level = 2
@@ -127,8 +116,6 @@ ideas = {
 					}
 				}
 				has_war_support > 0.2
-			}
-			ai_will_do = {
 			}
 			cost = 150
 			removal_cost = -1

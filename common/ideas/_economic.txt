@@ -23,8 +23,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.15
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
+
 		}
 		partial_economic_mobilisation = {
 			available = {
@@ -37,8 +36,6 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		war_economy = {
 			available = {
@@ -53,16 +50,12 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		tot_economic_mobilisation = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
 				threat > 0.5
-			}
-			ai_will_do = {
 			}
 			cost = 150
 			removal_cost = -1
@@ -91,8 +84,6 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		export_focus = {
 			available = {
@@ -105,8 +96,6 @@ ideas = {
 			}
 			default = yes
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		limited_exports = {
 			available = {
@@ -122,8 +111,6 @@ ideas = {
 				research_speed_factor = -0.05
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		closed_economy = {
 			allowed = {
@@ -141,8 +128,6 @@ ideas = {
 				min_export = 0
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-			}
 		}
 		planned_economy = {
 			picture = new_economic_policy
@@ -166,9 +151,6 @@ ideas = {
 				navy_intel_to_others = 10
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-				factor = 0
-			}
 		}
 	}
 }

@@ -12,22 +12,7 @@ ability = {
 			is_border_war = no
 		}
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = {
-					has_war_support > 0.1
-					command_power > 1.5
-				}
-				check_variable = { num_units_offensive_combats > 6 }
-				
-				set_temp_variable = { temp = avg_offensive_combat_status }
-				check_variable = { temp > 0.45 }
-				check_variable = { ai_random > temp }
-				
-				add = 2
-			}
-		}
+	
 		
 		cost = 0.22
 		duration = 168
@@ -77,20 +62,7 @@ ability = {
 			}
 		}
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = { has_war_support > 0.4 }
-				
-				check_variable = { num_units_defensive_combats > 6 }
-				
-				set_temp_variable = { temp = avg_defensive_combat_status }
-				check_variable = { temp < 0.40 }
-				check_variable = { ai_random > temp }
-				
-				add = 2
-			}
-		}
+
 	}
 	
 	staff_office_plan = {
@@ -109,17 +81,7 @@ ability = {
 		unit_modifiers = { planning_speed = 4.0 }
 		
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = { command_power > 2.0 }
-				check_variable = { num_units > 6 }
-				check_variable = { unit_ratio_ready_for_plan > 0.55 }
-				check_variable = { avg_unit_planning_ratio < 0.4 }
-				
-				add = 2
-			}
-		}
+		
 	}
 	
 	
@@ -143,20 +105,7 @@ ability = {
 		duration = 168
 		
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = { command_power > 1.5 }
-				
-				set_temp_variable = { temp = num_units_offensive_combats }
-				check_variable = { temp > 6 }
-				set_temp_variable = { temp2 = num_units_offensive_combats_against@fort }
-				divide_temp_variable = { temp2 = temp }
-				check_variable = { temp2 > 0.5 }
-				
-				add = 2
-			}
-		}
+	
 	}
 	
 	glider_planes = {
@@ -236,15 +185,7 @@ ability = {
 		cost = 0.1
 		duration = 168
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = { command_power > 2.0 }
-				check_variable = { num_units_crossing_river > 5 }
-				
-				add = 2
-			}
-		}
+	
 	}
 	
 	extra_suplies = {
@@ -284,17 +225,6 @@ ability = {
 		duration = 168
 		
 		
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = { command_power > 2.0 }
-				check_variable = { num_units_on_climate@cold_climate > 8 }
-				set_temp_variable = { temp = avg_units_acclimation@cold_climate }
-				divide_temp_variable = { temp =  num_units }
-				check_variable = { temp < 0.5 }
-				
-				add = 2
-			}
-		}
+	
 	}
 }

@@ -12,6 +12,10 @@ technologies = {
 	@rockets_1945 = 8
 	@rockets_1946 = 10
 	basic_machine_tools = {
+
+		production_factory_max_efficiency_factor = 0.1
+
+
 		path = {
 			leads_to_tech = improved_machine_tools
 			research_cost_coeff = 1
@@ -39,6 +43,7 @@ technologies = {
 		}
 	}
 	improved_machine_tools = {
+		production_factory_max_efficiency_factor = 0.1
 		path = {
 			leads_to_tech = advanced_machine_tools
 			research_cost_coeff = 1
@@ -58,6 +63,7 @@ technologies = {
 		}
 	}
 	advanced_machine_tools = {
+		production_factory_max_efficiency_factor = 0.1
 		path = {
 			leads_to_tech = assembly_line_production
 			research_cost_coeff = 1
@@ -77,6 +83,7 @@ technologies = {
 		}
 	}
 	assembly_line_production = {
+		production_factory_max_efficiency_factor = 0.1
 		path = {
 			leads_to_tech = flexible_line
 			research_cost_coeff = 1
@@ -96,6 +103,7 @@ technologies = {
 		}
 	}
 	flexible_line = {
+		production_factory_max_efficiency_factor = 0.1
 		research_cost = 2.5
 		start_year = 1943
 		folder = {
@@ -111,6 +119,11 @@ technologies = {
 		}
 	}
 	concentrated_industry = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.15
+		local_resources_factor = 0.10
+		
+
 		path = {
 			leads_to_tech = concentrated_industry2
 			research_cost_coeff = 1
@@ -132,6 +145,9 @@ technologies = {
 		}
 	}
 	concentrated_industry2 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.15
+		local_resources_factor = 0.10
 		path = {
 			leads_to_tech = concentrated_industry3
 			research_cost_coeff = 1
@@ -151,6 +167,9 @@ technologies = {
 		}
 	}
 	concentrated_industry3 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.15
+		local_resources_factor = 0.10
 		path = {
 			leads_to_tech = concentrated_industry4
 			research_cost_coeff = 1
@@ -170,6 +189,9 @@ technologies = {
 		}
 	}
 	concentrated_industry4 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.15
+		local_resources_factor = 0.10
 		path = {
 			leads_to_tech = concentrated_industry5
 			research_cost_coeff = 1
@@ -189,6 +211,10 @@ technologies = {
 		}
 	}
 	concentrated_industry5 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.15
+		local_resources_factor = 0.10
+
 		research_cost = 2
 		start_year = 1943
 		folder = {
@@ -204,6 +230,15 @@ technologies = {
 		}
 	}
 	dispersed_industry = {
+
+
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		
+
+
 		path = {
 			leads_to_tech = dispersed_industry2
 			research_cost_coeff = 1
@@ -225,6 +260,13 @@ technologies = {
 		}
 	}
 	dispersed_industry2 = {
+
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+
+
 		path = {
 			leads_to_tech = dispersed_industry3
 			research_cost_coeff = 1
@@ -254,6 +296,10 @@ technologies = {
 		}
 	}
 	dispersed_industry3 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
 		path = {
 			leads_to_tech = dispersed_industry4
 			research_cost_coeff = 1
@@ -273,6 +319,10 @@ technologies = {
 		}
 	}
 	dispersed_industry4 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
 		path = {
 			leads_to_tech = dispersed_industry5
 			research_cost_coeff = 1
@@ -292,6 +342,10 @@ technologies = {
 		}
 	}
 	dispersed_industry5 = {
+		global_building_slots_factor = 0.50
+		industrial_capacity_factory = 0.1
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
 		research_cost = 2
 		start_year = 1943
 		folder = {
@@ -562,6 +616,8 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 	construction1 = {
+		production_speed_buildings_factor = 0.10
+		industry_repair_factor = 0.1
 		path = {
 			leads_to_tech = construction2
 			research_cost_coeff = 1
@@ -609,31 +665,7 @@ technologies = {
 				y = 0
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
+		
 	}
 	construction2 = {
 		production_speed_buildings_factor = 0.1
@@ -686,31 +718,7 @@ technologies = {
 				y = 2
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
+		
 	}
 	construction3 = {
 		production_speed_buildings_factor = 0.1
@@ -736,21 +744,7 @@ technologies = {
 				y = 4
 			}
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 1.5
-				has_war = yes
-			}
-			modifier = {
-				factor = 0.5
-				has_war = no
-			}
-			modifier = {
-				factor = 3
-				date > "1940.1.1"
-			}
-		}
+		
 	}
 	excavation3 = {
 		local_resources_factor = 0.1
@@ -771,41 +765,11 @@ technologies = {
 				y = 4
 			}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
+		
 	}
 	construction4 = {
 		production_speed_buildings_factor = 0.1
 		industry_repair_factor = 0.1
-		on_research_complete = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_commercial_nuclear_reactor
-			}
-		}
 		path = {
 			leads_to_tech = construction5
 			research_cost_coeff = 1
@@ -827,13 +791,7 @@ technologies = {
 				y = 6
 			}
 		}
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}
-		}
+		
 	}
 	excavation4 = {
 		local_resources_factor = 0.1
@@ -852,31 +810,6 @@ technologies = {
 			position = {
 				x = 2
 				y = 6
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
 			}
 		}
 	}
@@ -900,13 +833,7 @@ technologies = {
 				y = 8
 			}
 		}
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 10
-				date > "1943.1.1"
-			}
-		}
+		
 	}
 	excavation5 = {
 		local_resources_factor = 0.1
@@ -954,6 +881,8 @@ technologies = {
 		}
 	}
 	electronic_mechanical_engineering = {
+		research_speed_factor = 0.05
+		
 		path = {
 			leads_to_tech = radio
 			research_cost_coeff = 1
@@ -965,9 +894,6 @@ technologies = {
 		path = {
 			leads_to_tech = cavity_magnatron
 			research_cost_coeff = 1
-		}
-		enable_equipment_modules = {
-			ship_fire_control_system_0
 		}
 		research_cost = 1
 		start_year = 1936
@@ -1070,9 +996,7 @@ technologies = {
 	cavity_magnatron = {
 		research_cost = 1.25
 		start_year = 1938
-		enable_equipment_modules = {
-			ship_radar_2
-		}
+	
 		folder = {
 			name = industry_folder
 			position = {
@@ -1143,6 +1067,8 @@ technologies = {
 		}
 	}
 	mechanical_computing = {
+		research_speed_factor = 0.10
+		
 		path = {
 			leads_to_tech = computing_machine
 			research_cost_coeff = 1
@@ -1161,6 +1087,7 @@ technologies = {
 		}
 	}
 	computing_machine = {
+		research_speed_factor = 0.10
 		path = {
 			leads_to_tech = improved_computing_machine
 			research_cost_coeff = 1
@@ -1182,6 +1109,7 @@ technologies = {
 		}
 	}
 	improved_computing_machine = {
+		research_speed_factor = 0.10
 		path = {
 			leads_to_tech = advanced_computing_machine
 			research_cost_coeff = 1
@@ -1203,6 +1131,7 @@ technologies = {
 		}
 	}
 	advanced_computing_machine = {
+		research_speed_factor = 0.10
 		research_cost = 2.5
 		start_year = 1942
 		folder = {
