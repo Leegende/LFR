@@ -1,18 +1,14 @@
-
 equipments = {
-
 	infantry_equipment = {
 		year = 1936
 		is_archetype = yes
-		picture = archetype_infantry_equipment		
+		picture = archetype_infantry_equipment
 		is_buildable = no
 		type = infantry
 		group_by = archetype
 		interface_category = interface_category_land
 		active = yes
-	
 	}
-
 	infantry_equipment_0 = {
 		year = 1936
 		archetype = infantry_equipment
@@ -20,9 +16,6 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
-
-
-
 	infantry_equipment_1 = {
 		year = 1938
 		archetype = infantry_equipment
@@ -30,16 +23,13 @@ equipments = {
 		priority = 10
 		visual_level = 1
 	}
-
 	infantry_equipment_2 = {
 		year = 1940
-	
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
 		priority = 10
 		visual_level = 2
 	}
-	
 	infantry_equipment_3 = {
 		year = 1942
 		archetype = infantry_equipment

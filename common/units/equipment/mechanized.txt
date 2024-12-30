@@ -1,0 +1,54 @@
+equipments = {
+
+	mechanized_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment
+		is_buildable = no
+		type = {
+			mechanized
+		}
+		
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+
+		fuel_consumption = 2.4
+		supply_truck = no
+	}
+	mechanized_equipment_0 = {
+		year = 1910
+		archetype = mechanized_equipment
+		is_buildable = no
+		can_be_produced = {
+			always = no
+		}
+		can_be_lend_leased = {
+			always = no
+		}
+		can_license = no
+		priority = 40
+		visual_level = 0
+	}
+
+	mechanized_equipment_1 = {
+		year = 1940
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_0
+		priority = 40
+		visual_level = 0
+	}
+
+	mechanized_equipment_2 = {
+		year = 1942
+
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_1
+		priority = 40
+		visual_level = 1
+
+	
+	}
+}
