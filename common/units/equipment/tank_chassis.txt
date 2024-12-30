@@ -764,7 +764,6 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		upgrades = {
-			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}

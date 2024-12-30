@@ -40,7 +40,6 @@ equipments = {
 		fuel_consumption = 4.0
 	}
 
-	# ~1941
 	amphibious_mechanized_equipment_1 = {
 		year = 1940
 
@@ -49,7 +48,6 @@ equipments = {
 		visual_level = 0
 	}
 
-	# ~1943
 	amphibious_mechanized_equipment_2 = {
 		year = 1942
 
