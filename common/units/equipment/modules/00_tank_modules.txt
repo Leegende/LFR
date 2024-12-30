@@ -843,18 +843,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	tank_torsion_bar_suspension = {
-		abbreviation = "tor"
-		category = tank_suspension_type
-		sfx = sfx_ui_sd_module_sonar
-		add_stats = {
-			reliability = 0.15
-			build_cost_ic = 1
-		}
-		multiply_stats = {
-		}
-		dismantle_cost_ic = 2
-	}
+
 	tank_christie_suspension = {
 		abbreviation = "chr"
 		category = tank_suspension_type
