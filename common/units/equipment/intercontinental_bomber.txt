@@ -56,12 +56,7 @@ equipments = {
 		air_defence = 55
 		air_bombing = 36
 
-		upgrades = {
-			plane_bomb_upgrade
-			plane_range_upgrade
-			plane_engine_upgrade
-			plane_reliability_upgrade
-		}
+	
 
 		lend_lease_cost = 20
 		air_superiority = 0.01

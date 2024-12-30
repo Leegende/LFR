@@ -26,12 +26,7 @@ equipments = {
 		alias = destroyer
 		priority = 2000
 
-		upgrades = {
-			ship_torpedo_upgrade
-			destroyer_engine_upgrade
-			ship_ASW_upgrade
-			ship_anti_air_upgrade
-		}
+	
 
 		module_slots = {
 			fixed_ship_battery_slot = {

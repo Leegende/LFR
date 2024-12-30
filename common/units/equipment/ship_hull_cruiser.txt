@@ -393,29 +393,7 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
-		module_slots = inherit
-
-		type = { 
-			screen_ship
-			anti_air
-		}
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_light_medium_battery_1
-		}
+	
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 2
@@ -596,13 +574,7 @@ equipments = {
 		visual_level = 0
 		type = capital_ship
 		archetype = ship_hull_cruiser
-		priority = 1800
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_armor_upgrade
-			ship_gun_upgrade
-		}
+	
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -868,12 +840,7 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1850
 		visual_level = 0
-		upgrades = {
-			ship_torpedo_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_reliability_upgrade
-		}
+	
 		
 		interface_category = interface_category_screen_ships
 		module_slots = {

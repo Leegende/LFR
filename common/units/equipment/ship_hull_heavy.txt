@@ -25,12 +25,6 @@ equipments = {
 		interface_category = interface_category_capital_ships
 		priority = 1500
 
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_armor_upgrade
-			ship_gun_upgrade
-		}
 
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1299,13 +1293,7 @@ equipments = {
 		year = 1954
 		visual_level = 1
 		archetype = ship_hull_heavy
-		model = ship_hull_modern_super_battleship
-			upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_armor_upgrade
-			ship_gun_upgrade
-		}	
+	
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
