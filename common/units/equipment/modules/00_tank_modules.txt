@@ -827,6 +827,8 @@ equipment_modules = {
 			reliability = 0.15
 		}
 		dismantle_cost_ic = 2
+		multiply_stats = {
+		}
 	}
 	tank_horstmann_suspension = {
 		abbreviation = "hor"
@@ -836,6 +838,18 @@ equipment_modules = {
 			build_cost_ic = 1
 			defense = 4
 			reliability = 0.025
+		}
+		multiply_stats = {
+		}
+		dismantle_cost_ic = 2
+	}
+	tank_torsion_bar_suspension = {
+		abbreviation = "tor"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		add_stats = {
+			reliability = 0.15
+			build_cost_ic = 1
 		}
 		multiply_stats = {
 		}
