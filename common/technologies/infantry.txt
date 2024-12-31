@@ -32,7 +32,6 @@ technologies = {
 		enable_subunits = {
 			infantry
 		}
-
 		path = {
 			leads_to_tech = infantry_weapons1
 		}
@@ -358,9 +357,10 @@ technologies = {
 			tank_small_cannon_2_mech
 			tank_small_cannon_3_mech
 			secondary_turret_hmg_mech
+			secondary_turret_small_cannon_mech
+			tank_heavy_machine_gun_mech
 			tank_anti_air_cannon_mech
 			tank_bogie_suspension_mech
-			tank_heavy_machine_gun_mech
 			tank_anti_air_cannon_2_mech
 			tank_anti_air_cannon_3_mech
 			tank_close_support_gun_mech
@@ -374,7 +374,6 @@ technologies = {
 		path = {
 			leads_to_tech = mechanised_infantry2
 		}
-		
 		research_cost = 2
 		start_year = 1938
 		folder = {
@@ -457,9 +456,6 @@ technologies = {
 	armored_car1 = {
 		enable_equipments = {
 			gw_armored_car_equipment
-		}
-		enable_subunits = {
-			armored_car
 		}
 		path = {
 			leads_to_tech = armored_car2

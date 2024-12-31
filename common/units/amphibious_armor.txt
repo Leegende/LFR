@@ -1,6 +1,5 @@
 sub_units = {
 	amphibious_light_armor = {
-		abbreviation = "LAM"
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 2501
@@ -25,7 +24,6 @@ sub_units = {
 		}
 	}
 	amphibious_medium_armor = {
-		abbreviation = "MAM"
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 2501
@@ -50,7 +48,6 @@ sub_units = {
 		}
 	}
 	amphibious_heavy_armor = {
-		abbreviation = "HAM"
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 2501

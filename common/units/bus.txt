@@ -1,6 +1,5 @@
 sub_units = {
 	bus = {
-		abbreviation = "BUS"
 		sprite = motorized
 		map_icon_category = infantry
 		priority = 1000
