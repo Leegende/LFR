@@ -9,6 +9,18 @@ technologies = {
 		enable_equipments = {
 			support_equipment_1
 		}
+		enable_subunits = {
+			engineer
+			recon
+			mot_recon
+			armored_car_recon
+			light_tank_recon
+			military_police
+			maintenance_company
+			field_hospital
+			logistics_company
+			signal_company
+		}
 		path = {
 			leads_to_tech = tech_engineers
 			research_cost_coeff = 1
@@ -54,8 +66,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_engineers2
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -74,7 +86,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -107,7 +119,7 @@ technologies = {
 	}
 	tech_engineers4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -125,8 +137,8 @@ technologies = {
 			leads_to_tech = tech_recon2
 			research_cost_coeff = 1
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -145,7 +157,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -179,7 +191,7 @@ technologies = {
 	}
 	tech_recon4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -197,8 +209,8 @@ technologies = {
 			leads_to_tech = tech_military_police2
 			research_cost_coeff = 1
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -216,7 +228,7 @@ technologies = {
 			leads_to_tech = tech_military_police3
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -249,7 +261,7 @@ technologies = {
 	}
 	tech_military_police4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -267,8 +279,8 @@ technologies = {
 			leads_to_tech = tech_maintenance_company2
 			research_cost_coeff = 1
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -286,7 +298,7 @@ technologies = {
 			leads_to_tech = tech_maintenance_company3
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -319,7 +331,7 @@ technologies = {
 	}
 	tech_maintenance_company4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -336,8 +348,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_field_hospital2
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -358,7 +370,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -396,7 +408,7 @@ technologies = {
 	}
 	tech_field_hospital4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -416,8 +428,8 @@ technologies = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -438,7 +450,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -475,7 +487,7 @@ technologies = {
 	}
 	tech_logistics_company4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -497,8 +509,8 @@ technologies = {
 		path = {
 			leads_to_tech = tech_signal_company2
 		}
-		research_cost = 0
-		start_year = 1936
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -517,7 +529,7 @@ technologies = {
 			leads_to_tech = tech_signal_company3
 		}
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -554,7 +566,7 @@ technologies = {
 	}
 	tech_signal_company4 = {
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {

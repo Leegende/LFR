@@ -37,9 +37,7 @@ state = {
 		19784
 		19799
 	}
-	history = {
-		
-	}
+	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1
 	local_supplies = 0

@@ -20,9 +20,7 @@ state = {
 		15117
 		20515
 	}
-	history = {
-		
-	}
+	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = wasteland

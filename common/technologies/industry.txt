@@ -119,9 +119,9 @@ technologies = {
 		}
 	}
 	concentrated_industry = {
+		local_resources_factor = 0.10
 		global_building_slots_factor = 0.50
 		industrial_capacity_factory = 0.15
-		local_resources_factor = 0.10
 		
 
 		path = {

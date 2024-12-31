@@ -1,9 +1,6 @@
 state = {
 id = 13
 	name = "STATE_13"
-	history = {
-		
-	}
 	provinces = {
 		1711
 		4335
@@ -13,6 +10,7 @@ id = 13
 		19804
 		20538
 	}
+	impassable = yes
 	manpower = 555701
 	buildings_max_level_factor = 1.000
 	state_category = city

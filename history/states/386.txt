@@ -2,9 +2,6 @@
 state = {
 id = 386
 	name = "STATE_386"
-	history = {
-	
-	}
 	provinces = {
 		528
 		2373
@@ -55,6 +52,7 @@ id = 386
 		20513
 		20514
 	}
+	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000

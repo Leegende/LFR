@@ -1,9 +1,7 @@
 state = {
 id = 381
 	name = "STATE_381"
-	history = {
-		
-	}
+
 	provinces = {
 		233
 		3514
@@ -34,6 +32,7 @@ id = 381
 		14776
 		19756
 	}
+	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1.000
 	state_category = wasteland

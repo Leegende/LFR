@@ -28,8 +28,7 @@ id = 30
 		19767
 		19770
 	}
-	history = {
-	}
+	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
