@@ -23,7 +23,7 @@ categories =  {
 		color = { 89 199 85 }
 		movement_cost = 1.5
 		#combat_width = -0.20
-		combat_width = 30 #base game 60
+		0 #base game 60
 		combat_support_width = 15 #bg 30
 		ai_terrain_importance_factor = 5.0
 		match_value = 5
@@ -45,7 +45,7 @@ categories =  {
 		color = { 248 255 153 }
 		movement_cost = 1.5
 		#combat_width = -0.33
-		combat_width = 35 #bg 70
+		5 #bg 70
 		combat_support_width = 17 #bg 35
 		ai_terrain_importance_factor = 3.0
 		match_value = 2
@@ -67,7 +67,7 @@ categories =  {
 		movement_cost = 2.0
 		attrition = 0.3
 		#combat_width = -0.66
-		combat_width = 25 #bg 50
+		5 #bg 50
 		combat_support_width = 12 #bg 25
 		ai_terrain_importance_factor = 10.0
 		match_value = 10
@@ -89,7 +89,7 @@ categories =  {
 		color = { 255 129 66 }
 		movement_cost = 1.0
 		ai_terrain_importance_factor = 0.1
-		combat_width = 35 #bg 70 
+		5 #bg 70 
 		combat_support_width = 17 #bg 35
 		match_value = 0.5
 		sound_type = plains
@@ -119,7 +119,7 @@ categories =  {
 		movement_cost = 1.5
 		attrition = 0.2
 		# combat_width = -0.25
-		combat_width = 30
+		0
 		combat_support_width = 15
 
 		ai_terrain_importance_factor = 6.0
@@ -145,7 +145,7 @@ categories =  {
 		movement_cost = 2.0
 		attrition = 0.35
 		# combat_width = -0.25
-		combat_width = 25
+		5
 		combat_support_width = 12
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
@@ -167,7 +167,7 @@ categories =  {
 		color = { 255 127 0 }
 		movement_cost = 1.05
 		attrition = 0.15
-		combat_width = 35
+		5
 		combat_support_width = 17
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
@@ -230,9 +230,7 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
-		submarine = {
-			navy_visibility = 1.0
-		}
+
 		positioning = -0.05
 	}
 	
@@ -257,12 +255,7 @@ categories =  {
 				defence = -0.1
 			}
 		}
-		submarine = {
-			navy_visibility = -0.15
-			units = {
-				movement = -0.25
-			}
-		}
+
 
 		naval_mine_hit_chance = -0.5
 	}

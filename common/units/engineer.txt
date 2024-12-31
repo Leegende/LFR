@@ -23,7 +23,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 2
@@ -120,7 +120,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 2
@@ -202,7 +202,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 1
@@ -286,7 +286,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 2
@@ -396,7 +396,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 2

@@ -57,7 +57,6 @@ technology_categories = {
 	marine_tech
 	construction_tech
 	excavation_tech
-	submarine_doctrine
 	air_equipment
 	cat_mobile_warfare
 	cat_superior_firepower
@@ -128,7 +127,6 @@ technology_categories = {
 	mio_cat_all_heavy_aircraft_and_modules #Includes strategic bomber and maritime patrol -related modules
 	mio_cat_tech_all_capital_ship_and_modules #Includes all BB (+ BC, SHBB, etc.), all CA (+ Coastal etc.) and all related modules
 	mio_cat_tech_all_screen_ship_and_modules #Includes all DD, all CL (Torpedo Cruiser) and all related modules
-	mio_cat_tech_all_submarine_and_modules #Includes all SS (Cruiser Sub and Midget Sub) and all related modules
 	mio_cat_tech_all_carrier_and_modules #Includes CV and all related modules
 	mio_cat_tech_all_cruiser_and_modules #Includes all CA (+ Coastal etc.), CL (Torpedo Cruiser) and all related modules
 	mio_cat_tech_all_destroyer_and_modules #Includes all DD and all related modules

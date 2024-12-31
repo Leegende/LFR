@@ -16,7 +16,7 @@ sub_units = {
 			category_line_artillery
 			category_anti_air
 		}
-		combat_width = 1
+		
 		#Size Definitions
 		max_organisation = 0
 		default_morale = 0.1
@@ -65,7 +65,7 @@ sub_units = {
 			category_line_artillery
 			category_mobile_and_mobile_combat_sup
 		}
-		combat_width = 1
+		
 		#Size Definitions
 		max_organisation = 0
 		default_morale = 0.1

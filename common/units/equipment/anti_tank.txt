@@ -31,8 +31,6 @@ equipments = {
 		priority = 90
 		visual_level = 2
 	}
-
-
 	pack_anti_tank_equipment = {
 		year = 1936
 		is_archetype = yes
@@ -65,7 +63,6 @@ equipments = {
 		priority = 90
 		visual_level = 2
 	}
-
 	heavy_anti_tank_equipment = {
 		year = 1936
 		is_archetype = yes

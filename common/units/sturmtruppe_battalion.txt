@@ -22,7 +22,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 20 #Inf is 25 - same as marines

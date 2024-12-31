@@ -16,24 +16,22 @@ script_enum_advisor_slot_type = {
 }
 
 script_enum_equipment_stat = {	
-								#Viktors note for modders and future CDs: If you want to use a stat in the MIOs it has to be in the equipment category itself, not on the battalion level. So stuff like defense works because its contained within the equipment, but stuff like recon will not work because its owned by the battalion. Adding stuff like recon will not throw an error, but it will _not_ work. Moving stats to the equipment level from the bat-level might fix this if you are brave enough, but it is very risk and might break other stuff. Ive commented what is currently on the battalion level below and should not be used with MIOs.
-
-	default_morale 					#Cannot be used with MIOS
+	default_morale 					
 	defense
 	breakthrough
 	hardness
 	soft_attack
 	hard_attack
-	recon 							#Cannot be used with MIOS
-	entrenchment					# ONLY works for tanks with dozer blades, NOT infantry
-	initiative 						#Cannot be used with MIOS
-	casualty_trickleback 			#Cannot be used with MIOS
-	supply_consumption_factor 		#Cannot be used with MIOS
-	supply_consumption 				#Cannot be used with MIOS
-	suppression 					#Cannot be used with MIOS
-	suppression_factor 				#Cannot be used with MIOS
-	experience_loss_factor 			#Cannot be used with MIOS
-	equipment_capture_factor 		#Cannot be used with MIOS
+	recon 							
+	entrenchment					
+	initiative 						
+	casualty_trickleback 			
+	supply_consumption_factor 		
+	supply_consumption 				
+	suppression 					
+	suppression_factor 				
+	experience_loss_factor 			
+	equipment_capture_factor 		
 	recovery
 	additional_collateral_damage
 	fuel_capacity
@@ -71,26 +69,26 @@ script_enum_equipment_stat = {
 	naval_strike_targetting
 	air_ground_attack
 	air_visibility_factor
-	railway_gun_attack 			#Cannot be used with MIOS
-	railway_gun_attack_range_index_in_define # This cannot be used with MIOs or equipment_bonus - only in equipment definition
+	railway_gun_attack 			
+	railway_gun_attack_range_index_in_define 
 	railway_gun_annex_ratio
 	railway_gun_hours_between_redistribution
-	max_organisation			#Cannot be used with MIOS
-	max_strength				##Cannot be used with MIOS
+	max_organisation			
+	max_strength				
 	maximum_speed	
 	armor_value
 	ap_attack
 	reliability
 	reliability_factor
 	weight
-	thrust 						#DLC Only be careful and avoid unless needed
+	thrust 						
 	fuel_consumption
 	fuel_consumption_factor
 	strategic_attack
 	carrier_size
-	acclimatization_hot_climate_gain_factor			#Cannot be used with MIOS
-	acclimatization_cold_climate_gain_factor		#Cannot be used with MIOS
-	night_penalty				#Cannot be used with MIOS
+	acclimatization_hot_climate_gain_factor			
+	acclimatization_cold_climate_gain_factor		
+	night_penalty				
 	build_cost_ic
 	naval_weather_penalty_factor
 }
@@ -115,7 +113,6 @@ script_enum_equipment_category = {
 	mechanized
 	infantry
 	capital_ship
-	submarine
 	screen_ship
 	fighter
 	heavy_fighter
@@ -140,22 +137,11 @@ script_enum_equipment_category = {
 	anti_air
 	artillery
 	anti_tank
-	rocket
 	flame
-	land_cruiser
+	
 }
 
 script_enum_equipment_bonus_type = {
-	## This script enum contains all equipment types that can be used in equipment_bonus
-	## or in game/common/military_industrial_organization scripts.
-
-	## This list contains either equipment category (see script_enum_equipment_category above)
-	## or equipment archetypes & types defined in game/common/units/equipments
-
-	## This enum should be updated every time either of those is updated
-	## (there will be a log error at startup as a reminder)
-
-	# Equipment categories
 	convoy
 	train
 	floating_harbor
@@ -165,7 +151,6 @@ script_enum_equipment_bonus_type = {
 	mechanized
 	infantry
 	capital_ship
-	submarine
 	screen_ship
 	fighter
 	heavy_fighter
@@ -192,7 +177,7 @@ script_enum_equipment_bonus_type = {
 	anti_tank
 	rocket
 	flame
-	land_cruiser
+	
 	armored_support_vehicle
 	armored_support_vehicle_1
 	helicopter_equipment
@@ -203,11 +188,6 @@ script_enum_equipment_bonus_type = {
 	strat_bomber_intercontinental_equipment_1
 	motorbike_equipment
 	motorbike_equipment_1
-
-	# Equipment archetypes & types
-	land_cruiser_chassis
-	land_cruiser_chassis_1
-	land_cruiser_equipment_1 #(No-NSB version)
 	destroyer
 	infantry_equipment
 	artillery_equipment
@@ -230,9 +210,6 @@ script_enum_equipment_bonus_type = {
 	artillery_equipment_1
 	artillery_equipment_2
 	artillery_equipment_3
-	rocket_artillery_equipment
-	rocket_artillery_equipment_1
-	rocket_artillery_equipment_2
 	motorized_rocket_equipment
 	motorized_rocket_equipment_1
 	convoy_1
@@ -354,25 +331,6 @@ script_enum_equipment_bonus_type = {
 	destroyer_2
 	destroyer_3
 	destroyer_4
-	ship_hull_submarine
-	ship_hull_submarine_1
-	ship_hull_submarine_2
-	ship_hull_submarine_3
-	ship_hull_submarine_4
-	cruiser_submarine
-	fleet_submarine
-	midget_submarine
-	nuclear_submarine
-	nuclear_missile_submarine
-	rocket_submarine
-	ship_hull_cruiser_submarine
-	ship_hull_midget_submarine
-	ship_hull_nuclear_submarine
-	ship_hull_fleet_submarine
-	submarine_1
-	submarine_2
-	submarine_3
-	submarine_4
 	support_equipment
 	support_equipment_1
 	light_tank_chassis

@@ -17,22 +17,22 @@ technologies = {
 	@1944 = 8
 	basic_tank = {
 		enable_equipment_modules = {
-			tank_torsion_bar_suspension
-			tank_riveted_armor
-			tank_gasoline_engine
-			tank_diesel_engine
-			tank_petrol_electric_engine
-			tank_horstmann_suspension
-			tank_cast_armor
-			tank_christie_suspension
 			tank_bogie_suspension
+			tank_christie_suspension
+			tank_horstmann_suspension
 			tank_interleaved_suspension
-			sloped_armor
-			extra_ammo_storage
-			wet_ammo_storage
-			smoke_launchers
-			expanded_fuel_tank
+			tank_torsion_bar_suspension
+			tank_cast_armor
+			tank_welded_armor
+			tank_riveted_armor
+			tank_diesel_engine
+			tank_gasoline_engine
+			tank_petrol_electric_engine
 			additional_machine_guns
+			expanded_fuel_tank
+			extra_ammo_storage
+			smoke_launchers
+			wet_ammo_storage
 		}
 		path = {
 			leads_to_tech = basic_light_tank
@@ -74,6 +74,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_small_turret_1
+			tank_light_superstructure
 		}
 		path = {
 			leads_to_tech = improved_light_tank
@@ -160,6 +161,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_medium_turret_1
+			tank_medium_superstructure
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
@@ -273,6 +275,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_turret_1
+			tank_heavy_superstructure
 		}
 		path = {
 			leads_to_tech = improved_heavy_tank

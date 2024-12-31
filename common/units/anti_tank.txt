@@ -17,22 +17,8 @@ sub_units = {
 			category_support_battalions
 			category_army
 		}
-		combat_width = 0
 		need = {
 			anti_tank_equipment = 24
 		}
-		manpower = 300
-		max_organisation = 0
-		default_morale = 0.1
-		max_strength = 0.2
-		training_time = 120
-		weight = 0.1
-		can_be_parachuted = yes
-		supply_consumption = 0.08
-		defense = -0.5
-		breakthrough = -0.5
-		soft_attack = -0.5
-		hard_attack = -0.5
-		ap_attack = -0.15
 	}
 }

@@ -16,44 +16,9 @@ sub_units = {
 			category_army
 			category_line_artillery
 		}
-		combat_width = 1
+		
 		need = {
 			anti_tank_equipment = 36
-		}
-		manpower = 500
-		max_organisation = 0
-		default_morale = 0
-		max_strength = 0.6
-		training_time = 120
-		weight = 0.5
-		supply_consumption = 0.1
-		forest = {
-			attack = -0.2
-			movement = -0.2
-		}
-		hills = {
-			movement = -0.05
-		}
-		mountain = {
-			movement = -0.2
-		}
-		jungle = {
-			attack = -0.25
-			movement = -0.2
-		}
-		marsh = {
-			attack = -0.2
-			movement = -0.3
-		}
-		fort = {
-			attack = 0.1
-		}
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-		amphibious = {
-			attack = -0.4
 		}
 	}
 	pack_anti_tank_brigade = {
@@ -73,45 +38,11 @@ sub_units = {
 			category_army
 			category_line_artillery
 		}
-		combat_width = 1
+		
 		need = {
 			pack_anti_tank_equipment = 36
 		}
 		manpower = 500
-		max_organisation = 0
-		default_morale = 0
-		max_strength = 0.6
-		training_time = 120
-		weight = 0.5
-		supply_consumption = 0.1
-		forest = {
-			attack = -0.2
-			movement = -0.2
-		}
-		hills = {
-			movement = -0.05
-		}
-		mountain = {
-			movement = -0.2
-		}
-		jungle = {
-			attack = -0.25
-			movement = -0.2
-		}
-		marsh = {
-			attack = -0.2
-			movement = -0.3
-		}
-		fort = {
-			attack = 0.1
-		}
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-		amphibious = {
-			attack = -0.4
-		}
 	}
 	heavy_anti_tank_brigade = {
 		abbreviation = "HANT"
@@ -130,44 +61,9 @@ sub_units = {
 			category_army
 			category_line_artillery
 		}
-		combat_width = 1
+		
 		need = {
 			heavy_anti_tank_equipment = 36
-		}
-		manpower = 500
-		max_organisation = 0
-		default_morale = 0
-		max_strength = 0.6
-		training_time = 120
-		weight = 0.5
-		supply_consumption = 0.1
-		forest = {
-			attack = -0.2
-			movement = -0.2
-		}
-		hills = {
-			movement = -0.05
-		}
-		mountain = {
-			movement = -0.2
-		}
-		jungle = {
-			attack = -0.25
-			movement = -0.2
-		}
-		marsh = {
-			attack = -0.2
-			movement = -0.3
-		}
-		fort = {
-			attack = 0.1
-		}
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-		amphibious = {
-			attack = -0.4
 		}
 	}
 }

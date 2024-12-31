@@ -21,7 +21,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 1
@@ -88,7 +88,7 @@ sub_units = {
 			add = yes
 		}
 
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 1

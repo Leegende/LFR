@@ -21,7 +21,7 @@ sub_units = {
 		}
 
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 1
@@ -78,7 +78,7 @@ sub_units = {
 			category_helicopter_support_companies
 		}
 	
-		combat_width = 0
+		
 	
 		#Size Definitions
 		max_strength = 1

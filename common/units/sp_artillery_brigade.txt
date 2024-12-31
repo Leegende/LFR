@@ -13,7 +13,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 
 		categories = {
 			category_all_armor
@@ -21,7 +21,7 @@ sub_units = {
 			category_self_propelled_artillery
 		}		
 
-		combat_width = 3
+		
 
 		need = {
 			light_tank_artillery_chassis = 50
@@ -79,14 +79,14 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 
 		categories = {
 			category_all_armor
 			category_army
 			category_self_propelled_artillery
 		}		
-		combat_width = 3
+		
 
 		need = {
 			medium_tank_artillery_chassis = 50
@@ -148,7 +148,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -156,7 +156,7 @@ sub_units = {
 			category_self_propelled_artillery
 		}
 
-		combat_width = 3
+		
 
 		need = {
 			heavy_tank_artillery_chassis = 40
@@ -217,7 +217,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -225,7 +225,7 @@ sub_units = {
 			category_self_propelled_artillery
 		}
 
-		combat_width = 3
+		
 
 		need = {
 			modern_tank_artillery_chassis = 50
@@ -287,14 +287,14 @@ sub_units = {
 	#		artillery
 	#	}
 	#	
-	#	group = armor_combat_support
+	#	group = armor
 #
 #	#	categories = {
 #	#		category_all_armor
 #	#		category_army
 #	#	}		
 #
-#	#	combat_width = 3
+#	#	
 #
 #	#	need = {
 #	#		light_tank_artillery_chassis = 36
@@ -349,13 +349,13 @@ sub_units = {
 #	#		artillery
 #	#	}
 #	#	
-#	#	group = armor_combat_support
+#	#	group = armor
 #
 #	#	categories = {
 #	#		category_all_armor
 	#		category_army
 #		}		
-#		combat_width = 3
+#		
 #
 #		need = {
 #			medium_tank_artillery_chassis = 36
@@ -414,14 +414,14 @@ sub_units = {
 #			artillery
 #		}
 #		
-#		group = armor_combat_support
+#		group = armor
 #		
 #		categories = {
 #			category_all_armor
 #			category_army
 #		}
 #
-#		combat_width = 3
+#		
 #
 #		need = {
 #			heavy_tank_artillery_chassis = 24

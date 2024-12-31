@@ -1,12 +1,4 @@
 ﻿generic = {
-	submarine = {
-		prefix = ""
-		generic = {
-			"Submarine"
-		}
-		unique = {
-		}
-	}
 	destroyer = {
 		prefix = ""
 		generic = {
