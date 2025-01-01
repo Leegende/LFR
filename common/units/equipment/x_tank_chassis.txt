@@ -30,7 +30,7 @@ duplicate_archetypes = {
 	}
 	mechanized_utility_equipment = {
 		archetype = mechanized_equipment
-		type = { armor rocket }
+		type = { armor  }
 		for_each = { 
 			variant_name = { find_and_replace = { "utility_equipment" "equipment" } }
 		}

@@ -2,10 +2,10 @@ equipments = {
 	anti_air_equipment = {
 		year = 1934
 		is_archetype = yes
-		picture = archetype_anti_air_equipment		
+		picture = archetype_anti_air_equipment
 		type = {
 			anti_air
-			infantry 
+			infantry
 		}
 		group_by = archetype
 		interface_category = interface_category_land
@@ -16,20 +16,38 @@ equipments = {
 		priority = 80
 		visual_level = 0
 	}
-	
-	anti_air_equipment_2 = {
-		year = 1940
-		archetype = anti_air_equipment
-		parent = anti_air_equipment_1
-		priority = 80
-		visual_level = 1
+	pack_anti_air_equipment = {
+		year = 1934
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
 	}
-	
-	anti_air_equipment_3 = {
-		year = 1943
-		archetype = anti_air_equipment
-		parent = anti_air_equipment_2
+	pack_anti_air_equipment_1 = {
+		year = 1936
+		archetype = pack_anti_air_equipment
 		priority = 80
-		visual_level = 2
+		visual_level = 0
+	}
+	heavy_anti_air_equipment = {
+		year = 1934
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	heavy_anti_air_equipment_1 = {
+		year = 1936
+		archetype = heavy_anti_air_equipment
+		priority = 80
+		visual_level = 0
 	}
 }

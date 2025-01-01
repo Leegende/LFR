@@ -1,6 +1,5 @@
 upgrades = {
 	tank_nsb_armor_upgrade = {
-		abbreviation = "arm"
 		max_level = 2
 		cost = land
 	}

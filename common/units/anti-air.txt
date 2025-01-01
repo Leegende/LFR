@@ -20,4 +20,47 @@ sub_units = {
 			anti_air_equipment = 20
 		}
 	}
+	pack_anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_anti_air
+		}
+		need = {
+			pack_anti_air_equipment = 20
+		}
+	}
+	heavy_anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_anti_air
+		}
+		need = {
+			heavy_anti_air_equipment = 20
+		}
+	}
+
 }

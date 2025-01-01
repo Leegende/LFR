@@ -24,12 +24,9 @@ technologies = {
 	##################
 	basic_artillery = {
 		enable_equipments = {
-			artillery_equipment
-			pack_artillery_equipment
-			pack_anti_tank_equipment
-			heavy_artillery_equipment
-			heavy_anti_tank_equipment
-			anti_air_equipment
+			anti_air_equipment_1
+			pack_anti_air_equipment_1
+			heavy_anti_air_equipment_1
 		}
 		path = {
 			leads_to_tech = light_artillery_upgrade

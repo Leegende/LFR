@@ -123,7 +123,6 @@ equipments = {
 		manpower = 2
 	}
 	light_tank_chassis_1 = {
-		abbreviation = "lt1"
 		derived_variant_name = light_tank_equipment_1
 		visual_level = 0
 		year = 1938
@@ -154,7 +153,6 @@ equipments = {
 		}
 	}
 	light_tank_chassis_2 = {
-		abbreviation = "lt2"
 		derived_variant_name = light_tank_equipment_2
 		visual_level = 1
 		year = 1936
@@ -179,7 +177,6 @@ equipments = {
 		}
 	}
 	light_tank_chassis_3 = {
-		abbreviation = "lt3"
 		derived_variant_name = light_tank_equipment_3
 		visual_level = 2
 		year = 1942
@@ -227,7 +224,7 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armament_tier_small_1
+					tank_armament_tier_medium_1
 				}
 			}
 			suspension_type_slot = {
@@ -328,7 +325,6 @@ equipments = {
 		manpower = 2
 	}
 	medium_tank_chassis_1 = {
-		abbreviation = "lt1"
 		derived_variant_name = medium_tank_equipment_1
 		visual_level = 0
 		year = 1938
@@ -359,7 +355,6 @@ equipments = {
 		}
 	}
 	medium_tank_chassis_2 = {
-		abbreviation = "lt2"
 		derived_variant_name = medium_tank_equipment_2
 		visual_level = 1
 		year = 1936
@@ -384,7 +379,6 @@ equipments = {
 		}
 	}
 	medium_tank_chassis_3 = {
-		abbreviation = "lt3"
 		derived_variant_name = medium_tank_equipment_3
 		visual_level = 2
 		year = 1942
@@ -533,7 +527,6 @@ equipments = {
 		manpower = 2
 	}
 	heavy_tank_chassis_1 = {
-		abbreviation = "lt1"
 		derived_variant_name = heavy_tank_equipment_1
 		visual_level = 0
 		year = 1938
@@ -572,7 +565,6 @@ equipments = {
 		}
 	}
 	heavy_tank_chassis_2 = {
-		abbreviation = "lt2"
 		derived_variant_name = heavy_tank_equipment_2
 		visual_level = 1
 		year = 1936
@@ -605,7 +597,6 @@ equipments = {
 		}
 	}
 	heavy_tank_chassis_3 = {
-		abbreviation = "lt3"
 		derived_variant_name = heavy_tank_equipment_3
 		visual_level = 2
 		year = 1942
@@ -754,7 +745,6 @@ equipments = {
 		manpower = 2
 	}
 	modern_tank_chassis_1 = {
-		abbreviation = "mbt0"
 		derived_variant_name = modern_tank_equipment_1
 		visual_level = 0
 		year = 1948

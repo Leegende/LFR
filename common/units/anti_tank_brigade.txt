@@ -43,7 +43,6 @@ sub_units = {
 		manpower = 500
 	}
 	heavy_anti_tank_brigade = {
-		 "HANT"
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197

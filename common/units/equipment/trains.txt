@@ -9,21 +9,10 @@ equipments = {
 		group_by = archetype
 		sprite = train
 		interface_category = interface_category_land
-		armor_value = 0
-		build_cost_ic = 60
-		resources = {
-			steel = 1
-		}
 	}
 	train_equipment_1 = {
 		year = 1936
 		archetype = train_equipment
 		priority = 10
-		armor_value = 0
-		build_cost_ic = 60
-		resources = {
-			steel = 1
-		}
 	}
-
 }

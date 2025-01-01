@@ -1,23 +1,19 @@
 equipment_modules = {
 	tank_radio_1 = {
-		abbreviation = "rad1"
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	tank_radio_2 = {
-		abbreviation = "rad2"
 		category = tank_radio_module
 		parent = tank_radio_1
 		sfx = sfx_ui_sd_module_turret
 	}
 	tank_radio_3 = {
-		abbreviation = "rad3"
 		category = tank_radio_module
 		parent = tank_radio_2
 		sfx = sfx_ui_sd_module_turret
 	}
 	amphibious_drive = {
-		abbreviation = "amph"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = amphibious
@@ -30,37 +26,30 @@ equipment_modules = {
 		}
 	}
 	stabilizer = {
-		abbreviation = "stab"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	smoke_launchers = {
-		abbreviation = "smok"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	extra_ammo_storage = {
-		abbreviation = "extra"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	wet_ammo_storage = {
-		abbreviation = "wet"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	armor_skirts = {
-		abbreviation = "skirt"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	easy_maintenance = {
-		abbreviation = "easy"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	additional_machine_guns = {
-		abbreviation = "mg"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -69,7 +58,6 @@ equipment_modules = {
 		}
 	}
 	additional_heavy_machine_guns = {
-		abbreviation = "mg"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -78,7 +66,6 @@ equipment_modules = {
 		}
 	}
 	hull_flamethrower = {
-		abbreviation = "hfl"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -87,12 +74,10 @@ equipment_modules = {
 		}
 	}
 	dozer_blade = {
-		abbreviation = "dozer"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	add_on_rockets = {
-		abbreviation = "rok"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -101,27 +86,22 @@ equipment_modules = {
 		}
 	}
 	sloped_armor = {
-		abbreviation = "slop"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	apcr_round = {
-		abbreviation = "apr"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	advanced_artillery_round = {
-		abbreviation = "aar"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	expanded_fuel_tank = {
-		abbreviation = "fuel"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	tank_small_turret_1 = {
-		abbreviation = "m1m"
 		category = tank_small_turret_type_1
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -136,7 +116,6 @@ equipment_modules = {
 		}
 	}
 	tank_small_turret_2 = {
-		abbreviation = "m2m"
 		category = tank_small_turret_type_2
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -152,7 +131,6 @@ equipment_modules = {
 		}
 	}
 	tank_small_turret_3 = {
-		abbreviation = "m3m"
 		category = tank_small_turret_type_3
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -169,7 +147,6 @@ equipment_modules = {
 		}
 	}
 	tank_medium_turret_1 = {
-		abbreviation = "m1m"
 		category = tank_medium_turret_type_1
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -184,7 +161,6 @@ equipment_modules = {
 		}
 	}
 	tank_medium_turret_2 = {
-		abbreviation = "m2m"
 		category = tank_medium_turret_type_2
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -200,7 +176,6 @@ equipment_modules = {
 		}
 	}
 	tank_medium_turret_3 = {
-		abbreviation = "m3m"
 		category = tank_medium_turret_type_3
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -217,7 +192,6 @@ equipment_modules = {
 		}
 	}
 	tank_heavy_turret_1 = {
-		abbreviation = "m1m"
 		category = tank_heavy_turret_type_1
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -232,7 +206,6 @@ equipment_modules = {
 		}
 	}
 	tank_heavy_turret_2 = {
-		abbreviation = "m2m"
 		category = tank_heavy_turret_type_2
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -248,7 +221,6 @@ equipment_modules = {
 		}
 	}
 	tank_heavy_turret_3 = {
-		abbreviation = "m3m"
 		category = tank_heavy_turret_type_3
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -265,180 +237,150 @@ equipment_modules = {
 		}
 	}
 	small_soft_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_small_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	small_soft_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_small_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	small_soft_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_small_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	small_hard_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_small_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	small_hard_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_small_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	small_hard_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_small_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	medium_soft_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_medium_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	medium_soft_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_medium_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	medium_soft_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_medium_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	medium_hard_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_medium_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	medium_hard_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_medium_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	medium_hard_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_medium_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	heavy_soft_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_heavy_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	heavy_soft_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_heavy_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	heavy_soft_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_heavy_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 	}
 	heavy_hard_cannon_1 = {
-		abbreviation = "ssc1"
 		category = tank_armament_tier_heavy_1
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	heavy_hard_cannon_2 = {
-		abbreviation = "ssc2"
 		category = tank_armament_tier_heavy_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	heavy_hard_cannon_3 = {
-		abbreviation = "ssc3"
 		category = tank_armament_tier_heavy_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 	}
 	tank_gasoline_engine = {
-		abbreviation = "gas"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 	}
 	tank_diesel_engine = {
-		abbreviation = "die"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 	}
 	tank_petrol_electric_engine = {
-		abbreviation = "pel"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 	}
 	tank_gas_turbine_engine = {
-		abbreviation = "tur"
 		category = tank_engine_type
 		sfx = sfx_ui_sd_module_engine
 	}
 	tank_riveted_armor = {
-		abbreviation = "riv"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_cast_armor = {
-		abbreviation = "cas"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_torsion_bar_suspension = {
-		abbreviation = "tor"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_horstmann_suspension = {
-		abbreviation = "hor"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_christie_suspension = {
-		abbreviation = "chr"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_bogie_suspension = {
-		abbreviation = "bog"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_interleaved_suspension = {
-		abbreviation = "int"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_welded_armor = {
-		abbreviation = "wel"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_light_superstructure = {
-		abbreviation = "lfs"
 		category = tank_light_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
 			anti_air
 		}
+		forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {
 				tank_armament_tier_small_1
@@ -448,7 +390,6 @@ equipment_modules = {
 		}
 	}
 	tank_medium_superstructure = {
-		abbreviation = "mfs"
 		category = tank_medium_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -464,7 +405,6 @@ equipment_modules = {
 		}
 	}
 	tank_heavy_superstructure = {
-		abbreviation = "hfs"
 		category = tank_heavy_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -480,7 +420,6 @@ equipment_modules = {
 		}
 	}
 	tank_module_troop_carrier = {
-		abbreviation = "tc"
 		category = tank_mechanized_turret_type
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match_for_category = {
@@ -498,7 +437,6 @@ equipment_modules = {
 		}
 	}
 	tank_mechanized_fixed_superstructure_turret = {
-		abbreviation = "mfs"
 		category = tank_mechanized_turret_type
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = {
@@ -517,7 +455,6 @@ equipment_modules = {
 		}
 	}
 	secondary_turret_hmg_mech = {
-		abbreviation = "thmgm"
 		category = mech_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -527,7 +464,6 @@ equipment_modules = {
 		}
 	}
 	secondary_turret_small_cannon_mech = {
-		abbreviation = "tscm"
 		category = mech_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -537,7 +473,6 @@ equipment_modules = {
 		}
 	}
 	tank_heavy_machine_gun_mech = {
-		abbreviation = "hmgm"
 		category = mech_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -547,7 +482,6 @@ equipment_modules = {
 		}
 	}
 	mech_utility_module = {
-		abbreviation = "rad1"
 		category = mech_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type_exact_match = armor
@@ -559,7 +493,6 @@ equipment_modules = {
 		}
 	}
 	tank_anti_air_cannon_mech = {
-		abbreviation = "aa1"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
@@ -570,7 +503,6 @@ equipment_modules = {
 		}
 	}
 	tank_anti_air_cannon_2_mech = {
-		abbreviation = "aa2"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
@@ -582,7 +514,6 @@ equipment_modules = {
 		parent = tank_anti_air_cannon_mech
 	}
 	tank_anti_air_cannon_3_mech = {
-		abbreviation = "aa3"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
@@ -594,7 +525,6 @@ equipment_modules = {
 		}
 	}
 	tank_small_cannon_mech = {
-		abbreviation = "sc1m"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = artillery
@@ -602,7 +532,6 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 	}
 	tank_small_cannon_2_mech = {
-		abbreviation = "sc2m"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_small_cannon_mech
@@ -611,7 +540,6 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 	}
 	tank_small_cannon_3_mech = {
-		abbreviation = "sc3m"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_small_cannon_2_mech
@@ -620,7 +548,6 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 	}
 	tank_light_rocket_launcher_mech = {
-		abbreviation = "lrl"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
@@ -631,7 +558,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 	}
 	tank_close_support_gun_mech = {
-		abbreviation = "cs"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
@@ -642,7 +568,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 	}
 	tank_close_support_gun2_mech = {
-		abbreviation = "cs"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
@@ -653,7 +578,6 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 	}
 	tank_close_support_gun3_mech = {
-		abbreviation = "cs"
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
@@ -664,12 +588,10 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 	}
 	mech_armored_roof = {
-		abbreviation = "ceasy"
 		category = mech_special_armor_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_amtrac_module = {
-		abbreviation = "amphm"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = amphibious
@@ -681,52 +603,42 @@ equipment_modules = {
 		forbid_equipment_type_exact_match = armor
 	}
 	mech_sloped_armor = {
-		abbreviation = "slop"
 		category = mech_special_armor_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_stabilizer = {
-		abbreviation = "stab"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_smoke_launchers = {
-		abbreviation = "smok"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_extra_ammo_storage = {
-		abbreviation = "extra"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_wet_ammo_storage = {
-		abbreviation = "wet"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_armor_skirts = {
-		abbreviation = "skirt"
 		category = mech_special_armor_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_auto_loader = {
-		abbreviation = "auto"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_easy_maintenance = {
-		abbreviation = "easy"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_additional_machine_guns = {
-		abbreviation = "mg"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_external_fuel_tank = {
-		abbreviation = "mg"
 		category = mech_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
@@ -739,33 +651,27 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	}
 	tank_bogie_suspension_mech = {
-		abbreviation = "bogm"
 		category = mech_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_wheeled_suspension_mech = {
-		abbreviation = "whe"
 		category = mech_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	tank_half_track_suspension_mech = {
-		abbreviation = "htr"
 		category = mech_half_tracked_suspension_type
 		gui_category = mech_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	mech_riveted_armor = {
-		abbreviation = "riv"
 		category = mech_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	mech_cast_armor = {
-		abbreviation = "cas"
 		category = mech_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}
 	mech_welded_armor = {
-		abbreviation = "wel"
 		category = mech_armor_type
 		sfx = sfx_ui_sd_module_sonar
 	}

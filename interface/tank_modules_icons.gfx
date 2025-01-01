@@ -1,7 +1,5 @@
 spriteTypes = {
 	spriteType = {
-	}
-	spriteType = {
 		name = "GFX_EMI_mech_cast_armor"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_cast_armor.dds"
 		legacy_lazy_load = no
@@ -458,6 +456,26 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_fixed_superstructure.dds"
 		legacy_lazy_load = no
 	}
+
+	
+	spriteType = {
+		name = "GFX_EMI_tank_light_turret_type_casemate"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_fixed_superstructure.dds"
+		legacy_lazy_load = yes
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_medium_turret_type_casemate"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_medium_fixed_superstructure.dds"
+		legacy_lazy_load = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_tank_heavy_turret_type_casemate"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_fixed_superstructure.dds"
+		legacy_lazy_load = yes
+	}
+
 	spriteType = {
 		name = "GFX_EMI_tank_heavy_howitzer"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_howitzer.dds"
