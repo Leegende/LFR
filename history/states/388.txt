@@ -9,7 +9,6 @@ id = 388
 			
 		}
 		victory_points = { 19649 2 }
-		set_demilitarized_zone = yes
 	}
 	provinces={
 		19648 19649 19650 

@@ -31,6 +31,7 @@ technologies = {
 		}
 		enable_subunits = {
 			infantry
+			pioneers
 		}
 		path = {
 			leads_to_tech = infantry_weapons1
@@ -137,6 +138,7 @@ technologies = {
 		}
 	}
 	soft_attack_infantry_weapons = {
+		
 		xor = {
 			hard_attack_infantry_weapons
 		}
@@ -177,6 +179,7 @@ technologies = {
 		}
 	}
 	soft_attack_infantry_weapons1 = {
+
 		xor = {
 			hard_attack_infantry_weapons1
 		}
