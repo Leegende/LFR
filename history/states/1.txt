@@ -98,6 +98,10 @@ state = {
 		19361
 		19362
 	}
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+	}
 	manpower = 1
 	buildings_max_level_factor = 0
 	local_supplies = 0

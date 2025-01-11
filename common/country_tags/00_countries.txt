@@ -19,15 +19,3 @@ ROM = "countries/Romania.txt"
 SOV = "countries/Soviet Union.txt"
 SWE = "countries/Sweden.txt"
 YUG = "countries/Yugoslavia.txt"
-
-
-
-
-
-
-
-
-
-
-
-

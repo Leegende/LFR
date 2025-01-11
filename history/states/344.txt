@@ -1,19 +1,14 @@
-
-state={
-id = 344
+state = {
+	id = 344
 	name = "STATE_344"
-	provinces={
-		  18624 18638    18911   
+	provinces = {
+		18624
+		18638
+		18911
 	}
-	history={
-		owner = ENG
-		add_core_of = ENG
-	}
-
-	impassable=yes
-	manpower=10
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	impassable = yes
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
 }
-
