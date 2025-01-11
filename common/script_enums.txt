@@ -15,23 +15,23 @@ script_enum_advisor_slot_type = {
 	political_advisor
 }
 
-script_enum_equipment_stat = {	
-	default_morale 					
+script_enum_equipment_stat = {
+	default_morale
 	defense
 	breakthrough
 	hardness
 	soft_attack
 	hard_attack
-	recon 							
-	entrenchment					
-	initiative 						
-	casualty_trickleback 			
-	supply_consumption_factor 		
-	supply_consumption 				
-	suppression 					
-	suppression_factor 				
-	experience_loss_factor 			
-	equipment_capture_factor 		
+	recon
+	entrenchment
+	initiative
+	casualty_trickleback
+	supply_consumption_factor
+	supply_consumption
+	suppression
+	suppression_factor
+	experience_loss_factor
+	equipment_capture_factor
 	recovery
 	additional_collateral_damage
 	fuel_capacity
@@ -69,26 +69,26 @@ script_enum_equipment_stat = {
 	naval_strike_targetting
 	air_ground_attack
 	air_visibility_factor
-	railway_gun_attack 			
-	railway_gun_attack_range_index_in_define 
+	railway_gun_attack
+	railway_gun_attack_range_index_in_define
 	railway_gun_annex_ratio
 	railway_gun_hours_between_redistribution
-	max_organisation			
-	max_strength				
-	maximum_speed	
+	max_organisation
+	max_strength
+	maximum_speed
 	armor_value
 	ap_attack
 	reliability
 	reliability_factor
 	weight
-	thrust 						
+	thrust
 	fuel_consumption
 	fuel_consumption_factor
 	strategic_attack
 	carrier_size
-	acclimatization_hot_climate_gain_factor			
-	acclimatization_cold_climate_gain_factor		
-	night_penalty				
+	acclimatization_hot_climate_gain_factor
+	acclimatization_cold_climate_gain_factor
+	night_penalty
 	build_cost_ic
 	naval_weather_penalty_factor
 }
@@ -138,7 +138,6 @@ script_enum_equipment_category = {
 	artillery
 	anti_tank
 	flame
-	
 }
 
 script_enum_equipment_bonus_type = {
@@ -177,7 +176,6 @@ script_enum_equipment_bonus_type = {
 	anti_tank
 	rocket
 	flame
-	
 	armored_support_vehicle
 	armored_support_vehicle_1
 	helicopter_equipment
@@ -391,7 +389,6 @@ script_enum_equipment_bonus_type = {
 	cv_small_plane_naval_bomber_airframe_2
 	cv_small_plane_naval_bomber_airframe_3
 	cv_small_plane_naval_bomber_airframe_4
-	
 	small_plane_suicide_airframe_0
 	small_plane_suicide_airframe_1
 	small_plane_suicide_airframe_2
