@@ -1,34 +1,65 @@
-
-state={
-id = 104
-	name="STATE_104"
-				
+state = {
+	id = 104
+	name = "STATE_104"
 	history = {
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
 		}
-	    victory_points = {
-		    21110 5 #Idfu
-			}
-			
 		victory_points = {
-		    21109 2 #Kawm Umbu
-			}
-		
-		
-		victory_points = {
-		    21108 10 #Aswan
-			}
-			
+			21110
+			5			#Idfu
 		}
-		
-	provinces={
-		2270 3430 8559 21108 21109 21110 
+		victory_points = {
+			21109
+			2			#Kawm Umbu
+		}
+		victory_points = {
+			21108
+			10			#Aswan
+		}
 	}
-	manpower=229860
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	provinces = {
+		2270
+		3430
+		8559
+		21108
+		21109
+		21110
+		8524
+		19184
+		7964
+		1959
+		15881
+		15403
+		3881
+		15886
+		15871
+		3901
+		751
+		15870
+		785
+		15864
+		7673
+		15859
+		19181
+		1581
+		303
+		15848
+		2847
+		18728
+		3681
+		19200
+		194
+		6720
+		4166
+		2326
+		15828
+		1996
+		1284
+	}
+	manpower = 229860
+	state_category = large_town
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-
