@@ -9,6 +9,7 @@ state = {
 	state_category = wasteland
 	local_supplies = 0
 	provinces = {
+		15541
 		2492
 		3374
 		7173
@@ -108,7 +109,6 @@ state = {
 		7265
 		7395
 		8305
-		15541
 		15567
 		16869
 		1
