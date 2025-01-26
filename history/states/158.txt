@@ -1,69 +1,42 @@
-#args5
-#1575.txt
-#1576.txt
-#1577.txt
-#831.txt
 state = {
-id = 158
-	name = "STATE_158"
+	id = 164
+	name = "STATE_164"
 	history = {
-		owner = ITA
-		add_core_of = ENG
+		owner = ENG
+		add_core_of = SWE
 		buildings = {
 		}
 		victory_points = {
-			20364
+			969
 			10
-		}
-		victory_points = {
-			20365
-			5
-		}
-		victory_points = {
-			4965
-			10
-		}
-		victory_points = {
-			14746
-			5
-		}
-		victory_points = {
-			14672
-			2
 		}
 	}
+	manpower = 1
+	buildings_max_level_factor = 0
+	local_supplies = 0
+	state_category = wasteland
 	provinces = {
-		1232
-		3850
-		5935
-		6078
-		8606
-		17167
-		3347
-		4012
-		8884
-		14697
-		14704
-		20364
-		14755
-		14791
-		20365
-		2194
-		4522
-		4965
-		14619
-		14649
-		3505
-		4300
-		5223
-		14672
-		14746
-		14761
-		14766
+		969
+		9764
+		2848
+		8281
+		761
+		1408
+		2272
+		3218
+		5226
+		2812
+		2905
+		6881
+		9484
+		9743
+		9745
+		9749
+		256
+		1072
+		1425
+		2755
+		6975
+		8163
 	}
-	manpower = 930952
-	buildings_max_level_factor = 1.000
-	state_category = rural
-	local_supplies = 0.000
 }
-

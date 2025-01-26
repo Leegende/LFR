@@ -1,48 +1,63 @@
 
 state = {
-id = 154
-	name = "STATE_154"
+id = 160
+	name = "STATE_160"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
+		owner = ROM
+		add_core_of = ROM
+		set_state_flag = SECONDVIENNA
+		buildings = {
+		}
+		victory_points = {
+			8645
+			2
+		}
+		victory_points = {
+			14213
+			20
+		}
+		victory_points = {
+			909
+			5
+		}
 	}
-	manpower = 1
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 	provinces = {
-		1303
-		3255
-		2765
-		19091
-		10166
-		19994
-		16364
-		19087
-		3144
-		3259
-		5141
-		10136
-		17120
-		17659
-		18784
-		4281
-		16362
-		19964
-		3438
-		10261
-		17053
-		17312
-		17614
-		18243
-		318
-		5015
-		7920
-		8805
-		10198
-		10256
-		16053
-		17934
+		4180
+		6124
+		14177
+		14275
+		17994
+		2103
+		14132
+		14188
+		18170
+		8908
+		14185
+		14225
+		8645
+		8987
+		9473
+		14287
+		14335
+		14382
+		8118
+		9573
+		14189
+		14213
+		14231
+		14280
+		20406
+		909
+		2556
+		4191
+		7928
+		9172
+		14286
+		14451
 	}
+	manpower = 988574
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }
 

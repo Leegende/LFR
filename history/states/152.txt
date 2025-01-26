@@ -1,65 +1,67 @@
-#args10
-#1969.txt
-#2005.txt
-#2006.txt
-#2016.txt
-#2751.txt
-#2756.txt
-#2840.txt
-#910.txt
-#937.txt
+#args5
+#1575.txt
+#1576.txt
+#1577.txt
+#831.txt
 state = {
-id = 152
-	name = "STATE_152"
+id = 158
+	name = "STATE_158"
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		owner = ITA
+		add_core_of = ENG
 		buildings = {
-			9240 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
-			9240
+			20364
+			10
+		}
+		victory_points = {
+			20365
 			5
 		}
 		victory_points = {
-			3756
-			2
+			4965
+			10
 		}
 		victory_points = {
-			20338
+			14746
 			5
 		}
 		victory_points = {
-			20337
+			14672
 			2
 		}
 	}
 	provinces = {
-		9038
-		9240
-		15036
-		2680
-		3417
-		1094
-		15895
-		16499
-		20360
-		1272
-		3756
-		20286
-		4509
-		20336
-		4231
-		8483
-		20338
-		1428
-		6549
-		20337
-		20339
+		1232
+		3850
+		5935
+		6078
+		8606
+		17167
+		3347
+		4012
+		8884
+		14697
+		14704
+		20364
+		14755
+		14791
+		20365
+		2194
+		4522
+		4965
+		14619
+		14649
+		3505
+		4300
+		5223
+		14672
+		14746
+		14761
+		14766
 	}
-	manpower = 330800
+	manpower = 930952
 	buildings_max_level_factor = 1.000
 	state_category = rural
 	local_supplies = 0.000

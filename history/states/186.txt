@@ -1,37 +1,109 @@
-#args2
-#22.txt
 state = {
-id = 186
-	name = "STATE_186"
+	id = 192
+	name = "STATE_192"
 	history = {
-		owner = FIN
-		add_core_of = FIN
+		owner = GER
+		add_core_of = GER
 		buildings = {
-			2375 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
-			2375
-			1
+			9545
+			5
+		}
+		victory_points = {
+			11887
+			2
+		}
+		victory_points = {
+			12207
+			10
+		}
+		victory_points = {
+			5650
+			40
+		}
+		victory_points = {
+			20738
+			40
+		}
+		victory_points = {
+			8947
+			2
+		}
+		victory_points = {
+			8574
+			10
+		}
+		victory_points = {
+			12083
+			40
+		}
+		victory_points = {
+			20737
+			40
+		}
+		victory_points = {
+			12193
+			20
+		}
+		victory_points = {
+			12234
+			10
+		}
+		victory_points = {
+			12413
+			5
+		}
+		victory_points = {
+			7843
+			40
+		}
+		victory_points = {
+			12543
+			2
 		}
 	}
 	provinces = {
-		1004
-		2127
-		2375
-		4954
-		9691
-		17121
-		18109
-		19561
-		19671
-		19672
-		19670
+		6627
+		12543
+		7610
+		20715
+		9545
+		7938
+		11887
+		9603
+		5921
+		12207
+		20707
+		20705
+		21668
+		5650
+		12020
+		20738
+		8947
+		12422
+		12141
+		9610
+		8574
+		12083
+		2781
+		8376
+		12193
+		12234
+		12285
+		20737
+		12336
+		12369
+		12383
+		12413
+		6796
+		7190
+		12438
+		7843
+		20711
 	}
-	manpower = 125200
-	buildings_max_level_factor = 1.000
+	manpower = 6220374
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

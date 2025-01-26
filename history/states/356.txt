@@ -1,100 +1,91 @@
-#args2
-#452.txt
+#args4
+#808.txt
+#824.txt
+#829.txt
 state = {
-id = 356
-	name = "STATE_356"
+id = 378
+	name = "STATE_378"
 	history = {
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			
-			
-			
-			anti_air_building = 3
+			fuel_silo = 1
 			
 			
 			
 		}
+		
+		
 		victory_points = {
-			9580
-			5
-		}
-		victory_points = {
-			13269
-			5
-		}
-		victory_points = {
-			13114
-			5
-		}
-		victory_points = {
-			13260
+			14604
 			2
 		}
 		victory_points = {
-			19865
-			80
+			14611
+			5
 		}
 		victory_points = {
-			5238
+			14576
 			2
 		}
 		victory_points = {
-			6945
+			8560
+			40
+		}
+		victory_points = {
+			14667
 			10
 		}
 		victory_points = {
-			13124
+			8806
+			5
+		}
+		victory_points = {
+			8802
 			2
 		}
 		victory_points = {
-			5521
-			2
+			14737
+			10
+		}
+		victory_points = {
+			1712
+			5
 		}
 	}
 	provinces = {
-		3954
-		8310
-		13417
-		19888
-		9580
-		13132
-		13168
-		13222
-		13269
-		3307
-		7332
-		8767
-		13114
-		13125
-		13260
-		19865
-		145
-		5238
-		6557
-		7362
-		8509
-		13211
-		13268
-		13295
-		13392
-		13393
-		19886
-		19889
-		6945
-		13088
-		13099
-		13124
-		5521
-		6187
-		9387
-		13245
-		13285
-		19887
+		3619
+		7379
+		7603
+		14604
+		14640
+		14576
+		14577
+		14611
+		14615
+		14645
+		4723
+		
+		7538
+		8560
+		8802
+		8806
+		14636
+		14667
+		14722
+		1712
+		1759
+		3761
+		5801
+		14680
+		14684
+		14727
+		14737
 	}
-	manpower = 7447800
+	manpower = 1932825
 	buildings_max_level_factor = 1.000
+	state_category = rural
 	local_supplies = 0.000
-	state_category = city
 }
 

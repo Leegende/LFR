@@ -1,93 +1,58 @@
-#args2
-#625.txt
 state = {
-id = 203
-	name = "STATE_203"
+	id = 209
+	name = "STATE_209"
 	history = {
-		owner = AUS
-		add_core_of = AUS
+		owner = ENG
+		add_core_of = SWE
 		buildings = {
 		}
 		victory_points = {
-			20813
-			1
-		}
-		victory_points = {
-			20843
-			5
-		}
-		victory_points = {
-			13779
+			21014
 			10
 		}
 		victory_points = {
-			4426
+			20917
+			5
+		}
+		victory_points = {
+			20922
 			1
 		}
 		victory_points = {
-			5302
-			1
+			21012
+			20
 		}
 		victory_points = {
-			20810
-			1
+			21013
+			5
+		}
+		victory_points = {
+			20921
+			2
+		}
+		victory_points = {
+			21011
+			20
 		}
 	}
 	provinces = {
-		7218
-		8280
-		9483
-		13774
-		13909
-		20812
-		20813
-		20866
-		3577
-		3909
-		13750
-		20809
-		20824
-		2596
-		5448
-		8168
-		13866
-		13916
-		13953
-		13994
-		20819
-		20843
-		1813
-		1832
-		1984
-		2476
-		5071
-		13779
-		20811
-		20814
-		13706
-		13668
-		20810
-		5566
-		9121
-		467
-		4426
-		13717
-		13789
-		13828
-		1610
-		5302
-		13885
-		20822
-		4407
-		8628
-		9140
-		20815
-		20823
-		20825
+		20924
+		21014
+		20915
+		20917
+		20918
+		20920
+		20922
+		21012
+		20916
+		20919
+		20921
+		20923
+		21011
+		21013
 	}
-	manpower = 693974
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = pastoral
+	manpower = 1
+	state_category = city
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

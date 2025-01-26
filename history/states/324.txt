@@ -1,56 +1,57 @@
-#args2
-#293.txt
 state = {
-id = 324
-	name = "STATE_324"
+	id = 346
+	name = "STATE_346"
 	history = {
 		owner = ENG
 		add_core_of = ENG
-		
-		
 		buildings = {
-			
-			
-			
 		}
 		victory_points = {
-			9077
+			11918
+			5
+		}
+		victory_points = {
+			12032
 			10
 		}
 		victory_points = {
-			11264
-			40
+			11935
+			10
 		}
 		victory_points = {
-			6722
-			15
+			12038
+			80
 		}
 	}
 	provinces = {
-		3769
-		6785
-		9007
-		10937
-		2131
-		3097
-		3378
-		6722
-		9077
-		9386
-		11057
-		11108
-		11109
-		11157
-		11165
-		11189
-		11205
-		11230
-		11247
-		11264
-		11281
+		11872
+		11918
+		2370
+		7881
+		11864
+		11891
+		11912
+		11935
+		11954
+		11965
+		12032
+		113
+		5813
+		11919
+		12038
+		12117
+		12156
+		12008
+		12031
+		12199
+		4687
+		4569
+		2445
+		3966
+		8946
 	}
-	manpower = 5078000
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	manpower = 52699606
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = megalopolis
 }
-

@@ -1,105 +1,48 @@
-#args2
-#2899.txt
+
 state = {
-id = 148
-	name = "STATE_148"
+id = 154
+	name = "STATE_154"
 	history = {
-		owner = YUG
-		add_core_of = YUG
-		buildings = {
-		}
-		victory_points = {
-			20199
-			5
-		}
-		victory_points = {
-			14979
-			5
-		}
-		victory_points = {
-			20226
-			20
-		}
-		victory_points = {
-			404
-			2
-		}
-		victory_points = {
-			20237
-			2
-		}
-		victory_points = {
-			1945
-			2
-		}
-		victory_points = {
-			14917
-			5
-		}
-		victory_points = {
-			20236
-			2
-		}
-		victory_points = {
-			86
-			2
-		}
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	provinces = {
-		3571
-		4184
-		5004
-		14949
-		14979
-		14984
-		16173
-		16184
-		16444
-		17294
-		20199
-		20225
-		20234
-		3389
-		3587
-		20226
-		7358
-		7748
-		14879
-		404
-		2831
-		17267
-		18306
-		20229
-		20238
-		17051
-		20237
-		1945
-		4059
-		4914
-		20247
-		16421
-		6105
-		14917
-		14935
-		14972
-		20236
-		20246
-		86
-		4288
-		9101
-		16237
-		16929
-		19158
-		20214
-		18692
-		20213
-		14891
-		14912
-		17543
-	}
-	manpower = 1104774
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = wasteland
 	local_supplies = 0.000
+	provinces = {
+		1303
+		3255
+		2765
+		19091
+		10166
+		19994
+		16364
+		19087
+		3144
+		3259
+		5141
+		10136
+		17120
+		17659
+		18784
+		4281
+		16362
+		19964
+		3438
+		10261
+		17053
+		17312
+		17614
+		18243
+		318
+		5015
+		7920
+		8805
+		10198
+		10256
+		16053
+		17934
+	}
 }
 

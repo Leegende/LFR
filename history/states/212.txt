@@ -1,0 +1,41 @@
+#args4
+#2329.txt
+#509.txt
+#526.txt
+state = {
+id = 234
+	name = "STATE_151"
+	provinces = {
+		
+		12829
+		12864
+		6515
+		6534
+		
+		
+		
+		
+		
+		
+		
+		
+		3904
+		12839
+	}
+	history = {
+		owner = CZE
+		add_core_of = CZE
+		buildings = {
+			
+			
+		}
+		
+		
+		
+	}
+	manpower = 927885
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

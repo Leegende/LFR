@@ -1,55 +1,50 @@
-
 state = {
-id = 167
-	name = "STATE_167"
-	history = {
-		owner = ROM
-		add_core_of = ROM
+id = 173
+	name = "STATE_173"
 	
-		buildings = {
-			924 = {
-				naval_base = 3
-			}
-		}
-		victory_points = {
-			924
-			5
-		}
-		victory_points = {
-			9320
-			5
-		}
-	}
 	provinces = {
-		924
-		2181
-		4381
-		6938
-		14065
-		14103
-		14139
-		14202
-		20445
-		20451
-		1576
-		14324
-		14403
-		4478
-		4928
-		5737
-		7835
-		8010
-		9320
-		14222
-		14233
-		14273
-		14317
-		18713
-		20446
+		8033
+		19806
+		430
+		1700
+		3597
+		4544
+		7353
+		9106
+		9403
+		14919
+		19759
+		19807
+		19833
+		20508
+		4713
+		5400
+		6046
+		6922
+		14865
+		14873
+		19761
+		635
+		3743
+		5390
+		7694
+		14897
+		14941
+		14951
+		14960
+		14967
+		19808
+		4009
+		7586
+		9035
+		19760
+		5490
+		14988
 	}
-	manpower = 713061
+	impassable = yes
+	manpower = 1
+	state_category = wasteland
 	buildings_max_level_factor = 1.000
-	state_category = city
 	local_supplies = 0.000
 }
 

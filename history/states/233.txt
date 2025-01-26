@@ -1,96 +1,74 @@
-
+#args4
+#2063.txt
+#613.txt
+#618.txt
 state = {
-	id = 233
-	name = "STATE_150"
-	history = {
-		owner = HOL
-		add_core_of = HOL
-		buildings = {
-		}
-		victory_points = {
-			5357
-			10
-		}
-		victory_points = {
-			5099
-			2
-		}
-		victory_points = {
-			11951
-			10
-		}
-		victory_points = {
-			12256
-			10
-		}
-		victory_points = {
-			12039
-			10
-		}
-		victory_points = {
-			6625
-			10
-		}
-		victory_points = {
-			3044
-			10
-		}
-		victory_points = {
-			9413
-			5
-		}
-		victory_points = {
-			19873
-			2
-		}
-		victory_points = {
-			12077
-			20
-		}
-	}
+id = 255
+	name = "STATE_174"
 	provinces = {
-		7103
-		19854
-		8539
-		658
-		5099
-		5357
-		11943
-		21666
-		21667
-		6838
-		11951
-		19872
-		19895
-		12256
-		19896
-		6618
-		6625
-		5879
-		12107
-		12039
-		19903
-		11556
-		1705
-		3044
-		11969
-		3322
-		9413
-		12181
-		4251
-		19870
-		19871
-		19873
-		8641
-		11994
-		12077
-		12100
-		12130
-		12151
-		12306
+		3104
+		5954
+		6897
+		7032
+		8526
+		13910
+		14022
+		19325
+		378
+		3327
+		5474
+		8521
+		8522
+		13753
+		555
+		3442
+		3519
+		4417
+		7076
+		13759
+		13815
+		13887
+		15884
+		19324
+		114
+		2511
+		4222
+		9242
+		9345
+		13826
+		13905
 	}
-	manpower = 2393745
-	state_category = pastoral
-	buildings_max_level_factor = 1
-	local_supplies = 0
+	history = {
+		victory_points = {
+			14022
+			80
+		}
+		victory_points = {
+			3104
+			2
+		}
+		owner = SOV
+		add_core_of = SOV
+		
+		
+		
+		buildings = {
+			
+			14022 = {
+				naval_base = 6
+			}
+			air_base = 4
+			
+			
+		}
+		victory_points = {
+			9345
+			1
+		}
+	}
+	manpower = 1803031
+	state_category = metropolis
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }
+

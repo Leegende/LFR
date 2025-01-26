@@ -1,115 +1,97 @@
-#args2
-#2049.txt
+#args8
+#2363.txt
+#2364.txt
+#759.txt
+#774.txt
+#781.txt
+#797.txt
+#800.txt
 state = {
-id = 256
-	name = "STATE_175"
-	provinces = {
-		306
-		1778
-		3165
-		6368
-		7338
-		7507
-		12849
-		12860
-		3215
-		5249
-		
-		13233
-		6235
-		6637
-		13367
-		13411
-		1180
-		3461
-		5626
-		9381
-		5134
-		13182
-		13249
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		510
-		2143
-		4105
-		4374
-		6353
-		7389
-		8932
-		13005
-		13034
-		13076
-		13084
-		13140
-		583
-		928
-		1025
-		9303
-		13139
-		13225
-		13278
-	}
+id = 278
+	name = "STATE_199"
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = ROM
+		add_core_of = ROM
 		
 		
 		buildings = {
 			
+			
+			
 		}
 		victory_points = {
-			13233
-			1
+			14383
+			10
 		}
 		victory_points = {
-			3461
+			20386
+			5
+		}
+		victory_points = {
+			14437
 			2
 		}
 		victory_points = {
-			5626
-			1
+			20395
+			10
 		}
 		victory_points = {
-			13182
-			2
-		}
-		
-		
-		
-		
-		victory_points = {
-			13034
+			14535
 			20
 		}
 		victory_points = {
-			13140
-			1
+			4777
+			2
 		}
 		victory_points = {
-			510
-			1
-		}
-		victory_points = {
-			9303
-			1
+			14556
+			2
 		}
 	}
-	manpower = 1964438
-	state_category = town
+	provinces = {
+		14301
+		17815
+		2545
+		14389
+		16909
+		144
+		14340
+		14368
+		14383
+		14409
+		14427
+		14470
+		1645
+		6152
+		6430
+		7464
+		7474
+		14390
+		14437
+		20386
+		1573
+		2437
+		5645
+		8564
+		14538
+		17275
+		20395
+		68
+		1429
+		4908
+		8996
+		9208
+		14535
+		14596
+		14597
+		2837
+		4777
+		14644
+		14556
+	}
+	manpower = 1597131
 	buildings_max_level_factor = 1.000
+	state_category = wasteland
 	local_supplies = 0.000
 }
 

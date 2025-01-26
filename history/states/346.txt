@@ -1,57 +1,23 @@
-state = {
-	id = 346
-	name = "STATE_346"
+state={
+id = 368
+	name="STATE_368"
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = ROM
+		add_core_of = ROM
 		buildings = {
+			
 		}
 		victory_points = {
-			11918
-			5
-		}
-		victory_points = {
-			12032
-			10
-		}
-		victory_points = {
-			11935
-			10
-		}
-		victory_points = {
-			12038
-			80
+			13410
+			20
 		}
 	}
-	provinces = {
-		11872
-		11918
-		2370
-		7881
-		11864
-		11891
-		11912
-		11935
-		11954
-		11965
-		12032
-		113
-		5813
-		11919
-		12038
-		12117
-		12156
-		12008
-		12031
-		12199
-		4687
-		4569
-		2445
-		3966
-		8946
+	provinces={
+		1510 3043 5733 13445 13521 13522 2704 13360 13410 13449 13327 13426 
 	}
-	manpower = 52699606
-	buildings_max_level_factor = 1
-	local_supplies = 0
-	state_category = megalopolis
+	manpower=498750
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = town
 }
+

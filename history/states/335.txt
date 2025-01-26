@@ -1,106 +1,97 @@
+#args2
+#594.txt
 state = {
-	id = 335
-	name = "STATE_335"
+id = 357
+	name = "STATE_357"
 	provinces = {
-		11023
-		10949
-		10918
-		1322
-		4962
-		10925
-		4057
-		8927
-		9052
-		10929
-		9287
-		7489
-		4547
-		4940
-		10820
-		10952
-		2497
-		8188
-		5872
-		11301
-		11347
-		11336
-		17632
-		3135
-		6608
-		9531
-		5804
-		9145
-		1763
-		10881
-		11154
-		11084
-		11114
-		11144
-		11155
-		11240
-		7812
-		3225
-		1726
-		2185
-		2878
-		4916
-		6789
-		8742
-		8960
-		10994
-		11134
-		11184
-		11272
-		11273
-		1061
-		6440
-		11140
-		2164
-		6586
-		747
-		6297
+		1446
+		4844
+		7061
+		12160
+		12247
+		12340
+		7750
+		8193
+		8862
+		9574
+		11971
+		12034
+		12087
+		12177
+		12252
+		7051
+		11784
+		11820
+		11844
+		11854
+		3105
+		4275
+		5931
+		6832
+		11823
+		11880
+		11925
+		11957
+		17162
+		1480
+		4413
+		4799
+		9435
+		11945
+		11986
+		19908
+		11922
+		12185
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = POL
+		add_core_of = POL
 		buildings = {
+			
+			
+			
+			
 			
 		}
 		victory_points = {
-			1322
+			19908
+			40
+		}
+		
+		
+		
+		
+		
+		
+		
+		victory_points = {
+			12160
 			2
 		}
 		victory_points = {
-			10952
-			20
-		}
-		victory_points = {
-			11347
-			2
-		}
-		victory_points = {
-			8742
-			10
-		}
-		victory_points = {
-			8960
-			2
-		}
-		victory_points = {
-			1726
-			2
-		}
-		victory_points = {
-			5804
+			9574
 			5
 		}
 		victory_points = {
-			9145
+			8862
+			5
+		}
+		victory_points = {
+			11820
+			5
+		}
+		victory_points = {
+			5931
 			2
 		}
+		victory_points = {
+			11945
+			10
+		}
 	}
-	state_category = rural
-	manpower = 1
-	buildings_max_level_factor = 1
-	local_supplies = 0
+	manpower = 4051300
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_city
 }
+

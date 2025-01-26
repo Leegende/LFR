@@ -1,74 +1,53 @@
-#args4
-#2063.txt
-#613.txt
-#618.txt
+
 state = {
-id = 255
-	name = "STATE_174"
+id = 277
+	name = "STATE_198"
+	
 	provinces = {
-		3104
-		5954
-		6897
-		7032
-		8526
-		13910
-		14022
-		19325
-		378
-		3327
-		5474
-		8521
-		8522
-		13753
-		555
-		3442
-		3519
-		4417
-		7076
-		13759
-		13815
-		13887
-		15884
-		19324
-		114
-		2511
-		4222
-		9242
-		9345
-		13826
-		13905
+		1704
+		2399
+		2936
+		6369
+		14894
+		14948
+		14955
+		14983
+		19801
+		485
+		3290
+		4838
+		5312
+		6524
+		6873
+		14871
+		14890
+		14900
+		14954
+		19758
+		19827
+		20525
+		2855
+		2945
+		3024
+		7736
+		9670
+		14855
+		14888
+		14921
+		220
+		1717
+		2733
+		4721
+		8279
+		15011
+		15024
+		15132
+		20507
 	}
-	history = {
-		victory_points = {
-			14022
-			80
-		}
-		victory_points = {
-			3104
-			2
-		}
-		owner = SOV
-		add_core_of = SOV
-		
-		
-		
-		buildings = {
-			
-			14022 = {
-				naval_base = 6
-			}
-			air_base = 4
-			
-			
-		}
-		victory_points = {
-			9345
-			1
-		}
-	}
-	manpower = 1803031
-	state_category = metropolis
+	impassable = yes
+	manpower = 1
 	buildings_max_level_factor = 1.000
+	state_category = wasteland
 	local_supplies = 0.000
 }
 

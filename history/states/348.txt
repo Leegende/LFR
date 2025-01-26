@@ -1,89 +1,84 @@
-#args6
-#329.txt
-#376.txt
-#5.txt
-#651.txt
-#752.txt
+
 state = {
-id = 348
-	name = "STATE_348"
-	provinces = {
-		8111
-		9098
-		9299
-		11574
-		11633
-		11646
-		11694
-		19920
-		1216
-		2155
-		6672
-		11736
-		2692
-		7207
-		9350
-		11390
-		11465
-		11542
-		11547
-		6701
-		8452
-		2535
-		4078
-		4336
-		6490
-		7104
-		8537
-		9418
-		11421
-		1884
-		1927
-		5525
-		6449
-		6933
-		7604
-		11546
-		11566
-		11589
-		11604
-		11676
-	}
+id = 370
+	name = "STATE_370"
 	history = {
-		owner = POL
-		add_core_of = POL
+		owner = FRA
+		add_core_of = FRA
+		
+		victory_points = {
+			9560
+			2
+		}
 		buildings = {
 			
 			
 		}
 		victory_points = {
-			19920
+			13755
 			10
 		}
 		victory_points = {
-			9098
+			2887
 			2
 		}
 		victory_points = {
-			1216
+			2934
 			2
 		}
 		victory_points = {
-			11547
+			13418
 			2
-		}
-		victory_points = {
-			9350
-			2
-		}
-		victory_points = {
-			11589
-			10
 		}
 	}
-	manpower = 1373800
+	provinces = {
+		1126
+		1341
+		2190
+		9560
+		13629
+		19835
+		35
+		1730
+		2987
+		3399
+		3453
+		4610
+		7447
+		7478
+		7768
+		13611
+		13755
+		13756
+		13811
+		13822
+		1794
+		2887
+		3226
+		3301
+		6491
+		7754
+		13769
+		13818
+		13857
+		
+		1899
+		2934
+		3303
+		6863
+		7544
+		13875
+		1256
+		3799
+		6234
+		13418
+		13528
+		13606
+		13664
+	}
+	manpower = 1128215
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = large_town
+	state_category = rural
 }
 

@@ -1,43 +1,121 @@
 
 state = {
-id = 109
-	name = "STATE_109"
+id = 115
+	name = "STATE_115"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			
+		}
+		victory_points = {
+			14360
+			5
+		}
+		victory_points = {
+			14307
+			20
+		}
+		victory_points = {
+			14251
+			10
+		}
+		victory_points = {
+			14294
+			20
+		}
+		victory_points = {
+			14208
+			10
+		}
+		victory_points = {
+			9279
+			1
+		}
+		victory_points = {
+			547
+			10
+		}
+		victory_points = {
+			14079
+			2
+		}
+		victory_points = {
+			20051
+			5
+		}
+		victory_points = {
+			5701
+			5
+		}
+		victory_points = {
+			5779
+			1
+		}
+		victory_points = {
+			20015
+			10
+		}
 	}
-	manpower = 1
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 	provinces = {
-		7594
-		10349
-		19966
-		760
-		3683
-		10431
-		16874
-		16933
-		17441
-		18122
-		19959
-		19999
-		1548
-		3405
-		3758
-		3877
-		16509
-		18194
-		19967
-		989
-		5479
-		6312
-		10311
-		16678
-		17073
-		18195
-		19997
+		8865
+		14360
+		20073
+		2193
+		5132
+		7007
+		14230
+		14248
+		14307
+		14321
+		19116
+		5402
+		6702
+		14242
+		14251
+		14279
+		8156
+		14157
+		14294
+		14326
+		20036
+		9474
+		14193
+		14208
+		14224
+		14235
+		9279
+		13986
+		9040
+		20005
+		547
+		14252
+		14271
+		20052
+		5487
+		14079
+		14144
+		20053
+		20051
+		139
+		4692
+		5701
+		17212
+		5142
+		5779
+		19961
+		4688
+		5420
+		20483
+		2711
+		14083
+		14184
+		20015
+		20480
 	}
+	manpower = 4255730
+	state_category = city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }
 

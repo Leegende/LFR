@@ -1,96 +1,30 @@
-
+#args3
+#427.txt
+#512.txt
 state = {
-id = 338
-	name = "STATE_338"
-	provinces = {
-		19457
-		4431
-		8366
-		8490
-		8709
-		12099
-		12140
-		12176
-		12192
-		12200
-		12219
-		12264
-		5634
-		6663
-		12198
-		12248
-		1458
-		1501
-		5597
-		7291
-		8810
-		12175
-		12233
-		12276
-		12305
-		12310
-		12344
-		12382
-		2580
-		5660
-		7775
-		7887
-		12261
-		12277
-		12332
-		12333
-		12353
-		12375
-	}
+id = 360
+	name = "STATE_360"
 	history = {
-		owner = ENG
-		add_core_of = ENG
-		
+		owner = HOL
+		add_core_of = HOL
 		buildings = {
-			
-			
-			radar_station = 1
-			anti_air_building = 2
-			
-			
-			fuel_silo = 1
 		}
 		victory_points = {
-			12192
+			12895
 			5
-		}
-		victory_points = {
-			8709
-			5
-		}
-		victory_points = {
-			12176
-			5
-		}
-		victory_points = {
-			8366
-			10
-		}
-		victory_points = {
-			1501
-			20
-		}
-		victory_points = {
-			8810
-			10
-		}
-		victory_points = {
-			12375
-			25
-		}
-		victory_points = {
-			7887
-			10
 		}
 	}
-	state_category = small_island
-	manpower = 3361443
+	provinces = {
+		2715
+		4482
+		12699
+		12857
+		12852
+		12895
+	}
+	manpower = 295500
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
+	state_category = pastoral
 }
 

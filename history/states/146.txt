@@ -1,62 +1,67 @@
-
+#args10
+#1969.txt
+#2005.txt
+#2006.txt
+#2016.txt
+#2751.txt
+#2756.txt
+#2840.txt
+#910.txt
+#937.txt
 state = {
-id = 146
-	name = "STATE_146"
-	provinces = {
-		14750
-		20198
-		20240
-		3540
-		14821
-		14848
-		16988
-		20222
-		4102
-		14773
-		2502
-		20209
-		16139
-		14839
-		18321
-		14878
-		19227
-		14805
-		14828
-		17702
-		20228
-		20223
-		3622
-		4463
-	}
+id = 152
+	name = "STATE_152"
 	history = {
-		owner = YUG
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
-		}
-		add_core_of = YUG
-		victory_points = {
-			20198
-			10
+			9240 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			20222
-			10
-		}
-		victory_points = {
-			14848
+			9240
 			5
 		}
 		victory_points = {
-			14805
-			40
+			3756
+			2
 		}
 		victory_points = {
-			20223
-			10
+			20338
+			5
+		}
+		victory_points = {
+			20337
+			2
 		}
 	}
-	manpower = 618284
+	provinces = {
+		9038
+		9240
+		15036
+		2680
+		3417
+		1094
+		15895
+		16499
+		20360
+		1272
+		3756
+		20286
+		4509
+		20336
+		4231
+		8483
+		20338
+		1428
+		6549
+		20337
+		20339
+	}
+	manpower = 330800
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 	local_supplies = 0.000
 }
 

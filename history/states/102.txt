@@ -1,94 +1,54 @@
-
+#args2
+#137.txt
 state = {
-id = 102
-	name = "STATE_102"
+id = 108
+	name = "STATE_108"
 	history = {
-		owner = FRA
-		add_core_of = FRA
-		buildings = {
-		}
-		victory_points = {
-			12637
-			5
-		}
-		victory_points = {
-			1406
-			2
-		}
-		victory_points = {
-			12284
-			5
-		}
-		victory_points = {
-			73
-			5
-		}
-		victory_points = {
-			12664
-			2
-		}
-		victory_points = {
-			12325
-			5
-		}
-		victory_points = {
-			4392
-			5
-		}
-		victory_points = {
-			12502
-			20
-		}
-		victory_points = {
-			8296
-			2
-		}
-		victory_points = {
-			6087
-			2
-		}
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	provinces = {
-		1406
-		3542
-		6129
-		6200
-		7440
-		7539
-		9257
-		12528
-		12597
-		12617
-		12637
-		12284
-		12334
-		12376
-		12411
-		73
-		12493
-		12521
-		12593
-		4933
-		5208
-		9556
-		12664
-		12760
-		12790
-		6106
-		12325
-		4392
-		6834
-		12502
-		19853
-		5138
-		6087
-		8296
-		9654
-		12659
-	}
-	manpower = 3412075
+	manpower = 1
 	buildings_max_level_factor = 1.000
-	state_category = city
+	state_category = wasteland
 	local_supplies = 0.000
+	provinces = {
+		1630
+		2277
+		4673
+		5167
+		8556
+		10040
+		10048
+		10054
+		16453
+		16742
+		17156
+		17193
+		17404
+		17597
+		19086
+		20004
+		4268
+		5861
+		5865
+		16545
+		17412
+		18210
+		19975
+		1268
+		4043
+		5738
+		6113
+		7620
+		10114
+		10131
+		10138
+		10149
+		16478
+		19082
+		19298
+		19973
+		19974
+	}
 }
 

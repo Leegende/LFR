@@ -1,15 +1,44 @@
+
 state = {
-	id = 101
-	name = "STATE_101"
-	provinces = {
-		2166
-		3415
-		2297
-		656
+	id = 107
+	name = "STATE_107"
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
 	}
-	manpower = 2
+	manpower = 1
 	buildings_max_level_factor = 1
-	impassable = yes
 	state_category = wasteland
 	local_supplies = 0
+	provinces = {
+		9039
+		9492
+		10615
+		16721
+		19952
+		19953
+		3092
+		9044
+		10743
+		17371
+		19930
+		20460
+		1297
+		6481
+		6742
+		10651
+		10693
+		10762
+		20461
+		2938
+		4651
+		5439
+		6467
+		7360
+		7685
+		10915
+		10951
+		18139
+		19950
+	}
 }

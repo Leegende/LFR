@@ -1,109 +1,135 @@
+#args7
+#2064.txt
+#2072.txt
+#2073.txt
+#2085.txt
+#2103.txt
+#614.txt
 state = {
-	id = 236
-	name = "STATE_153"
-	provinces = {
-		21641
-		8474
-		11198
-		11234
-		11282
-		90
-		6271
-		6866
-		7803
-		10854
-		10920
-		10946
-		20545
-		2958
-		4274
-		5984
-		7733
-		11243
-		11314
-		6818
-		9426
-		11199
-		11286
-		11340
-		11341
-		11407
-		11408
-		19921
-		1698
-		8712
-		11167
-		16024
-		18011
-		5827
-		6691
-		7830
-		8503
-		9431
-		11367
-		11464
-		11362
-		5502
-		6231
-		7217
-		11629
-		4280
-		4622
-		8911
-		9394
-		10981
-		10993
-		11005
-		11050
-		11093
-		11131
-		11132
-		19922
-	}
+id = 258
+	name = "STATE_177"
 	history = {
-		owner = POL
-		add_core_of = POL
+		victory_points = {
+			13652
+			2
+		}
+		victory_points = {
+			13652
+			1
+		}
+		owner = SOV
+		add_core_of = SOV
+		
+		
+		
 		buildings = {
+			
+			
+			
 		}
 		victory_points = {
-			10920
+			7054
+			1
+		}
+		victory_points = {
+			2926
+			1
+		}
+		victory_points = {
+			13844
+			1
+		}
+		victory_points = {
+			13328
+			1
+		}
+		victory_points = {
+			9169
 			20
 		}
 		victory_points = {
-			2958
-			2
-		}
-		victory_points = {
-			11407
+			2628
 			20
 		}
 		victory_points = {
-			19921
-			5
+			3974
+			1
 		}
 		victory_points = {
-			11367
+			4629
+			1
+		}
+		victory_points = {
+			13888
 			20
 		}
 		victory_points = {
-			6231
-			5
-		}
-		victory_points = {
-			19922
-			5
-		}
-		victory_points = {
-			10993
-			2
-		}
-		victory_points = {
-			11131
-			2
+			15855
+			1
 		}
 	}
-	manpower = 2410879
-	state_category = enclave
-	buildings_max_level_factor = 1
-	local_supplies = 0
+	provinces = {
+		5369
+		9036
+		9380
+		9626
+		13531
+		13652
+		13720
+		55
+		138
+		1636
+		2589
+		2926
+		7054
+		9324
+		13772
+		13791
+		13844
+		13901
+		1683
+		3175
+		5453
+		5694
+		7369
+		9209
+		13242
+		13328
+		13427
+		13450
+		1281
+		
+		5757
+		5882
+		9169
+		
+		13250
+		13315
+		193
+		806
+		940
+		2628
+		13997
+		2916
+		3974
+		4629
+		5422
+		5910
+		6178
+		9542
+		13382
+		13387
+		13458
+		5293
+		6852
+		13765
+		13832
+		13888
+		15855
+	}
+	manpower = 1546712
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }
+

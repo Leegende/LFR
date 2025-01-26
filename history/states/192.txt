@@ -1,109 +1,107 @@
+#args2
+#2583.txt
 state = {
-	id = 192
-	name = "STATE_192"
+id = 198
+	name = "STATE_198"
 	history = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
 		}
 		victory_points = {
-			9545
+			5270
 			5
 		}
 		victory_points = {
-			11887
-			2
-		}
-		victory_points = {
-			12207
-			10
-		}
-		victory_points = {
-			5650
-			40
-		}
-		victory_points = {
-			20738
-			40
-		}
-		victory_points = {
-			8947
-			2
-		}
-		victory_points = {
-			8574
-			10
-		}
-		victory_points = {
-			12083
-			40
-		}
-		victory_points = {
-			20737
-			40
-		}
-		victory_points = {
-			12193
+			13519
 			20
 		}
 		victory_points = {
-			12234
-			10
+			3091
+			2
 		}
 		victory_points = {
-			12413
+			13237
 			5
 		}
 		victory_points = {
-			7843
-			40
+			20767
+			20
 		}
 		victory_points = {
-			12543
+			13312
 			2
+		}
+		victory_points = {
+			13095
+			20
+		}
+		victory_points = {
+			20755
+			10
+		}
+		victory_points = {
+			13297
+			5
+		}
+		victory_points = {
+			13597
+			5
 		}
 	}
 	provinces = {
-		6627
-		12543
-		7610
-		20715
-		9545
-		7938
-		11887
-		9603
-		5921
-		12207
-		20707
-		20705
-		21668
-		5650
-		12020
-		20738
-		8947
-		12422
-		12141
-		9610
-		8574
-		12083
-		2781
-		8376
-		12193
-		12234
-		12285
-		20737
-		12336
-		12369
-		12383
-		12413
-		6796
-		7190
-		12438
-		7843
-		20711
+		2655
+		20101
+		5270
+		13647
+		20750
+		3091
+		7417
+		9111
+		9224
+		13519
+		13567
+		13625
+		20749
+		13171
+		13230
+		13237
+		20753
+		3496
+		4709
+		13441
+		6381
+		12968
+		20724
+		20767
+		3354
+		13312
+		20766
+		8180
+		13095
+		13115
+		20754
+		20755
+		1629
+		8071
+		9047
+		9285
+		13297
+		13401
+		13460
+		13472
+		7819
+		13593
+		13597
+		18899
+		20751
+		20758
+		9141
+		13160
 	}
-	manpower = 6220374
-	buildings_max_level_factor = 1
-	state_category = rural
-	local_supplies = 0
+	manpower = 2477239
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }
+

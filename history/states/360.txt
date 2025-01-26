@@ -1,30 +1,14 @@
-#args3
-#427.txt
-#512.txt
-state = {
-id = 360
-	name = "STATE_360"
-	history = {
-		owner = HOL
-		add_core_of = HOL
-		buildings = {
-		}
-		victory_points = {
-			12895
-			5
-		}
+
+state={
+id = 382
+	name="STATE_382"
+	provinces={
+		3443 3956 4119 5772 6986 14728 14768 14777 14788 14815 14816 14847 20524 20539 
 	}
-	provinces = {
-		2715
-		4482
-		12699
-		12857
-		12852
-		12895
-	}
-	manpower = 295500
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
-	state_category = pastoral
+	impassable = yes
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }
 

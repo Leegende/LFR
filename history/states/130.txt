@@ -1,55 +1,59 @@
-
+#args6
+#1514.txt
+#1515.txt
+#1516.txt
+#2856.txt
+#735.txt
 state = {
-id = 130
-	name = "STATE_130"
+id = 136
+	name = "STATE_136"
 	history = {
-		owner = CZE
-		add_core_of = CZE
-		set_state_flag = SLOVAKIA
+		owner = YUG
+		add_core_of = YUG
 		buildings = {
 		}
 		victory_points = {
-			13403
-			2
-		}
-		victory_points = {
-			13239
+			14328
 			20
 		}
 		victory_points = {
-			20075
+			14265
 			2
+		}
+		victory_points = {
+			14201
+			2
+		}
+		victory_points = {
+			14117
+			5
 		}
 	}
 	provinces = {
-		879
-		4526
-		13366
-		13403
-		3990
-		13432
-		13433
-		13503
-		13580
-		1047
-		3592
-		13239
-		13359
-		20081
-		20084
-		8547
-		13488
-		13529
-		20075
-		13487
-		13548
-		13564
-		13579
-		13608
+		8270
+		15985
+		2136
+		8942
+		14265
+		14312
+		14323
+		14328
+		17510
+		2506
+		14201
+		14259
+		14124
+		14166
+		14195
+		18030
+		1650
+		14117
+		14145
+		14147
 	}
-	manpower = 1065080
+	manpower = 815882
 	buildings_max_level_factor = 1.000
+	state_category = pastoral
 	local_supplies = 0.000
-	state_category = rural
 }
 

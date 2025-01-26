@@ -1,45 +1,71 @@
 state = {
-	id = 99
-	name = "STATE_99"
+	id = 105
+	name = "STATE_105"
 	history = {
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
 		}
 		victory_points = {
-			21111
+			16954
+			10
+		}
+		victory_points = {
+			17898
+			2
+		}
+		victory_points = {
+			16977
+			80
+		}
+		victory_points = {
+			18230
+			10
+		}
+		victory_points = {
+			16829
+			40
+		}
+		victory_points = {
+			16125
+			40
+		}
+		victory_points = {
+			17690
 			2
 		}
 	}
 	provinces = {
-		21111
-		21112
-		21115
-		21118
-		15859
-		303
-		19181
-		15252
-		15272
-		7315
-		6649
-		15882
-		6582
-		5118
-		3881
-		15403
-		15886
-		3901
-		751
-		15871
-		15870
-		785
-		15864
-		21613
-		7673
+		3096
+		15906
+		16954
+		17010
+		17898
+		1702
+		8185
+		9273
+		16977
+		6693
+		6777
+		7611
+		18229
+		18230
+		16112
+		17288
+		16084
+		16125
+		16829
+		17466
+		16226
+		17910
+		4329
+		15896
+		16701
+		17690
+		17146
 	}
-	manpower = 2000000
-	state_category = large_city
+	manpower = 169386
+	state_category = pastoral
 	buildings_max_level_factor = 1
 	local_supplies = 0
 }

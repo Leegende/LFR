@@ -1,34 +1,67 @@
-
+#args2
+#2901.txt
 state = {
-id = 131
-	name = "STATE_131"
+id = 137
+	name = "STATE_137"
 	history = {
-		owner = DMZ
-		add_core_of = DMZ
+		owner = ITA
+		buildings = {
+		
+		}
+		add_core_of = ITA
+		victory_points = {
+			17789
+			1
+		}
+		victory_points = {
+			20482
+			2
+		}
+		victory_points = {
+			7575
+			20
+		}
+		victory_points = {
+			14309
+			10
+		}
+		victory_points = {
+			5331
+			5
+		}
 	}
-	manpower = 1
-	buildings_max_level_factor = 1.000
-	state_category = wasteland
-	local_supplies = 0.000
 	provinces = {
-		9420
-		9672
-		17211
-		17225
-		17440
-		19976
-		19977
-		19980
-		4597
-		4969
-		5934
-		10126
-		10165
-		10192
-		16682
-		17086
-		19978
-		19981
+		20127
+		20130
+		14245
+		2174
+		14200
+		18916
+		14257
+		17789
+		9109
+		20482
+		4659
+		18920
+		1613
+		14357
+		14308
+		14343
+		17019
+		9663
+		20192
+		20481
+		7575
+		19417
+		14309
+		5331
+		7915
+		14408
+		14153
 	}
+	manpower = 978689
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 0.000
 }
 

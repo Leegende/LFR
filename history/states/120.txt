@@ -1,77 +1,48 @@
-#args3
-#1401.txt
-#1403.txt
+#args2
+#1977.txt
 state = {
-id = 120
-	name = "STATE_120"
+id = 126
+	name = "STATE_126"
 	history = {
-		owner = ITA
-		add_core_of = ITA
+		owner = CZE
+		add_core_of = CZE
+		set_state_flag = SUDETENLAND
 		buildings = {
 		}
 		victory_points = {
-			15008
+			4683
+			2
+		}
+		victory_points = {
+			12762
 			5
-		}
-		victory_points = {
-			4116
-			5
-		}
-		victory_points = {
-			15109
-			10
-		}
-		victory_points = {
-			6041
-			5
-		}
-		victory_points = {
-			20008
-			60
-		}
-		victory_points = {
-			15093
-			5
-		}
-		victory_points = {
-			20045
-			10
 		}
 	}
 	provinces = {
-		3295
-		14961
-		15008
-		4116
-		15025
-		20043
-		5184
-		15079
-		15109
-		15127
-		20041
-		20042
-		6041
-		15104
-		15130
-		13624
-		15049
-		15078
-		20008
-		3329
-		4738
-		15046
-		15081
-		15093
-		15158
-		20040
-		14985
-		15012
-		20045
+		120
+		7473
+		12786
+		
+		2167
+		12600
+		12624
+		596
+		4683
+		12807
+		12838
+		20067
+		8770
+		8951
+		12762
+		12779
+		12800
+		12825
+		12904
+		21640
 	}
-	manpower = 4246386
-	state_category = city
+	manpower = 639322
 	buildings_max_level_factor = 1.000
+	state_category = rural
 	local_supplies = 0.000
 }
 

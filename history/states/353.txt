@@ -1,71 +1,93 @@
+#args9
+#178.txt
+#216.txt
+#315.txt
+#240.txt
+#277.txt
+#20.txt
+#247.txt
+#347.txt
 state = {
-	id = 353
-	name = "STATE_353"
+id = 375
+	name = "STATE_375"
 	history = {
-		owner = IRE
-		add_core_of = IRE
+		owner = DEN
+		add_core_of = DEN
 		buildings = {
+			
+			
+			
+			
+			
 		}
 		victory_points = {
-			19388
-			5
-		}
-		victory_points = {
-			2912
+			19618
 			2
 		}
 		victory_points = {
-			11917
+			9674
+			2
+		}
+		victory_points = {
+			19619
+			2
+		}
+		victory_points = {
+			10625
+			80
+		}
+		victory_points = {
+			10686
 			10
 		}
 		victory_points = {
-			7746
+			5092
+			2
+		}
+		victory_points = {
+			7574
 			2
 		}
 	}
 	provinces = {
-		11460
-		3300
-		4319
-		6645
-		11530
-		11602
-		11660
-		11692
-		19317
-		9529
-		9593
-		11637
-		11691
-		19388
-		1853
-		2244
-		2912
-		5596
-		8965
-		11930
-		1315
-		2248
-		2761
-		4818
-		5458
-		5802
-		6174
-		6370
-		8269
-		8591
-		11841
-		11871
-		11896
-		11917
-		11961
-		7284
-		7746
-		11815
-		11874
+		9091
+		9674
+		10720
+		19618
+		569
+		7194
+		10650
+		19619
+		19620
+		3612
+		7786
+		10561
+		10592
+		10625
+		10640
+		4072
+		6240
+		7073
+		8625
+		10686
+		4745
+		5092
+		5506
+		10683
+		10714
+		19622
+		19623
+		19624
+		19625
+		7574
+		19613
+		19621
+		4863
+		8725
 	}
-	manpower = 670608
-	buildings_max_level_factor = 1
-	local_supplies = 0
+	manpower = 1809100
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 	state_category = rural
 }
+

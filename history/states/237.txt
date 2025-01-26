@@ -1,88 +1,117 @@
-#args4
-#370.txt
-#407.txt
-#508.txt
+#args1
 state = {
-id = 237
-	name = "STATE_154"
+id = 259
+	name = "STATE_178"
+	provinces = {
+		1245
+		1971
+		3478
+		4991
+		9447
+		9631
+		13504
+		13581
+		13628
+		13709
+		15854
+		66
+		112
+		254
+		1147
+		3324
+		8675
+		9304
+		13290
+		13317
+		1054
+		5123
+		8879
+		13550
+		13610
+		13687
+		8481
+		13575
+		1680
+		1724
+		2097
+		2669
+		13368
+		13406
+		2406
+		4869
+		7924
+		13215
+		13234
+		13398
+		776
+		6473
+		7249
+		8915
+		13156
+		13188
+		13263
+		15847
+		2717
+		8418
+		13440
+		13477
+		945
+		2390
+		3179
+		4202
+		7508
+		13148
+		13305
+		13505
+		13590
+	}
 	history = {
-		owner = POL
-		add_core_of = POL
-
+		victory_points = {
+			13581
+			40
+		}
+		victory_points = {
+			9631
+			1
+		}
+		owner = SOV
+		add_core_of = SOV
+		
+		
+		
 		buildings = {
 			
 			
 			
-			
-			
-			anti_air_building = 2
 		}
 		victory_points = {
-			5243
-			5
+			8675
+			20
 		}
 		victory_points = {
-			775
-			5
+			13687
+			10
 		}
 		victory_points = {
-			11900
+			13406
+			40
+		}
+		victory_points = {
+			4869
+			10
+		}
+		victory_points = {
+			13477
 			2
 		}
 		victory_points = {
-			11767
-			2
-		}
-		victory_points = {
-			11800
-			80
-		}
-		victory_points = {
-			895
-			5
+			945
+			1
 		}
 	}
-	provinces = {
-		19855
-		246
-		2388
-		3409
-		3781
-		5243
-		8127
-		8534
-		11747
-		11801
-		11837
-		775
-		895
-		1831
-		2334
-		4856
-		7055
-		8086
-		11824
-		11881
-		11900
-		11936
-		11958
-		11987
-		12027
-		
-		
-		3034
-		4365
-		7533
-		11767
-		11845
-		11855
-		7307
-		11774
-		11800
-	}
-	manpower = 2942870
+	manpower = 3334135
+	state_category = large_city
 	buildings_max_level_factor = 1.000
-	state_category = metropolis
 	local_supplies = 0.000
 }
 

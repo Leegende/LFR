@@ -1,30 +1,110 @@
-#args2
-#33.txt
+#args6
+#369.txt
+#372.txt
+#379.txt
+#386.txt
+#403.txt
 state = {
-id = 332
-	name = "STATE_332"
+id = 354
+	name = "STATE_354"
 	provinces = {
-		718
-		3728
-		9705
-		15913
-		17979
-		71
-		16858
-		17140
-		19706
+		1262
+		2344
+		2747
+		9538
+		11471
+		11517
+		11543
+		11555
+		11590
+		11611
+		11627
+		11661
+		11683
+		2942
+		5193
+		9407
+		11714
+		11781
+		11808
+		11828
+		11875
+		4503
+		6405
+		8881
+		8981
+		11761
+		11798
+		3847
+		8719
+		3972
+		6142
+		6461
+		6529
+		6570
+		8934
+		11735
+		11755
+		11782
+		11832
+		19413
 	}
 	history = {
-		owner = FIN
-		add_core_of = FIN
+		owner = ENG
+		add_core_of = ENG
+		
 		buildings = {
 			
+			
+			11627 = {
+				naval_base = 1
+			}
+			air_base = 10
+			radar_station = 1
+			anti_air_building = 2
+			
+			
+			
 		}
-		
+		victory_points = {
+			2747
+			20
+		}
+		victory_points = {
+			11627
+			5
+		}
+		victory_points = {
+			11517
+			2
+		}
+		victory_points = {
+			11781
+			15
+		}
+		victory_points = {
+			5193
+			10
+		}
+		victory_points = {
+			4503
+			10
+		}
+		victory_points = {
+			6529
+			10
+		}
+		victory_points = {
+			11755
+			2
+		}
+		victory_points = {
+			19413
+			20
+		}
 	}
-	manpower = 46702
-	state_category = pastoral
+	manpower = 1692000
 	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	state_category = large_city
 }
 

@@ -1,14 +1,21 @@
-state = {
-	id = 344
-	name = "STATE_344"
-	provinces = {
-		18624
-		18638
-		18911
+
+state={
+id = 366
+	name="STATE_366"
+	
+	provinces={
+		671 678 867 1195 1227 1802 2280 2894 3404 4545 7935 8737 9760 9774 
 	}
-	impassable = yes
-	manpower = 1
-	buildings_max_level_factor = 1
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		
+		buildings = {
+		}
+	}
+	manpower=1
+	buildings_max_level_factor=0.000
+	local_supplies=0.000
 	state_category = wasteland
-	local_supplies = 0
 }
+

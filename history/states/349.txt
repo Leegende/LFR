@@ -1,89 +1,91 @@
+#args4
+#620.txt
+#645.txt
+#650.txt
 state = {
-	id = 349
-	name = "STATE_349"
+id = 371
+	name = "STATE_371"
+	provinces = {
+
+		13786
+		13802
+		4525
+		6747
+		99
+		1973
+		2029
+		4495
+		7386
+		8273
+		13471
+		13482
+		13511
+		13543
+		13592
+		13635
+		19813
+		494
+		1219
+		1416
+		4293
+		8500
+		13494
+		13561
+		13663
+		13677
+		13693
+		13712
+		13723
+		13731
+		3751
+		
+		8750
+		
+		
+		
+		19818
+		2032
+		4229
+		8807
+		13694
+		13715
+		13810
+		13846
+		13852
+		19826
+	}
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = FRA
+		add_core_of = FRA
+		
 		buildings = {
+			
+			
 		}
 		victory_points = {
-			11252
-			40
-		}
-		victory_points = {
-			990
-			15
-		}
-		victory_points = {
-			11653
-			40
-		}
-		victory_points = {
-			11587
+			19813
 			10
 		}
 		victory_points = {
-			19415
-			10
-		}
-		victory_points = {
-			1868
-			10
-		}
-		victory_points = {
-			19414
+			13693
 			5
 		}
+		victory_points = {
+			3751
+			10
+		}
+		victory_points = {
+			13846
+			5
+		}
+		victory_points = {
+			13810
+			2
+		}
 	}
-	provinces = {
-		2710
-		7742
-		8104
-		11252
-		11303
-		11328
-		11329
-		11350
-		11403
-		57
-		990
-		2907
-		3969
-		11388
-		11437
-		11497
-		11531
-		11578
-		11653
-		5333
-		8666
-		11478
-		11538
-		11550
-		11587
-		11610
-		11670
-		11697
-		1909
-		6923
-		8176
-		8809
-		11674
-		11698
-		19415
-		1868
-		6744
-		11740
-		11794
-		3952
-		8907
-		11816
-		11847
-		19414
-		19418
-	}
-	manpower = 5082300
-	buildings_max_level_factor = 1
-	state_category = metropolis
-	local_supplies = 0
+	manpower = 1032660
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = city
 }
+

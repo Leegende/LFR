@@ -1,106 +1,89 @@
-#args2
-#337.txt
+#args6
+#329.txt
+#376.txt
+#5.txt
+#651.txt
+#752.txt
 state = {
-id = 326
-	name = "STATE_326"
+id = 348
+	name = "STATE_348"
+	provinces = {
+		8111
+		9098
+		9299
+		11574
+		11633
+		11646
+		11694
+		19920
+		1216
+		2155
+		6672
+		11736
+		2692
+		7207
+		9350
+		11390
+		11465
+		11542
+		11547
+		6701
+		8452
+		2535
+		4078
+		4336
+		6490
+		7104
+		8537
+		9418
+		11421
+		1884
+		1927
+		5525
+		6449
+		6933
+		7604
+		11546
+		11566
+		11589
+		11604
+		11676
+	}
 	history = {
-		owner = IRE
-		add_core_of = IRE
+		owner = POL
+		add_core_of = POL
 		buildings = {
+			
 			
 		}
 		victory_points = {
-			5586
+			19920
+			10
+		}
+		victory_points = {
+			9098
 			2
 		}
 		victory_points = {
-			5834
+			1216
 			2
 		}
 		victory_points = {
-			11275
+			11547
 			2
 		}
 		victory_points = {
-			19391
-			80
-		}
-		victory_points = {
-			4488
-			1
-		}
-		victory_points = {
-			1524
+			9350
 			2
 		}
 		victory_points = {
-			6960
-			2
-		}
-		victory_points = {
-			11754
-			1
+			11589
+			10
 		}
 	}
-	provinces = {
-		
-		
-		6331
-		9528
-		11048
-		5504
-		5586
-		9344
-		
-		5834
-		2094
-		6094
-		19313
-		2991
-		8122
-		8578
-		11116
-		11175
-		11188
-		9561
-		11246
-		11275
-		1242
-		11298
-		11306
-		19391
-		4488
-		8080
-		11381
-		
-		6760
-		8929
-		9041
-		11359
-		11429
-		11461
-		2862
-		4994
-		1524
-		11577
-		4082
-		6597
-		6960
-		11595
-		76
-		2349
-		4596
-		11626
-		11754
-		8
-		6558
-		7270
-		8495
-		11322
-	}
-	manpower = 1426604
+	manpower = 1373800
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
-	state_category = pastoral
+	state_category = large_town
 }
 
