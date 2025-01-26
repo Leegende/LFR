@@ -1,8 +1,8 @@
 #args2
 #731.txt
 state = {
-id = 342
-	name = "STATE_342"
+id = 320
+	name = "STATE_320"
 	history = {
 		owner = FRA
 		add_core_of = FRA

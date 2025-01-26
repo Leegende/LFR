@@ -2,8 +2,8 @@
 #427.txt
 #512.txt
 state = {
-id = 360
-	name = "STATE_360"
+id = 338
+	name = "STATE_338"
 	history = {
 		owner = HOL
 		add_core_of = HOL

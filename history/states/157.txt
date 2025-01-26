@@ -2,8 +2,8 @@
 #2362.txt
 #2981.txt
 state = {
-id = 163
-	name = "STATE_163"
+id = 157
+	name = "STATE_157"
 	history = {
 		owner = ROM
 		add_core_of = ROM

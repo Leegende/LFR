@@ -3,8 +3,8 @@
 #2681.txt
 #2682.txt
 state = {
-id = 249
-	name = "STATE_167"
+id = 227
+	name = "STATE_227"
 	history = {
 		owner = SOV
 		victory_points = {

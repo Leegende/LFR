@@ -9,8 +9,8 @@
 #910.txt
 #937.txt
 state = {
-id = 152
-	name = "STATE_152"
+id = 146
+	name = "STATE_146"
 	history = {
 		owner = GRE
 		add_core_of = GRE

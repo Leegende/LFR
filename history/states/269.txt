@@ -4,8 +4,8 @@
 #2514.txt
 #630.txt
 state = {
-id = 291
-	name = "STATE_214"
+id = 269
+	name = "STATE_269"
 	history = {
 		owner = SOV
 		add_core_of = SOV

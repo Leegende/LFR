@@ -1,8 +1,8 @@
 #args2
 #1771.txt
 state = {
-id = 199
-	name = "STATE_199"
+id = 193
+	name = "STATE_193"
 	history = {
 		owner = GER
 		victory_points = {

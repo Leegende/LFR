@@ -1,8 +1,8 @@
 #args2
 #737.txt
 state = {
-id = 162
-	name = "STATE_162"
+id = 156
+	name = "STATE_156"
 	history = {
 		owner = ROM
 		add_core_of = ROM

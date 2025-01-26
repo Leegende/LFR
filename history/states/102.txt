@@ -1,8 +1,8 @@
 #args2
 #137.txt
 state = {
-id = 108
-	name = "STATE_108"
+id = 102
+	name = "STATE_102"
 	history = {
 		owner = DMZ
 		add_core_of = DMZ

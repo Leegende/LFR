@@ -1,6 +1,6 @@
 state={
-id = 368
-	name="STATE_368"
+id = 346
+	name="STATE_346"
 	history = {
 		owner = ROM
 		add_core_of = ROM

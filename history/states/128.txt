@@ -1,8 +1,8 @@
 #args2
 #2436.txt
 state = {
-	id = 134
-	name = "STATE_134"
+	id = 128
+	name = "STATE_128"
 	history = {
 		owner = YUG
 		add_core_of = YUG

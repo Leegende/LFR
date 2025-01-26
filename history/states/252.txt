@@ -1,7 +1,7 @@
 #args1
 state = {
-id = 274
-	name = "STATE_195"
+id = 252
+	name = "STATE_252"
 	history = {
 		owner = SOV
 		add_core_of = SOV

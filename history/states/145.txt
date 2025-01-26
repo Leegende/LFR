@@ -1,8 +1,8 @@
 #args2
 #1557.txt
 state = {
-id = 151
-	name = "STATE_151"
+id = 145
+	name = "STATE_145"
 	history = {
 		owner = GRE
 		add_core_of = GRE

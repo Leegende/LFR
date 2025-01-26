@@ -1,6 +1,6 @@
 state = {
-	id = 269
-	name = "STATE_189"
+	id = 247
+	name = "STATE_247"
 	history = {
 		owner = ENG
 		buildings = {

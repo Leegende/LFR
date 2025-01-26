@@ -2,8 +2,8 @@
 #1683.txt
 #2533.txt
 state = {
-	id = 185
-	name = "STATE_185"
+	id = 179
+	name = "STATE_179"
 	history = {
 		owner = GER
 		add_core_of = GER

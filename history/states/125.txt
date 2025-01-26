@@ -1,7 +1,7 @@
 
 state = {
-id = 131
-	name = "STATE_131"
+id = 125
+	name = "STATE_125"
 	history = {
 		owner = DMZ
 		add_core_of = DMZ

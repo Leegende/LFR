@@ -4,8 +4,8 @@
 #1577.txt
 #831.txt
 state = {
-id = 158
-	name = "STATE_158"
+id = 152
+	name = "STATE_152"
 	history = {
 		owner = ITA
 		add_core_of = ENG

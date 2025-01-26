@@ -1,8 +1,8 @@
 #args2
 #2032.txt
 state = {
-id = 245
-	name = "STATE_163"
+id = 223
+	name = "STATE_223"
 	provinces = {
 		12921
 		12935

@@ -1,6 +1,6 @@
 state = {
-	id = 285
-	name = "STATE_207"
+	id = 263
+	name = "STATE_263"
 	history = {
 		owner = SOV
 		add_core_of = SOV

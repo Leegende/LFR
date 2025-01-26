@@ -1,6 +1,6 @@
 state = {
-	id = 363
-	name = "STATE_363"
+	id = 341
+	name = "STATE_341"
 	history = {
 		owner = SOV
 		buildings = {

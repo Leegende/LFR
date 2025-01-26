@@ -1,6 +1,6 @@
 state = {
-id = 124
-	name = "STATE_124"
+id = 118
+	name = "STATE_118"
 	history = {
 		owner = FRA
 		add_core_of = FRA

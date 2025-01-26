@@ -1,8 +1,8 @@
 #args2
 #349.txt
 state = {
-id = 308
-	name = "STATE_233"
+id = 286
+	name = "STATE_286"
 	history = {
 		owner = IRE
 		add_core_of = IRE

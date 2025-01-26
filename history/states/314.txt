@@ -1,8 +1,8 @@
 #args2
 #607.txt
 state = {
-id = 336
-	name = "STATE_336"
+id = 314
+	name = "STATE_314"
 	history = {
 		owner = ENG
 		add_core_of = ENG

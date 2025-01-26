@@ -3,8 +3,8 @@
 #1738.txt
 #1754.txt
 state = {
-id = 193
-	name = "STATE_193"
+id = 187
+	name = "STATE_187"
 	provinces = {
 		740
 		5014

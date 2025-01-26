@@ -1,6 +1,6 @@
 state = {
-id = 173
-	name = "STATE_173"
+id = 167
+	name = "STATE_167"
 	
 	provinces = {
 		8033

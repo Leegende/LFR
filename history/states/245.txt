@@ -2,8 +2,8 @@
 #218.txt
 #235.txt
 state = {
-id = 267
-	name = "STATE_187"
+id = 245
+	name = "STATE_245"
 	provinces = {
 		1954
 		5989

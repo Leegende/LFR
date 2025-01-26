@@ -1,8 +1,8 @@
 #args2
 #716.txt
 state = {
-id = 306
-	name = "STATE_231"
+id = 284
+	name = "STATE_284"
 	history = {
 		owner = SOV
 		add_core_of = SOV
