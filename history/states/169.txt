@@ -5,9 +5,7 @@ state = {
 		add_core_of = ENG
 		owner = ENG
 		buildings = {
-			20535 = {
-				naval_base = 3
-			}
+			
 		}
 		victory_points = {
 			20535

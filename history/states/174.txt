@@ -6,7 +6,6 @@ id = 174
 		owner = DEN
 		add_core_of = DEN
 		buildings = {
-			19626 = { naval_base = 1 }
 		}
 	}
 	provinces={

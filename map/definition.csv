@@ -19111,7 +19111,7 @@
 19110;255;220;180;land;false;plains;7
 19111;51;82;9;lake;false;lakes;6
 19112;255;221;180;land;false;plains;7
-19113;8;51;64;lake;false;lakes;1
+19113;8;51;64;land;false;plains;1
 19114;51;28;58;lake;false;lakes;1
 19115;22;0;126;lake;false;lakes;6
 19116;9;27;100;lake;false;lakes;1
@@ -19333,7 +19333,7 @@
 19332;38;48;46;lake;false;lakes;1
 19333;75;69;4;lake;false;lakes;1
 19334;73;21;40;land;false;plains;7
-19335;84;34;15;lake;false;lakes;7
+19335;84;34;15;land;false;plains;7
 19336;21;117;6;land;false;plains;7
 19337;16;99;32;lake;false;lakes;7
 19338;24;13;89;lake;false;lakes;7

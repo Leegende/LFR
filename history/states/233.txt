@@ -54,11 +54,7 @@ id = 233
 		
 		buildings = {
 			
-			14022 = {
-				naval_base = 6
-			}
-			air_base = 4
-			
+		
 			
 		}
 		victory_points = {

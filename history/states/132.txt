@@ -5,7 +5,6 @@ id = 132
 		owner = ITA
 		add_core_of = ITA
 		buildings = {
-			14584 = { naval_base = 1 }
 		}
 		victory_points = { 14584 5 }
 	}

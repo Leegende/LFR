@@ -1,25 +1,10 @@
-#args6
-#2746.txt
-#2747.txt
-#547.txt
-#566.txt
-#606.txt
 state = {
-id = 298
+	id = 298
 	name = "STATE_298"
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		
 		buildings = {
-			
-			
-			anti_air_building = 2
-			13059 = {
-				bunker = 10
-			}
-			anti_air_building = 2
-			
 		}
 		victory_points = {
 			13059
@@ -82,8 +67,7 @@ id = 298
 		19849
 	}
 	manpower = 1939826
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

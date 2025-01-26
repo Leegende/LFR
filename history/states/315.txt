@@ -3,13 +3,10 @@ id = 315
 	name="STATE_315"
 	history = {
 		owner = FRA
-		#add_core_of=SPM
 		victory_points = { 19107 1 }
 		buildings = {
 			
-			19107 = {
-				naval_base = 1
-			}
+			
 		}
 	}
 	provinces={

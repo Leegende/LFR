@@ -154,7 +154,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10636;7073;sea;17860;-1;-1;-1;-1;;Odense-Vejle
 6240;7789;sea;17860;-1;-1;-1;-1;;Odense-Haderslev
 19109;15141;sea;16926;-1;-1;-1;-1;;Sazan-Albania
-20293;7595;sea;17626;-1;-1;-1;-1;;Chios-Izmir
 20295;20296;sea;16439;-1;-1;-1;-1;;Samos 1-Samos 2
 19405;19408;sea;16263;-1;-1;-1;-1;;Faero 1
 19405;19407;sea;17794;-1;-1;-1;-1;;Faero 2

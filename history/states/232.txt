@@ -68,10 +68,6 @@ id = 232
 		
 		buildings = {
 			
-			3523 = {
-				naval_base = 10
-			}
-			
 		}
 		victory_points = {
 			6966

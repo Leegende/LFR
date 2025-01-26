@@ -9,9 +9,7 @@ id = 113
 		owner = FIN
 		add_core_of = FIN
 		buildings = {
-			9727 = {
-				naval_base = 1
-			}
+		
 		}
 		victory_points = {
 			59

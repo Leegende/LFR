@@ -2,8 +2,6 @@ state = {
 	id = 96
 	name = "STATE_96"
 	provinces = {
-		2166
-		3415
 		2297
 		656
 	}

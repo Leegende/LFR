@@ -7,9 +7,7 @@ id = 108
 		add_core_of = ITA
 		buildings = {
 			
-			14571 = {
-				naval_base = 10
-			}
+		
 			
 		}
 		victory_points = {

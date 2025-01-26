@@ -1,13 +1,4 @@
-#args10
-#1969.txt
-#2005.txt
-#2006.txt
-#2016.txt
-#2751.txt
-#2756.txt
-#2840.txt
-#910.txt
-#937.txt
+
 state = {
 id = 146
 	name = "STATE_146"
@@ -15,9 +6,7 @@ id = 146
 		owner = GRE
 		add_core_of = GRE
 		buildings = {
-			9240 = {
-				naval_base = 1
-			}
+			
 		}
 		victory_points = {
 			9240
