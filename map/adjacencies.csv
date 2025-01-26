@@ -18,7 +18,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 17449;17252;;-1;-1;-1;-1;-1;SVIR_RIVER;Svir' River
 16800;18271;;-1;-1;-1;-1;-1;VYGOZERO_ONEGA_CANAL;Belomorkanal
 16831;18271;;-1;-1;-1;-1;-1;VYG_RIVER;Vyg River
-1754;4722;sea;17685;-1;-1;-1;-1;;Strait of Bonifacio crossing
+15363;4722;sea;17685;-1;-1;-1;-1;;Strait of Bonifacio crossing
 14733;19880;sea;17137;-1;-1;-1;-1;;Piombino-Elba
 13624;20008;sea;17829;-1;-1;-1;-1;;Ischia-Naples
 14357;20127;sea;16880;-1;-1;-1;-1;;Istria-Cherso
@@ -156,7 +156,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 19109;15141;sea;16926;-1;-1;-1;-1;;Sazan-Albania
 20293;7595;sea;17626;-1;-1;-1;-1;;Chios-Izmir
 20295;20296;sea;16439;-1;-1;-1;-1;;Samos 1-Samos 2
-20316;20297;sea;17475;-1;-1;-1;-1;;Rhodes-Dodecanese 1
 19405;19408;sea;16263;-1;-1;-1;-1;;Faero 1
 19405;19407;sea;17794;-1;-1;-1;-1;;Faero 2
 19406;19407;sea;17794;-1;-1;-1;-1;;Faero 3

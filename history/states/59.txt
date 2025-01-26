@@ -1,6 +1,3 @@
-#args3
-#1441.txt
-#2313.txt
 state = {
 id = 59
 	name = "STATE_59"

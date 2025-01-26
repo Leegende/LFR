@@ -3,7 +3,7 @@ import subprocess
 import re
 
 # first is goal
-toMergeSet = [11,214]
+toMergeSet = [61,101]
 toMerge = list(set(toMergeSet))
 
 path="./history/states/"

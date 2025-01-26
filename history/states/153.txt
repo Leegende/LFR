@@ -26,6 +26,14 @@ state = {
 		20322
 		20323
 		20325
+		7274
+
+
+		2379
+		15347
+		15410
+		15371
+
 	}
 	manpower = 120247
 	buildings_max_level_factor = 1

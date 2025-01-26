@@ -1,5 +1,5 @@
 state = {
-id = 43
+	id = 43
 	name = "STATE_43"
 	history = {
 		owner = FRA
@@ -320,7 +320,6 @@ id = 43
 	}
 	manpower = 4136188
 	state_category = city
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

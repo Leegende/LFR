@@ -1,12 +1,10 @@
-
 state = {
-id = 36
+	id = 36
 	name = "STATE_36"
 	history = {
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			
 			21046 = {
 				naval_base = 6
 			}
@@ -109,7 +107,6 @@ id = 36
 	}
 	manpower = 2307559
 	state_category = town
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

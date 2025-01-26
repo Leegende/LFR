@@ -1,5 +1,3 @@
-#args2
-#194.txt
 state = {
 id = 76
 	name = "STATE_76"

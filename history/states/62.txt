@@ -1,13 +1,9 @@
-#args3
-#1911.txt
-#1912.txt
 state = {
-id = 62
+	id = 62
 	name = "STATE_62"
 	history = {
 		owner = ENG
 		add_core_of = ENG
-		
 		buildings = {
 		}
 		victory_points = {
@@ -44,6 +40,13 @@ id = 62
 		}
 	}
 	provinces = {
+		1818
+		2076
+		1687
+		15126
+		15238
+		21514
+		15112
 		648
 		21276
 		21277
@@ -106,7 +109,6 @@ id = 62
 	}
 	manpower = 563290
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

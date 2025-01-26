@@ -2,8 +2,6 @@ strategic_region = {
 	id = 17
 	name = "STRATEGICREGION_17"
 	provinces = {
-		6552
-		19770
 		952
 		995
 		4026
@@ -105,7 +103,6 @@ strategic_region = {
 		5892
 		15513
 		19767
-		2830
 		436
 		931
 		4008

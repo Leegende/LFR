@@ -1,6 +1,5 @@
-
 state = {
-id = 54
+	id = 54
 	name = "STATE_54"
 	history = {
 		owner = ENG
@@ -29,6 +28,16 @@ id = 54
 		}
 	}
 	provinces = {
+		4789
+		6134
+		21533
+		21522
+		1287
+		33
+		15424
+		21636
+		15407
+		21536
 		11693
 		15318
 		20437
@@ -52,7 +61,6 @@ id = 54
 	}
 	manpower = 387348
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-
