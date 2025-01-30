@@ -1,0 +1,3 @@
+declare_war_on_allies = {
+	
+}

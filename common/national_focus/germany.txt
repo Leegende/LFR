@@ -27,7 +27,7 @@
 	#TERRITORIAL AMBITIONS
 	focus = {
 		id = GER_rhineland
-		icon = GFX_goal_anschluss
+		icon = GFX_rhineland
 		x = 0
 		y = 0
 		cost = 5
@@ -38,126 +38,276 @@
 			factor = 10
 		}
 		completion_reward = {
-			
+			add_political_power = 150
+			add_war_support = 0.05
+			add_named_threat = {
+				threat = 5
+				name = GER_rhineland
+			}
+			every_owned_state = {
+				limit = {
+					is_demilitarized_zone = yes
+				}
+				set_demilitarized_zone = no
+			}
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.1
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_anschluss
-		icon = GFX_goal_anschluss
+		icon = GFX_anschluss
 		x = -5
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			date > 1937.1.1
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = AUS
+				}
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 75
+			add_war_support = 0.05
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.2
+				}
+				every_state = {
+					limit = {
+						is_core_of = AUS
+					}
+					remove_core_of = AUS
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_demand_sudetenland
-		icon = GFX_goal_anschluss
+		icon = GFX_demand_sudetenland
 		x = -3
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_anschluss
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					has_state_flag = SUDETENLAND
+				}
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 50
+			add_war_support = 0.05
+			add_threat = 5
+			hidden_effect = {
+				128 = {
+					remove_core_of = CZE
+				}
+				126 = {
+					remove_core_of = CZE
+				}
+				234 = {
+					transfer_state_to = POL
+					add_core_of = POL
+					remove_core_of = CZE
+				}
+				news_event = {
+					hours = 0
+					id = news.3
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_demand_memel
-		icon = GFX_goal_anschluss
+		icon = GFX_demand_memel
 		x = -1
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_anschluss
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			273 = {
+				transfer_state_to = GER
+				add_core_of = GER
+			}
+			add_political_power = 25
+			add_war_support = 0.05
+			add_threat = 3
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.4
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_first_vienna_award
-		icon = GFX_goal_anschluss
+		icon = GFX_first_vienna_award
 		x = 1
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_demand_sudetenland
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			HUN = {
+				transfer_state = 130
+				add_political_power = 75
+				add_war_support = 0.05
+			}
+			add_threat = 3
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.5
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_end_of_czechoslovakia
-		icon = GFX_goal_anschluss
+		icon = GFX_end_of_czechoslovakia
 		x = 3
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_first_vienna_award
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = CZE
+					NOT = {
+						has_state_flag = SLOVAKIA
+						has_state_flag = SUDETENLAND
+					}
+				}
+				transfer_state_to = GER
+				hidden_effect = {
+					set_compliance = 100
+					set_resistance = 0
+				}
+			}
+			add_political_power = 50
+			add_war_support = 0.05
+			HUN = {
+				every_state = {
+					limit = {
+						is_core_of = CZE
+						has_state_flag = SLOVAKIA
+					}
+					transfer_state_to = HUN
+					hidden_effect = {
+						set_compliance = 100
+						set_resistance = 0
+					}
+				}
+				add_political_power = 50
+				add_war_support = 0.05
+			}
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.6
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_second_vienna_award
-		icon = GFX_goal_anschluss
+		icon = GFX_second_vienna_award
 		x = 5
 		y = 1
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = GER_rhineland
 		}
 		relative_position_id = GER_rhineland
 		available = {
-			always = yes
+			has_completed_focus = GER_first_vienna_award
 		}
 		ai_will_do = {
 			factor = 10
 		}
 		completion_reward = {
+			HUN = {
+				every_state = {
+					limit = {
+						has_state_flag = SECONDVIENNA
+					}
+					transfer_state_to = HUN
+					hidden_effect = {
+						set_compliance = 100
+						set_resistance = 0
+					}
+				}
+				add_political_power = 150
+				add_war_support = 0.05
+			}
+			add_threat = 5
+			hidden_effect = {
+				news_event = {
+					hours = 0
+					id = news.7
+				}
+			}
 		}
 	}
 	focus = {
-		id = GER_mol_rib_pact
-		icon = GFX_goal_anschluss
+		id = GER_molotov_ribbentrop_pact
+		icon = GFX_molotov_ribbentrop_pact
 		x = 0
 		y = 2.3
 		cost = 1
@@ -191,14 +341,14 @@
 	}
 	focus = {
 		id = GER_fall_weiss
-		icon = GFX_goal_anschluss
+		icon = GFX_fall_weiss
 		x = 0
 		y = 1.5
 		cost = 1
 		prerequisite = {
-			focus = GER_mol_rib_pact
+			focus = GER_molotov_ribbentrop_pact
 		}
-		relative_position_id = GER_mol_rib_pact
+		relative_position_id = GER_molotov_ribbentrop_pact
 		available = {
 			always = yes
 		}
@@ -210,14 +360,14 @@
 	}
 	focus = {
 		id = GER_integrate_hungary
-		icon = GFX_goal_anschluss
+		icon = GFX_integrate_hungary
 		x = -2
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_mol_rib_pact
+			focus = GER_molotov_ribbentrop_pact
 		}
-		relative_position_id = GER_mol_rib_pact
+		relative_position_id = GER_molotov_ribbentrop_pact
 		available = {
 			always = yes
 		}
@@ -225,18 +375,19 @@
 			factor = 10
 		}
 		completion_reward = {
+			puppet = HUN
 		}
 	}
 	focus = {
 		id = GER_integrate_romania
-		icon = GFX_goal_anschluss
+		icon = GFX_integrate_romania
 		x = 2
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_mol_rib_pact
+			focus = GER_molotov_ribbentrop_pact
 		}
-		relative_position_id = GER_mol_rib_pact
+		relative_position_id = GER_molotov_ribbentrop_pact
 		available = {
 			always = yes
 		}
@@ -244,6 +395,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			puppet = ROM
 		}
 	}
 	focus = {
@@ -1739,7 +1891,7 @@
 	}
 	focus = {
 		id = GER_appoint_the_okw
-		icon = GFX_goal_anschluss
+		icon = GFX_appoint_the_okw
 		x = 53
 		y = 0
 		cost = 1
@@ -2501,25 +2653,6 @@
 			focus = GER_lessons_of_the_great_war
 		}
 		relative_position_id = GER_lessons_of_the_great_war
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = GER_guns_for_everyone
-		icon = GFX_goal_anschluss
-		x = -1
-		y = 1
-		cost = 1
-		prerequisite = {
-			focus = GER_stormtroopers
-		}
-		relative_position_id = GER_stormtroopers
 		available = {
 			always = yes
 		}
@@ -3344,7 +3477,6 @@
 		completion_reward = {
 		}
 	}
-
 	focus = {
 		id = GER_big_machines
 		icon = GFX_goal_anschluss
@@ -3355,25 +3487,6 @@
 			focus = GER_appoint_erhard_milch
 		}
 		relative_position_id = GER_appoint_erhard_milch
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = GER_flächenbombardement
-		icon = GFX_goal_anschluss
-		x = 1
-		y = 1
-		cost = 1
-		prerequisite = {
-			focus = GER_big_machines
-		}
-		relative_position_id = GER_big_machines
 		available = {
 			always = yes
 		}
