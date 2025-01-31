@@ -1,7 +1,5 @@
-#args2
-#486.txt
 state = {
-id = 119
+	id = 119
 	name = "STATE_119"
 	history = {
 		owner = CZE
@@ -15,7 +13,6 @@ id = 119
 			2
 		}
 		buildings = {
-		
 		}
 		victory_points = {
 			12816
@@ -57,7 +54,6 @@ id = 119
 			12964
 			5
 		}
-	
 		victory_points = {
 			13154
 			5
@@ -144,8 +140,7 @@ id = 119
 		12738
 	}
 	manpower = 5108000
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = city
 }
-

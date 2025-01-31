@@ -60,8 +60,5 @@ HUN = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
-SPR = {
-	color = rgb { 255 205 66 }
-	color_ui = rgb { 255 205 66 }
-}
+
 

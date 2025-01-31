@@ -140,52 +140,25 @@ ideas = {
 		mobile_warfare_army_spirit = {
 			ledger = army
 			modifier = {
-				experience_gain_motorized_combat_factor = 0.1
-				experience_gain_mechanized_combat_factor = 0.1
-				unit_light_armor_design_cost_factor = -1
-				#light_tank_destroyer_brigade
-				unit_medium_armor_design_cost_factor = -1
-				#medium_tank_destroyer_brigade 
-				unit_modern_armor_design_cost_factor = -1
-				unit_heavy_armor_design_cost_factor = -1
-				#heavy_tank_destroyer_brigade 
-				unit_super_heavy_armor_design_cost_factor = -1
-				unit_motorized_design_cost_factor = -1
-				unit_mechanized_design_cost_factor = -1
+				
 			}
 		}
 		superior_firepower_army_spirit = {
 			ledger = army
 			modifier = {
-				experience_gain_artillery_combat_factor = 0.1
-				unit_infantry_design_cost_factor = -1
-				unit_artillery_brigade_design_cost_factor = -1
-				unit_artillery_design_cost_factor = -1
-				unit_mot_artillery_brigade_design_cost_factor = -1
-				unit_light_sp_artillery_brigade_design_cost_factor = -1
-				unit_medium_sp_artillery_brigade_design_cost_factor = -1
-				unit_heavy_sp_artillery_brigade_design_cost_factor = -1
-				unit_super_heavy_sp_artillery_brigade_design_cost_factor = -1
+			
 			}
 		}
 		grand_battleplan_army_spirit = {
 			ledger = army
 			modifier = {
-				unit_marine_design_cost_factor = -0.5
-				unit_mountaineers_design_cost_factor = -0.5
-				unit_paratrooper_design_cost_factor = -0.5
-				special_forces_cap_flat = 24
-				extra_paratrooper_supply_grace = 24
-				extra_marine_supply_grace = 24
+				
 			}
 		}
 		mass_assault_army_spirit = {
 			ledger = army
 			modifier = {
-				experience_gain_infantry_combat_factor = 0.1
-				unit_infantry_design_cost_factor = -1
-				unit_motorized_design_cost_factor = -1
-				unit_mechanized_design_cost_factor = -1
+				
 			}
 		}
 		heritage_of_accomplishment = {

@@ -1,13 +1,5 @@
-#args8
-#2526.txt
-#596.txt
-#601.txt
-#611.txt
-#619.txt
-#633.txt
-#748.txt
 state = {
-id = 254
+	id = 254
 	name = "STATE_254"
 	provinces = {
 		1300
@@ -59,13 +51,6 @@ id = 254
 		owner = HUN
 		add_core_of = HUN
 		buildings = {
-			
-			
-			
-			
-			
-			
-			
 		}
 		victory_points = {
 			6158
@@ -93,8 +78,7 @@ id = 254
 		}
 	}
 	manpower = 3618510
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

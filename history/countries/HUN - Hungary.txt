@@ -1,4 +1,4 @@
-﻿capital = 276
+﻿capital = 254
 set_cosmetic_tag = HUN_neutrality
 every_owned_state = {
 	set_state_flag = HUN_INITIAL_STATE

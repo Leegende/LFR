@@ -11,8 +11,6 @@ sub_units = {
 			category_fighter
 		}
 		land_air_wing_size = 100
-		carrier_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 	cas = {
 		sprite = light_plane
@@ -26,8 +24,6 @@ sub_units = {
 			category_cas
 		}
 		land_air_wing_size = 100
-		carrier_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 	nav_bomber = {
 		sprite = light_plane
@@ -41,8 +37,6 @@ sub_units = {
 			category_nav_bomber
 		}
 		land_air_wing_size = 100
-		carrier_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 	tac_bomber = {
 		sprite = medium_plane
@@ -56,7 +50,6 @@ sub_units = {
 			category_tac_bomber
 		}
 		land_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 	heavy_fighter = {
 		sprite = medium_plane
@@ -70,7 +63,6 @@ sub_units = {
 			category_heavy_fighter
 		}
 		land_air_wing_size = 100
-		mega_carrier_air_wing_size = 5
 	}
 	strat_bomber = {
 		sprite = heavy_plane
@@ -84,7 +76,6 @@ sub_units = {
 			category_strat_bomber
 		}
 		land_air_wing_size = 100
-		mega_carrier_air_wing_size = 5
 	}
 	jet_fighter = {
 		sprite = jet_plane
@@ -98,7 +89,6 @@ sub_units = {
 			category_fighter
 		}
 		land_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 	jet_tac_bomber = {
 		sprite = medium_plane
@@ -112,6 +102,5 @@ sub_units = {
 			category_tac_bomber
 		}
 		land_air_wing_size = 100
-		mega_carrier_air_wing_size = 10
 	}
 }

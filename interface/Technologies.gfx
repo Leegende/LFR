@@ -39,10 +39,7 @@ spriteTypes = {
 		name = "GFX_archetype_modern_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_modern_tank_equipment.dds"
 	}
-	SpriteType = {
-		name = "GFX_archetype_super_heavy_tank_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_super_heavy_tank_equipment.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_archetype_heavy_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_heavy_tank_equipment.dds"
@@ -69,19 +66,16 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_anti_air_equipment_1_medium"
-		texturefile = "gfx\interface\technologies\axis_aa_2.dds"
+		texturefile = "gfx/interface/technologies/axis_aa_2.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_pack_anti_air_equipment_1_medium"
-		texturefile = "gfx\interface\technologies\axis_aa_1.dds"
+		texturefile = "gfx/interface/technologies/axis_aa_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_heavy_anti_air_equipment_1_medium"
-		texturefile = "gfx\interface\technologies\axis_aa_3.dds"
+		texturefile = "gfx/interface/technologies/axis_aa_3.dds"
 	}
-
-
 	SpriteType = {
 		name = "GFX_archetype_infantry_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_infantry_equipment.dds"
@@ -152,27 +146,27 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_subtech_td"
-		textureFile = "gfx//interface//technologies//subtech_td.dds"
+		textureFile = "gfx/interface/technologies/subtech_td.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_rocket"
-		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
+		textureFile = "gfx/interface/technologies/subtech_rocket.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_heavy_battleship"
-		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
+		textureFile = "gfx/interface/subtech_heavy_battleship.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_art"
-		textureFile = "gfx//interface//technologies//subtech_art.dds"
+		textureFile = "gfx/interface/technologies/subtech_art.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_aa"
-		textureFile = "gfx//interface//technologies//subtech_aa.dds"
+		textureFile = "gfx/interface/technologies/subtech_aa.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_cag"
-		textureFile = "gfx//interface//subtech_carrier_plane.dds"
+		textureFile = "gfx/interface/subtech_carrier_plane.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_train_medium"
@@ -238,8 +232,6 @@ spriteTypes = {
 		name = "GFX_medium_anti_tank2_medium"
 		texturefile = "gfx/interface/technologies/axis_at_4.dds"
 	}
-
-
 	SpriteType = {
 		name = "GFX_light_artillery_medium"
 		texturefile = "gfx/interface/technologies/pack_arty_1.dds"
@@ -597,10 +589,7 @@ spriteTypes = {
 		name = "GFX_advanced_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_heavy_tank_chassis_3.dds"
 	}
-	SpriteType = {
-		name = "GFX_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/generic_super_heavy_tank_chassis.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_modern_tank_chassis.dds"

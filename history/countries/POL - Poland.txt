@@ -1,11 +1,8 @@
-﻿capital = 237
-
-
+﻿capital = 215
 set_research_slots = 1
 set_convoys = 200
-set_stability = 1 
+set_stability = 1
 set_war_support = 1
-
 add_ideas = {
 }
 

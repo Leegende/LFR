@@ -1,6 +1,3 @@
-#args3
-#1683.txt
-#2533.txt
 state = {
 	id = 179
 	name = "STATE_179"
@@ -8,7 +5,6 @@ state = {
 		owner = GER
 		add_core_of = GER
 		buildings = {
-			arms_factory = 5
 		}
 		victory_points = {
 			12078

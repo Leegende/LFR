@@ -13,7 +13,3 @@ search_filters = {
 	values = {large_plane_airframe large_plane_maritime_patrol_plane_airframe jet_strat_bomber_equipment}
 }
 
-search_filters = {	
-	name = transport_planes
-	values = {transport_plane_equipment}
-}

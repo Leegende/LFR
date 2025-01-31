@@ -1,4 +1,5 @@
 ﻿l_english:
+ available_political_advisor: "§GAvailable§! as §YPolitical Advisor§!:\n"
  GER_rhineland: "Rhineland"
  GER_rhineland_desc: ""
  GER_anschluss: "Anschluss"
@@ -15,6 +16,16 @@
  GER_second_vienna_award_desc: ""
  GER_molotov_ribbentrop_pact: "Molotov-Ribbentrop Pact"
  GER_molotov_ribbentrop_pact_desc: ""
+ GER_integrate_hungary: "Integrate Hungary"
+ GER_integrate_hungary_desc: ""
+ GER_integrate_romania: "Integrate Romania"
+ GER_integrate_romania_desc: ""
+ GER_fall_weiss: "Fall Weiß"
+ GER_fall_weiss_desc: ""
+ GER_four_year_plan: "Four Year Plan"
+ GER_four_year_plan_desc: ""
+ 
+ 
 
 
 

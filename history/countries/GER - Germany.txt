@@ -1,4 +1,4 @@
-﻿capital = 179
+﻿capital = 367
 set_fuel_ratio = 0.8
 set_research_slots = 4
 set_convoys = 500
@@ -8,7 +8,6 @@ create_faction = "Axis"
 add_to_faction = ITA
 add_to_faction = HUN
 add_to_faction = ROM
-add_to_faction = BUL
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
@@ -54,3 +53,6 @@ create_country_leader = {
 	picture = "gfx/leaders/GER/portrait_GER_adolf_hitler.dds"
 	ideology = nazism
 }
+
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_konstantin_von_neurath

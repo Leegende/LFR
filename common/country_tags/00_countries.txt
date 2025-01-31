@@ -1,6 +1,4 @@
 AUS = "countries/Austria.txt"
-BEL = "countries/Belgium.txt"
-BUL = "countries/Bulgaria.txt"
 CZE = "countries/Czechoslovakia.txt"
 DEN = "countries/Denmark.txt"
 DMZ = "countries/DMZ.txt"

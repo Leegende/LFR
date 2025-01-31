@@ -4,6 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 	}
 	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.dds"
+	}
+	SpriteType = {
 		name = "GFX_rhineland"
 		texturefile = "gfx/interface/LFR/GER/GER_rhineland.dds"
 	}
@@ -40,12 +44,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/LFR/GER/GER_fall_weiss.dds"
 	}
 	SpriteType = {
+		name = "GFX_four_year_olan"
+		texturefile = "gfx/interface/LFR/GER/GER_four_year_plan.dds"
+	}
+
+
+
+	SpriteType = {
 		name = "GFX_integrate_romania"
 		texturefile = "gfx/interface/LFR/GER/GER_integrate_romania.dds"
 	}
 	SpriteType = {
 		name = "GFX_integrate_hungary"
 		texturefile = "gfx/interface/LFR/GER/GER_integrate_hungary.dds"
+	}
+	SpriteType = {
+		name = "GFX_weserübung"
+		texturefile = "gfx/interface/LFR/GER/GER_weserübung.tga"
+	}
+	SpriteType = {
+		name = "GFX_swedish_trade"
+		texturefile = "gfx/interface/LFR/GER/GER_swedish_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_fall_gelb"
+		texturefile = "gfx/interface/LFR/GER/GER_fall_gelb.tga"
+	}
+	SpriteType = {
+		name = "GFX_italian_savoy"
+		texturefile = "gfx/interface/LFR/GER/GER_italian_savoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_prepare_the_final_blow"
+		texturefile = "gfx/interface/LFR/GER/GER_prepare_final_blow.dds"
+	}
+	SpriteType = {
+		name = "GFX_unternehmen_barbarossa"
+		texturefile = "gfx/interface/LFR/GER/GER_unternehmen_barbarossa.tga"
+	}
+	SpriteType = {
+		name = "GFX_expand_the_ss"
+		texturefile = "gfx/interface/LFR/GER/GER_expand_the_ss.dds"
+	}
+	SpriteType = {
+		name = "GFX_osttruppen"
+		texturefile = "gfx/interface/LFR/GER/GER_osttruppen.dds"
+	}
+	SpriteType = {
+		name = "GFX_ostwall"
+		texturefile = "gfx/interface/LFR/GER/GER_ostwall.dds"
 	}
 	SpriteType = {
 		name = "GFX_appoint_the_okw"

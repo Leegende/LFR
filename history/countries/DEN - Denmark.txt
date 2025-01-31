@@ -1,11 +1,8 @@
-﻿capital = 375
-
-
+﻿capital = 353
 set_research_slots = 1
 set_convoys = 200
-set_stability = 1 
+set_stability = 1
 set_war_support = 1
-
 add_ideas = {
 }
 
@@ -19,8 +16,3 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
-
-
-
-
-

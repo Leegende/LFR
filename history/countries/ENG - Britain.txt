@@ -1,4 +1,4 @@
-﻿capital = 346
+﻿capital = 324
 starting_train_buffer = 100
 set_research_slots = 4
 set_stability = 0.6

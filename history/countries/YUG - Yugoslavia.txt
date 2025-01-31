@@ -1,7 +1,5 @@
-﻿capital = 142
+﻿capital = 136
 set_research_slots = 3
-
-
 set_convoys = 200
 set_politics = {
 	ruling_party = neutrality

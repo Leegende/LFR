@@ -44,16 +44,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/cat_cupola.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_mech_module_improved_ergonomics"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/improved_ergonomics.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_mech_ambulance_bay"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/battlefield_medicine3.dds"
-		legacy_lazy_load = no
-	}
+
+
 	spriteType = {
 		name = "GFX_EMI_amtrac_engineer"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/mech_engineer.dds"
@@ -111,7 +103,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_light_rocket_launcher_mech"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"		#textureFile ="gfx/interface/technologies/rocket_artillery2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_rocket_artillery_1.dds"		
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -124,11 +116,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_auto_cannon_2.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_tank_auto_cannon_3_mech"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_auto_cannon_3.dds"
-		legacy_lazy_load = no
-	}
+	
 	spriteType = {
 		name = "GFX_EMI_tank_small_cannon_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
@@ -184,16 +172,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_troop_carrier.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_mech_cheap_materials"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/low_quality_armor.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_mech_design_simplification"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simple_design.dds"
-		legacy_lazy_load = no
-	}
+	
 	spriteType = {
 		name = "GFX_EMI_mech_easy_maintenance"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_easy_maintenance_access.dds"
@@ -209,16 +188,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_additional_machine_guns.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_mech_module_camouflage_net"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_camouflage_net.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_mech_ostketten"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_ostketten.dds"
-		legacy_lazy_load = no
-	}
+	
 	spriteType = {
 		name = "GFX_EMI_mech_smoke_launchers"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_smoke_launcher.dds"
@@ -319,26 +289,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wheeled_suspension.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_TM_mech_chassis_main_armament_slot"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_mech_chassis_turret_type_slot"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_mech_chassis_suspension_type_slot"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_suspension.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_TM_mech_house_type_slot"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_mech_house.dds"
-		legacy_lazy_load = no
-	}
+	
 	
 	spriteType = {
 		name = "GFX_EMI_tank_anti_air_cannon"
@@ -610,21 +561,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon_2.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_cannon"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_cannon.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_four_man_tank_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_four_man_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_three_man_tank_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_super_heavy_three_man_turret.dds"
-		legacy_lazy_load = no
-	}
+
 	spriteType = {
 		name = "GFX_EMI_tank_torsion_bar_suspension"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_torsion_bar.dds"
@@ -961,11 +898,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_turret_type.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_turret_type"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_super_heavy_turret_type.dds"
-		legacy_lazy_load = no
-	}
+
 	spriteType = {
 		name = "GFX_EMI_tank_secondary_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_secondary_turret_small_cannon.dds"
@@ -991,11 +924,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_main_armament.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_tank_super_heavy_main_armament"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_super_heavy_main_armament.dds"
-		legacy_lazy_load = no
-	}
+	
 	spriteType = {
 		name = "GFX_EMI_tank_flamethrower"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_flamethrower.dds"
@@ -1021,214 +950,5 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wheeled_suspension.dds"
 		legacy_lazy_load = no
 	}
-	spriteType = {
-		name = "GFX_EMI_lc_radio_module"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_radio_module.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_external_features"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_add_on_armor.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_aerial_deployment"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/airplane_launcher_icn.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_structural_features"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wet_ammo_storage.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_heavy_naval_guns"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_heavy_naval_guns.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_super_heavy_railway_gun"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_super_heavy_railway_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_high_impact_obliterator_cannon"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_high_impact_obliterator_cannon.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_heavy_anti_air_platform"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_heavy_anti_air_platform.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_medium_naval_guns"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_medium_naval_guns.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_hull_mounted_railway_gun"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_hull_mounted_railway_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_super_heavy_howitzer"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_super_heavy_howitzer.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_heavy_high_velocity_cannons"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_heavy_high_velocity_cannons.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_heavy_anti_air_battery"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_heavy_anti_air_battery.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_medium_cannon_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_medium_cannon_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_assault_gun"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_assault_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_high_velocity_cannon_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_high_velocity_cannon_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_light_anti_air_battery"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_light_anti_air_battery.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_flamethrower_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_flamethrower_turret.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_rocket_launcher"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_rocket_launcher.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_radio_1"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_1.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_radio_2"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_2.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_radio_3"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_3.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_command_center"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_command_center.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_radar"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_radar.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_aircraft_catapult"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_aircraft_catapult.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_helipad"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_helipad.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_armored_skirts"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_add_on_armor.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_bunker_emplacement"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_bunker_emplacement.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_obstacle_clearance_gear"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_obstacle_clearance_gear.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_internal_fuel_tanks"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_fuel_drum.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_internal_ammunition_compartments"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_extra_ammo_storage.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_wet_ammunition_storage"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_wet_ammo_storage.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_smoke_generators"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_smoke_launcher.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_stabilizers"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_stabilizer.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_stabilizer"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_stabilizer.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_wet_ammo_storage"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_wet_ammo_storage.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_extra_ammo_storage"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_extra_ammo_storage.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_radio_3"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_3.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_smoke_launcher"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_smoke_launcher.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_add_on_armor"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_add_on_armor.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_radio_1"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_1.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_lc_tank_module_radio_2"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/lc_tank_module_radio_2.dds"
-		legacy_lazy_load = no
-	}
+	
 }
