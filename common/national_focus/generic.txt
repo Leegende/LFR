@@ -1,5 +1,4 @@
-﻿
-focus_tree = {
+﻿focus_tree = {
 	id = generic_focus
 	country = {
 		factor = 1
@@ -8,7 +7,7 @@ focus_tree = {
 	reset_on_civilwar = no
 	focus = {
 		id = army_effort
-		icon = GFX_goal_continuous_research
+		icon = GFX_goal_unknown
 		x = 0
 		y = 0
 		cost = 1000
