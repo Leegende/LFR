@@ -12,7 +12,7 @@ characters = {
 				has_completed_focus = GER_four_year_plan
 			}
 			traits = {
-				GER_mefo_bills_architect
+				GER_mefo_bills_architect_trait
 			}
 		}
 		portraits = {
@@ -42,7 +42,7 @@ characters = {
 			}
 			cost = 50
 			traits = {
-				GER_mefo_bills_architect
+				GER_mefo_bills_architect_trait
 			}
 		}
 	}

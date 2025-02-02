@@ -4,7 +4,7 @@ set_research_slots = 4
 set_convoys = 500
 set_stability = 0.75
 set_war_support = 0.3
-create_faction = "Axis"
+create_faction = AXIS_NAME
 add_to_faction = ITA
 add_to_faction = HUN
 add_to_faction = ROM
@@ -13,6 +13,124 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+add_dynamic_modifier = {
+	modifier = GER_mefo_bills
+}
+
+add_dynamic_modifier = {
+	modifier = GER_german_economy_dnyamic_modifier
+}
+
+add_to_variable = {
+	GER_mefo_bills_political_power_cost = 0.35
+	tooltip = political_power_cost_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_consumer_goods_factor = -0.2
+	tooltip = consumer_goods_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_infrastracture_factor = 0.1
+	tooltip = production_speed_infrastracture_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_arms_factory_factor = 0.1
+	tooltip = production_speed_arms_factory_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_naval_base_factor = 0.1
+	tooltip = production_speed_naval_base_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_coastal_bunker_factor = 0.1
+	tooltip = production_speed_coastal_bunker_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_bunker_factor = 0.1
+	tooltip = production_speed_bunker_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_air_base_factor = 0.1
+	tooltip = production_speed_air_base_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_anti_air_building_factor = 0.1
+	tooltip = production_speed_anti_air_building_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_radar_station_factor = 0.1
+	tooltip = production_speed_radar_station_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_synthetic_refinery_factor = 0.2
+	tooltip = production_speed_synthetic_refinery_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_speed_infrastructure_factor = 0
+	tooltip = production_speed_infrastructure_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_speed_arms_factory_factor = 0
+	tooltip = production_speed_arms_factory_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_speed_industrial_complex_factor = 0
+	tooltip = production_industrial_complex_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_consumer_goods_factor = 0
+	tooltip = consumer_goods_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_factory_max_efficiency_factor = 0
+	tooltip = production_factory_max_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_factory_start_efficiency_factor = 0
+	tooltip = production_factory_start_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_factory_efficiency_gain_factor = 0
+	tooltip = production_factory_efficiency_gain_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_line_change_production_efficiency_factor = 0
+	tooltip = line_change_production_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_industrial_capacity_factory = 0
+	tooltip = industrial_capacity_factory_tt
+}
+
+add_to_variable = {
+	GER_german_economy_conversion_cost_civ_to_mil_factor = 0
+	tooltip = conversion_cost_civ_to_mil_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_conversion_cost_mil_to_civ_factor = 0
+	tooltip = conversion_cost_mil_to_civ_factor_tt
 }
 
 set_technology = {

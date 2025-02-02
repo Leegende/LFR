@@ -741,6 +741,7 @@
  MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR_DESC:0 "How efficiently can Military Factories be converted to Civilian Factories"
  MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR:0 "Civilian to Military Factory conversion cost"
  conversion_cost_civ_to_mil_factor_tt: " $MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR$: $RIGHT|-=%1$"
+ conversion_cost_mil_to_civ_factor_tt: " $MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR$: $RIGHT|-=%1$"
  MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR_DESC:0 "How efficiently can Civilian Factories be converted to Military Factories"
  MODIFIER_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR:0 "Lack of Resources Penalty"
  MODIFIER_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR_DESC:0 "Reduces the penalties to production line output from a lack of resources."

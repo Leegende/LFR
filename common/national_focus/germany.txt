@@ -661,14 +661,6 @@
 					instant_build = yes
 				}
 			}
-			367 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
 		}
 	}
 	###################################################################################
@@ -693,7 +685,31 @@
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = GER_short_term_rearmament
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_german_economy_production_factory_max_efficiency_factor = -0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_factory_start_efficiency_factor = 0.05
+				tooltip = production_factory_start_efficiency_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_factory_efficiency_gain_factor = 0.2
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_line_change_production_efficiency_factor = 0.1
+				tooltip = line_change_production_efficiency_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_industrial_capacity_factory = 0.1
+				tooltip = industrial_capacity_factory_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_speed_arms_factory_factor = 0.1
+				tooltip = production_speed_arms_factory_factor_tt
+			}
 			add_tech_bonus = {
 				name = GER_short_term
 				bonus = 1.5
@@ -831,12 +847,7 @@
 		}
 		completion_reward = {
 			186 = {
-				add_extra_state_shared_building_slots = 6
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -844,12 +855,15 @@
 				}
 			}
 			175 = {
-				add_extra_state_shared_building_slots = 6
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
-					type = industrial_complex
+					type = arms_factory
 					level = 3
 					instant_build = yes
 				}
+			}
+			161 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -876,14 +890,6 @@
 		}
 		completion_reward = {
 			177 = {
-				add_extra_state_shared_building_slots = 3 
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-			176 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
@@ -891,7 +897,7 @@
 					instant_build = yes
 				}
 			}
-			161 = {
+			176 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
@@ -969,6 +975,13 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_short_term
+				bonus = 1.5
+				uses = 2
+				technology = rubber_processing
+				technology = improved_rubber_processing
+			}
 		}
 	}
 	focus = {
@@ -988,6 +1001,8 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ig_farben_idea
 		}
 	}
 	focus = {
@@ -1007,6 +1022,11 @@
 			factor = 10
 		}
 		completion_reward = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 3
+			}
 		}
 	}
 	focus = {
@@ -1026,6 +1046,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			
 		}
 	}
 	focus = {
@@ -1266,7 +1287,54 @@
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = GER_long_term_rearmament
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_german_economy_production_factory_max_efficiency_factor = 0.1
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_factory_efficiency_gain_factor = -0.25
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_factory_start_efficiency_factor = -0.1
+				tooltip = production_factory_start_efficiency_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_conversion_cost_civ_to_mil_factor = 0.2
+				tooltip = conversion_cost_civ_to_mil_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_conversion_cost_mil_to_civ_factor = -0.1
+				tooltip = conversion_cost_mil_to_civ_factor_tt
+			}
+			add_tech_bonus = {
+				name = GER_short_term
+				bonus = 1
+				uses = 2
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = concentrated_industry4
+				technology = concentrated_industry5
+				technology = dispersed_industry4
+				technology = dispersed_industry5
+			}
+			170 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			172 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1286,6 +1354,41 @@
 			factor = 10
 		}
 		completion_reward = {
+			367 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+			173 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+			179 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+			175 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				add_dynamic_modifier = {
+					modifier = GER_reichsautobahn_construct_dynamic_modifier
+					scope = GER
+					days = 365
+				}
+			}
 		}
 	}
 	focus = {
@@ -1305,6 +1408,22 @@
 			factor = 10
 		}
 		completion_reward = {
+			176 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			177 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1324,10 +1443,27 @@
 			factor = 10
 		}
 		completion_reward = {
+			181 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			182 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
+	
 	focus = {
-		id = GER_mefo_investments
+		id = GER_schlattmann_programm
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
@@ -1343,18 +1479,31 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_stability = 0.1
+			if = {
+				limit = {
+					OR = {
+						has_idea = free_trade
+					}
+				}
+				add_political_power = 150
+			}
+			else = {
+				add_ideas = free_trade
+			}
+			
 		}
 	}
 	focus = {
-		id = GER_schlattmann_programm
+		id = GER_economic_investments
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_mefo_investments
+			focus = GER_schlattmann_programm
 		}
-		relative_position_id = GER_mefo_investments
+		relative_position_id = GER_schlattmann_programm
 		available = {
 			always = yes
 		}
@@ -1362,6 +1511,28 @@
 			factor = 10
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_german_economy_consumer_goods_factor = -0.1
+				tooltip = consumer_goods_factor_tt
+			}
+			add_to_variable = {
+				GER_german_economy_production_speed_industrial_complex_factor = 0.1
+				tooltip = production_speed_industrial_complex_factor_tt
+			}
+			add_resource = {
+				type = steel
+				amount = 100
+				state = 176
+			}
+			add_resource = {
+				type = steel
+				amount = 100
+				state = 175
+			}
+
+
+
 		}
 	}
 	focus = {
@@ -1374,7 +1545,7 @@
 			focus = GER_hermann_goring_werke
 		}
 		prerequisite = {
-			focus = GER_schlattmann_Programm
+			focus = GER_economic_investments
 		}
 		relative_position_id = GER_reichsautobahn
 		available = {
@@ -1384,6 +1555,27 @@
 			factor = 10
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_german_economy_industrial_capacity_factory = 0.05
+				tooltip = industrial_capacity_factory_tt
+			}
+			165 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			164 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1404,7 +1596,6 @@
 		}
 		completion_reward = {
 			add_research_slot = 1
-			
 		}
 	}
 	focus = {

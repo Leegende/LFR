@@ -1,5 +1,7 @@
 ﻿l_english:
  available_political_advisor: "§GAvailable§! as §YPolitical Advisor§!:\n"
+ available_political_advisor: "§GAvailable§! as §YIndustrial Concern§!:\n"
+ AXIS_NAME: "Axis"
  GER_rhineland: "Rhineland"
  GER_rhineland_desc: ""
  GER_anschluss: "Anschluss"
@@ -24,6 +26,8 @@
  GER_fall_weiss_desc: ""
  GER_four_year_plan: "Four Year Plan"
  GER_four_year_plan_desc: ""
+ GER_reichsautobahn_tt: "Adds maximum §YInfrastructure§! in §YBrandenburg§!, §YSachsen-Anhalt§!, §YThüringen§! and §YSachsen§!"
+ GER_german_economy_spirit_change: "Modify §YGerman Economy§! by"
  
  
 
