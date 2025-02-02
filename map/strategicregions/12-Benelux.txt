@@ -2,6 +2,9 @@ strategic_region = {
 	id = 12
 	name = "STRATEGICREGION_12"
 	provinces = {
+		19904
+		7144
+		16442
 		2715
 		4482
 		12699

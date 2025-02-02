@@ -52,11 +52,10 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_weapon
 		}
-		ai_will_do = {
-			factor = 1
-		}
+		
 	}
 	infantry_weapons1 = {
 		enable_equipments = {
@@ -81,9 +80,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
-		}
-		ai_will_do = {
+			infantry
+			infantry_weapon
 		}
 	}
 	infantry_weapons2 = {
@@ -109,9 +107,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
-		}
-		ai_will_do = {
+			infantry
+			infantry_weapon
 		}
 	}
 	infantry_weapons3 = {
@@ -134,7 +131,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_weapon
 		}
 	}
 	soft_attack_infantry_weapons = {
@@ -152,7 +150,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_soft_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -172,7 +171,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_hard_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -193,10 +193,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
-		}
-		ai_will_do = {
-			factor = 1
+			infantry
+			infantry_soft_upgrade
 		}
 	}
 	hard_attack_infantry_weapons1 = {
@@ -213,7 +211,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_hard_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -233,7 +232,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_soft_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -253,7 +253,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_hard_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -273,7 +274,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_soft_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -293,7 +295,8 @@ technologies = {
 			}
 		}
 		categories = {
-			infantry_weapons
+			infantry
+			infantry_hard_upgrade
 		}
 		ai_will_do = {
 			factor = 1
@@ -325,9 +328,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
+			truck
 		}
 		ai_will_do = {
 			factor = 1
@@ -387,10 +388,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
+			truck
 		}
 		ai_will_do = {
 		}
@@ -413,13 +411,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		ai_will_do = {
-			factor = 1
+			truck
 		}
 	}
 	mechanised_infantry3 = {
@@ -436,10 +428,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
+			truck
 		}
 		ai_will_do = {
 			factor = 1
@@ -452,8 +441,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1939
 		categories = {
-			mot_rockets
-			mio_cat_tech_all_motorized_mechanized
+			truck
 		}
 	}
 	armored_car1 = {
@@ -474,9 +462,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
+			armored_car
 		}
 		ai_will_do = {
 			factor = 1
@@ -500,9 +486,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
+			armored_car
 		}
 		ai_will_do = {
 			factor = 1
@@ -522,9 +506,7 @@ technologies = {
 			}
 		}
 		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
+			armored_car
 		}
 		sub_technologies = {
 			armored_car_at_upgrade
@@ -541,12 +523,7 @@ technologies = {
 		start_year = 1940
 		sub_tech_index = 1
 		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
-		ai_will_do = {
-			factor = 1
+			armored_car
 		}
 	}
 	tech_special_forces = {
@@ -566,10 +543,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -592,10 +566,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -619,10 +590,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -643,10 +611,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -667,10 +632,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -687,10 +649,7 @@ technologies = {
 			}
 		}
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-			cat_special_forces_generic
+			special_forces
 		}
 		ai_will_do = {
 			factor = 0.7
@@ -713,7 +672,7 @@ technologies = {
 			leads_to_tech = railway_gun
 		}
 		categories = {
-			train_tech
+			railway_gun
 		}
 	}
 	railway_gun = {
@@ -733,8 +692,7 @@ technologies = {
 			}
 		}
 		categories = {
-			train_tech
-			artillery
+			railway_gun
 		}
 		ai_will_do = {
 		}
@@ -753,8 +711,7 @@ technologies = {
 			}
 		}
 		categories = {
-			train_tech
-			artillery
+			railway_gun
 		}
 		ai_will_do = {
 		}

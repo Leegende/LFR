@@ -25,11 +25,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-			mio_cat_all_light_aircraft_and_modules
+			air
+			air_light
+			fighter
 		}
 	}
 	fighter1 = {
@@ -50,34 +48,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
+			air
+			air_light
+			fighter
 		}
 	}
 	fighter2 = {
@@ -104,39 +77,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 4
-				is_major = yes
-			}
-			modifier = {
-				factor = 0
-				original_tag = GER
-				date < "1941.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1941.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1944.1.1"
-			}
+			air
+			air_light
+			fighter
 		}
 	}
 	fighter3 = {
@@ -157,34 +100,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			light_fighter
-			air_equipment
-			mio_cat_all_light_fighter_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 4
-				is_major = yes
-			}
-			modifier = {
-				factor = 1.2
-				date > "1945.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-			modifier = {
-				factor = 1.2
-				date > "1947.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1948.1.1"
-			}
+			air
+			air_light
+			fighter
 		}
 	}
 	jet_fighter1 = {
@@ -201,10 +119,10 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			jet_technology
-			mio_cat_all_light_fighter_and_modules
-			mio_cat_all_light_aircraft_and_modules
+			air
+			air_light
+			fighter
+			air_jet
 		}
 	}
 	CAS1 = {
@@ -225,27 +143,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			cas_bomber
-			air_equipment
-			mio_cat_all_cas_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			modifier = {
-				factor = 100
-				tag = SOV
-			}
-			modifier = {
-				has_war_with = GER
-				tag = SOV
-				factor = 2
-			}
+			air
+			air_light
+			cas
 		}
 	}
 	CAS2 = {
@@ -266,36 +166,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			cas_bomber
-			air_equipment
-			mio_cat_all_cas_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 400
-					type = cas
-				}
-				factor = 3
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 3
-				tag = SOV
-			}
+			air
+			air_light
+			cas
 		}
 	}
 	CAS3 = {
@@ -316,36 +189,9 @@ technologies = {
 			}
 		}
 		categories = {
-			light_air
-			cas_bomber
-			air_equipment
-			mio_cat_all_cas_and_modules
-			mio_cat_all_light_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = cas
-				}
-				factor = 3
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
+			air
+			air_light
+			cas
 		}
 	}
 	naval_bomber1 = {
@@ -366,11 +212,9 @@ technologies = {
 			}
 		}
 		categories = {
-			naval_air
-			naval_bomber
-			air_equipment
-			mio_cat_all_naval_bomber_and_modules
-			mio_cat_all_light_aircraft_and_modules
+			air
+			air_light
+			spy_planes
 		}
 	}
 	naval_bomber2 = {
@@ -391,11 +235,9 @@ technologies = {
 			}
 		}
 		categories = {
-			naval_air
-			air_equipment
-			naval_bomber
-			mio_cat_all_naval_bomber_and_modules
-			mio_cat_all_light_aircraft_and_modules
+			air
+			air_light
+			spy_planes
 		}
 	}
 	naval_bomber3 = {
@@ -416,11 +258,9 @@ technologies = {
 			}
 		}
 		categories = {
-			naval_air
-			naval_bomber
-			air_equipment
-			mio_cat_all_naval_bomber_and_modules
-			mio_cat_all_light_aircraft_and_modules
+			air
+			air_light
+			spy_planes
 		}
 	}
 	early_bomber = {
@@ -449,13 +289,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
+			air
+			air_heavy
 			tactical_bomber
-			air_equipment
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	heavy_fighter1 = {
@@ -476,13 +312,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
+			air
+			air_heavy
+			heavy_fighter
 		}
 	}
 	heavy_fighter2 = {
@@ -503,13 +335,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
+			air
+			air_heavy
+			heavy_fighter
 		}
 	}
 	heavy_fighter3 = {
@@ -529,13 +357,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
+			air
+			air_heavy
+			heavy_fighter
 		}
 	}
 	tactical_bomber1 = {
@@ -556,35 +380,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
+			air
+			air_heavy
 			tactical_bomber
-			air_equipment
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1936.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1938.1.1"
-			}
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1940.1.1"
-			}
 		}
 	}
 	tactical_bomber2 = {
@@ -605,35 +403,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
+			air
+			air_heavy
 			tactical_bomber
-			air_equipment
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1940.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1941.1.1"
-			}
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1944.1.1"
-			}
 		}
 	}
 	tactical_bomber3 = {
@@ -654,30 +426,9 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
+			air
+			air_heavy
 			tactical_bomber
-			air_equipment
-			mio_cat_all_medium_aircraft_and_modules
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1944.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1945.1.1"
-			}
 		}
 	}
 	jet_tactical_bomber1 = {
@@ -694,10 +445,10 @@ technologies = {
 			}
 		}
 		categories = {
-			medium_air
-			jet_technology
+			air
+			air_heavy
 			tactical_bomber
-			mio_cat_all_medium_aircraft_and_modules
+			air_jet
 		}
 	}
 	strategic_bomber1 = {
@@ -718,10 +469,10 @@ technologies = {
 			}
 		}
 		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-			mio_cat_all_heavy_aircraft_and_modules
+			air
+			air_heavy
+			strategic_bombers
+			air_jet
 		}
 	}
 	strategic_bomber2 = {
@@ -742,10 +493,10 @@ technologies = {
 			}
 		}
 		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-			mio_cat_all_heavy_aircraft_and_modules
+			air
+			air_heavy
+			strategic_bombers
+			air_jet
 		}
 	}
 	strategic_bomber3 = {
@@ -766,10 +517,10 @@ technologies = {
 			}
 		}
 		categories = {
-			heavy_air
-			air_equipment
-			cat_strategic_bomber
-			mio_cat_all_heavy_aircraft_and_modules
+			air
+			air_heavy
+			strategic_bombers
+			air_jet
 		}
 	}
 }

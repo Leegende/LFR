@@ -91,6 +91,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_light
 		}
 	}
 	improved_light_tank = {
@@ -120,6 +121,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_light
 		}
 	}
 	advanced_light_tank = {
@@ -150,6 +152,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_light
 		}
 	}
 	basic_medium_tank = {
@@ -178,9 +181,7 @@ technologies = {
 		}
 		categories = {
 			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_medium_armor
-			mio_cat_tech_medium_armor_and_modules
+			armor_medium
 		}
 	}
 	improved_medium_tank = {
@@ -210,6 +211,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_medium
 		}
 	}
 	advanced_medium_tank = {
@@ -241,6 +243,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_medium
 		}
 	}
 	main_battle_tank = {
@@ -264,6 +267,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_medium
 		}
 	}
 	basic_heavy_tank = {
@@ -292,6 +296,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_heavy
 		}
 	}
 	improved_heavy_tank = {
@@ -321,9 +326,7 @@ technologies = {
 		}
 		categories = {
 			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
+			armor_heavy
 		}
 	}
 	advanced_heavy_tank = {
@@ -355,9 +358,7 @@ technologies = {
 		}
 		categories = {
 			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_heavy_armor
-			mio_cat_tech_heavy_armor_and_modules
+			armor_heavy
 		}
 	}
 	soft_attack_upgrade = {
@@ -375,6 +376,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_soft_upgrade
 		}
 	}
 	soft_attack_upgrade1 = {
@@ -392,6 +394,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_soft_upgrade
 		}
 	}
 	soft_attack_upgrade2 = {
@@ -406,6 +409,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_soft_upgrade
 		}
 	}
 	hard_attack_upgrade = {
@@ -423,6 +427,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_hard_upgrade
 		}
 	}
 	hard_attack_upgrade1 = {
@@ -440,6 +445,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_hard_upgrade
 		}
 	}
 	hard_attack_upgrade2 = {
@@ -454,6 +460,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			armor_hard_upgrade
 		}
 	}
 }

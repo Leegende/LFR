@@ -23,7 +23,6 @@ ideas = {
 				production_speed_arms_factory_factor = -0.15
 			}
 			cancel_if_invalid = no
-
 		}
 		partial_economic_mobilisation = {
 			available = {
@@ -57,12 +56,36 @@ ideas = {
 				has_war_support > 0.8
 				threat > 0.5
 			}
+			visible = {
+				NOT = {
+					original_tag = GER
+				}
+			}
 			cost = 150
 			removal_cost = -1
 			modifier = {
 				conscription = -0.02
 				consumer_goods_expected_value = 0.1
 				production_speed_arms_factory_factor = 0.3
+			}
+			cancel_if_invalid = no
+		}
+		totaler_krieg_economy = {
+			visible = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_totaler_krieg
+			}
+			cost = 150
+			removal_cost = -1
+			modifier = {
+				consumer_goods_expected_value = 0.15
+				conscription = -0.01
+				production_speed_arms_factory_factor = 0.3
+				industrial_capacity_factory = 0.05
+				conversion_cost_civ_to_mil_factor = -0.3
+				conversion_cost_mil_to_civ_factor = -0.3
 			}
 			cancel_if_invalid = no
 		}

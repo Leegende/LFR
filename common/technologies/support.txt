@@ -59,7 +59,7 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
+			support_company
 		}
 	}
 	tech_engineers = {
@@ -76,8 +76,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			engineers_tech
+			support_company
+			engineers
 		}
 	}
 	tech_engineers2 = {
@@ -95,8 +95,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			engineers_tech
+			support_company
+			engineers
 		}
 	}
 	tech_engineers3 = {
@@ -113,8 +113,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			engineers_tech
+			support_company
+			engineers
 		}
 	}
 	tech_engineers4 = {
@@ -128,8 +128,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			engineers_tech
+			support_company
+			engineers
 		}
 	}
 	tech_recon = {
@@ -147,8 +147,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			recon_tech
+			support_company
+			recon
 		}
 	}
 	tech_recon2 = {
@@ -166,8 +166,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			recon_tech
+			support_company
+			recon
 		}
 	}
 	tech_recon3 = {
@@ -185,8 +185,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			recon_tech
+			support_company
+			recon
 		}
 	}
 	tech_recon4 = {
@@ -200,8 +200,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			recon_tech
+			support_company
+			recon
 		}
 	}
 	tech_military_police = {
@@ -219,8 +219,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			military_police_tech
+			support_company
+			military_police
 		}
 	}
 	tech_military_police2 = {
@@ -237,8 +237,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			military_police_tech
+			support_company
+			military_police
 		}
 	}
 	tech_military_police3 = {
@@ -255,8 +255,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			military_police_tech
+			support_company
+			military_police
 		}
 	}
 	tech_military_police4 = {
@@ -270,8 +270,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			military_police_tech
+			support_company
+			military_police
 		}
 	}
 	tech_maintenance_company = {
@@ -289,8 +289,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			maintenance_company_tech
+			support_company
+			maintenance
 		}
 	}
 	tech_maintenance_company2 = {
@@ -307,8 +307,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			maintenance_company_tech
+			support_company
+			maintenance
 		}
 	}
 	tech_maintenance_company3 = {
@@ -325,8 +325,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			maintenance_company_tech
+			support_company
+			maintenance
 		}
 	}
 	tech_maintenance_company4 = {
@@ -340,8 +340,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			maintenance_company_tech
+			support_company
+			maintenance
 		}
 	}
 	tech_field_hospital = {
@@ -358,10 +358,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			field_hospital
 		}
 	}
 	tech_field_hospital2 = {
@@ -379,10 +377,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			field_hospital
 		}
 	}
 	tech_field_hospital3 = {
@@ -400,10 +396,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			field_hospital
 		}
 	}
 	tech_field_hospital4 = {
@@ -417,10 +411,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			hospital_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			field_hospital
 		}
 	}
 	tech_logistics_company = {
@@ -438,10 +430,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			logistic_company
 		}
 	}
 	tech_logistics_company2 = {
@@ -459,10 +449,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			logistic_company
 		}
 	}
 	tech_logistics_company3 = {
@@ -479,10 +467,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			logistic_company
 		}
 	}
 	tech_logistics_company4 = {
@@ -496,10 +482,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			logistics_tech
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
+			support_company
+			logistic_company
 		}
 	}
 	tech_signal_company = {
@@ -519,9 +503,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			signal_company_tech
-			electronics
+			support_company
+			signal_company
 		}
 	}
 	tech_signal_company2 = {
@@ -538,9 +521,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			signal_company_tech
-			electronics
+			support_company
+			signal_company
 		}
 	}
 	tech_signal_company3 = {
@@ -557,11 +539,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			signal_company_tech
-			electronics
-		}
-		ai_will_do = {
+			support_company
+			signal_company
 		}
 	}
 	tech_signal_company4 = {
@@ -575,9 +554,8 @@ technologies = {
 			}
 		}
 		categories = {
-			support_tech
-			signal_company_tech
-			electronics
+			support_company
+			signal_company
 		}
 	}
 }

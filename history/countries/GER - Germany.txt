@@ -20,7 +20,7 @@ add_dynamic_modifier = {
 }
 
 add_dynamic_modifier = {
-	modifier = GER_german_economy_dnyamic_modifier
+	modifier = GER_german_economy_dynamic_modifier
 }
 
 add_to_variable = {
@@ -97,6 +97,7 @@ add_to_variable = {
 	GER_german_economy_consumer_goods_factor = 0
 	tooltip = consumer_goods_factor_tt
 }
+
 add_to_variable = {
 	GER_german_economy_research_speed_factor = 0
 	tooltip = research_speed_factor_tt
@@ -105,6 +106,16 @@ add_to_variable = {
 add_to_variable = {
 	GER_german_economy_production_factory_max_efficiency_factor = 0
 	tooltip = production_factory_max_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_min_export = 0
+	tooltip = min_export_tt
+}
+
+add_to_variable = {
+	GER_german_economy_local_resources_factor = 0
+	tooltip = local_resources_factor_tt
 }
 
 add_to_variable = {
@@ -135,6 +146,20 @@ add_to_variable = {
 add_to_variable = {
 	GER_german_economy_conversion_cost_mil_to_civ_factor = 0
 	tooltip = conversion_cost_mil_to_civ_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_production_speed_buildings_factor = 0
+	tooltip = production_speed_buildings_factor_tt
+}
+
+add_to_variable = {
+	GER_german_economy_armor_research_bonus = 0
+	tooltip = production_speed_buildings_factor_tt
+}
+add_to_variable = {
+	GER_german_economy_air_equipment_research_bonus = 0
+	tooltip = production_speed_buildings_factor_tt
 }
 
 set_technology = {

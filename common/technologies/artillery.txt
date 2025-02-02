@@ -50,7 +50,7 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
+			artillery_category
 		}
 		ai_will_do = {
 			factor = 30
@@ -76,9 +76,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
 		}
 	}
 	light_artillery = {
@@ -98,9 +97,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_light
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	light_anti_tank = {
@@ -120,9 +119,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
+			antitank
 		}
 	}
 	light_artillery_upgrade1 = {
@@ -145,9 +144,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
 		}
 	}
 	light_artillery1 = {
@@ -167,9 +165,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_light
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	light_anti_tank1 = {
@@ -189,9 +187,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
+			antitank
 		}
 	}
 	light_artillery_upgrade2 = {
@@ -211,9 +209,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
 		}
 	}
 	light_artillery2 = {
@@ -233,9 +230,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_light
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	light_anti_tank2 = {
@@ -255,9 +252,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_light
+			antitank
 		}
 	}
 	medium_artillery_upgrade = {
@@ -280,9 +277,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
 		}
 	}
 	medium_artillery = {
@@ -302,9 +298,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_medium
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	medium_anti_tank = {
@@ -324,9 +320,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
+			antitank
 		}
 	}
 	medium_artillery_upgrade1 = {
@@ -349,9 +345,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
 		}
 	}
 	medium_artillery1 = {
@@ -371,9 +366,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_medium
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	medium_anti_tank1 = {
@@ -393,9 +388,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
+			antitank
 		}
 	}
 	medium_artillery_upgrade2 = {
@@ -415,9 +410,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
 		}
 	}
 	medium_artillery2 = {
@@ -437,9 +431,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_medium
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	medium_anti_tank2 = {
@@ -459,9 +453,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_medium
+			antitank
 		}
 	}
 	heavy_artillery_upgrade = {
@@ -484,9 +478,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
 		}
 	}
 	heavy_artillery = {
@@ -506,9 +499,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_heavy
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	heavy_anti_tank = {
@@ -528,9 +521,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
+			antitank
 		}
 	}
 	heavy_artillery_upgrade1 = {
@@ -553,9 +546,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
 		}
 	}
 	heavy_artillery1 = {
@@ -575,9 +567,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_heavy
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	heavy_anti_tank1 = {
@@ -597,9 +589,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
+			antitank
 		}
 	}
 	heavy_artillery_upgrade2 = {
@@ -619,9 +611,8 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
 		}
 	}
 	heavy_artillery2 = {
@@ -641,9 +632,9 @@ technologies = {
 			}
 		}
 		categories = {
+			artillery_category
+			artillery_heavy
 			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	heavy_anti_tank2 = {
@@ -663,9 +654,9 @@ technologies = {
 			}
 		}
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			artillery_category
+			artillery_heavy
+			antitank
 		}
 	}
 }

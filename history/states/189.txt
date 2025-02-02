@@ -1,8 +1,6 @@
-
 state = {
-id = 189
+	id = 189
 	name = "STATE_189"
-
 	history = {
 		owner = GER
 		add_core_of = GER
@@ -96,9 +94,6 @@ id = 189
 		770
 		12421
 		12523
-		7144
-		16442
-		19904
 		3647
 		7340
 		12582
@@ -113,8 +108,7 @@ id = 189
 		12778
 	}
 	manpower = 3638079
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = large_city
 }
-
