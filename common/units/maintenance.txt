@@ -3,82 +3,32 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
 		type = {
-			infantry
 			support
 		}
 		group = support
 		categories = {
-			category_support_battalions
-			category_army
-		}
-		essential = {
-			support_equipment
-		}
-		need = {
-			support_equipment = 25
+			maintenance
 		}
 		same_support_type = maintenance_company
 	}
 	armored_maintenance = {
-		abbreviation = "AMC"
-		sprite = armored_maintenance
-		map_icon_category = armored
+		sprite = infantry
+		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
-		
 		type = {
-			armor
 			support
+			armor
 		}
-		
 		group = support
-		
 		categories = {
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			maintenance
+			armor
 		}
-
-		battalion_mult = {
-			category = category_all_armor
-			max_strength = 0.1
-			add = yes
-		}
-	
-		combat_width = 0
-	
-		max_strength = 1
-		max_organisation = 20	
-		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-
-		weight = 0.1
-		supply_consumption = 0.035
-		can_be_parachuted = no
-		
-		
-		reliability_factor = 0.02 
-		equipment_capture_factor = 0.1
-		recovery = 0.1 
-
-		essential = {
-			support_equipment
-			armored_support_vehicle
-		}
-		
-		need = {
-			support_equipment = 15
-			armored_support_vehicle = 20
-		}
-
 		same_support_type = maintenance_company
 	}
 }

@@ -3,26 +3,14 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
 		type = {
-			infantry
 			support
-			flame
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		essential = {
-			support_equipment
-		}
-		need = {
-			infantry_equipment = 10
-			support_equipment = 30
+			engineer
 		}
 		same_support_type = engineers
 	}
@@ -30,289 +18,116 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
 		type = {
-			infantry
 			support
-			flame
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		essential = {
-			support_equipment
-		}
-		need = {
-			infantry_equipment = 10
-			support_equipment = 30
+			engineer
+			assault_engineer
 		}
 		same_support_type = engineers
 	}
-	armored_engineers = {
-		abbreviation = "AREC"
-		sprite = armored_engineer
+	armored_assault_engineers = {
+		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
 		type = {
-			armor
 			support
+			armor
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.035
-		entrenchment = 3
-		battalion_mult = {
-			category = category_all_infantry
-			entrenchment = 0.2
-			add = yes
-		}
-		battalion_mult = {
-			category = category_all_armor
-			breakthrough = 0.05
-			add = yes
-		}
-		defense = 0.15
-		breakthrough = 1
-		soft_attack = -0.5
-		can_be_parachuted = no
-		essential = {
-			support_equipment
-			armored_support_vehicle
-		}
-		need = {
-			armored_support_vehicle = 30
-			support_equipment = 15
+			assault_engineer
+			armor
 		}
 		same_support_type = engineers
 	}
 	mechanized_engineers = {
-		sprite = mechanized
-		map_icon_category = armored
-		priority = 0
-		active = no
-		type = {
-			armor
-			support
-		}
-		group = support
-		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.04
-		defense = -0.1
-		soft_attack = -0.5
-		hard_attack = -0.5
-		entrenchment = 6
-		battalion_mult = {
-			category = category_light_infantry
-			entrenchment = 0.1
-			add = yes
-		}
-		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanized_utility_equipment
-		}
-		maximum_speed = 2
-		need = {
-			mechanized_utility_equipment = 24
-			infantry_equipment = 25
-			support_equipment = 40
-		}
-		can_be_parachuted = yes
-		same_support_type = engineers
-	}
-	mechanized_assault_engineers = {
-		sprite = mechanized
-		map_icon_category = armored
-		priority = 0
-		active = no
-		type = {
-			armor
-			support
-		}
-		group = support
-		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.04
-		defense = -0.1
-		soft_attack = -0.5
-		hard_attack = -0.5
-		entrenchment = 6
-		battalion_mult = {
-			category = category_light_infantry
-			entrenchment = 0.1
-			add = yes
-		}
-		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanized_utility_equipment
-		}
-		maximum_speed = 2
-		need = {
-			mechanized_utility_equipment = 24
-			infantry_equipment = 25
-			support_equipment = 40
-		}
-		can_be_parachuted = yes
-		same_support_type = engineers
-	}
-	amphibious_mechanized_engineers = {
-		sprite = mechanized
-		map_icon_category = armored
-		priority = 0
-		active = no
-		type = {
-			armor
-			support
-		}
-		group = support
-		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.04
-		defense = -0.1
-		soft_attack = -0.5
-		hard_attack = -0.5
-		entrenchment = 6
-		battalion_mult = {
-			category = category_light_infantry
-			entrenchment = 0.1
-			add = yes
-		}
-		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanized_utility_equipment
-		}
-		maximum_speed = 2
-		need = {
-			mechanized_utility_equipment = 24
-			infantry_equipment = 25
-			support_equipment = 40
-		}
-		can_be_parachuted = yes
-		same_support_type = engineers
-	}
-	amphibious_mechanized_assault_engineers = {
-		sprite = mechanized
-		map_icon_category = armored
-		priority = 0
-		active = no
-		type = {
-			armor
-			support
-		}
-		group = support
-		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.04
-		defense = -0.1
-		soft_attack = -0.5
-		hard_attack = -0.5
-		entrenchment = 6
-		battalion_mult = {
-			category = category_light_infantry
-			entrenchment = 0.1
-			add = yes
-		}
-		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanized_utility_equipment
-		}
-		maximum_speed = 2
-		need = {
-			mechanized_utility_equipment = 24
-			infantry_equipment = 25
-			support_equipment = 40
-		}
-		can_be_parachuted = yes
-		same_support_type = engineers
-	}
-	pioneers = {
-		abbreviation = "PIO"
 		sprite = infantry
-		map_icon_category = infantry
+		map_icon_category = transport
 		priority = 0
-		ai_priority = 0
 		active = no
 		affects_speed = no
 		type = {
-			infantry
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			engineer
+			mechanized
+		}
+		same_support_type = engineers
+	}
+	mechanized_assault_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			assault_engineer
+			mechanized
+		}
+		same_support_type = engineers
+	}
+	mechanized_amphibious_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			engineer
+			mechanized
+		}
+		same_support_type = engineers
+	}
+	mechanized_amphibious_assault_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			assault_engineer
+			mechanized
+		}
+		same_support_type = engineers
+	}
+	pioneers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
 			support
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
-			category_marines
+			assault_engineer
 		}
-		essential = {
-			support_equipment
-		}
-		need = {
-			infantry_equipment = 10
-			support_equipment = 40
-		}
-		can_be_parachuted = yes
 		same_support_type = engineers
 	}
 }

@@ -131,163 +131,124 @@ sub_units = {
 	light_tank_amphibious_artillery = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 1795
-		ai_priority = 100
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			armor
 			artillery
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
-			category_all_armor
-			category_army
-			category_self_propelled_artillery
+			light_tank
+			armor
+			amphibious
+			artillery
 		}
-		need = {
-			light_tank_artillery_chassis = 50
-		}
+		
 	}
 	medium_tank_amphibious_artillery = {
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 1796
-		ai_priority = 100
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			armor
 			artillery
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
-			category_all_armor
-			category_army
-			category_self_propelled_artillery
-		}
-		need = {
-			medium_tank_artillery_chassis = 50
+			medium_tank
+			armor
+			amphibious
+			artillery
 		}
 	}
 	heavy_tank_amphibious_artillery = {
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 1797
-		ai_priority = 100
+		priority = 0
+		affects_speed = yes
 		active = yes
-		training_time = 180
 		type = {
 			armor
 			artillery
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
-			category_all_armor
-			category_army
-			category_self_propelled_artillery
-		}
-		need = {
-			heavy_tank_artillery_chassis = 40
+			heavy_tank
+			armor
+			amphibious
+			artillery
 		}
 	}
 	modern_tank_amphibious_artillery = {
-		sprite = medium_armor
+		sprite = modern_armor
 		map_icon_category = armored
-		priority = 1796
-		ai_priority = 100
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			armor
 			artillery
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
-			category_all_armor
-			category_army
-			category_self_propelled_artillery
-		}
-		need = {
-			modern_tank_artillery_chassis = 50
+			modern_tank
+			armor
+			amphibious
+			artillery
 		}
 	}
 	mechanized_artillery = {
 		sprite = mechanized
 		map_icon_category = infantry
-		priority = 4
-		ai_priority = 200
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			mechanized
 		}
-		group = infantry
+		group = mobile
 		categories = {
-			category_front_line
-			category_all_infantry
-			category_army
-			category_vehicle_infantry
-			category_mobile_and_mobile_combat_sup
+			mechanized
+			artillery
 		}
-		essential = {
-			infantry_equipment
-			mechanized_equipment
-		}
-		transport = mechanized_equipment
-		need = {
-			mechanized_equipment = 40
-			infantry_equipment = 100
-		}
+		
 	}
 	mechanized_amphibious_artillery = {
 		sprite = mechanized
 		map_icon_category = infantry
-		priority = 4
-		ai_priority = 200
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			mechanized
+			artillery
+			amphibious
 		}
-		group = infantry
+		group = mobile
 		categories = {
-			category_front_line
-			category_all_infantry
-			category_army
-			category_vehicle_infantry
-			category_mobile_and_mobile_combat_sup
-		}
-		essential = {
-			infantry_equipment
-			mechanized_equipment
-		}
-		transport = mechanized_equipment
-		need = {
-			mechanized_equipment = 40
-			infantry_equipment = 100
+			mechanized
+			artillery
+			amphibious
 		}
 	}
 	motorized_rocket_artillery = {
 		sprite = mechanized
 		map_icon_category = infantry
-		priority = 4
-		ai_priority = 200
+		priority = 0
+		affects_speed = yes
 		active = yes
 		type = {
 			mechanized
+			artillery
 		}
-		group = infantry
+		group = support
 		categories = {
-			category_front_line
-			category_all_infantry
-			category_army
-			category_vehicle_infantry
-			category_mobile_and_mobile_combat_sup
-		}
-		essential = {
-			infantry_equipment
-			mechanized_equipment
-		}
-		transport = mechanized_equipment
-		need = {
-			mechanized_equipment = 40
-			infantry_equipment = 100
+			mechanized
+			artillery
 		}
 	}
 }

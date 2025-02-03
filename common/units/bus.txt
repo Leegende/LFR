@@ -2,8 +2,7 @@ sub_units = {
 	bus = {
 		sprite = motorized
 		map_icon_category = infantry
-		priority = 1000
-		ai_priority = 0
+		priority = 0
 		active = no
 		affects_speed = no
 		can_be_parachuted = yes
@@ -11,8 +10,5 @@ sub_units = {
 			motorized
 		}
 		group = mobile
-		categories = {
-			category_bus
-		}
 	}
 }

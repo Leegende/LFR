@@ -126,7 +126,7 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
 			light_tank
 			amphibious
@@ -145,7 +145,7 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
 			armor
 			medium_tank
@@ -163,7 +163,7 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
 			armor
 			heavy_tank
@@ -181,7 +181,7 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		group = armor
+		group = amphibious_armor
 		categories = {
 			armor
 			modern_tank
@@ -199,7 +199,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = infantry
+		group = mobile
 		categories = {
 			anti_tank
 			mechanized
@@ -215,7 +215,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = infantry
+		group = mobile
 		categories = {
 			anti_tank
 			mechanized

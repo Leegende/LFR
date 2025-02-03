@@ -1,4 +1,22 @@
 sub_unit_categories = {
+	engineer
+	infantry
+	special_forces
+	assault_engineer
+	field_hospital
+	logistics_company
+	maintenance
+	military_police
+	blackshirt_assault
+	commandos
+	elephants
+	sniper
+	recon
+	ranger
+	pioneers
+	signals
+	flamethrower
+	helicopter
 	anti_air
 	artillery
 	anti_tank

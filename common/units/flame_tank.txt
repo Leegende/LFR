@@ -1,10 +1,9 @@
 sub_units = {
 	light_tank_flamethrower = {
-		abbreviation = "LFT"
-		sprite = light_flame_tank
+		sprite = light_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
@@ -13,20 +12,17 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			light_tank
+			flamethrower
 		}
 		same_support_type = flame
 	}
 	medium_tank_flamethrower = {
-		abbreviation = "MFT"
-		sprite = medium_armor
+		sprite = medium_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
@@ -35,25 +31,17 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
-		}
-		combat_width = 0
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
+			armor
+			medium_tank
+			flamethrower
 		}
 		same_support_type = flame
 	}
 	heavy_tank_flamethrower = {
-		abbreviation = "HFT"
-		sprite = heavy_armor
+		sprite = heavy_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
@@ -61,26 +49,18 @@ sub_units = {
 			support
 		}
 		group = support
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			heavy_tank
+			flamethrower
 		}
-		combat_width = 0
 		same_support_type = flame
 	}
 	modern_tank_flamethrower = {
-		abbreviation = "HFT"
-		sprite = heavy_armor
+		sprite = modern_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
@@ -88,121 +68,95 @@ sub_units = {
 			support
 		}
 		group = support
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			modern_tank
+			flamethrower
 		}
-		combat_width = 0
 		same_support_type = flame
 	}
 	light_tank_amphibious_flamethrower = {
-		abbreviation = "LFT"
-		sprite = light_flame_tank
+		sprite = light_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
 			flame
 			support
+			amphibious
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			light_tank
+			flamethrower
+			amphibious
 		}
 		same_support_type = flame
 	}
 	medium_tank_amphibious_flamethrower = {
-		abbreviation = "MFT"
-		sprite = medium_armor
+		sprite = medium_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
 			flame
 			support
+			amphibious
 		}
 		group = support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
-		}
-		combat_width = 0
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
+			armor
+			medium_tank
+			flamethrower
+			amphibious
 		}
 		same_support_type = flame
 	}
 	heavy_tank_amphibious_flamethrower = {
-		abbreviation = "HFT"
-		sprite = heavy_armor
+		sprite = heavy_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
 			flame
 			support
+			amphibious
 		}
 		group = support
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			heavy_tank
+			flamethrower
+			amphibious
 		}
-		combat_width = 0
 		same_support_type = flame
 	}
 	modern_tank_amphibious_flamethrower = {
-		abbreviation = "HFT"
-		sprite = heavy_armor
+		sprite = modern_tank
 		map_icon_category = armored
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = no
 		type = {
 			armor
 			flame
 			support
+			amphibious
 		}
 		group = support
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
-			category_army
+			armor
+			modern_tank
+			flamethrower
+			amphibious
 		}
-		combat_width = 0
 		same_support_type = flame
 	}
 }
