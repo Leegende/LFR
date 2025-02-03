@@ -19,12 +19,6 @@ technologies = {
 		enable_equipments = {
 			armored_support_vehicle_1
 		}
-		enable_subunits = {
-			armored_engineer
-			armored_maintenance
-			armored_signal
-
-		}
 		enable_equipment_modules = {
 			tank_bogie_suspension
 			tank_christie_suspension
@@ -42,6 +36,7 @@ technologies = {
 			extra_ammo_storage
 			smoke_launchers
 			wet_ammo_storage
+			amphibious_drive
 		}
 		
 		path = {
@@ -85,6 +80,9 @@ technologies = {
 		enable_equipment_modules = {
 			tank_small_turret_1
 			tank_light_superstructure
+			small_anti_air_cannon_1
+			small_anti_air_cannon_2
+			small_anti_air_cannon_3
 		}
 		path = {
 			leads_to_tech = improved_light_tank
@@ -171,10 +169,16 @@ technologies = {
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
+			medium_tank_amphibious_chassis
+			medium_tank_amphibious_anti_tank_chassis
+			
 		}
 		enable_equipment_modules = {
 			tank_medium_turret_1
 			tank_medium_superstructure
+			medium_anti_air_cannon_1
+			medium_anti_air_cannon_2
+			medium_anti_air_cannon_3
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
@@ -290,6 +294,9 @@ technologies = {
 		enable_equipment_modules = {
 			tank_heavy_turret_1
 			tank_heavy_superstructure
+			heavy_anti_air_cannon_1
+			heavy_anti_air_cannon_2
+			heavy_anti_air_cannon_3
 		}
 		path = {
 			leads_to_tech = improved_heavy_tank

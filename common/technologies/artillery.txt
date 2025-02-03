@@ -311,6 +311,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			medium_hard_cannon_1
+			medium_hard_amphibious_cannon_1
 		}
 		folder = {
 			name = artillery_folder

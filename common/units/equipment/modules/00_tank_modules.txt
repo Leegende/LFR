@@ -16,14 +16,7 @@ equipment_modules = {
 	amphibious_drive = {
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = amphibious
-		forbid_equipment_type_exact_match = armor
-		forbid_equipment_type = {
-			anti_air
-			anti_tank
-			artillery
-			flame
-		}
+		allow_equipment_type = amphibious_anti_tank
 	}
 	stabilizer = {
 		category = tank_special_module
@@ -245,6 +238,7 @@ equipment_modules = {
 		category = tank_armament_tier_small_2
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
+		
 	}
 	small_soft_cannon_3 = {
 		category = tank_armament_tier_small_3
@@ -284,7 +278,16 @@ equipment_modules = {
 	medium_hard_cannon_1 = {
 		category = tank_armament_tier_medium_1
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = anti_tank
+		allow_equipment_type = {
+			anti_tank
+		}
+
+	}
+	medium_hard_amphibious_cannon_1 = {
+		category = category_amphibious_anti_tank
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = amphibious_anti_tank
+
 	}
 	medium_hard_cannon_2 = {
 		category = tank_armament_tier_medium_2
@@ -325,6 +328,150 @@ equipment_modules = {
 		category = tank_armament_tier_heavy_3
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
+	}
+	small_anti_air_cannon_1 = {
+		category = tank_armament_tier_small_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_small_turret_type_1
+			tank_small_turret_type_2
+			tank_small_turret_type_3
+		}
+	}
+	small_anti_air_cannon_2 = {
+		category = tank_armament_tier_small_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_small_turret_type_1
+			tank_small_turret_type_2
+			tank_small_turret_type_3
+		}
+	}
+	small_anti_air_cannon_3 = {
+		category = tank_armament_tier_small_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_small_turret_type_1
+			tank_small_turret_type_2
+			tank_small_turret_type_3
+		}
+	}
+	medium_anti_air_cannon_1 = {
+		category = tank_armament_tier_medium_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_medium_turret_type_1
+			tank_medium_turret_type_2
+			tank_medium_turret_type_3
+		}
+	}
+	medium_anti_air_cannon_2 = {
+		category = tank_armament_tier_medium_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_medium_turret_type_1
+			tank_medium_turret_type_2
+			tank_medium_turret_type_3
+		}
+	}
+	medium_anti_air_cannon_3 = {
+		category = tank_armament_tier_medium_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_medium_turret_type_1
+			tank_medium_turret_type_2
+			tank_medium_turret_type_3
+		}
+	}
+	heavy_anti_air_cannon_1 = {
+		category = tank_armament_tier_heavy_1
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_heavy_turret_type_1
+			tank_heavy_turret_type_2
+			tank_heavy_turret_type_3
+		}
+	}
+	heavy_anti_air_cannon_2 = {
+		category = tank_armament_tier_heavy_2
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_heavy_turret_type_1
+			tank_heavy_turret_type_2
+			tank_heavy_turret_type_3
+		}
+	}
+	heavy_anti_air_cannon_3 = {
+		category = tank_armament_tier_heavy_3
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			amphibious
+		}
+		forbid_equipment_type_exact_match = armor
+		forbid_module_categories = {
+			tank_heavy_turret_type_1
+			tank_heavy_turret_type_2
+			tank_heavy_turret_type_3
+		}
 	}
 	tank_gasoline_engine = {
 		category = tank_engine_type
@@ -377,9 +524,6 @@ equipment_modules = {
 	tank_light_superstructure = {
 		category = tank_light_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = {
-			anti_air
-		}
 		forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -392,9 +536,6 @@ equipment_modules = {
 	tank_medium_superstructure = {
 		category = tank_medium_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = {
-			anti_air
-		}
 		forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -407,9 +548,6 @@ equipment_modules = {
 	tank_heavy_superstructure = {
 		category = tank_heavy_turret_type_casemate
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = {
-			anti_air
-		}
 		forbid_equipment_type_exact_match = armor
 		allowed_module_categories = {
 			main_armament_slot = {

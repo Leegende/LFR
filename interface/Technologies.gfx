@@ -1,5 +1,11 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_medium_tank_amphibious_anti_tank_medium"
+		texturefile = "gfx/interface/technologies/generic_medium_flame_tank.dds"
+	}
+
+
+	SpriteType = {
 		name = "GFX_archetype_heavy_fighter_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_heavy_fighter_equipment.dds"
 	}

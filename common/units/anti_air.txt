@@ -144,16 +144,9 @@ sub_units = {
 		priority = 0
 		active = yes
 		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			armor
-			medium_tank
-			anti_air
-			amphibious
+			amphibious_anti_tank
 		}
 		same_support_type = anti_air
 	}

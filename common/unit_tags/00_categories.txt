@@ -26,6 +26,7 @@ sub_unit_categories = {
 	motorized
 	mechanized
 	amphibious
+	amphibious_anti_tank
 	armor
 	light_tank
 	medium_tank

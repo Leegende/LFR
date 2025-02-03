@@ -13,7 +13,6 @@ sub_units = {
 			anti_tank
 			medium
 		}
-		
 	}
 	pack_anti_tank = {
 		sprite = anti_tank
@@ -45,7 +44,6 @@ sub_units = {
 			heavy
 		}
 	}
-	
 	light_tank_anti_tank = {
 		sprite = light_armor
 		map_icon_category = armored
@@ -62,7 +60,6 @@ sub_units = {
 			anti_tank
 			light_tank
 		}
-	
 	}
 	medium_tank_anti_tank = {
 		sprite = medium_armor
@@ -115,7 +112,6 @@ sub_units = {
 			armor
 		}
 	}
-
 	light_tank_amphibious_anti_tank = {
 		sprite = light_armor
 		map_icon_category = armored
@@ -133,26 +129,23 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		
 	}
+
 	medium_tank_amphibious_anti_tank = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
 		active = yes
-		type = {
-			armor
-			anti_tank
-		}
+		
 		group = amphibious_armor
 		categories = {
-			armor
-			medium_tank
-			amphibious
-			anti_tank
+			amphibious_anti_tank
 		}
 	}
+
+
+	
 	heavy_tank_amphibious_anti_tank = {
 		sprite = heavy_armor
 		map_icon_category = armored
@@ -189,7 +182,6 @@ sub_units = {
 			anti_tank
 		}
 	}
-
 	mechanized_anti_tank = {
 		sprite = mechanized
 		map_icon_category = infantry
@@ -204,7 +196,6 @@ sub_units = {
 			anti_tank
 			mechanized
 		}
-	
 	}
 	mechanized_amphibious_anti_tank = {
 		sprite = mechanized
@@ -221,7 +212,5 @@ sub_units = {
 			mechanized
 			amphibious
 		}
-		
 	}
-
 }

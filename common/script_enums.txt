@@ -104,6 +104,10 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
+	amphibious_anti_air
+	amphibious_artillery
+    amphibious_anti_tank
+	amphibious_flame
 	land_cruiser
 	rocket
 	submarine
@@ -141,9 +145,15 @@ script_enum_equipment_category = {
 	artillery
 	anti_tank
 	flame
+
 }
 
 script_enum_equipment_bonus_type = {
+
+	amphibious_anti_air
+	amphibious_artillery
+    amphibious_anti_tank
+	amphibious_flame
 	land_cruiser
 	submarine
 	pack_anti_air_equipment
@@ -196,6 +206,11 @@ script_enum_equipment_bonus_type = {
 	mechanized_utility_equipment_1
 	mechanized_utility_equipment_2
 	mechanized_utility_equipment_3
+
+
+
+
+
 	convoy
 	train
 	floating_harbor
@@ -410,10 +425,17 @@ script_enum_equipment_bonus_type = {
 	light_tank_artillery_chassis
 	light_tank_destroyer_chassis
 	light_tank_amphibious_chassis
+
+
+
 	medium_tank_aa_chassis
 	medium_tank_artillery_chassis
 	medium_tank_destroyer_chassis
 	medium_tank_amphibious_chassis
+	medium_tank_amphibious_aa_chassis
+	medium_tank_amphibious_artillery_chassis
+	medium_tank_amphibious_anti_tank_chassis
+
 	heavy_tank_aa_chassis
 	heavy_tank_artillery_chassis
 	heavy_tank_destroyer_chassis
@@ -442,9 +464,28 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_chassis_1
 	medium_tank_destroyer_chassis_2
 	medium_tank_destroyer_chassis_3
+
+
+
+
 	medium_tank_amphibious_chassis_1
 	medium_tank_amphibious_chassis_2
 	medium_tank_amphibious_chassis_3
+	medium_tank_amphibious_anti_tank_chassis_1
+	medium_tank_amphibious_anti_tank_chassis_2
+	medium_tank_amphibious_anti_tank_chassis_3
+
+	medium_tank_amphibious_aa_chassis_1
+	medium_tank_amphibious_aa_chassis_2
+	medium_tank_amphibious_aa_chassis_3
+	medium_tank_amphibious_artillery_chassis_1
+	medium_tank_amphibious_artillery_chassis_2
+	medium_tank_amphibious_artillery_chassis_3
+
+
+
+
+
 	heavy_tank_aa_chassis_1
 	heavy_tank_aa_chassis_2
 	heavy_tank_aa_chassis_3
@@ -462,4 +503,8 @@ script_enum_equipment_bonus_type = {
 	modern_tank_destroyer_chassis_1
 	armored_support_vehicle
 	armored_support_vehicle_1
+
+
+
+
 }

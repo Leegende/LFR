@@ -55,7 +55,7 @@ technologies = {
 			heavy_tank_amphibious_anti_tank
 			modern_tank_amphibious_anti_tank
 			mechanized_anti_tank
-			amphibious_mechanized_anti_tank
+			mechanized_amphibious_anti_tank
 			light_tank
 			medium_tank
 			heavy_tank
