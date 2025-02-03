@@ -34,6 +34,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bogie_suspension.dds"
 		legacy_lazy_load = no
 	}
+
+	
 	spriteType = {
 		name = "GFX_EMI_flamethrower_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_flamethrower.dds"

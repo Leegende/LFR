@@ -460,4 +460,6 @@ script_enum_equipment_bonus_type = {
 	modern_tank_aa_chassis_1
 	modern_tank_artillery_chassis_1
 	modern_tank_destroyer_chassis_1
+	armored_support_vehicle
+	armored_support_vehicle_1
 }

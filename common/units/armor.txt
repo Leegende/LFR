@@ -1,0 +1,132 @@
+sub_units = {
+	light_tank = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			armor
+			light_tank
+		}
+	}
+	medium_tank = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			armor
+			medium_tank
+		}
+	}
+	heavy_tank = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			armor
+			heavy_tank
+		}
+	}
+	modern_tank = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			armor
+			modern_tank
+		}
+	}
+	light_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			armor
+			light_tank
+			amphibious
+		}
+	}
+	medium_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			armor
+			medium_tank
+			amphibious
+		}
+	}
+	heavy_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			armor
+			heavy_tank
+			amphibious
+		}
+	}
+	modern_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = yes
+		special_forces = yes
+		marines = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			armor
+			modern_tank
+			amphibious
+		}
+	}
+}

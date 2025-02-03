@@ -8,7 +8,8 @@ sub_units = {
 			small_plane_airframe = 1
 		}
 		categories = {
-			category_fighter
+			air
+			fighter
 		}
 		land_air_wing_size = 100
 	}
@@ -21,7 +22,8 @@ sub_units = {
 			small_plane_cas_airframe = 1
 		}
 		categories = {
-			category_cas
+			air
+			cas
 		}
 		land_air_wing_size = 100
 	}
@@ -34,7 +36,8 @@ sub_units = {
 			small_plane_naval_bomber_airframe = 1
 		}
 		categories = {
-			category_nav_bomber
+			air
+			spy_planes
 		}
 		land_air_wing_size = 100
 	}
@@ -47,7 +50,8 @@ sub_units = {
 			medium_plane_airframe = 1
 		}
 		categories = {
-			category_tac_bomber
+			air
+			tactical_bomber
 		}
 		land_air_wing_size = 100
 	}
@@ -60,7 +64,8 @@ sub_units = {
 			medium_plane_fighter_airframe = 1
 		}
 		categories = {
-			category_heavy_fighter
+			air
+			heavy_fighter
 		}
 		land_air_wing_size = 100
 	}
@@ -73,7 +78,8 @@ sub_units = {
 			large_plane_airframe = 1
 		}
 		categories = {
-			category_strat_bomber
+			air
+			strategic_bomber
 		}
 		land_air_wing_size = 100
 	}
@@ -86,7 +92,8 @@ sub_units = {
 			jet_fighter_equipment = 1
 		}
 		categories = {
-			category_fighter
+			air
+			fighter
 		}
 		land_air_wing_size = 100
 	}
@@ -99,7 +106,8 @@ sub_units = {
 			jet_tac_bomber_equipment = 1
 		}
 		categories = {
-			category_tac_bomber
+			air
+			tactical_bomber
 		}
 		land_air_wing_size = 100
 	}

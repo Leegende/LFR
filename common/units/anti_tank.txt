@@ -3,21 +3,225 @@ sub_units = {
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
+		affects_speed = yes
 		active = yes
-		affects_speed = no
-		group = support
 		type = {
-			infantry
-			support
+			anti_tank
 		}
+		group = combat_support
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_army
+			anti_tank
+			medium
 		}
-		need = {
-			anti_tank_equipment = 24
+		
+	}
+	pack_anti_tank = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			anti_tank
+		}
+		group = combat_support
+		categories = {
+			anti_tank
+			pack
 		}
 	}
+	heavy_anti_tank = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			anti_tank
+		}
+		group = combat_support
+		categories = {
+			anti_tank
+			heavy
+		}
+	}
+	
+	light_tank_anti_tank = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			armor
+			anti_tank
+			light_tank
+		}
+	
+	}
+	medium_tank_anti_tank = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			armor
+			medium_tank
+			anti_tank
+		}
+	}
+	heavy_tank_anti_tank = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			heavy_tank
+			armor
+			anti_tank
+		}
+	}
+	modern_tank_anti_tank = {
+		sprite = modern_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			anti_tank
+			modern_tank
+			armor
+		}
+	}
+
+	light_tank_amphibious_anti_tank = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			light_tank
+			amphibious
+			armor
+			anti_tank
+		}
+		
+	}
+	medium_tank_amphibious_anti_tank = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			armor
+			medium_tank
+			amphibious
+			anti_tank
+		}
+	}
+	heavy_tank_amphibious_anti_tank = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			armor
+			heavy_tank
+			amphibious
+			anti_tank
+		}
+	}
+	modern_tank_amphibious_anti_tank = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			armor
+			modern_tank
+			amphibious
+			anti_tank
+		}
+	}
+
+	mechanized_anti_tank = {
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			anti_tank
+			mechanized
+		}
+	
+	}
+	mechanized_amphibious_anti_tank = {
+		sprite = mechanized
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			anti_tank
+			mechanized
+			amphibious
+		}
+		
+	}
+
 }

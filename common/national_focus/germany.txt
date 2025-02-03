@@ -2553,6 +2553,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = support_tank
 		}
 	}
 	focus = {
@@ -2572,6 +2573,13 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_der_luchs
+				bonus = 1
+				ahead_reduction = 0.5
+				uses = 1
+				technology = advanced_light_tank
+			}
 		}
 	}
 	focus = {

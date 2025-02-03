@@ -92,10 +92,7 @@ spriteTypes = {
 		name = "GFX_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
-	SpriteType = {
-		name = "GFX_JAP_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/axis_rifle_1.dds"
@@ -549,10 +546,20 @@ spriteTypes = {
 		name = "GFX_extreme_environment_training_medium"
 		texturefile = "gfx/interface/technologies/tech_extreme_environment_training.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_armored_support_vehicle_medium" 
+		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_support_vehicle_1_medium" 
+		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
+	}
 	SpriteType = {
 		name = "GFX_basic_tank_medium"
-		texturefile = "gfx/interface/technologies/modern_blitzkrieg.dds"
+		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_basic_light_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_light_tank_chassis_1.dds"

@@ -30,8 +30,128 @@ technologies = {
 			infantry_equipment_0
 		}
 		enable_subunits = {
-			infantry
+			anti_air
+			pack_anti_air
+			heavy_anti_air
+			light_tank_anti_air
+			medium_tank_anti_air
+			heavy_tank_anti_air
+			modern_tank_anti_air
+			light_tank_amphibious_anti_air
+			medium_tank_amphibious_anti_air
+			heavy_tank_amphibious_anti_air
+			modern_tank_amphibious_anti_air
+			motorized_anti_air
+			mechanized_anti_air
+			anti_tank
+			pack_anti_tank
+			heavy_anti_tank
+			light_tank_anti_tank
+			medium_tank_anti_tank
+			heavy_tank_anti_tank
+			modern_tank_anti_tank
+			light_tank_amphibious_anti_tank
+			medium_tank_amphibious_anti_tank
+			heavy_tank_amphibious_anti_tank
+			modern_tank_amphibious_anti_tank
+			mechanized_anti_tank
+			amphibious_mechanized_anti_tank
+			light_tank
+			medium_tank
+			heavy_tank
+			modern_tank
+			light_tank_amphibious
+			medium_tank_amphibious
+			heavy_tank_amphibious
+			modern_tank_amphibious
+			pack_artillery
+			heavy_artillery
+			artillery
+			red_guard_artillery
+			light_tank_artillery
+			medium_tank_artillery
+			heavy_tank_artillery
+			modern_tank_artillery
+			light_tank_amphibious_artillery
+			medium_tank_amphibious_artillery
+			heavy_tank_amphibious_artillery
+			modern_tank_amphibious_artillery
+			mechanized_artillery
+			mechanized_amphibious_artillery
+			motorized_rocket_artillery
+			engineers
+			assault_engineers
+			armored_engineers
+			mechanized_engineers
+			mechanized_assault_engineers
+			amphibious_mechanized_engineers
+			amphibious_mechanized_assault_engineers
 			pioneers
+			field_hospital
+			mechanized_field_hospital
+			helicopter_field_hospital
+			light_tank_flamethrower
+			medium_tank_flamethrower
+			heavy_tank_flamethrower
+			modern_tank_flamethrower
+			light_tank_amphibious_flamethrower
+			medium_tank_amphibious_flamethrower
+			heavy_tank_amphibious_flamethrower
+			modern_tank_amphibious_flamethrower
+			light_infantry
+			infantry
+			red_guard_infantry
+			ss_infantry
+			cavalry
+			marine
+			mountaineers
+			shock_trooper
+			ranger
+			sturmtruppe
+			logistics_company
+			horse_logistics_company
+			motorized_logistics_company
+			mechanized_logistics_company
+			helicopter_logistics_company
+			maintenance_company
+			armored_maintenance
+			amphibious_mechanized
+			motorized
+			red_guard_motorized
+			mechanized
+			red_guard_mechanized
+			military_police
+			ss_mechanized
+			blackshirt_assault
+			commandos
+			elephants
+			sniper
+			recon
+			motorized_recon
+			armored_car_recon
+			light_tank_recon
+			ranger_recon
+			mechanized_recon
+			mechanized_amphibious_recon
+			helicopter_recon
+			signal_company
+			armored_signal_company
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 		path = {
 			leads_to_tech = infantry_weapons1
