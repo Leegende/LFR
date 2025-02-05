@@ -1300,6 +1300,31 @@ spriteTypes = {
 		name = "GFX_basic_machine_tools_medium"
 		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_juggle1_medium"
+		texturefile = "gfx/interface/technologies/rurikus.dds"
+	}
+	SpriteType = {
+		name = "GFX_juggle2_medium"
+		texturefile = "gfx/interface/technologies/thorbuwu.dds"
+	}
+	SpriteType = {
+		name = "GFX_juggle3_medium"
+		texturefile = "gfx/interface/technologies/rizen.dds"
+	}
+	SpriteType = {
+		name = "GFX_juggle4_medium"
+		texturefile = "gfx/interface/technologies/kenobi.dds"
+	}
+	SpriteType = {
+		name = "GFX_juggle5_medium"
+		texturefile = "gfx/interface/technologies/johannes.dds"
+	}
+
+
+
+
 	SpriteType = {
 		name = "GFX_improved_machine_tools_medium"
 		texturefile = "gfx/interface/technologies/improved_machine_tools.dds"

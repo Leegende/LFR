@@ -113,11 +113,8 @@ sub_units = {
 	modern_tank_amphibious = {
 		sprite = amphibious_armor
 		map_icon_category = armored
-		priority = 2501
-		ai_priority = 2000
+		priority = 0
 		active = yes
-		special_forces = yes
-		marines = yes
 		type = {
 			armor
 			amphibious

@@ -25,6 +25,22 @@ technologies = {
 	#######################################
 	@train_y = 16
 	#######################################
+	juggle1 = {
+		research_cost = 0
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		on_research_complete = {
+			set_technology = {
+				juggle1 = 0
+			}
+		}
+	}
+	
 	infantry_weapons = {
 		enable_equipments = {
 			infantry_equipment_0
@@ -41,8 +57,8 @@ technologies = {
 			medium_tank_amphibious_anti_air
 			heavy_tank_amphibious_anti_air
 			modern_tank_amphibious_anti_air
-			motorized_anti_air
 			mechanized_anti_air
+			amphibious_mechanized_anti_air
 			anti_tank
 			pack_anti_tank
 			heavy_anti_tank
@@ -136,22 +152,6 @@ technologies = {
 			helicopter_recon
 			signal_company
 			armored_signal_company
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		}
 		path = {
 			leads_to_tech = infantry_weapons1
@@ -175,7 +175,6 @@ technologies = {
 			infantry
 			infantry_weapon
 		}
-		
 	}
 	infantry_weapons1 = {
 		enable_equipments = {
@@ -256,7 +255,6 @@ technologies = {
 		}
 	}
 	soft_attack_infantry_weapons = {
-		
 		xor = {
 			hard_attack_infantry_weapons
 		}
@@ -299,7 +297,6 @@ technologies = {
 		}
 	}
 	soft_attack_infantry_weapons1 = {
-
 		xor = {
 			hard_attack_infantry_weapons1
 		}
@@ -457,6 +454,9 @@ technologies = {
 	mechanised_infantry = {
 		enable_equipments = {
 			mechanized_equipment_1
+			amphibious_mechanized_equipment_1
+			amphibious_mechanized_equipment_2
+			amphibious_mechanized_equipment_3
 		}
 		enable_equipment_modules = {
 			mech_additional_machine_guns

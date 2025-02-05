@@ -188,20 +188,22 @@ sub_units = {
 		}
 		same_support_type = anti_air
 	}
-	motorized_anti_air = {
-		sprite = motorized
+	amphibious_mechanized_anti_air = {
+		sprite = mechanized
 		map_icon_category = transport
 		priority = 0
 		active = yes
 		affects_speed = yes
 		type = {
-			motorized
+			mechanized
 			anti_air
+			amphibious
 		}
 		group = support
 		categories = {
 			anti_air
-			motorized
+			mechanized
+			amphibious
 		}
 		same_support_type = anti_air
 	}

@@ -212,7 +212,7 @@ GER_autarky_category = {
 		}
 		days_remove = 100
 	}
-	GER_sächsische_wolfram_minen = {
+	GER_saechsische_wolfram_minen = {
 		icon = GFX_decision_tungsten
 		allowed = {
 			original_tag = GER

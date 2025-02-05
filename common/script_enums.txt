@@ -104,6 +104,10 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
+	land_cruiser
+	maritime_patrol_plan
+	suicide
+	missile_launcher
 	rocket
 	submarine
 	convoy
@@ -168,7 +172,6 @@ script_enum_equipment_bonus_type = {
 	scout_plane_equipment_2
 	jet_strat_bomber_equipment_1
 	mechanized_aa_equipment
-	mechanized_amphibious_chassis
 	mechanized_spg_equipment
 	mechanized_td_equipment
 	mechanized_utility_equipment
@@ -176,10 +179,6 @@ script_enum_equipment_bonus_type = {
 	mechanized_aa_equipment_1
 	mechanized_aa_equipment_2
 	mechanized_aa_equipment_3
-	mechanized_amphibious_chassis_0
-	mechanized_amphibious_chassis_1
-	mechanized_amphibious_chassis_2
-	mechanized_amphibious_chassis_3
 	mechanized_spg_equipment_0
 	mechanized_spg_equipment_1
 	mechanized_spg_equipment_2
@@ -256,6 +255,11 @@ script_enum_equipment_bonus_type = {
 	mechanized_equipment_1
 	mechanized_equipment_2
 	mechanized_equipment_3
+	amphibious_mechanized_equipment
+	amphibious_mechanized_equipment_1
+	amphibious_mechanized_equipment_2
+	amphibious_mechanized_equipment_2
+
 	motorized_equipment
 	motorized_equipment_1
 	small_plane_airframe
@@ -514,4 +518,81 @@ script_enum_equipment_bonus_type = {
 	modern_tank_amphibious_aa_chassis_1
 	modern_tank_amphibious_artillery_chassis_1
 	modern_tank_amphibious_destroyer_chassis_1
+
+	light_tank_flame_chassis
+	light_tank_flame_chassis_1
+	light_tank_flame_chassis_2
+	light_tank_flame_chassis_3
+	medium_tank_flame_chassis
+	medium_tank_flame_chassis_1
+	medium_tank_flame_chassis_2
+	medium_tank_flame_chassis_3
+	heavy_tank_flame_chassis
+	heavy_tank_flame_chassis_1
+	heavy_tank_flame_chassis_2
+	heavy_tank_flame_chassis_3
+
+	light_tank_amphibious_flame_chassis
+	light_tank_amphibious_flame_chassis_1
+	light_tank_amphibious_flame_chassis_2
+	light_tank_amphibious_flame_chassis_3
+	medium_tank_amphibious_flame_chassis
+	medium_tank_amphibious_flame_chassis_1
+	medium_tank_amphibious_flame_chassis_2
+	medium_tank_amphibious_flame_chassis_3
+	heavy_tank_amphibious_flame_chassis
+	heavy_tank_amphibious_flame_chassis_1
+	heavy_tank_amphibious_flame_chassis_2
+	heavy_tank_amphibious_flame_chassis_3
+
+	land_cruiser
+	missile_launcher
+	maritime_patrol_plane
+	suicide
+	amphibious_mechanized_equipment_0
+	amphibious_mechanized_equipment_3
+	mechanized_flame_equipment
+	amphibious_mechanized_aa_equipment
+	amphibious_mechanized_spg_equipment
+	amphibious_mechanized_td_equipment
+	amphibious_mechanized_utility_equipment
+	amphibious_mechanized_flame_equipment
+	modern_tank_flame_chassis
+	medium_tank_amphibious_amphibious_chassis
+	modern_tank_amphibious_flame_chassis
+	mechanized_flame_equipment_0
+	mechanized_flame_equipment_1
+	mechanized_flame_equipment_2
+	mechanized_flame_equipment_3
+	amphibious_mechanized_aa_equipment_0
+	amphibious_mechanized_aa_equipment_1
+	amphibious_mechanized_aa_equipment_2
+	amphibious_mechanized_aa_equipment_3
+	amphibious_mechanized_spg_equipment_0
+	amphibious_mechanized_spg_equipment_1
+	amphibious_mechanized_spg_equipment_2
+	amphibious_mechanized_spg_equipment_3
+	amphibious_mechanized_td_equipment_0
+	amphibious_mechanized_td_equipment_1
+	amphibious_mechanized_td_equipment_2
+	amphibious_mechanized_td_equipment_3
+	amphibious_mechanized_utility_equipment_0
+	amphibious_mechanized_utility_equipment_1
+	amphibious_mechanized_utility_equipment_2
+	amphibious_mechanized_utility_equipment_3
+	amphibious_mechanized_flame_equipment_0
+	amphibious_mechanized_flame_equipment_1
+	amphibious_mechanized_flame_equipment_2
+	amphibious_mechanized_flame_equipment_3
+	modern_tank_flame_chassis_1
+	modern_tank_amphibious_flame_chassis_1
+	mechanized_amphibious_chassis
+	mechanized_amphibious_chassis_0
+	mechanized_amphibious_chassis_1
+	mechanized_amphibious_chassis_2
+	mechanized_amphibious_chassis_3
+
+
+
+
 }

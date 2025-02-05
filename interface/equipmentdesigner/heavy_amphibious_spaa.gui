@@ -1,4 +1,4 @@
-guiTypesguiTypes = {
+guiTypes = {
 	containerWindowType = {
 		name = "equipment_designer_heavy_tank_amphibious_anti_air_chassis"
 		position = { x=0 y=0 }

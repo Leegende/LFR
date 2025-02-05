@@ -1,4 +1,19 @@
 technologies = {
+	juggle4 = {
+		research_cost = 0
+		folder = {
+			name = bba_air_techs_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		on_research_complete = {
+			set_technology = {
+				juggle4 = 0
+			}
+		}
+	}
 	early_fighter = {
 		enable_equipments = {
 			fighter_equipment_0

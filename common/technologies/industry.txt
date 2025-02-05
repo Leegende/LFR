@@ -11,6 +11,21 @@ technologies = {
 	@rockets_1944 = 6
 	@rockets_1945 = 8
 	@rockets_1946 = 10
+	juggle5 = {
+		research_cost = 0
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		on_research_complete = {
+			set_technology = {
+				juggle5 = 0
+			}
+		}
+	}
 	basic_machine_tools = {
 		production_factory_max_efficiency_factor = 0.1
 		path = {

@@ -22,6 +22,21 @@ technologies = {
 	@1943 = 14
 	@1944 = 16
 	##################
+	juggle3 = {
+		research_cost = 0
+		folder = {
+			name = artillery_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		on_research_complete = {
+			set_technology = {
+				juggle3 = 0
+			}
+		}
+	}
 	basic_artillery = {
 		enable_equipments = {
 			anti_air_equipment_1

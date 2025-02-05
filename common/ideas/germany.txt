@@ -43,7 +43,7 @@ ideas = {
 				
 			}
 		}
-		gehärteter_panzerstahl = {
+		gehaerteter_panzerstahl = {
 			allowed = {
 				always = no
 			}

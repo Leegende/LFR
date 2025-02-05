@@ -229,6 +229,16 @@ guiTypes = {
 				format = "UP"
 
 			}
+			gridboxtype = {
+				name = "juggle1_tree"
+				position = { x = 700 y = 240 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+
+			}
+
+
+
 
 			gridboxtype = {
 				name = "motorised_infantry_tree"
@@ -632,6 +642,13 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UPPER_LEFT"
 			}
+			gridboxtype = {
+				name = "juggle2_tree"
+				position = { x = 1200 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+
+			}
 
 		}
 
@@ -916,6 +933,13 @@ guiTypes = {
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+			}
+			gridboxtype = {
+				name = "juggle3_tree"
+				position = { x = 1350 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+
 			}
 		}
 
@@ -2150,7 +2174,13 @@ guiTypes = {
 				slotsize = { width = 60 height = 70 }
 				format = "UP"
 			}
-
+			gridboxtype = {
+				name = "juggle4_tree"
+				position = { x = 860 y = 150 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		
+			}
 			gridboxtype = {
 				name = "early_bomber_tree"
 				position = { x = 900 y = 0 }
@@ -2278,7 +2308,13 @@ guiTypes = {
 				format = "UP"
 			}
 
-	
+			gridboxtype = {
+				name = "juggle5_tree"
+				position = { x = 780 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		
+			}
 
 			gridboxtype = {
 				name = "fuel_silos_tree"

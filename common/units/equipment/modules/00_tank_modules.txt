@@ -93,6 +93,15 @@ equipment_modules = {
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 	}
+	tank_modern_turret = {
+		category = tank_modern_turret
+		sfx = sfx_ui_sd_module_turret
+		allowed_module_categories = {
+			main_armament_slot = {
+				modern_cannons
+			}
+		}
+	}
 	tank_small_turret_1 = {
 		category = tank_small_turret_type_1
 		sfx = sfx_ui_sd_module_turret
@@ -226,6 +235,69 @@ equipment_modules = {
 				tank_armament_tier_heavy_2
 				tank_armament_tier_heavy_3
 			}
+		}
+	}
+	flamethrower_1 = {
+		category = flamethrower
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = flame
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			amphibious
+			anti_air
+			anti_tank
+			artillery
+		}
+	}
+	flamethrower_2 = {
+		category = flamethrower
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = flame
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			amphibious
+			anti_air
+			anti_tank
+			artillery
+		}
+	}
+	flamethrower_3 = {
+		category = flamethrower
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = flame
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			amphibious
+			anti_air
+			anti_tank
+			artillery
+		}
+	}
+	modern_soft_attack = {
+		category = modern_cannons
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_air
+			anti_tank
+		}
+	}
+	modern_hard_attack = {
+		category = modern_cannons
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = {
+			anti_air
+			artillery
+		}
+	}
+	modern_aa = {
+		category = modern_cannons
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_tank
+			artillery
 		}
 	}
 	small_soft_cannon_1 = {
@@ -571,6 +643,8 @@ equipment_modules = {
 		allow_equipment_type = {
 			artillery
 			anti_tank
+			anti_air
+			flame
 		}
 		forbid_equipment_type = {
 			amphibious
@@ -620,6 +694,7 @@ equipment_modules = {
 			anti_air
 			amphibious
 		}
+		allow_equipment_type = rocket
 	}
 	tank_anti_air_cannon_mech = {
 		category = mech_small_main_armament
@@ -656,7 +731,12 @@ equipment_modules = {
 	tank_small_cannon_mech = {
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = artillery
+		forbid_equipment_type = {
+			artillery
+			anti_air
+			flame
+			
+		}
 		forbid_equipment_type_exact_match = armor
 		allow_equipment_type = anti_tank
 	}
@@ -679,10 +759,12 @@ equipment_modules = {
 	tank_light_rocket_launcher_mech = {
 		category = mech_small_main_armament
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
+		allow_equipment_type = flame
 		forbid_equipment_type = {
 			anti_tank
 			amphibious
+			artillery
+			anti_air
 		}
 		forbid_equipment_type_exact_match = armor
 	}
@@ -721,15 +803,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	}
 	mech_amtrac_module = {
-		category = mech_special_module
+		category = mech_amphibious_drive
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = amphibious
-		forbid_equipment_type = {
-			artillery
-			anti_tank
-			anti_air
-		}
-		forbid_equipment_type_exact_match = armor
 	}
 	mech_sloped_armor = {
 		category = mech_special_armor_module

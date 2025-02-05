@@ -14,21 +14,6 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	mechanized_amphibious_chassis = {
-		archetype = mechanized_equipment
-		type = {
-			armor
-			amphibious
-		}
-		for_each = {
-			variant_name = {
-				find_and_replace = {
-					"chassis"
-					"equipment"
-				}
-			}
-		}
-	}
 	mechanized_spg_equipment = {
 		archetype = mechanized_equipment
 		type = {
@@ -63,6 +48,97 @@ duplicate_archetypes = {
 		archetype = mechanized_equipment
 		type = {
 			armor
+			rocket
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"utility_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	mechanized_flame_equipment = {
+		archetype = mechanized_equipment
+		type = {
+			armor
+			flame
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"utility_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	amphibious_mechanized_aa_equipment = {
+		archetype = amphibious_mechanized_equipment
+		type = {
+			armor
+			anti_air
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"aa_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	amphibious_mechanized_spg_equipment = {
+		archetype = amphibious_mechanized_equipment
+		type = {
+			armor
+			artillery
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"spg_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	amphibious_mechanized_td_equipment = {
+		archetype = amphibious_mechanized_equipment
+		type = {
+			armor
+			anti_tank
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"td_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	amphibious_mechanized_utility_equipment = {
+		archetype = amphibious_mechanized_equipment
+		type = {
+			armor
+			rocket
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"utility_equipment"
+					"equipment"
+				}
+			}
+		}
+	}
+	amphibious_mechanized_flame_equipment = {
+		archetype = amphibious_mechanized_equipment
+		type = {
+			armor
+			flame
 		}
 		for_each = {
 			variant_name = {
@@ -118,6 +194,21 @@ duplicate_archetypes = {
 			}
 		}
 	}
+	light_tank_flame_chassis = {
+		archetype = light_tank_chassis
+		type = {
+			flame
+			armor
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
 	medium_tank_aa_chassis = {
 		archetype = medium_tank_chassis
 		type = {
@@ -153,6 +244,21 @@ duplicate_archetypes = {
 		type = {
 			armor
 			anti_tank
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
+	medium_tank_flame_chassis = {
+		archetype = medium_tank_chassis
+		type = {
+			flame
+			armor
 		}
 		for_each = {
 			variant_name = {
@@ -208,6 +314,21 @@ duplicate_archetypes = {
 			}
 		}
 	}
+	heavy_tank_flame_chassis = {
+		archetype = heavy_tank_chassis
+		type = {
+			flame
+			armor
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
 	modern_tank_aa_chassis = {
 		archetype = modern_tank_chassis
 		type = {
@@ -249,6 +370,21 @@ duplicate_archetypes = {
 		type = {
 			armor
 			anti_tank
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
+	modern_tank_flame_chassis = {
+		archetype = modern_tank_chassis
+		type = {
+			flame
+			armor
 		}
 		for_each = {
 			variant_name = {
@@ -319,6 +455,21 @@ duplicate_archetypes = {
 			}
 		}
 	}
+	light_tank_amphibious_flame_chassis = {
+		archetype = light_tank_amphibious_chassis
+		type = {
+			flame
+			armor
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
 	medium_tank_amphibious_aa_chassis = {
 		archetype = medium_tank_amphibious_chassis
 		type = {
@@ -369,6 +520,21 @@ duplicate_archetypes = {
 		type = {
 			armor
 			amphibious
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
+	medium_tank_amphibious_flame_chassis = {
+		archetype = medium_tank_amphibious_chassis
+		type = {
+			flame
+			armor
 		}
 		for_each = {
 			variant_name = {
@@ -439,6 +605,21 @@ duplicate_archetypes = {
 			}
 		}
 	}
+	heavy_tank_amphibious_flame_chassis = {
+		archetype = heavy_tank_amphibious_chassis
+		type = {
+			flame
+			armor
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
 	modern_tank_amphibious_aa_chassis = {
 		archetype = modern_tank_amphibious_chassis
 		type = {
@@ -480,6 +661,21 @@ duplicate_archetypes = {
 		type = {
 			armor
 			anti_tank
+		}
+		for_each = {
+			variant_name = {
+				find_and_replace = {
+					"chassis"
+					"equipment"
+				}
+			}
+		}
+	}
+	modern_tank_amphibious_flame_chassis = {
+		archetype = modern_tank_amphibious_chassis
+		type = {
+			flame
+			armor
 		}
 		for_each = {
 			variant_name = {

@@ -15,6 +15,21 @@ technologies = {
 	@1941 = 5
 	@1942 = 6
 	@1944 = 8
+	juggle2 = {
+		research_cost = 0
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		on_research_complete = {
+			set_technology = {
+				juggle2 = 0
+			}
+		}
+	}
 	basic_tank = {
 		enable_equipments = {
 			armored_support_vehicle_1
@@ -75,10 +90,12 @@ technologies = {
 			light_tank_destroyer_chassis_1
 			light_tank_artillery_chassis_1
 			light_tank_aa_chassis_1
+			light_tank_flame_chassis_1
 			light_tank_amphibious_chassis_1
 			light_tank_amphibious_aa_chassis_1
 			light_tank_amphibious_destroyer_chassis_1
 			light_tank_amphibious_artillery_chassis_1
+			light_tank_amphibious_flame_chassis_1
 		}
 		enable_equipment_modules = {
 			tank_small_turret_1
@@ -191,6 +208,10 @@ technologies = {
 			tank_medium_turret_1
 			tank_medium_superstructure
 			medium_anti_air_cannon_1
+
+			flamethrower_1
+			flamethrower_2
+			flamethrower_3
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
@@ -293,6 +314,12 @@ technologies = {
 			modern_tank_amphibious_artillery_chassis_1
 			modern_tank_amphibious_aa_chassis_1
 
+		}
+		enable_equipment_modules = {
+			modern_aa
+			modern_hard_attack
+			modern_soft_attack
+			tank_modern_turret
 		}
 		enable_subunits = {
 			modern_tank

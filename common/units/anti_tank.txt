@@ -119,7 +119,8 @@ sub_units = {
 		active = yes
 		affects_speed = yes
 		type = {
-			amphibious_destroyer
+			anti_tank
+			armor
 		}
 		group = amphibious_armor
 	}
@@ -132,7 +133,8 @@ sub_units = {
 		active = yes
 		
 		type = {
-			amphibious_destroyer
+			anti_tank
+			armor
 		}
 		group = amphibious_armor
 	}

@@ -2439,7 +2439,7 @@
 		}
 	}
 	focus = {
-		id = GER_gehärteter_panzerstahl
+		id = GER_gehaerteter_panzerstahl
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
@@ -2455,7 +2455,7 @@
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = gehärteter_panzerstahl
+			add_ideas = gehaerteter_panzerstahl
 		}
 	}
 	focus = {
