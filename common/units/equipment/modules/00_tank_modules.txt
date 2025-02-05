@@ -14,9 +14,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	}
 	amphibious_drive = {
-		category = tank_special_module
+		category = amphibious_drive
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = amphibious_anti_tank
 	}
 	stabilizer = {
 		category = tank_special_module
@@ -237,13 +236,12 @@ equipment_modules = {
 	small_soft_cannon_2 = {
 		category = tank_armament_tier_small_2
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = anti_tank
-		
+		allow_equipment_type = artillery
 	}
 	small_soft_cannon_3 = {
 		category = tank_armament_tier_small_3
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = anti_tank
+		allow_equipment_type = artillery
 	}
 	small_hard_cannon_1 = {
 		category = tank_armament_tier_small_1
@@ -281,13 +279,6 @@ equipment_modules = {
 		allow_equipment_type = {
 			anti_tank
 		}
-
-	}
-	medium_hard_amphibious_cannon_1 = {
-		category = category_amphibious_anti_tank
-		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = amphibious_anti_tank
-
 	}
 	medium_hard_cannon_2 = {
 		category = tank_armament_tier_medium_2

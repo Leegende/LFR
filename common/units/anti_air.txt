@@ -146,7 +146,7 @@ sub_units = {
 		affects_speed = yes
 		group = support
 		categories = {
-			amphibious_anti_tank
+			amphibious_destroyer
 		}
 		same_support_type = anti_air
 	}

@@ -280,7 +280,7 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_mechanized_amphibious_anti_tank_icon_medium"
+		name = "GFX_unit_mechanized_amphibious_destroyer_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_amphibious_mechanized_anti_tank_icon.dds"
 		noOfFrames = 2
 	}
@@ -315,8 +315,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_modern_tank_amphibious_anti_tank_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_modern_tank_amphibious_anti_tank_icon.dds"
+		name = "GFX_unit_modern_tank_amphibious_destroyer_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_modern_tank_amphibious_destroyer_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -350,8 +350,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_heavy_tank_amphibious_anti_tank_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_tank_amphibious_anti_tank_icon.dds"
+		name = "GFX_unit_heavy_tank_amphibious_destroyer_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_tank_amphibious_destroyer_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -375,8 +375,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_medium_tank_amphibious_anti_tank_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_amphibious_anti_tank_icon.dds"
+		name = "GFX_unit_medium_tank_amphibious_destroyer_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_amphibious_destroyer_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
@@ -400,8 +400,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_light_tank_amphibious_anti_tank_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_light_tank_amphibious_anti_tank_icon.dds"
+		name = "GFX_unit_light_tank_amphibious_destroyer_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_light_tank_amphibious_destroyer_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
