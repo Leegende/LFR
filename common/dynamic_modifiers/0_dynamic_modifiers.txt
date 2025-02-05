@@ -46,10 +46,13 @@ GER_german_economy_dynamic_modifier = {
 	production_speed_buildings_factor = GER_german_economy_production_speed_buildings_factor
 }
 
-GER_schwere_panzer_abteilung_dynamic_modifier = {
+GER_german_army_dynamic_modifier = {
 	enable = {
 		always = yes
 	}
-	icon = GFX_idea_man_five_year_plan_industry
-	
+	icon = GFX_idea_generic_acquire_tanks
+    terrain_penalty_reduction = GER_german_army_terrain_penalty_reduction
+    attacker_movement_speed=  GER_german_army_attacker_movement_speed  
+
+
 }

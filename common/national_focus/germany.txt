@@ -2599,6 +2599,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = specialized_tank_variants
 		}
 	}
 	focus = {
@@ -2818,6 +2819,12 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_balance_of_tank_trinity
+				bonus = 1
+				uses = 2
+				category = armor_medium
+			}
 		}
 	}
 	focus = {
@@ -2840,6 +2847,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = tank_quality
 		}
 	}
 	focus = {
@@ -2853,7 +2861,7 @@
 		}
 		relative_position_id = GER_balance_of_tank_trinity
 		available = {
-			always = yes
+			has_completed_focus = GER_appoint_walter_model
 		}
 		mutually_exclusive = {
 			focus = GER_tank_quality
@@ -2862,6 +2870,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = tank_quantity
 		}
 	}
 	focus = {
@@ -2882,6 +2891,13 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_mobile_infantry
+				bonus = 1
+				uses = 1
+				ahead_reduction = 1
+				technology = mechanised_infantry
+			}
 		}
 	}
 	focus = {
@@ -3557,6 +3573,14 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_3_7_cm_pak
+				bonus = 1.5
+		     	ahead_reduction = 0.5
+				uses = 1
+				technology = medium_anti_tank
+				technology = medium_artillery
+			}
 		}
 	}
 	focus = {
@@ -3577,6 +3601,12 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_mp_38
+				bonus = 1
+				uses = 1
+				technology = infantry_weapons1
+			}
 		}
 	}
 	focus = {
@@ -3599,6 +3629,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = quantity_has_its_own_quality
 		}
 	}
 	focus = {
@@ -3621,6 +3652,14 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_7_5_cm_KwK_40
+				bonus = 1.5
+		     	ahead_reduction = 0.5
+				uses = 1
+				technology = medium_anti_tank1
+				technology = medium_artillery1
+			}
 		}
 	}
 	focus = {
@@ -3640,6 +3679,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = conversion_programm
 		}
 	}
 	focus = {
@@ -3659,6 +3699,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = army_cohesion
 		}
 	}
 	focus = {

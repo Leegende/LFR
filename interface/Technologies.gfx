@@ -1315,11 +1315,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_juggle4_medium"
-		texturefile = "gfx/interface/technologies/kenobi.dds"
+		texturefile = "gfx/interface/technologies/enzo.dds"
 	}
 	SpriteType = {
 		name = "GFX_juggle5_medium"
-		texturefile = "gfx/interface/technologies/johannes.dds"
+		texturefile = "gfx/interface/technologies/smuth.dds"
 	}
 
 
