@@ -72,5 +72,16 @@ news_event = {
 		name = "Ok"
 	}
 }
+news_event = {
+	id = news.8
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		name = "Ok"
+	}
+	timeout_days = 1
+}
 
 
