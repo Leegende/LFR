@@ -586,13 +586,8 @@ script_enum_equipment_bonus_type = {
 	amphibious_mechanized_flame_equipment_3
 	modern_tank_flame_chassis_1
 	modern_tank_amphibious_flame_chassis_1
-	mechanized_amphibious_chassis
-	mechanized_amphibious_chassis_0
-	mechanized_amphibious_chassis_1
-	mechanized_amphibious_chassis_2
-	mechanized_amphibious_chassis_3
-
-
+	maritime_patrol_plane
+	maritime_patrol_plan
 
 
 }
