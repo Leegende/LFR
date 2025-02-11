@@ -437,6 +437,7 @@ war_measures = {
 		icon = generic_prepare_civil_war
 		available = {
 			has_war_support < 0.5
+			has_war = yes
 		}
 		visible = {
 			always = yes
@@ -453,6 +454,7 @@ war_measures = {
 		icon = generic_prepare_civil_war
 		available = {
 			has_casualties_war_support < 0
+			has_war = yes
 		}
 		visible = {
 			always = yes
@@ -471,6 +473,7 @@ war_measures = {
 		icon = GFX_decision_generic_naval
 		available = {
 			has_convoys_war_support < 0
+			has_war = yes
 		}
 		visible = {
 			always = yes
@@ -489,6 +492,7 @@ war_measures = {
 		icon = GFX_decision_generic_air
 		available = {
 			has_bombing_war_support < 0
+			has_war = yes
 		}
 		visible = {
 			always = yes
@@ -508,6 +512,7 @@ war_measures = {
 		available = {
 			threat > 0.25
 			has_tech = radio
+			has_war = yes
 		}
 		visible = {
 			always = yes
@@ -521,7 +526,7 @@ war_measures = {
 	war_propaganda_film_industry = {
 		icon = generic_prepare_civil_war
 		available = {
-			always = yes
+			has_war = yes
 		}
 		visible = {
 			always = yes

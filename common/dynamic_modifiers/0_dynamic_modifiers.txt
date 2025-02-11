@@ -52,7 +52,6 @@ GER_german_army_dynamic_modifier = {
 	}
 	icon = GFX_idea_generic_acquire_tanks
     terrain_penalty_reduction = GER_german_army_terrain_penalty_reduction
-    attacker_movement_speed=  GER_german_army_attacker_movement_speed  
 
 
 }

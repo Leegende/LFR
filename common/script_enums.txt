@@ -105,7 +105,6 @@ script_enum_production_stat = {
 
 script_enum_equipment_category = {
 	land_cruiser
-	maritime_patrol_plan
 	suicide
 	missile_launcher
 	rocket
@@ -141,6 +140,8 @@ script_enum_equipment_category = {
 	artillery
 	anti_tank
 	flame
+	maritime_patrol_plane
+
 }
 
 script_enum_equipment_bonus_type = {
@@ -587,7 +588,6 @@ script_enum_equipment_bonus_type = {
 	modern_tank_flame_chassis_1
 	modern_tank_amphibious_flame_chassis_1
 	maritime_patrol_plane
-	maritime_patrol_plan
 
 
 }
