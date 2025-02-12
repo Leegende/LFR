@@ -12,13 +12,13 @@ equipments = {
 	gw_armored_car_equipment = {
 		year = 1936
 		archetype = armored_car_equipment
-		priority = 5
+		priority = 7
 	}
 	armored_car_equipment_1 = {
 		year = 1938
 		archetype = armored_car_equipment
 		parent = gw_armored_car_equipment
-		priority = 10
+		priority = 7
 		visual_level = 0
 		is_convertable = yes
 	}
@@ -26,7 +26,7 @@ equipments = {
 		year = 1940
 		archetype = armored_car_equipment
 		parent = armored_car_equipment_1
-		priority = 10
+		priority = 7
 		visual_level = 1
 		is_convertable = yes
 	}
@@ -34,7 +34,7 @@ equipments = {
 		year = 1940
 		archetype = armored_car_equipment
 		parent = armored_car_equipment_2
-		priority = 10
+		priority = 7
 		visual_level = 1
 		is_convertable = yes
 	}

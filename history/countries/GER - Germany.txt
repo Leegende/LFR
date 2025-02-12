@@ -22,15 +22,6 @@ add_dynamic_modifier = {
 add_dynamic_modifier = {
 	modifier = GER_german_economy_dynamic_modifier
 }
-add_dynamic_modifier = {
-	modifier = GER_german_army_dynamic_modifier
-}
-
-add_to_variable = {
-	GER_german_army_terrain_penalty_reduction = 0
-	tooltip = terrain_penalty_reduction_tt
-}
-
 
 
 add_to_variable = {
@@ -167,6 +158,7 @@ add_to_variable = {
 	GER_german_economy_armor_research_bonus = 0
 	tooltip = production_speed_buildings_factor_tt
 }
+
 add_to_variable = {
 	GER_german_economy_air_equipment_research_bonus = 0
 	tooltip = production_speed_buildings_factor_tt

@@ -1,10 +1,5 @@
-#args5
-#243.txt
-#335.txt
-#79.txt
-#80.txt
 state = {
-id = 60
+	id = 60
 	name = "STATE_60"
 	provinces = {
 		3296
@@ -19,9 +14,6 @@ id = 60
 		11449
 		20554
 		11375
-
-
-
 		833
 		4226
 		4870
@@ -72,6 +64,7 @@ id = 60
 	history = {
 		owner = POL
 		add_core_of = POL
+		set_state_flag = PRUSSIA
 		buildings = {
 		}
 		victory_points = {
@@ -104,8 +97,7 @@ id = 60
 		}
 	}
 	manpower = 1416100
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = city
 }
-

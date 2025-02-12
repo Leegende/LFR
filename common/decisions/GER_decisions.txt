@@ -134,7 +134,7 @@ GER_autarky_category = {
 			always = yes
 		}
 		available = {
-			has_completed_focus = GER_integrate_romania
+			has_completed_focus = GER_romanian_oil
 		}
 		cost = 25
 		fire_only_once = yes
@@ -188,7 +188,7 @@ GER_autarky_category = {
 			always = yes
 		}
 		available = {
-			has_completed_focus = GER_second_vienna_award
+			has_completed_focus = GER_hungarian_aluminium
 		}
 		cost = 25
 		fire_only_once = yes
@@ -313,6 +313,9 @@ GER_autarky_category = {
 			ITA = {
 				controls_state = 142
 			}
+			GER = {
+				has_completed_focus = GER_bulgarian_chromium
+			}
 		}
 		cost = 25
 		fire_only_once = yes
@@ -335,7 +338,6 @@ GER_autarky_category = {
 		}
 		days_remove = 100
 	}
-	
 }
 
 second_world_war_decision = {
@@ -345,7 +347,7 @@ second_world_war_decision = {
 			original_tag = GER
 		}
 		visible = {
-			always = yes
+			has_completed_focus = GER_molotov_ribbentrop_pact
 		}
 		available = {
 			has_completed_focus = GER_fall_weiss

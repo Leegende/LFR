@@ -45,13 +45,3 @@ GER_german_economy_dynamic_modifier = {
 	conversion_cost_mil_to_civ_factor = GER_german_economy_conversion_cost_mil_to_civ_factor
 	production_speed_buildings_factor = GER_german_economy_production_speed_buildings_factor
 }
-
-GER_german_army_dynamic_modifier = {
-	enable = {
-		always = yes
-	}
-	icon = GFX_idea_generic_acquire_tanks
-    terrain_penalty_reduction = GER_german_army_terrain_penalty_reduction
-
-
-}

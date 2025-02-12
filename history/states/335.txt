@@ -1,5 +1,3 @@
-#args2
-#594.txt
 state = {
 id = 335
 	name = "STATE_335"
@@ -46,6 +44,7 @@ id = 335
 	history = {
 		owner = POL
 		add_core_of = POL
+		set_state_flag = PRUSSIA
 		buildings = {
 			
 			

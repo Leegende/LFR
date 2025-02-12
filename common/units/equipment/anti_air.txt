@@ -13,7 +13,7 @@ equipments = {
 	anti_air_equipment_1 = {
 		year = 1936
 		archetype = anti_air_equipment
-		priority = 80
+		priority = 4
 		visual_level = 0
 	}
 	pack_anti_air_equipment = {
@@ -30,7 +30,7 @@ equipments = {
 	pack_anti_air_equipment_1 = {
 		year = 1936
 		archetype = pack_anti_air_equipment
-		priority = 80
+		priority = 3
 		visual_level = 0
 	}
 	heavy_anti_air_equipment = {
@@ -47,7 +47,7 @@ equipments = {
 	heavy_anti_air_equipment_1 = {
 		year = 1936
 		archetype = heavy_anti_air_equipment
-		priority = 80
+		priority = 5
 		visual_level = 0
 	}
 }

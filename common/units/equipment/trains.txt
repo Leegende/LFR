@@ -13,6 +13,6 @@ equipments = {
 	train_equipment_1 = {
 		year = 1936
 		archetype = train_equipment
-		priority = 10
+		priority = 99
 	}
 }
