@@ -9,6 +9,19 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		can_license = no
+		reliability = 0.8
+		defense = 4
+		breakthrough = 1
+		soft_attack = 5
+		hard_attack = 5
+		ap_attack = 15
+		air_attack = 17
+		lend_lease_cost = 0.8
+		build_cost_ic = 7
+		resources = {
+			steel = 20
+		}
 	}
 	anti_air_equipment_1 = {
 		year = 1936
@@ -26,6 +39,19 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		can_license = no
+		reliability = 0.8
+		defense = 4
+		breakthrough = 1
+		soft_attack = 2.5
+		hard_attack = 2.5
+		ap_attack = 7.5
+		air_attack = 13.5
+		lend_lease_cost = 0.8
+		build_cost_ic = 5
+		resources = {
+			steel = 15
+		}
 	}
 	pack_anti_air_equipment_1 = {
 		year = 1936
@@ -43,6 +69,20 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		can_license = no
+		reliability = 0.8
+		defense = 4
+		breakthrough = 1
+		soft_attack = 6
+		hard_attack = 14
+		ap_attack = 35
+		air_attack = 22
+		lend_lease_cost = 1.8
+		build_cost_ic = 10
+		resources = {
+			steel = 30
+			tungsten = 10
+		}
 	}
 	heavy_anti_air_equipment_1 = {
 		year = 1936

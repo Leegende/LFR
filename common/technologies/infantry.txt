@@ -422,7 +422,6 @@ technologies = {
 	motorised_infantry = {
 		enable_equipments = {
 			motorized_equipment_1
-			mechanized_equipment_0
 		}
 		sub_technologies = {
 			motorized_rocket_unit

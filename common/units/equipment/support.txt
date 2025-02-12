@@ -1,11 +1,10 @@
 equipments = {
-
 	support_equipment = {
 		year = 1936
-
 		is_archetype = yes
 		picture = archetype_support_equipment
 		is_buildable = no
+		can_license = no
 		type = {
 			infantry
 			motorized
@@ -13,12 +12,17 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.8
+		lend_lease_cost = 0.6
+		build_cost_ic = 3
+		resources = {
+			aluminium = 5
+			steel = 10
+		}
 	}
-
 	support_equipment_1 = {
 		year = 1936
 		archetype = support_equipment
 		priority = 2
 	}
-
 }
