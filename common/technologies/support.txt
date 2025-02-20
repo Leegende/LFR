@@ -9,18 +9,7 @@ technologies = {
 		enable_equipments = {
 			support_equipment_1
 		}
-		enable_subunits = {
-			engineer
-			recon
-			mot_recon
-			armored_car_recon
-			light_tank_recon
-			military_police
-			maintenance_company
-			field_hospital
-			logistics_company
-			signal_company
-		}
+	
 		path = {
 			leads_to_tech = tech_engineers
 			research_cost_coeff = 1
@@ -487,9 +476,7 @@ technologies = {
 		}
 	}
 	tech_signal_company = {
-		enable_subunits = {
-			signal_company
-		}
+	
 		path = {
 			leads_to_tech = tech_signal_company2
 		}

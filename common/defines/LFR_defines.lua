@@ -23,6 +23,11 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 9999			--Max army experience a country 
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 9999			--Max navy experience a country can store
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 9999				--Max air experience a country can store
 
+NDefines.NProduction.BASE_FACTORY_SPEED = 1			
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 1
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 1000
+
+
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 0.5
 NDefines.NProduction.LEND_LEASE_DELIVERY_TOTAL_DAYS = 10 -- Nr of days between lend lease deliveries
 
@@ -65,9 +70,9 @@ NDefines.NAI.WANTED_UNITS_MIN_DEFENCE_FACTOR = 0.4						-- Factor on units requi
 -- End of calculating wanted nr of divisions
 NDefines.NAI.WANTED_UNITS_MAX_WANTED_CAP = 1000	-- Maximum wanted divisions for a country. This can be exceeded by certain hardcoded multipliers, but not by base calculation logic.
 
-NDefines.NNavy.NAVAL_SPEED_MODIFIER = 0.3
-NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
-NDefines.NNavy.NAVAL_RANGE_TO_INGAME_DISTANCE = 0.24							-- Scale the ship stats "naval_range" to the ingame distance
+NDefines.NNavy.NAVAL_SPEED_MODIFIER = 0
+NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 0
+NDefines.NNavy.NAVAL_RANGE_TO_INGAME_DISTANCE = 0.0							-- Scale the ship stats "naval_range" to the ingame distance
 
 NDefines.NGraphics.MINIMUM_PROVINCE_SIZE_IN_PIXELS = 4
 
@@ -101,7 +106,7 @@ NDefines.NOperatives.INTEL_NETWORK_GAIN_DECAY_PER_STEP_FACTOR = 0.8				-- Factor
 NDefines.NOperatives.INTEL_NETWORK_STRENGTH_DECAY_WHEN_ABOVE_TARGET = -1.5			-- The amount of strength removed each tick from a state that has more strength than the target
 NDefines.NOperatives.INTEL_NETWORK_OPERATIVE_GAIN_STACKING_FACTOR = 0.9			-- When multiple operative are present in the same location, this factor is applied for each operative with a lower gain than the max. So if operatives have the gain [ 3, 1, 2 ] in the same location, it is sorted to [ 1, 2, 3 ] then converted to [ 1*D^2, 2*D^1, 3 ], with D being this define, so if D=0.5 we have [ 0.25, 1, 3 ] and the final gain from operative at this location will be 4.25. Putting this define to 0 is equivalent to considering the maximum value only.
 
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 30	-- How many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 36	-- How many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 0	-- How many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0	-- How many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 
 NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.35 --Reduced from 0.75

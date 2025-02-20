@@ -43,6 +43,7 @@ technologies = {
 			pack_anti_air_equipment_1
 			heavy_anti_air_equipment_1
 		}
+	
 		path = {
 			leads_to_tech = light_artillery_upgrade
 			research_cost_coeff = 1
@@ -282,6 +283,7 @@ technologies = {
 		path = {
 			leads_to_tech = medium_artillery_upgrade1
 		}
+	
 		research_cost = 1
 		start_year = 1937
 		folder = {
@@ -483,6 +485,7 @@ technologies = {
 		path = {
 			leads_to_tech = heavy_artillery_upgrade1
 		}
+		
 		research_cost = 1
 		start_year = 1937
 		folder = {
