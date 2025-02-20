@@ -10,7 +10,7 @@ guiTypes = {
 		show_position = { x = 5 y = -200 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width = 240 height = 450 }
 
 		# hide_sound = menu_close_window
@@ -423,7 +423,7 @@ guiTypes = {
 				show_position = { x = 10 y = 25 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 70
 				size = { width = 230 height = 168 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 45
@@ -1021,7 +1021,7 @@ guiTypes = {
 		position = { x = -76 y = -235 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 
 		# Height will be dynamically set according to the number of grid elements
 		size = { width = 78 height = 0 }

@@ -6,7 +6,7 @@ guiTypes = {
 		show_position = { x=-6 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=550 height=100%% }
 
 		#hide_sound = menu_close_window
@@ -97,7 +97,7 @@ guiTypes = {
 		show_position = { x=538 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=375 height=100%% }
 		clipping = no
 
@@ -227,7 +227,7 @@ guiTypes = {
 				show_position = { x = 335 y = 63 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 70
 				size = { width=300 height=430 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 40
@@ -783,7 +783,7 @@ guiTypes = {
 				show_position = { x = -5 y = 30 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 70
 				size = { width=250 height=300 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }

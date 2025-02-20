@@ -13,7 +13,7 @@ guiTypes = {
 		show_position = { x=-6 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=550 height=100%% }
 
 		#hide_sound = menu_close_window
@@ -786,7 +786,7 @@ guiTypes = {
 		show_position = { x=542 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=444 height=600 }
 		click_to_front = yes
 
@@ -1131,7 +1131,7 @@ guiTypes = {
 		show_position = { x=539 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=495 height=100%% }
 
 		background = {
@@ -1350,7 +1350,7 @@ guiTypes = {
 		show_position = { x=539 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=495 height=100%% }
 		click_to_front = yes
 		clipping = no
@@ -1499,7 +1499,7 @@ guiTypes = {
 		show_position = { x=540 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=375 height=70%% }
 
 		background = {
@@ -2357,7 +2357,7 @@ guiTypes = {
 		show_position = { x=544 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 70
 		size = { width=375 height=70%% }
 
 
