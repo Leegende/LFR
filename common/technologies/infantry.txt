@@ -25,6 +25,10 @@ technologies = {
 	#######################################
 	@train_y = 16
 	#######################################
+	starting_techs = {
+		research_cost = 0
+		additional_brigade_column_size = 1
+	}
 	red_guard_subunits = {
 		research_cost = 0
 		folder = {
@@ -43,13 +47,6 @@ technologies = {
 	}
 	ss_subunits = {
 		research_cost = 0
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 0
-			}
-		}
 		enable_subunits = {
 			ss_infantry
 			ss_mechanized
@@ -57,13 +54,6 @@ technologies = {
 	}
 	sturmtruppe_subunits = {
 		research_cost = 0
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 0
-			}
-		}
 		enable_subunits = {
 			sturmtruppe
 		}
@@ -71,26 +61,12 @@ technologies = {
 	}
 	commandos_subunits = {
 		research_cost = 0
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 0
-			}
-		}
 		enable_subunits = {
 			commandos
 		}
 	}
 	all_starting_subunits = {
 		research_cost = 0
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 0
-			}
-		}
 		enable_subunits = {
 			anti_air
 			anti_tank

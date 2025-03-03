@@ -1720,11 +1720,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	SpriteType = {
-		name = "GFX_super_heavy_tank_chassis_texticon"
-		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_9.dds"
-		legacy_lazy_load = no
-	}
 
 	SpriteType = {
 		name = "GFX_modern_tank_chassis_texticon"

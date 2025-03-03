@@ -13,6 +13,9 @@ sub_units = {
 			artillery
 			pack
 		}
+		need = {
+			pack_artillery_equipment   = 20
+		}
 	}
 	heavy_artillery = {
 		sprite = artillery
@@ -27,6 +30,9 @@ sub_units = {
 		categories = {
 			artillery
 			heavy
+		}
+		need = {
+			heavy_artillery_equipment  = 20
 		}
 	}
 	artillery = {
@@ -43,6 +49,9 @@ sub_units = {
 			artillery
 			medium
 		}
+		need = {
+			artillery_equipment  = 20
+		}
 	}
 	red_guard_artillery = {
 		sprite = artillery
@@ -58,6 +67,9 @@ sub_units = {
 			artillery
 			medium
 			red_guard
+		}
+		need = {
+			artillery_equipment  = 20
 		}
 	}
 	light_tank_artillery = {
@@ -76,6 +88,9 @@ sub_units = {
 			armor
 			artillery
 		}
+		need = {
+			light_tank_artillery_chassis   = 20
+		}
 	}
 	medium_tank_artillery = {
 		sprite = medium_armor
@@ -92,6 +107,9 @@ sub_units = {
 			medium_tank
 			armor
 			artillery
+		}
+		need = {
+			medium_tank_artillery_chassis   = 20
 		}
 	}
 	heavy_tank_artillery = {
@@ -110,6 +128,9 @@ sub_units = {
 			armor
 			artillery
 		}
+		need = {
+			heavy_tank_artillery_chassis   = 20
+		}
 	}
 	modern_tank_artillery = {
 		sprite = modern_tank
@@ -126,6 +147,9 @@ sub_units = {
 			modern_tank
 			armor
 			artillery
+		}
+		need = {
+			modern_tank_artillery_chassis   = 20
 		}
 	}
 	light_tank_amphibious_artillery = {
@@ -144,6 +168,9 @@ sub_units = {
 			armor
 			amphibious
 			artillery
+		}
+		need = {
+			light_tank_artillery_chassis   = 20
 		}
 		
 	}
@@ -164,6 +191,9 @@ sub_units = {
 			amphibious
 			artillery
 		}
+		need = {
+			medium_tank_artillery_chassis   = 20
+		}
 	}
 	heavy_tank_amphibious_artillery = {
 		sprite = heavy_armor
@@ -181,6 +211,9 @@ sub_units = {
 			armor
 			amphibious
 			artillery
+		}
+		need = {
+			heavy_tank_artillery_chassis   = 20
 		}
 	}
 	modern_tank_amphibious_artillery = {
@@ -200,6 +233,9 @@ sub_units = {
 			amphibious
 			artillery
 		}
+		need = {
+			modern_tank_artillery_chassis   = 20
+		}
 	}
 	mechanized_artillery = {
 		sprite = mechanized
@@ -216,6 +252,9 @@ sub_units = {
 			artillery
 		}
 		
+		need = {
+			mechanized_spg_equipment    = 20
+		}
 	}
 	mechanized_amphibious_artillery = {
 		sprite = mechanized
@@ -234,6 +273,9 @@ sub_units = {
 			artillery
 			amphibious
 		}
+		need = {
+			amphibious_mechanized_spg_equipment    = 20
+		}
 	}
 	motorized_rocket_artillery = {
 		sprite = mechanized
@@ -250,5 +292,9 @@ sub_units = {
 			mechanized
 			artillery
 		}
+		need = {
+			motorized_rocket_equipment  = 20
+		}
 	}
+	
 }

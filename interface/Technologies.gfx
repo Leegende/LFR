@@ -3,8 +3,6 @@ spriteTypes = {
 		name = "GFX_medium_tank_amphibious_destroyer_medium"
 		texturefile = "gfx/interface/technologies/generic_medium_flame_tank.dds"
 	}
-
-
 	SpriteType = {
 		name = "GFX_archetype_heavy_fighter_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_heavy_fighter_equipment.dds"
@@ -45,7 +43,6 @@ spriteTypes = {
 		name = "GFX_archetype_modern_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_modern_tank_equipment.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_archetype_heavy_tank_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_heavy_tank_equipment.dds"
@@ -98,7 +95,6 @@ spriteTypes = {
 		name = "GFX_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/axis_rifle_1.dds"
@@ -552,20 +548,18 @@ spriteTypes = {
 		name = "GFX_extreme_environment_training_medium"
 		texturefile = "gfx/interface/technologies/tech_extreme_environment_training.dds"
 	}
-	
 	SpriteType = {
-		name = "GFX_armored_support_vehicle_medium" 
+		name = "GFX_armored_support_vehicle_medium"
 		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
 	}
 	SpriteType = {
-		name = "GFX_armored_support_vehicle_1_medium" 
+		name = "GFX_armored_support_vehicle_1_medium"
 		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_armored_support_vehicle.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_basic_light_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_light_tank_chassis_1.dds"
@@ -602,7 +596,6 @@ spriteTypes = {
 		name = "GFX_advanced_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_heavy_tank_chassis_3.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/generic_modern_tank_chassis.dds"
@@ -1300,7 +1293,6 @@ spriteTypes = {
 		name = "GFX_basic_machine_tools_medium"
 		texturefile = "gfx/interface/technologies/basic_machine_tools.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_juggle1_medium"
 		texturefile = "gfx/interface/technologies/rurikus.dds"
@@ -1321,10 +1313,6 @@ spriteTypes = {
 		name = "GFX_juggle5_medium"
 		texturefile = "gfx/interface/technologies/smuth.dds"
 	}
-
-
-
-
 	SpriteType = {
 		name = "GFX_improved_machine_tools_medium"
 		texturefile = "gfx/interface/technologies/improved_machine_tools.dds"

@@ -14,6 +14,9 @@ sub_units = {
 			medium
 		}
 		same_support_type = anti_air
+		need = {
+			anti_air_equipment = 10
+		}
 	}
 	pack_anti_air = {
 		sprite = infantry
@@ -30,6 +33,9 @@ sub_units = {
 			pack
 		}
 		same_support_type = anti_air
+		need = {
+			pack_anti_air_equipment = 10
+		}
 	}
 	heavy_anti_air = {
 		sprite = infantry
@@ -45,6 +51,9 @@ sub_units = {
 		categories = {
 			anti_air
 			heavy
+		}
+		need = {
+			heavy_anti_air_equipment = 10
 		}
 		same_support_type = anti_air
 	}
@@ -64,6 +73,9 @@ sub_units = {
 			light_tank
 			armor
 		}
+		need = {
+			light_tank_aa_chassis = 20
+		}
 		same_support_type = anti_air
 	}
 	medium_tank_anti_air = {
@@ -81,6 +93,9 @@ sub_units = {
 			anti_air
 			medium_tank
 			armor
+		}
+		need = {
+			medium_tank_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -100,6 +115,9 @@ sub_units = {
 			armor
 			heavy_tank
 		}
+		need = {
+			heavy_tank_aa_chassis = 20
+		}
 		same_support_type = anti_air
 	}
 	modern_tank_anti_air = {
@@ -116,6 +134,9 @@ sub_units = {
 			anti_air
 			armor
 			modern_tank
+		}
+		need = {
+			modern_tank_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -136,6 +157,9 @@ sub_units = {
 			light_tank
 			amphibious
 		}
+		need = {
+			light_tank_amphibious_aa_chassis = 20
+		}
 		same_support_type = anti_air
 	}
 	medium_tank_amphibious_anti_air = {
@@ -147,6 +171,9 @@ sub_units = {
 		group = support
 		categories = {
 			amphibious_destroyer
+		}
+		need = {
+			medium_tank_amphibious_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -167,6 +194,9 @@ sub_units = {
 			anti_air
 			amphibious
 		}
+		need = {
+			heavy_tank_amphibious_aa_chassis = 20
+		}
 		same_support_type = anti_air
 	}
 	modern_tank_amphibious_anti_air = {
@@ -185,6 +215,9 @@ sub_units = {
 			anti_air
 			amphibious
 			modern_tank
+		}
+		need = {
+			modern_tank_amphibious_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -205,6 +238,9 @@ sub_units = {
 			mechanized
 			amphibious
 		}
+		need = {
+			amphibious_mechanized_aa_equipment = 20
+		}
 		same_support_type = anti_air
 	}
 	mechanized_anti_air = {
@@ -221,6 +257,9 @@ sub_units = {
 		categories = {
 			anti_air
 			mechanized
+		}
+		need = {
+			mechanized_aa_equipment  = 20
 		}
 		same_support_type = anti_air
 	}

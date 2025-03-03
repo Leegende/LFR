@@ -15,9 +15,7 @@ technologies = {
 		}
 	}
 	early_fighter = {
-		enable_equipments = {
-			fighter_equipment_0
-		}
+		
 		path = {
 			leads_to_tech = fighter1
 			research_cost_coeff = 1
@@ -27,7 +25,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = naval_bomber1
+			leads_to_tech = scout_plane1
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -209,12 +207,12 @@ technologies = {
 			cas
 		}
 	}
-	naval_bomber1 = {
+	scout_plane1 = {
 		enable_equipments = {
-			nav_bomber_equipment_1
+			scout_plane_equipment_1
 		}
 		path = {
-			leads_to_tech = naval_bomber2
+			leads_to_tech = scout_plane2
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -232,12 +230,12 @@ technologies = {
 			spy_planes
 		}
 	}
-	naval_bomber2 = {
+	scout_plane2 = {
 		enable_equipments = {
-			nav_bomber_equipment_2
+			scout_plane_equipment_2
 		}
 		path = {
-			leads_to_tech = naval_bomber3
+			leads_to_tech = scout_plane3
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -255,9 +253,9 @@ technologies = {
 			spy_planes
 		}
 	}
-	naval_bomber3 = {
+	scout_plane3 = {
 		enable_equipments = {
-			nav_bomber_equipment_3
+			scout_plane_equipment_3
 		}
 		path = {
 			leads_to_tech = jet_fighter1
