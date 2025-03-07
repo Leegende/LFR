@@ -260,6 +260,5 @@ strategic_region = {
 		20354
 		20355
 	}
-	weather = {
-	}
+
 }

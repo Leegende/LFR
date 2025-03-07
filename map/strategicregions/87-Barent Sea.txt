@@ -48,6 +48,5 @@ strategic_region = {
 		17299
 		17667
 	}
-	weather = {
-	}
+
 }

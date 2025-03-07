@@ -302,6 +302,5 @@ strategic_region = {
 		14800
 		20177
 	}
-	weather = {
-	}
+
 }

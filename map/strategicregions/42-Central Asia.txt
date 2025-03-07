@@ -803,6 +803,5 @@ strategic_region = {
 		16485
 		18781
 	}
-	weather = {
-	}
+
 }

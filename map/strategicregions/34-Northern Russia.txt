@@ -500,6 +500,5 @@ strategic_region = {
 		292
 		16474
 	}
-	weather = {
-	}
+
 }

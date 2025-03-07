@@ -327,24 +327,6 @@ war_measures = {
 			factor = 0
 		}
 	}
-	one_mill_conversion = {
-		icon = generic_industry
-		available = {
-			num_of_civilian_factories > 1			#Change this if amount of factories change
-		}
-		visible = {
-			has_war = yes
-		}
-		fire_only_once = no
-		days_re_enable = 10
-		cost = 25
-		complete_effect = {
-			convert_one_mill = yes
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	women_in_the_workforce = {
 		icon = generic_industry
 		allowed = {

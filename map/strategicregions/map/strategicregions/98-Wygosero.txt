@@ -5,6 +5,5 @@ strategic_region={
 	provinces={
 		18271 
 	}
-	weather={
-	}
+
 }
