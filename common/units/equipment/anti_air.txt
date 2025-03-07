@@ -1,6 +1,6 @@
 equipments = {
 	anti_air_equipment = {
-		year = 1934
+		year = 1936
 		is_archetype = yes
 		picture = archetype_anti_air_equipment
 		type = {
@@ -30,7 +30,7 @@ equipments = {
 		visual_level = 0
 	}
 	pack_anti_air_equipment = {
-		year = 1934
+		year = 1936
 		is_archetype = yes
 		picture = archetype_anti_air_equipment
 		type = {
@@ -60,7 +60,7 @@ equipments = {
 		visual_level = 0
 	}
 	heavy_anti_air_equipment = {
-		year = 1934
+		year = 1936
 		is_archetype = yes
 		picture = archetype_anti_air_equipment
 		type = {

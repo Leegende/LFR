@@ -259,7 +259,7 @@ sub_units = {
 			mechanized
 		}
 		need = {
-			mechanized_aa_equipment  = 20
+			mechanized_aa_equipment = 20
 		}
 		same_support_type = anti_air
 	}
