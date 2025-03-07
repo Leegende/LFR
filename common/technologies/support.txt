@@ -4,12 +4,10 @@ technologies = {
 	@1940 = 4
 	@1942 = 6
 	@1944 = 8
-
 	tech_support = {
 		enable_equipments = {
 			support_equipment_1
 		}
-	
 		path = {
 			leads_to_tech = tech_engineers
 			research_cost_coeff = 1
@@ -295,6 +293,9 @@ technologies = {
 				y = @1940
 			}
 		}
+		enable_equipment_modules = {
+			easy_maintenance
+		}
 		categories = {
 			support_company
 			maintenance
@@ -476,7 +477,6 @@ technologies = {
 		}
 	}
 	tech_signal_company = {
-	
 		path = {
 			leads_to_tech = tech_signal_company2
 		}

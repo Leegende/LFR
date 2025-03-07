@@ -107,9 +107,9 @@
  EQ_MOD_CAT_tank_medium_turret_type_2_TITLE: "Medium Turret II"
  EQ_MOD_CAT_tank_medium_turret_type_3_TITLE: "Medium Turret III"
  EQ_MOD_CAT_tank_medium_turret_type_casemate_TITLE: "Medium Casemate"
- EQ_MOD_CAT_tank_armament_tier_small_1_TITLE: "Light Armament I"
- EQ_MOD_CAT_tank_armament_tier_small_2_TITLE: "Light Armament II"
- EQ_MOD_CAT_tank_armament_tier_small_3_TITLE: "Light Armament III"
+ EQ_MOD_CAT_tank_armament_tier_light_1_TITLE: "Light Armament I"
+ EQ_MOD_CAT_tank_armament_tier_light_2_TITLE: "Light Armament II"
+ EQ_MOD_CAT_tank_armament_tier_light_3_TITLE: "Light Armament III"
  EQ_MOD_CAT_tank_small_turret_type_1_TITLE: "Light Turret I"
  EQ_MOD_CAT_tank_small_turret_type_2_TITLE: "Light Turret II"
  EQ_MOD_CAT_tank_small_turret_type_3_TITLE: "Light Turret III"
@@ -465,6 +465,8 @@
  amphibious_mechanized_equipment_2_short: "Amphibious Mechanized II"
  amphibious_mechanized_equipment_3: "Amphibious Mechanized III"
  amphibious_mechanized_equipment_3_short: "Amphibious Mechanized III"
+ tank_designer_rocket: "Utility"
+ tank_designer_rocket_role_disallowed: "Add a module that allows the §HUtility§! role to be able to switch to it."
  
  
 

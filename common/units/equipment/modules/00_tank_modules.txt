@@ -381,10 +381,6 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 8
 		}
-		multiply_stats = {
-			soft_attack = 0.1
-			hard_attack = 0.1
-		}
 		build_cost_resources = {
 			steel = 8
 		}
@@ -564,10 +560,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 28
-			hard_attack = 11
+			soft_attack = 30
+			hard_attack = 12.5
 			ap_attack = 20
-			build_cost_ic = 7
+			build_cost_ic = 6
 		}
 		build_cost_resources = {
 			steel = 10
@@ -580,8 +576,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 34
-			hard_attack = 14
+			soft_attack = 35
+			hard_attack = 15
 			ap_attack = 35
 			build_cost_ic = 8
 		}
@@ -596,10 +592,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 39
-			hard_attack = 17
+			soft_attack = 45
+			hard_attack = 20
 			ap_attack = 50
-			build_cost_ic = 9
+			build_cost_ic = 10
 		}
 		build_cost_resources = {
 			steel = 14
@@ -612,8 +608,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 58
+			soft_attack = 12.5
+			hard_attack = 30
 			ap_attack = 55
 			build_cost_ic = 6
 		}
@@ -628,9 +624,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 66
-			ap_attack = 77
+			soft_attack = 35
+			hard_attack = 15
+			ap_attack = 70
 			build_cost_ic = 8
 		}
 		build_cost_resources = {
@@ -644,9 +640,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 0
-			hard_attack = 80
-			ap_attack = 99
+			soft_attack = 20
+			hard_attack = 45
+			ap_attack = 90
 			build_cost_ic = 10
 		}
 		build_cost_resources = {
@@ -661,9 +657,9 @@ equipment_modules = {
 		allow_equipment_type = artillery
 		add_stats = {
 			soft_attack = 35
-			hard_attack = 26
+			hard_attack = 25
 			ap_attack = 50
-			build_cost_ic = 6
+			build_cost_ic = 8
 		}
 		build_cost_resources = {
 			tungsten = 5
@@ -676,10 +672,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 38
-			hard_attack = 29
-			ap_attack = 77
-			build_cost_ic = 7
+			soft_attack = 40
+			hard_attack = 30
+			ap_attack = 74
+			build_cost_ic = 9
 		}
 		build_cost_resources = {
 			tungsten = 10
@@ -692,10 +688,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 46
-			hard_attack = 34
+			soft_attack = 50
+			hard_attack = 40
 			ap_attack = 90
-			build_cost_ic = 8
+			build_cost_ic = 19
 		}
 		build_cost_resources = {
 			tungsten = 15
@@ -710,10 +706,10 @@ equipment_modules = {
 			anti_tank
 		}
 		add_stats = {
-			soft_attack = 24
-			hard_attack = 32
+			soft_attack = 25
+			hard_attack = 35
 			ap_attack = 55
-			build_cost_ic = 7
+			build_cost_ic = 78
 		}
 		build_cost_resources = {
 			tungsten = 10
@@ -727,8 +723,8 @@ equipment_modules = {
 		allow_equipment_type = anti_tank
 		add_stats = {
 			soft_attack = 30
-			hard_attack = 36
-			ap_attack = 77
+			hard_attack = 40
+			ap_attack = 90
 			build_cost_ic = 8
 		}
 		build_cost_resources = {
@@ -742,9 +738,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 34
-			hard_attack = 40
-			ap_attack = 99
+			soft_attack = 40
+			hard_attack = 50
+			ap_attack = 110
 			build_cost_ic = 9
 		}
 		build_cost_resources = {
@@ -758,8 +754,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 40
-			hard_attack = 58
+			soft_attack = 45
+			hard_attack = 35
 			ap_attack = 90
 			build_cost_ic = 14
 		}
@@ -775,8 +771,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 50
-			hard_attack = 65
+			soft_attack = 65
+			hard_attack = 45
 			ap_attack = 110
 			build_cost_ic = 16
 		}
@@ -792,8 +788,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
-			soft_attack = 84
-			hard_attack = 71
+			soft_attack = 80
+			hard_attack = 60
 			ap_attack = 130
 			build_cost_ic = 18
 		}
@@ -812,9 +808,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 22
-			hard_attack = 100
-			ap_attack = 109
+			soft_attack = 35
+			hard_attack = 45
+			ap_attack = 100
 			build_cost_ic = 15
 		}
 		build_cost_resources = {
@@ -829,9 +825,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 28
-			hard_attack = 118
-			ap_attack = 129
+			soft_attack = 45
+			hard_attack = 65
+			ap_attack = 120
 			build_cost_ic = 18
 		}
 		build_cost_resources = {
@@ -846,9 +842,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
-			soft_attack = 34
-			hard_attack = 136
-			ap_attack = 149
+			soft_attack = 57.5
+			hard_attack = 77.5
+			ap_attack = 140
 			build_cost_ic = 21
 		}
 		multiply_stats = {
@@ -877,11 +873,11 @@ equipment_modules = {
 			tank_light_turret_type_3
 		}
 		add_stats = {
-			air_attack = 19
-			soft_attack = 4
-			hard_attack = 4
-			ap_attack = 21
-			build_cost_ic = 4
+			air_attack = 20
+			soft_attack = 5
+			hard_attack = 5
+			ap_attack = 20
+			build_cost_ic = 5
 		}
 		build_cost_resources = {
 			steel = 5
@@ -904,11 +900,11 @@ equipment_modules = {
 			tank_light_turret_type_3
 		}
 		add_stats = {
-			air_attack = 31
-			soft_attack = 8
-			hard_attack = 5
-			ap_attack = 20
-			build_cost_ic = 5
+			air_attack = 30
+			soft_attack = 7.5
+			hard_attack = 7.5
+			ap_attack = 30
+			build_cost_ic = 6
 		}
 		build_cost_resources = {
 			steel = 8
@@ -931,10 +927,10 @@ equipment_modules = {
 			tank_light_turret_type_3
 		}
 		add_stats = {
-			air_attack = 36
-			soft_attack = 12
-			hard_attack = 6
-			ap_attack = 25
+			air_attack = 40
+			soft_attack = 10
+			hard_attack = 10
+			ap_attack = 40
 			build_cost_ic = 6
 		}
 		build_cost_resources = {
@@ -958,10 +954,10 @@ equipment_modules = {
 			tank_medium_turret_type_3
 		}
 		add_stats = {
-			air_attack = 24
-			soft_attack = 6
-			hard_attack = 6
-			ap_attack = 25
+			air_attack = 25
+			soft_attack = 7.5
+			hard_attack = 7.5
+			ap_attack = 30
 			build_cost_ic = 5
 		}
 		build_cost_resources = {
@@ -985,10 +981,10 @@ equipment_modules = {
 			tank_medium_turret_type_3
 		}
 		add_stats = {
-			air_attack = 34
+			air_attack = 35
 			soft_attack = 10
-			hard_attack = 7
-			ap_attack = 30
+			hard_attack = 10
+			ap_attack = 40
 			build_cost_ic = 6
 		}
 		build_cost_resources = {
@@ -1012,9 +1008,9 @@ equipment_modules = {
 			tank_medium_turret_type_3
 		}
 		add_stats = {
-			air_attack = 38
-			soft_attack = 14
-			hard_attack = 8
+			air_attack = 45
+			soft_attack = 12.5
+			hard_attack = 12.5
 			ap_attack = 35
 			build_cost_ic = 7
 		}
@@ -1040,8 +1036,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			air_attack = 40
-			soft_attack = 10
-			hard_attack = 16
+			soft_attack = 15
+			hard_attack = 15
 			ap_attack = 50
 			build_cost_ic = 14
 		}
@@ -1068,8 +1064,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			air_attack = 50
-			soft_attack = 16
-			hard_attack = 22
+			soft_attack = 17.5
+			hard_attack = 17.5
 			ap_attack = 60
 			build_cost_ic = 18
 		}
@@ -1096,8 +1092,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			air_attack = 60
-			soft_attack = 22
-			hard_attack = 28
+			soft_attack = 22.5
+			hard_attack = 22.5
 			ap_attack = 70
 			build_cost_ic = 22
 		}
@@ -1823,7 +1819,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		multiply_stats =  {
 			build_cost_ic = -0.1
-			maximum_speed = 0.2
+			maximum_speed = 0.225
 			hardness = -0.2
 		}
 	   build_cost_resources = {

@@ -29,6 +29,9 @@ sub_units = {
 			motorized
 		}
 		transport = motorized_equipment
+		need = {
+			motorized_equipment  = 15
+		}
 	
 	}
 	red_guard_motorized = {
@@ -59,6 +62,9 @@ sub_units = {
 		group = mobile
 		categories = {
 			mechanized
+		}
+		need = {
+			mechanized_equipment = 15
 		}
 	}
 	red_guard_mechanized = {

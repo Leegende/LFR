@@ -75,6 +75,17 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_unit_mechanized_assault_engineers_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_mechanized_assault_engineer.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_mechanized_amphibious_engineers_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_amphibious_mechanized_assault_engineers_icon.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_unit_mechanized_field_hospital_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support_unit_mechanized_field_hospital_icon.dds"
 		noOfFrames = 2

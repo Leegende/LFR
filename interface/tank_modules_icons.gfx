@@ -721,27 +721,27 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_turret_type_1"
+		name = "GFX_EMI_tank_light_turret_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_turret_type_1"
+		name = "GFX_EMI_tank_light_turret_type_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_EQ_MOD_CAT_tank_armament_tier_small_1"
+		name = "GFX_EMI_EQ_MOD_CAT_tank_armament_tier_light_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_turret_type_3"
+		name = "GFX_EMI_tank_light_turret_type_3"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_three_man_turret.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_turret_type_2"
+		name = "GFX_EMI_tank_light_turret_type_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_two_man_turret.dds"
 		legacy_lazy_load = no
 	}

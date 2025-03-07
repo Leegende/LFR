@@ -15,14 +15,14 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
+					tank_light_turret_type_1
 					tank_light_turret_type_casemate
 				}
 			}
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armament_tier_small_1
+					tank_armament_tier_light_1
 					flamethrower
 				}
 			}
@@ -76,11 +76,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -88,19 +120,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -109,10 +129,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 4
 	}
-
-
 	light_tank_chassis_1 = {
 		visual_level = 0
 		year = 1938
@@ -123,7 +140,7 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
+					tank_light_turret_type_1
 					tank_light_turret_type_casemate
 				}
 			}
@@ -142,12 +159,12 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 6.6
-		build_cost_ic = 6
+		maximum_speed = 6.7
+		build_cost_ic = 10
 		reliability = 0.8
 		armor_value = 15
 		defense = 5
-		breakthrough = 10
+		breakthrough = 20
 	}
 	light_tank_chassis_2 = {
 		visual_level = 1
@@ -160,8 +177,8 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
-					tank_small_turret_type_2
+					tank_light_turret_type_1
+					tank_light_turret_type_2
 					tank_light_turret_type_casemate
 				}
 			}
@@ -173,11 +190,11 @@ equipments = {
 			special_type_slot_3 = inherit
 		}
 		maximum_speed = 7.2
-		build_cost_ic = 10
-		reliability = 0.8
-		armor_value = 20
-		defense = 7
-		breakthrough = 15
+		build_cost_ic = 15
+		reliability = 0.85
+		armor_value = 25
+		defense = 7.5
+		breakthrough = 30
 	}
 	light_tank_chassis_3 = {
 		visual_level = 2
@@ -190,9 +207,9 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
-					tank_small_turret_type_2
-					tank_small_turret_type_3
+					tank_light_turret_type_1
+					tank_light_turret_type_2
+					tank_light_turret_type_3
 					tank_light_turret_type_casemate
 				}
 			}
@@ -203,12 +220,12 @@ equipments = {
 			special_type_slot_2 = inherit
 			special_type_slot_3 = inherit
 		}
-		maximum_speed = 8
+		maximum_speed = 7.9
 		build_cost_ic = 14
-		reliability = 0.8
+		reliability = 0.9
 		armor_value = 30
 		defense = 10
-		breakthrough = 20
+		breakthrough = 40
 	}
 	medium_tank_chassis = {
 		year = 1936
@@ -287,11 +304,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -299,19 +348,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -350,7 +387,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 5.5
+		maximum_speed = 6.2
 		build_cost_ic = 18
 		reliability = 0.75
 		armor_value = 30
@@ -386,12 +423,12 @@ equipments = {
 				}
 			}
 		}
-		maximum_speed = 5.5
-		build_cost_ic = 24
+		maximum_speed = 6.7
+		build_cost_ic = 27.5
 		reliability = 0.8
-		armor_value = 45
-		defense = 7
-		breakthrough = 30
+		armor_value = 40
+		defense = 9
+		breakthrough = 35
 	}
 	medium_tank_chassis_3 = {
 		visual_level = 2
@@ -418,12 +455,12 @@ equipments = {
 			special_type_slot_3 = inherit
 			special_type_slot_4 = inherit
 		}
-		maximum_speed = 5.5
-		build_cost_ic = 30
-		reliability = 0.75
-		armor_value = 75
-		defense = 8
-		breakthrough = 35
+		maximum_speed = 7.2
+		build_cost_ic = 35
+		reliability = 0.8
+		armor_value = 50
+		defense = 6
+		breakthrough = 45
 	}
 	heavy_tank_chassis = {
 		year = 1936
@@ -502,11 +539,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -514,19 +583,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -573,10 +630,10 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 4.25
-		build_cost_ic = 25
+		maximum_speed = 4.7
+		build_cost_ic = 27
 		reliability = 0.7
-		armor_value = 15
+		armor_value = 50
 		defense = 6
 		breakthrough = 40
 	}
@@ -610,10 +667,10 @@ equipments = {
 				}
 			}
 		}
-		maximum_speed = 4.5
+		maximum_speed = 5.2
 		build_cost_ic = 35
 		reliability = 0.75
-		armor_value = 70
+		armor_value = 75
 		defense = 10
 		breakthrough = 65
 	}
@@ -642,7 +699,7 @@ equipments = {
 			special_type_slot_3 = inherit
 			special_type_slot_4 = inherit
 		}
-		maximum_speed = 5
+		maximum_speed = 5.7
 		build_cost_ic = 45
 		reliability = 0.75
 		armor_value = 95
@@ -725,11 +782,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -737,19 +826,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -769,16 +846,13 @@ equipments = {
 		upgrades = {
 			tank_nsb_armor_upgrade
 		}
-		maximum_speed = 6
+		maximum_speed = 7.2
 		build_cost_ic = 40
 		reliability = 0.9
 		armor_value = 75
 		defense = 10
 		breakthrough = 55
 	}
-	
-	
-	
 	light_tank_amphibious_chassis = {
 		year = 1936
 		is_archetype = yes
@@ -795,14 +869,14 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
+					tank_light_turret_type_1
 					tank_light_turret_type_casemate
 				}
 			}
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_armament_tier_small_1
+					tank_armament_tier_light_1
 					flamethrower
 				}
 			}
@@ -850,11 +924,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -862,19 +968,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -895,7 +989,7 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
+					tank_light_turret_type_1
 					tank_light_turret_type_casemate
 				}
 			}
@@ -914,12 +1008,12 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 6.6
-		build_cost_ic = 6
+		maximum_speed = 6.7
+		build_cost_ic = 10
 		reliability = 0.8
 		armor_value = 15
 		defense = 5
-		breakthrough = 10
+		breakthrough = 20
 	}
 	light_tank_amphibious_chassis_2 = {
 		visual_level = 1
@@ -932,8 +1026,8 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
-					tank_small_turret_type_2
+					tank_light_turret_type_1
+					tank_light_turret_type_2
 					tank_light_turret_type_casemate
 				}
 			}
@@ -945,11 +1039,11 @@ equipments = {
 			special_type_slot_3 = inherit
 		}
 		maximum_speed = 7.2
-		build_cost_ic = 10
-		reliability = 0.8
-		armor_value = 20
+		build_cost_ic = 15
+		reliability = 0.85
+		armor_value = 25
 		defense = 7
-		breakthrough = 15
+		breakthrough = 30
 	}
 	light_tank_amphibious_chassis_3 = {
 		visual_level = 2
@@ -962,9 +1056,9 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_turret_type_1
-					tank_small_turret_type_2
-					tank_small_turret_type_3
+					tank_light_turret_type_1
+					tank_light_turret_type_2
+					tank_light_turret_type_3
 					tank_light_turret_type_casemate
 				}
 			}
@@ -987,7 +1081,6 @@ equipments = {
 		armor_value = 30
 		defense = 10
 		breakthrough = 20
-	
 	}
 	medium_tank_amphibious_chassis = {
 		year = 1936
@@ -1060,11 +1153,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -1072,19 +1197,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -1114,6 +1227,7 @@ equipments = {
 			engine_type_slot = inherit
 			special_type_slot_1 = inherit
 			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
 		}
 		upgrades = {
 			tank_nsb_armor_upgrade
@@ -1123,7 +1237,7 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
-		maximum_speed = 5.5
+		maximum_speed = 6.2
 		build_cost_ic = 18
 		reliability = 0.75
 		armor_value = 30
@@ -1152,12 +1266,12 @@ equipments = {
 			special_type_slot_1 = inherit
 			special_type_slot_2 = inherit
 		}
-		maximum_speed = 5.5
-		build_cost_ic = 24
+		maximum_speed = 6.7
+		build_cost_ic = 27.5
 		reliability = 0.8
-		armor_value = 45
-		defense = 7
-		breakthrough = 30
+		armor_value = 40
+		defense = 9
+		breakthrough = 35
 	}
 	medium_tank_amphibious_chassis_3 = {
 		visual_level = 2
@@ -1189,12 +1303,12 @@ equipments = {
 				}
 			}
 		}
-		maximum_speed = 5.5
-		build_cost_ic = 30
-		reliability = 0.75
-		armor_value = 75
-		defense = 8
-		breakthrough = 35
+		maximum_speed = 7.2
+		build_cost_ic = 35
+		reliability = 0.8
+		armor_value = 50
+		defense = 6
+		breakthrough = 45
 	}
 	heavy_tank_amphibious_chassis = {
 		year = 1936
@@ -1273,11 +1387,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -1285,19 +1431,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -1308,7 +1442,6 @@ equipments = {
 		}
 		maximum_speed = 4
 	}
-	
 	heavy_tank_amphibious_chassis_1 = {
 		visual_level = 0
 		year = 1938
@@ -1345,6 +1478,12 @@ equipments = {
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 		}
+		maximum_speed = 4.7
+		build_cost_ic = 27
+		reliability = 0.7
+		armor_value = 50
+		defense = 6
+		breakthrough = 40
 	}
 	heavy_tank_amphibious_chassis_2 = {
 		visual_level = 1
@@ -1375,7 +1514,14 @@ equipments = {
 					tank_radio_module
 				}
 			}
+		
 		}
+		maximum_speed = 5.2
+		build_cost_ic = 35
+		reliability = 0.75
+		armor_value = 75
+		defense = 10
+		breakthrough = 65
 	}
 	heavy_tank_amphibious_chassis_3 = {
 		visual_level = 2
@@ -1402,6 +1548,12 @@ equipments = {
 			special_type_slot_3 = inherit
 			special_type_slot_4 = inherit
 		}
+		maximum_speed = 5.7
+		build_cost_ic = 45
+		reliability = 0.75
+		armor_value = 95
+		defense = 12
+		breakthrough = 80
 	}
 	modern_tank_amphibious_chassis = {
 		year = 1936
@@ -1479,11 +1631,43 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
+			module = add_on_rockets
 			count < 2
 		}
 		module_count_limit = {
-			category = tank_radio_module
+			module = additional_heavy_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer
 			count < 2
 		}
 		module_count_limit = {
@@ -1491,19 +1675,7 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = armor_skirts
-			count < 2
-		}
-		module_count_limit = {
-			module = dozer_blade
-			count < 2
-		}
-		module_count_limit = {
 			module = easy_maintenance
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer
 			count < 2
 		}
 		default_modules = {
@@ -1523,5 +1695,11 @@ equipments = {
 		upgrades = {
 			tank_nsb_armor_upgrade
 		}
+		maximum_speed = 7.2
+		build_cost_ic = 40
+		reliability = 0.9
+		armor_value = 75
+		defense = 10
+		breakthrough = 55
 	}
 }
