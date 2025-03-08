@@ -1,4 +1,29 @@
 sub_units = {
+	pack_anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 2
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			anti_air
+			pack
+		}
+		same_support_type = anti_air
+		need = {
+			pack_anti_air_equipment = 10
+		}
+		mountain = {
+			attack = 0.03
+		}
+		hills = {
+			attack = 0.03
+		}
+	}
 	anti_air = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -6,7 +31,7 @@ sub_units = {
 		active = yes
 		affects_speed = no
 		type = {
-			anti_air
+			support
 		}
 		group = support
 		categories = {
@@ -18,25 +43,6 @@ sub_units = {
 			anti_air_equipment = 10
 		}
 	}
-	pack_anti_air = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 2
-		active = yes
-		affects_speed = no
-		type = {
-			anti_air
-		}
-		group = support
-		categories = {
-			anti_air
-			pack
-		}
-		same_support_type = anti_air
-		need = {
-			pack_anti_air_equipment = 10
-		}
-	}
 	heavy_anti_air = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -45,7 +51,7 @@ sub_units = {
 		active = yes
 		affects_speed = no
 		type = {
-			anti_air
+			support
 		}
 		group = support
 		categories = {
@@ -54,6 +60,12 @@ sub_units = {
 		}
 		need = {
 			heavy_anti_air_equipment = 10
+		}
+		mountain = {
+			attack = -0.03
+		}
+		hills = {
+			attack = -0.03
 		}
 		same_support_type = anti_air
 	}

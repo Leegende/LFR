@@ -384,7 +384,6 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanized
 		}
 		group = support
 		categories = {

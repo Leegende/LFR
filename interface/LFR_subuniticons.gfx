@@ -142,21 +142,21 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_unit_anti_tank_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_anti_tank_icon.dds"
+		textureFile = "gfx/interface/counters/divisions_large/unit_at_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_artillery_brigade_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_artillery_icon.dds"
+		name = "GFX_unit_artillery_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_dp_art_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_heavy_anti_tank_brigade_icon_medium"
+		name = "GFX_unit_heavy_anti_tank_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_anti_tank_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_heavy_artillery_brigade_icon_medium"
+		name = "GFX_unit_heavy_artillery_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_artillery_icon.dds"
 		noOfFrames = 2
 	}
@@ -191,17 +191,17 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_pack_anti_tank_brigade_icon_medium"
+		name = "GFX_unit_pack_anti_tank_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_pack_anti_tank_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_pack_artillery_brigade_icon_medium"
+		name = "GFX_unit_pack_artillery_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_pack_artillery_icon.dds"
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_red_guard_artillery_brigade_icon_medium"
+		name = "GFX_unit_red_guard_artillery_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_red_guard_artillery_icon.dds"
 		noOfFrames = 2
 	}

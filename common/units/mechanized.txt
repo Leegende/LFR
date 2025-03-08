@@ -12,7 +12,6 @@ sub_units = {
 		categories = {
 			mechanized
 			amphibious
-			
 		}
 	}
 	motorized = {
@@ -30,9 +29,59 @@ sub_units = {
 		}
 		transport = motorized_equipment
 		need = {
-			motorized_equipment  = 15
+			motorized_equipment = 15
 		}
-	
+		combat_width = 2
+		max_strength = 28
+		max_organisation = 70
+		default_morale = 0.3
+		manpower = 1200
+		training_time = 150
+		suppression = 1
+		weight = 0.75
+		supply_consumption = 0.2
+		supply_consumption_factor = 0.04
+		soft_attack = 0.1
+		hard_attack = 0.2
+		breakthrough = 0.1
+		need = {
+			infantry_equipment = 120
+			motorized_equipment = 80
+		}
+		forest = {
+			attack = -0.1
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.05
+		}
+		rock = {
+			attack = -0.05
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		town = {
+			defence = -0.05
+		}
+		urban = {
+			defence = -0.1
+		}
+		dense_urban = {
+			defence = -0.15
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
 	}
 	red_guard_motorized = {
 		sprite = motorized
@@ -48,8 +97,58 @@ sub_units = {
 			motorized
 			red_guard
 		}
+		combat_width = 2
+		max_strength = 28
+		max_organisation = 70
+		default_morale = 0.3
+		manpower = 1200
+		training_time = 150
+		suppression = 1
+		weight = 0.75
+		supply_consumption = 0.2
+		supply_consumption_factor = 0.04
+		soft_attack = 0.2
+		hard_attack = 0.25
+		breakthrough = 0.1
+		need = {
+			infantry_equipment = 120
+			motorized_equipment = 100
+		}
+		forest = {
+			attack = 0.05
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.05
+		}
+		rock = {
+			attack = -0.05
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		town = {
+			defence = -0.05
+		}
+		urban = {
+			defence = -0.075
+		}
+		dense_urban = {
+			defence = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
 		transport = motorized_equipment
-	
 	}
 	mechanized = {
 		sprite = mechanized
@@ -66,6 +165,68 @@ sub_units = {
 		need = {
 			mechanized_equipment = 15
 		}
+		combat_width = 2
+		max_strength = 30
+		max_organisation = 70
+		default_morale = 0.3
+		manpower = 1200
+		training_time = 160
+		suppression = 1
+		weight = 1
+		soft_attack = 0.2
+		hard_attack = 1
+		breakthrough = 0.5
+		supply_consumption = 0.25
+		supply_consumption_factor = 0.045
+		transport = mechanized_equipment
+		need = {
+			mechanized_equipment = 60
+			motorized_equipment = 20
+			infantry_equipment = 125
+		}
+		forest = {
+			attack = -0.2
+			defence = -0.1
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		rock = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.25
+			defence = -0.3
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.3
+		}
+		town = {
+			attack = -0.1
+			defence = -0.05
+		}
+		urban = {
+			attack = -0.2
+			defence = -0.25
+		}
+		dense_urban = {
+			attack = -0.3
+			defence = -0.35
+		}
+		river = {
+			attack = -0.25
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
 	}
 	red_guard_mechanized = {
 		sprite = mechanized
@@ -80,6 +241,68 @@ sub_units = {
 			red_guard
 			mechanized
 		}
+		combat_width = 2
+		max_strength = 30
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1200
+		training_time = 160
+		suppression = 1
+		weight = 1
+		soft_attack = 0.3
+		hard_attack = 1
+		breakthrough = 0.5
+		supply_consumption = 0.25
+		supply_consumption_factor = 0.045
+		transport = mechanized_equipment
+		need = {
+			mechanized_equipment = 60
+			motorized_equipment = 20
+			infantry_equipment = 125
+		}
+		forest = {
+			attack = -0.05
+			defence = -0.05
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		rock = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.25
+			defence = -0.3
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.3
+		}
+		town = {
+			attack = -0.05
+			defence = -0.05
+		}
+		urban = {
+			attack = -0.15
+			defence = -0.25
+		}
+		dense_urban = {
+			attack = -0.25
+			defence = -0.35
+		}
+		river = {
+			attack = -0.25
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
 	}
 	ss_mechanized = {
 		sprite = mechanized
@@ -93,6 +316,68 @@ sub_units = {
 		categories = {
 			ss
 			mechanized
+		}
+		combat_width = 2
+		max_strength = 30
+		max_organisation = 70
+		default_morale = 0.4
+		manpower = 1200
+		training_time = 160
+		suppression = 1
+		weight = 1
+		soft_attack = 0.3
+		hard_attack = 1
+		breakthrough = 0.5
+		supply_consumption = 0.25
+		supply_consumption_factor = 0.045
+		transport = mechanized_equipment
+		need = {
+			mechanized_equipment = 60
+			motorized_equipment = 20
+			infantry_equipment = 125
+		}
+		forest = {
+			attack = -0.05
+			defence = -0.05
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		rock = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.25
+			defence = -0.3
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.3
+		}
+		town = {
+			attack = -0.05
+			defence = -0.05
+		}
+		urban = {
+			attack = -0.15
+			defence = -0.25
+		}
+		dense_urban = {
+			attack = -0.25
+			defence = -0.35
+		}
+		river = {
+			attack = -0.25
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
 		}
 	}
 }

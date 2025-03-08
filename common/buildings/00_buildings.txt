@@ -17,6 +17,35 @@ buildings = {
 			}
 		}
 	}
+	
+	rocket_site = {
+		show_on_map = 1
+		base_cost = 999999
+		icon_frame = 12
+		rocket_production = 0
+		rocket_launch_capacity = 0
+		value = 1
+		infrastructure_construction_effect = no
+		disabled_in_dmz = yes
+		level_cap = {
+			state_max = 0
+			shares_slots = no
+		}
+	}
+	mega_gun_emplacement = {
+		hide_if_missing_tech = yes
+		show_on_map = 1
+		base_cost = 99999
+		damage_factor = 0 
+		icon_frame = 24
+		value = 1
+		disabled_in_dmz = no
+		infrastructure_construction_effect = no
+		level_cap = {
+			state_max = 0
+			shares_slots = no
+		}
+	}
 	arms_factory = {
 		show_on_map = 6
 		base_cost = 2000
