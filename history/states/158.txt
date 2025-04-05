@@ -1,0 +1,43 @@
+state = {
+	id = 158
+	name = "STATE_158"
+	history = {
+		owner = ENG
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			969
+			10
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 0
+	local_supplies = 0
+	state_category = wasteland
+	provinces = {
+		969
+		9764
+		2848
+		8281
+		761
+		1408
+		2272
+		3218
+		5226
+		2812
+		2905
+		6881
+		9484
+		9743
+		9745
+		9749
+		256
+		1072
+		1425
+		2755
+		6975
+		8163
+	}
+}

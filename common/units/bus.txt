@@ -1,0 +1,14 @@
+sub_units = {
+	bus = {
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		can_be_parachuted = yes
+		type = {
+			motorized
+		}
+		group = mobile
+	}
+}

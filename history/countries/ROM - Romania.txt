@@ -1,0 +1,22 @@
+﻿capital = 157
+every_owned_state = {
+	set_state_flag = ROM_INITIAL_STATE
+}
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+set_convoys = 10
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 60
+	fascism = 18
+	communism = 2
+	neutrality = 20
+}

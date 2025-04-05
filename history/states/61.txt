@@ -1,0 +1,55 @@
+state = {
+	id = 61
+	name = "STATE_61"
+	provinces = {
+		21117
+		21124
+		21121
+		21125
+		21128
+		15856
+		18672
+		19230
+		2668
+		15887
+		3019
+		15885
+		6296
+		863
+		19210
+		18728
+		15848
+		1581
+		2847
+		21495
+		3472
+		3681
+		19215
+		19200
+		19221
+		18733
+	}
+	history = {
+		owner = UAC
+		add_core_of = UAC
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			21117
+			10
+		}
+		victory_points = {
+			21124
+			5
+		}
+		victory_points = {
+			21128
+			10
+		}
+	}
+	manpower = 2000000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+}

@@ -1,0 +1,43 @@
+﻿l_english:
+ available_political_advisor: "§GAvailable§! as §YPolitical Advisor§!:\n"
+ available_political_advisor: "§GAvailable§! as §YIndustrial Concern§!:\n"
+ AXIS_NAME: "Axis"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
+ GER_rhineland: "Rhineland"
+ GER_rhineland_desc: ""
+ GER_anschluss: "Anschluss"
+ GER_anschluss_desc: ""
+ GER_demand_sudetenland: "Demand Sudetenland"
+ GER_demand_sudetenland_desc: ""
+ GER_demand_memel: "Demand Memel"
+ GER_demand_memel_desc: ""
+ GER_first_vienna_award: "First Vienna Award"
+ GER_first_vienna_award_desc: ""
+ GER_end_of_czechoslovakia: "End of Czechoslovakia"
+ GER_end_of_czechoslovakia_desc: ""
+ GER_second_vienna_award: "Second Vienna Award"
+ GER_second_vienna_award_desc: ""
+ GER_molotov_ribbentrop_pact: "Molotov-Ribbentrop Pact"
+ GER_molotov_ribbentrop_pact_desc: ""
+ GER_integrate_hungary: "Integrate Hungary"
+ GER_integrate_hungary_desc: ""
+ GER_integrate_romania: "Integrate Romania"
+ GER_integrate_romania_desc: ""
+ GER_fall_weiss: "Fall Weiß"
+ GER_fall_weiss_desc: ""
+ GER_four_year_plan: "Four Year Plan"
+ GER_four_year_plan_desc: ""
+ GER_reichsautobahn_tt: "Adds maximum §YInfrastructure§! in §YBrandenburg§!, §YSachsen-Anhalt§!, §YThüringen§! and §YSachsen§!"
+ GER_german_economy_spirit_change: "Modify §YGerman Economy§! by"
+ GER_autarky_tooltip: "Unlock §YDecisions§! to boost German Autarky"
+ GER_second_world_war_tooltip: "Unlock §YDecisions§! to declare §RWar§!"
+ GER_second_world_war_category_tooltip: "Unlock §YDecision Category§! to declare §RWar§!"
+ 
+ 
+
+
+
+

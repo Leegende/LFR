@@ -1,0 +1,119 @@
+state = {
+	id = 336
+	name = "STATE_336"
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SOV
+		victory_points = {
+			18842
+			2
+		}
+		victory_points = {
+			7738
+			2
+		}
+		victory_points = {
+			18610
+			40
+		}
+		victory_points = {
+			10296
+			2
+		}
+		victory_points = {
+			10221
+			20
+		}
+		victory_points = {
+			10160
+			2
+		}
+		victory_points = {
+			10274
+			2
+		}
+	}
+	provinces = {
+		496
+		1255
+		1824
+		1838
+		3197
+		5607
+		7949
+		10220
+		10221
+		10224
+		1349
+		2080
+		2312
+		4402
+		4889
+		5418
+		5785
+		6213
+		6354
+		6692
+		7738
+		8893
+		8935
+		9338
+		18866
+		638
+		10274
+		18949
+		10251
+		3965
+		7859
+		18996
+		18336
+		18722
+		18838
+		18929
+		10178
+		10200
+		10206
+		18537
+		18626
+		18667
+		18691
+		18739
+		18774
+		18814
+		18820
+		18842
+		10160
+		10230
+		10237
+		10296
+		10307
+		10324
+		10325
+		10419
+		18552
+		18585
+		18610
+		18641
+		2149
+		2769
+		3388
+		3479
+		3775
+		3925
+		3937
+		6616
+		8630
+		10109
+		10141
+		10147
+	}
+	manpower = 52699606
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = megalopolis
+}

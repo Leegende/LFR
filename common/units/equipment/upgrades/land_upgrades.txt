@@ -1,0 +1,16 @@
+upgrades = {
+	tank_nsb_armor_upgrade = {
+		max_level = 2
+		linear_cost = {
+			cost_by_level = 0
+			cost_by_level_for_licensed_equipment = 0
+		}
+		maximum_speed = -0.05
+		add_stats = {
+			breakthrough = 2.5
+			armor_value = 7.5
+			reliability = 0.025
+			build_cost_ic = 1.5
+		}
+	}
+}

@@ -1,0 +1,10 @@
+leader_traits = {
+	GER_mefo_bills_architect_trait = {
+		sprite = 10
+		random = no
+		consumer_goods_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+	}
+
+}

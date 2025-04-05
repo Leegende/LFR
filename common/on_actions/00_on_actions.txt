@@ -1,0 +1,11 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			news_event = {
+				hours = 0
+				days = 0
+				id = news.8
+			}
+		}
+	}
+}

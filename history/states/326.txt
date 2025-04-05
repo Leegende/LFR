@@ -1,0 +1,83 @@
+state = {
+	id = 326
+	name = "STATE_326"
+	provinces = {
+		8111
+		9098
+		9299
+		11574
+		11633
+		11646
+		11694
+		19920
+		1216
+		2155
+		6672
+		11736
+		2692
+		7207
+		9350
+		11390
+		11465
+		11542
+		11547
+		6701
+		8452
+		2535
+		4078
+		4336
+		6490
+		7104
+		8537
+		9418
+		11421
+		1884
+		1927
+		5525
+		6449
+		6933
+		7604
+		11546
+		11566
+		11589
+		11604
+		11676
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		set_state_flag = PRUSSIA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			19920
+			10
+		}
+		victory_points = {
+			9098
+			2
+		}
+		victory_points = {
+			1216
+			2
+		}
+		victory_points = {
+			11547
+			2
+		}
+		victory_points = {
+			9350
+			2
+		}
+		victory_points = {
+			11589
+			10
+		}
+	}
+	manpower = 1373800
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_town
+}

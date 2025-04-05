@@ -1,0 +1,516 @@
+sub_units = {
+	light_tank_flamethrower = {
+		sprite = light_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			armor
+			light_tank
+			flamethrower
+		}
+		same_support_type = flame
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		soft_attack = -0.5
+		breakthrough = -0.5
+		hard_attack = -0.75
+		defense = -0.75
+		armor_value = -0.75
+		need = {
+			light_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
+	}
+	medium_tank_flamethrower = {
+		sprite = medium_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			armor
+			medium_tank
+			flamethrower
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.025
+		can_be_parachuted = no
+		soft_attack = -0.45
+		breakthrough = -0.45
+		hard_attack = -0.7
+		defense = -0.7
+		armor_value = -0.7
+		need = {
+			medium_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.15
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.2
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
+		same_support_type = flame
+	}
+	heavy_tank_flamethrower = {
+		sprite = heavy_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			armor
+			heavy_tank
+			flamethrower
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.625
+		defense = -0.625
+		armor_value = -0.625
+		need = {
+			heavy_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.25
+			movement = 0.1
+		}
+		river = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		same_support_type = flame
+	}
+	modern_tank_flamethrower = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			armor
+			modern_tank
+			flamethrower
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.025
+		can_be_parachuted = no
+		soft_attack = -0.45
+		breakthrough = -0.45
+		hard_attack = -0.7
+		defense = -0.7
+		armor_value = -0.7
+		need = {
+			modern_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.15
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.2
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
+		same_support_type = flame
+	}
+	light_tank_amphibious_flamethrower = {
+		sprite = light_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			armor
+			light_tank
+			flamethrower
+			amphibious
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		soft_attack = -0.5
+		breakthrough = -0.5
+		hard_attack = -0.75
+		defense = -0.75
+		armor_value = -0.75
+		need = {
+			light_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
+			movement = 0.1
+		}
+		river = {
+			attack = 0.15
+		}
+		amphibious = {
+			attack = 0.15
+		}
+		same_support_type = flame
+	}
+	medium_tank_amphibious_flamethrower = {
+		sprite = medium_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			armor
+			medium_tank
+			flamethrower
+			amphibious
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.025
+		can_be_parachuted = no
+		soft_attack = -0.45
+		breakthrough = -0.45
+		hard_attack = -0.7
+		defense = -0.7
+		armor_value = -0.7
+		need = {
+			medium_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.15
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.2
+			movement = 0.1
+		}
+		river = {
+			attack = 0.15
+		}
+		amphibious = {
+			attack = 0.15
+		}
+		same_support_type = flame
+	}
+	heavy_tank_amphibious_flamethrower = {
+		sprite = heavy_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			armor
+			heavy_tank
+			flamethrower
+			amphibious
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		breakthrough = -0.4
+		soft_attack = -0.4
+		hard_attack = -0.625
+		defense = -0.625
+		armor_value = -0.625
+		need = {
+			heavy_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.25
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
+		same_support_type = flame
+	}
+	modern_tank_amphibious_flamethrower = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			armor
+			modern_tank
+			flamethrower
+			amphibious
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.025
+		can_be_parachuted = no
+		soft_attack = -0.45
+		breakthrough = -0.45
+		hard_attack = -0.7
+		defense = -0.7
+		armor_value = -0.7
+		need = {
+			medium_tank_flame_chassis = 15
+		}
+		forest = {
+			attack = 0.1
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.15
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.2
+			movement = 0.1
+		}
+		river = {
+			attack = 0.15
+		}
+		amphibious = {
+			attack = 0.15
+		}
+		same_support_type = flame
+	}
+}

@@ -1,0 +1,138 @@
+state = {
+	id = 42
+	name = "STATE_42"
+	history = {
+		owner = FRA
+		add_core_of = ENG
+		buildings = {
+			21001 = {
+				naval_base = 4
+			}
+			infrastructure = 6
+		}
+		victory_points = {
+			21001
+			80
+		}
+		victory_points = {
+			21002
+			20
+		}
+		victory_points = {
+			3163
+			10
+		}
+		victory_points = {
+			20996
+			5
+		}
+		victory_points = {
+			20958
+			5
+		}
+		victory_points = {
+			20956
+			40
+		}
+		victory_points = {
+			3067
+			2
+		}
+		victory_points = {
+			20946
+			5
+		}
+		victory_points = {
+			20988
+			5
+		}
+		victory_points = {
+			15578
+			5
+		}
+		victory_points = {
+			4618
+			5
+		}
+		victory_points = {
+			20949
+			5
+		}
+	}
+	provinces = {
+		7854
+		5003
+		20949
+		21005
+		5082
+		15635
+		5457
+		15622
+		5967
+		3163
+		9506
+		15503
+		15530
+		20996
+		21001
+		21002
+		21038
+		6849
+		15522
+		15542
+		15558
+		20991
+		20992
+		3397
+		5471
+		21008
+		1162
+		2575
+		2806
+		9485
+		15561
+		15565
+		20958
+		20984
+		3067
+		4665
+		6779
+		6953
+		15586
+		20953
+		20955
+		20956
+		21654
+		5748
+		7836
+		15624
+		20942
+		20946
+		1093
+		15634
+		20944
+		1617
+		15559
+		20988
+		21007
+		21010
+		8404
+		21006
+		2101
+		21000
+		9332
+		15578
+		20980
+		4618
+		8838
+		20948
+		20973
+		4654
+		20951
+		20979
+	}
+	manpower = 3087131
+	state_category = large_city
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

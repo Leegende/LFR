@@ -1,0 +1,78 @@
+state = {
+	id = 3
+	name = "STATE_3"
+	provinces = {
+		10916
+		6536
+		7521
+		10856
+		8252
+		2073
+		1568
+		20003
+		7154
+		7842
+		7860
+		10792
+		10935
+		20001
+		219
+		6024
+		10662
+		1922
+		3285
+		4702
+		9070
+		11000
+		11060
+		19941
+		20000
+		20002
+		215
+		480
+		1782
+		4641
+		6074
+		6387
+		8646
+		8672
+		10638
+		10676
+		10702
+		10707
+		10736
+		10787
+		10832
+		10912
+		16137
+		16297
+		16624
+		3562
+		16461
+		19954
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			19941
+			10
+		}
+		victory_points = {
+			20002
+			2
+		}
+		victory_points = {
+			10736
+			2
+		}
+	}
+	manpower = 816900
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+}

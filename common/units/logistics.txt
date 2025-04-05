@@ -1,0 +1,175 @@
+sub_units = {
+	logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			logistics_company
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		can_be_parachuted = yes
+		supply_consumption_factor = -0.3
+		fuel_consumption_factor = -0.1
+		own_equipment_fuel_consumption_mult = 0
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorized_equipment = 20
+		}
+		same_support_type = logistics_company
+	}
+	horse_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			logistics_company
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		can_be_parachuted = yes
+		supply_consumption_factor = -0.4
+		fuel_consumption_factor = -0.1
+		own_equipment_fuel_consumption_mult = 0
+		need = {
+			support_equipment = 40
+		}
+		same_support_type = logistics_company
+	}
+	motorized_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			logistics_company
+			motorized
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		can_be_parachuted = yes
+		supply_consumption_factor = -0.5
+		fuel_consumption_factor = -0.1
+		own_equipment_fuel_consumption_mult = 0
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		need = {
+			support_equipment = 30
+			motorized_equipment = 30
+		}
+		same_support_type = logistics_company
+	}
+	mechanized_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			logistics_company
+			mechanized
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		can_be_parachuted = yes
+		supply_consumption_factor = -0.6
+		fuel_consumption_factor = -0.15
+		own_equipment_fuel_consumption_mult = 0
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		need = {
+			support_equipment = 30
+			mechanized_equipment = 30
+		}
+		same_support_type = logistics_company
+	}
+	helicopter_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			logistics_company
+			helicopter
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		can_be_parachuted = yes
+		supply_consumption_factor = -0.7
+		fuel_consumption_factor = -0.15
+		own_equipment_fuel_consumption_mult = 0
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		need = {
+			support_equipment = 40
+			#helicopter_equipment_1 = 30
+		}
+		same_support_type = logistics_company
+	}
+}

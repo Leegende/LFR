@@ -1,0 +1,33 @@
+﻿capital = 324
+starting_train_buffer = 100
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.1
+add_command_power = 20
+add_ideas = {
+}
+
+set_convoys = 800
+create_intelligence_agency = yes
+set_faction_spymaster = yes
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 97
+	fascism = 2
+	communism = 1
+}
+
+create_faction = "Allies"
+add_to_faction = ENG
+add_to_faction = IRE
+add_to_faction = YUG
+add_to_faction = GRE
+add_to_faction = FRA

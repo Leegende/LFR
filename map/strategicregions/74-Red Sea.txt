@@ -1,0 +1,26 @@
+strategic_region = {
+	id = 74
+	name = "STRATEGICREGION_74"
+	provinces = {
+		16085
+		17368
+		17472
+		17911
+		18064
+		18503
+		18507
+	}
+	weather = {
+		period = {
+			min_snow_level = 0
+			between = {
+				0
+				30.11
+			}
+			temperature = {
+				0
+				0
+			}
+		}
+	}
+}

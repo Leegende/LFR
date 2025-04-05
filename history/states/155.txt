@@ -1,0 +1,163 @@
+
+state = {
+id = 155
+	name = "STATE_155"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		set_state_flag = SECONDVIENNA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 5
+		}
+		victory_points = {
+			13863
+			2
+		}
+		victory_points = {
+			14127
+			2
+		}
+		victory_points = {
+			3813
+			2
+		}
+		victory_points = {
+			208
+			2
+		}
+		victory_points = {
+			2734
+			5
+		}
+		victory_points = {
+			13796
+			5
+		}
+		victory_points = {
+			13942
+			20
+		}
+		victory_points = {
+			20428
+			10
+		}
+		victory_points = {
+			13697
+			2
+		}
+		victory_points = {
+			20398
+			10
+		}
+		victory_points = {
+			20397
+			10
+		}
+		victory_points = {
+			20396
+			20
+		}
+	}
+	provinces = {
+		3099
+		4881
+		5876
+		6220
+		6826
+		13830
+		13863
+		20421
+		4065
+		6526
+		14127
+		17314
+		20431
+		3813
+		7686
+		14046
+		14052
+		14061
+		14098
+		13771
+		13831
+		208
+		4501
+		13588
+		17799
+		2562
+		5152
+		13698
+		9623
+		13587
+		20455
+		441
+		2734
+		13701
+		2784
+		4960
+		8275
+		13684
+		13685
+		13740
+		13741
+		13796
+		13849
+		13867
+		5349
+		13848
+		13904
+		13918
+		13942
+		20422
+		1766
+		5589
+		9335
+		13923
+		13943
+		20419
+		20420
+		1586
+		4454
+		7460
+		13900
+		13954
+		13975
+		20407
+		20427
+		20428
+		2412
+		4093
+		8412
+		13948
+		18093
+		6942
+		8432
+		13697
+		13734
+		18344
+		20398
+		20404
+		13854
+		9192
+		13651
+		20403
+		3219
+		8609
+		13549
+		17003
+		20397
+		3276
+		5364
+		13764
+		13820
+		13876
+		20396
+	}
+	manpower = 2707527
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}
+

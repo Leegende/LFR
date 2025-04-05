@@ -1,0 +1,160 @@
+state = {
+	id = 135
+	name = "STATE_135"
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			10523 = {
+				naval_base = 2
+			}
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			10523
+			20
+		}
+		victory_points = {
+			10671
+			5
+		}
+		victory_points = {
+			3846
+			2
+		}
+		victory_points = {
+			2976
+			2
+		}
+		victory_points = {
+			7425
+			5
+		}
+		victory_points = {
+			19612
+			5
+		}
+		victory_points = {
+			9651
+			2
+		}
+		victory_points = {
+			19609
+			5
+		}
+		victory_points = {
+			6640
+			2
+		}
+		victory_points = {
+			10305
+			2
+		}
+		victory_points = {
+			2707
+			10
+		}
+		victory_points = {
+			8360
+			2
+		}
+		victory_points = {
+			10535
+			2
+		}
+		victory_points = {
+			19617
+			2
+		}
+	}
+	provinces = {
+		10511
+		10523
+		10540
+		10572
+		683
+		2833
+		9120
+		10601
+		10624
+		10647
+		10671
+		19643
+		2976
+		3803
+		3846
+		8004
+		8353
+		10454
+		10479
+		19100
+		19607
+		3641
+		7425
+		9459
+		10587
+		10636
+		9282
+		9651
+		10554
+		19563
+		19610
+		19612
+		3151
+		3419
+		10415
+		10464
+		10484
+		10500
+		19609
+		3230
+		3565
+		6640
+		10305
+		10318
+		19489
+		8755
+		19615
+		19616
+		19642
+		2494
+		2707
+		6345
+		7065
+		10344
+		10345
+		10352
+		10381
+		18616
+		18664
+		19606
+		19608
+		2341
+		6154
+		7048
+		10377
+		19097
+		1364
+		3569
+		7735
+		8221
+		8318
+		8360
+		10483
+		10527
+		10535
+		19611
+		10768
+		19614
+		19617
+		7789
+		9548
+		10729
+	}
+	manpower = 1788430
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+}

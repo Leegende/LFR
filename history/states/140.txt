@@ -1,0 +1,65 @@
+
+state = {
+id = 140
+	name = "STATE_140"
+	provinces = {
+		14750
+		20198
+		20240
+		3540
+		14821
+		14848
+		16988
+		20222
+		4102
+		14773
+		2502
+		20209
+		16139
+		14839
+		18321
+		14878
+		19227
+		14805
+		14828
+		17702
+		20228
+		20223
+		3622
+		4463
+	}
+	history = {
+		owner = YUG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = YUG
+		victory_points = {
+			20198
+			10
+		}
+		victory_points = {
+			20222
+			10
+		}
+		victory_points = {
+			14848
+			5
+		}
+		victory_points = {
+			14805
+			40
+		}
+		victory_points = {
+			20223
+			10
+		}
+	}
+	manpower = 618284
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
+

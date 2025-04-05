@@ -1,0 +1,103 @@
+state = {
+	id = 199
+	name = "STATE_199"
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 5
+		}
+		victory_points = {
+			7710
+			2
+		}
+		victory_points = {
+			3032
+			20
+		}
+		victory_points = {
+			13425
+			5
+		}
+		victory_points = {
+			13613
+			2
+		}
+		victory_points = {
+			7959
+			1
+		}
+		victory_points = {
+			20848
+			80
+		}
+	}
+	provinces = {
+		7355
+		13173
+		13277
+		3223
+		7710
+		13358
+		13365
+		2619
+		3800
+		7864
+		13402
+		20841
+		4215
+		13683
+		13739
+		13895
+		20839
+		13704
+		7504
+		7909
+		20833
+		8683
+		13713
+		13738
+		20834
+		6978
+		3032
+		5308
+		13648
+		13381
+		13425
+		13443
+		13497
+		13573
+		20840
+		2714
+		5329
+		5332
+		13558
+		13613
+		20845
+		20851
+		20846
+		20849
+		13421
+		20850
+		20847
+		5271
+		5929
+		8046
+		8128
+		9570
+		13439
+		13476
+		7959
+		9168
+		19321
+		20818
+		20844
+		20848
+	}
+	manpower = 4072373
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 305
+	name = "STATE_305"
+	history = {
+		owner = POL
+		add_core_of = POL
+		set_state_flag = PRUSSIA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		victory_points = {
+			10923
+			20
+		}
+	}
+	provinces = {
+		6016
+		10998
+		4378
+		10923
+		17161
+	}
+	manpower = 419000
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+}

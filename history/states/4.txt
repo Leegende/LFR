@@ -1,0 +1,14 @@
+state = {
+	id = 4
+	name = "STATE_4"
+	manpower = 1
+	impassable = yes
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+	provinces = {
+		15010
+
+		
+	}
+}

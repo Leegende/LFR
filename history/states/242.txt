@@ -1,0 +1,75 @@
+state = {
+	id = 242
+	name = "STATE_242"
+	provinces = {
+		2766
+		5180
+		7463
+		8170
+		8374
+		9102
+		10978
+		11019
+		11028
+		11069
+		10834
+		10880
+		10886
+		15756
+		16102
+		242
+		11216
+		6123
+		2179
+		7451
+		9254
+		11041
+		15764
+		3492
+		4118
+		4175
+		7409
+		10947
+		10959
+		40
+		4031
+		9021
+		9199
+		11020
+		11061
+		11083
+		11163
+		4218
+		8266
+		10973
+		10987
+		11056
+		637
+		7590
+		9346
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			11069
+			80
+		}
+		victory_points = {
+			10959
+			10
+		}
+		victory_points = {
+			11163
+			20
+		}
+	}
+	manpower = 1860837
+	state_category = metropolis
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

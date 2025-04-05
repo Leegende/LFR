@@ -1,0 +1,125 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 4
+		}
+		victory_points = {
+			12221
+			5
+		}
+		victory_points = {
+			1049
+			5
+		}
+		victory_points = {
+			19913
+			20
+		}
+		victory_points = {
+			12328
+			2
+		}
+		victory_points = {
+			12103
+			2
+		}
+		victory_points = {
+			19914
+			5
+		}
+		victory_points = {
+			12424
+			5
+		}
+		victory_points = {
+			2486
+			2
+		}
+	}
+	provinces = {
+		12341
+		12348
+		12440
+		12484
+		7788
+		12530
+		1756
+		12424
+		8502
+		12518
+		3114
+		2486
+		661
+		3860
+		5374
+		7305
+		11926
+		11988
+		12095
+		12168
+		12221
+		372
+		877
+		1316
+		1463
+		3568
+		6797
+		8385
+		11901
+		11906
+		11907
+		11972
+		234
+		1049
+		5444
+		6782
+		8067
+		11785
+		11795
+		11825
+		1631
+		1845
+		3195
+		4943
+		5461
+		5905
+		6396
+		7467
+		8629
+		8999
+		12024
+		12056
+		12094
+		12103
+		12124
+		12161
+		12173
+		12279
+		12295
+		12328
+		12431
+		12475
+		19913
+		4598
+		7109
+		8449
+		11671
+		11677
+		11721
+		11737
+		11768
+		11846
+		19914
+		5515
+	}
+	manpower = 1664071
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+}

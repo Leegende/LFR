@@ -1,0 +1,114 @@
+state = {
+	id = 317
+	name = "STATE_317"
+	provinces = {
+		12389
+		3284
+		3980
+		4708
+		8880
+		12157
+		12165
+		12205
+		12206
+		3958
+		6128
+		8746
+		8779
+		12255
+		12265
+		12297
+		12361
+		19898
+		2026
+		8883
+		9080
+		9081
+		12244
+		12249
+		12311
+		1953
+		5002
+		6949
+		12266
+		12335
+		12354
+		12412
+		19892
+		2052
+		5139
+		12312
+		12362
+		12399
+		12448
+	}
+	history = {
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 4
+		}
+		victory_points = {
+			12389
+			40
+		}
+		victory_points = {
+			12205
+			20
+		}
+		victory_points = {
+			12157
+			2
+		}
+		victory_points = {
+			8746
+			10
+		}
+		victory_points = {
+			12255
+			5
+		}
+		victory_points = {
+			12361
+			5
+		}
+		victory_points = {
+			3958
+			5
+		}
+		victory_points = {
+			8779
+			2
+		}
+		victory_points = {
+			12249
+			20
+		}
+		victory_points = {
+			9081
+			5
+		}
+		victory_points = {
+			12311
+			5
+		}
+		victory_points = {
+			19892
+			5
+		}
+		victory_points = {
+			12354
+			5
+		}
+		victory_points = {
+			12362
+			5
+		}
+	}
+	manpower = 5192600
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+}

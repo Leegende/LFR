@@ -1,0 +1,3 @@
+GER_economy_dynamic_modifier_tt = {
+	custom_effect_tooltip = GER_german_economy_spirit_change
+}

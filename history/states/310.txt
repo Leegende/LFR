@@ -1,0 +1,31 @@
+
+state = {
+id = 310
+	name = "STATE_310"
+	provinces = {
+		718
+		3728
+		9705
+		15913
+		17979
+		71
+		16858
+		17140
+		19706
+	}
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+	}
+	manpower = 46702
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+
