@@ -3995,7 +3995,7 @@
 3994;103;216;239;land;false;plains;1
 3995;113;246;187;land;true;plains;1
 3996;211;171;188;land;false;plains;1
-3997;185;214;174;land;false;mountain;7
+3997;185;214;174;land;true;mountain;7
 3998;189;77;239;land;false;plains;1
 3999;237;155;124;land;false;plains;1
 4000;219;171;173;land;false;desert;7
