@@ -1,3 +1,63 @@
+
+NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.0  -- No equipment capture
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000
+NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = -1  -- Disable commanders
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = -1
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 1000
+NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 30
+NDefines.NProduction.CONSUMER_GOODS_MIN_FACTORIES = 0
+
+-- SUPPLY SYSTEM SIMPLIFICATION
+NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 5.0
+NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 3.0
+NDefines.NSupply.INFRA_TO_SUPPLY = 0.25
+NDefines.NSupply.SUPPLY_UPDATE_FREQUENCY = 168  -- Weekly updates
+NDefines.NSupply.SUPPLY_PATH_MAX_DISTANCE = 30
+
+-- GRAPHICS DRASTIC REDUCTIONS
+NDefines.NGraphics.UNITS_DISTANCE_CUTOFF = 150
+NDefines.NGraphics.SHIPS_DISTANCE_CUTOFF = 200
+NDefines.NGraphics.PROVINCE_NAME_DRAW_DISTANCE = 300.0
+NDefines.NGraphics.MAP_ICONS_GROUP_CAM_DISTANCE = 100.0
+NDefines.NGraphics.MAP_ICONS_STATE_GROUP_CAM_DISTANCE = 200.0
+NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {150, 300, 600}
+
+NDefines_Graphics.NGraphics_MAX_MESHES_LOADED_PER_FRAME = 5
+NDefines_Graphics.NGraphics_DRAW_DETAILED_CUTOFF = 75
+NDefines_Graphics.NGraphics_DRAW_FOW_CUTOFF = 150
+NDefines_Graphics.NGraphics_DRAW_SHADOWS_CUTOFF = 100
+NDefines_Graphics.NGraphics_TREE_FADE_NEAR = 50
+NDefines_Graphics.NGraphics_TREE_FADE_FAR = 150
+
+-- COMPLETELY DISABLE UNNECESSARY SYSTEMS
+NDefines.NOperatives.AGENCY_CREATION_DAYS = 9999  -- Disable spies
+NDefines.NAir.AIR_WING_MAX_SIZE = 1000  -- Reduce air unit count
+NDefines.NNavy.CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 0  -- No convoy tracking
+
+-- MEMORY OPTIMIZATIONS
+NDefines.NGraphics.COUNTRY_FLAG_TEX_MAX_SIZE = 512
+NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_MAX_SIZE = 128
+NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_HEIGHT = 2048
+NDefines.NGraphics.COUNTRY_FLAG_LARGE_STRIPE_MAX_HEIGHT = 4096
+
+-- DISABLE VISUAL EFFECTS
+NDefines.NGraphics.WEATHER_DISTANCE_CUTOFF = -1  -- No weather
+NDefines_Graphics.NGraphics_EMISSIVE_BLOOM_STRENGTH = 0.0
+NDefines_Graphics.NGraphics_BLOOM_WIDTH = 0
+NDefines_Graphics.NGraphics_BLOOM_SCALE = 0
+
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_DIPLOMACY = 1
+NDefines_Graphics.NGraphics.BORDER_WIDTH = 1.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_LOW = 0.0 -- country area in sum of pixels ...
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0 -- ... the value is squared, so fe. country of size 100x100pix = 10000
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 0.0 -- thickness in pixels
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 35.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_STATE = 1.0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_OUTLINE_CUTOFF_COUNTRY = 0.98
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_OUTLINE_CUTOFF_DIPLOMACY = 0.98
 NDefines.NGame.START_DATE = "1936.1.1.12"
 NDefines.NGame.END_DATE = "1970.1.1.1"
 NDefines.NGame.GAME_SPEED_SECONDS = { 99999.0, 0.11, 0.27, 0.07, 0.0 }
