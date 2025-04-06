@@ -1,9 +1,5 @@
 ﻿l_english:
-
-#abilities_l_english
  ABILITY_TOOLTIP_COST:0 "£command_power_texticon  Command Power Cost: $VALUE|H$"
-
-#combat_l_english
  CURR_COMB_STR:0 "£strenght_texticon  Strength: $VALUE|0%Y$"
  BM_ATTACK_VALUE:0 "£attack_texticon  Attack: $VALUE|+=%$"
  BM_DEFEND_VALUE:0 "£defence_texticon  Defense: $VALUE|+=%$"
@@ -13,8 +9,6 @@
  SCREENING_VALUE:0 "£armor_texticon  Screening: $NUM|+%$"
  POSITIONING_VALUE:0 "£ships_contact_texticon  Positioning: $NUM|+%$"
  BM_ENEMY_AIR_SUPERIORITY_COUNTER:0 "£enemy_air_superiority_texticon  Enemy air superiority reduction"
-
-#core_l_english
  NAVAL_COMBAT_SHIP_STRENGTH:0 "£strenght_texticon  Strength: $STR|%Y$"
  NAVAL_COMBAT_SHIP_ORGANIZATION_FACTOR:0 " - £organization_texticon  Organization: $ORG|%Y$"
  UNIT_ORG:0 "£organization_texticon  Organization: $VALUE|H$"
@@ -26,15 +20,10 @@
  ORG_DAMAGE_MULTIPLIER:0 "£organization_texticon  Organization damage taken"
  STR_DAMAGE_MULTIPLIER:0 "£strenght_texticon  Strength damage taken"
  WAR_SUPPORT_REDUCTION_ON_DAMAGE:0 "£war_support_modifiericons_texticon  War Support reduction on damaged"
- 
-#country_l_english
  MANPOWER:0 "£manpower_texticon  Manpower"
- 
-#designer_l_english
  DESIGNER_COMBATWIDTH:0 "£combat_width_texticon  Combat width: "
  DESIGNER_MANPOWER:0 "£manpower_texticon  Manpower: "
  DESIGNER_TRAINING_TIME:0 "£training_speed_texticon  Training time: "
- 
 #effects_l_english
  EFFECT_ADD_NATIONAL_UNITY:0 "£national_unity_texticon  Gain Base National Unity: $VAL|+=%$."
  EFFECT_SET_NATIONAL_UNITY:0 "£national_unity_texticon  Set Base National Unity: $VAL|%$."
@@ -78,11 +67,7 @@
  EFFECT_MANPOWER_ADD_STATE:1 "£population_texticon  Local Population: $VAL|+=0$."
  EFFECT_ADD_THREAT:0 "£world_tension_texticon  World Tension is increased by $THREAT|1R$."
  EFFECT_REMOVE_THREAT:0 "£world_tension_texticon  World Tension is decreased by $THREAT|1G$."
-
-#focus_l_english
  anschluss_mefo_bills_double_reduction:0 "Modify §YMEFO Bills§! by $MODIFIER_POLITICAL_POWER_GAIN$: §G+0.10§!\n"
- 
-#ideas_l_english
  modifier_tactic_elastic_defense_preferred_weight_factor:1 "£tactics_texticon  Additional §YElastic Defense§! Tactic Chance if it is Preferred tactic"
  modifier_tactic_overwhelming_fire_preferred_weight_factor:1 "£tactics_texticon  Additional §YOverwhelming Fire§! Tactic Chance if it is Preferred tactic"
  modifier_tactic_seize_bridge_preferred_weight_factor:1 "£tactics_texticon  Additional §YSeize Bridge§! Tactic Chance if it is Preferred tactic"
@@ -93,8 +78,6 @@
  modifier_tactic_barrage_preferred_weight_factor:1 "£tactics_texticon  Additional §YSuppressive Barrage§! Tactic Chance if it is Preferred tactic"
  modifier_tactic_planned_attack_preferred_weight_factor:1 "£tactics_texticon  Additional §YWell Planned Attack§! Tactic Chance if it is Preferred tactic"
  modifier_tactic_relentless_assault_preferred_weight_factor:1 "£tactics_texticon  Additional §YRelentless Assault§! Tactic Chance if it is Preferred tactic"
-
-#modifiers_l_english
  MODIFIER_TECH_PREFIX:0 "£tech_mod  "
  MODIFIER_POLITICS_PREFIX:0 "£pol_idea  "
  MODIFIER_DECISION_PREFIX:1 "£decision_icon_small  "
