@@ -6,6 +6,11 @@ tags={
 	"Utilities"
 	"Gameplay"
 }
+replace_path="gfx/flags"
+replace_path="gfx/flags/small"
+replace_path="gfx/flags/medium"
+
+
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/general"
