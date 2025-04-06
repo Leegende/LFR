@@ -21,26 +21,60 @@ characters = {
 			}
 		}
 	}
-	GER_konstantin_von_neurath = {
-		name = GER_konstantin_von_neurath
+	GER_adolf_hitler = {
+		name = GER_adolf_hitler
 		portraits = {
-			army = {
-				small = "gfx/interface/ideas/idea_konstantin_von_neurath.dds"
+			civilian = {
+				large = GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	GER_eva_braun = {
+		name = GER_eva_braun
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_eva_braun
+				small = GFX_portrait_GER_eva_braun_small
+			}
+		}
+		gender = female
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_hjalmar_schacht
+			cost = 75
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_four_year_plan
+			}
+			traits = {
+				GER_mefo_bills_architect_trait
+			}
+		}
+	}
+	GER_wilhelm_ii = {
+		name = GER_wilhelm_ii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ger_wilhelm_ii
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = konstantin_von_neurath
+			idea_token = GER_hjalmar_schacht
+			cost = 75
 			allowed = {
 				original_tag = GER
 			}
-			visible = {
-				always = yes
-			}
 			available = {
-				always = yes
+				has_completed_focus = GER_four_year_plan
 			}
-			cost = 50
 			traits = {
 				GER_mefo_bills_architect_trait
 			}
