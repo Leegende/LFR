@@ -2,7 +2,6 @@ foreign_civilian_oversight = {
 	icon = 3
 	default_law = yes
 	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
-	main_fallback_law = yes
 	missing_garrison_law = yes
 	state_modifier = {
 		resistance_target = -0.15
