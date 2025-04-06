@@ -30,8 +30,6 @@ is_diplomatic_action_valid_kick_from_faction = {
 	always = no
 }
 
-
-
 is_diplomatic_action_valid_join_faction = {
 	always = no
 }
@@ -91,9 +89,3 @@ is_diplomatic_action_valid_request_foreign_manpower = {
 is_diplomatic_action_valid_transfert_spymaster = {
 	always = no
 }
-
-is_diplomatic_action_valid_justify_war_goal = {
-	always = no
-}
-
-
