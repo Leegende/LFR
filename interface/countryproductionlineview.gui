@@ -224,13 +224,13 @@ guiTypes = {
 				}
 				#################################
 				iconType = {
-					name = "production_base_icon"
+					name = "docyards_output_icon"
 					position = { x=22 y=58 }
-					spriteType = "GFX_effiency_base_icon"
+					spriteType = "GFX_naval_factory_non_trasnparent_icon"
 				}
 
 				instantTextboxType = {
-					name = "production_base_value"
+					name = "docyards_output_value"
 					position = { x = 50 y = 58 }
 					textureFile = ""
 					font = "hoi_18mbs"

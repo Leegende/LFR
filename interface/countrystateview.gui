@@ -426,13 +426,7 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 
-		buttonType = {
-			name = "scorched_earth_state_button"
-			position = { x = -17 y = 413 }
-			quadTextureSprite ="GFX_scorched_earth_state"
-			buttonFont = "Main_14_black"
-			Orientation = "UPPER_RIGHT"
-		}
+	
 	}
 	
 	windowType = {

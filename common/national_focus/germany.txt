@@ -1527,11 +1527,11 @@
 				tooltip = production_factory_max_efficiency_factor_tt
 			}
 			add_to_variable = {
-				GER_german_economy_production_factory_efficiency_gain_factor = -0.25
+				GER_german_economy_production_factory_efficiency_gain_factor = -0.50
 				tooltip = production_factory_efficiency_gain_factor_tt
 			}
 			add_to_variable = {
-				GER_german_economy_production_factory_start_efficiency_factor = -0.1
+				GER_german_economy_production_factory_start_efficiency_factor = -0.099
 				tooltip = production_factory_start_efficiency_factor_tt
 			}
 			add_to_variable = {
