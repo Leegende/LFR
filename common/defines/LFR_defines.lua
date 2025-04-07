@@ -1,4 +1,8 @@
 
+
+
+
+
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.0  -- No equipment capture
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000
@@ -8,6 +12,7 @@ NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = -1
 NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 1000
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 30
 NDefines.NProduction.CONSUMER_GOODS_MIN_FACTORIES = 0
+NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 0.15
 
 -- SUPPLY SYSTEM SIMPLIFICATION
 NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 5.0
@@ -26,7 +31,6 @@ NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {150, 300, 600}
 
 NDefines_Graphics.NGraphics_MAX_MESHES_LOADED_PER_FRAME = 5
 NDefines_Graphics.NGraphics_DRAW_DETAILED_CUTOFF = 75
-NDefines_Graphics.NGraphics_DRAW_FOW_CUTOFF = 150
 NDefines_Graphics.NGraphics_DRAW_SHADOWS_CUTOFF = 100
 NDefines_Graphics.NGraphics_TREE_FADE_NEAR = 50
 NDefines_Graphics.NGraphics_TREE_FADE_FAR = 150

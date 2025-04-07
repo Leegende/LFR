@@ -21,6 +21,7 @@
  #mechanized_equipment_1_short:0 "Mechanized I"
  #mechanized_equipment_2_short:0 "Mechanized II"
  #mechanized_equipment_3_short:0 "Mechanized III"
+ ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
  gw_armored_car_equipment_short:0 "Armored Car I"
  armored_car_equipment_1_short:0 "Armored Car II"
  armored_car_equipment_2_short:0 "Armored Car III"

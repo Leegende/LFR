@@ -158,6 +158,10 @@ spriteTypes = {
 		name = "GFX_production_output_icon"
 		textureFile = "gfx//interface//production_output_icon.dds"
 	}
+	spriteType = {
+		name = "GFX_effiency_base_icon"
+		textureFile = "gfx//interface//efficiency_base_icon.dds"
+	}
 
 	spriteType = {
 		name = "GFX_generic_bg2"
