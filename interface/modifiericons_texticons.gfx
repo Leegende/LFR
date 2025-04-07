@@ -3237,6 +3237,36 @@ spriteTypes = {
 		texturefile = "gfx/texticons/improve_relations_cost_texticon.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_femboy_texticon"
+		texturefile = "gfx/texticons/femboy_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_kollegah_texticon"
+		texturefile = "gfx/texticons/kollegah_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_modding_texticon"
+		texturefile = "gfx/texticons/modding_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_schlumpf_texticon"
+		texturefile = "gfx/texticons/schlumpf_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_money_texticon"
+		texturefile = "gfx/texticons/money_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+
 	
 	spriteType = {
 		name = "GFX_improve_relations_texticon"

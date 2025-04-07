@@ -202,6 +202,7 @@ technologies = {
 				juggle1 = 0
 			}
 		}
+		custom_modifier_tooltip = juggle1_gain
 	}
 	infantry_weapons = {
 		enable_equipments = {
@@ -247,7 +248,8 @@ technologies = {
 			leads_to_tech = hard_attack_infantry_weapons1
 		}
 		research_cost = 2
-		start_year = 1938	ai_will_do = {
+		start_year = 1938
+		ai_will_do = {
 			base = -9999999
 		}
 		folder = {
@@ -303,7 +305,8 @@ technologies = {
 			leads_to_tech = hard_attack_infantry_weapons3
 		}
 		research_cost = 2
-		start_year = 1942	ai_will_do = {
+		start_year = 1942
+		ai_will_do = {
 			base = -9999999
 		}
 		folder = {
@@ -365,7 +368,8 @@ technologies = {
 			hard_attack_infantry_weapons1
 		}
 		research_cost = 1
-		start_year = 1939	ai_will_do = {
+		start_year = 1939
+		ai_will_do = {
 			base = -9999999
 		}
 		folder = {
@@ -497,7 +501,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 0
-		start_year = 1936	ai_will_do = {
+		start_year = 1936
+		ai_will_do = {
 			base = -9999999
 		}
 		folder = {
@@ -510,7 +515,6 @@ technologies = {
 		categories = {
 			truck
 		}
-		
 	}
 	mechanised_infantry = {
 		enable_equipments = {
@@ -594,7 +598,8 @@ technologies = {
 		}
 		categories = {
 			truck
-		}	ai_will_do = {
+		}
+		ai_will_do = {
 			base = -9999999
 		}
 	}
@@ -626,7 +631,8 @@ technologies = {
 		start_year = 1939
 		categories = {
 			truck
-		}	ai_will_do = {
+		}
+		ai_will_do = {
 			base = -9999999
 		}
 	}
@@ -859,7 +865,8 @@ technologies = {
 		}
 		categories = {
 			railway_gun
-		}	ai_will_do = {
+		}
+		ai_will_do = {
 			base = -9999999
 		}
 	}

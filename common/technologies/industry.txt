@@ -23,6 +23,7 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
+		custom_modifier_tooltip = juggle5_gain
 		on_research_complete = {
 			set_technology = {
 				juggle5 = 0

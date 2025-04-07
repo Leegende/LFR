@@ -1,8 +1,16 @@
 state = {
 	id = 294
 	name = "STATE_294"
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = {
+			19427
+			40
+		}
+	}
 	provinces = {
-		19463
+		19427
 	}
 	impassable = yes
 	manpower = 1
