@@ -9,8 +9,6 @@ tags={
 replace_path="gfx/flags"
 replace_path="gfx/flags/small"
 replace_path="gfx/flags/medium"
-
-
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/general"
@@ -75,6 +73,6 @@ replace_path="events"
 replace_path="gfx/flags"
 replace_path="gfx/flags/small"
 replace_path="gfx/flags/medium"
-supported_version="1.16.4"
 picture="thumbnail.png"
+supported_version="1.16.4"
 remote_file_id="5000000000"
