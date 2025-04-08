@@ -39,7 +39,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7574;9674;sea;16809;-1;-1;-1;-1;;Odense-Sjaelland 2
 4745;19625;sea;16809;-1;-1;-1;-1;;Sjaelland-Maribo
 19624;19625;sea;16809;-1;-1;-1;-1;;Maribo Isle
-4811;19629;sea;17772;-1;-1;-1;-1;;Kalmar Island
 19450;19463;sea;17957;-1;-1;-1;-1;;Norway Islands 1
 19462;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 2
 1043;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 3
