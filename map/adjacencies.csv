@@ -40,43 +40,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4745;19625;sea;16809;-1;-1;-1;-1;;Sjaelland-Maribo
 19624;19625;sea;16809;-1;-1;-1;-1;;Maribo Isle
 19450;19463;sea;17957;-1;-1;-1;-1;;Norway Islands 1
-19462;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 2
-1043;19461;sea;16505;-1;-1;-1;-1;;Norway Islands 3
 19458;3231;sea;17290;-1;-1;-1;-1;;Norway Islands 4
-19459;5080;sea;16484;-1;-1;-1;-1;;Norway Islands 5
 19466;9521;sea;16420;-1;-1;-1;-1;;Norway Islands 6
-19465;181;sea;17892;-1;-1;-1;-1;;Norway Islands 7
 2263;19464;sea;16334;-1;-1;-1;-1;;Norway Islands 8
-19469;19439;sea;17515;-1;-1;-1;-1;;Norway Islands 10
-19470;19521;sea;17515;-1;-1;-1;-1;;Norway Islands 11
-19471;19522;sea;18247;-1;-1;-1;-1;;Norway Islands 12
-19472;19473;sea;18247;-1;-1;-1;-1;;Norway Islands 13
-4349;19472;sea;18247;-1;-1;-1;-1;;Norway Islands 14
-6564;19474;sea;18228;-1;-1;-1;-1;;Norway Islands 15
-19477;19476;sea;18228;-1;-1;-1;-1;;Norway Islands 16
-3995;19481;sea;17646;-1;-1;-1;-1;;Norway Islands 17
-19485;481;sea;16183;-1;-1;-1;-1;;Norway Islands 18
-19486;19520;sea;16183;-1;-1;-1;-1;;Norway Islands 19
-19487;19520;sea;16183;-1;-1;-1;-1;;Norway Islands 20
-75;19488;sea;16183;-1;-1;-1;-1;;Norway Islands 21
-75;4674;sea;16183;-1;-1;-1;-1;;Norway Islands 22
-970;19492;sea;16183;-1;-1;-1;-1;;Norway Islands 23
-19498;19499;sea;16241;-1;-1;-1;-1;;Norway Islands 24
-19494;19501;sea;16241;-1;-1;-1;-1;;Norway Islands 26
-1883;19505;sea;17806;-1;-1;-1;-1;;Norway Islands 27
-1883;19506;sea;17806;-1;-1;-1;-1;;Norway Islands 28
-6602;19512;sea;17806;-1;-1;-1;-1;;Norway Islands 29
-19508;19513;sea;17806;-1;-1;-1;-1;;Norway Islands 30
-6602;19510;sea;17854;-1;-1;-1;-1;;Norway Islands 31
 19467;19468;sea;16334;-1;-1;-1;-1;;Norway Islands 33
-7635;19460;sea;16420;-1;-1;-1;-1;;Norway Islands 34
-7558;19475;sea;16557;-1;-1;-1;-1;;Norway Islands 35
-19479;19480;sea;17646;-1;-1;-1;-1;;Norway Islands 36
-9113;19514;sea;16468;-1;-1;-1;-1;;Norway Islands 37
-19495;19498;sea;16183;-1;-1;-1;-1;;Norway Islands 38
-1560;19502;sea;16241;-1;-1;-1;-1;;Norway Islands 39
-1560;19503;sea;16241;-1;-1;-1;-1;;Norway Islands 40
-19503;19504;sea;16241;-1;-1;-1;-1;;Norway Islands 41
+
+
+
 5084;19653;sea;17255;-1;-1;-1;-1;;Finland Islands 1
 19665;19652;sea;17782;-1;-1;-1;-1;;Finland Islands 2
 19656;19663;sea;16755;-1;-1;-1;-1;;Finland Islands 3
@@ -153,6 +123,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 19660;20563;sea;17981;-1;-1;-1;-1;;Wolin 2
 19160;19165;sea;18500;-1;-1;-1;-1;;Al-Sabiyyah Channel
 7148;19383;sea;18108;-1;-1;-1;-1;;Northumberland Strait
-19641;19651;sea;16479;-1;-1;-1;-1;;Fårö Strait
 3033;19386;sea;16391;-1;-1;-1;-1;;Northampton
 -1;-1;;-1;-1;-1;-1;-1;-1
