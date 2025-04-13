@@ -19,8 +19,6 @@ state = {
 		18588
 		6552
 		14014
-
-
 	}
 	history = {
 		owner = ENG
@@ -31,6 +29,10 @@ state = {
 		victory_points = {
 			19769
 			2
+		}
+		victory_points = {
+			19770
+			10
 		}
 	}
 	manpower = 18000

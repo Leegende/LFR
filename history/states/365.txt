@@ -9,6 +9,14 @@ state = {
 			industrial_complex = 1
 			arms_factory = 1
 		}
+		victory_points = {
+			15100
+			5
+		}
+		victory_points = {
+			19747
+			10
+		}
 	}
 	provinces = {
 		2420
@@ -29,7 +37,6 @@ state = {
 		15117
 		20515
 	}
-	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = wasteland

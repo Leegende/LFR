@@ -9,6 +9,22 @@ state = {
 			industrial_complex = 2
 			arms_factory = 1
 		}
+		victory_points = {
+			19767
+			20
+		}
+		victory_points = {
+			7546
+			40
+		}
+		victory_points = {
+			1785
+			2
+		}
+		victory_points = {
+			19771
+			10
+		}
 	}
 	provinces = {
 		1516
@@ -33,7 +49,6 @@ state = {
 		15513
 		19767
 	}
-	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1
 	local_supplies = 0

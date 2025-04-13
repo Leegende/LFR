@@ -1,5 +1,5 @@
 state = {
-id = 358
+	id = 358
 	name = "STATE_358"
 	history = {
 		owner = SPR
@@ -8,6 +8,42 @@ id = 358
 			infrastructure = 6
 			industrial_complex = 3
 			arms_factory = 3
+		}
+		victory_points = {
+			14751
+			5
+		}
+		victory_points = {
+			14665
+			1
+		}
+		victory_points = {
+			14853
+			10
+		}
+		victory_points = {
+			4439
+			20
+		}
+		victory_points = {
+			14861
+			5
+		}
+		victory_points = {
+			5202
+			2
+		}
+		victory_points = {
+			14694
+			20
+		}
+		victory_points = {
+			14783
+			5
+		}
+		victory_points = {
+			5491
+			5
 		}
 	}
 	provinces = {
@@ -50,9 +86,7 @@ id = 358
 		14884
 		20518
 	}
-	impassable = yes
 	manpower = 1
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = wasteland
 }
-
