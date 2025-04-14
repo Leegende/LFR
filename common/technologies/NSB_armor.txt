@@ -98,14 +98,12 @@ technologies = {
 			light_tank_artillery_chassis_1
 			light_tank_aa_chassis_1
 			light_tank_flame_chassis_1
-			light_tank_amphibious_chassis_1
-			light_tank_amphibious_aa_chassis_1
-			light_tank_amphibious_destroyer_chassis_1
-			light_tank_amphibious_artillery_chassis_1
-			light_tank_amphibious_flame_chassis_1
 		}
 		ai_will_do = {
 			base = -9999999
+		}
+		sub_technologies = {
+			basic_light_tank_amphibious
 		}
 		enable_equipment_modules = {
 			tank_light_turret_1
@@ -130,6 +128,31 @@ technologies = {
 			armor_light
 		}
 	}
+	basic_light_tank_amphibious = {
+		enable_equipments = {
+			light_tank_amphibious_chassis_1
+			light_tank_amphibious_aa_chassis_1
+			light_tank_amphibious_destroyer_chassis_1
+			light_tank_amphibious_artillery_chassis_1
+			light_tank_amphibious_flame_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
 	improved_light_tank = {
 		ai_will_do = {
 			base = -9999999
@@ -139,10 +162,6 @@ technologies = {
 			light_tank_destroyer_chassis_2
 			light_tank_artillery_chassis_2
 			light_tank_aa_chassis_2
-			light_tank_amphibious_chassis_2
-			light_tank_amphibious_aa_chassis_2
-			light_tank_amphibious_destroyer_chassis_2
-			light_tank_amphibious_artillery_chassis_2
 		}
 		enable_equipment_modules = {
 			tank_light_turret_2
@@ -153,6 +172,33 @@ technologies = {
 		path = {
 			leads_to_tech = advanced_light_tank
 			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			improved_light_tank_amphibious
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	improved_light_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			light_tank_amphibious_chassis_2
+			light_tank_amphibious_aa_chassis_2
+			light_tank_amphibious_destroyer_chassis_2
+			light_tank_amphibious_artillery_chassis_2
 		}
 		research_cost = 2
 		start_year = 1936
@@ -172,15 +218,14 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
+		sub_technologies = {
+			advanced_light_tank_amphibious
+		}
 		enable_equipments = {
 			light_tank_chassis_3
 			light_tank_destroyer_chassis_3
 			light_tank_artillery_chassis_3
 			light_tank_aa_chassis_3
-			light_tank_amphibious_chassis_3
-			light_tank_amphibious_aa_chassis_3
-			light_tank_amphibious_destroyer_chassis_3
-			light_tank_amphibious_artillery_chassis_3
 		}
 		enable_equipment_modules = {
 			tank_light_turret_3
@@ -207,6 +252,30 @@ technologies = {
 			armor_light
 		}
 	}
+	advanced_light_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			light_tank_amphibious_chassis_3
+			light_tank_amphibious_aa_chassis_3
+			light_tank_amphibious_destroyer_chassis_3
+			light_tank_amphibious_artillery_chassis_3
+		}
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
 	basic_medium_tank = {
 		ai_will_do = {
 			base = -9999999
@@ -216,10 +285,6 @@ technologies = {
 			medium_tank_destroyer_chassis_1
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
-			medium_tank_amphibious_chassis_1
-			medium_tank_amphibious_destroyer_chassis_1
-			medium_tank_amphibious_artillery_chassis_1
-			medium_tank_amphibious_aa_chassis_1
 		}
 		enable_equipment_modules = {
 			tank_medium_turret_1
@@ -228,6 +293,9 @@ technologies = {
 			flamethrower_1
 			flamethrower_2
 			flamethrower_3
+		}
+		sub_technologies = {
+			basic_medium_tank
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
@@ -247,9 +315,36 @@ technologies = {
 			armor_medium
 		}
 	}
+	basic_medium_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			medium_tank_amphibious_chassis_1
+			medium_tank_amphibious_destroyer_chassis_1
+			medium_tank_amphibious_artillery_chassis_1
+			medium_tank_amphibious_aa_chassis_1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
 	improved_medium_tank = {
 		ai_will_do = {
 			base = -9999999
+		}
+		sub_technologies = {
+			improved_medium_tank_amphibious
 		}
 		enable_equipments = {
 			medium_tank_chassis_2
@@ -285,16 +380,39 @@ technologies = {
 			armor_medium
 		}
 	}
+	improved_medium_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			medium_tank_amphibious_chassis_2
+			medium_tank_amphibious_destroyer_chassis_2
+			medium_tank_amphibious_artillery_chassis_2
+			medium_tank_amphibious_aa_chassis_2
+		}
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
 	advanced_medium_tank = {
+		sub_technologies = {
+			advanced_medium_tank_amphibious
+		}
 		enable_equipments = {
 			medium_tank_chassis_3
 			medium_tank_destroyer_chassis_3
 			medium_tank_artillery_chassis_3
 			medium_tank_aa_chassis_3
-			medium_tank_amphibious_chassis_3
-			medium_tank_amphibious_destroyer_chassis_3
-			medium_tank_amphibious_artillery_chassis_3
-			medium_tank_amphibious_aa_chassis_3
 		}
 		enable_equipment_modules = {
 			tank_medium_turret_3
@@ -325,7 +443,34 @@ technologies = {
 			armor_medium
 		}
 	}
+	advanced_medium_tank_amphibious = {
+		enable_equipments = {
+			medium_tank_chassis_3
+			medium_tank_destroyer_chassis_3
+			medium_tank_artillery_chassis_3
+			medium_tank_aa_chassis_3
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
 	main_battle_tank = {
+		sub_technologies = {
+			main_battle_tank_amphibious
+		}
 		enable_equipments = {
 			modern_tank_chassis_1
 			modern_tank_destroyer_chassis_1
@@ -359,7 +504,34 @@ technologies = {
 			armor_medium
 		}
 	}
+	main_battle_tank_amphibious = {
+		enable_equipments = {
+			modern_tank_amphibious_chassis_1
+			modern_tank_amphibious_destroyer_chassis_1
+			modern_tank_amphibious_artillery_chassis_1
+			modern_tank_amphibious_aa_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 2.5
+		start_year = 1945
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1944
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
 	basic_heavy_tank = {
+		sub_technologies = {
+			basic_heavy_tank_amphibious
+		}
 		enable_equipments = {
 			heavy_tank_chassis_1
 			heavy_tank_destroyer_chassis_1
@@ -396,7 +568,34 @@ technologies = {
 			armor_heavy
 		}
 	}
+	basic_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_1
+			heavy_tank_amphibious_destroyer_chassis_1
+			heavy_tank_amphibious_artillery_chassis_1
+			heavy_tank_amphibious_aa_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
 	improved_heavy_tank = {
+		sub_technologies = {
+			improved_heavy_tank_amphibious
+		}
 		enable_equipments = {
 			heavy_tank_chassis_2
 			heavy_tank_destroyer_chassis_2
@@ -434,7 +633,34 @@ technologies = {
 			armor_heavy
 		}
 	}
+	improved_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_2
+			heavy_tank_amphibious_destroyer_chassis_2
+			heavy_tank_amphibious_artillery_chassis_2
+			heavy_tank_amphibious_aa_chassis_2
+		}
+		research_cost = 2.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
 	advanced_heavy_tank = {
+		sub_technologies = {
+			advanced_heavy_tank_amphibious
+		}
 		enable_equipments = {
 			heavy_tank_chassis_3
 			heavy_tank_destroyer_chassis_3
@@ -456,6 +682,30 @@ technologies = {
 		path = {
 			leads_to_tech = main_battle_tank
 			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1943
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	advanced_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_3
+			heavy_tank_amphibious_destroyer_chassis_3
+			heavy_tank_amphibious_artillery_chassis_3
+			heavy_tank_amphibious_aa_chassis_3
 		}
 		research_cost = 2.5
 		ai_will_do = {

@@ -84,6 +84,7 @@
  hard_attack_infantry_weapons3:0 "Hard Attack Upgrade IV"
  motorised_infantry:0 "Motorised Truck"
  motorized_equipment_1:0 "Motorised Truck"
+ mechanised_infantry:0 "Mechanized I"
  mechanized_equipment_1:0 "Mechanized I"
  mechanized_equipment_2:0 "Mechanized II"
  mechanized_equipment_3:0 "Mechanized III"

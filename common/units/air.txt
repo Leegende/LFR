@@ -5,7 +5,7 @@ sub_units = {
 		active = yes
 		type = fighter
 		need = {
-			small_plane_airframe = 1
+			fighter_archetype = 1
 		}
 		categories = {
 			air
@@ -19,7 +19,7 @@ sub_units = {
 		active = yes
 		type = cas
 		need = {
-			small_plane_airframe = 1
+			cas_archetype = 1
 		}
 		categories = {
 			air
@@ -33,7 +33,7 @@ sub_units = {
 		active = yes
 		type = scout_plane
 		need = {
-			small_plane_airframe = 1
+			scout_plane_archetype = 1
 		}
 		categories = {
 			air
@@ -47,7 +47,7 @@ sub_units = {
 		active = yes
 		type = tactical_bomber
 		need = {
-			medium_plane_airframe = 1
+			tactical_bomber_archetype = 1
 		}
 		categories = {
 			air
@@ -61,7 +61,7 @@ sub_units = {
 		active = yes
 		type = heavy_fighter
 		need = {
-			medium_plane_airframe = 1
+			heavy_fighter_archetype = 1
 		}
 		categories = {
 			air
@@ -75,7 +75,7 @@ sub_units = {
 		active = yes
 		type = strategic_bomber
 		need = {
-			large_plane_airframe = 1
+			strategic_bomber_archetype = 1
 		}
 		categories = {
 			air
@@ -89,7 +89,7 @@ sub_units = {
 		active = yes
 		type = fighter
 		need = {
-			small_plane_airframe = 1
+			jet_fighter_archetype = 1
 		}
 		categories = {
 			air
@@ -103,7 +103,7 @@ sub_units = {
 		active = yes
 		type = tactical_bomber
 		need = {
-			medium_plane_airframe = 1
+			jet_tactical_bomber_archetype = 1
 		}
 		categories = {
 			air

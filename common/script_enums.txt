@@ -468,7 +468,14 @@ script_enum_equipment_bonus_type = {
 	modern_tank_amphibious_artillery_chassis_1
 	modern_tank_amphibious_destroyer_chassis_1
 	modern_tank_amphibious_flame_chassis_1
-	small_plane_airframe
-	medium_plane_airframe
-	large_plane_airframe
+	fighter_archetype
+	jet_fighter_archetype
+	cas_archetype
+	scout_plane_archetype
+	heavy_fighter_archetype
+	tactical_bomber_archetype
+	jet_tactical_bomber_archetype
+	strategic_bomber_archetype
+
+
 }

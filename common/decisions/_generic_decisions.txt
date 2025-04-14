@@ -287,35 +287,14 @@ political_actions = {
 			add_stability = ban_ideology_var
 		}
 	}
-}
-
-war_measures = {
-	emergency_factory_conversion_defensive = {
+	emergency_factory_conversion = {
 		icon = generic_industry
 		available = {
-			num_of_civilian_factories > 5			#Change this if amount of factories change
+			num_of_civilian_factories > 5
 		}
 		visible = {
 			has_defensive_war = yes
 			has_offensive_war = no
-		}
-		fire_only_once = no
-		days_re_enable = 90
-		cost = 100
-		complete_effect = {
-			replace_civ_with_arms_factories = yes
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	emergency_factory_conversion_offensive = {
-		icon = generic_industry
-		available = {
-			num_of_civilian_factories > 5			#Change this if amount of factories change
-		}
-		visible = {
-			has_offensive_war = yes
 		}
 		fire_only_once = no
 		days_re_enable = 90
@@ -432,63 +411,6 @@ war_measures = {
 			war_support_weekly = 0.005
 		}
 	}
-	war_propaganda_casualties = {
-		icon = generic_prepare_civil_war
-		available = {
-			has_casualties_war_support < 0
-			has_war = yes
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = no
-		days_remove = 180
-		remove_trigger = {
-			has_war = no
-		}
-		cost = 100
-		modifier = {
-			weekly_casualties_war_support = 0.006
-		}
-	}
-	war_propaganda_convoys = {
-		icon = GFX_decision_generic_naval
-		available = {
-			has_convoys_war_support < 0
-			has_war = yes
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = no
-		days_remove = 180
-		remove_trigger = {
-			has_war = no
-		}
-		cost = 100
-		modifier = {
-			weekly_convoys_war_support = 0.006
-		}
-	}
-	war_propaganda_bombing = {
-		icon = GFX_decision_generic_air
-		available = {
-			has_bombing_war_support < 0
-			has_war = yes
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = no
-		days_remove = 180
-		remove_trigger = {
-			has_war = no
-		}
-		cost = 100
-		modifier = {
-			weekly_bombing_war_support = 0.006
-		}
-	}
 	war_propaganda_radio_industry = {
 		icon = generic_prepare_civil_war
 		available = {
@@ -522,3 +444,4 @@ war_measures = {
 		}
 	}
 }
+

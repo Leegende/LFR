@@ -2493,6 +2493,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = autarkic_economy
 		}
 	}
 	focus = {

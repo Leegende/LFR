@@ -18,9 +18,9 @@
  infantry_equipment_3_short:0 "Infantry Weapon IV"
  motorised_infantry_short:0 "Motorised Truck"
  motorised_infantry_short:0 "Motorised Truck"
- #mechanized_equipment_1_short:0 "Mechanized I"
- #mechanized_equipment_2_short:0 "Mechanized II"
- #mechanized_equipment_3_short:0 "Mechanized III"
+ mechanized_equipment_1_short:0 "Mechanized I"
+ mechanized_equipment_2_short:0 "Mechanized II"
+ mechanized_equipment_3_short:0 "Mechanized III"
  ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
  gw_armored_car_equipment_short:0 "Armored Car I"
  armored_car_equipment_1_short:0 "Armored Car II"
@@ -80,6 +80,8 @@
  strat_bomber_equipment_3_short:0 "Strategic Bomber III"
  jet_tac_bomber_equipment_1_short:0 "Jet Tactical Bomber"
  motorized_equipment_1_short:0 "Motorized Truck" 
+
+
  heavy_anti_air_equipment_1_short:0 "Heavy Anti-Air"
  pack_anti_air_equipment_1_short:0 "Pack Anti-Air" 
  anti_air_equipment_1_short:0 "Anti-Air"

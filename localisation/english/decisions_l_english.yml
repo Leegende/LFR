@@ -12,6 +12,11 @@
  EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle Event notifications."
  MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
  POPUP_MINOR_EVENTS:0 "Minor Popup"
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
+ ban_democratic_party_tt:1 "Change in popularity of Democracy: §G-§![?.Root.party_popularity@democratic|%0G].\n"
+ ban_communist_party_tt:1 "Change in popularity of Communism: §G-§![?.Root.party_popularity@communism|%0G].\n"
+ ban_neutrality_party_tt: "Change in popularity of Non-Aligned: §G-§![?.Root.party_popularity@neutrality|%0G].\n"
+ ban_fascist_party_tt:1 "Change in popularity of Fascism: §G-§![?.Root.party_popularity@fascism|%0G].\n"
 
  GER_autarky_category:0 "Autarky Categories"
  GER_drill_baby_drill:0 "Drill Baby Drill"
