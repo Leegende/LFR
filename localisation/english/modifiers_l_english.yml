@@ -133,7 +133,7 @@
  MODIFIER_AIR_SUPERIORITY:0 "Air Superiority"
  MODIFIER_CONSUMER_GOODS_FACTOR:1 "Consumer Goods Factories factor"
  consumer_goods_factor_tt: " $MODIFIER_CONSUMER_GOODS_FACTOR$: $RIGHT|Y=%1$"
- MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE: "Expected number of factories put on Consumer Goods"
+ MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE: "£consumer_goods_texticon  Expected Consumer Goods"
  MODIFIER_AIR_ATTACK:0 "Air Attack"
  MODIFIER_AIR_ATTACK_FACTOR:0 "Air Attack"
  air_attack_factor_tt: " $MODIFIER_AIR_ATTACK_FACTOR$: $RIGHT|+=%1$" 
@@ -394,7 +394,7 @@
  modifier_production_speed_infrastructure_factor_desc:0 "Modifies the speed of Infrastructure construction."
  production_speed_infrastructure_factor_tt: " $modifier_production_speed_infrastructure_factor$: $RIGHT|+=%1$"
  production_speed_infrastructure_factor_whitespace_tt: " $production_speed_infrastructure_factor_tt$"
- modifier_production_speed_arms_factory_factor:0 "§YMilitary Factory§! construction speed"
+ modifier_production_speed_arms_factory_factor:0 " "£construction_speed_milfactory_texticon§YMilitary Factory§! construction speed"
  modifier_production_speed_arms_factory_factor_desc:0 "Modifies the speed of Military Factory construction."
  production_speed_arms_factory_factor_tt: " $modifier_production_speed_arms_factory_factor$ $RIGHT|+=%1$"
  production_speed_arms_factory_factor_whitespace_tt: "  $production_speed_arms_factory_factor_tt$"
@@ -737,9 +737,9 @@
  MODIFIER_SLOTS_FROM_INFRASTRUCTURE_FACTOR_DESC:0 "How much the Infrastructure influences the Infrastructure Building Slot limit"
  MODIFIER_ADDITIONAL_SLOTS_CAP:0 "Building Slots from Technology"
  MODIFIER_ADDITIONAL_SLOTS_CAP_DESC:0 "Maximum number of Building Slots in a State"
- MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR:0 "Military to Civilian Factory conversion cost"
+ MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR:0 "Mil-Civ Conversion Cost"
  MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR_DESC:0 "How efficiently can Military Factories be converted to Civilian Factories"
- MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR:0 "Civilian to Military Factory conversion cost"
+ MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR:0 "Civ-Mil Conversion Cost"
  conversion_cost_civ_to_mil_factor_tt: " $MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR$: $RIGHT|-=%1$"
  conversion_cost_mil_to_civ_factor_tt: " $MODIFIER_CONVERSION_COST_MIL_TO_CIV_FACTOR$: $RIGHT|-=%1$"
  MODIFIER_CONVERSION_COST_CIV_TO_MIL_FACTOR_DESC:0 "How efficiently can Civilian Factories be converted to Military Factories"
@@ -1018,7 +1018,7 @@
  MODIFIER_CIC_TO_TARGET_FACTOR_DESC:0 "How many §YCivilian§! factories are controlled by target country"
  MODIFIER_MIC_TO_TARGET_FACTOR:0 "Military industry to target country"
  MODIFIER_MIC_TO_TARGET_FACTOR_DESC:0 "How many §YMilitary§! factories are controlled by target country"
- MODIFIER_TRADE_TO_TARGET_FACTOR:0 "Extra trade to target" #was 'Overlord' but the modifier seems to be targetted to specific tag
+ MODIFIER_TRADE_TO_TARGET_FACTOR:0 "Extra trade to target"
  MODIFIER_TRADE_TO_TARGET_FACTOR_DESC:0 "Extra produced recourses available for trade to target country"
  MODIFIER_TRADE_COST_TO_TARGET_FACTOR:0 "Target country trade cost"
  MODIFIER_TRADE_COST_TO_TARGET_FACTOR_DESC:0 "Resources per factory in trade between countries"
@@ -1253,9 +1253,7 @@
  country_resource_cost_rubber:0 "Rubber Consumption"
  country_resource_cost_tungsten:1 "Tungsten Consumption"
  country_resource_cost_steel:0 "Steel Consumption"
- country_resource_cost_chromium:1 "Chromium Consumption"
-
- FACTORED_BY:0 "Factored By $VALUE|+%$"
+ country_resource_cost_chromium:1 "Chromium Consumption" FACTORED_BY:0 "Factored By $VALUE|+%$"
  DECRYPTION_TOTAL_BASE:0 "Total Base Value: $VALUE|+.0$"
  MODIFIER_LEGITIMACY_FACTOR:0 "Legitimacy Gain"
  MODIFIER_COMPLIANCE_GAIN_ADD:0 "Daily Compliance Gain"
@@ -1265,14 +1263,11 @@
  MODIFIER_NO_COMPLIANCE_GAIN:0 "No Compliance Gain"
  resource_sabotage_decrease_tooltip:0 " Resource Sabotage Chance: §G-25%§!\n  Resource Sabotage Duration: §G-25%§!"
  factory_sabotage_decrease_tooltip:0 " Civilian Factory Sabotage Chance: §G-25%§!\n  Military Factory Sabotage Chance: §G-25%§!"
-
- #these are used for comparison
  resource_sabotage_decrease_tooltip_ADDED:0 " Resource Sabotage Chance: §G-25%§! (§G-25%§!)\n  Resource Sabotage Duration: §G-25%§! (§G-25%§!)"
  factory_sabotage_decrease_tooltip_ADDED:0 " Civilian Factory Sabotage Chance: §G-25%§! (§G-25%§!)\n  Military Factory Sabotage Chance: §G-25%§! (§G-25%§!)"
  resource_sabotage_decrease_tooltip_REMOVED:0 " Resource Sabotage Chance: §H+0%§! (§R+25%§!)\n  Resource Sabotage Duration: §H+0%§! (§R+25%§!)"
  factory_sabotage_decrease_tooltip_REMOVED:0 " Civilian Factory Sabotage Chance: §H+0%§! (§R+25%§!)\n  Military Factory Sabotage Chance: §H+0%§! (§R+25%§!)"
  factory_sabotage_decrease_tooltip_UNCHANGED:0 " Civilian Factory Sabotage Chance: §G-25%§! (§H+0%§!)\n  Military Factory Sabotage Chance: §G-25%§! (§H+0%§!)"
-
  modifier_repair_speed_infrastructure_factor:1 "Infrastructure Repair Speed"
  modifier_repair_speed_industrial_complex_factor:0 "Civilian Factory Repair Speed"
  modifier_repair_speed_arms_factory_factor:0 "Military Factory Repair Speed"
@@ -1345,9 +1340,7 @@
  modifier_bunker_max_level_terrain_limit: "$modifier_state_bunker_max_level_terrain_limit$"
  modifier_coastal_bunker_max_level_terrain_limit: "$modifier_state_coastal_bunker_max_level_terrain_limit$"
  modifier_bunker_max_level_terrain_limit_tt: " $modifier_bunker_max_level_terrain_limit$: $RIGHT|G=0$"
- modifier_coastal_bunker_max_level_terrain_limit_tt: " $modifier_coastal_bunker_max_level_terrain_limit$: $RIGHT|G=0$"
-
- modifier_state_supply_node_ocean_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$ocean$§!"
+ modifier_coastal_bunker_max_level_terrain_limit_tt: " $modifier_coastal_bunker_max_level_terrain_limit$: $RIGHT|G=0$" modifier_state_supply_node_ocean_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$ocean$§!"
  modifier_state_rail_way_ocean_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$ocean$§!"
  modifier_state_naval_base_ocean_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$ocean$§!"
  modifier_state_bunker_ocean_max_level_terrain_limit: "Maximum $bunker$ level in §Y$ocean$§!"
@@ -1356,9 +1349,7 @@
  modifier_rail_way_ocean_max_level_terrain_limit: "$modifier_state_rail_way_ocean_max_level_terrain_limit$"
  modifier_naval_base_ocean_max_level_terrain_limit: "$modifier_state_naval_base_ocean_max_level_terrain_limit$"
  modifier_bunker_ocean_max_level_terrain_limit: "$modifier_state_bunker_ocean_max_level_terrain_limit$"
- modifier_coastal_bunker_ocean_max_level_terrain_limit: "$modifier_state_coastal_bunker_ocean_max_level_terrain_limit$"
-
- modifier_state_supply_node_lakes_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$lakes$§!"
+ modifier_coastal_bunker_ocean_max_level_terrain_limit: "$modifier_state_coastal_bunker_ocean_max_level_terrain_limit$" modifier_state_supply_node_lakes_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$lakes$§!"
  modifier_state_rail_way_lakes_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$lakes$§!"
  modifier_state_naval_base_lakes_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$lakes$§!"
  modifier_state_bunker_lakes_max_level_terrain_limit: "Maximum $bunker$ level in §Y$lakes$§!"
@@ -1367,9 +1358,7 @@
  modifier_rail_way_lakes_max_level_terrain_limit: "$modifier_state_rail_way_lakes_max_level_terrain_limit$"
  modifier_naval_base_lakes_max_level_terrain_limit: "$modifier_state_naval_base_lakes_max_level_terrain_limit$"
  modifier_bunker_lakes_max_level_terrain_limit: "$modifier_state_bunker_lakes_max_level_terrain_limit$"
- modifier_coastal_bunker_lakes_max_level_terrain_limit: "$modifier_state_coastal_bunker_lakes_max_level_terrain_limit$"
-
- modifier_state_supply_node_forest_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$forest$§!"
+ modifier_coastal_bunker_lakes_max_level_terrain_limit: "$modifier_state_coastal_bunker_lakes_max_level_terrain_limit$" modifier_state_supply_node_forest_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$forest$§!"
  modifier_state_rail_way_forest_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$forest$§!"
  modifier_state_naval_base_forest_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$forest$§!"
  modifier_state_bunker_forest_max_level_terrain_limit: "Maximum $bunker$ level in §Y$forest$§!"
@@ -1378,9 +1367,7 @@
  modifier_rail_way_forest_max_level_terrain_limit: "$modifier_state_rail_way_forest_max_level_terrain_limit$"
  modifier_naval_base_forest_max_level_terrain_limit: "$modifier_state_naval_base_forest_max_level_terrain_limit$"
  modifier_bunker_forest_max_level_terrain_limit: "$modifier_state_bunker_forest_max_level_terrain_limit$"
- modifier_coastal_bunker_forest_max_level_terrain_limit: "$modifier_state_coastal_bunker_forest_max_level_terrain_limit$"
-
- modifier_state_supply_node_hills_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$hills$§!"
+ modifier_coastal_bunker_forest_max_level_terrain_limit: "$modifier_state_coastal_bunker_forest_max_level_terrain_limit$" modifier_state_supply_node_hills_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$hills$§!"
  modifier_state_rail_way_hills_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$hills$§!"
  modifier_state_naval_base_hills_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$hills$§!"
  modifier_state_bunker_hills_max_level_terrain_limit: "Maximum $bunker$ level in §Y$hills$§!"
@@ -1390,7 +1377,6 @@
  modifier_naval_base_hills_max_level_terrain_limit: "$modifier_state_naval_base_hills_max_level_terrain_limit$"
  modifier_bunker_hills_max_level_terrain_limit: "$modifier_state_bunker_hills_max_level_terrain_limit$"
  modifier_coastal_bunker_hills_max_level_terrain_limit: "$modifier_state_coastal_bunker_hills_max_level_terrain_limit$"
-
  modifier_state_supply_node_mountain_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$mountain$§!"
  modifier_state_rail_way_mountain_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$mountain$§!"
  modifier_state_naval_base_mountain_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$mountain$§!"
@@ -1401,7 +1387,6 @@
  modifier_naval_base_mountain_max_level_terrain_limit: "$modifier_state_naval_base_mountain_max_level_terrain_limit$"
  modifier_bunker_mountain_max_level_terrain_limit: "$modifier_state_bunker_mountain_max_level_terrain_limit$"
  modifier_coastal_bunker_mountain_max_level_terrain_limit: "$modifier_state_coastal_bunker_mountain_max_level_terrain_limit$"
-
  modifier_state_supply_node_plains_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$plains$§!"
  modifier_state_rail_way_plains_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$plains$§!"
  modifier_state_naval_base_plains_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$plains$§!"
@@ -1412,7 +1397,6 @@
  modifier_naval_base_plains_max_level_terrain_limit: "$modifier_state_naval_base_plains_max_level_terrain_limit$"
  modifier_bunker_plains_max_level_terrain_limit: "$modifier_state_bunker_plains_max_level_terrain_limit$"
  modifier_coastal_bunker_plains_max_level_terrain_limit: "$modifier_state_coastal_bunker_plains_max_level_terrain_limit$"
-
  modifier_state_supply_node_urban_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$urban$§!"
  modifier_state_rail_way_urban_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$urban$§!"
  modifier_state_naval_base_urban_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$urban$§!"
@@ -1423,7 +1407,6 @@
  modifier_naval_base_urban_max_level_terrain_limit: "$modifier_state_naval_base_urban_max_level_terrain_limit$"
  modifier_bunker_urban_max_level_terrain_limit: "$modifier_state_bunker_urban_max_level_terrain_limit$"
  modifier_coastal_bunker_urban_max_level_terrain_limit: "$modifier_state_coastal_bunker_urban_max_level_terrain_limit$"
-
  modifier_state_supply_node_jungle_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$jungle$§!"
  modifier_state_rail_way_jungle_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$jungle$§!"
  modifier_state_naval_base_jungle_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$jungle$§!"
@@ -1434,7 +1417,6 @@
  modifier_naval_base_jungle_max_level_terrain_limit: "$modifier_state_naval_base_jungle_max_level_terrain_limit$"
  modifier_bunker_jungle_max_level_terrain_limit: "$modifier_state_bunker_jungle_max_level_terrain_limit$"
  modifier_coastal_bunker_jungle_max_level_terrain_limit: "$modifier_state_coastal_bunker_jungle_max_level_terrain_limit$"
-
  modifier_state_supply_node_marsh_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$marsh$§!"
  modifier_state_rail_way_marsh_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$marsh$§!"
  modifier_state_naval_base_marsh_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$marsh$§!"
@@ -1445,7 +1427,6 @@
  modifier_naval_base_marsh_max_level_terrain_limit: "$modifier_state_naval_base_marsh_max_level_terrain_limit$"
  modifier_bunker_marsh_max_level_terrain_limit: "$modifier_state_bunker_marsh_max_level_terrain_limit$"
  modifier_coastal_bunker_marsh_max_level_terrain_limit: "$modifier_state_coastal_bunker_marsh_max_level_terrain_limit$"
-
  modifier_state_supply_node_desert_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$desert$§!"
  modifier_state_rail_way_desert_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$desert$§!"
  modifier_state_naval_base_desert_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$desert$§!"
@@ -1456,7 +1437,6 @@
  modifier_naval_base_desert_max_level_terrain_limit: "$modifier_state_naval_base_desert_max_level_terrain_limit$"
  modifier_bunker_desert_max_level_terrain_limit: "$modifier_state_bunker_desert_max_level_terrain_limit$"
  modifier_coastal_bunker_desert_max_level_terrain_limit: "$modifier_state_coastal_bunker_desert_max_level_terrain_limit$"
-
  modifier_state_supply_node_water_fjords_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$water_fjords$§!"
  modifier_state_rail_way_water_fjords_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$water_fjords$§!"
  modifier_state_naval_base_water_fjords_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$water_fjords$§!"
@@ -1467,7 +1447,6 @@
  modifier_naval_base_water_fjords_max_level_terrain_limit: "$modifier_state_naval_base_water_fjords_max_level_terrain_limit$"
  modifier_bunker_water_fjords_max_level_terrain_limit: "$modifier_state_bunker_water_fjords_max_level_terrain_limit$"
  modifier_coastal_bunker_water_fjords_max_level_terrain_limit: "$modifier_state_coastal_bunker_water_fjords_max_level_terrain_limit$"
-
  modifier_state_supply_node_water_shallow_sea_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$water_shallow_sea$§!"
  modifier_state_rail_way_water_shallow_sea_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$water_shallow_sea$§!"
  modifier_state_naval_base_water_shallow_sea_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$water_shallow_sea$§!"
@@ -1478,7 +1457,6 @@
  modifier_naval_base_water_shallow_sea_max_level_terrain_limit: "$modifier_state_naval_base_water_shallow_sea_max_level_terrain_limit$"
  modifier_bunker_water_shallow_sea_max_level_terrain_limit: "$modifier_state_bunker_water_shallow_sea_max_level_terrain_limit$"
  modifier_coastal_bunker_water_shallow_sea_max_level_terrain_limit: "$modifier_state_coastal_bunker_water_shallow_sea_max_level_terrain_limit$"
-
  modifier_state_supply_node_water_deep_ocean_max_level_terrain_limit: "Maximum $supply_node$ level in §Y$water_deep_ocean$§!"
  modifier_state_rail_way_water_deep_ocean_max_level_terrain_limit: "Maximum $rail_way$ level in §Y$water_deep_ocean$§!"
  modifier_state_naval_base_water_deep_ocean_max_level_terrain_limit: "Maximum $naval_base$ level in §Y$water_deep_ocean$§!"
@@ -1489,7 +1467,6 @@
  modifier_naval_base_water_deep_ocean_max_level_terrain_limit: "$modifier_state_naval_base_water_deep_ocean_max_level_terrain_limit$"
  modifier_bunker_water_deep_ocean_max_level_terrain_limit: "$modifier_state_bunker_water_deep_ocean_max_level_terrain_limit$"
  modifier_coastal_bunker_water_deep_ocean_max_level_terrain_limit: "$modifier_state_coastal_bunker_water_deep_ocean_max_level_terrain_limit$"
-
  MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR:0 "Local Construction Speed"
  MODIFIER_STATE_PRODUCTION_SPEED_FACILITY_FACTOR: "Local construction speed of facility"
  modifier_state_production_speed_infrastructure_factor:0 "§Y$infrastructure$§! construction speed"
@@ -2076,9 +2053,7 @@
  modifier_army_sub_unit_marines_attack_factor: "Marines Attack"
  modifier_army_sub_unit_marines_defence_factor:0 "Marines Defense"
  modifier_army_sub_unit_marines_speed_factor:0 "Marines Speed"
- modifier_army_sub_unit_marines_max_org_factor:0 "Marines Organization"
-
- modifier_army_sub_unit_mountaineers_attack_factor:0 "Mountaineers Attack"
+ modifier_army_sub_unit_marines_max_org_factor:0 "Marines Organization" modifier_army_sub_unit_mountaineers_attack_factor:0 "Mountaineers Attack"
  modifier_army_sub_unit_mountaineers_defence_factor:0 "Mountaineers Defense"
  modifier_army_sub_unit_mountaineers_speed_factor:0 "Mountaineers Speed"
  modifier_army_sub_unit_mountaineers_max_org_factor:0 "Mountaineers Organization"
@@ -2106,15 +2081,11 @@
  modifier_army_sub_unit_military_police_attack_factor:0 "Military Police Attack"
  modifier_army_sub_unit_military_police_defence_factor:0 "Military Police Defense"
  modifier_army_sub_unit_military_police_speed_factor:0 "Military Police Speed"
- modifier_army_sub_unit_military_police_max_org_factor:0 "Military Police Organization"
-
- modifier_army_sub_unit_long_range_patrol_support_attack_factor: "Long-Range Patrol Attack"
+ modifier_army_sub_unit_military_police_max_org_factor:0 "Military Police Organization" modifier_army_sub_unit_long_range_patrol_support_attack_factor: "Long-Range Patrol Attack"
  modifier_army_sub_unit_long_range_patrol_support_attack_factor_tt: " $modifier_army_sub_unit_long_range_patrol_support_attack_factor$: $RIGHT|+=%1$"
  modifier_army_sub_unit_long_range_patrol_support_defence_factor: "Long-Range Patrol Defense"
  modifier_army_sub_unit_long_range_patrol_support_defence_factor_tt: " $modifier_army_sub_unit_long_range_patrol_support_defence_factor$: $RIGHT|+=%1$"
- modifier_army_sub_unit_category_special_forces_max_org_factor: "Special Forces Organization"
-
- MODIFIER_CHOOSE_PREFERRED_TACTIC_COST:0 "Preferred Tactics Selection Cost"
+ modifier_army_sub_unit_category_special_forces_max_org_factor: "Special Forces Organization" MODIFIER_CHOOSE_PREFERRED_TACTIC_COST:0 "Preferred Tactics Selection Cost"
  MODIFIER_RAILWAY_GUN_BOMBARDMENT_FACTOR:0 "Railway Gun Bombardment"
  MODIFIER_UNIT_LEADER_AS_ADVISOR_CP_COST_FACTOR:0 "Commander as Advisor Cost"
  unit_leader_as_advisor_cp_cost_factor_tt: " $MODIFIER_UNIT_LEADER_AS_ADVISOR_CP_COST_FACTOR$: $RIGHT|-=%1$"
@@ -2187,16 +2158,11 @@
  MODIFIER_CIC_CONSTRUCTION_BOOST_FACTOR: "Market construction boost multiplier"
  MODIFIER_LAND_BUNKER_EFFECTIVENESS_FACTOR: "$bunker$ effectiveness"
  land_bunker_effectiveness_factor_tt: " $MODIFIER_LAND_BUNKER_EFFECTIVENESS_FACTOR$: $RIGHT|Y=%1$"
- MODIFIER_COASTAL_BUNKER_EFFECTIVENESS_FACTOR: "$coastal_bunker$ effectiveness"
-
- army_spirit_category_type_cost_factor: "Army Command Spirit Cost"
+ MODIFIER_COASTAL_BUNKER_EFFECTIVENESS_FACTOR: "$coastal_bunker$ effectiveness" army_spirit_category_type_cost_factor: "Army Command Spirit Cost"
  air_spirit_category_type_cost_factor: "Air Force Command Spirit Cost"
- navy_spirit_category_type_cost_factor: "Navy Command Spirit Cost"
-
- army_spirit_category_type_cost_factor_tt: "$army_spirit_category_type_cost_factor$: $RIGHT|-=%1$"
+ navy_spirit_category_type_cost_factor: "Navy Command Spirit Cost" army_spirit_category_type_cost_factor_tt: "$army_spirit_category_type_cost_factor$: $RIGHT|-=%1$"
  air_spirit_category_type_cost_factor_tt: "$air_spirit_category_type_cost_factor$: $RIGHT|-=%1$"
  navy_spirit_category_type_cost_factor_tt: "$navy_spirit_category_type_cost_factor$: $RIGHT|-=%1$"
- 
  resistance_damage_to_garrison_on_our_occupied_states_tt: " Damage to Enemy Garrisons in our states occupied by the enemy: $RIGHT|+=%1$"
  resistance_growth_on_our_occupied_states_tt: " Resistance Growth in our states occupied by the enemy: $RIGHT|+=%1$"
  whitespace_tt: " " 
@@ -2208,7 +2174,6 @@
  special_forces_mountaineers_organization_tt: " $modifier_army_sub_unit_mountaineers_max_org_factor$: $RIGHT|+=0%$"
  special_forces_marines_organization_tt: " $modifier_army_sub_unit_marines_max_org_factor$: $RIGHT|+=0%$"
  SWE_royal_visit_modifier: "$POL_growing_monarchist_sentiment$"
-
  navy_capital_ship_defense_factor_tt: "$MODIFIER_NAVY_CAPITAL_SHIP_DEFENCE_FACTOR$: $RIGHT|+=%1$"
  communism_drift_factor_tt: "$communism_drift$: $RIGHT|+=2$"
  democratic_drift_factor_tt: "$democratic_drift$: $RIGHT|+=2$"
@@ -2218,26 +2183,20 @@
  MODIFIER_STATE_RESOURCES_FACTOR_tt: "$MODIFIER_STATE_RESOURCES_FACTOR$: $RIGHT|+=%2$"
  MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR_tt: "$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$: $RIGHT|+=%2$"
  recruitable_population_factor_tt: "$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: $RIGHT|+=%2$"
- 
  MODIFIER_RESOURCE_TRADE_COST_BONUS_PER_FACTORY: "Trade extra resource per factory"
  resource_trade_cost_bonus_per_factory_tt: "$MODIFIER_RESOURCE_TRADE_COST_BONUS_PER_FACTORY$: $RIGHT|+=0$"
  MODIFIER_SPECIAL_PROJECT_SPEED_FACTOR: "Special Project Speed"
  special_project_speed_factor_tt: " $MODIFIER_SPECIAL_PROJECT_SPEED_FACTOR$: $RIGHT|+=%1$"
  MODIFIER_SPECIAL_PROJECT_FACILITY_SUPPLY_CONSUMPTION_FACTOR: "Facility Supply Consumption: $FACTOR$"
-
  MODIFIER_SCIENTIST_XP_GAIN_FACTOR: "Scientist XP Gain"
- 
  MODIFIER_SCIENTIST_RESEARCH_BONUS_FACTOR: "Research bonus"
  MODIFIER_SCIENTIST_RESEARCH_BONUS_FACTOR_tt: " $scientist_research_bonus_factor$: $RIGHT|+=%1$"
  MODIFIER_SCIENTIST_BREAKTHROUGH_BONUS_FACTOR: "Breakthrough bonus"
  MODIFIER_SCIENTIST_BREAKTHROUGH_BONUS_FACTOR_tt: " $scientist_breakthrough_bonus_factor$: $RIGHT|+=%1$"
-
  MODIFIER_UNDERWAY_REPLENISHMENT_RANGE: "Underway Replenishment Range"
  MODIFIER_UNDERWAY_REPLENISHMENT_RANGE_DESC: "How far Underway Replenishment can extend the range of our fleets"
  MODIFIER_UNDERWAY_REPLENISHMENT_CONVOY_COST: "Underway Replenishment Convoy Usage"
  MODIFIER_UNDERWAY_REPLENISHMENT_CONVOY_COST_DESC: "How many convoys are used in order to provide Underway Replenishment"
-
- # MODIFIERS SP
  sp_air_helicopter_speed_factor: "Helicopter Research Speed"
  sp_air_intercontinental_bomber_speed_factor: "Intercontinental Bomber Research Speed"
  sp_air_mothership_aircraft_speed_factor: "Mothership Aircraft Research Speed"
@@ -2284,8 +2243,6 @@
  sp_land_stronghold_network_speed_factor: "Stronghold Network Research Speed"
  sp_land_flamethrower_tank_speed_factor: "Flamethrower Tank Research Speed"
  sp_land_military_engineering_vehicles_speed_factor: "Military Engineering Vehicles Research Speed"
-
- # TOOLTIPS SP
  sp_air_helicopter_speed_factor_tt: " $sp_air_helicopter_speed_factor$: $RIGHT|+=%1$"
  sp_air_intercontinental_bomber_speed_factor_tt: " $sp_air_intercontinental_bomber_speed_factor$: $RIGHT|+=%1$"
  sp_air_mothership_aircraft_speed_factor_tt: " $sp_air_mothership_aircraft_speed_factor$: $RIGHT|+=%1$"
@@ -2331,10 +2288,6 @@
  sp_land_stronghold_network_speed_factor_tt: " $sp_land_stronghold_network_speed_factor$: $RIGHT|+=%1$"
  sp_land_flamethrower_tank_speed_factor_tt: " $sp_land_flamethrower_tank_speed_factor$: $RIGHT|+=%1$"
  sp_land_military_engineering_vehicles_speed_factor_tt: " $sp_land_military_engineering_vehicles_speed_factor$: $RIGHT|+=%1$"
- 
- 
-
- # SPECIAL PROJECT TRAIT MODIFIERS #
  specialization_air_speed_factor: "$specialization_air$ Special Projects Speed"
  specialization_land_speed_factor: "$specialization_land$ Special Projects Speed"
  specialization_naval_speed_factor: "$specialization_naval$ Special Projects Speed"
