@@ -5,7 +5,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_fighter_equipment
 		is_buildable = no
-		type = fighter
+		type = scout_plane
 		allowed_types = {
 			scout_plane
 		}
@@ -59,7 +59,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_fighter_equipment
 		is_buildable = no
-		type = fighter
+		type = cas
 		allowed_types = {
 			cas
 		}
@@ -294,7 +294,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_strat_bomber_equipment
 		is_buildable = no
-		type = tactical_bomber
+		type = heavy_fighter
 		allowed_types = {
 			heavy_fighter
 		}
@@ -346,7 +346,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_strat_bomber_equipment
 		is_buildable = no
-		type = tactical_bomber
+		type = strategic_bomber
 		allowed_types = {
 			strategic_bomber
 		}

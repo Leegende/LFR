@@ -4,7 +4,6 @@
  aluminium_yellow_tt:0 "[?resource@aluminium|0Y]"
  tungsten_yellow_tt:0 "[?resource@tungsten|0Y]"
  chromium_yellow_tt:0 "[?resource@chromium|0Y]"
-
  steel_green_tt:0 "[?resource@steel|0+]"
  rubber_green_tt:0 "[?resource@rubber|0+]"
  aluminium_green_tt:0 "[?resource@aluminium|0+]"
