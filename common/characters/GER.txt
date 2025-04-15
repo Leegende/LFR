@@ -80,4 +80,755 @@ characters = {
 			}
 		}
 	}
+	GER_erwin_rommel = {
+		name = GER_erwin_rommel
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_erwin_rommel
+				small = GFX_idea_erwin_rommel
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_heinz_guderian = {
+		name = GER_heinz_guderian
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_heinz_guderian
+				small = GFX_idea_heinz_guderian
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_kurt_student = {
+		name = GER_kurt_student
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_kurt_student
+				small = GFX_idea_kurt_student
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_hasso_von_manteuffel = {
+		name = GER_hasso_von_manteuffel
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_hasso_von_manteuffel
+				small = GFX_portrait_GER_hasso_von_manteuffel_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_sepp_dietrich = {
+		name = GER_sepp_dietrich
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_sepp_dietrich
+				small = GFX_portrait_GER_sepp_dietrich_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_paul_hausser = {
+		name = GER_paul_hausser
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_paul_hausser
+				small = GFX_portrait_GER_paul_hausser_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_walter_model = {
+		name = GER_walter_model
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_walter_model
+				small = GFX_portrait_GER_walter_model_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_werner_von_fritsch = {
+		name = GER_werner_von_fritsch
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_werner_von_fritsch
+				small = GFX_portrait_GER_werner_von_fritsch_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_oswald_lutz = {
+		name = GER_oswald_lutz
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_oswald_lutz
+				small = GFX_portrait_GER_oswald_lutz_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_ernsteberhard_hell = {
+		name = GER_ernsteberhard_hell
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_ernsteberhard_hell
+				small = GFX_portrait_GER_ernsteberhard_hell_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_friedrich_schulz = {
+		name = GER_friedrich_schulz
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_friedrich_schulz
+				small = GFX_portrait_GER_friedrich_schulz_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_felix_steiner = {
+		name = GER_felix_steiner
+		portraits = {
+			army = {
+				large = GFX_portrait_ger_felix_steiner
+				small = GFX_portrait_GER_felix_steiner_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_walter_kruger = {
+		name = GER_walter_kruger
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_walter_kruger
+				small = GFX_portrait_GER_walter_kruger_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_walther_nehring = {
+		name = GER_walther_nehring
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_walther_nehring
+				small = GFX_portrait_GER_walther_nehring_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_werner_von_blomberg = {
+		name = GER_werner_von_blomberg
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_werner_von_blomberg
+				small = GFX_portrait_GER_werner_von_blomberg_small
+			}
+		}
+		field_marshal = {
+			traits = {
+				defensive_doctrine
+				thorough_planner
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_hermann_hoth = {
+		name = GER_hermann_hoth
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_hermann_hoth
+				small = GFX_portrait_GER_hermann_hoth_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_adolf_hitler = {
+		name = GER_adolf_hitler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	GER_gerd_von_rundstedt = {
+		name = GER_gerd_von_rundstedt
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_gerd_von_rundstedt
+				small = GFX_idea_gerd_von_rundstedt
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_gunther_von_kluge = {
+		name = GER_gunther_von_kluge
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_gunther_von_kluge
+				small = GFX_portrait_GER_gunther_von_kluge_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_vincenz_muller = {
+		name = GER_vincenz_muller
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_vincenz_muller
+				small = GFX_portrait_GER_vincenz_muller_small
+			}
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_friedrich_paulus = {
+		name = GER_friedrich_paulus
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_friedrich_paulus
+				small = GFX_portrait_GER_friedrich_paulus_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_erich_von_manstein = {
+		name = GER_erich_von_manstein
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_erich_von_manstein
+				small = GFX_idea_manstein
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_wilhelm_list = {
+		name = GER_wilhelm_list
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_wilhelm_list
+				small = GFX_portrait_GER_wilhelm_list_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_ewald_von_kleist = {
+		name = GER_ewald_von_kleist
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_ewald_von_kleist
+				small = GFX_portrait_GER_ewald_von_kleist_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_fedor_von_bock = {
+		name = GER_fedor_von_bock
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_fedor_von_bock
+				small = GFX_portrait_GER_fedor_von_bock_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_maximilian_von_weichs = {
+		name = GER_maximilian_von_weichs
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_maximilian_von_weichs
+				small = GFX_portrait_GER_maximilian_von_weichs_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_wilhelm_ritter_von_leeb = {
+		name = GER_wilhelm_ritter_von_leeb
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_wilhelm_ritter_von_leeb
+				small = GFX_portrait_GER_wilhelm_ritter_von_leeb_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_georghans_reinhardt = {
+		name = GER_georghans_reinhardt
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_georghans_reinhardt
+				small = GFX_portrait_GER_georghans_reinhardt_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_erwin_von_witzleben = {
+		name = GER_erwin_von_witzleben
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_erwin_von_witzleben
+				small = GFX_portrait_GER_erwin_von_witzleben_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_georg_von_kuchler = {
+		name = GER_georg_von_kuchler
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_georg_von_kuchler
+				small = GFX_portrait_GER_georg_von_kuchler_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_alfred_jodl = {
+		name = GER_alfred_jodl
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_alfred_jodl
+				small = GFX_portrait_GER_alfred_jodl_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_albert_kesselring = {
+		name = GER_albert_kesselring
+		portraits = {
+			army = {
+				small = GFX_idea_albert_kesselring
+			}
+			army = {
+				large = GFX_portrait_GER_albert_kesselring
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_gotthard_heinrici = {
+		name = GER_gotthard_heinrici
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_gotthard_heinrici
+				small = GFX_portrait_GER_gotthard_heinrici_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_johannes_blaskowitz = {
+		name = GER_johannes_blaskowitz
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_johannes_blaskowitz
+				small = GFX_portrait_GER_johannes_blaskowitz_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_hans_krebs = {
+		name = GER_hans_krebs
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_hans_krebs
+				small = GFX_portrait_GER_hans_krebs_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_franz_ritter_von_epp = {
+		name = GER_franz_ritter_von_epp
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_franz_ritter_von_epp
+				small = GFX_portrait_GER_franz_ritter_von_epp_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_jurgen_von_blumenthal = {
+		name = GER_jurgen_von_blumenthal
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_jurgen_von_blumenthal
+				small = GFX_portrait_GER_jurgen_von_blumenthal_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_alexander_von_falkenhausen = {
+		s
+		name = CHI_alexander_von_falkenhausen
+		portraits = {
+			army = {
+				large = GFX_portrait_chi_alexander_von_falkenhausen
+				small = GFX_idea_CHI_alexander_von_falkenhausen
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_paul_von_lettow_vorbeck = {
+		name = GER_paul_von_lettow_vorbeck
+		portraits = {
+			army = {
+				large = GFX_portrait_ger_von_lettow_vorbeck
+				small = GFX_idea_GER_von_lettow_vorbeck
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_hans_kahle = {
+		name = GER_hans_kahle
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_hans_kahle
+				small = GFX_portrait_GER_hans_kahle_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_hans_marchwitza = {
+		name = GER_hans_marchwitza
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_hans_marchwitza
+				small = GFX_portrait_GER_hans_marchwitza_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_arno_von_lenski = {
+		name = GER_arno_von_lenski
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_arno_von_lenski
+				small = GFX_portrait_GER_arno_von_lenski_small
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_ludwig_beck = {
+		name = GER_ludwig_beck
+		portraits = {
+			army = {
+				small = GFX_idea_ludwig_beck
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_wilhelm_keitel = {
+		name = GER_wilhelm_keitel
+		portraits = {
+			army = {
+				small = GFX_idea_wilhelm_keitel
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_franz_halder = {
+		name = GER_franz_halder
+		portraits = {
+			army = {
+				small = GFX_idea_franz_halder
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_walther_von_brauchitsch = {
+		name = GER_walther_von_brauchitsch
+		portraits = {
+			army = {
+				small = GFX_idea_walther_von_brauchitsch
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GER_ferdinand_schorner = {
+		name = GER_ferdinand_schorner
+		portraits = {
+			army = {
+				small = GFX_idea_ferdinand_schorner
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
