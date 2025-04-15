@@ -1193,7 +1193,7 @@
 				}
 			}
 			157 = {
-				add_extra_state_shared_building_slots =2 
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -1527,7 +1527,7 @@
 				tooltip = production_factory_max_efficiency_factor_tt
 			}
 			add_to_variable = {
-				GER_german_economy_production_factory_efficiency_gain_factor = -0.50
+				GER_german_economy_production_factory_efficiency_gain_factor = -0.5
 				tooltip = production_factory_efficiency_gain_factor_tt
 			}
 			add_to_variable = {
@@ -2477,7 +2477,7 @@
 	}
 	focus = {
 		id = GER_appoint_sepp_dietrich
-		icon = GFX_goal_unknown
+		icon = GFX_josef_dietrich
 		x = -20
 		y = 1
 		cost = 1
@@ -2493,7 +2493,6 @@
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = autarkic_economy
 		}
 	}
 	focus = {
@@ -2773,7 +2772,7 @@
 	}
 	focus = {
 		id = GER_dietrich_1
-		icon = GFX_goal_unknown
+		icon = GFX_josef_dietrich1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2793,7 +2792,7 @@
 	}
 	focus = {
 		id = GER_dietrich_2
-		icon = GFX_goal_unknown
+		icon = GFX_josef_dietrich2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2813,7 +2812,7 @@
 	}
 	focus = {
 		id = GER_dietrich_3
-		icon = GFX_goal_unknown
+		icon = GFX_josef_dietrich3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2833,7 +2832,7 @@
 	}
 	focus = {
 		id = GER_dietrich_4
-		icon = GFX_goal_unknown
+		icon = GFX_josef_dietrich4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2853,7 +2852,7 @@
 	}
 	focus = {
 		id = GER_appoint_heinz_guderian
-		icon = GFX_goal_unknown
+		icon = GFX_heinz_guderian
 		text_icon = GER_inner_circle_focus_style
 		x = -14
 		y = 1
@@ -2873,7 +2872,7 @@
 	}
 	focus = {
 		id = GER_guderian_1
-		icon = GFX_goal_unknown
+		icon = GFX_heinz_guderian1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2893,7 +2892,7 @@
 	}
 	focus = {
 		id = GER_guderian_2
-		icon = GFX_goal_unknown
+		icon = GFX_heinz_guderian2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2913,7 +2912,7 @@
 	}
 	focus = {
 		id = GER_guderian_3
-		icon = GFX_goal_unknown
+		icon = GFX_heinz_guderian3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -2933,7 +2932,7 @@
 	}
 	focus = {
 		id = GER_guderian_4
-		icon = GFX_goal_unknown
+		icon = GFX_heinz_guderian4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3128,7 +3127,7 @@
 	}
 	focus = {
 		id = GER_appoint_günther_von_kluge
-		icon = GFX_goal_unknown
+		icon = GFX_guenther_kluge
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3148,7 +3147,7 @@
 	}
 	focus = {
 		id = GER_kluge_1
-		icon = GFX_goal_unknown
+		icon = GFX_guenther_kluge1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3168,7 +3167,7 @@
 	}
 	focus = {
 		id = GER_kluge_2
-		icon = GFX_goal_unknown
+		icon = GFX_guenther_kluge2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3188,7 +3187,7 @@
 	}
 	focus = {
 		id = GER_kluge_3
-		icon = GFX_goal_unknown
+		icon = GFX_guenther_kluge3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3208,7 +3207,7 @@
 	}
 	focus = {
 		id = GER_kluge_4
-		icon = GFX_goal_unknown
+		icon = GFX_guenther_kluge4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3347,7 +3346,7 @@
 	}
 	focus = {
 		id = GER_appoint_kurt_student
-		icon = GFX_goal_unknown
+		icon = GFX_kurt_student
 		text_icon = GER_inner_circle_focus_style
 		x = 6
 		y = 1
@@ -3527,7 +3526,7 @@
 	}
 	focus = {
 		id = GER_student_1
-		icon = GFX_goal_unknown
+		icon = GFX_kurt_student1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3547,7 +3546,7 @@
 	}
 	focus = {
 		id = GER_student_2
-		icon = GFX_goal_unknown
+		icon = GFX_kurt_student2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3567,7 +3566,7 @@
 	}
 	focus = {
 		id = GER_student_3
-		icon = GFX_goal_unknown
+		icon = GFX_kurt_student3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3587,7 +3586,7 @@
 	}
 	focus = {
 		id = GER_student_4
-		icon = GFX_goal_unknown
+		icon = GFX_kurt_student4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3607,7 +3606,7 @@
 	}
 	focus = {
 		id = GER_appoint_walter_model
-		icon = GFX_goal_unknown
+		icon = GFX_walter_model
 		text_icon = GER_inner_circle_focus_style
 		x = -6
 		y = 1
@@ -3627,7 +3626,7 @@
 	}
 	focus = {
 		id = GER_model_1
-		icon = GFX_goal_unknown
+		icon = GFX_walter_model1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3647,7 +3646,7 @@
 	}
 	focus = {
 		id = GER_model_2
-		icon = GFX_goal_unknown
+		icon = GFX_walter_model2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3667,7 +3666,7 @@
 	}
 	focus = {
 		id = GER_model_3
-		icon = GFX_goal_unknown
+		icon = GFX_walter_model3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3687,7 +3686,7 @@
 	}
 	focus = {
 		id = GER_model_4
-		icon = GFX_goal_unknown
+		icon = GFX_walter_model4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3854,7 +3853,7 @@
 	}
 	focus = {
 		id = GER_appoint_albert_kesselring
-		icon = GFX_goal_unknown
+		icon = GFX_albert_kesselring
 		text_icon = GER_inner_circle_focus_style
 		x = 14
 		y = 1
@@ -3874,7 +3873,7 @@
 	}
 	focus = {
 		id = GER_kesselring_1
-		icon = GFX_goal_unknown
+		icon = GFX_albert_kesselring1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3894,7 +3893,7 @@
 	}
 	focus = {
 		id = GER_kesselring_2
-		icon = GFX_goal_unknown
+		icon = GFX_albert_kesselring2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3914,7 +3913,7 @@
 	}
 	focus = {
 		id = GER_kesselring_3
-		icon = GFX_goal_unknown
+		icon = GFX_albert_kesselring3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -3934,7 +3933,7 @@
 	}
 	focus = {
 		id = GER_kesselring_4
-		icon = GFX_goal_unknown
+		icon = GFX_albert_kesselring4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -4075,7 +4074,7 @@
 	}
 	focus = {
 		id = GER_appoint_erhard_milch
-		icon = GFX_goal_unknown
+		icon = GFX_erhard_milch
 		x = 20
 		text_icon = GER_inner_circle_focus_style
 		y = 1
@@ -4095,7 +4094,7 @@
 	}
 	focus = {
 		id = GER_milch_1
-		icon = GFX_goal_unknown
+		icon = GFX_erhard_milch1
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -4115,7 +4114,7 @@
 	}
 	focus = {
 		id = GER_milch_2
-		icon = GFX_goal_unknown
+		icon = GFX_erhard_milch2
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -4135,7 +4134,7 @@
 	}
 	focus = {
 		id = GER_milch_3
-		icon = GFX_goal_unknown
+		icon = GFX_erhard_milch3
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
@@ -4155,7 +4154,7 @@
 	}
 	focus = {
 		id = GER_milch_4
-		icon = GFX_goal_unknown
+		icon = GFX_erhard_milch4
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
