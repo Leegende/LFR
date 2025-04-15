@@ -156,7 +156,6 @@ guiTypes = {
 						maxWidth = 50
 						maxHeight = 20
 						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
 					}
 
 					buttonType = {
@@ -164,7 +163,6 @@ guiTypes = {
 						position = { x=210 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 2
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 					}
 
 					instantTextboxType = {
@@ -177,7 +175,6 @@ guiTypes = {
 						maxWidth = 50
 						maxHeight = 20
 						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 					}
 
 					buttonType = {
@@ -185,7 +182,6 @@ guiTypes = {
 						position = { x=280 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
-						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
 					}
 
 					instantTextboxType = {
@@ -219,9 +215,10 @@ guiTypes = {
 						maxWidth = 50
 						maxHeight = 20
 						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
 				}
+
+	
 				iconType = {
 					name = "production_output_icon"
 					position = { x=108 y=53 }

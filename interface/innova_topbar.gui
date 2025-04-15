@@ -1,0 +1,123 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "IB_civ_ui_window"
+		position = { x= 888 y = 6}
+		clipping = no
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name = "IB_name_civ_fac_icon"
+			spriteType = "GFX_IB_civ_fac"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_mil_fac_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_CIV_FAC_VAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "IB_mil_ui_window"
+		position = { x= 960 y = 6}
+		clipping = no
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_mil_fac_icon"
+			spriteType = "GFX_IB_mil_fac"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_mil_fac_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_MIL_FAC_VAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+		}
+	}
+	containerWindowType = {
+		name = "IB_divison_ui_window"
+		position = { x= 1032 y = 6}
+		clipping = no
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_divison_icon"
+			spriteType = "GFX_IB_divison"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_divison_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NUM_OF_DIV"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "IB_planes_ui_window"
+		position = { x= 1104 y = 6}
+		clipping = no
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			spriteType = "GFX_generic_box_smallest"
+		}
+	
+		iconType = {
+			name ="IB_name_planes_icon"
+			spriteType = "GFX_IB_planes"
+			position = { x= 2 y = 4 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "IB_PLA_TOOLTIP"
+		}
+		
+		instantTextBoxType = {
+			name ="IB_planes_value"
+			position = { x= 19 y = 3 }
+			font = "hoi_18mbs"
+			text = "IB_NUM_OF_DEP_PLA"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "IB_PLA_TOOLTIP"
+		}
+	}
+}
