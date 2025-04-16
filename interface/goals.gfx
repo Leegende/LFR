@@ -235,4 +235,18 @@ spriteTypes = {
 		name = "GFX_erhard_milch4"
 		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch4.dds"
 	}
+	spriteType = {
+		name = "GFX_mp_40"
+		texturefile = "gfx/interface/focus/GER/GER_mp_40.dds"
+	}
+	spriteType = {
+		name = "GFX_3_7_cm_pak"
+		texturefile = "gfx/interface/focus/GER/GER_3_7_cm_pak.dds"
+	}
+	spriteType = {
+		name = "GFX_7_5_cm_KwK_40"
+		texturefile = "gfx/interface/focus/GER/GER_7_5_cm_kwk_40.dds"
+	}
+
+
 }

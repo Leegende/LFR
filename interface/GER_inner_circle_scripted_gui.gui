@@ -26,12 +26,14 @@ guiTypes = {
 		size = { width = 600 height = 550 }
 		clipping = no
 
+		#BACKGROUND
 		background = {
 			name = "background"
 			quadTextureSprite="GFX_inner_circle_decor_bg"
 			alwaystransparent = yes
 		}
 
+		#BACKGROUND SPOTLIGHT
 		background = {
 			name = "background_spotlight"
 			position = { x=23 y=24 }
@@ -39,16 +41,32 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+		#TITLE
 		instantTextBoxType = {
 			name ="inner_circle_title_name"
 			orientation = center_up
 			position = { x = -280 y = 20 }
 			font = "hoi_36header"
-			text = "OKW"
+			text = "GER_inner_circle_title_text"
 			format = center
 			maxWidth = 600
 		}
 
+		#MINIMIZE BUTTON
+		#buttonType = {
+		#	name = "hide_button"
+		#	position = { x = -30 y = 22 }
+		#	quadTextureSprite ="GFX_closebutton"
+		#	buttonFont = "Main_14_black"
+		#	Orientation = "UPPER_RIGHT"
+		#	clicksound = click_close
+		#	pdx_tooltip = "GER_inner_circle_hide_button_tt"
+		#}
+
+
+		#######################
+		### FUHRER PORTRAIT ###
+		#######################
 
 		containerWindowType = {
 			name = "fuhrer_container"

@@ -13,13 +13,13 @@
 		x = 5000
 		y = 5000
 	}
-	#inlay_window = {
-	#	id = ger_inner_circle_inlay_window
-	#	position = {
-	#		x = 5500
-	#		y = 1000
-	#	}
-	#}
+	inlay_window = {
+		id = ger_inner_circle_inlay_window
+		position = {
+			x = 5500
+			y = 1000
+		}
+	}
 	############################################################################################################################
 	############################################################################################################################
 	############################################################################################################################
@@ -2472,7 +2472,6 @@
 			factor = 10
 		}
 		completion_reward = {
-			country_event = germany.1
 		}
 	}
 	focus = {
@@ -3706,7 +3705,7 @@
 	}
 	focus = {
 		id = GER_3_7_cm_pak
-		icon = GFX_goal_unknown
+		icon = GFX_3_7_cm_pak
 		x = 2
 		y = 1
 		cost = 1
@@ -3733,8 +3732,8 @@
 		}
 	}
 	focus = {
-		id = GER_mp_38
-		icon = GFX_goal_unknown
+		id = GER_mp_40
+		icon = GFX_mp_40
 		x = 4
 		y = 1
 		cost = 1
@@ -3768,7 +3767,7 @@
 			focus = GER_3_7_cm_pak
 		}
 		prerequisite = {
-			focus = GER_mp_38
+			focus = GER_mp_40
 		}
 		relative_position_id = GER_appoint_walter_model
 		available = {
@@ -3783,7 +3782,7 @@
 	}
 	focus = {
 		id = GER_7_5_cm_KwK_40
-		icon = GFX_goal_unknown
+		icon = GFX_7_5_cm_KwK_40
 		x = 0
 		y = 1
 		cost = 1
