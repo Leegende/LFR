@@ -1,6 +1,4 @@
 ﻿l_english:
- available_political_advisor_no_trait_tt: "$available_political_advisor$§Y$CHARACTER$§!"
- remove_political_advisor_no_trait_tt: "$remove_political_advisor$§Y$CHARACTER$§!
  available_political_advisor: "§GAvailable§! as §YPolitical Advisor§!:\n"
  available_political_advisor: "§GAvailable§! as §YIndustrial Concern§!:\n"
  AXIS_NAME: "Axis"

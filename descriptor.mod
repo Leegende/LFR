@@ -6,7 +6,6 @@ tags={
 	"Utilities"
 	"Gameplay"
 }
-replace_path="interface"
 replace_path="gfx/flags"
 replace_path="gfx/flags/small"
 replace_path="gfx/flags/medium"

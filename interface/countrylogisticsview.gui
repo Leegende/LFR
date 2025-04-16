@@ -292,74 +292,6 @@ guiTypes = {
 			
 
 			containerWindowType = {
-				name = "navy_info"
-				position = { x = -99999 y = 99999 }
-				size = { width = 0 height = 0 }
-
-				background = {
-					name = "bg"
-					quadTextureSprite ="GFX_mini_tooltip"
-					position = { x = 0 y = 3 }				
-				}
-				instantTextboxType = {
-					name = "type_text"
-					position = { x=10 y=8 }
-					font = "hoi_16mbs"
-					text = "TOPBAR_NAVY"
-					maxWidth = 80
-					maxHeight = 20
-					format = left
-					alwaystransparent = yes
-				}
-				
-				buttonType = {
-					name = "low_prio"
-					position = { x = 7 y = 25 }
-					buttonFont = "hoi_16mbs"
-					quadTextureSprite = "GFX_deploy_priority"
-					pdx_tooltip = "FUEL_LOW_PRIORITY_DESC"
-					frame = 1
-					clicksound = click_default
-				}
-				
-				buttonType = {
-					name = "medium_prio"
-					position = { x = 27 y = 25 }
-					buttonFont = "hoi_16mbs"
-					quadTextureSprite = "GFX_deploy_priority"
-					pdx_tooltip = "FUEL_MEDIUM_PRIORITY_DESC"
-					frame = 3
-					clicksound = click_default
-				}
-				
-				buttonType = {
-					name = "high_prio"
-					position = { x = 47 y = 25 }
-					buttonFont = "hoi_16mbs"
-					quadTextureSprite = "GFX_deploy_priority"
-					pdx_tooltip = "FUEL_HIGH_PRIORITY_DESC"
-					frame = 1
-					clicksound = click_default
-				}
-				
-				iconType = {
-					name = "details_button"
-					position = { x=78 y=10 }	
-					spriteType ="GFX_fuel_types_icon"
-					frame=2
-				}
-				
-				iconType = {
-					name ="fulfilled"
-					spriteType = "GFX_logistics_fuelbar"
-					position = { x=10 y = 46 }
-					frame = 100
-				}
-			}
-			
-			
-
-			containerWindowType = {
 				name = "air_info"
 				position = { x = 210 y = 33 }
 				size = { width = 120 height = 68 }
@@ -526,49 +458,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-		containerWindowType = {
-			name = "naval_factories"
-			position = { x = -9999 y = -9999 }
-			size = { width = 130 height = 70 }
-			Orientation = lower_left
-
-			background = {
-				name = "naval_background"
-				quadTextureSprite ="GFX_mini_tooltip"
-				position = { x = 0 y = 3 }				
-			}
-			
-			instantTextboxType = {
-				name = "naval_factories_label"
-				position = { x=15 y=12 }
-				font = "hoi_16mbs"
-				text = "LOGISTICS_NAVAL_FACTORIES_LABEL"
-				maxWidth = 80
-				maxHeight = 20
-				format = left
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name ="naval_factory_icon"
-				spriteType = "GFX_naval_factory_icon"
-				position = { x= 89 y = 17 }
-				frame = 1
-				alwaystransparent = yes
-			}
-			
-			iconType = {
-				name ="naval_factories_usage"
-				spriteType = "GFX_logistics_fuelbar"
-				position = { x= 15 y = 48 }
-				alwaystransparent = yes
-			}
-		}
-		
-
-
-
-
 		
 	
 		containerWindowType = {

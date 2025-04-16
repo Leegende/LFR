@@ -467,63 +467,6 @@ guiTypes = {
 
 				
 
-				checkBoxType = {
-					name = "show_capital_ships"
-					position = { x = -9999 y = 179 }
-					quadTextureSprite = "GFX_capital_ships_checkbox"
-					clicksound = click_checkbox
-				}
-
-				instantTextboxType = {
-					name = "factories_used_capital_ships"
-					position = { x = -9999 y = 190 }
-					font = "hoi_18mbs"
-					text = "110"
-					maxWidth = 40
-					maxHeight = 20
-					format = right
-					pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
-				}
-
-				checkBoxType = {
-					name = "show_screen_ships"
-					position = { x = -9999 y = 179 }
-					quadTextureSprite = "GFX_screen_ships_checkbox"
-					clicksound = click_checkbox
-				}
-
-				instantTextboxType = {
-					name = "factories_used_screen_ships"
-					position = { x = -9999 y = 190 }
-					font = "hoi_18mbs"
-					text = "110"
-					maxWidth = 40
-					maxHeight = 20
-					format = right
-					pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
-				}
-
-				checkBoxType = {
-					name = "show_other_ships"
-					position = { x = -9999 y = 179 }
-					quadTextureSprite = "GFX_other_ships_checkbox"
-					clicksound = click_checkbox
-				}
-
-				instantTextboxType = {
-					name = "factories_used_other_ships"
-					position = { x = -9999 y = 190 }
-					font = "hoi_18mbs"
-					text = "110"
-					maxWidth = 40
-					maxHeight = 20
-					format = right
-					pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
-				}
-
-
-
-
 			
 			
 

@@ -1,8 +1,8 @@
 ﻿l_english:
- EFFECT_LIST_OTHERS:0 "$LIST$, $NUMBER|Y$ others"
+ EFFECT_LIST_OTHERS:0 "$LIST$ and $NUMBER|Y$ others"
  EFFECT_LIST_COUNTRY:1 "@$TAG$$COUNTRY|UH$"
  EFFECT_TRANSFER_STATE:0 "Becomes owner of $STATE|Y$."
- EFFECT_TRANSFER_STATE_TO:0 "Becomes owned by $COUNTRY|Y$."
+ EFFECT_TRANSFER_STATE_TO:0 "Becomes owned and controlled by $COUNTRY|Y$."
  EFFECT_SET_STATE_OWNER:0 "Becomes owner of $STATE|Y$."
  EFFECT_SET_STATE_OWNER_TO:0 "Becomes owned by $COUNTRY|Y$."
  EFFECT_ADD_CONTESTED_OWNER: "[State.GetName] becomes a contested state of [Country.GetNameWithFlag]"
