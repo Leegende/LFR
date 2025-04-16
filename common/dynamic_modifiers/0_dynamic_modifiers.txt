@@ -6,6 +6,17 @@ GER_reichsautobahn_construct_dynamic_modifier = {
 	state_production_speed_infrastructure_factor = 0.25
 }
 
+GER_failed_reform_the_okw = {
+	enable = {
+		always = yes
+	}
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense
+    army_attack_factor = GER_failed_reform_the_okw_army_attack_factor
+	army_morale_factor = GER_failed_reform_the_okw_army_morale_factor
+	army_org_factor = GER_failed_reform_the_okw_army_org_factor
+	political_advisor_cost_factor = GER_failed_reform_the_okw_political_advisor_cost_factor
+}
+
 GER_mefo_bills = {
 	enable = {
 		always = yes

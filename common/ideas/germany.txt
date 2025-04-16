@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		
 		ig_farben_idea = {
 			cost = 0
 			removal_cost = 0
@@ -410,7 +411,6 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
-		
 	}
 	industrial_concern = {
 		ig_farben_concern = {

@@ -30,6 +30,44 @@ political_actions = {
 			remove_decision = improved_worker_conditions
 		}
 	}
+	war_bonds_cancel = {
+		icon = generic_industry
+		allowed = {
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_decision = war_bonds
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = war_bonds
+		}
+	}
+	war_bonds = {
+		icon = generic_industry
+		allowed = {
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = -1
+		cost = 0
+		modifier = {
+			political_power_gain = -0.5
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = -0.05
+		}
+		remove_effect = {
+		}
+		complete_effect = {
+		}
+	}
 	anti_fascist_raids = {
 		icon = generic_civil_support
 		visible = {
@@ -355,45 +393,6 @@ political_actions = {
 			stability_factor = -0.05
 		}
 	}
-	war_bonds_cancel = {
-		icon = generic_industry
-		allowed = {
-		}
-		available = {
-			has_war = yes
-		}
-		visible = {
-			has_decision = war_bonds
-		}
-		fire_only_once = no
-		cost = 0
-		complete_effect = {
-			remove_decision = war_bonds
-		}
-	}
-	war_bonds = {
-		icon = generic_industry
-		allowed = {
-		}
-		available = {
-			has_war = yes
-		}
-		visible = {
-		}
-		fire_only_once = no
-		days_remove = -1
-		cost = 0
-		modifier = {
-			political_power_gain = -0.5
-			industrial_capacity_dockyard = 0.05
-			industrial_capacity_factory = 0.05
-			consumer_goods_expected_value = -0.05
-		}
-		remove_effect = {
-		}
-		complete_effect = {
-		}
-	}
 	war_propaganda = {
 		icon = generic_prepare_civil_war
 		available = {
@@ -444,4 +443,3 @@ political_actions = {
 		}
 	}
 }
-

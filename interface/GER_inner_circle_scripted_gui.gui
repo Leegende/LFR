@@ -1,7 +1,7 @@
 @ASCENDED_ADVISOR_CONTAINER_POS_Y = 295
 @ASCENDED_ADVISOR_CONTAINER_WIDTH = 150
 @ASCENDED_ADVISOR_CONTAINER_HEIGHT = 120
-@ASCENDED_ADVISOR_TEXT_POS_X = -75 #Should be ASCENDED_ADVISOR_CONTAINER_WIDTH / 2 * (-1)
+@ASCENDED_ADVISOR_TEXT_POS_X = -75 
 @ASCENDED_ADVISOR_TEXT_POS_Y = 23
 
 @ASCENDED_ADVISOR_FRAME_POS_Y = -11
@@ -26,14 +26,12 @@ guiTypes = {
 		size = { width = 600 height = 550 }
 		clipping = no
 
-		#BACKGROUND
 		background = {
 			name = "background"
 			quadTextureSprite="GFX_inner_circle_decor_bg"
 			alwaystransparent = yes
 		}
 
-		#BACKGROUND SPOTLIGHT
 		background = {
 			name = "background_spotlight"
 			position = { x=23 y=24 }
@@ -41,7 +39,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		#TITLE
 		instantTextBoxType = {
 			name ="inner_circle_title_name"
 			orientation = center_up
@@ -51,22 +48,6 @@ guiTypes = {
 			format = center
 			maxWidth = 600
 		}
-
-		#MINIMIZE BUTTON
-		#buttonType = {
-		#	name = "hide_button"
-		#	position = { x = -30 y = 22 }
-		#	quadTextureSprite ="GFX_closebutton"
-		#	buttonFont = "Main_14_black"
-		#	Orientation = "UPPER_RIGHT"
-		#	clicksound = click_close
-		#	pdx_tooltip = "GER_inner_circle_hide_button_tt"
-		#}
-
-
-		#######################
-		### FUHRER PORTRAIT ###
-		#######################
 
 		containerWindowType = {
 			name = "fuhrer_container"
@@ -82,7 +63,6 @@ guiTypes = {
 				size = { width = 123 height = 161 }
 				clipping = no
 
-				#PORTRAIT
 				iconType = {
 					name ="fuhrer_portrait"
 					spriteType = "GFX_inner_circle_leader_adolf_hitler"
@@ -91,7 +71,6 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
-				#FRAME
 				iconType = {
 					name ="fuhrer_frame"
 					spriteType = "GFX_circular_frame_fuhrer"
@@ -102,7 +81,6 @@ guiTypes = {
 				}
 			}
 
-			#FUHRER NAME BOX
 			iconType = {
 				name ="fuhrer_name_box"
 				spriteType = "GFX_fuhrer_name_ribbon"
@@ -112,19 +90,17 @@ guiTypes = {
 				context_aware_tooltip = GER_fuhrer_tooltip
 			}
 
-			#FUHRER NAME
 			instantTextBoxType = {
 				name ="fuhrer_name"
 				orientation = center_down
 				position = { x = -100 y = 0 }
-				font = "hoi_20b" #"hoi_18mbs"
+				font = "hoi_20b" 
 				context_aware_text = "GER_fuhrer_name_text"
 				format = center
 				maxWidth = 200
 				alwaystransparent = yes
 			}
 
-			#TITLE BOX
 			iconType = {
 				name ="fuhrer_title_box"
 				spriteType = "GFX_trait_box_fuhrer"
@@ -134,7 +110,6 @@ guiTypes = {
 				context_aware_tooltip = GER_fuhrer_tooltip
 			}
 
-			#FUHRER TITLE
 			instantTextBoxType = {
 				name ="fuhrer_title"
 				orientation = center_down
@@ -146,13 +121,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
-
-
-		##########################
-		### ASCENDED PORTRAITS ###
-		##########################
-
 		containerWindowType = {
 			name = "ascended_advisor_1_container"
 			orientation = center_up
@@ -167,7 +135,6 @@ guiTypes = {
 				size = { width = 91 height = 119 }
 				clipping = no
 				
-				#FRAME
 				iconType = {
 					name ="ascended_advisor_1_frame"
 					spriteType = "GFX_ascended_advisors_unappointed_frame"
@@ -177,7 +144,6 @@ guiTypes = {
 					context_aware_tooltip = [GetAscendedAdvisorTrait1]
 				}
 
-				#PORTRAIT
 				iconType = {
 					name ="ascended_advisor_1_portrait"
 					spriteType = ""
@@ -187,8 +153,6 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 			}
-
-			#ASCENDED ADVISOR NAME BOX
 			iconType = {
 				name ="ascended_advisor_1_name_box"
 				spriteType = "GFX_ascended_advisor_name_box"
@@ -198,7 +162,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait1]
 			} 
 
-			#ASCENDED ADVISOR NAME
 			instantTextBoxType = {
 				name ="ascended_advisor_1_name"
 				orientation = center_down
@@ -210,7 +173,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			#ASCENDED ADVISOR TRAIT BOX
 			iconType = {
 				name ="ascended_advisor_1_trait_box"
 				spriteType = "GFX_ascended_advisor_trait_box"
@@ -220,7 +182,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait1]
 			}
 
-			#TRAIT
 			instantTextBoxType = {
 				name ="ascended_advisor_1_trait"
 				orientation = center_down
@@ -248,7 +209,6 @@ guiTypes = {
 				size = { width = 91 height = 119 }
 				clipping = no
 
-				#FRAME
 				iconType = {
 					name ="ascended_advisor_2_frame"
 					spriteType = "GFX_ascended_advisors_unappointed_frame"
@@ -258,7 +218,6 @@ guiTypes = {
 					context_aware_tooltip = [GetAscendedAdvisorTrait2]
 				}
 
-				#PORTRAIT
 				iconType = {
 					name ="ascended_advisor_2_portrait"
 					spriteType = ""
@@ -269,7 +228,6 @@ guiTypes = {
 				}
 			}
 
-			#ASCENDED ADVISOR NAME BOX
 			iconType = {
 				name ="ascended_advisor_2_name_box"
 				spriteType = "GFX_ascended_advisor_name_box"
@@ -279,7 +237,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait2]
 			}
 
-			#NAME
 			instantTextBoxType = {
 				name ="ascended_advisor_2_name"
 				orientation = center_down
@@ -291,7 +248,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			#ASCENDED ADVISOR TRAIT BOX
 			iconType = {
 				name ="ascended_advisor_2_trait_box"
 				spriteType = "GFX_ascended_advisor_trait_box"
@@ -301,7 +257,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait2]
 			}
 
-			#TRAIT
 			instantTextBoxType = {
 				name ="ascended_advisor_2_trait"
 				orientation = center_down
@@ -328,7 +283,6 @@ guiTypes = {
 				size = { width = 91 height = 119 }
 				clipping = no
 
-				#FRAME
 				iconType = {
 					name ="ascended_advisor_3_frame"
 					spriteType = "GFX_ascended_advisors_unappointed_frame"
@@ -338,7 +292,6 @@ guiTypes = {
 					context_aware_tooltip = [GetAscendedAdvisorTrait3]
 				}
 
-				#PORTRAIT
 				iconType = {
 					name ="ascended_advisor_3_portrait"
 					spriteType = ""
@@ -349,7 +302,6 @@ guiTypes = {
 				}
 			}
 
-			#ASCENDED ADVISOR NAME BOX
 			iconType = {
 				name ="ascended_advisor_3_name_box"
 				spriteType = "GFX_ascended_advisor_name_box"
@@ -359,7 +311,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait3]
 			}
 
-			#NAME
 			instantTextBoxType = {
 				name ="ascended_advisor_3_name"
 				orientation = center_down
@@ -371,7 +322,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			#ASCENDED ADVISOR TRAIT BOX
 			iconType = {
 				name ="ascended_advisor_2_trait_box"
 				spriteType = "GFX_ascended_advisor_trait_box"
@@ -381,7 +331,6 @@ guiTypes = {
 				context_aware_tooltip = [GetAscendedAdvisorTrait3]
 			}
 
-			#TRAIT
 			instantTextBoxType = {
 				name ="ascended_advisor_3_trait"
 				orientation = center_down
@@ -393,12 +342,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
-
-		#########################
-		### ADVISOR PORTRAITS ###
-		#########################
-
 		containerWindowType = {
 			name = "advisors_container"
 			orientation = center_up
@@ -411,7 +354,6 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_plain_bg2"
 			}
 
-			# TODT
 			iconType = {
 				name ="advisor_todt_portrait"
 				spriteType = "GFX_fritz_todt_available_small"
@@ -420,7 +362,6 @@ guiTypes = {
 				scale = 1
 			}
 
-			# SPEER
 			iconType = {
 				name ="advisor_speer_portrait"
 				spriteType = "GFX_albert_speer_available_small"
@@ -429,7 +370,6 @@ guiTypes = {
 				scale = 1
 			}
 
-			# GÖRING
 			iconType = {
 				name ="advisor_goring_portrait"
 				spriteType = "GFX_hermann_goring_available_small"
@@ -465,7 +405,6 @@ guiTypes = {
 				scale = 1
 			}
 
-			# BORMANN
 			iconType = {
 				name ="advisor_bormann_portrait"
 				spriteType = "GFX_martin_bormann_available_small"

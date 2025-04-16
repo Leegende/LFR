@@ -1,3 +1,62 @@
+GER_reform_the_okw = {
+	GER_reform_the_okw_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			always = no
+		}
+		activation = {
+			#date < 1936.1.2
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		remove_trigger = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		timeout_effect = {
+			army_experience = -100
+			air_experience = -100
+			if = {
+				limit = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = GER_failed_reform_the_okw
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = GER_failed_reform_the_okw
+				}
+			}
+			else = {
+				GER_failed_reform_the_okw_tt = yes
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_attack_factor = -0.1
+					tooltip = army_attack_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_morale_factor = -0.05
+					tooltip = army_morale_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_org_factor = -0.05
+					tooltip = army_org_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_political_advisor_cost_factor = 0.1
+					tooltip = political_advisor_cost_factor_tt
+				}
+			}
+		}
+		selectable_mission = no
+		days_mission_timeout = 365
+	}
+}
+
 GER_autarky_category = {
 	GER_drill_baby_drill = {
 		icon = GFX_decision_generic_construction

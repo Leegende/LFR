@@ -18,6 +18,8 @@
  ban_neutrality_party_tt: "Change in popularity of Non-Aligned: §G-§![?.Root.party_popularity@neutrality|%0G].\n"
  ban_fascist_party_tt:1 "Change in popularity of Fascism: §G-§![?.Root.party_popularity@fascism|%0G].\n"
 
+ DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
+ DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
  GER_autarky_category:0 "Autarky Categories"
  GER_drill_baby_drill:0 "Drill Baby Drill"
  GER_german_mercantilism:0 "German Mercantilism"
