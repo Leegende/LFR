@@ -261,9 +261,6 @@ GER_reform_the_okw = {
 	}
 }
 
-GER_quests = {
-}
-
 GER_autarky_category = {
 	GER_drill_baby_drill = {
 		icon = GFX_decision_generic_construction
@@ -606,78 +603,3 @@ GER_autarky_category = {
 	}
 }
 
-second_world_war_decision = {
-	fall_weiss = {
-		icon = GFX_decision_generic_army_support
-		allowed = {
-			original_tag = GER
-		}
-		visible = {
-			has_completed_focus = GER_molotov_ribbentrop_pact
-		}
-		available = {
-			has_completed_focus = GER_fall_weiss
-		}
-		complete_effect = {
-			GER = {
-				declare_war_on = {
-					target = POL
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = ENG
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = FRA
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = IRE
-					type = annex_everything
-				}
-			}
-			hidden_effect = {
-				HUN = {
-					declare_war_on = {
-						target = POL
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = ENG
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = FRA
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = IRE
-						type = annex_everything
-					}
-				}
-				ROM = {
-					declare_war_on = {
-						target = POL
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = ENG
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = FRA
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = IRE
-						type = annex_everything
-					}
-				}
-			}
-		}
-		days_remove = 0
-		cost = 0
-		fire_only_once = yes
-	}
-}

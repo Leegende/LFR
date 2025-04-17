@@ -1,0 +1,26 @@
+scripted_gui = {
+	GER_quest_scripted_decision_ui = {
+		context_type = decision_category
+		window_name = "GER_quest_scripted_decisions_ui"
+		effects = {
+			GER_weisung_nr_1_button_click = {
+				GER = {
+					declare_war_on = {
+						target = POL
+						type = annex_everything
+					}
+				}
+				set_global_flag = GER_weisung_nr_1
+			}
+		}
+		triggers = {
+			GER_weisung_nr_1_button_click_enabled = {
+				GER_weisung_nr_1_trigger = yes
+			}
+			GER_weisung_nr_1_button_visible = {
+				always = yes
+			}
+
+		}
+	}
+}
