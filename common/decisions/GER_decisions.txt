@@ -107,6 +107,9 @@ GER_reform_the_okw = {
 		}
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 	}
 	GER_appoint_heinz_guderian_decision = {
@@ -132,6 +135,9 @@ GER_reform_the_okw = {
 		}
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 	}
 	GER_appoint_walter_model_decision = {
@@ -151,6 +157,9 @@ GER_reform_the_okw = {
 		days_remove = 0
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 		complete_effect = {
 			complete_national_focus = GER_appoint_walter_model
@@ -159,7 +168,7 @@ GER_reform_the_okw = {
 			}
 		}
 	}
-	GER_appoint_günther_von_kluge_decision = {
+	GER_appoint_guenther_von_kluge_decision = {
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -176,6 +185,9 @@ GER_reform_the_okw = {
 		days_remove = 0
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 		complete_effect = {
 			complete_national_focus = GER_appoint_günther_von_kluge
@@ -201,6 +213,9 @@ GER_reform_the_okw = {
 		days_remove = 0
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 		complete_effect = {
 			complete_national_focus = GER_appoint_kurt_student
@@ -226,6 +241,9 @@ GER_reform_the_okw = {
 		days_remove = 0
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 		complete_effect = {
 			complete_national_focus = GER_appoint_albert_kesselring
@@ -251,6 +269,9 @@ GER_reform_the_okw = {
 		days_remove = 0
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
 		}
 		complete_effect = {
 			complete_national_focus = GER_appoint_erhard_milch
@@ -602,4 +623,3 @@ GER_autarky_category = {
 		days_remove = 100
 	}
 }
-
