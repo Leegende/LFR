@@ -1,5 +1,5 @@
 GER_reform_the_okw = {
-	GER_reform_the_okw_decision = {
+	GER_failed_reform_the_okw_decision = {
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -8,8 +8,12 @@ GER_reform_the_okw = {
 			always = no
 		}
 		activation = {
-			#date < 1936.1.2
-			always = yes
+			NOT = {
+				has_completed_focus = GER_appoint_the_okw
+			}
+		}
+		cancel_trigger = {
+			has_completed_focus = GER_appoint_the_okw
 		}
 		visible = {
 			always = yes
@@ -47,13 +51,213 @@ GER_reform_the_okw = {
 					tooltip = army_org_factor_tt
 				}
 				add_to_variable = {
-					GER_failed_reform_the_okw_political_advisor_cost_factor = 0.1
+					GER_failed_reform_the_okw_political_advisor_cost_factor = 0.25
 					tooltip = political_advisor_cost_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_political_power_gain = -0.1
+					tooltip = political_power_gain_tt
 				}
 			}
 		}
 		selectable_mission = no
-		days_mission_timeout = 365
+		days_mission_timeout = 1
+	}
+	GER_remove_failed_reform_the_okw_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			has_war = yes
+		}
+		cost = 50
+		days_remove = 120
+		visible = {
+			has_dynamic_modifier = {
+				modifier = GER_failed_reform_the_okw
+			}
+		}
+		remove_effect = {
+			remove_dynamic_modifier = {
+				modifier = GER_failed_reform_the_okw
+			}
+		}
+	}
+	GER_appoint_sepp_dietrich_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_sepp_dietrich
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		complete_effect = {
+			complete_national_focus = GER_appoint_sepp_dietrich
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+	}
+	GER_appoint_heinz_guderian_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_heinz_guderian
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		complete_effect = {
+			complete_national_focus = GER_appoint_heinz_guderian
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+	}
+	GER_appoint_walter_model_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_walter_model
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		complete_effect = {
+			complete_national_focus = GER_appoint_walter_model
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_günther_von_kluge_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_günther_von_kluge
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		complete_effect = {
+			complete_national_focus = GER_appoint_günther_von_kluge
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_kurt_student_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_kurt_student
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		complete_effect = {
+			complete_national_focus = GER_appoint_kurt_student
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_albert_kesselring_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_albert_kesselring
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		complete_effect = {
+			complete_national_focus = GER_appoint_albert_kesselring
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_erhard_milch_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_erhard_milch
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+		}
+		complete_effect = {
+			complete_national_focus = GER_appoint_erhard_milch
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
 	}
 }
 

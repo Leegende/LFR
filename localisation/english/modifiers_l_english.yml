@@ -2319,3 +2319,4 @@
  sp_tag_nuclear_power_speed_factor_tt: " $sp_tag_nuclear_power_speed_factor$: $RIGHT|+=%1$"
  sp_tag_radar_speed_factor: "Radar Special Projects Speed"
  sp_tag_radar_speed_factor_tt: " $sp_tag_radar_speed_factor$: $RIGHT|+=%1$"
+ GER_failed_reform_the_okw: "Failed Reform of the OKW"

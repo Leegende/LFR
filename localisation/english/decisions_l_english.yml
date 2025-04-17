@@ -83,5 +83,13 @@
  army_chief:0 "Army Chief"
  air_chief:0 "Air Chief"
  high_command:0 "High Command"
-
- 
+ GER_reform_the_okw:0 "Reform the OKW"
+ GER_failed_reform_the_okw_decision:0 "Failed Reform of the OKW"
+ GER_appoint_sepp_dietrich_decision: "Appoint Sepp Dietrich"
+ GER_appoint_heinz_guderian_decision: "Appoint Heinz Guderian"
+ GER_appoint_walter_model_decision: "Appoint Walter Model"
+ GER_appoint_günther_von_kluge_decision: "Appoint Günther von Kluge"
+ GER_appoint_kurt_student_decision: "Appoint Kurt Student"
+ GER_appoint_albert_kesselring_decision: "Appoint Albert Kesselring"
+ GER_appoint_erhard_milch_decision: "Appoint Erhard Milch"
+ GER_remove_failed_reform_the_okw_decision: "Remove Failed Reform of the OKW"

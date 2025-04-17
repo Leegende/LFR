@@ -15,6 +15,7 @@ GER_failed_reform_the_okw = {
 	army_morale_factor = GER_failed_reform_the_okw_army_morale_factor
 	army_org_factor = GER_failed_reform_the_okw_army_org_factor
 	political_advisor_cost_factor = GER_failed_reform_the_okw_political_advisor_cost_factor
+	political_power_gain = GER_failed_reform_the_okw_political_power_gain
 }
 
 GER_mefo_bills = {

@@ -247,6 +247,89 @@ spriteTypes = {
 		name = "GFX_7_5_cm_KwK_40"
 		texturefile = "gfx/interface/focus/GER/GER_7_5_cm_kwk_40.dds"
 	}
-
+	spriteType = {
+		name = "GFX_long_term"
+		texturefile = "gfx/interface/focus/GER/GER_long_term.tga"
+	}
+	spriteType = {
+		name = "GFX_short_term"
+		texturefile = "gfx/interface/focus/GER/GER_short_term.tga"
+	}
+	spriteType = {
+		name = "GFX_war_economy"
+		texturefile = "gfx/interface/focus/GER/GER_war_economy.tga"
+	}
+	spriteType = {
+		name = "GFX_kdf_wagen"
+		texturefile = "gfx/interface/focus/GER/GER_kdf_wagen.tga"
+	}
+	spriteType = {
+		name = "GFX_ig_farben"
+		texturefile = "gfx/interface/focus/GER/GER_ig_farben.tga"
+	}
+	spriteType = {
+		name = "GFX_hermann_goring_werke"
+		texturefile = "gfx/interface/focus/GER/GER_hermann_goring_werke.tga"
+	}
+	spriteType = {
+		name = "GFX_reichsautobahn"
+		texturefile = "gfx/interface/focus/GER/GER_reichsautobahn.dds"
+	}
+	spriteType = {
+		name = "GFX_heeresversuchsanstalt_kummersdorf"
+		texturefile = "gfx/interface/focus/GER/GER_heeresversuchsanstalt_kummersdorf.dds"
+	}
+	spriteType = {
+		name = "GFX_total_war"
+		texturefile = "gfx/interface/focus/GER/GER_total_war.tga"
+	}
+	spriteType = {
+		name = "GFX_schlattmann_programm"
+		texturefile = "gfx/interface/focus/GER/GER_schlattmann_programm.dds"
+	}
+	spriteType = {
+		name = "GFX_coal_liquidization"
+		texturefile = "gfx/interface/focus/GER/GER_coal_liquidization.tga"
+	}
+	spriteType = {
+		name = "GFX_deutscher_stahl"
+		texturefile = "gfx/interface/focus/GER/GER_deutscher_stahl.tga"
+	}
+	spriteType = {
+		name = "GFX_secure_the_lifeline"
+		texturefile = "gfx/interface/focus/GER/GER_secure_the_lifeline.tga"
+	}
+	spriteType = {
+		name = "GFX_kickstart_rubber_production"
+		texturefile = "gfx/interface/focus/GER/GER_kickstart_rubber_production.tga"
+	}
+	spriteType = {
+		name = "GFX_reichsarbeiterdienst"
+		texturefile = "gfx/interface/focus/GER/GER_reichsarbeiterdienst.tga"
+	}
+	spriteType = {
+		name = "GFX_deutsche_arbeitsfront"
+		texturefile = "gfx/interface/focus/GER/GER_deutsche_arbeitsfront.dds"
+	}
+	spriteType = {
+		name = "GFX_rheinmetall_merger"
+		texturefile = "gfx/interface/focus/GER/GER_rheinmetall_merger.dds"
+	}
+	spriteType = {
+		name = "GFX_expand_mefo_bills"
+		texturefile = "gfx/interface/focus/GER/GER_expand_mefo_bills.dds"
+	}
+	spriteType = {
+		name = "GFX_heeresversuchsanstalt_peenemuende"
+		texturefile = "gfx/interface/focus/GER/GER_heeresversuchsanstalt_peenemuende.tga"
+	}
+	spriteType = {
+		name = "GFX_improved_refinerys"
+		texturefile = "gfx/interface/focus/GER/GER_improved_refinerys.tga"
+	}
+	spriteType = {
+		name = "GFX_bulgaria"
+		texturefile = "gfx/interface/focus/GER/GER_bulgaria.dds"
+	}
 
 }
