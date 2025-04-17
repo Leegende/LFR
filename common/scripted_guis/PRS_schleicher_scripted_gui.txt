@@ -1,0 +1,560 @@
+scripted_gui = {
+	PRS_restoring_german_virtue_scripted_decision_ui = {
+		context_type = decision_category
+		window_name = "GER_quest_scripted_decisions_ui"
+		effects = {
+			PRS_continue_the_ostsiedlung_button_click = {
+				set_country_flag = PRS_continue_the_ostsiedlung_flag
+				every_state = {
+					limit = {
+						or = {
+							state = 5
+							state = 63
+							state = 66
+							state = 67
+							state = 68
+							state = 85
+							state = 86
+							state = 188
+							state = 762
+							state = 763
+							state = 807
+							state = 978
+							state = 1126
+							state = 1127
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = PRS_renewed_ostsiedlung_state
+					}
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_imprison_the_english_king_button_click = {
+				set_country_flag = PRS_imprison_the_english_king_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_intelligence_agency_defense = 1
+					tooltip = DECMOD_intelligence_agency_defense_tt
+				}
+				add_to_variable = {
+					prs_var_virtue_stability_factor = 0.1
+					tooltip = DECMOD_stability_factor_tt
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_unternehmen_kriemhild_button_click = {
+				set_country_flag = PRS_unternehmen_kriemhild_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_political_power_factor = 0.1
+					tooltip = DECMOD_political_power_factor_tt
+				}
+				add_to_variable = {
+					prs_var_virtue_required_garrison_factor = -0.1
+					tooltip = DECMOD_required_garrison_factor_tt
+				}
+				retire_character = PRS_alfred_hugenberg
+				retire_character = PRS_theodor_heuss
+				retire_character = PRS_julius_leber
+				add_political_power = -100
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_ride_of_the_valkyries_button_click = {
+				set_country_flag = PRS_ride_of_the_valkyries_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_conscription = 0.01
+					tooltip = DECMOD_conscription_tt
+				}
+				set_technology = {
+					prs_ride_of_the_valkyries = 1
+					popup = no
+				}
+				set_rule = {
+					can_generate_female_aces = yes
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_the_swabian_salute_button_click = {
+				set_country_flag = PRS_the_swabian_salute_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_army_org_factor = 0.05
+					tooltip = DECMOD_army_org_factor_tt
+				}
+				add_war_support = 0.1
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_loot_the_dragons_treasure_button_click = {
+				set_country_flag = PRS_loot_the_dragons_treasure_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_consumer_goods_factor = -0.2
+					tooltip = DECMOD_consumer_goods_factor_tt
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_create_the_rhinemaidens_button_click = {
+				set_country_flag = PRS_create_the_rhinemaidens_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_conscription_factor = 0.05
+					tooltip = DECMOD_conscription_factor_tt
+				}
+				add_to_variable = {
+					prs_var_virtue_naval_invasion_capacity = 10
+					tooltip = DECMOD_naval_invasion_capacity_tt
+				}
+				division_template = {
+					name = "Rheintöchter-Division"
+					priority = 1
+					division_names_group = PRS_RHEINMAIDENS_01
+					template_counter = 113
+					regiments = {
+						marine = {
+							x = 0
+							y = 0
+						}
+						marine = {
+							x = 0
+							y = 1
+						}
+						marine = {
+							x = 0
+							y = 2
+						}
+						marine = {
+							x = 0
+							y = 3
+						}
+						marine = {
+							x = 1
+							y = 0
+						}
+						marine = {
+							x = 1
+							y = 1
+						}
+						marine = {
+							x = 1
+							y = 2
+						}
+						marine = {
+							x = 1
+							y = 3
+						}
+					}
+					support = {
+						artillery = {
+							x = 0
+							y = 0
+						}
+					}
+				}
+				51 = {
+					create_unit = {
+						division = "division_template = \"Rheintöchter-Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+						owner = PRS
+						count = 1
+					}
+				}
+				970 = {
+					create_unit = {
+						division = "division_template = \"Rheintöchter-Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+						owner = PRS
+						count = 1
+					}
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_prepare_for_goetterdaemmerung_button_click = {
+				set_country_flag = PRS_prepare_for_goetterdaemmerung_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_army_core_attack_factor = 0.05
+					tooltip = DECMOD_army_core_attack_factor_tt
+				}
+				add_to_variable = {
+					prs_var_virtue_army_core_defence_factor = 0.05
+					tooltip = DECMOD_army_core_defence_factor_tt
+				}
+				add_to_variable = {
+					prs_var_virtue_surrender_limit = 0.05
+					tooltip = DECMOD_surrender_limit_tt
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_awaken_frederick_barbarossa_button_click = {
+				set_country_flag = PRS_awaken_frederick_barbarossa_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_army_morale_factor = 0.1
+					tooltip = DECMOD_army_morale_factor_tt
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_heed_the_holy_call_button_click = {
+				set_country_flag = PRS_heed_the_holy_call_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_army_attack_factor = 0.05
+					tooltip = DECMOD_army_attack_factor_tt
+				}
+				add_state_claim = 454
+				every_other_country = {
+					limit = {
+						can_ROOT_get_wargoal_on_THIS = yes
+						or = {
+							original_tag = RIF
+							original_tag = MOR
+							original_tag = WES
+							original_tag = ALG
+							original_tag = TUN
+							original_tag = LBA
+							original_tag = EGY
+							original_tag = SUD
+							original_tag = DJI
+							original_tag = SOM
+							original_tag = PAL
+							original_tag = JOR
+							original_tag = SYR
+							original_tag = LEB
+							original_tag = SAU
+							original_tag = QAT
+							original_tag = YEM
+							original_tag = OMA
+							original_tag = BHR
+							original_tag = UAE
+							original_tag = TUR
+							original_tag = AZR
+							original_tag = TMS
+							original_tag = KYR
+							original_tag = UZB
+							original_tag = TAJ
+							original_tag = KHI
+							original_tag = SIK
+							original_tag = PER
+							original_tag = IRQ
+							original_tag = AFG
+							original_tag = PAK
+							original_tag = BAN
+							original_tag = INS
+							original_tag = HRZ
+							original_tag = CIN
+							original_tag = DAG
+						}
+					}
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = puppet_wargoal_focus
+							expire = 0
+						}
+					}
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_optain_papal_blessing_button_click = {
+				set_country_flag = PRS_optain_papal_blessing_flag
+				custom_effect_tooltip = PRS_virtue_tt
+				add_to_variable = {
+					prs_var_virtue_party_popularity_stability_factor = 0.1
+					tooltip = DECMOD_party_popularity_stability_factor_tt
+				}
+				add_to_variable = {
+					PRS_schleicher_quest_count = 1
+				}
+			}
+			PRS_gott_preussen_und_schleicher_button_click = {
+				set_country_flag = PRS_gott_preussen_und_schleicher_flag
+				every_state = {
+					limit = {
+						or = {
+							#bohemia
+							state = 9
+							state = 69
+							state = 74
+							state = 75
+							state = 997
+							state = 1131
+							#Austria
+							state = 848
+							state = 153
+							state = 1130
+							state = 152
+							state = 979
+							state = 4
+							state = 1129
+							state = 980
+							state = 39
+							state = 850
+							#krain
+							state = 102
+							state = 853
+							state = 736
+							state = 852
+							#italy
+							state = 1132
+							state = 160
+							state = 159
+							state = 158
+							state = 161
+							state = 162
+							state = 1015
+							state = 157
+							state = 2
+							state = 114
+							state = 1
+							state = 1014
+							state = 992
+							state = 735
+							state = 993
+							#switzerland
+							state = 846
+							state = 847
+							state = 845
+							state = 3
+							state = 151
+							state = 1016
+							#west
+							state = 28
+							state = 991
+							state = 17
+							state = 989
+							state = 990
+							state = 8
+							state = 987
+							state = 34
+							state = 6
+							state = 988
+							state = 29
+							state = 1103
+							state = 785
+							state = 35
+							state = 1109
+							state = 7
+							state = 36
+						}
+					}
+					add_claim_by = PRS
+				}
+			}
+			PRS_restore_charlemagnes_empire_button_click = {
+				set_country_flag = PRS_restore_charlemagnes_empire_flag
+				every_state = {
+					limit = {
+						or = {
+							#krain
+							state = 853
+							state = 736
+							state = 852
+							#italy
+							state = 1132
+							state = 160
+							state = 159
+							state = 158
+							state = 161
+							state = 162
+							state = 1015
+							state = 157
+							state = 2
+							state = 114
+							state = 1
+							state = 1014
+							state = 992
+							state = 735
+							state = 993
+							#west
+							state = 28
+							state = 991
+							state = 17
+							state = 989
+							state = 990
+							state = 8
+							state = 987
+							state = 34
+							state = 6
+							state = 988
+							state = 29
+							state = 1103
+							state = 785
+							state = 35
+							state = 1109
+							state = 7
+							state = 36
+						}
+					}
+					enable_state_integration_80_compliance = yes
+					set_state_flag = PRS_can_integrate_state_flag
+				}
+				set_cosmetic_tag = PRS_holy_roman_empire
+			}
+		}
+		triggers = {
+			PRS_continue_the_ostsiedlung_button_click_enabled = {
+				PRS_continue_the_ostsiedlung_trigger = yes
+			}
+			PRS_imprison_the_english_king_button_click_enabled = {
+				PRS_imprison_the_english_king_trigger = yes
+			}
+			PRS_unternehmen_kriemhild_button_click_enabled = {
+				PRS_unternehmen_kriemhild_trigger = yes
+			}
+			PRS_ride_of_the_valkyries_button_click_enabled = {
+				PRS_ride_of_the_valkyries_trigger = yes
+			}
+			PRS_the_swabian_salute_button_click_enabled = {
+				PRS_the_swabian_salute_trigger = yes
+			}
+			PRS_loot_the_dragons_treasure_button_click_enabled = {
+				PRS_loot_the_dragons_treasure_trigger = yes
+			}
+			PRS_create_the_rhinemaidens_button_click_enabled = {
+				PRS_create_the_rhinemaidens_trigger = yes
+			}
+			PRS_prepare_for_goetterdaemmerung_button_click_enabled = {
+				PRS_prepare_for_goetterdaemmerung_trigger = yes
+			}
+			PRS_awaken_frederick_barbarossa_button_click_enabled = {
+				PRS_awaken_frederick_barbarossa_trigger = yes
+			}
+			PRS_heed_the_holy_call_button_click_enabled = {
+				PRS_heed_the_holy_call_trigger = yes
+			}
+			PRS_optain_papal_blessing_button_click_enabled = {
+				PRS_optain_papal_blessing_trigger = yes
+			}
+			PRS_gott_preussen_und_schleicher_button_click_enabled = {
+				PRS_gott_preussen_und_schleicher_trigger = yes
+			}
+			PRS_restore_charlemagnes_empire_button_click_enabled = {
+				PRS_restore_charlemagnes_empire_trigger = yes
+			}
+			PRS_continue_the_ostsiedlung_button_visible = {
+				not = {
+					has_country_flag = PRS_continue_the_ostsiedlung_flag
+				}
+			}
+			PRS_imprison_the_english_king_button_visible = {
+				not = {
+					has_country_flag = PRS_imprison_the_english_king_flag
+				}
+			}
+			PRS_unternehmen_kriemhild_button_visible = {
+				not = {
+					has_country_flag = PRS_unternehmen_kriemhild_flag
+				}
+			}
+			PRS_ride_of_the_valkyries_button_visible = {
+				not = {
+					has_country_flag = PRS_ride_of_the_valkyries_flag
+				}
+			}
+			PRS_the_swabian_salute_button_visible = {
+				not = {
+					has_country_flag = PRS_the_swabian_salute_flag
+				}
+			}
+			PRS_continue_the_ostsiedlung_gold_visible = {
+				has_country_flag = PRS_continue_the_ostsiedlung_flag
+			}
+			PRS_imprison_the_english_king_gold_visible = {
+				has_country_flag = PRS_imprison_the_english_king_flag
+			}
+			PRS_unternehmen_kriemhild_gold_visible = {
+				has_country_flag = PRS_unternehmen_kriemhild_flag
+			}
+			PRS_ride_of_the_valkyries_gold_visible = {
+				has_country_flag = PRS_ride_of_the_valkyries_flag
+			}
+			PRS_the_swabian_salute_gold_visible = {
+				has_country_flag = PRS_the_swabian_salute_flag
+			}
+			PRS_loot_the_dragons_treasure_button_visible = {
+				not = {
+					has_country_flag = PRS_loot_the_dragons_treasure_flag
+				}
+			}
+			PRS_create_the_rhinemaidens_button_visible = {
+				not = {
+					has_country_flag = PRS_create_the_rhinemaidens_flag
+				}
+			}
+			PRS_prepare_for_goetterdaemmerung_button_visible = {
+				not = {
+					has_country_flag = PRS_prepare_for_goetterdaemmerung_flag
+				}
+			}
+			PRS_awaken_frederick_barbarossa_button_visible = {
+				not = {
+					has_country_flag = PRS_awaken_frederick_barbarossa_flag
+				}
+			}
+			PRS_heed_the_holy_call_button_visible = {
+				not = {
+					has_country_flag = PRS_heed_the_holy_call_flag
+				}
+			}
+			PRS_loot_the_dragons_treasure_gold_visible = {
+				has_country_flag = PRS_loot_the_dragons_treasure_flag
+			}
+			PRS_create_the_rhinemaidens_gold_visible = {
+				has_country_flag = PRS_create_the_rhinemaidens_flag
+			}
+			PRS_prepare_for_goetterdaemmerung_gold_visible = {
+				has_country_flag = PRS_prepare_for_goetterdaemmerung_flag
+			}
+			PRS_awaken_frederick_barbarossa_gold_visible = {
+				has_country_flag = PRS_awaken_frederick_barbarossa_flag
+			}
+			PRS_heed_the_holy_call_gold_visible = {
+				has_country_flag = PRS_heed_the_holy_call_flag
+			}
+			PRS_optain_papal_blessing_button_visible = {
+				not = {
+					has_country_flag = PRS_optain_papal_blessing_flag
+				}
+			}
+			PRS_gott_preussen_und_schleicher_button_visible = {
+				not = {
+					has_country_flag = PRS_gott_preussen_und_schleicher_flag
+				}
+			}
+			PRS_restore_charlemagnes_empire_button_visible = {
+				not = {
+					has_country_flag = PRS_restore_charlemagnes_empire_flag
+				}
+			}
+			PRS_optain_papal_blessing_gold_visible = {
+				has_country_flag = PRS_optain_papal_blessing_flag
+			}
+			PRS_gott_preussen_und_schleicher_gold_visible = {
+				has_country_flag = PRS_gott_preussen_und_schleicher_flag
+			}
+			PRS_restore_charlemagnes_empire_gold_visible = {
+				has_country_flag = PRS_restore_charlemagnes_empire_flag
+			}
+		}
+	}
+}

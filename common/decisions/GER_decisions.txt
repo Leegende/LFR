@@ -61,7 +61,7 @@ GER_reform_the_okw = {
 			}
 		}
 		selectable_mission = no
-		days_mission_timeout = 1
+		days_mission_timeout = 365
 	}
 	GER_remove_failed_reform_the_okw_decision = {
 		icon = GFX_decision_generic_operation
@@ -259,6 +259,9 @@ GER_reform_the_okw = {
 			}
 		}
 	}
+}
+
+GER_quests = {
 }
 
 GER_autarky_category = {

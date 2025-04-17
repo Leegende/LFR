@@ -6,7 +6,26 @@ GER_reform_the_okw = {
 		original_tag = GER
 	}
 	visible = {
-		
+		check_variable = {
+			GER_appoint_okw_members < 3
+		}
+	}
+}
+
+GER_restoring_german_virtue_category = {
+	priority = 203
+	icon = GFX_decision_PRS_restoring_virtue
+
+	scripted_gui = PRS_restoring_german_virtue_scripted_decision_ui
+
+	allowed = {
+		original_tag = GER
+	}
+	
+	visible_when_empty = yes
+	
+	visible = {
+		always = yes
 	}
 }
 

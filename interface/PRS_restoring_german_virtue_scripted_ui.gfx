@@ -1,0 +1,112 @@
+#### RRM assets ####
+spriteTypes = {
+	### Basic assets ###
+	spriteType = {
+		name = "GFX_gui_PRS_ostsiedlung_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_ostsiedlung_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_english_king_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_english_king_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_unternehmen_kriemhild_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_unternehmen_kriemhild_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_ride_of_the_valkyries_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_ride_of_the_valkyries_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_the_swabian_salute_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_the_swabian_salute_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_loot_the_dragons_treasure_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_loot_the_dragons_treasure_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_create_the_rhinemaidens_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_create_the_rhinemaidens_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_prepare_for_goetterdaemmerung_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_prepare_for_goetterdaemmerung_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_awaken_frederick_barbarossa_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_awaken_frederick_barbarossa_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_heed_the_holy_call_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_heed_the_holy_call_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_optain_papal_blessing_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_optain_papal_blessing_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_restore_charlemagnes_empire_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_restore_charlemagnes_empire_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_gott_preussen_und_schleicher_silver"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_gott_preussen_und_schleicher_silver.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_duernstein_castle"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_duernstein_castle.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_ostsiedlung_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_ostsiedlung_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_english_king_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_english_king_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_unternehmen_kriemhild_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_unternehmen_kriemhild_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_ride_of_the_valkyries_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_ride_of_the_valkyries_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_the_swabian_salute_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_the_swabian_salute_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_loot_the_dragons_treasure_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_loot_the_dragons_treasure_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_create_the_rhinemaidens_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_create_the_rhinemaidens_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_prepare_for_goetterdaemmerung_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_prepare_for_goetterdaemmerung_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_awaken_frederick_barbarossa_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_awaken_frederick_barbarossa_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_heed_the_holy_call_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_heed_the_holy_call_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_optain_papal_blessing_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_optain_papal_blessing_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_restore_charlemagnes_empire_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_restore_charlemagnes_empire_gold.dds"
+	}
+	spriteType = {
+		name = "GFX_gui_PRS_gott_preussen_und_schleicher_gold"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_PRS_gott_preussen_und_schleicher_gold.dds"
+	}
+}
