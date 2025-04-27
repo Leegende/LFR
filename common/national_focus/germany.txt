@@ -835,7 +835,7 @@
 	}
 	focus = {
 		id = GER_autarky
-		icon = GFX_goal_unknown
+		icon = GFX_autarky
 		x = 1
 		y = 1
 		cost = 1
@@ -857,7 +857,6 @@
 				tooltip = min_export_tt
 			}
 			add_ideas = autarkic_economy
-
 		}
 	}
 	focus = {
@@ -1376,7 +1375,7 @@
 	}
 	focus = {
 		id = GER_economical_dependency
-		icon = GFX_goal_unknown
+		icon = GFX_economical_dependency
 		x = -3
 		y = 3
 		cost = 1
@@ -1401,6 +1400,12 @@
 				}
 			}
 			ROM = {
+				add_timed_idea = {
+					idea = GER_economical_dependency
+					days = 365
+				}
+			}
+			BUL = {
 				add_timed_idea = {
 					idea = GER_economical_dependency
 					days = 365
@@ -1478,6 +1483,7 @@
 			}
 		}
 	}
+
 	focus = {
 		id = GER_bulgarian_chromium
 		icon = GFX_goal_unknown
@@ -1730,7 +1736,7 @@
 	}
 	focus = {
 		id = GER_economic_investments
-		icon = GFX_goal_unknown
+		icon = GFX_economic_investments
 		x = 0
 		y = 1
 		cost = 1
@@ -2494,6 +2500,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.2
 		}
 	}
 	focus = {
@@ -2783,7 +2790,20 @@
 		}
 		relative_position_id = GER_appoint_sepp_dietrich
 		available = {
-			always = yes
+			set_temp_variable = {
+				temp_focus_days = 1
+			}
+			multiply_temp_variable = {
+				temp_focus_days = 7
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = GER_adolf_hitler
+					FLAG_DAYS = [?GER_rally_the_industrialists_in_progress_flag:days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -2869,6 +2889,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.3
 		}
 	}
 	focus = {
@@ -3144,6 +3165,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.5
 		}
 	}
 	focus = {
@@ -3363,6 +3385,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.6
 		}
 	}
 	focus = {
@@ -3623,6 +3646,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.4
 		}
 	}
 	focus = {
@@ -3870,6 +3894,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.7
 		}
 	}
 	focus = {
@@ -4091,6 +4116,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			country_event = germany.8
 		}
 	}
 	focus = {

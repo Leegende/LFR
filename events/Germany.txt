@@ -14,5 +14,75 @@ country_event = {
 	option = {
 		name = germany.1.c
 	}
-
 }
+
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_dietrich_1
+	}
+}
+
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_guderian_1
+	}
+}
+
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_model_1
+	}
+}
+
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kluge_1
+	}
+}
+
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_student_1
+	}
+}
+
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kesselring_1
+	}
+}
+
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_milch_1
+	}
+}
+

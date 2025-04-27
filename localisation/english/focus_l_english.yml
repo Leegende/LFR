@@ -60,6 +60,7 @@
  GER_economic_investments: "Economic Investments"
  GER_deutsche_arbeitsfront: "Deutsche Arbeitsfront"
  GER_herresversuchsanstalt_peenemuende: "Herresversuchsanstalt Peenemünde"
+ GER_inner_circle_focus_in_progress_tt: "§Y$CHARACTER$§! is working on this focus. \nProgress: §Y$FLAG_DAYS$§!/[?temp_focus_days] days"
  
  
  
