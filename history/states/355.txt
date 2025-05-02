@@ -1,21 +1,18 @@
-
 state = {
-id = 355
+	id = 355
 	name = "STATE_355"
 	history = {
 		owner = FRA
 		add_core_of = FRA
 		
-		
-		victory_points = {
-			9609
-			2
-		}
 		buildings = {
-			
 			infrastructure = 6
 			industrial_complex = 3
 			arms_factory = 1
+		}
+		victory_points = {
+			9609
+			2
 		}
 		victory_points = {
 			7290
@@ -33,7 +30,6 @@ id = 355
 			19815
 			5
 		}
-		
 		victory_points = {
 			14657
 			20
@@ -85,7 +81,6 @@ id = 355
 		261
 		5920
 		8138
-		
 		14628
 		19815
 		19831
@@ -101,7 +96,6 @@ id = 355
 		20527
 	}
 	manpower = 1799300
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
 }
-

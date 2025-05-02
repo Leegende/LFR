@@ -35,14 +35,7 @@ state = {
 		13905
 	}
 	history = {
-		victory_points = {
-			14022
-			80
-		}
-		victory_points = {
-			3104
-			2
-		}
+		
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
@@ -52,6 +45,14 @@ state = {
 		victory_points = {
 			9345
 			1
+		}
+		victory_points = {
+			14022
+			80
+		}
+		victory_points = {
+			3104
+			2
 		}
 	}
 	manpower = 1803031

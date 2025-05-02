@@ -45,14 +45,7 @@ state = {
 		13582
 	}
 	history = {
-		victory_points = {
-			9218
-			10
-		}
-		victory_points = {
-			5157
-			1
-		}
+	
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
@@ -73,6 +66,14 @@ state = {
 		}
 		victory_points = {
 			4987
+			1
+		}
+		victory_points = {
+			9218
+			10
+		}
+		victory_points = {
+			5157
 			1
 		}
 	}

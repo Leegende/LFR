@@ -79,16 +79,17 @@ state = {
 		13220
 	}
 	history = {
-		victory_points = {
-			13798
-			1
-		}
+		
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
 			arms_factory = 3
+		}
+		victory_points = {
+			13798
+			1
 		}
 		victory_points = {
 			13845

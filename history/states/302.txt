@@ -1,18 +1,13 @@
-
 state = {
-id = 302
+	id = 302
 	name = "STATE_302"
 	history = {
 		owner = ENG
 		add_core_of = ENG
-		
-		
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 7
 			arms_factory = 4
-			
-			
 		}
 		victory_points = {
 			9077
@@ -51,7 +46,6 @@ id = 302
 		11281
 	}
 	manpower = 5078000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
 }
-

@@ -1,19 +1,14 @@
-
 state = {
-id = 343
+	id = 343
 	name = "STATE_343"
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		
-		
-		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		
 		victory_points = {
 			14548
 			2
@@ -49,13 +44,11 @@ id = 343
 		8835
 		5765
 		14192
-		
 		19817
 		19834
 		1366
 		7069
 		7948
-		
 		20494
 		7443
 		1941
@@ -87,8 +80,7 @@ id = 343
 		14447
 	}
 	manpower = 1095760
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

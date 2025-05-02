@@ -1,18 +1,14 @@
-
 state = {
-id = 287
+	id = 287
 	name = "STATE_287"
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		
-		
 		victory_points = {
 			17519
 			2
@@ -42,7 +38,6 @@ id = 287
 		14558
 		839
 		18127
-		
 		3448
 		5705
 		8244
@@ -53,17 +48,12 @@ id = 287
 		4770
 		7084
 		14573
-		
-		
-		
 		1396
-		
 		3582
 		3878
 		14600
 		14652
 		14653
-		
 		2358
 		6275
 		7869
@@ -83,7 +73,6 @@ id = 287
 	}
 	manpower = 1091611
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-

@@ -1,8 +1,14 @@
 state = {
-id = 193
+	id = 193
 	name = "STATE_193"
 	history = {
 		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
 		victory_points = {
 			13303
 			10
@@ -10,12 +16,6 @@ id = 193
 		victory_points = {
 			20748
 			5
-		}
-		add_core_of = GER
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 4
-			arms_factory = 2
 		}
 		victory_points = {
 			3588
@@ -127,7 +127,6 @@ id = 193
 		13666
 		18690
 		2168
-		
 		20747
 		1497
 		1598
@@ -136,9 +135,8 @@ id = 193
 		13253
 		20768
 	}
-	manpower = 2679413 
-	buildings_max_level_factor = 1.000
+	manpower = 2679413
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

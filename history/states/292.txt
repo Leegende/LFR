@@ -1,18 +1,12 @@
-
 state = {
-id = 292
+	id = 292
 	name = "STATE_292"
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		victory_points = {
-			14283
-			2
-		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-			
 		}
 		victory_points = {
 			8147
@@ -36,6 +30,10 @@ id = 292
 		}
 		victory_points = {
 			14473
+			2
+		}
+		victory_points = {
+			14283
 			2
 		}
 	}
@@ -68,7 +66,6 @@ id = 292
 	}
 	manpower = 1274424
 	state_category = rural
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-
