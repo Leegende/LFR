@@ -62,15 +62,12 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = basic_light_tank
-			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = basic_medium_tank
-			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = basic_heavy_tank
-			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = soft_attack_upgrade
@@ -112,10 +109,9 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = improved_light_tank
-			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1934
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -139,8 +135,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 2
-		start_year = 1934
+		research_cost = 1
+		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -171,13 +167,12 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = advanced_light_tank
-			research_cost_coeff = 1
 		}
 		sub_technologies = {
 			improved_light_tank_amphibious
 		}
 		research_cost = 2
-		start_year = 1936
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -200,8 +195,8 @@ technologies = {
 			light_tank_amphibious_destroyer_chassis_2
 			light_tank_amphibious_artillery_chassis_2
 		}
-		research_cost = 2
-		start_year = 1936
+		research_cost = 1
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -239,7 +234,7 @@ technologies = {
 			leads_to_tech = main_battle_tank
 		}
 		research_cost = 2
-		start_year = 1941
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -262,8 +257,8 @@ technologies = {
 			light_tank_amphibious_destroyer_chassis_3
 			light_tank_amphibious_artillery_chassis_3
 		}
-		research_cost = 2
-		start_year = 1941
+		research_cost = 1
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -295,14 +290,13 @@ technologies = {
 			flamethrower_3
 		}
 		sub_technologies = {
-			basic_medium_tank
+			basic_medium_tank_amphibious
 		}
 		path = {
 			leads_to_tech = improved_medium_tank
-			research_cost_coeff = 1
 		}
-		research_cost = 2
-		start_year = 1939
+		research_cost = 2.25
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -325,7 +319,7 @@ technologies = {
 			medium_tank_amphibious_artillery_chassis_1
 			medium_tank_amphibious_aa_chassis_1
 		}
-		research_cost = 2
+		research_cost = 1.25
 		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
@@ -364,10 +358,9 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = advanced_medium_tank
-			research_cost_coeff = 1
 		}
-		research_cost = 2
-		start_year = 1941
+		research_cost = 2.25
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -390,8 +383,8 @@ technologies = {
 			medium_tank_amphibious_artillery_chassis_2
 			medium_tank_amphibious_aa_chassis_2
 		}
-		research_cost = 2
-		start_year = 1941
+		research_cost = 1.25
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -427,10 +420,9 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = main_battle_tank
-			research_cost_coeff = 1
 		}
-		research_cost = 2
-		start_year = 1943
+		research_cost = 2.25
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -453,8 +445,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 2
-		start_year = 1943
+		research_cost = 1.25
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -490,8 +482,8 @@ technologies = {
 			modern_soft_attack
 			tank_modern_turret
 		}
-		research_cost = 2.5
-		start_year = 1945
+		research_cost = 3
+		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -514,8 +506,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 2.5
-		start_year = 1945
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -552,10 +544,9 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = improved_heavy_tank
-			research_cost_coeff = 1
 		}
-		research_cost = 2
-		start_year = 1934
+		research_cost = 2.5
+		start_year = 1936
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -578,8 +569,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 2
-		start_year = 1934
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -614,13 +605,12 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = advanced_heavy_tank
-			research_cost_coeff = 1
 		}
 		research_cost = 2.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -640,11 +630,11 @@ technologies = {
 			heavy_tank_amphibious_artillery_chassis_2
 			heavy_tank_amphibious_aa_chassis_2
 		}
-		research_cost = 2.5
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1941
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -681,13 +671,12 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = main_battle_tank
-			research_cost_coeff = 1
 		}
 		research_cost = 2.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1943
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -707,11 +696,11 @@ technologies = {
 			heavy_tank_amphibious_artillery_chassis_3
 			heavy_tank_amphibious_aa_chassis_3
 		}
-		research_cost = 2.5
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1943
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -747,7 +736,7 @@ technologies = {
 	}
 	soft_attack_upgrade1 = {
 		research_cost = 2.5
-		start_year = 1936
+		start_year = 1938
 		path = {
 			leads_to_tech = soft_attack_upgrade2
 		}
@@ -768,7 +757,7 @@ technologies = {
 	}
 	soft_attack_upgrade2 = {
 		research_cost = 2.5
-		start_year = 1936
+		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
 			position = {
@@ -786,7 +775,7 @@ technologies = {
 	}
 	hard_attack_upgrade = {
 		research_cost = 2.5
-		start_year = 1936
+		start_year = 1938
 		path = {
 			leads_to_tech = hard_attack_upgrade1
 		}
@@ -807,7 +796,7 @@ technologies = {
 	}
 	hard_attack_upgrade1 = {
 		research_cost = 2.5
-		start_year = 1936
+		start_year = 1940
 		path = {
 			leads_to_tech = hard_attack_upgrade2
 		}
@@ -831,7 +820,7 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1936
+		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
 			position = {

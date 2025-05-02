@@ -555,7 +555,7 @@
 		}
 	}
 	focus = {
-		id = GER_integrate_east_prussia
+		id = GER_integrate_poland
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
@@ -580,9 +580,9 @@
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_integrate_east_prussia
+			focus = GER_integrate_poland
 		}
-		relative_position_id = GER_integrate_east_prussia
+		relative_position_id = GER_integrate_poland
 		available = {
 			always = yes
 		}
