@@ -3,7 +3,6 @@ guiTypes = {
 		name = "special_project_tech_icon_offset"
 		position = { x = -10 y = -10 }
 	}
-	
 	containerWindowType = {
 		name = "subunit_icon_entry"
 		position = { x=0 y=0 }
@@ -13,7 +12,6 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_tiled_window_transparent_transparent"
 		}
-
 		instantTextBoxType = {
 			name = "subunit_label"
 			position = { x = 0 y = 5 }
@@ -25,19 +23,16 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "countrytechtreeview"
 		position = { x=-3 y=78 }
 		size = { width = 100%% height = 100%% }
 		fade_time = 400
 		fade_type = linear
-
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
-
 		containerWindowType = {
 			name = "infantry_folder"
 			position = { x=0 y=47 }
@@ -47,12 +42,10 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 			scroll_wheel_factor = 40
-
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
-
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
@@ -69,7 +62,7 @@ guiTypes = {
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1936"
-					maxWidth = 170
+					maxWidth = 70
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
@@ -218,10 +211,6 @@ guiTypes = {
 
 
 			}
-
-
-			
-
 			gridboxtype = {
 				name = "infantry_weapons_tree"
 				position = { x = 0 y = 100 }
@@ -236,10 +225,6 @@ guiTypes = {
 				format = "UP"
 
 			}
-
-
-
-
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 0 y = 100 }
@@ -252,14 +237,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
 			gridboxtype = {
 				name = "basic_train_tree"
 				position = { x = 0 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			
 			gridboxtype = {
 				name = "tech_special_forces_tree"
 				position = { x = 0 y = 100 }
@@ -2593,9 +2576,7 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-
 			}
-
 				instantTextBoxType = {
 					name = "electronic_eng_subtitle"
 					position = { x = 190 y = 100 }
@@ -2643,20 +2624,11 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-
-	
-
-			
-
-		
-
 		}
-
 		containerWindowType = {
 			name = "folder_tabs"
 			position = { x=0 y=7 }
 			size = { width = 100%% height = 30 }
-
 			buttonType = {
 				name = "infantry_folder_tab"
 				position = { x = 10 y = 0 }
@@ -2774,7 +2746,6 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 	}
-
 	containerWindowType = {
 		name = "unlock_tech_info_window"
 		position = { x=500 y=100 }
@@ -2888,7 +2859,6 @@ guiTypes = {
 
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_info_window"
 		position = { x=500 y=100 }
@@ -3052,7 +3022,6 @@ guiTypes = {
 
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_infantry_folder_small_item"
 		position = { x=0 y=0 }
@@ -3100,7 +3069,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_infantry_folder_item"
 		position = { x=-56 y=-7 }
@@ -3202,7 +3170,6 @@ guiTypes = {
 		}
 
 	}
-
 	containerWindowType = {
 		name = "techtree_support_folder_item"
 		position = { x=-56 y=-7 }
@@ -3283,7 +3250,6 @@ guiTypes = {
 		}
 
 	}
-
 	containerWindowType = {
 		name = "techtree_support_folder_small_item"
 		position = { x=0 y=0 }
@@ -3331,7 +3297,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_armour_folder_item"
 		position = { x=-55 y=0 }
@@ -3451,7 +3416,6 @@ guiTypes = {
 		}
 
 	}
-
 	containerWindowType = {
 		name = "techtree_armour_folder_small_item"
 		position = { x=0 y=0 }
@@ -3497,7 +3461,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_nsb_armour_folder_item"
 		position = { x=-55 y=0 }
@@ -3616,7 +3579,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_nsb_armour_folder_small_item"
 		position = { x=0 y=0 }
@@ -3662,7 +3624,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_artillery_folder_small_item"
 		position = { x=0 y=0 }
@@ -3708,7 +3669,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_artillery_folder_item"
 		position = { x=-55 y=0 }
@@ -3770,7 +3730,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_naval_folder_small_item"
 		position = { x=0 y=5 }
@@ -3817,7 +3776,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_air_techs_folder_item"
 		position = { x=-60 y=0 }
@@ -3899,7 +3857,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-	
 	containerWindowType = {
 		name = "techtree_air_techs_folder_small_item"
 		position = { x=0 y=0 }
@@ -3945,7 +3902,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "special_project_specialization"
 		position = { x = 0 y = 0 }
@@ -3973,7 +3929,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_bba_air_techs_folder_small_item"
 		position = { x=0 y=0 }
@@ -4019,7 +3974,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_bba_air_techs_folder_item"
 		position = { x=-60 y=0 }
@@ -4100,8 +4054,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
-
 	containerWindowType = {
 		name = "techtree_naval_folder_item"
 		position = { x=-131 y=1 }
@@ -4208,7 +4160,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_mtgnavalfolder_item"
 		position = { x=-131 y=1 }
@@ -4287,7 +4238,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_mtgnavalsupportfolder_small_item"
 		position = { x=0 y=5 }
@@ -4334,7 +4284,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_mtgnavalsupportfolder_item"
 		position = { x=-131 y=1 }
@@ -4413,7 +4362,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_industry_folder_item"
 		position = { x=0 y=5 }
@@ -4461,7 +4409,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_secret_weapons_folder_item"
 		position = { x=-55 y=5 }
@@ -4486,7 +4433,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_electronics_folder_item"
 		position = { x=0 y=5 }
@@ -4534,7 +4480,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_xor_item"
 		position = { x=5 y=5 }
@@ -4552,7 +4497,6 @@ guiTypes = {
 			spriteType = "GFX_techtree_xor_right"
 		}
 	}
-
 	containerWindowType = {
 		name = "techtree_line_item"
 		position = { x=0 y=0 }
@@ -4598,7 +4542,6 @@ guiTypes = {
 			frame = 1
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_statlist_item_equipment"
 		position = { x=0 y=0 }
@@ -4716,7 +4659,6 @@ guiTypes = {
 			}
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_statlist_item_module"
 		position = { x=0 y=0 }
@@ -4758,7 +4700,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_building"
 		position = { x=0 y=0 }
@@ -4808,7 +4749,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_tactic"
 		position = { x=0 y=0 }
@@ -4858,7 +4798,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unlocks_statlist_item_subunit"
 		position = { x=0 y=0 }
@@ -4923,7 +4862,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_statlist_item_upgrade"
 		position = { x=0 y=0 }
@@ -4973,7 +4911,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_statlist_item_modifier"
 		position = { x=0 y=0 }
@@ -5004,7 +4941,6 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_stat_item"
 		position = { x=0 y=2 }
@@ -5047,7 +4983,6 @@ guiTypes = {
 			format = right
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unlocks_item"
 		position = { x=10 y=2 }
@@ -5075,7 +5010,6 @@ guiTypes = {
 			spriteType = "GFX_buildings_strip"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_tactics_item"
 		position = { x=10 y=2 }
@@ -5103,7 +5037,6 @@ guiTypes = {
 			spriteType = "GFX_tiled_window_transparent_transparent"
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_unit_upgrade_stat_item"
 		position = { x=10 y=2 }
@@ -5147,7 +5080,6 @@ guiTypes = {
 		#	format = right
 		#}
 	}
-
 	containerWindowType = {
 		name = "technology_subunit_unlock_stat_item"
 		position = { x=0 y=2 }
@@ -5190,7 +5122,6 @@ guiTypes = {
 			format = right
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_subunit_adjuster_entry"
 		size = { width = 70 height = 62 }
@@ -5230,7 +5161,6 @@ guiTypes = {
 			frame = 1
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_tech_stat_item"
 		position = { x=10 y=2 }
@@ -5263,7 +5193,6 @@ guiTypes = {
 			format = right
 		}
 	}
-
 	containerWindowType = {
 		name = "technology_info_category_header"
 		position = { x=110 y=0 }
@@ -5281,8 +5210,6 @@ guiTypes = {
 			format = center
 		}
 	}
-
-
 	containerWindowType = {
 		name = "padding_window"
 		position = { x=0 y=0 }

@@ -16,14 +16,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER/GER_infantry_equipment_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_motorised_infantry_medium" 
+		name = "GFX_GER_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/GER/GER_motorized_truck.dds"
 	}
-	
-
-
-
-
 	SpriteType = {
 		name = "GFX_medium_tank_amphibious_destroyer_medium"
 		texturefile = "gfx/interface/technologies/generic_medium_flame_tank.dds"
