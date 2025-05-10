@@ -129,10 +129,10 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				resource_imported@steel>0
+				resource_imported@steel > 0
 			}
 			check_variable = {
-				resource@steel>resource_imported@steel
+				resource@steel > resource_imported@steel
 			}
 		}
 		localization_key = steel_yellow_tt
@@ -150,10 +150,10 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				resource_imported@rubber>0
+				resource_imported@rubber > 0
 			}
 			check_variable = {
-				resource@rubber>resource_imported@rubber
+				resource@rubber > resource_imported@rubber
 			}
 		}
 		localization_key = rubber_yellow_tt
@@ -171,10 +171,10 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				resource_imported@aluminium>0
+				resource_imported@aluminium > 0
 			}
 			check_variable = {
-				resource@aluminium>resource_imported@aluminium
+				resource@aluminium > resource_imported@aluminium
 			}
 		}
 		localization_key = aluminium_yellow_tt
@@ -192,10 +192,10 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				resource_imported@tungsten>0
+				resource_imported@tungsten > 0
 			}
 			check_variable = {
-				resource@tungsten>resource_imported@tungsten
+				resource@tungsten > resource_imported@tungsten
 			}
 		}
 		localization_key = tungsten_yellow_tt
@@ -213,10 +213,10 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				resource_imported@chromium>0
+				resource_imported@chromium > 0
 			}
 			check_variable = {
-				resource@chromium>resource_imported@chromium
+				resource@chromium > resource_imported@chromium
 			}
 		}
 		localization_key = chromium_yellow_tt
@@ -228,5 +228,3 @@ defined_text = {
 		localization_key = chromium_green_tt
 	}
 }
-
-

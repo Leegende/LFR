@@ -203,7 +203,7 @@ spriteTypes = {
 			x = 6
 			y = 29
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = no
 		steps = 1000000
 	}
@@ -546,13 +546,13 @@ spriteTypes = {
 			0
 			0
 		}
-		textureFile1 = "gfx//interface//naval_mine_progress_good.dds"
-		textureFile2 = "gfx//interface//naval_mine_progress_bg.dds"
+		textureFile1 = "gfx/interface/naval_mine_progress_good.dds"
+		textureFile2 = "gfx/interface/naval_mine_progress_bg.dds"
 		size = {
 			x = 40
 			y = 7
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}
@@ -568,13 +568,13 @@ spriteTypes = {
 			0
 			0
 		}
-		textureFile1 = "gfx//interface//naval_mine_progress_bad.dds"
-		textureFile2 = "gfx//interface//naval_mine_progress_bg.dds"
+		textureFile1 = "gfx/interface/naval_mine_progress_bad.dds"
+		textureFile2 = "gfx/interface/naval_mine_progress_bg.dds"
 		size = {
 			x = 40
 			y = 7
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}
@@ -600,7 +600,7 @@ spriteTypes = {
 			x = 26
 			y = 4
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}
@@ -622,7 +622,7 @@ spriteTypes = {
 			x = 26
 			y = 4
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}
@@ -661,7 +661,7 @@ spriteTypes = {
 			x = 26
 			y = 4
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}
@@ -683,7 +683,7 @@ spriteTypes = {
 			x = 26
 			y = 4
 		}
-		effectFile = "gfx//FX//progress.lua"
+		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 1000000
 	}

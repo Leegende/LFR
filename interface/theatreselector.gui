@@ -863,7 +863,7 @@ guiTypes = {
 			maxHeight = 23
 			fixedsize = yes
 			format = right
-			text = 9999
+			text = "9999"
 			alwaystransparent = yes
 		}
 	}

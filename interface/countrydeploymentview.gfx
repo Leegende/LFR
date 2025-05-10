@@ -2,56 +2,56 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_foreign_templates_dropdown_button"
-		textureFile = "gfx//interface//foreign_templates_dropdown_button.dds"
+		textureFile = "gfx/interface/foreign_templates_dropdown_button.dds"
 		noOfFrames = 3
 	}
 
 	SpriteType = {
 		name = "GFX_delete_template_button"
-		textureFile = "gfx//interface//delete_template_button.dds"
+		textureFile = "gfx/interface/delete_template_button.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_lendlease_entry"
-		textureFile = "gfx//interface//deploy_garrisons_entry.dds"
+		textureFile = "gfx/interface/deploy_garrisons_entry.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_lendlease_icon"
-		textureFile = "gfx//interface//lendlease_icon.dds"
+		textureFile = "gfx/interface/lendlease_icon.dds"
 	}
 
 	spriteType = {
 		name = "GFX_div_deploy_priority_icon_strip"
-		textureFile = "gfx//interface//div_deploy_priority_icon_strip.dds"
+		textureFile = "gfx/interface/div_deploy_priority_icon_strip.dds"
 		noOfFrames = 3		
 	}
 
 	SpriteType = {
 		name = "GFX_mini_close_button"
-		textureFile = "gfx//interface//mini_close_button.dds"
+		textureFile = "gfx/interface/mini_close_button.dds"
 	}
 	
 	corneredTileSpriteType = {
 		name = "GFX_supply_slider_background"
 		size= {x = 16 y = 16 }
-		texturefile = "gfx//interface//scrollbar_sliderbackground_line.dds"
+		texturefile = "gfx/interface/scrollbar_sliderbackground_line.dds"
 		borderSize = { x=0 y=4 }
 	}
 
 	SpriteType = {
 		name = "GFX_stage_coup_icon"
-		textureFile = "gfx//interface//stage_coup_icon.dds"
+		textureFile = "gfx/interface/stage_coup_icon.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_upgrades_icon"
-		textureFile = "gfx//interface//upgrades_icon.dds"
+		textureFile = "gfx/interface/upgrades_icon.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_reinforcements_icon"
-		textureFile = "gfx//interface//reinforcements_icon.dds"
+		textureFile = "gfx/interface/reinforcements_icon.dds"
 	}
 
 	corneredTileSpriteType = {
@@ -69,17 +69,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_garrison_deploy_icon"
-		textureFile = "gfx//interface//garrison_deploy_icon.dds"
+		textureFile = "gfx/interface/garrison_deploy_icon.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_priority_equipment_meter_bg"
-		textureFile = "gfx//interface//deploy_priority_equipment_meter_bg.dds"
+		textureFile = "gfx/interface/deploy_priority_equipment_meter_bg.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_operations_deploy_icon"
-		textureFile = "gfx//interface//operations_deploy_icon.dds"
+		textureFile = "gfx/interface/operations_deploy_icon.dds"
 	}
 
 	SpriteType = {
@@ -89,90 +89,90 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_deploy_reinforcements_entry"
-		textureFile = "gfx//interface//deploy_reinforcements_entry.dds"
+		textureFile = "gfx/interface/deploy_reinforcements_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_upgrades_entry"
-		textureFile = "gfx//interface//deploy_upgrades_entry.dds"
+		textureFile = "gfx/interface/deploy_upgrades_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_supply_entry"
-		textureFile = "gfx//interface//deploy_supply_entry.dds"
+		textureFile = "gfx/interface/deploy_supply_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_supply_icon"
-		textureFile = "gfx//interface//supply_deploy_icon.dds"
+		textureFile = "gfx/interface/supply_deploy_icon.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 
 	SpriteType = {
 		name = "GFX_deploy_operations_entry"
-		textureFile = "gfx//interface//deploy_operations_entry.dds"
+		textureFile = "gfx/interface/deploy_operations_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	SpriteType = {
 		name = "GFX_operations_deploy_icon"
-		textureFile = "gfx//interface//operations_deploy_icon.dds"
+		textureFile = "gfx/interface/operations_deploy_icon.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	SpriteType = {
 		name = "GFX_deploy_garrisons_entry"
-		textureFile = "gfx//interface//deploy_garrisons_entry.dds"
+		textureFile = "gfx/interface/deploy_garrisons_entry.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	textSpriteType = {
 		name = "GFX_small_button_71x26"
-		textureFile = "gfx//interface//small_button_71x26.dds"
+		textureFile = "gfx/interface/small_button_71x26.dds"
 	}
 
 	spriteType = {
 		name = "GFX_equipment_icon"
-		textureFile = "gfx//interface//equipment_icon.dds"
+		textureFile = "gfx/interface/equipment_icon.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_equipment_state_icon"
-		textureFile = "gfx//interface//equipment_state_icon.dds"
+		textureFile = "gfx/interface/equipment_state_icon.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
 		name = "GFX_army_deploy_button"
-		textureFile = "gfx//interface//army_deploy_button.dds"
+		textureFile = "gfx/interface/army_deploy_button.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		noOfFrames = 2
 	}	
 
 	spriteType = {
 		name = "GFX_deployment_progress_frames"
-		textureFile = "gfx//interface//deployment_progress_frames.dds"
+		textureFile = "gfx/interface/deployment_progress_frames.dds"
 	}
 
 	spriteType = {
 		name = "GFX_deployment_named_division_bg"
-		textureFile = "gfx//interface//deployment_named_division_bg.dds"
+		textureFile = "gfx/interface/deployment_named_division_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
 
 	spriteType = {
 		name = "GFX_deployment_named_division_obsolete_bg"
-		textureFile = "gfx//interface//deployment_named_division_obsolete_bg.dds"
+		textureFile = "gfx/interface/deployment_named_division_obsolete_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
 	
 	spriteType = {
 		name = "GFX_deployment_division_bg"
-		textureFile = "gfx//interface//deployment_division_bg.dds"
+		textureFile = "gfx/interface/deployment_division_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		noOfFrames = 2		
 	}
@@ -205,19 +205,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_cancel_conveyor_button"
-		texturefile = "gfx//interface//cancel_conveyor_button.dds"
+		texturefile = "gfx/interface/cancel_conveyor_button.dds"
 		effectFile = "gfx/FX/buttonstate.shader"
 	}	
 	
 	spriteType = {
 		name = "GFX_deploy_conveyor_button"
-		texturefile = "gfx//interface//deploy_conveyor_button.dds"
+		texturefile = "gfx/interface/deploy_conveyor_button.dds"
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
 	
 	spriteType = {
 		name = "GFX_deploy_line_button"
-		texturefile = "gfx//interface//deploy_line_button.dds"
+		texturefile = "gfx/interface/deploy_line_button.dds"
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
 	
@@ -253,7 +253,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_collapse_or_close"
-		textureFile = "gfx//interface//collapse_or_close_buttons.dds"
+		textureFile = "gfx/interface/collapse_or_close_buttons.dds"
 		noOfFrames = 3
 	}
 	
@@ -273,12 +273,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_deployment_binding"
-		textureFile = "gfx//interface//deployment_binding.dds"
+		textureFile = "gfx/interface/deployment_binding.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_deploy_priority"
-		textureFile = "gfx//interface//priority_strip.dds"
+		textureFile = "gfx/interface/priority_strip.dds"
 		noOfFrames = 4
 	}
 	
@@ -322,7 +322,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_deployment_item_bg"
 		size= { x=69 y=84 }
-		textureFile = "gfx//interface//deployment_item_bg.dds"
+		textureFile = "gfx/interface/deployment_item_bg.dds"
 		borderSize = { x=32 y=40 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
@@ -331,7 +331,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_deployment_selected_item_bg"
 		size= { x=69 y=84 }
-		textureFile = "gfx//interface//deployment_selected_item_bg.dds"
+		textureFile = "gfx/interface/deployment_selected_item_bg.dds"
 		borderSize = { x=32 y=40 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
@@ -339,7 +339,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_train_highlight"
-		texturefile = "gfx//interface//tutorial//train_glow.dds"
+		texturefile = "gfx/interface/tutorial/train_glow.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1.5
 		looping = yes
@@ -351,7 +351,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_add_unit_highlight"
-		texturefile = "gfx//interface//tutorial//add_unit_glow.dds"
+		texturefile = "gfx/interface/tutorial/add_unit_glow.dds"
 		noOfFrames = 2
 		animation_rate_fps = 1.5
 		looping = yes

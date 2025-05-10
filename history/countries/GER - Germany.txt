@@ -64,7 +64,7 @@ add_to_variable = {
 
 add_to_variable = {
 	GER_mefo_bills_production_speed_infrastracture_factor = 0.1
-	tooltip = production_speed_infrastracture_factor_tt
+	tooltip = production_speed_infastructure_factor_tt
 }
 
 add_to_variable = {
