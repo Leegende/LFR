@@ -798,6 +798,15 @@ guiTypes = {
 					maxHeight = 24
 					fixedsize = yes
 				}
+				buttonType = {
+					name = "diplomacy_button"
+					quadTextureSprite ="GFX_topbar_diplomacy"
+					position = { x= -999999 y = 0 }
+					Orientation = "UPPER_LEFT"
+					shortcut = "e"
+					clicksound = click_close
+					oversound = ui_menu_over
+				}
 
 				containerWindowType = {
 					name = "non_delivering_contracts"

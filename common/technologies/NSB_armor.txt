@@ -529,10 +529,6 @@ technologies = {
 			heavy_tank_destroyer_chassis_1
 			heavy_tank_artillery_chassis_1
 			heavy_tank_aa_chassis_1
-			heavy_tank_amphibious_chassis_1
-			heavy_tank_amphibious_destroyer_chassis_1
-			heavy_tank_amphibious_artillery_chassis_1
-			heavy_tank_amphibious_aa_chassis_1
 		}
 		enable_equipment_modules = {
 			tank_heavy_turret_1

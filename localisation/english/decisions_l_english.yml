@@ -17,7 +17,7 @@
  ban_communist_party_tt:1 "Change in popularity of Communism: §G-§![?.Root.party_popularity@communism|%0G].\n"
  ban_neutrality_party_tt: "Change in popularity of Non-Aligned: §G-§![?.Root.party_popularity@neutrality|%0G].\n"
  ban_fascist_party_tt:1 "Change in popularity of Fascism: §G-§![?.Root.party_popularity@fascism|%0G].\n"
-
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
  DECISION_COST_DESC:0 "It costs £pol_power $VAL|H0$ to take the decision"
  DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
  GER_autarky_category:0 "Autarky Categories"

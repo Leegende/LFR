@@ -1,6 +1,6 @@
 sub_unit_categories = {
 	engineer
-	infantry
+	category_infantry
 	special_forces
 	assault_engineer
 	field_hospital

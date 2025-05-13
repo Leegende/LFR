@@ -4575,6 +4575,16 @@ spriteTypes = {
 		texturefile = "gfx/texticons/mio_production_cost_texticon.dds"
 		legacy_lazy_load = no
 	}
+   spriteType = {
+		name = "GFX_unit_shock_trooper_icon_small"
+		texturefile = "gfx/texticons/unit_shock_trooper_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	 spriteType = {
+		name = "GFX_unit_light_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_light_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}
 	
 	spriteType = {
 		name = "GFX_mio_conversion_speed_texticon"

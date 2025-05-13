@@ -1,23 +1,6 @@
 ﻿l_english:
- IB_switching_UI_decisions:0 "Topbar UI"
- IB_switching_UI_decisions_desc:0 "Control options related to top bar display."
- IB_switching_IC:0 "Factory UI ON/OFF"
- IB_switching_other:0 "Military UI ON/OFF"
- IB_delete_this_decisions:0 "Remove decision"
-
  IB_CIV_FAC_VAL:0 "[?ROOT.num_of_civilian_factories|0]"
  IB_MIL_FAC_VAL:0 "[?ROOT.num_of_military_factories|0]"
  IB_NAV_FAC_VAL:0 "[?ROOT.num_of_naval_factories|0]"
  IB_NUM_OF_DIV:0 "[?ROOT.num_divisions|0]"
- IB_DIV_TOOLTIP:0 "Divisions §by action§\n\n\nRiver crossings:[?ROOT.num_units_crossing_river|0+]\nNumber of battalions:[?ROOT.num_battalions|0+]\nUnits in combat:[?ROOT.num_units_in_combat|0+]\nOffensive:[?ROOT.num_units_offensive_combats|0+]\nDefensive:[?ROOT.num_units_defensive_combats|0+]"
  IB_NUM_OF_DEP_PLA:0 "[?ROOT.num_deployed_planes|0]"
- IB_PLA_TOOLTIP:0 "Deployed planes §Hby type§!\n\nFighter:[?ROOT.num_deployed_planes_with_type@fighter_equipment|0+]\nCAS:[?ROOT.num_deployed_planes_with_type@CAS_equipment|0+]\n\nCarrier Fighter:[?ROOT.num_deployed_planes_with_type@cv_fighter_equipment|0+]\nCarrier CAS:[?ROOT.num_deployed_planes_with_type@cv_CAS_equipment|0+]\nCarrier Naval Bomber:[?ROOT.num_deployed_planes_with_type@cv_nav_bomber_equipment|0+]\nNaval Bomber:[?ROOT.num_deployed_planes_with_type@nav_bomber_equipment|0+]\nHeavy Fighter:[?ROOT.num_deployed_planes_with_type@heavy_fighter_equipment|0+]\nTactical Bomber:[?ROOT.num_deployed_planes_with_type@tac_bomber_equipment|0+]\n\nJet Fighter:[?ROOT.num_deployed_planes_with_type@jet_fighter_equipment|0+]\nJet Tactical Bomber:[?ROOT.num_deployed_planes_with_type@jet_tac_bomber_equipment|0+]\nJet Strategic Bomber:[?ROOT.num_deployed_planes_with_type@jet_strat_bomber_equipment|0+]\n\nRocket Interceptor:[?ROOT.num_deployed_planes_with_type@rocket_interceptor_equipment|0+]\nStrategic Bomber:[?ROOT.num_deployed_planes_with_type@strat_bomber_equipment|0+]\n\nTransport:[?ROOT.num_deployed_planes_with_type@transport_plane_equipment|0+]\nScout:[?ROOT.num_deployed_planes_with_type@scout_plane_equipment|0+]"
- IB_NUM_OF_SHIP:0 "[?ROOT.num_ships|0]"
- IB_SHIP_TOOLTIP:0 "Number of ships §Hby type§!\n\nCarrier:[?ROOT.num_ships_with_type@carrier|0+]\nBattleship:[?ROOT.num_ships_with_type@battleship|0+]\nBattlecruiser:[?ROOT.num_ships_with_type@battle_cruiser|0+]\nHeavy Cruiser:[?ROOT.num_ships_with_type@heavy_cruiser|0+]\nLight Cruiser:[?ROOT.num_ships_with_type@light_cruiser|0+]\nDestroyer:[?ROOT.num_ships_with_type@destroyer|0+]\nSubmarine:[?ROOT.num_ships_with_type@submarine|0+]"
-
- IB_RESOURCE_TRADE_OIL:0 "§HOil§!\n\nConsumed:[?resource_consumed@oil|0-]\nImported:[?resource_imported@oil|0-]"
- IB_RESOURCE_TRADE_ALM:0 "§HAluminium§!\n\nConsumed:[?resource_consumed@aluminium|0-]\nImported:[?resource_imported@aluminium|0-]"
- IB_RESOURCE_TRADE_RUB:0 "§HRubber§!\n\nConsumed:[?resource_consumed@rubber|0-]\nImported:[?resource_imported@rubber|0-]"
- IB_RESOURCE_TRADE_TUN:0 "§HTungsten§!\n\nConsumed:[?resource_consumed@tungsten|0-]\nImported:[?resource_imported@tungsten|0-]"
- IB_RESOURCE_TRADE_STE:0 "§HSteel§! \n\nConsumed:[?resource_consumed@steel|0-]\nImported:[?resource_imported@steel|0-]"
- IB_RESOURCE_TRADE_CHR:0 "§HChromium§!\n\nConsumed:[?resource_consumed@chromium|0-]\nImported:[?resource_imported@chromium|0-]"

@@ -9,13 +9,13 @@ defined_text = {
 				resource@oil > resource_imported@oil
 			}
 		}
-		localization_key = "[?resource@oil|0Y]"
+		localization_key = "[?resource@oil|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@oil|0+]"
+		localization_key = "[?resource@oil|0+ ]"
 	}
 }
 
@@ -30,13 +30,13 @@ defined_text = {
 				resource@aluminium > resource_imported@aluminium
 			}
 		}
-		localization_key = "[?resource@aluminium|0Y]"
+		localization_key = "[?resource@aluminium|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@aluminium|0+]"
+		localization_key = "[?resource@aluminium|0+ ]"
 	}
 }
 
@@ -51,13 +51,13 @@ defined_text = {
 				resource@rubber > resource_imported@rubber
 			}
 		}
-		localization_key = "[?resource@rubber|0Y]"
+		localization_key = "[?resource@rubber|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@rubber|0+]"
+		localization_key = "[?resource@rubber|0+ ]"
 	}
 }
 
@@ -72,13 +72,13 @@ defined_text = {
 				resource@tungsten > resource_imported@tungsten
 			}
 		}
-		localization_key = "[?resource@tungsten|0Y]"
+		localization_key = "[?resource@tungsten|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@tungsten|0+]"
+		localization_key = "[?resource@tungsten|0+ ]"
 	}
 }
 
@@ -93,13 +93,13 @@ defined_text = {
 				resource@steel > resource_imported@steel
 			}
 		}
-		localization_key = "[?resource@steel|0Y]"
+		localization_key = "[?resource@steel|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@steel|0+]"
+		localization_key = "[?resource@steel|0+ ]"
 	}
 }
 
@@ -114,13 +114,13 @@ defined_text = {
 				resource@chromium > resource_imported@chromium
 			}
 		}
-		localization_key = "[?resource@chromium|0Y]"
+		localization_key = "[?resource@chromium|0Y ]"
 	}
 	text = {
 		trigger = {
 			always = yes
 		}
-		localization_key = "[?resource@chromium|0+]"
+		localization_key = "[?resource@chromium|0+ ]"
 	}
 }
 

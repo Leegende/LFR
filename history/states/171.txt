@@ -6,7 +6,7 @@ id = 171
 		owner = GER
 		add_core_of = GER
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
 		}

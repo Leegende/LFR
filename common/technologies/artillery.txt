@@ -76,6 +76,11 @@ technologies = {
 		}
 	}
 	light_artillery_upgrade = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+
+
 		path = {
 			leads_to_tech = light_artillery
 		}

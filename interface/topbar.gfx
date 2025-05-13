@@ -10,6 +10,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/unitcontrol/fuel_extended_strip.dds"
 		noOfFrames = 12
 	}
+		
+	spriteType = {
+		name = "GFX_topbar_diplomacy"
+		texturefile = "gfx/interface/topbar/toolbar/diplomacy_button.dds"
+		noOfFrames = 2		
+	}
 	spriteType = {
 		name = "GFX_fuel"
 		texturefile = "gfx/interface/topbar/fuel_icon.dds"

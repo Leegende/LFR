@@ -426,7 +426,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name ="navy_experience_value"
-				position = { x= 16 y = 3 }
+				position = { x= -9999 y = 3 }
 				font = "hoi_18mbs"
 				text = "999"
 				format = left

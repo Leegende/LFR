@@ -1,4 +1,9 @@
 ﻿l_english:
+ UNIT_LEADER_CAPACITY_SORT:0 "Capacity"
+ UNIT_LEADER_NAME_SORT:0 "Name"
+ UNIT_LEADER_SKILL_SORT:0 "Skill"
+ UNIT_LEADER_SEARCH:0 "Search"
+ CHOOSE_INSIGNIA:0 "Choose Insignia"
  night:0 "Night"
  fort:0 "Fort"
  river:0 "River"

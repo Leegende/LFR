@@ -60,18 +60,13 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_secondary_turret_small_cannon_mech"
+		name = "GFX_EMI_secondary_turret_light_cannon_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_secondary_turret_small_cannon.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_EMI_tank_heavy_machine_gun_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_machine_gun.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_EMI_mech_secondary_turret"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_secondary_turret_small_cannon.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -82,6 +77,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_mech_small_main_armament"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_small_main_armament.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_mech_secondary_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/mech_engineer.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -115,17 +115,17 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_cannon_mech"
+		name = "GFX_EMI_tank_light_cannon_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_cannon_2_mech"
+		name = "GFX_EMI_tank_light_cannon_2_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_2.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_cannon_3_mech"
+		name = "GFX_EMI_tank_light_cannon_3_mech"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_3.dds"
 		legacy_lazy_load = no
 	}
@@ -540,12 +540,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_cannon"
+		name = "GFX_EMI_tank_light_cannon"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_tank_small_cannon_2"
+		name = "GFX_EMI_tank_light_cannon_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_small_cannon_2.dds"
 		legacy_lazy_load = no
 	}

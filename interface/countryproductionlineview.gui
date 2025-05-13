@@ -354,7 +354,28 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
-		
+			buttonType = {
+					name = "naval_button"
+					position = { x=-99999 y=122 }
+					spriteType ="GFX_add_prod_naval_line"
+					#pdx_tooltip = "PRODUCTION_SHIPS_BUTTON"
+					clicksound = click_checkbox
+				}
+
+				iconType = {
+					name = "naval_button_glow"
+					position = { x = -99999 y = 123 }
+					spriteType = "GFX_prod_new_equipment_glow"
+					alwaystransparent = yes
+				}
+
+				buttonType = {
+					name = "naval_repair_button"
+					position = { x=-99999 y=122 }
+					spriteType ="GFX_toggle_naval_repair_window"
+					clicksound = click_checkbox
+					frame = 1
+				}
 
 	
 
@@ -463,10 +484,27 @@ guiTypes = {
 					pdx_tooltip = PRODUCTION_FILTER_ARMS_FACTORIES
 				}
 
-				
+				checkBoxType = {
+					name = "show_capital_ships"
+					position = { x = -9999 y = 179 }
+					quadTextureSprite = "GFX_capital_ships_checkbox"
+					clicksound = click_checkbox
+				}
+
+				checkBoxType = {
+					name = "show_other_ships"
+					position = { x = -9999 y = 179 }
+					quadTextureSprite = "GFX_other_ships_checkbox"
+					clicksound = click_checkbox
+				}
 
 				
-
+				checkBoxType = {
+					name = "show_screen_ships"
+					position = { x = -9999 y = 179 }
+					quadTextureSprite = "GFX_screen_ships_checkbox"
+					clicksound = click_checkbox
+				}
 			
 			
 
