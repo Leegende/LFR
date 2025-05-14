@@ -47,6 +47,8 @@ technology_categories = {
 	armor_heavy
 	armor_soft_upgrade
 	armor_hard_upgrade
+	armor_flamethrower_upgrade
+	armor_hardness_upgrade
 	support_company
 	engineers
 	recon

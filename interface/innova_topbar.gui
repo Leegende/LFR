@@ -2,25 +2,24 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "IB_civ_ui_window"
-		position = { x= 888 y = 6}
+		position = { x= 888 y = 4}
 		clipping = no
 		Orientation = UPPER_LEFT
-		
+		size = { width=73 height=30 }
 		background = {
 			name = "bg"
-			spriteType = "GFX_generic_box_smallest"
+			quadTextureSprite ="GFX_mini_tooltip"
 		}
-	
 		iconType = {
 			name = "IB_name_civ_fac_icon"
 			spriteType = "GFX_IB_civ_fac"
-			position = { x= 2 y = 4 }
+			position = { x= 4 y = 4 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="IB_mil_fac_value"
-			position = { x= 19 y = 3 }
+			position = { x= 16 y = 4 }
 			font = "hoi_18mbs"
 			text = "IB_CIV_FAC_VAL"
 			format = center
@@ -32,25 +31,26 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "IB_mil_ui_window"
-		position = { x= 960 y = 6}
+		position = { x= 960 y = 4}
 		clipping = no
 		Orientation = UPPER_LEFT
-		
+		size = { width=73 height=30 }
 		background = {
 			name = "bg"
-			spriteType = "GFX_generic_box_smallest"
+			quadTextureSprite ="GFX_mini_tooltip"
 		}
+		
 	
 		iconType = {
 			name ="IB_name_mil_fac_icon"
 			spriteType = "GFX_IB_mil_fac"
-			position = { x= 2 y = 4 }
+			position = { x= 4 y = 4 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="IB_mil_fac_value"
-			position = { x= 19 y = 3 }
+			position = { x= 16 y = 4 }
 			font = "hoi_18mbs"
 			text = "IB_MIL_FAC_VAL"
 			format = center
@@ -61,25 +61,25 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "IB_divison_ui_window"
-		position = { x= 1032 y = 6}
+		position = { x= 1032 y = 4}
 		clipping = no
 		Orientation = UPPER_LEFT
-		
+	    size = { width=73 height=30 }
 		background = {
 			name = "bg"
-			spriteType = "GFX_generic_box_smallest"
+			quadTextureSprite ="GFX_mini_tooltip"
 		}
 	
 		iconType = {
 			name ="IB_name_divison_icon"
 			spriteType = "GFX_IB_divison"
-			position = { x= 2 y = 4 }
+			position = { x= 4 y = 4 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="IB_divison_value"
-			position = { x= 19 y = 3 }
+			position = { x= 16 y = 4 }
 			font = "hoi_18mbs"
 			text = "IB_NUM_OF_DIV"
 			format = center
@@ -91,26 +91,26 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "IB_planes_ui_window"
-		position = { x= 1104 y = 6}
+		position = { x= 1104 y = 4}
 		clipping = no
 		Orientation = UPPER_LEFT
-		
+		size = { width=73 height=30 }
 		background = {
 			name = "bg"
-			spriteType = "GFX_generic_box_smallest"
+			quadTextureSprite ="GFX_mini_tooltip"
 		}
 	
 		iconType = {
 			name ="IB_name_planes_icon"
 			spriteType = "GFX_IB_planes"
-			position = { x= 2 y = 4 }
+			position = { x= 6 y = 8 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "IB_PLA_TOOLTIP"
 		}
 		
 		instantTextBoxType = {
 			name ="IB_planes_value"
-			position = { x= 19 y = 3 }
+			position = { x= 24 y = 5 }
 			font = "hoi_18mbs"
 			text = "IB_NUM_OF_DEP_PLA"
 			format = center
@@ -120,4 +120,5 @@ guiTypes = {
 			pdx_tooltip = "IB_PLA_TOOLTIP"
 		}
 	}
+
 }

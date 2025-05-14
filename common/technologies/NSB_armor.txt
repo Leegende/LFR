@@ -1,11 +1,13 @@
 technologies = {
 	#########
-	@light_tank = -6
+	@light_tank = -8
 	@medium_tank = 0
-	@heavy_tank = 6
+	@heavy_tank = 8
 	########
 	@soft_attack_upgrade = -3
 	@hard_attack_upgrade = 3
+	@flamethrower_upgrade = -5
+	@hardness_upgrade = 5
 	########
 	@1936 = 0
 	@1937 = 1
@@ -74,6 +76,12 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = hard_attack_upgrade
+		}
+		path = {
+			leads_to_tech = flamethrower_upgrade
+		}
+		path = {
+			leads_to_tech = hardness_upgrade
 		}
 		research_cost = 0
 		start_year = 1936
@@ -345,10 +353,6 @@ technologies = {
 			medium_tank_destroyer_chassis_2
 			medium_tank_artillery_chassis_2
 			medium_tank_aa_chassis_2
-			medium_tank_amphibious_chassis_2
-			medium_tank_amphibious_destroyer_chassis_2
-			medium_tank_amphibious_artillery_chassis_2
-			medium_tank_amphibious_aa_chassis_2
 		}
 		enable_equipment_modules = {
 			tank_medium_turret_2
@@ -827,6 +831,126 @@ technologies = {
 		categories = {
 			armor
 			armor_hard_upgrade
+		}
+	}
+	flamethrower_upgrade = {
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = flamethrower_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	flamethrower_upgrade1 = {
+		research_cost = 2.5
+		start_year = 1940
+		path = {
+			leads_to_tech = flamethrower_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	flamethrower_upgrade2 = {
+		research_cost = 2.5
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade = {
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = hardness_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade1 = {
+		research_cost = 2.5
+		start_year = 1940
+		path = {
+			leads_to_tech = hardness_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade2 = {
+		research_cost = 2.5
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
 		}
 	}
 }

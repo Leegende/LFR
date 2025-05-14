@@ -167,6 +167,10 @@ spriteTypes = {
 		name = "GFX_subtech_td"
 		textureFile = "gfx/interface/technologies/subtech_td.dds"
 	}
+		spriteType = {
+		name = "GFX_subtech_amphibious"
+		textureFile = "gfx/interface/technologies/subtech_amphibious.dds"
+	}
 	spriteType = {
 		name = "GFX_subtech_rocket"
 		textureFile = "gfx/interface/technologies/subtech_rocket.dds"

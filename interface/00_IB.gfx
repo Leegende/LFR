@@ -26,7 +26,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_IB_planes"
-		texturefile = "gfx/texticons/IB_planes_20x20.dds"
+		texturefile = "gfx/texticons/air_escort_efficiency_texticon.dds"
 		legacy_lazy_load = no
 	}
 
