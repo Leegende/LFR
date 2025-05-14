@@ -10,8 +10,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			pack
+			category_aa_line
+			category_aa
+			category_pack
 		}
 		same_support_type = anti_air
 		need = {
@@ -35,8 +36,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			medium
+			category_aa_line
+			category_aa
+			category_medium
 		}
 		same_support_type = anti_air
 		need = {
@@ -55,8 +57,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			heavy
+			category_aa_line
+			category_aa
+			category_heavy
 		}
 		need = {
 			heavy_anti_air_equipment = 10
@@ -81,9 +84,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			light_tank
-			armor
+			category_armor
+			category_aa
+			category_light_tank
+			category_armor_aa
 		}
 		need = {
 			light_tank_aa_chassis = 20
@@ -102,9 +106,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			medium_tank
-			armor
+			category_armor
+			category_aa
+			category_medium_tank
+			category_armor_aa
 		}
 		need = {
 			medium_tank_aa_chassis = 20
@@ -123,9 +128,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			armor
-			heavy_tank
+			category_armor
+			category_aa
+			category_heavy_tank
+			category_armor_aa
 		}
 		need = {
 			heavy_tank_aa_chassis = 20
@@ -143,9 +149,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			armor
-			modern_tank
+			category_armor
+			category_aa
+			category_modern_tank
+			category_armor_aa
 		}
 		need = {
 			modern_tank_aa_chassis = 20
@@ -164,10 +171,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			armor
-			light_tank
-			amphibious
+			category_armor
+			category_aa
+			category_light_tank
+			category_amphibious_armor_aa
 		}
 		need = {
 			light_tank_amphibious_aa_chassis = 20
@@ -182,7 +189,10 @@ sub_units = {
 		affects_speed = yes
 		group = support
 		categories = {
-			amphibious_destroyer
+			category_armor
+			category_aa
+			category_medium_tank
+			category_amphibious_armor_aa
 		}
 		need = {
 			medium_tank_amphibious_aa_chassis = 20
@@ -201,10 +211,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			heavy_tank
-			anti_air
-			amphibious
+			category_aa
+			category_heavy_tank
+			category_armor
+			category_amphibious_armor_aa
 		}
 		need = {
 			heavy_tank_amphibious_aa_chassis = 20
@@ -223,10 +233,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			anti_air
-			amphibious
-			modern_tank
+			category_aa
+			category_modern_tank
+			category_armor
+			category_amphibious_armor_aa
 		}
 		need = {
 			modern_tank_amphibious_aa_chassis = 20
@@ -246,9 +256,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			mechanized
-			amphibious
+			category_aa
+			category_amphibious_mechanized
 		}
 		need = {
 			amphibious_mechanized_aa_equipment = 20
@@ -267,8 +276,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			anti_air
-			mechanized
+			category_aa
+			category_mechanized
 		}
 		need = {
 			mechanized_aa_equipment = 20

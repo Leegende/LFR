@@ -11,7 +11,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			logistics_company
+			category_support_company
+			category_logistics_company
 		}
 		combat_width = 0
 		max_strength = 1
@@ -46,7 +47,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			logistics_company
+			category_support_company
+			category_logistics_company
 		}
 		combat_width = 0
 		max_strength = 1
@@ -76,8 +78,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			logistics_company
-			motorized
+			category_support_company
+			category_logistics_company
+			category_motorised
 		}
 		combat_width = 0
 		max_strength = 1
@@ -112,8 +115,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			logistics_company
-			mechanized
+			category_mechanised_support_company
+			category_logistics_company
 		}
 		combat_width = 0
 		max_strength = 1
@@ -148,8 +151,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			logistics_company
-			helicopter
+			category_helicopter_support_company
+			category_logistics_company
 		}
 		combat_width = 0
 		max_strength = 1

@@ -10,8 +10,8 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			mechanized
-			amphibious
+			category_amphibious_mechanized
+			category_infantry
 		}
 	}
 	motorized = {
@@ -25,7 +25,8 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			motorized
+			category_motorised
+			category_infantry
 		}
 		transport = motorized_equipment
 		need = {
@@ -94,8 +95,9 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			motorized
-			red_guard
+			category_motorised
+			category_infantry
+			category_red_guard
 		}
 		combat_width = 2
 		max_strength = 28
@@ -160,7 +162,8 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			mechanized
+			category_mechanized
+			category_infantry
 		}
 		need = {
 			mechanized_equipment = 15
@@ -238,8 +241,9 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			red_guard
-			mechanized
+			category_mechanized
+			category_infantry
+			category_red_guard
 		}
 		combat_width = 2
 		max_strength = 30
@@ -314,8 +318,9 @@ sub_units = {
 		}
 		group = mobile
 		categories = {
-			ss
-			mechanized
+			category_mechanized
+			category_infantry
+			category_ss
 		}
 		combat_width = 2
 		max_strength = 30

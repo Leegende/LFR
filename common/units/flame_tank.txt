@@ -12,9 +12,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			light_tank
-			flamethrower
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_light_tank
 		}
 		same_support_type = flame
 		combat_width = 0
@@ -76,9 +77,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			medium_tank
-			flamethrower
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_medium_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -140,9 +142,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			heavy_tank
-			flamethrower
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_heavy_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -201,9 +204,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			modern_tank
-			flamethrower
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_modern_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -266,10 +270,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			light_tank
-			flamethrower
-			amphibious
+			category_armor
+			category_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_light_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -332,10 +336,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			medium_tank
-			flamethrower
-			amphibious
+			category_armor
+			category_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_medium_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -398,10 +402,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			heavy_tank
-			flamethrower
-			amphibious
+			category_armor
+			category_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_heavy_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -461,10 +465,10 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			armor
-			modern_tank
-			flamethrower
-			amphibious
+			category_armor
+			category_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_modern_tank
 		}
 		combat_width = 0
 		max_strength = 2

@@ -10,11 +10,12 @@ sub_units = {
 		}
 		group = armor
 		categories = {
-			armor
-			light_tank
+			category_armor
+			category_light_tank
+			category_armor_battalion
 		}
 		need = {
-			light_tank_chassis  = 20
+			light_tank_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -27,9 +28,8 @@ sub_units = {
 		supply_consumption = 0.28
 		supply_consumption_factor = 0.05
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -38,7 +38,7 @@ sub_units = {
 			movement = 0.15
 		}
 		forest = {
-		    attack = -0.1
+			attack = -0.1
 			movement = -0.2
 			defence = -0.15
 		}
@@ -47,18 +47,18 @@ sub_units = {
 			defence = -0.05
 			movement = 0.05
 		}
-		mountain = 	{
-		    attack = -0.15
+		mountain = {
+			attack = -0.15
 			movement = -0.25
 			defence = -0.25
 		}
 		jungle = {
-		    attack = -0.10
+			attack = -0.1
 			defence = -0.2
 			movement = 0.05
 		}
 		marsh = {
-		    attack = 0.025
+			attack = 0.025
 			defence = -0.25
 			movement = 0.05
 		}
@@ -74,11 +74,11 @@ sub_units = {
 			attack = -0.2
 			defence = -0.6
 		}
-		river = { 
+		river = {
 			attack = -0.05
 			movement = -0.15
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -1
 		}
 		rock = {
@@ -97,11 +97,12 @@ sub_units = {
 		}
 		group = armor
 		categories = {
-			armor
-			medium_tank
+			category_armor
+			category_medium_tank
+			category_armor_battalion
 		}
 		need = {
-			medium_tank_chassis  = 20
+			medium_tank_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -114,9 +115,8 @@ sub_units = {
 		supply_consumption = 0.45
 		supply_consumption_factor = 0.065
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -124,7 +124,7 @@ sub_units = {
 			movement = 0.05
 		}
 		forest = {
-		    attack = -0.15
+			attack = -0.15
 			movement = -0.3
 			defence = -0.25
 		}
@@ -133,18 +133,18 @@ sub_units = {
 			movement = -0.3
 			defence = -0.5
 		}
-		mountain = 	{
-		    attack = -0.35
+		mountain = {
+			attack = -0.35
 			movement = -0.35
 			defence = -0.7
 		}
 		jungle = {
-		    attack = -0.275
+			attack = -0.275
 			movement = -0.375
 			defence = -0.35
 		}
 		marsh = {
-		    attack = -0.3
+			attack = -0.3
 			movement = -0.25
 			defence = -0.5
 		}
@@ -160,18 +160,17 @@ sub_units = {
 			attack = -0.2
 			defence = -0.6
 		}
-		river = { 
+		river = {
 			attack = -0.2
 			movement = -0.3
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -1.6
 		}
 		rock = {
 			attack = -2
 			defence = -2
 		}
-
 	}
 	heavy_tank = {
 		sprite = heavy_armor
@@ -184,11 +183,12 @@ sub_units = {
 		}
 		group = armor
 		categories = {
-			armor
-			heavy_tank
+			category_armor
+			category_heavy_tank
+			category_armor_battalion
 		}
 		need = {
-			heavy_tank_chassis  = 20
+			heavy_tank_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -197,13 +197,11 @@ sub_units = {
 		max_strength = 2
 		weight = 1.5
 		suppression = 0.01
-		
 		supply_consumption = 0.5
 		supply_consumption_factor = 0.08
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -211,27 +209,27 @@ sub_units = {
 			movement = 0.05
 		}
 		forest = {
-		    attack = -0.25
+			attack = -0.25
 			movement = -0.3
 			defence = -0.35
 		}
 		hills = {
-		    attack = -0.35
+			attack = -0.35
 			movement = -0.3
 			defence = -0.7
 		}
-		mountain = 	{
-		    attack = -0.45
+		mountain = {
+			attack = -0.45
 			movement = -0.6
 			defence = -0.7
 		}
 		jungle = {
-		    attack = -0.4
+			attack = -0.4
 			movement = -0.45
 			defence = -0.55
 		}
 		marsh = {
-		    attack = -0.45
+			attack = -0.45
 			movement = -0.4
 			defence = -0.675
 		}
@@ -247,12 +245,12 @@ sub_units = {
 			attack = -0.7
 			defence = -2
 		}
-		river = { 
+		river = {
 			attack = -0.4
 			movement = -0.4
 		}
-		amphibious = { 
-			attack = -2.0
+		amphibious = {
+			attack = -2
 		}
 		fort = {
 			attack = 0.35
@@ -273,11 +271,12 @@ sub_units = {
 		}
 		group = armor
 		categories = {
-			armor
-			modern_tank
+			category_armor
+			category_modern_tank
+			category_armor_battalion
 		}
 		need = {
-			modern_tank_chassis  = 20
+			modern_tank_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -286,40 +285,37 @@ sub_units = {
 		default_morale = 0.3
 		training_time = 90
 		weight = 1.5
-		
 		supply_consumption = 0.25
-
 		suppression = 2.5
-		
 		forest = {
-		    attack = -0.3
+			attack = -0.3
 			movement = -0.4
 		}
-		hills = 	{
-		    attack = -0.1
+		hills = {
+			attack = -0.1
 		}
-		mountain = 	{
-		    attack = -0.2
+		mountain = {
+			attack = -0.2
 			defence = -0.2
 		}
 		jungle = {
-		    attack = -0.4
+			attack = -0.4
 			movement = -0.4
 		}
 		marsh = {
-		    attack = -0.1 
+			attack = -0.1
 			movement = -0.1
-		    defence = -0.4
+			defence = -0.4
 		}
 		urban = {
 			attack = -0.4
 			defence = -0.2
 		}
-		river = { 
-			attack = -0.2 
+		river = {
+			attack = -0.2
 			movement = -0.2
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -0.7
 		}
 	}
@@ -335,9 +331,9 @@ sub_units = {
 		}
 		group = amphibious_armor
 		categories = {
-			armor
-			light_tank
-			amphibious
+			category_armor
+			category_light_tank
+			category_amphibious_armor_battalion
 		}
 		need = {
 			light_tank_amphibious_chassis = 20
@@ -353,9 +349,8 @@ sub_units = {
 		supply_consumption = 0.28
 		supply_consumption_factor = 0.05
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -364,7 +359,7 @@ sub_units = {
 			movement = 0.15
 		}
 		forest = {
-		    attack = -0.1
+			attack = -0.1
 			movement = -0.2
 			defence = -0.15
 		}
@@ -373,18 +368,18 @@ sub_units = {
 			defence = -0.05
 			movement = 0.05
 		}
-		mountain = 	{
-		    attack = -0.15
+		mountain = {
+			attack = -0.15
 			movement = -0.25
 			defence = -0.25
 		}
 		jungle = {
-		    attack = -0.10
+			attack = -0.1
 			defence = -0.2
 			movement = 0.05
 		}
 		marsh = {
-		    attack = 0.075
+			attack = 0.075
 			defence = -0.25
 			movement = 0.15
 		}
@@ -400,11 +395,11 @@ sub_units = {
 			attack = -0.2
 			defence = -0.6
 		}
-		river = { 
+		river = {
 			attack = 0.05
 			movement = -0.05
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -0.5
 		}
 		rock = {
@@ -424,12 +419,12 @@ sub_units = {
 		}
 		group = amphibious_armor
 		categories = {
-			armor
-			medium_tank
-			amphibious
+			category_armor
+			category_medium_tank
+			category_amphibious_armor_battalion
 		}
 		need = {
-			medium_tank_amphibious_chassis  = 20
+			medium_tank_amphibious_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -442,9 +437,8 @@ sub_units = {
 		supply_consumption = 0.45
 		supply_consumption_factor = 0.065
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -452,7 +446,7 @@ sub_units = {
 			movement = 0.05
 		}
 		forest = {
-		    attack = -0.15
+			attack = -0.15
 			movement = -0.3
 			defence = -0.25
 		}
@@ -461,18 +455,18 @@ sub_units = {
 			movement = -0.3
 			defence = -0.5
 		}
-		mountain = 	{
-		    attack = -0.35
+		mountain = {
+			attack = -0.35
 			movement = -0.35
 			defence = -0.7
 		}
 		jungle = {
-		    attack = -0.275
+			attack = -0.275
 			movement = -0.375
 			defence = -0.35
 		}
 		marsh = {
-		    attack = -0.15
+			attack = -0.15
 			movement = -0.25
 			defence = -0.35
 		}
@@ -488,12 +482,12 @@ sub_units = {
 			attack = -0.2
 			defence = -0.6
 		}
-		river = { 
+		river = {
 			attack = 0
 			movement = 0.15
 		}
-		amphibious = { 
-			attack = -1.0
+		amphibious = {
+			attack = -1
 		}
 		rock = {
 			attack = -2
@@ -512,12 +506,12 @@ sub_units = {
 		}
 		group = amphibious_armor
 		categories = {
-			armor
-			heavy_tank
-			amphibious
+			category_armor
+			category_heavy_tank
+			category_amphibious_armor_battalion
 		}
 		need = {
-			heavy_tank_amphibious_chassis  = 20
+			heavy_tank_amphibious_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -526,13 +520,11 @@ sub_units = {
 		max_strength = 2
 		weight = 1.5
 		suppression = 0.01
-		
 		supply_consumption = 0.5
 		supply_consumption_factor = 0.08
 		breakthrough = 0.1
-
 		plains = {
-			attack = 0.05 
+			attack = 0.05
 			movement = 0.05
 		}
 		desert = {
@@ -540,27 +532,27 @@ sub_units = {
 			movement = 0.05
 		}
 		forest = {
-		    attack = -0.25
+			attack = -0.25
 			movement = -0.3
 			defence = -0.35
 		}
 		hills = {
-		    attack = -0.35
+			attack = -0.35
 			movement = -0.3
 			defence = -0.7
 		}
-		mountain = 	{
-		    attack = -0.45
+		mountain = {
+			attack = -0.45
 			movement = -0.6
 			defence = -0.7
 		}
 		jungle = {
-		    attack = -0.4
+			attack = -0.4
 			movement = -0.45
 			defence = -0.55
 		}
 		marsh = {
-		    attack = -0.25
+			attack = -0.25
 			movement = -0.4
 			defence = -0.475
 		}
@@ -576,11 +568,11 @@ sub_units = {
 			attack = -0.7
 			defence = -2
 		}
-		river = { 
+		river = {
 			attack = -0.2
 			movement = -0.2
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -1.5
 		}
 		fort = {
@@ -602,12 +594,12 @@ sub_units = {
 		}
 		group = amphibious_armor
 		categories = {
-			armor
-			modern_tank
-			amphibious
+			category_armor
+			category_modern_tank
+			category_amphibious_armor_battalion
 		}
 		need = {
-			modern_tank_amphibious_chassis  = 20
+			modern_tank_amphibious_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -616,44 +608,38 @@ sub_units = {
 		default_morale = 0.3
 		training_time = 90
 		weight = 1.5
-		
 		supply_consumption = 0.25
-
 		suppression = 2.5
-		
 		forest = {
-		    attack = -0.3
+			attack = -0.3
 			movement = -0.4
 		}
-		hills = 	{
-		    attack = -0.1
+		hills = {
+			attack = -0.1
 		}
-		mountain = 	{
-		    attack = -0.2
+		mountain = {
+			attack = -0.2
 			defence = -0.2
 		}
 		jungle = {
-		    attack = -0.4
+			attack = -0.4
 			movement = -0.4
 		}
 		marsh = {
-		    attack = 0
+			attack = 0
 			movement = 0
-		    defence = -0.2
+			defence = -0.2
 		}
 		urban = {
 			attack = -0.4
 			defence = -0.2
 		}
-		river = { 
+		river = {
 			attack = 0
 			movement = 0
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -0.4
 		}
 	}
-
-
-
 }

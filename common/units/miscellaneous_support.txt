@@ -10,7 +10,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			blackshirt_assault
+			category_miscellaneous_support_company
 		}
 		combat_width = 0
 		max_strength = 40
@@ -39,7 +39,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			commandos
+			category_miscellaneous_support_company
 		}
 		combat_width = 0
 		max_strength = 1
@@ -75,7 +75,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			elephants
+			category_miscellaneous_support_company
 		}
 		combat_width = 0
 		max_organisation = 1
@@ -106,7 +106,6 @@ sub_units = {
 			attack = 0.1
 			movement = 0.1
 		}
-		
 	}
 	sniper = {
 		sprite = infantry
@@ -119,7 +118,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			sniper
+			category_miscellaneous_support_company
 		}
 		combat_width = 0
 		max_strength = 1

@@ -10,7 +10,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			military_police
+			category_support_company
+			category_military_police_company
 		}
 		combat_width = 0
 		max_strength = 1

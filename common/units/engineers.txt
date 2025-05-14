@@ -10,7 +10,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			engineer
+			category_support_company
+			category_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -82,8 +83,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			engineer
-			assault_engineer
+			category_support_company
+			category_assault_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -158,8 +159,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			assault_engineer
-			armor
+			category_armor_support_company
+			category_assault_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -235,8 +236,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			engineer
-			mechanized
+			category_mechanised_support_company
+			category_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -311,8 +312,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			assault_engineer
-			mechanized
+			category_mechanised_support_company
+			category_assault_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -387,8 +388,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			engineer
-			mechanized
+			category_amphibious_mechanised_support_company
+			category_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -463,8 +464,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			assault_engineer
-			mechanized
+			category_amphibious_mechanised_support_company
+			category_assault_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -540,7 +541,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			assault_engineer
+			category_support_company
+			category_assault_engineers_company
 		}
 		combat_width = 0
 		#Size Definitions

@@ -10,6 +10,9 @@ sub_units = {
 		need = {
 			railway_gun_equipment = 1
 		}
+		categories = {
+			category_railway_gun
+		}
 		weight = 1
 		supply_consumption = 0.2
 		max_strength = 2000
@@ -24,6 +27,9 @@ sub_units = {
 		}
 		need = {
 			railway_gun_equipment_1 = 1
+		}
+		categories = {
+			category_railway_gun
 		}
 		weight = 1
 		supply_consumption = 0.5

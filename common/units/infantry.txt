@@ -11,6 +11,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_infantry
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 15
@@ -41,6 +42,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_infantry
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 25
@@ -70,6 +72,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_infantry
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 30
@@ -104,6 +107,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_infantry
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 30
@@ -138,6 +142,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_infantry
+			category_infantry_line
 		}
 		combat_width = 2
 		max_organisation = 60
@@ -189,7 +194,10 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			special_forces
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 25
@@ -234,7 +242,10 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			special_forces
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 25
@@ -291,7 +302,10 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			special_forces
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 28
@@ -342,7 +356,10 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			special_forces
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
 		}
 		combat_width = 2
 		max_strength = 25
@@ -383,7 +400,10 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			special_forces
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
 		}
 		combat_width = 0
 		max_strength = 20

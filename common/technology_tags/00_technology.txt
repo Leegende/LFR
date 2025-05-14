@@ -18,7 +18,7 @@ technology_categories = {
 	air_jet
 	cas
 	fighter
-	spy_planes
+	scout_planes
 	heavy_fighter
 	tactical_bomber
 	strategic_bombers

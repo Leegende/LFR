@@ -257,7 +257,7 @@ technologies = {
 		categories = {
 			air
 			air_light
-			spy_planes
+			scout_planes
 		}
 	}
 	scout_plane2 = {
@@ -283,7 +283,7 @@ technologies = {
 		categories = {
 			air
 			air_light
-			spy_planes
+			scout_planes
 		}
 	}
 	scout_plane3 = {
@@ -309,7 +309,7 @@ technologies = {
 		categories = {
 			air
 			air_light
-			spy_planes
+			scout_planes
 		}
 	}
 	early_bomber = {

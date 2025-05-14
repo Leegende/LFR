@@ -10,7 +10,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			field_hospital
+			category_support_company
+			category_field_hospital_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -40,8 +41,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			field_hospital
-			mechanized
+			category_mechanised_support_company
+			category_field_hospital_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -80,8 +81,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			field_hospital
-			helicopter
+			category_helicopter_support_company
+			category_field_hospital_company
 		}
 		combat_width = 0
 		max_strength = 2

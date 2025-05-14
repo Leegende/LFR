@@ -10,7 +10,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
+			category_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -71,8 +72,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			motorized
+			category_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -135,8 +136,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			armor
+			category_armor_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -201,9 +202,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			armor
-			light_tank
+			category_armor_support_company
+			category_recon_company
+			category_light_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -268,10 +269,9 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			armor
-			light_tank
-			amphibious
+			category_amphibious_armor_support_company
+			category_recon_company
+			category_light_tank
 		}
 		combat_width = 0
 		max_strength = 2
@@ -337,7 +337,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			ranger
+			category_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -389,8 +390,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			mechanized
+			category_mechanised_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -455,9 +456,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			mechanized
-			amphibious
+			category_amphibious_mechanised_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -524,8 +524,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			helicopter
+			category_helicopter_support_company
+			category_recon_company
 		}
 		combat_width = 0
 		max_strength = 2

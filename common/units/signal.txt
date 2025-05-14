@@ -10,7 +10,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			signals
+			category_support_company
+			category_signal_company
 		}
 		combat_width = 0
 		max_strength = 1
@@ -43,8 +44,8 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			recon
-			armor
+			category_armored_support_company
+			category_signal_company
 		}
 		combat_width = 0
 		max_strength = 1
