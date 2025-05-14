@@ -127,7 +127,7 @@ state = {
 		12123
 		20607
 	}
-	manpower = 3065161
+	manpower = 2578494
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = town

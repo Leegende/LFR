@@ -325,49 +325,7 @@ technologies = {
 		xor = {
 			hard_attack_infantry_weapons
 		}
-		infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		mountaineers = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		shock_trooper = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		marine = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		cavalry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		light_infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = 0.05
 			hard_attack = -0.1
 			ap_attack = -0.1
@@ -395,49 +353,7 @@ technologies = {
 		xor = {
 			soft_attack_infantry_weapons
 		}
-		infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		mountaineers = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		shock_trooper = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		marine = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		cavalry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		light_infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = -0.1
 			hard_attack = 0.1
 			ap_attack = 0.5
@@ -465,49 +381,7 @@ technologies = {
 		xor = {
 			hard_attack_infantry_weapons1
 		}
-		infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		mountaineers = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		shock_trooper = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		marine = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		cavalry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		light_infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = 0.05
 			hard_attack = -0.1
 			ap_attack = -0.1
@@ -535,49 +409,7 @@ technologies = {
 		xor = {
 			soft_attack_infantry_weapons1
 		}
-		infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		mountaineers = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		shock_trooper = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		marine = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		cavalry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		light_infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = -0.1
 			hard_attack = 0.1
 			ap_attack = 0.5
@@ -605,49 +437,7 @@ technologies = {
 		xor = {
 			hard_attack_infantry_weapons2
 		}
-		infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		mountaineers = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		shock_trooper = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		marine = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		cavalry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		light_infantry = {
-			soft_attack = 0.05
-			hard_attack = -0.1
-			ap_attack = -0.1
-			max_organisation = -2.5
-			defense = -0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = 0.05
 			hard_attack = -0.1
 			ap_attack = -0.1
@@ -675,49 +465,7 @@ technologies = {
 		xor = {
 			soft_attack_infantry_weapons2
 		}
-		infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		mountaineers = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		shock_trooper = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		marine = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		cavalry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		light_infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = -0.1
 			hard_attack = 0.1
 			ap_attack = 0.5
@@ -766,49 +514,7 @@ technologies = {
 		xor = {
 			soft_attack_infantry_weapons3
 		}
-		infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		mountaineers = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		shock_trooper = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		marine = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		cavalry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		light_infantry = {
-			soft_attack = -0.1
-			hard_attack = 0.1
-			ap_attack = 0.5
-			max_organisation = 2.5
-			defense = 0.05
-		}
-		motorized = {
+		category_infantry = {
 			soft_attack = -0.1
 			hard_attack = 0.1
 			ap_attack = 0.5
@@ -921,12 +627,16 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		mechanized = {
+		category_mechanized = {
 			hardness = 0.05
 			max_organisation = 5
 		}
 	}
 	mechanised_infantry2 = {
+		category_mechanized = {
+			hardness = 0.05
+			max_organisation = 5
+		}
 		sub_technologies = {
 			amphibious_mechanised_infantry2
 		}
@@ -952,12 +662,13 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		mechanized = {
+		
+	}
+	mechanised_infantry3 = {
+		category_mechanized = {
 			hardness = 0.05
 			max_organisation = 5
 		}
-	}
-	mechanised_infantry3 = {
 		sub_technologies = {
 			amphibious_mechanised_infantry3
 		}
@@ -979,12 +690,13 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		mechanized = {
+		
+	}
+	amphibious_mechanised_infantry = {
+		category_amphibious_mechanized = {
 			hardness = 0.05
 			max_organisation = 5
 		}
-	}
-	amphibious_mechanised_infantry = {
 		sub_tech_index = 2
 		enable_equipments = {
 			amphibious_mechanized_equipment_1
@@ -1010,6 +722,10 @@ technologies = {
 		enable_equipments = {
 			amphibious_mechanized_equipment_2
 		}
+		category_amphibious_mechanized = {
+			hardness = 0.05
+			max_organisation = 5
+		}
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -1027,6 +743,10 @@ technologies = {
 		}
 	}
 	amphibious_mechanised_infantry3 = {
+		category_amphibious_mechanized = {
+			hardness = 0.05
+			max_organisation = 5
+		}
 		sub_tech_index = 2
 		enable_equipments = {
 			amphibious_mechanized_equipment_3

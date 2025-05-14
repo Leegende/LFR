@@ -104,7 +104,7 @@ state = {
 		12215
 		20624
 	}
-	manpower = 2350444
+	manpower = 1863777
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0
