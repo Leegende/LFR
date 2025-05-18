@@ -1483,7 +1483,6 @@
 			}
 		}
 	}
-
 	focus = {
 		id = GER_bulgarian_chromium
 		icon = GFX_goal_unknown
@@ -1843,9 +1842,14 @@
 	focus = {
 		id = GER_totaler_krieg
 		icon = GFX_total_war
-		x = 34
-		y = 7
+		x = 0
+		y = 2
 		cost = 1
+		prerequisite = {
+			focus = GER_ostwall
+			focus = GER_osttruppen
+		}
+		relative_position_id = GER_unternehmen_barbarossa
 		available = {
 			has_war_with_major = yes
 		}
@@ -2506,6 +2510,7 @@
 	focus = {
 		id = GER_schwere_panzer_abteilung
 		icon = GFX_goal_unknown
+		text = "Schwere Panzer-Abteilung"
 		x = -3
 		y = 1
 		cost = 1
@@ -2531,6 +2536,7 @@
 	focus = {
 		id = GER_bigger_means_better
 		icon = GFX_goal_unknown
+		text = "Bigger is Better"
 		x = -1
 		y = 1
 		cost = 1
@@ -2556,6 +2562,7 @@
 	focus = {
 		id = GER_porschemotoren
 		icon = GFX_goal_unknown
+		text = "Porsche-Motoren"
 		x = 1
 		y = 1
 		cost = 1
@@ -2576,6 +2583,7 @@
 	focus = {
 		id = GER_ss_übermenschen
 		icon = GFX_goal_unknown
+		text = "SS-Übermenschen"
 		x = 0
 		y = 2
 		cost = 1
@@ -2593,11 +2601,107 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = {
+				localization_key = "Spawn in 6 SS-Übermenschen-Converts in Berlin"
+			}
+			hidden_effect = {
+				division_template = {
+					name = "SS-Übermenschen"
+					regiments = {
+						converts = {
+							x = 0
+							y = 0
+						}
+						converts = {
+							x = 0
+							y = 1
+						}
+						converts = {
+							x = 0
+							y = 2
+						}
+						converts = {
+							x = 0
+							y = 3
+						}
+						converts = {
+							x = 1
+							y = 0
+						}
+						converts = {
+							x = 1
+							y = 1
+						}
+						converts = {
+							x = 1
+							y = 2
+						}
+						converts = {
+							x = 1
+							y = 3
+						}
+						converts = {
+							x = 2
+							y = 0
+						}
+						converts = {
+							x = 2
+							y = 1
+						}
+						converts = {
+							x = 2
+							y = 2
+						}
+						converts = {
+							x = 3
+							y = 0
+						}
+						converts = {
+							x = 3
+							y = 1
+						}
+						converts = {
+							x = 3
+							y = 2
+						}
+						converts = {
+							x = 3
+							y = 3
+						}
+						converts = {
+							x = 4
+							y = 0
+						}
+						converts = {
+							x = 4
+							y = 1
+						}
+						converts = {
+							x = 4
+							y = 2
+						}
+						converts = {
+							x = 4
+							y = 3
+						}
+					}
+				}
+				367 = {
+					for_loop_effect = {
+						end = 6
+						create_unit = {
+							division = "division_template = \"SS-Übermenschen\" start_experience_factor = 1"
+							owner = GER
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
 		id = GER_gehaerteter_panzerstahl
 		icon = GFX_goal_unknown
+		text = "Gehärteter Panzerstahl"
 		x = -1
 		y = 1
 		cost = 1
@@ -2616,6 +2720,7 @@
 		}
 	}
 	focus = {
+		text = "Königstiger"
 		id = GER_königstiger
 		icon = GFX_goal_unknown
 		x = 1
@@ -4314,6 +4419,139 @@
 			factor = 10
 		}
 		completion_reward = {
+		}
+	}
+	#	██╗    ██╗██╗   ██╗███╗   ██╗██████╗ ███████╗██████╗ ██╗    ██╗ █████╗ ███████╗███████╗███████╗███╗   ██╗
+	#	██║    ██║██║   ██║████╗  ██║██╔══██╗██╔════╝██╔══██╗██║    ██║██╔══██╗██╔════╝██╔════╝██╔════╝████╗  ██║
+	#	██║ █╗ ██║██║   ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝██║ █╗ ██║███████║█████╗  █████╗  █████╗  ██╔██╗ ██║
+	#	██║███╗██║██║   ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗██║███╗██║██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██║╚██╗██║
+	#	╚███╔███╔╝╚██████╔╝██║ ╚████║██████╔╝███████╗██║  ██║╚███╔███╔╝██║  ██║██║     ██║     ███████╗██║ ╚████║
+	#	 ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═══╝
+	focus = {
+		id = GER_super_tank_1
+		icon = GFX_josef_dietrich4
+		text_icon = GER_inner_circle_focus_style
+		x = -1
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_dietrich_4
+			focus = GER_guderian_4
+			focus = GER_model_4
+		}
+		mutually_exclusive = {
+			focus = GER_super_tank_1
+		}
+		relative_position_id = GER_guderian_4
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# research ding maus oder E50
+		}
+	}
+	focus = {
+		id = GER_super_tank_2
+		icon = GFX_josef_dietrich4
+		text_icon = GER_inner_circle_focus_style
+		x = 1
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_dietrich_4
+			focus = GER_guderian_4
+			focus = GER_model_4
+		}
+		mutually_exclusive = {
+			focus = GER_super_tank_1
+		}
+		relative_position_id = GER_guderian_4
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# research ding maus oder E50
+		}
+	}
+	focus = {
+		id = GER_super_gun_1
+		icon = GFX_josef_dietrich4
+		text_icon = GER_inner_circle_focus_style
+		x = 3
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_kluge_4
+			focus = GER_student_4
+		}
+		mutually_exclusive = {
+			focus = GER_super_gun_2
+		}
+		relative_position_id = GER_kluge_4
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# research ding ratte
+		}
+	}
+	focus = {
+		id = GER_super_plane_1
+		icon = GFX_josef_dietrich4
+		text_icon = GER_inner_circle_focus_style
+		x = 2
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_kesselring_4
+			focus = GER_milch_4
+		}
+		mutually_exclusive = {
+			focus = GER_super_plane_2
+		}
+		relative_position_id = GER_kesselring_4
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# research ding ratte
+		}
+	}
+	focus = {
+		id = GER_super_plane_2
+		icon = GFX_josef_dietrich4
+		text_icon = GER_inner_circle_focus_style
+		x = 4
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = GER_kesselring_4
+			focus = GER_milch_4
+		}
+		mutually_exclusive = {
+			focus = GER_super_plane_1
+		}
+		relative_position_id = GER_kesselring_4
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# research ding 
 		}
 	}
 }

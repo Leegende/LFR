@@ -84,7 +84,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/support_unit_amphibious_mechanized_assault_engineers_icon.dds"
 		noOfFrames = 2
 	}
-
 	spriteType = {
 		name = "GFX_unit_mechanized_field_hospital_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support_unit_mechanized_field_hospital_icon.dds"
@@ -540,4 +539,19 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/unit_sturmtruppe_battalion_icon.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_converts_icon_medium"
+		textureFile = "gfx\interface\counters\divisions_large\unit_convert_icon.dds"
+		noOfFrames = 2
+	}
+
+
+
+
+
+
+
+
+
+	
 }

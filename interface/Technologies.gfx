@@ -167,7 +167,7 @@ spriteTypes = {
 		name = "GFX_subtech_td"
 		textureFile = "gfx/interface/technologies/subtech_td.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_subtech_amphibious"
 		textureFile = "gfx/interface/technologies/subtech_amphibious.dds"
 	}
@@ -351,6 +351,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_soft_attack_upgrade2_medium"
 		texturefile = "gfx/interface/technologies/tank_shells.dds"
+	}
+	SpriteType = {
+		name = "GFX_flamethrower_upgrade_medium"
+		texturefile = "gfx/interface/technologies/flamethrower_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_flamethrower_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/flamethrower_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_flamethrower_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/flamethrower_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_hardness_upgrade_medium"
+		texturefile = "gfx/interface/technologies/tank_hardness_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_hardness_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/tank_hardness_upgrade1.dds"
+	}
+	SpriteType = {
+		name = "GFX_hardness_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/tank_hardness_upgrade2.dds"
 	}
 	SpriteType = {
 		name = "GFX_hard_attack_upgrade_medium"

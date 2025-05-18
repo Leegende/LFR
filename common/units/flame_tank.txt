@@ -271,7 +271,7 @@ sub_units = {
 		group = support
 		categories = {
 			category_armor
-			category_armor_flamethrower
+			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_light_tank
 		}
@@ -337,7 +337,7 @@ sub_units = {
 		group = support
 		categories = {
 			category_armor
-			category_armor_flamethrower
+			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_medium_tank
 		}
@@ -403,7 +403,7 @@ sub_units = {
 		group = support
 		categories = {
 			category_armor
-			category_armor_flamethrower
+			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_heavy_tank
 		}
@@ -466,7 +466,7 @@ sub_units = {
 		group = support
 		categories = {
 			category_armor
-			category_armor_flamethrower
+			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_modern_tank
 		}

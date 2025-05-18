@@ -714,79 +714,210 @@ technologies = {
 		}
 	}
 	soft_attack_upgrade = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			soft_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			soft_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
-			}
-		}
-		medium_tank = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
 		light_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_artillery_chassis = 5
 			}
 		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
 		light_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
 		medium_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_artillery_chassis = 5
 			}
 		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
 		medium_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
 		heavy_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_artillery_chassis = 5
 			}
 		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_amphibious_artillery_chassis = 5
 			}
 		}
-		custom_modifier_tooltip = tank_upgrade_tt
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1936
 		path = {
@@ -808,76 +939,208 @@ technologies = {
 		}
 	}
 	soft_attack_upgrade1 = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			soft_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			soft_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
-			}
-		}
-		medium_tank = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
 		light_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_artillery_chassis = 5
 			}
 		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
 		light_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
 		medium_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_artillery_chassis = 5
 			}
 		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
 		medium_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
 		heavy_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_artillery_chassis = 5
 			}
 		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
 			}
 		}
 		custom_modifier_tooltip = tank_upgrade_tt
@@ -902,79 +1165,210 @@ technologies = {
 		}
 	}
 	soft_attack_upgrade2 = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			soft_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			soft_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
-			}
-		}
-		medium_tank = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			soft_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
 		light_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_artillery_chassis = 5
 			}
 		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
 		light_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				light_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
 		medium_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_artillery_chassis = 5
 			}
 		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
 		medium_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				medium_tank_amphibious_artillery_chassis = 5
 			}
 		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
 		heavy_tank_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_artillery_chassis = 5
 			}
 		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_artillery = {
-			soft_attack = 0.075
 			need = {
 				heavy_tank_amphibious_artillery_chassis = 5
 			}
 		}
-		custom_modifier_tooltip = tank_upgrade_tt
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1940
 		folder = {
@@ -993,79 +1387,210 @@ technologies = {
 		}
 	}
 	hard_attack_upgrade = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			hard_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			hard_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
-		medium_tank = {
-			hard_attack = 0.1
+		light_tank_artillery = {
 			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_artillery_chassis = 5
 			}
 		}
 		light_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_destroyer_chassis = 5
 			}
 		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		light_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
 		medium_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_destroyer_chassis = 5
 			}
 		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		medium_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
 		heavy_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_destroyer_chassis = 5
 			}
 		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_amphibious_destroyer_chassis = 5
 			}
 		}
-		custom_modifier_tooltip = tank_upgrade_tt
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1938
 		path = {
@@ -1087,79 +1612,210 @@ technologies = {
 		}
 	}
 	hard_attack_upgrade1 = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			hard_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			hard_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
-		medium_tank = {
-			hard_attack = 0.1
+		light_tank_artillery = {
 			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_artillery_chassis = 5
 			}
 		}
 		light_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_destroyer_chassis = 5
 			}
 		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		light_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
 		medium_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_destroyer_chassis = 5
 			}
 		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		medium_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
 		heavy_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_destroyer_chassis = 5
 			}
 		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_amphibious_destroyer_chassis = 5
 			}
 		}
-		custom_modifier_tooltip = tank_upgrade_tt
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1940
 		path = {
@@ -1181,79 +1837,210 @@ technologies = {
 		}
 	}
 	hard_attack_upgrade2 = {
-		light_tank = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
 			hard_attack = 0.1
+		}
+		light_tank = {
 			need = {
 				light_tank_chassis = 5
 			}
 		}
-		light_tank_amphibious = {
-			hard_attack = 0.1
+		light_tank_anti_air = {
 			need = {
-				light_tank_amphibious_chassis = 5
+				light_tank_aa_chassis = 5
 			}
 		}
-		medium_tank = {
-			hard_attack = 0.1
+		light_tank_artillery = {
 			need = {
-				medium_tank_chassis = 5
-			}
-		}
-		medium_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				medium_tank_amphibious_chassis = 5
-			}
-		}
-		heavy_tank = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_chassis = 5
-			}
-		}
-		heavy_tank_amphibious = {
-			hard_attack = 0.1
-			need = {
-				heavy_tank_amphibious_chassis = 5
+				light_tank_artillery_chassis = 5
 			}
 		}
 		light_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_destroyer_chassis = 5
 			}
 		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		light_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				light_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
 		medium_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_destroyer_chassis = 5
 			}
 		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		medium_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				medium_tank_amphibious_destroyer_chassis = 5
 			}
 		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
 		heavy_tank_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_destroyer_chassis = 5
 			}
 		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
 		heavy_tank_amphibious_destroyer = {
-			hard_attack = 0.075
 			need = {
 				heavy_tank_amphibious_destroyer_chassis = 5
 			}
 		}
-		custom_modifier_tooltip = tank_upgrade_tt
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		ai_will_do = {
 			base = -9999999
@@ -1275,7 +2062,94 @@ technologies = {
 		enable_equipment_modules = {
 			flamethrower_1
 		}
-		
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
 		research_cost = 2.5
 		start_year = 1938
 		path = {
@@ -1297,6 +2171,97 @@ technologies = {
 		}
 	}
 	flamethrower_upgrade1 = {
+		enable_equipment_modules = {
+			flamethrower_2
+		}
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
 		research_cost = 2.5
 		start_year = 1940
 		path = {
@@ -1318,6 +2283,97 @@ technologies = {
 		}
 	}
 	flamethrower_upgrade2 = {
+		enable_equipment_modules = {
+			flamethrower_3
+		}
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
 		research_cost = 2.5
 		start_year = 1942
 		folder = {
@@ -1336,6 +2392,211 @@ technologies = {
 		}
 	}
 	hardness_upgrade = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		light_tank = {
+			need = {
+				light_tank_chassis = 5
+			}
+		}
+		light_tank_anti_air = {
+			need = {
+				light_tank_aa_chassis = 5
+			}
+		}
+		light_tank_artillery = {
+			need = {
+				light_tank_artillery_chassis = 5
+			}
+		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1938
 		path = {
@@ -1357,6 +2618,211 @@ technologies = {
 		}
 	}
 	hardness_upgrade1 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		light_tank = {
+			need = {
+				light_tank_chassis = 5
+			}
+		}
+		light_tank_anti_air = {
+			need = {
+				light_tank_aa_chassis = 5
+			}
+		}
+		light_tank_artillery = {
+			need = {
+				light_tank_artillery_chassis = 5
+			}
+		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1940
 		path = {
@@ -1378,6 +2844,211 @@ technologies = {
 		}
 	}
 	hardness_upgrade2 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		light_tank = {
+			need = {
+				light_tank_chassis = 5
+			}
+		}
+		light_tank_anti_air = {
+			need = {
+				light_tank_aa_chassis = 5
+			}
+		}
+		light_tank_artillery = {
+			need = {
+				light_tank_artillery_chassis = 5
+			}
+		}
+		light_tank_destroyer = {
+			need = {
+				light_tank_destroyer_chassis = 5
+			}
+		}
+		light_tank_flamethrower = {
+			need = {
+				light_tank_flame_chassis = 5
+			}
+		}
+		light_tank_amphibious = {
+			need = {
+				light_tank_amphibious_chassis = 5
+			}
+		}
+		light_tank_amphibious_anti_air = {
+			need = {
+				light_tank_amphibious_aa_chassis = 5
+			}
+		}
+		light_tank_amphibious_artillery = {
+			need = {
+				light_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		light_tank_amphibious_destroyer = {
+			need = {
+				light_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			need = {
+				light_tank_amphibious_flame_chassis = 5
+			}
+		}
+		medium_tank = {
+			need = {
+				medium_tank_chassis = 5
+			}
+		}
+		medium_tank_anti_air = {
+			need = {
+				medium_tank_aa_chassis = 5
+			}
+		}
+		medium_tank_artillery = {
+			need = {
+				medium_tank_artillery_chassis = 5
+			}
+		}
+		medium_tank_destroyer = {
+			need = {
+				medium_tank_destroyer_chassis = 5
+			}
+		}
+		medium_tank_flamethrower = {
+			need = {
+				medium_tank_flame_chassis = 5
+			}
+		}
+		medium_tank_amphibious = {
+			need = {
+				medium_tank_amphibious_chassis = 5
+			}
+		}
+		medium_tank_amphibious_anti_air = {
+			need = {
+				medium_tank_amphibious_aa_chassis = 5
+			}
+		}
+		medium_tank_amphibious_artillery = {
+			need = {
+				medium_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		medium_tank_amphibious_destroyer = {
+			need = {
+				medium_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			need = {
+				medium_tank_amphibious_flame_chassis = 5
+			}
+		}
+		heavy_tank = {
+			need = {
+				heavy_tank_chassis = 5
+			}
+		}
+		heavy_tank_anti_air = {
+			need = {
+				heavy_tank_aa_chassis = 5
+			}
+		}
+		heavy_tank_artillery = {
+			need = {
+				heavy_tank_artillery_chassis = 5
+			}
+		}
+		heavy_tank_destroyer = {
+			need = {
+				heavy_tank_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_flamethrower = {
+			need = {
+				heavy_tank_flame_chassis = 5
+			}
+		}
+		heavy_tank_amphibious = {
+			need = {
+				heavy_tank_amphibious_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_anti_air = {
+			need = {
+				heavy_tank_amphibious_aa_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_artillery = {
+			need = {
+				heavy_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_destroyer = {
+			need = {
+				heavy_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			need = {
+				heavy_tank_amphibious_flame_chassis = 5
+			}
+		}
+		modern_tank = {
+			need = {
+				modern_tank_chassis = 5
+			}
+		}
+		modern_tank_anti_air = {
+			need = {
+				modern_tank_aa_chassis = 5
+			}
+		}
+		modern_tank_artillery = {
+			need = {
+				modern_tank_artillery_chassis = 5
+			}
+		}
+		modern_tank_destroyer = {
+			need = {
+				modern_tank_destroyer_chassis = 5
+			}
+		}
+		modern_tank_flamethrower = {
+			need = {
+				modern_tank_flame_chassis = 5
+			}
+		}
+		modern_tank_amphibious = {
+			need = {
+				modern_tank_amphibious_chassis = 5
+			}
+		}
+		modern_tank_amphibious_anti_air = {
+			need = {
+				modern_tank_amphibious_aa_chassis = 5
+			}
+		}
+		modern_tank_amphibious_artillery = {
+			need = {
+				modern_tank_amphibious_artillery_chassis = 5
+			}
+		}
+		modern_tank_amphibious_destroyer = {
+			need = {
+				modern_tank_amphibious_destroyer_chassis = 5
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			need = {
+				modern_tank_amphibious_flame_chassis = 5
+			}
+		}
 		research_cost = 2.5
 		start_year = 1942
 		folder = {
