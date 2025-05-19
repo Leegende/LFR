@@ -1,0 +1,117 @@
+sub_unites = {
+	amtrac = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+		}
+	}
+	amtrac_marine = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+			infantry
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+	}
+	amtrac_mountaineer = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+			infantry
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+	}
+	amtrac_shocktrooper = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+			infantry
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+	}
+	amtrac_ranger = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+			infantry
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+	}
+	amtrac_sturmtruppe = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+			amphibious
+			infantry
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_special_forces_line
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+	}
+}

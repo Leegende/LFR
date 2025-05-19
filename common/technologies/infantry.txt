@@ -795,7 +795,7 @@ technologies = {
 		}
 	}
 	tech_special_forces = {
-		mountaineers = {
+		mountaineer = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
@@ -807,7 +807,7 @@ technologies = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
-		shock_trooper = {
+		shocktrooper = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
@@ -837,7 +837,7 @@ technologies = {
 		xor = {
 			improved_special_forces
 		}
-		mountaineers = {
+		mountaineer = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
@@ -849,7 +849,7 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
-		shock_trooper = {
+		shocktrooper = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
@@ -876,7 +876,7 @@ technologies = {
 		xor = {
 			advanced_special_forces
 		}
-		mountaineers = {
+		mountaineer = {
 			breakthrough = 0.05
 			max_strength = 1
 		}
@@ -888,7 +888,7 @@ technologies = {
 			breakthrough = 0.05
 			max_strength = 1
 		}
-		shock_trooper = {
+		shocktrooper = {
 			breakthrough = 0.05
 			max_strength = 1
 		}
@@ -917,7 +917,7 @@ technologies = {
 			leads_to_tech = elite_forces
 			research_cost_coeff = 1
 		}
-		mountaineers = {
+		mountaineer = {
 			hard_attack = 0.05
 		}
 		ranger = {
@@ -926,7 +926,7 @@ technologies = {
 		marine = {
 			hard_attack = 0.05
 		}
-		shock_trooper = {
+		shocktrooper = {
 			hard_attack = 0.05
 		}
 		coordination_bonus = 0.025
@@ -949,7 +949,7 @@ technologies = {
 	survival_training = {
 		land_reinforce_rate = 0.05
 		special_forces_no_supply_grace = 72
-		mountaineers = {
+		mountaineer = {
 			default_morale = 0.1
 		}
 		ranger = {
@@ -958,7 +958,7 @@ technologies = {
 		marine = {
 			default_morale = 0.1
 		}
-		shock_trooper = {
+		shocktrooper = {
 			default_morale = 0.1
 		}
 		path = {
@@ -984,7 +984,7 @@ technologies = {
 	elite_forces = {
 		research_cost = 1
 		start_year = 1941
-		mountaineers = {
+		mountaineer = {
 			acclimatization_hot_climate_gain_factor = 0.2
 			acclimatization_cold_climate_gain_factor = 0.2
 			max_organisation = 5
@@ -1005,7 +1005,7 @@ technologies = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
-		shock_trooper = {
+		shocktrooper = {
 			acclimatization_hot_climate_gain_factor = 0.2
 			acclimatization_cold_climate_gain_factor = 0.2
 			max_organisation = 5

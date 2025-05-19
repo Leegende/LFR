@@ -861,7 +861,7 @@ sub_units = {
 			defence = -2
 		}
 	}
-	mechanised_anti_tank = {
+	mechanised_destroyer = {
 		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
@@ -999,6 +999,181 @@ sub_units = {
 		}
 		amphibious = {
 			attack = -0.2
+		}
+	}
+	heavy_tank_amphibious_destroyer_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			anti_tank
+		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_armor
+			category_amphibious_armor_destroyer
+			category_heavy_tank
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		weight = 1.5
+		suppression = 0.01
+		supply_consumption = 0.5
+		supply_consumption_factor = 0.08
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.35
+		}
+		hills = {
+			attack = -0.35
+			movement = -0.3
+			defence = -0.7
+		}
+		mountain = {
+			attack = -0.45
+			movement = -0.6
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.45
+			defence = -0.55
+		}
+		marsh = {
+			attack = -0.25
+			movement = -0.4
+			defence = -0.375
+		}
+		town = {
+			attack = -0.3
+			defence = -0.65
+		}
+		urban = {
+			attack = -0.6
+			defence = -1.2
+		}
+		dense_urban = {
+			attack = -0.7
+			defence = -2
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -1.5
+		}
+		fort = {
+			attack = 0.35
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
+	}
+	heavy_tank_destroyer_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_heavy_tank
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		weight = 1.5
+		suppression = 0.01
+		supply_consumption = 0.5
+		supply_consumption_factor = 0.08
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.35
+		}
+		hills = {
+			attack = -0.35
+			movement = -0.3
+			defence = -0.7
+		}
+		mountain = {
+			attack = -0.45
+			movement = -0.6
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.45
+			defence = -0.55
+		}
+		marsh = {
+			attack = -0.45
+			movement = -0.4
+			defence = -0.675
+		}
+		town = {
+			attack = -0.3
+			defence = -0.65
+		}
+		urban = {
+			attack = -0.6
+			defence = -1.2
+		}
+		dense_urban = {
+			attack = -0.7
+			defence = -2
+		}
+		river = {
+			attack = -0.4
+			movement = -0.4
+		}
+		amphibious = {
+			attack = -2
+		}
+		fort = {
+			attack = 0.35
+		}
+		rock = {
+			attack = -2
+			defence = -2
 		}
 	}
 }

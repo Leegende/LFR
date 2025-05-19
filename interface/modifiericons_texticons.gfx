@@ -457,8 +457,8 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GFX_nato_unit_mountaineers_icon_small"
-		texturefile = "gfx/texticons/nato_unit_mountaineers_icon_small.dds"
+		name = "GFX_nato_unit_mountaineer_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 	}	
 	
@@ -582,8 +582,8 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GFX_unit_mountaineers_icon_small"
-		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		name = "GFX_unit_mountaineer_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}		
@@ -4271,26 +4271,26 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_attack_mountaineers_texticon"
-		texturefile = "gfx/texticons/attack_mountaineers_texticon.dds"
+		name = "GFX_attack_mountaineer_texticon"
+		texturefile = "gfx/texticons/attack_mountaineer_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_defence_mountaineers_texticon"
-		texturefile = "gfx/texticons/defence_mountaineers_texticon.dds"
+		name = "GFX_defence_mountaineer_texticon"
+		texturefile = "gfx/texticons/defence_mountaineer_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_speed_mountaineers_texticon"
-		texturefile = "gfx/texticons/speed_mountaineers_texticon.dds"
+		name = "GFX_speed_mountaineer_texticon"
+		texturefile = "gfx/texticons/speed_mountaineer_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_organisation_mountaineers_texticon"
-		texturefile = "gfx/texticons/organisation_mountaineers_texticon.dds"
+		name = "GFX_organisation_mountaineer_texticon"
+		texturefile = "gfx/texticons/organisation_mountaineer_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
@@ -4523,8 +4523,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_mountaineers_contribution_texticon"
-		texturefile = "gfx/texticons/mountaineers_contribution_texticon.dds"
+		name = "GFX_mountaineer_contribution_texticon"
+		texturefile = "gfx/texticons/mountaineer_contribution_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
@@ -4576,8 +4576,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
    spriteType = {
-		name = "GFX_unit_shock_trooper_icon_small"
-		texturefile = "gfx/texticons/unit_shock_trooper_icon_small.dds"
+		name = "GFX_unit_shocktrooper_icon_small"
+		texturefile = "gfx/texticons/unit_shocktrooper_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	 spriteType = {

@@ -94,8 +94,8 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_mountaineers_bg"
-		textureFile = "gfx/interface/officer_corp/special_forces/doctrine_special_forces_mountaineers_bg.dds"
+		name = "GFX_mountaineer_bg"
+		textureFile = "gfx/interface/officer_corp/special_forces/doctrine_special_forces_mountaineer_bg.dds"
 		alwaystransparent = yes
 	}
 	spriteType = {

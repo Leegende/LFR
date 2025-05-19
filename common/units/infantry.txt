@@ -323,7 +323,7 @@ sub_units = {
 			movement = 0.25
 		}
 	}
-	mountaineers = {
+	mountaineer = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 1
@@ -381,7 +381,7 @@ sub_units = {
 			movement = 0.05
 		}
 	}
-	shock_trooper = {
+	shocktrooper = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 1

@@ -1,19 +1,4 @@
 sub_units = {
-	amtrac = {
-		sprite = amtrac
-		map_icon_category = infantry
-		priority = 0
-		active = no
-		type = {
-			mechanized
-			amphibious
-		}
-		group = mobile
-		categories = {
-			category_amtrac
-			category_infantry
-		}
-	}
 	motorised = {
 		sprite = motorised
 		map_icon_category = infantry

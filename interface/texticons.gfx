@@ -501,8 +501,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_nato_unit_mountaineers_icon_small"
-		texturefile = "gfx/texticons/nato_unit_mountaineers_icon_small.dds"
+		name = "GFX_nato_unit_mountaineer_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 	}
 
@@ -695,34 +695,34 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_unit_mountaineers_icon_small"
-		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		name = "GFX_unit_mountaineer_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
 	
 	spriteType = {
-		name = "GFX_nato_unit_mountaineers_ski_icon_small"
-		texturefile = "gfx/texticons/nato_unit_mountaineers_icon_small.dds"
+		name = "GFX_nato_unit_mountaineer_ski_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_unit_mountaineers_ski_icon_small"
-		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		name = "GFX_unit_mountaineer_ski_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
 	
 	spriteType = {
-		name = "GFX_nato_unit_category_mountaineers_icon_small"
-		texturefile = "gfx/texticons/nato_unit_mountaineers_icon_small.dds"
+		name = "GFX_nato_unit_category_mountaineer_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	
 	spriteType = {
-		name = "GFX_unit_category_mountaineers_icon_small"
-		texturefile = "gfx/texticons/unit_mountaineers_icon_small.dds"
+		name = "GFX_unit_category_mountaineer_icon_small"
+		texturefile = "gfx/texticons/unit_mountaineer_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}

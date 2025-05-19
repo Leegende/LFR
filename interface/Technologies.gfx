@@ -537,15 +537,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/night_vision.dds"
 	}
 	SpriteType = {
-		name = "GFX_tech_mountaineers3_medium"
+		name = "GFX_tech_mountaineer3_medium"
 		texturefile = "gfx/interface/technologies/mountain3.dds"
 	}
 	SpriteType = {
-		name = "GFX_tech_mountaineers2_medium"
+		name = "GFX_tech_mountaineer2_medium"
 		texturefile = "gfx/interface/technologies/mountain2.dds"
 	}
 	SpriteType = {
-		name = "GFX_tech_mountaineers_medium"
+		name = "GFX_tech_mountaineer_medium"
 		texturefile = "gfx/interface/technologies/mountain.dds"
 	}
 	SpriteType = {
@@ -1027,8 +1027,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/fleet_in_being.dds"
 	}
 	SpriteType = {
-		name = "GFX_special_forces_mountaineers_medium"
-		texturefile = "gfx/interface/technologies/special_forces_mountaineers_medium.dds"
+		name = "GFX_special_forces_mountaineer_medium"
+		texturefile = "gfx/interface/technologies/special_forces_mountaineer_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
@@ -1047,28 +1047,28 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mountaineers_combat_1_medium"
-		texturefile = "gfx/interface/technologies/mountaineers_combat_1_medium.dds"
+		name = "GFX_mountaineer_combat_1_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_combat_1_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mountaineers_combat_2_medium"
-		texturefile = "gfx/interface/technologies/mountaineers_combat_2_medium.dds"
+		name = "GFX_mountaineer_combat_2_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_combat_2_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mountaineers_combat_3_medium"
-		texturefile = "gfx/interface/technologies/mountaineers_combat_3_medium.dds"
+		name = "GFX_mountaineer_combat_3_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_combat_3_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mountaineers_keystone_1_medium"
-		texturefile = "gfx/interface/technologies/mountaineers_keystone_1_medium.dds"
+		name = "GFX_mountaineer_keystone_1_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_keystone_1_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
-		name = "GFX_mountaineers_keystone_2_medium"
-		texturefile = "gfx/interface/technologies/mountaineers_keystone_2_medium.dds"
+		name = "GFX_mountaineer_keystone_2_medium"
+		texturefile = "gfx/interface/technologies/mountaineer_keystone_2_medium.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
