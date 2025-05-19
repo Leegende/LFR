@@ -1,5 +1,5 @@
 equipments = {
-	mechanised_archetype = {
+	mechanised_equipment = {
 		is_archetype = yes
 		picture = archetype_motorised_equipment
 		is_buildable = no
@@ -106,13 +106,14 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		maximum_speed = 4
 	}
 	mechanised_equipment_0 = {
-		archetype = mechanised_archetype
+		archetype = mechanised_equipment
 		is_buildable = no
 	}
 	mechanised_equipment_1 = {
-		archetype = mechanised_archetype
+		archetype = mechanised_equipment
 		module_slots = {
 			main_armament_slot = {
 				required = yes
@@ -224,7 +225,7 @@ equipments = {
 		}
 	}
 	mechanised_equipment_2 = {
-		archetype = mechanised_archetype
+		archetype = mechanised_equipment
 		parent = mechanised_equipment_1
 		module_slots = {
 			main_armament_slot = {
@@ -345,7 +346,7 @@ equipments = {
 		}
 	}
 	mechanised_equipment_3 = {
-		archetype = mechanised_archetype
+		archetype = mechanised_equipment
 		parent = mechanised_equipment_2
 		module_slots = {
 			main_armament_slot = {

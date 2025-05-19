@@ -103,9 +103,11 @@ equipments = {
 			suspension_type_slot = tank_wheeled_suspension_mech
 			armor_type_slot = mech_riveted_armor
 			engine_type_slot = tank_gasoline_engine
+			special_type_slot_2 = mech_amtrac_module
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		maximum_speed = 4.0
 	}
 	amtrac_equipment_0 = {
 		archetype = amtrac_equipment

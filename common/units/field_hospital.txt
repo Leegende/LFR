@@ -57,9 +57,7 @@ sub_units = {
 		hard_attack = -1
 		breakthrough = -1
 		defense = -1
-		essential = {
-			mechanised_utility_equipment
-		}
+		
 		
 		same_support_type = field_hospital
 	}

@@ -65,7 +65,7 @@ equipments = {
 		archetype = heavy_artillery_equipment
 		parent = heavy_artillery_equipment_2
 	}
-	super_heavy_artillery = {
+	super_heavy_artillery_equipment = {
 		is_archetype = yes
 		picture = archetype_artillery_equipment
 		type = {
@@ -77,7 +77,7 @@ equipments = {
 		can_license = no
 	}
 	super_heavy_artillery_1 = {
-		archetype = super_heavy_artillery
+		archetype = super_heavy_artillery_equipment
 	}
 	super_heavy_self_propelled_artillery = {
 		is_archetype = yes
@@ -91,7 +91,7 @@ equipments = {
 		can_license = no
 	}
 	super_heavy_self_propelled_artillery_1 = {
-		archetype = super_heavy_artillery
+		archetype = super_heavy_artillery_equipment
 	}
 	rocket_artillery_equipment = {
 		is_archetype = yes
@@ -112,7 +112,7 @@ equipments = {
 		picture = archetype_artillery_equipment
 		type = {
 			artillery
-			motorised
+			motorized
 		}
 		group_by = archetype
 		interface_category = interface_category_land

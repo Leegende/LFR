@@ -3,7 +3,7 @@ sub_units = {
 		sprite = railway_gun
 		map_icon_category = other
 		priority = 1
-		active = yes
+		active = no
 		type = {
 			railway_gun
 		}
@@ -19,7 +19,7 @@ sub_units = {
 		sprite = super_heavy_railway_gun
 		map_icon_category = other
 		priority = 1
-		active = yes
+		active = no
 		type = {
 			railway_gun
 		}

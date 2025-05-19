@@ -4,7 +4,7 @@ equipments = {
 		is_buildable = no
 		type = {
 			infantry
-			motorised
+			motorized
 			support
 		}
 		group_by = archetype

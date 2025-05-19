@@ -197,6 +197,9 @@ set_popularities = {
 	fascism = 60
 	communism = 20
 }
+set_technology = {
+	all_starting_subunits  = 1
+}
 
 add_ideas = {
 }

@@ -104,6 +104,8 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
+	motorized
+	mechanized
 	land_cruiser
 	suicide
 	missile_launcher
@@ -114,8 +116,6 @@ script_enum_equipment_category = {
 	floating_harbor
 	railway_gun
 	armor
-	motorised
-	Mechanised
 	infantry
 	capital_ship
 	screen_ship
@@ -159,8 +159,6 @@ script_enum_equipment_bonus_type = {
 	anti_air
 	anti_tank
 	rocket
-	Mechanised
-	motorised
 	capital_ship
 	submarine
 	carrier
@@ -202,7 +200,6 @@ script_enum_equipment_bonus_type = {
 	heavy_anti_tank_equipment_2
 	heavy_anti_tank_equipment_3
 	armored_car_archetype
-	gw_armored_car_equipment
 	armored_car_equipment_2
 	armored_car_equipment_3
 	armored_car_at_equipment
@@ -226,7 +223,7 @@ script_enum_equipment_bonus_type = {
 	infantry_equipment_1
 	infantry_equipment_2
 	infantry_equipment_3
-	mechanised_archetype
+	mechanised_equipment
 	mechanised_equipment_0
 	mechanised_equipment_1
 	mechanised_equipment_2
@@ -236,7 +233,6 @@ script_enum_equipment_bonus_type = {
 	amtrac_equipment_1
 	amtrac_equipment_2
 	amtrac_equipment_3
-	motorised_equipment
 	motorised_equipment_1
 	railway_gun_equipment
 	railway_gun_equipment_1
@@ -299,11 +295,11 @@ script_enum_equipment_bonus_type = {
 	mechanised_td_equipment
 	mechanised_utility_equipment
 	mechanised_flame_equipment
-	amphibious_mechanised_aa_equipment
-	amphibious_mechanised_spg_equipment
-	amphibious_mechanised_td_equipment
-	amphibious_mechanised_utility_equipment
-	amphibious_mechanised_flame_equipment
+	amtrac_aa_equipment
+	amtrac_spg_equipment
+	amtrac_td_equipment
+	amtrac_utility_equipment
+	amtrac_flame_equipment
 	light_tank_aa_chassis
 	light_tank_artillery_chassis
 	light_tank_destroyer_chassis
@@ -339,10 +335,6 @@ script_enum_equipment_bonus_type = {
 	modern_tank_amphibious_artillery_chassis
 	modern_tank_amphibious_destroyer_chassis
 	modern_tank_amphibious_flame_chassis
-	mechanised_aa_equipment_0
-	mechanised_aa_equipment_1
-	mechanised_aa_equipment_2
-	mechanised_aa_equipment_3
 	mechanised_spg_equipment_0
 	mechanised_spg_equipment_1
 	mechanised_spg_equipment_2
@@ -359,26 +351,26 @@ script_enum_equipment_bonus_type = {
 	mechanised_flame_equipment_1
 	mechanised_flame_equipment_2
 	mechanised_flame_equipment_3
-	amphibious_mechanised_aa_equipment_0
-	amphibious_mechanised_aa_equipment_1
-	amphibious_mechanised_aa_equipment_2
-	amphibious_mechanised_aa_equipment_3
-	amphibious_mechanised_spg_equipment_0
-	amphibious_mechanised_spg_equipment_1
-	amphibious_mechanised_spg_equipment_2
-	amphibious_mechanised_spg_equipment_3
-	amphibious_mechanised_td_equipment_0
-	amphibious_mechanised_td_equipment_1
-	amphibious_mechanised_td_equipment_2
-	amphibious_mechanised_td_equipment_3
-	amphibious_mechanised_utility_equipment_0
-	amphibious_mechanised_utility_equipment_1
-	amphibious_mechanised_utility_equipment_2
-	amphibious_mechanised_utility_equipment_3
-	amphibious_mechanised_flame_equipment_0
-	amphibious_mechanised_flame_equipment_1
-	amphibious_mechanised_flame_equipment_2
-	amphibious_mechanised_flame_equipment_3
+	amtrac_aa_equipment_0
+	amtrac_aa_equipment_1
+	amtrac_aa_equipment_2
+	amtrac_aa_equipment_3
+	amtrac_spg_equipment_0
+	amtrac_spg_equipment_1
+	amtrac_spg_equipment_2
+	amtrac_spg_equipment_3
+	amtrac_td_equipment_0
+	amtrac_td_equipment_1
+	amtrac_td_equipment_2
+	amtrac_td_equipment_3
+	amtrac_utility_equipment_0
+	amtrac_utility_equipment_1
+	amtrac_utility_equipment_2
+	amtrac_utility_equipment_3
+	amtrac_flame_equipment_0
+	amtrac_flame_equipment_1
+	amtrac_flame_equipment_2
+	amtrac_flame_equipment_3
 	light_tank_aa_chassis_1
 	light_tank_aa_chassis_2
 	light_tank_aa_chassis_3
@@ -480,6 +472,23 @@ script_enum_equipment_bonus_type = {
 	super_heavy_artillery_equipment_1
 	motorbike_equipment
 	motorbike_equipment_1
-    motorised_anti_air_archetype
+	motorised_anti_air_archetype
 	motorised_anti_air_equipment_1
+	mechanized
+	motorized
+	armored_car_equipment_1
+	super_heavy_artillery_equipment
+	super_heavy_artillery_1
+	super_heavy_self_propelled_artillery
+	super_heavy_self_propelled_artillery_1
+	rocket_artillery_equipment
+	rocket_artillery_equipment_1
+	helicopter_archetype
+	helicopter_equipment_1
+	mechanised_aa_equipment_1
+	mechanised_aa_equipment_2
+	mechanised_aa_equipment_3
+	mechanised_aa_equipment_0
+
+
 }

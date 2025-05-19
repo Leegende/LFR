@@ -34,7 +34,7 @@ sub_unit_categories = {
 	category_helicopter_support_company
 	category_armor_support_company
 	category_mechanised_support_company
-	category_amphibious_mechanised_support_company
+	category_amtrac_support_company
 	category_amphibious_armor_support_company
 	category_support_company
 	category_miscellaneous_support_company
@@ -58,7 +58,7 @@ sub_unit_categories = {
 	#################################
 	category_motorised
 	category_mechanised
-	category_amphibious_mechanised
+	category_amtrac
 	#################################
 	category_red_guard
 	category_ss

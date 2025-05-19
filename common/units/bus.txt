@@ -7,7 +7,7 @@ sub_units = {
 		affects_speed = no
 		can_be_parachuted = yes
 		type = {
-			motorised
+			motorized
 		}
 		group = mobile
 	}

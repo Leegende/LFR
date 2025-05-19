@@ -223,7 +223,7 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanised
+			mechanized
 		}
 		group = support
 		categories = {
@@ -243,9 +243,7 @@ sub_units = {
 		hard_attack = -0.5
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanised_utility_equipment
-		}
+	
 		maximum_speed = 2
 		
 		can_be_parachuted = yes
@@ -295,7 +293,7 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanised
+			mechanized
 		}
 		group = support
 		categories = {
@@ -315,9 +313,7 @@ sub_units = {
 		hard_attack = -0.5
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
-		essential = {
-			mechanised_utility_equipment
-		}
+	
 		maximum_speed = 2
 	
 		can_be_parachuted = yes
@@ -360,7 +356,7 @@ sub_units = {
 		}
 		same_support_type = engineers
 	}
-	mechanised_amphibious_engineers = {
+	amtrac_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -371,7 +367,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			category_amphibious_mechanised_support_company
+			category_amtrac_support_company
 			category_engineers_company
 		}
 		combat_width = 0
@@ -426,12 +422,12 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			amphibious_mechanised_utility_equipment
+			amtrac_utility_equipment
 		}
 		maximum_speed = 2
 		
 	}
-	mechanised_amphibious_assault_engineers = {
+	amtrac_assault_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -439,11 +435,11 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanised
+			mechanized
 		}
 		group = support
 		categories = {
-			category_amphibious_mechanised_support_company
+			category_amtrac_support_company
 			category_assault_engineers_company
 		}
 		combat_width = 0
@@ -460,7 +456,7 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			amphibious_mechanised_utility_equipment
+			amtrac_utility_equipment
 		}
 		maximum_speed = 2
 	

@@ -970,8 +970,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
-		name = "GFX_unit_amphibious_mechanised_icon_small"
-		texturefile = "gfx/texticons/unit_amphibious_mechanised_icon_small.dds"
+		name = "GFX_unit_amtrac_icon_small"
+		texturefile = "gfx/texticons/unit_amtrac_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}

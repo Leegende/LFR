@@ -4,7 +4,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 		}
@@ -88,7 +88,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 		}
@@ -171,7 +171,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 		}
@@ -256,7 +256,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 		}
@@ -312,7 +312,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 			amphibious
@@ -397,7 +397,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 			amphibious
@@ -481,7 +481,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = yes
+		active = no
 		type = {
 			armor
 			amphibious
@@ -566,7 +566,7 @@ sub_units = {
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 0
-		active = yes
+		active = no
 		type = {
 			armor
 			amphibious

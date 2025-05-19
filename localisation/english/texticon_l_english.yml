@@ -1280,7 +1280,7 @@
  modifier_unit_guided_missile_design_cost_factor:0 "£air_design_cost_texticon  Rocket Unit Design Cost"
  modifier_unit_suicide_craft_design_cost_factor:0 "£air_design_cost_texticon  Yokosuka MXY7 Ohka Unit Design Cost"
  modifier_unit_amphibious_armor_design_cost_factor:0 "£tank_design_cost_texticon  Amphibious Tank Battalion Unit Design Cost"
- modifier_unit_amphibious_mechanised_design_cost_factor:0 "£tank_design_cost_texticon  Amtrac Battalion Unit Design Cost"
+ modifier_unit_amtrac_design_cost_factor:0 "£tank_design_cost_texticon  Amtrac Battalion Unit Design Cost"
  modifier_unit_anti_air_design_cost_factor:0 "£tank_design_cost_texticon  Support Anti-Air Unit Design Cost"
  modifier_unit_anti_air_brigade_design_cost_factor:0 "£tank_design_cost_texticon  Anti-Air Unit Design Cost"
  modifier_unit_mot_anti_air_brigade_design_cost_factor:0 "£tank_design_cost_texticon  Motorised Anti-Air Unit Design Cost"

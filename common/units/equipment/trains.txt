@@ -2,7 +2,6 @@ equipments = {
 	train_equipment = {
 		is_archetype = yes
 		is_buildable = no
-		active = no
 		type = train
 		picture = archetype_train
 		group_by = archetype
@@ -11,6 +10,5 @@ equipments = {
 	}
 	train_equipment_1 = {
 		archetype = train_equipment
-		priority = 99
 	}
 }

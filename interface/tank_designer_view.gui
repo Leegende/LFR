@@ -299,7 +299,7 @@ guiTypes = {
 		}
 			ButtonType = {
 			name = "save_to_file_button"
-			position = { x=18 y=380 }
+			position = { x=-999 y=380 }
 			quadTextureSprite ="GFX_preset_button_save"
 			buttonFont = "hoi_18mbs"
 			clicksound = "ui_ship_designer_save"
@@ -1455,10 +1455,9 @@ guiTypes = {
 		
 	}
 	
-	# entry for all historical designs
 	containerWindowType = {
 		name = "historical_design_entry"
-		size = { width=404 height=80 }
+		size = { width=-999 height=80 }
 		
 		background = {
 			name = "Background"
@@ -1503,5 +1502,30 @@ guiTypes = {
 		}
 		
 	}
+	containerWindowType = {
+		name = "design_folder"
+		size = { width=123 height=34 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_diplo_filter_entry"
+			clicksound = click_scroll
+			frame = 1
+		}
+		
+		instantTextboxType = {
+			name = "name"
+			position = { x = 20 y = -2}
+			font = "hoi_18mbs"
+			maxWidth = 83
+			maxHeight = 34
+			fixedsize = yes
+			vertical_alignment = center
+			format = centre
+			alwaystransparent = yes
+			multiline = no
+		}
+	}
+	
 	
 }

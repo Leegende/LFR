@@ -85,6 +85,22 @@ technologies = {
 			base = -9999999
 		}
 		enable_subunits = {
+			anti_air
+			pack_anti_air
+			heavy_anti_air
+			amtrac_anti_air
+			motorised_anti_air
+			heavy_tank_anti_air
+			heavy_tank_anti_air_ss
+			light_tank_anti_air
+			mechanised_anti_air
+			medium_tank_anti_air
+			modern_tank_anti_air
+			heavy_tank_amphibious_anti_air
+			heavy_tank_amphibious_anti_air_ss
+			light_tank_amphibious_anti_air
+			medium_tank_amphibious_anti_air
+			modern_tank_amphibious_anti_air
 		}
 	}
 	juggle1 = {
@@ -509,7 +525,7 @@ technologies = {
 			mechanised_equipment_1
 		}
 		sub_technologies = {
-			amphibious_mechanised_infantry
+			amtrac_infantry
 		}
 		path = {
 			leads_to_tech = mechanised_infantry2
@@ -540,7 +556,7 @@ technologies = {
 			max_organisation = 5
 		}
 		sub_technologies = {
-			amphibious_mechanised_infantry2
+			amtrac_infantry2
 		}
 		enable_equipments = {
 			mechanised_equipment_2
@@ -571,7 +587,7 @@ technologies = {
 			max_organisation = 5
 		}
 		sub_technologies = {
-			amphibious_mechanised_infantry3
+			amtrac_infantry3
 		}
 		enable_equipments = {
 			mechanised_equipment_3
@@ -592,8 +608,8 @@ technologies = {
 			base = -9999999
 		}
 	}
-	amphibious_mechanised_infantry = {
-		category_amphibious_mechanised = {
+	amtrac_infantry = {
+		category_amtrac = {
 			hardness = 0.05
 			max_organisation = 5
 		}
@@ -617,12 +633,12 @@ technologies = {
 			base = -9999999
 		}
 	}
-	amphibious_mechanised_infantry2 = {
+	amtrac_infantry2 = {
 		sub_tech_index = 2
 		enable_equipments = {
 			amtrac_equipment_2
 		}
-		category_amphibious_mechanised = {
+		category_amtrac = {
 			hardness = 0.05
 			max_organisation = 5
 		}
@@ -642,8 +658,8 @@ technologies = {
 			base = -9999999
 		}
 	}
-	amphibious_mechanised_infantry3 = {
-		category_amphibious_mechanised = {
+	amtrac_infantry3 = {
+		category_amtrac = {
 			hardness = 0.05
 			max_organisation = 5
 		}
