@@ -111,4 +111,9 @@ spriteTypes = {
 		name = "GFX_unit_pack_anti_air_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_large/anti_air/pack_anti_air.dds"
 	}
+
+
+
+
+	
 }

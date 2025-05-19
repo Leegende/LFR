@@ -113,6 +113,9 @@
  landmark_hagia_sophia: "The Hagia Sophia"
  landmark_hagia_sophia_desc: "Standing at the crossroads of empires, the Hagia Sophia has been a Byzantine cathedral, an Ottoman mosque, and a symbol of Istanbul’s ever-changing rulers. Its massive dome and grand halls reflect both its spiritual significance and the ambitions of those who claimed the city as their own."
 
+
+ concentration_camp: "Konzentrationslager"
+ concentration_camp_desc: ""
  BUILDING_BOMBED:0 "$BUILDING$ bombed!"
  BUILDING_SABOTAGED:0 "$BUILDING$ sabotaged!"
  BUILDING_REPAIRED:0 "$BUILDING$ repaired!"
