@@ -91,19 +91,19 @@
 		unique = {
 		}
 	}
-	motorized = {
+	motorised = {
 		prefix = ""
 		generic = {
-			"Motorized Division"
+			"Motorised Division"
 		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {
 		}
 	}
-	mechanized = {
+	mechanised = {
 		prefix = ""
 		generic = {
-			"Mechanized Division"
+			"Mechanised Division"
 		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {

@@ -21,7 +21,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_motorized"
+		name = "GFX_motorised"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
 	}
 

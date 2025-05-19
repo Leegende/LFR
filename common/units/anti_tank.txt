@@ -861,19 +861,19 @@ sub_units = {
 			defence = -2
 		}
 	}
-	mechanized_anti_tank = {
-		sprite = mechanized
+	mechanised_anti_tank = {
+		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		affects_speed = yes
 		active = yes
 		type = {
-			mechanized
+			mechanised
 		}
 		group = mobile
 		categories = {
 			category_anti_tank
-			category_mechanized
+			category_mechanised
 		}
 		combat_width = 2
 		manpower = 500
@@ -931,19 +931,19 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-	mechanized_amphibious_destroyer = {
-		sprite = mechanized
+	mechanised_amphibious_destroyer = {
+		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		affects_speed = yes
 		active = yes
 		type = {
-			mechanized
+			mechanised
 		}
 		group = mobile
 		categories = {
 			category_anti_tank
-			category_amphibious_mechanized
+			category_amphibious_mechanised
 		}
 		combat_width = 2
 		manpower = 500

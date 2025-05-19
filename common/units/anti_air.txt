@@ -15,7 +15,7 @@ sub_units = {
 			category_pack
 		}
 		same_support_type = anti_air
-				mountain = {
+		mountain = {
 			attack = 0.03
 		}
 		hills = {
@@ -210,58 +210,59 @@ sub_units = {
 		}
 		same_support_type = anti_air
 	}
-	amphibious_mechanized_anti_air = {
-		sprite = mechanized
+	amphibious_mechanised_anti_air = {
+		sprite = mechanised
 		map_icon_category = transport
 		priority = 0
 		active = yes
 		affects_speed = yes
 		type = {
-			mechanized
+			mechanised
 			anti_air
 			amphibious
 		}
 		group = support
 		categories = {
 			category_aa
-			category_amphibious_mechanized
+			category_amphibious_mechanised
 		}
 		same_support_type = anti_air
 	}
-	mechanized_anti_air = {
-		sprite = mechanized
+	mechanised_anti_air = {
+		sprite = mechanised
 		map_icon_category = transport
 		priority = 0
 		active = yes
 		affects_speed = yes
 		type = {
-			mechanized
+			mechanised
 			anti_air
 		}
 		group = support
 		categories = {
 			category_aa
-			category_mechanized
+			category_mechanised
 		}
 		same_support_type = anti_air
 	}
 	motorised_anti_air = {
-		sprite = mechanized
+		sprite = mechanised
 		map_icon_category = transport
 		priority = 0
 		active = yes
 		affects_speed = yes
 		type = {
-			mechanized
+			mechanised
 			anti_air
 		}
 		group = support
 		categories = {
 			category_aa
-			category_mechanized
+			category_mechanised
 		}
 		same_support_type = anti_air
 	}
+
 
 
 }

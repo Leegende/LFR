@@ -215,7 +215,7 @@ sub_units = {
 		}
 		same_support_type = engineers
 	}
-	mechanized_engineers = {
+	mechanised_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -223,7 +223,7 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanized
+			mechanised
 		}
 		group = support
 		categories = {
@@ -244,7 +244,7 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			mechanized_utility_equipment
+			mechanised_utility_equipment
 		}
 		maximum_speed = 2
 		
@@ -287,7 +287,7 @@ sub_units = {
 		}
 		same_support_type = engineers
 	}
-	mechanized_assault_engineers = {
+	mechanised_assault_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -295,7 +295,7 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanized
+			mechanised
 		}
 		group = support
 		categories = {
@@ -316,7 +316,7 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			mechanized_utility_equipment
+			mechanised_utility_equipment
 		}
 		maximum_speed = 2
 	
@@ -360,7 +360,7 @@ sub_units = {
 		}
 		same_support_type = engineers
 	}
-	mechanized_amphibious_engineers = {
+	mechanised_amphibious_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -426,12 +426,12 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			amphibious_mechanized_utility_equipment
+			amphibious_mechanised_utility_equipment
 		}
 		maximum_speed = 2
 		
 	}
-	mechanized_amphibious_assault_engineers = {
+	mechanised_amphibious_assault_engineers = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -439,7 +439,7 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
-			mechanized
+			mechanised
 		}
 		group = support
 		categories = {
@@ -460,7 +460,7 @@ sub_units = {
 		entrenchment = 4
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
-			amphibious_mechanized_utility_equipment
+			amphibious_mechanised_utility_equipment
 		}
 		maximum_speed = 2
 	

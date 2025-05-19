@@ -17,7 +17,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_GER_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/GER/GER_motorized_truck.dds"
+		texturefile = "gfx/interface/technologies/GER/GER_motorised_truck.dds"
 	}
 	SpriteType = {
 		name = "GFX_medium_tank_amphibious_destroyer_medium"
@@ -52,8 +52,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/archetypes/archetype_train.dds"
 	}
 	SpriteType = {
-		name = "GFX_archetype_motorized_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_motorized_equipment.dds"
+		name = "GFX_archetype_motorised_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_motorised_equipment.dds"
 	}
 	SpriteType = {
 		name = "GFX_archetype_support_equipment_medium"
@@ -80,8 +80,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/archetypes/archetype_armored_car_equipment.dds"
 	}
 	SpriteType = {
-		name = "GFX_archetype_motorized_rocket_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_motorized_rocket_equipment.dds"
+		name = "GFX_archetype_motorised_rocket_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_motorised_rocket_equipment.dds"
 	}
 	SpriteType = {
 		name = "GFX_archetype_anti_tank_equipment_medium"
@@ -108,12 +108,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_motorized_rocket_unit_medium"
-		texturefile = "gfx/interface/technologies/motorized_rocket_unit.dds"
+		name = "GFX_motorised_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/motorised_rocket_unit.dds"
 	}
 	SpriteType = {
-		name = "GFX_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+		name = "GFX_motorised_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/motorised_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
@@ -205,11 +205,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_armored_car1_medium"
-		texturefile = "gfx/interface/technologies/FIN_armored_car_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/FIN_armored_car_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_armored_car2_medium"
-		texturefile = "gfx/interface/technologies/FIN_armored_car_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/FIN_armored_car_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_armored_car3_medium"
@@ -217,15 +217,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/mechanised_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/mechanised_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/mechanised_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_artillery_medium"
@@ -478,7 +478,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/motorised_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_tech_recon4_medium"

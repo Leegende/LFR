@@ -47,8 +47,8 @@ technologies = {
 		enable_subunits = {
 			red_guard_artillery
 			#red_guard_infantry
-			#red_guard_mechanized
-			#red_guard_motorized
+			#red_guard_mechanised
+			#red_guard_motorised
 		}
 	}
 	ss_subunits = {
@@ -58,7 +58,7 @@ technologies = {
 		}
 		enable_subunits = {
 			ss_infantry
-			ss_mechanized
+			ss_mechanised
 		}
 	}
 	sturmtruppe_subunits = {
@@ -442,10 +442,10 @@ technologies = {
 	}
 	motorised_infantry = {
 		enable_equipments = {
-			motorized_equipment_1
+			motorised_equipment_1
 		}
 		sub_technologies = {
-			motorized_rocket_unit
+			motorised_rocket_unit
 		}
 		enable_equipment_modules = {
 			mech_additional_machine_guns
@@ -465,7 +465,7 @@ technologies = {
 			mech_tungston_core_ammunition
 			mech_utility_module
 			mech_welded_armor
-			tank_mechanized_fixed_superstructure_turret
+			tank_mechanised_fixed_superstructure_turret
 			tank_light_cannon_mech
 			tank_light_cannon_2_mech
 			tank_light_cannon_3_mech
@@ -506,7 +506,7 @@ technologies = {
 	}
 	mechanised_infantry = {
 		enable_equipments = {
-			mechanized_equipment_1
+			mechanised_equipment_1
 		}
 		sub_technologies = {
 			amphibious_mechanised_infantry
@@ -529,13 +529,13 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		category_mechanized = {
+		category_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
 	}
 	mechanised_infantry2 = {
-		category_mechanized = {
+		category_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
@@ -543,7 +543,7 @@ technologies = {
 			amphibious_mechanised_infantry2
 		}
 		enable_equipments = {
-			mechanized_equipment_2
+			mechanised_equipment_2
 		}
 		path = {
 			leads_to_tech = mechanised_infantry3
@@ -566,7 +566,7 @@ technologies = {
 		}
 	}
 	mechanised_infantry3 = {
-		category_mechanized = {
+		category_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
@@ -574,7 +574,7 @@ technologies = {
 			amphibious_mechanised_infantry3
 		}
 		enable_equipments = {
-			mechanized_equipment_3
+			mechanised_equipment_3
 		}
 		research_cost = 2
 		start_year = 1942
@@ -593,13 +593,13 @@ technologies = {
 		}
 	}
 	amphibious_mechanised_infantry = {
-		category_amphibious_mechanized = {
+		category_amphibious_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
 		sub_tech_index = 2
 		enable_equipments = {
-			amphibious_mechanized_equipment_1
+			amtrac_equipment_1
 		}
 		research_cost = 2
 		start_year = 1938
@@ -620,9 +620,9 @@ technologies = {
 	amphibious_mechanised_infantry2 = {
 		sub_tech_index = 2
 		enable_equipments = {
-			amphibious_mechanized_equipment_2
+			amtrac_equipment_2
 		}
-		category_amphibious_mechanized = {
+		category_amphibious_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
@@ -643,13 +643,13 @@ technologies = {
 		}
 	}
 	amphibious_mechanised_infantry3 = {
-		category_amphibious_mechanized = {
+		category_amphibious_mechanised = {
 			hardness = 0.05
 			max_organisation = 5
 		}
 		sub_tech_index = 2
 		enable_equipments = {
-			amphibious_mechanized_equipment_3
+			amtrac_equipment_3
 		}
 		research_cost = 2
 		start_year = 1942
@@ -667,9 +667,9 @@ technologies = {
 			base = -9999999
 		}
 	}
-	motorized_rocket_unit = {
+	motorised_rocket_unit = {
 		enable_equipments = {
-			motorized_rocket_equipment_1
+			motorised_rocket_equipment_1
 		}
 		research_cost = 2
 		start_year = 1939
@@ -682,7 +682,7 @@ technologies = {
 	}
 	armored_car1 = {
 		enable_equipments = {
-			gw_armored_car_equipment
+			armored_car_equipment_1
 		}
 		path = {
 			leads_to_tech = armored_car2
@@ -712,7 +712,7 @@ technologies = {
 			max_organisation = 5
 		}
 		enable_equipments = {
-			armored_car_equipment_1
+			armored_car_equipment_2
 		}
 		path = {
 			leads_to_tech = armored_car3
@@ -742,7 +742,7 @@ technologies = {
 			max_organisation = 5
 		}
 		enable_equipments = {
-			armored_car_equipment_2
+			armored_car_equipment_3
 		}
 		research_cost = 2
 		start_year = 1940

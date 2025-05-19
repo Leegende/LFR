@@ -57,8 +57,8 @@ sub_unit_categories = {
 	category_artillery_line
 	#################################
 	category_motorised
-	category_mechanized
-	category_amphibious_mechanized
+	category_mechanised
+	category_amphibious_mechanised
 	#################################
 	category_red_guard
 	category_ss

@@ -1038,18 +1038,18 @@ sub_units = {
 			defence = -2
 		}
 	}
-	mechanized_artillery = {
-		sprite = mechanized
+	mechanised_artillery = {
+		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		affects_speed = yes
 		active = yes
 		type = {
-			mechanized
+			mechanised
 		}
 		group = mobile
 		categories = {
-			category_mechanized
+			category_mechanised
 			category_artillery
 		}
 		combat_width = 2
@@ -1108,20 +1108,20 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-	mechanized_amphibious_artillery = {
-		sprite = mechanized
+	mechanised_amphibious_artillery = {
+		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		affects_speed = yes
 		active = yes
 		type = {
-			mechanized
+			mechanised
 			artillery
 			amphibious
 		}
 		group = mobile
 		categories = {
-			category_amphibious_mechanized
+			category_amphibious_mechanised
 			category_artillery
 		}
 		combat_width = 2
@@ -1180,14 +1180,14 @@ sub_units = {
 			attack = -0.2
 		}
 	}
-	motorized_rocket_artillery = {
-		sprite = mechanized
+	motorised_rocket_artillery = {
+		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		affects_speed = yes
 		active = yes
 		type = {
-			mechanized
+			mechanised
 			artillery
 		}
 		group = support

@@ -12,18 +12,6 @@ sub_units = {
 		categories = {
 			category_miscellaneous_support_company
 		}
-		combat_width = 0
-		max_strength = 40
-		max_organisation = 10
-		default_morale = 0.2
-		manpower = 1000
-		training_time = 120
-		suppression = 1.5
-		weight = 0.4
-		supply_consumption = 0.06
-		soft_attack = 0.1
-		breakthrough = 0.3
-		
 	}
 	commandos = {
 		sprite = infantry
@@ -38,26 +26,6 @@ sub_units = {
 		categories = {
 			category_miscellaneous_support_company
 		}
-		combat_width = 0
-		max_strength = 1
-		max_organisation = 30
-		default_morale = 0.4
-		manpower = 1000
-		training_time = 120
-		suppression = 1
-		weight = 0.5
-		supply_consumption = 0.05
-		breakthrough = 0.3
-		
-		marsh = {
-			attack = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
-		}
 	}
 	sniper = {
 		sprite = infantry
@@ -71,21 +39,6 @@ sub_units = {
 		group = support
 		categories = {
 			category_miscellaneous_support_company
-		}
-		combat_width = 0
-		max_strength = 1
-		max_organisation = 30
-		default_morale = 0.4
-		manpower = 1000
-		training_time = 120
-		suppression = 1
-		weight = 0.5
-		supply_consumption = 0.05
-		breakthrough = 0.3
-		soft_attack = 0.1
-		
-		forest = {
-			attack = 0.1
 		}
 	}
 }

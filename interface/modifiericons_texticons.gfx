@@ -385,8 +385,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_nato_unit_motorized_artillery_icon_small"
-		texturefile = "gfx/texticons/nato_unit_motorized_artillery_icon_small.dds"
+		name = "GFX_nato_unit_motorised_artillery_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorised_artillery_icon_small.dds"
 		legacy_lazy_load = no
 	}		
 	
@@ -403,8 +403,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_nato_unit_mechanized_icon_small"
-		texturefile = "gfx/texticons/nato_unit_mechanized_icon_small.dds"
+		name = "GFX_nato_unit_mechanised_icon_small"
+		texturefile = "gfx/texticons/nato_unit_mechanised_icon_small.dds"
 		legacy_lazy_load = no
 	}	
 	
@@ -415,8 +415,8 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GFX_nato_unit_motorized_icon_small"
-		texturefile = "gfx/texticons/nato_unit_motorized_icon_small.dds"
+		name = "GFX_nato_unit_motorised_icon_small"
+		texturefile = "gfx/texticons/nato_unit_motorised_icon_small.dds"
 		legacy_lazy_load = no
 	}		
 	
@@ -505,8 +505,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_unit_motorized_rocket_brigade_icon_small"
-		texturefile = "gfx/texticons/unit_motorized_artillery_icon_small.dds"
+		name = "GFX_unit_motorised_rocket_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_motorised_artillery_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
@@ -568,15 +568,15 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_unit_mechanized_icon_small"
-		texturefile = "gfx/texticons/unit_mechanized_icon_small.dds"
+		name = "GFX_unit_mechanised_icon_small"
+		texturefile = "gfx/texticons/unit_mechanised_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
 	
 	spriteType = {
-		name = "GFX_unit_motorized_icon_small"
-		texturefile = "gfx/texticons/unit_motorized_icon_small.dds"
+		name = "GFX_unit_motorised_icon_small"
+		texturefile = "gfx/texticons/unit_motorised_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}		
@@ -761,8 +761,8 @@ spriteTypes = {
 		noOfFrames = 2		
 	}
 	spriteType = {
-		name = "GFX_unit_amphibious_mechanized_icon_small"
-		texturefile = "gfx/texticons/unit_amphibious_mechanized_icon_small.dds"
+		name = "GFX_unit_amphibious_mechanised_icon_small"
+		texturefile = "gfx/texticons/unit_amphibious_mechanised_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
@@ -1149,7 +1149,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_unit_mot_recon_icon_small"
-		texturefile = "gfx/texticons/support_motorized_recon.dds"
+		texturefile = "gfx/texticons/support_motorised_recon.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
@@ -1335,7 +1335,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_motorized_texticon"
+		name = "GFX_motorised_texticon"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_5.dds"
 		legacy_lazy_load = no
 	}

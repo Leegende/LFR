@@ -24,7 +24,7 @@ sub_units = {
 		recon = 1
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
 		}
 		maximum_speed = 2
@@ -58,7 +58,7 @@ sub_units = {
 		}
 		same_support_type = recon
 	}
-	motorized_recon = {
+	motorised_recon = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -83,11 +83,11 @@ sub_units = {
 		recon = 2
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
-		transport = motorized_equipment
+		transport = motorised_equipment
 	
 		forest = {
 			movement = 0.06
@@ -143,9 +143,9 @@ sub_units = {
 		recon = 3
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 	
 		forest = {
@@ -206,9 +206,9 @@ sub_units = {
 		recon = 3
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 			light_tank_chassis
 		}
 	
@@ -268,9 +268,9 @@ sub_units = {
 		recon = 3
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 			light_tank_amphibious_chassis
 		}
 		
@@ -331,7 +331,7 @@ sub_units = {
 		can_be_parachuted = yes
 		maximum_speed = 0.6
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
 		}
 		
@@ -355,7 +355,7 @@ sub_units = {
 		}
 		same_support_type = recon
 	}
-	mechanized_recon = {
+	mechanised_recon = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -380,12 +380,12 @@ sub_units = {
 		recon = 2
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
-			mechanized_utility_equipment
+			motorised_equipment
+			mechanised_utility_equipment
 		}
-		transport = mechanized_utility_equipment
+		transport = mechanised_utility_equipment
 
 		forest = {
 			movement = 0.07
@@ -416,7 +416,7 @@ sub_units = {
 		}
 		same_support_type = recon
 	}
-	mechanized_amphibious_recon = {
+	mechanised_amphibious_recon = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -441,12 +441,12 @@ sub_units = {
 		recon = 2
 		can_be_parachuted = yes
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
-			motorized_equipment
-			mechanized_utility_equipment
+			motorised_equipment
+			mechanised_utility_equipment
 		}
-		transport = mechanized_utility_equipment
+		transport = mechanised_utility_equipment
 		
 		forest = {
 			movement = 0.07
@@ -504,10 +504,10 @@ sub_units = {
 		recon = 2
 		can_be_parachuted = no
 		essential = {
-			infantry_equipment
+			infantry_archetype
 			support_equipment
 		}
-		transport = motorized_equipment
+		transport = motorised_equipment
 		forest = {
 			movement = 0.15
 		}

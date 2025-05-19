@@ -25,7 +25,7 @@ sub_units = {
 		initiative = 0.2
 		essential = {
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 		same_support_type = signal_company
 	}

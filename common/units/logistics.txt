@@ -27,7 +27,7 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 		same_support_type = logistics_company
 	}
@@ -87,7 +87,7 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0
 		same_support_type = logistics_company
 	}
-	motorized_logistics_company = {
+	motorised_logistics_company = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -116,11 +116,11 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 		same_support_type = logistics_company
 	}
-	mechanized_logistics_company = {
+	mechanised_logistics_company = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -148,7 +148,7 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 		same_support_type = logistics_company
 	}
@@ -180,7 +180,7 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0
 		essential = {
 			support_equipment
-			motorized_equipment
+			motorised_equipment
 		}
 		same_support_type = logistics_company
 	}

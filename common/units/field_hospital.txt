@@ -27,7 +27,7 @@ sub_units = {
 		
 		same_support_type = field_hospital
 	}
-	mechanized_field_hospital = {
+	mechanised_field_hospital = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
@@ -58,7 +58,7 @@ sub_units = {
 		breakthrough = -1
 		defense = -1
 		essential = {
-			mechanized_utility_equipment
+			mechanised_utility_equipment
 		}
 		
 		same_support_type = field_hospital

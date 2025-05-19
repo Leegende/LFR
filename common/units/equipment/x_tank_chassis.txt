@@ -1,6 +1,6 @@
 duplicate_archetypes = {
-	mechanized_aa_equipment = {
-		archetype = mechanized_equipment
+	mechanised_aa_equipment = {
+		archetype = mechanised_archetype
 		type = {
 			armor
 			anti_air
@@ -14,8 +14,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	mechanized_spg_equipment = {
-		archetype = mechanized_equipment
+	mechanised_spg_equipment = {
+		archetype = mechanised_archetype
 		type = {
 			armor
 			artillery
@@ -29,8 +29,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	mechanized_td_equipment = {
-		archetype = mechanized_equipment
+	mechanised_td_equipment = {
+		archetype = mechanised_archetype
 		type = {
 			armor
 			anti_tank
@@ -44,8 +44,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	mechanized_utility_equipment = {
-		archetype = mechanized_equipment
+	mechanised_utility_equipment = {
+		archetype = mechanised_archetype
 		type = {
 			armor
 			rocket
@@ -59,8 +59,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	mechanized_flame_equipment = {
-		archetype = mechanized_equipment
+	mechanised_flame_equipment = {
+		archetype = mechanised_archetype
 		type = {
 			armor
 			flame
@@ -74,8 +74,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	amphibious_mechanized_aa_equipment = {
-		archetype = amphibious_mechanized_equipment
+	amphibious_mechanised_aa_equipment = {
+		archetype = amtrac_equipment
 		type = {
 			armor
 			anti_air
@@ -89,8 +89,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	amphibious_mechanized_spg_equipment = {
-		archetype = amphibious_mechanized_equipment
+	amphibious_mechanised_spg_equipment = {
+		archetype = amtrac_equipment
 		type = {
 			armor
 			artillery
@@ -104,8 +104,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	amphibious_mechanized_td_equipment = {
-		archetype = amphibious_mechanized_equipment
+	amphibious_mechanised_td_equipment = {
+		archetype = amtrac_equipment
 		type = {
 			armor
 			anti_tank
@@ -119,8 +119,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	amphibious_mechanized_utility_equipment = {
-		archetype = amphibious_mechanized_equipment
+	amphibious_mechanised_utility_equipment = {
+		archetype = amtrac_equipment
 		type = {
 			armor
 			rocket
@@ -134,8 +134,8 @@ duplicate_archetypes = {
 			}
 		}
 	}
-	amphibious_mechanized_flame_equipment = {
-		archetype = amphibious_mechanized_equipment
+	amphibious_mechanised_flame_equipment = {
+		archetype = amtrac_equipment
 		type = {
 			armor
 			flame

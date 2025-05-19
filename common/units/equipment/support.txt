@@ -7,7 +7,7 @@ equipments = {
 		can_license = no
 		type = {
 			infantry
-			motorized
+			motorised
 			support
 		}
 		group_by = archetype

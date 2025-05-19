@@ -1,13 +1,13 @@
 sub_units = {
 	bus = {
-		sprite = motorized
+		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
 		active = no
 		affects_speed = no
 		can_be_parachuted = yes
 		type = {
-			motorized
+			motorised
 		}
 		group = mobile
 	}

@@ -114,8 +114,8 @@ script_enum_equipment_category = {
 	floating_harbor
 	railway_gun
 	armor
-	motorized
-	mechanized
+	motorised
+	Mechanised
 	infantry
 	capital_ship
 	screen_ship
@@ -159,8 +159,8 @@ script_enum_equipment_bonus_type = {
 	anti_air
 	anti_tank
 	rocket
-	mechanized
-	motorized
+	Mechanised
+	motorised
 	capital_ship
 	submarine
 	carrier
@@ -177,34 +177,34 @@ script_enum_equipment_bonus_type = {
 	air_transport
 	missile
 	suicide
-	infantry_equipment
+	infantry_archetype
 	artillery_equipment
-	anti_tank_equipment
+	anti_tank_archetype
 	scout_plane
 	train
 	floating_harbor
 	railway_gun
-	anti_air_equipment
+	anti_air_archetype
 	anti_air_equipment_1
-	pack_anti_air_equipment
+	pack_anti_air_archetype
 	pack_anti_air_equipment_1
-	heavy_anti_air_equipment
+	heavy_anti_air_archetype
 	heavy_anti_air_equipment_1
 	anti_tank_equipment_1
 	anti_tank_equipment_2
 	anti_tank_equipment_3
-	pack_anti_tank_equipment
+	pack_anti_tank_archetype
 	pack_anti_tank_equipment_1
 	pack_anti_tank_equipment_2
 	pack_anti_tank_equipment_3
-	heavy_anti_tank_equipment
+	heavy_anti_tank_archetype
 	heavy_anti_tank_equipment_1
 	heavy_anti_tank_equipment_2
 	heavy_anti_tank_equipment_3
-	armored_car_equipment
+	armored_car_archetype
 	gw_armored_car_equipment
-	armored_car_equipment_1
 	armored_car_equipment_2
+	armored_car_equipment_3
 	armored_car_at_equipment
 	pack_artillery_equipment
 	pack_artillery_equipment_1
@@ -217,27 +217,27 @@ script_enum_equipment_bonus_type = {
 	artillery_equipment_1
 	artillery_equipment_2
 	artillery_equipment_3
-	motorized_rocket_equipment
-	motorized_rocket_equipment_1
+	motorised_rocket_equipment
+	motorised_rocket_equipment_1
 	convoy_1
-	floating_harbor_equipment
+	floating_harbor_archetype
 	floating_harbor_equipment_1
 	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2
 	infantry_equipment_3
-	mechanized_equipment
-	mechanized_equipment_0
-	mechanized_equipment_1
-	mechanized_equipment_2
-	mechanized_equipment_3
-	amphibious_mechanized_equipment
-	amphibious_mechanized_equipment_0
-	amphibious_mechanized_equipment_1
-	amphibious_mechanized_equipment_2
-	amphibious_mechanized_equipment_3
-	motorized_equipment
-	motorized_equipment_1
+	mechanised_archetype
+	mechanised_equipment_0
+	mechanised_equipment_1
+	mechanised_equipment_2
+	mechanised_equipment_3
+	amtrac_equipment
+	amtrac_equipment_0
+	amtrac_equipment_1
+	amtrac_equipment_2
+	amtrac_equipment_3
+	motorised_equipment
+	motorised_equipment_1
 	railway_gun_equipment
 	railway_gun_equipment_1
 	armored_support_vehicle
@@ -294,16 +294,16 @@ script_enum_equipment_bonus_type = {
 	strat_bomber_equipment_1
 	strat_bomber_equipment_2
 	strat_bomber_equipment_3
-	mechanized_aa_equipment
-	mechanized_spg_equipment
-	mechanized_td_equipment
-	mechanized_utility_equipment
-	mechanized_flame_equipment
-	amphibious_mechanized_aa_equipment
-	amphibious_mechanized_spg_equipment
-	amphibious_mechanized_td_equipment
-	amphibious_mechanized_utility_equipment
-	amphibious_mechanized_flame_equipment
+	mechanised_aa_equipment
+	mechanised_spg_equipment
+	mechanised_td_equipment
+	mechanised_utility_equipment
+	mechanised_flame_equipment
+	amphibious_mechanised_aa_equipment
+	amphibious_mechanised_spg_equipment
+	amphibious_mechanised_td_equipment
+	amphibious_mechanised_utility_equipment
+	amphibious_mechanised_flame_equipment
 	light_tank_aa_chassis
 	light_tank_artillery_chassis
 	light_tank_destroyer_chassis
@@ -339,46 +339,46 @@ script_enum_equipment_bonus_type = {
 	modern_tank_amphibious_artillery_chassis
 	modern_tank_amphibious_destroyer_chassis
 	modern_tank_amphibious_flame_chassis
-	mechanized_aa_equipment_0
-	mechanized_aa_equipment_1
-	mechanized_aa_equipment_2
-	mechanized_aa_equipment_3
-	mechanized_spg_equipment_0
-	mechanized_spg_equipment_1
-	mechanized_spg_equipment_2
-	mechanized_spg_equipment_3
-	mechanized_td_equipment_0
-	mechanized_td_equipment_1
-	mechanized_td_equipment_2
-	mechanized_td_equipment_3
-	mechanized_utility_equipment_0
-	mechanized_utility_equipment_1
-	mechanized_utility_equipment_2
-	mechanized_utility_equipment_3
-	mechanized_flame_equipment_0
-	mechanized_flame_equipment_1
-	mechanized_flame_equipment_2
-	mechanized_flame_equipment_3
-	amphibious_mechanized_aa_equipment_0
-	amphibious_mechanized_aa_equipment_1
-	amphibious_mechanized_aa_equipment_2
-	amphibious_mechanized_aa_equipment_3
-	amphibious_mechanized_spg_equipment_0
-	amphibious_mechanized_spg_equipment_1
-	amphibious_mechanized_spg_equipment_2
-	amphibious_mechanized_spg_equipment_3
-	amphibious_mechanized_td_equipment_0
-	amphibious_mechanized_td_equipment_1
-	amphibious_mechanized_td_equipment_2
-	amphibious_mechanized_td_equipment_3
-	amphibious_mechanized_utility_equipment_0
-	amphibious_mechanized_utility_equipment_1
-	amphibious_mechanized_utility_equipment_2
-	amphibious_mechanized_utility_equipment_3
-	amphibious_mechanized_flame_equipment_0
-	amphibious_mechanized_flame_equipment_1
-	amphibious_mechanized_flame_equipment_2
-	amphibious_mechanized_flame_equipment_3
+	mechanised_aa_equipment_0
+	mechanised_aa_equipment_1
+	mechanised_aa_equipment_2
+	mechanised_aa_equipment_3
+	mechanised_spg_equipment_0
+	mechanised_spg_equipment_1
+	mechanised_spg_equipment_2
+	mechanised_spg_equipment_3
+	mechanised_td_equipment_0
+	mechanised_td_equipment_1
+	mechanised_td_equipment_2
+	mechanised_td_equipment_3
+	mechanised_utility_equipment_0
+	mechanised_utility_equipment_1
+	mechanised_utility_equipment_2
+	mechanised_utility_equipment_3
+	mechanised_flame_equipment_0
+	mechanised_flame_equipment_1
+	mechanised_flame_equipment_2
+	mechanised_flame_equipment_3
+	amphibious_mechanised_aa_equipment_0
+	amphibious_mechanised_aa_equipment_1
+	amphibious_mechanised_aa_equipment_2
+	amphibious_mechanised_aa_equipment_3
+	amphibious_mechanised_spg_equipment_0
+	amphibious_mechanised_spg_equipment_1
+	amphibious_mechanised_spg_equipment_2
+	amphibious_mechanised_spg_equipment_3
+	amphibious_mechanised_td_equipment_0
+	amphibious_mechanised_td_equipment_1
+	amphibious_mechanised_td_equipment_2
+	amphibious_mechanised_td_equipment_3
+	amphibious_mechanised_utility_equipment_0
+	amphibious_mechanised_utility_equipment_1
+	amphibious_mechanised_utility_equipment_2
+	amphibious_mechanised_utility_equipment_3
+	amphibious_mechanised_flame_equipment_0
+	amphibious_mechanised_flame_equipment_1
+	amphibious_mechanised_flame_equipment_2
+	amphibious_mechanised_flame_equipment_3
 	light_tank_aa_chassis_1
 	light_tank_aa_chassis_2
 	light_tank_aa_chassis_3
@@ -480,4 +480,6 @@ script_enum_equipment_bonus_type = {
 	super_heavy_artillery_equipment_1
 	motorbike_equipment
 	motorbike_equipment_1
+    motorised_anti_air_archetype
+	motorised_anti_air_equipment_1
 }

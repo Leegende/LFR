@@ -1801,8 +1801,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_generic_train.dds"
 	}
 	spriteType = {
-		name = "GFX_decision_generic_motorized"
-		texturefile = "gfx/interface/decisions/decision_generic_motorized.dds"
+		name = "GFX_decision_generic_motorised"
+		texturefile = "gfx/interface/decisions/decision_generic_motorised.dds"
 	}
 	### DEN ####
 	spriteType = {
