@@ -14,9 +14,6 @@ sub_units = {
 			category_artillery
 			category_pack
 		}
-		need = {
-			pack_artillery_equipment = 20
-		}
 		combat_width = 2
 		manpower = 500
 		max_strength = 1
@@ -83,9 +80,6 @@ sub_units = {
 			category_heavy
 			category_artillery_line
 		}
-		need = {
-			heavy_artillery_equipment = 20
-		}
 		combat_width = 1
 		manpower = 500
 		max_strength = 1
@@ -139,6 +133,79 @@ sub_units = {
 			attack = 0.1
 		}
 	}
+	
+	super_heavy_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = infantry
+		categories = {
+			category_artillery
+			category_artillery_line
+		}
+		combat_width = 1
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.3
+		supply_consumption_factor = 0.06
+		maximum_speed = -0.5
+		forest = {
+			attack = -0.125
+			movement = -0.1
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+			attack = -0.125
+		}
+		rock = {
+			movement = -0.2
+			attack = -0.125
+		}
+		jungle = {
+			attack = -0.175
+			movement = -0.3
+		}
+		marsh = {
+			attack = -0.125
+			movement = -0.3
+		}
+		fort = {
+			attack = 0.7
+		}
+		river = {
+			attack = -0.125
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.8
+		}
+		urban = {
+			attack = 0.4
+		}
+		dense_urban = {
+			attack = 0.625
+		}
+		town = {
+			attack = 0.125
+		}
+	}
+	
+	
+	
+	
+	
 	artillery = {
 		sprite = artillery
 		map_icon_category = infantry
@@ -153,9 +220,6 @@ sub_units = {
 			category_artillery
 			category_medium
 			category_artillery_line
-		}
-		need = {
-			artillery_equipment = 20
 		}
 		combat_width = 1
 		manpower = 500
@@ -224,9 +288,6 @@ sub_units = {
 			category_red_guard
 			category_artillery_line
 		}
-		need = {
-			artillery_equipment = 20
-		}
 		combat_width = 1
 		manpower = 500
 		max_strength = 1.5
@@ -294,9 +355,6 @@ sub_units = {
 			category_armor
 			category_light_tank
 			category_armor_artillery
-		}
-		need = {
-			light_tank_artillery_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -386,9 +444,6 @@ sub_units = {
 			category_medium_tank
 			category_armor_artillery
 		}
-		need = {
-			medium_tank_artillery_chassis = 20
-		}
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -476,9 +531,6 @@ sub_units = {
 			category_heavy_tank
 			category_artillery
 			category_armor_artillery
-		}
-		need = {
-			heavy_tank_artillery_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -570,9 +622,6 @@ sub_units = {
 			category_artillery
 			category_armor_artillery
 		}
-		need = {
-			modern_tank_artillery_chassis = 20
-		}
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -658,9 +707,6 @@ sub_units = {
 			category_light_tank
 			category_artillery
 			category_amphibious_armor_artillery
-		}
-		need = {
-			light_tank_artillery_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -749,9 +795,6 @@ sub_units = {
 			category_medium_tank
 			category_amphibious_armor_artillery
 		}
-		need = {
-			medium_tank_artillery_chassis = 20
-		}
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -837,9 +880,6 @@ sub_units = {
 			category_artillery
 			category_heavy_tank
 			category_amphibious_armor_artillery
-		}
-		need = {
-			heavy_tank_artillery_chassis = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -929,9 +969,6 @@ sub_units = {
 			category_modern_tank
 			category_amphibious_armor_artillery
 		}
-		need = {
-			modern_tank_artillery_chassis = 20
-		}
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -1014,10 +1051,6 @@ sub_units = {
 		categories = {
 			category_mechanized
 			category_artillery
-			category_artillery
-		}
-		need = {
-			mechanized_spg_equipment = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -1090,10 +1123,6 @@ sub_units = {
 		categories = {
 			category_amphibious_mechanized
 			category_artillery
-			category_artillery
-		}
-		need = {
-			amphibious_mechanized_spg_equipment = 20
 		}
 		combat_width = 2
 		manpower = 500
@@ -1165,9 +1194,6 @@ sub_units = {
 		categories = {
 			category_motorised
 			category_artillery
-		}
-		need = {
-			motorized_rocket_equipment = 20
 		}
 		manpower = 500
 		max_organisation = 20

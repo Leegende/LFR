@@ -521,247 +521,246 @@
  field_hospital: "Field Hospital"
  logistic_company: "Logistic Company"
  signal_company: "Signal Company"
- artillery_equipment_1: Artillery Equipment I
-land_cruiser: Land Cruiser
-emplacement_gun_ammo: Emplacement Gun Ammo
-ballistic_missile: Ballistic Missile
-nuclear_missile: Nuclear Missile
-sam_missile: Sam Missile
-infantry: Infantry
-artillery: Artillery
-flame: Flame
-missile_launcher: Missile Launcher
-convoy: Convoy
-amphibious: Amphibious
-armor: Armor
-anti_air: Anti Air
-anti_tank: Anti Tank
-rocket: Rocket
-mechanized: Mechanized
-motorized: Motorized
-capital_ship: Capital Ship
-submarine: Submarine
-carrier: Carrier
-support: Support
-maritime_patrol_plane: Maritime Patrol Plane
-fighter: Fighter
-cas: Cas
-naval_bomber: Naval Bomber
-interceptor: Interceptor
-tactical_bomber: Tactical Bomber
-strategic_bomber: Strategic Bomber
-screen_ship: Screen Ship
-heavy_fighter: Heavy Fighter
-air_transport: Air Transport
-missile: Missile
-suicide: Suicide
-infantry_equipment: Infantry Equipment
-artillery_equipment: Artillery Equipment
-anti_tank_equipment: Anti Tank Equipment
-scout_plane: Scout Plane
-train: Train
-floating_harbor: Floating Harbor
-railway_gun: Railway Gun
-anti_air_equipment: Anti Air Equipment
-anti_air_equipment_1: Anti Air Equipment I
-pack_anti_air_equipment: Pack Anti Air Equipment
-pack_anti_air_equipment_1: Pack Anti Air Equipment I
-heavy_anti_air_equipment: Heavy Anti Air Equipment
-heavy_anti_air_equipment_1: Heavy Anti Air Equipment I
-anti_tank_equipment_1: Anti Tank Equipment I
-anti_tank_equipment_2: Anti Tank Equipment II
-anti_tank_equipment_3: Anti Tank Equipment III
-pack_anti_tank_equipment: Pack Anti Tank Equipment
-pack_anti_tank_equipment_1: Pack Anti Tank Equipment I
-pack_anti_tank_equipment_2: Pack Anti Tank Equipment II
-pack_anti_tank_equipment_3: Pack Anti Tank Equipment III
-heavy_anti_tank_equipment: Heavy Anti Tank Equipment
-heavy_anti_tank_equipment_1: Heavy Anti Tank Equipment I
-heavy_anti_tank_equipment_2: Heavy Anti Tank Equipment II
-heavy_anti_tank_equipment_3: Heavy Anti Tank Equipment III
-armored_car_equipment: Armored Car Equipment
-gw_armored_car_equipment: Gw Armored Car Equipment
-armored_car_equipment_1: Armored Car Equipment I
-armored_car_equipment_2: Armored Car Equipment II
-armored_car_at_equipment: Armored Car At Equipment
-pack_artillery_equipment: Pack Artillery Equipment
-pack_artillery_equipment_1: Pack Artillery Equipment I
-pack_artillery_equipment_2: Pack Artillery Equipment II
-pack_artillery_equipment_3: Pack Artillery Equipment III
-heavy_artillery_equipment: Heavy Artillery Equipment
-heavy_artillery_equipment_1: Heavy Artillery Equipment I
-heavy_artillery_equipment_2: Heavy Artillery Equipment II
-heavy_artillery_equipment_3: Heavy Artillery Equipment III
-artillery_equipment_1: Artillery Equipment I
-artillery_equipment_2: Artillery Equipment II
-artillery_equipment_3: Artillery Equipment III
-motorized_rocket_equipment: Motorized Rocket Equipment
-motorized_rocket_equipment_1: Motorized Rocket Equipment I
-convoy_1: Convoy I
-floating_harbor_equipment: Floating Harbor Equipment
-floating_harbor_equipment_1: Floating Harbor Equipment I
-infantry_equipment_0: Infantry Equipment 
-infantry_equipment_1: Infantry Equipment I
-infantry_equipment_2: Infantry Equipment II
-infantry_equipment_3: Infantry Equipment III
-mechanized_equipment: Mechanized Equipment
-mechanized_equipment_0: Mechanized Equipment 
-mechanized_equipment_1: Mechanized Equipment I
-mechanized_equipment_2: Mechanized Equipment II
-mechanized_equipment_3: Mechanized Equipment III
-amphibious_mechanized_equipment: Amphibious Mechanized Equipment
-amphibious_mechanized_equipment_0: Amphibious Mechanized Equipment I
-amphibious_mechanized_equipment_1: Amphibious Mechanized Equipment I
-amphibious_mechanized_equipment_2: Amphibious Mechanized Equipment II
-amphibious_mechanized_equipment_3: Amphibious Mechanized Equipment III
-motorized_equipment: Motorized Equipment
-motorized_equipment_1: Motorized Equipment I
-railway_gun_equipment: Railway Gun Equipment
-railway_gun_equipment_1: Railway Gun Equipment I
-armored_support_vehicle: Armored Support Vehicle
-armored_support_vehicle_1: Armored Support Vehicle I
-support_equipment: Support Equipment
-support_equipment_1: Support Equipment I
-light_tank_chassis: Light Tank Chassis
-light_tank_chassis_1: Light Tank Chassis I
-light_tank_chassis_2: Light Tank Chassis II
-light_tank_chassis_3: Light Tank Chassis III
-medium_tank_chassis: Medium Tank Chassis
-medium_tank_chassis_1: Medium Tank Chassis I
-medium_tank_chassis_2: Medium Tank Chassis II
-medium_tank_chassis_3: Medium Tank Chassis III
-heavy_tank_chassis: Heavy Tank Chassis
-heavy_tank_chassis_1: Heavy Tank Chassis I
-heavy_tank_chassis_2: Heavy Tank Chassis II
-heavy_tank_chassis_3: Heavy Tank Chassis III
-modern_tank_chassis: Modern Tank Chassis
-modern_tank_chassis_1: Modern Tank Chassis I
-light_tank_amphibious_chassis: Light Tank Amphibious Chassis
-light_tank_amphibious_chassis_1: Light Tank Amphibious Chassis I
-light_tank_amphibious_chassis_2: Light Tank Amphibious Chassis II
-light_tank_amphibious_chassis_3: Light Tank Amphibious Chassis III
-medium_tank_amphibious_chassis: Medium Tank Amphibious Chassis
-medium_tank_amphibious_chassis_1: Medium Tank Amphibious Chassis I
-medium_tank_amphibious_chassis_2: Medium Tank Amphibious Chassis II
-medium_tank_amphibious_chassis_3: Medium Tank Amphibious Chassis III
-heavy_tank_amphibious_chassis: Heavy Tank Amphibious Chassis
-heavy_tank_amphibious_chassis_1: Heavy Tank Amphibious Chassis I
-heavy_tank_amphibious_chassis_2: Heavy Tank Amphibious Chassis II
-heavy_tank_amphibious_chassis_3: Heavy Tank Amphibious Chassis III
-modern_tank_amphibious_chassis: Modern Tank Amphibious Chassis
-modern_tank_amphibious_chassis_1: Modern Tank Amphibious Chassis I
-train_equipment: Train Equipment
-train_equipment_1: Train Equipment I
-fighter_equipment_1: Fighter Equipment I
-fighter_equipment_2: Fighter Equipment II
-fighter_equipment_3: Fighter Equipment III
-jet_fighter_equipment_1: Jet Fighter Equipment I
-CAS_equipment_1: Cas Equipment I
-CAS_equipment_2: Cas Equipment II
-CAS_equipment_3: Cas Equipment III
-tac_bomber_equipment_1: Tac Bomber Equipment I
-tac_bomber_equipment_2: Tac Bomber Equipment II
-tac_bomber_equipment_3: Tac Bomber Equipment III
-jet_tac_bomber_equipment_1: Jet Tac Bomber Equipment I
-heavy_fighter_equipment_1: Heavy Fighter Equipment I
-heavy_fighter_equipment_2: Heavy Fighter Equipment II
-heavy_fighter_equipment_3: Heavy Fighter Equipment III
-scout_plane_equipment_1: Scout Plane Equipment I
-scout_plane_equipment_2: Scout Plane Equipment II
-scout_plane_equipment_3: Scout Plane Equipment III
-strat_bomber_equipment_1: Strat Bomber Equipment I
-strat_bomber_equipment_2: Strat Bomber Equipment II
-strat_bomber_equipment_3: Strat Bomber Equipment III
-mechanized_aa_equipment: Mechanized Anti-Air Equipment
-mechanized_spg_equipment: Mechanized Self-propelled Gun Equipment
-mechanized_td_equipment: Mechanized Tank-Destroyer Equipment
-mechanized_utility_equipment: Mechanized Utility Equipment
-mechanized_flame_equipment: Mechanized Flame Equipment
-amphibious_mechanized_aa_equipment: Amphibious Mechanized Anti-Air Equipment
-amphibious_mechanized_spg_equipment: Amphibious Mechanized Self-propelled Gun Equipment
-amphibious_mechanized_td_equipment: Amphibious Mechanized Tank-Destroyer Equipment
-amphibious_mechanized_utility_equipment: Amphibious Mechanized Utility Equipment
-amphibious_mechanized_flame_equipment: Amphibious Mechanized Flame Equipment
-light_tank_aa_chassis: Light Tank Anti-Air Chassis
-light_tank_artillery_chassis: Light Tank Artillery Chassis
-light_tank_destroyer_chassis: Light Tank Destroyer Chassis
-light_tank_flame_chassis: Light Tank Flame Chassis
-medium_tank_aa_chassis: Medium Tank Anti-Air Chassis
-medium_tank_artillery_chassis: Medium Tank Artillery Chassis
-medium_tank_destroyer_chassis: Medium Tank Destroyer Chassis
-medium_tank_flame_chassis: Medium Tank Flame Chassis
-heavy_tank_aa_chassis: Heavy Tank Anti-Air Chassis
-heavy_tank_artillery_chassis: Heavy Tank Artillery Chassis
-heavy_tank_destroyer_chassis: Heavy Tank Destroyer Chassis
-heavy_tank_flame_chassis: Heavy Tank Flame Chassis
-modern_tank_aa_chassis: Modern Tank Anti-Air Chassis
-modern_tank_artillery_chassis: Modern Tank Artillery Chassis
-modern_tank_destroyer_chassis: Modern Tank Destroyer Chassis
-modern_tank_flame_chassis: Modern Tank Flame Chassis
-light_tank_amphibious_aa_chassis: Light Tank Amphibious Anti-Air Chassis
-light_tank_amphibious_artillery_chassis: Light Tank Amphibious Artillery Chassis
-light_tank_amphibious_destroyer_chassis: Light Tank Amphibious Destroyer Chassis
-light_tank_amphibious_amphibious_chassis: Light Tank Amphibious Amphibious Chassis
-light_tank_amphibious_flame_chassis: Light Tank Amphibious Flame Chassis
-medium_tank_amphibious_aa_chassis: Medium Tank Amphibious Anti-Air Chassis
-medium_tank_amphibious_artillery_chassis: Medium Tank Amphibious Artillery Chassis
-medium_tank_amphibious_destroyer_chassis: Medium Tank Amphibious Destroyer Chassis
-medium_tank_amphibious_amphibious_chassis: Medium Tank Amphibious Amphibious Chassis
-medium_tank_amphibious_flame_chassis: Medium Tank Amphibious Flame Chassis
-heavy_tank_amphibious_aa_chassis: Heavy Tank Amphibious Anti-Air Chassis
-heavy_tank_amphibious_artillery_chassis: Heavy Tank Amphibious Artillery Chassis
-heavy_tank_amphibious_destroyer_chassis: Heavy Tank Amphibious Destroyer Chassis
-heavy_tank_amphibious_amphibious_chassis: Heavy Tank Amphibious Amphibious Chassis
-heavy_tank_amphibious_flame_chassis: Heavy Tank Amphibious Flame Chassis
-modern_tank_amphibious_aa_chassis: Modern Tank Amphibious Anti-Air Chassis
-modern_tank_amphibious_artillery_chassis: Modern Tank Amphibious Artillery Chassis
-modern_tank_amphibious_destroyer_chassis: Modern Tank Amphibious Destroyer Chassis
-modern_tank_amphibious_flame_chassis: Modern Tank Amphibious Flame Chassis
-mechanized_aa_equipment_0: Mechanized Anti-Air Equipment 
-mechanized_aa_equipment_1: Mechanized Anti-Air Equipment I
-mechanized_aa_equipment_2: Mechanized Anti-Air Equipment II
-mechanized_aa_equipment_3: Mechanized Anti-Air Equipment III
-mechanized_spg_equipment_0: Mechanized Self-propelled Gun Equipment 
-mechanized_spg_equipment_1: Mechanized Self-propelled Gun Equipment I
-mechanized_spg_equipment_2: Mechanized Self-propelled Gun Equipment II
-mechanized_spg_equipment_3: Mechanized Self-propelled Gun Equipment III
-mechanized_td_equipment_0: Mechanized Tank-Destroyer Equipment 
-mechanized_td_equipment_1: Mechanized Tank-Destroyer Equipment I
-mechanized_td_equipment_2: Mechanized Tank-Destroyer Equipment II
-mechanized_td_equipment_3: Mechanized Tank-Destroyer Equipment III
-mechanized_utility_equipment_0: Mechanized Utility Equipment 
-mechanized_utility_equipment_1: Mechanized Utility Equipment I
-mechanized_utility_equipment_2: Mechanized Utility Equipment II
-mechanized_utility_equipment_3: Mechanized Utility Equipment III
-mechanized_flame_equipment_0: Mechanized Flame Equipment 
-mechanized_flame_equipment_1: Mechanized Flame Equipment I
-mechanized_flame_equipment_2: Mechanized Flame Equipment II
-mechanized_flame_equipment_3: Mechanized Flame Equipment III
-amphibious_mechanized_aa_equipment_0: Amphibious Mechanized Anti-Air Equipment 
-amphibious_mechanized_aa_equipment_1: Amphibious Mechanized Anti-Air Equipment I
-amphibious_mechanized_aa_equipment_2: Amphibious Mechanized Anti-Air Equipment II
-amphibious_mechanized_aa_equipment_3: Amphibious Mechanized Anti-Air Equipment III
-amphibious_mechanized_spg_equipment_0: Amphibious Mechanized Self-propelled Gun Equipment 
-amphibious_mechanized_spg_equipment_1: Amphibious Mechanized Self-propelled Gun Equipment I
-amphibious_mechanized_spg_equipment_2: Amphibious Mechanized Self-propelled Gun Equipment II
-amphibious_mechanized_spg_equipment_3: Amphibious Mechanized Self-propelled Gun Equipment III
-amphibious_mechanized_td_equipment_0: Amphibious Mechanized Tank-Destroyer Equipment 
-amphibious_mechanized_td_equipment_1: Amphibious Mechanized Tank-Destroyer Equipment I
-amphibious_mechanized_td_equipment_2: Amphibious Mechanized Tank-Destroyer Equipment II
-amphibious_mechanized_td_equipment_3: Amphibious Mechanized Tank-Destroyer Equipment III
-amphibious_mechanized_utility_equipment_0: Amphibious Mechanized Utility Equipment
-amphibious_mechanized_utility_equipment_1: Amphibious Mechanized Utility Equipment I
-amphibious_mechanized_utility_equipment_2: Amphibious Mechanized Utility Equipment II
-amphibious_mechanized_utility_equipment_3: Amphibious Mechanized Utility Equipment III
-amphibious_mechanized_flame_equipment_0: Amphibious Mechanized Flame Equipment 
-amphibious_mechanized_flame_equipment_1: Amphibious Mechanized Flame Equipment I
-amphibious_mechanized_flame_equipment_2: Amphibious Mechanized Flame Equipment II
-amphibious_mechanized_flame_equipment_3: Amphibious Mechanized Flame Equipment III
-fighter_archetype: Fighter Archetype
-jet_fighter_archetype: Jet Fighter Archetype
-cas_archetype: Cas Archetype
-scout_plane_archetype: Scout Plane Archetype
-heavy_fighter_archetype: Heavy Fighter Archetype
-tactical_bomber_archetype: Tactical Bomber Archetype
-jet_tactical_bomber_archetype: Jet Tactical Bomber Archetype
-strategic_bomber_archetype: Strategic Bomber Archetype
+ artillery_equipment_1: "Artillery Equipment I"
+ land_cruiser: "Land Cruiser"
+ emplacement_gun_ammo: "Emplacement Gun Ammo"
+ ballistic_missile: "Ballistic Missile"
+ nuclear_missile: "Nuclear Missile"
+ sam_missile: "Sam Missile"
+ infantry: "Infantry"
+ artillery: "Artillery"
+ flame: "Flame"
+ missile_launcher: "Missile Launcher"
+ convoy: "Convoy"
+ amphibious: "Amphibious"
+ armor: "Armor"
+ anti_air: "Anti Air"
+ anti_tank: "Anti Tank"
+ rocket: "Rocket"
+ mechanized: "Mechanized"
+ motorized: "Motorized"
+ capital_ship: "Capital Ship"
+ submarine: "Submarine"
+ carrier: "Carrier"
+ support: "Support"
+ maritime_patrol_plane: "Maritime Patrol Plane"
+ fighter: "Fighter"
+ cas: "Cas"
+ naval_bomber: "Naval Bomber"
+ interceptor: "Interceptor"
+ tactical_bomber: "Tactical Bomber"
+ strategic_bomber: "Strategic Bomber"
+ screen_ship: "Screen Ship"
+ heavy_fighter: "Heavy Fighter"
+ air_transport: "Air Transport"
+ missile: "Missile"
+ suicide: "Suicide"
+ infantry_equipment: "Infantry Equipment"
+ artillery_equipment: "Artillery Equipment"
+ anti_tank_equipment: "Anti Tank Equipment"
+ scout_plane: "Scout Plane"
+ train: "Train"
+ floating_harbor: "Floating Harbor"
+ railway_gun: "Railway Gun"
+ anti_air_equipment: "Anti Air Equipment"
+ anti_air_equipment_1: "Anti Air Equipment I"
+ pack_anti_air_equipment: "Pack Anti Air Equipment"
+ pack_anti_air_equipment_1: "Pack Anti Air Equipment I"
+ heavy_anti_air_equipment: "Heavy Anti Air Equipment"
+ heavy_anti_air_equipment_1: "Heavy Anti Air Equipment I"
+ anti_tank_equipment_1: "Anti Tank Equipment I"
+ anti_tank_equipment_2: "Anti Tank Equipment II"
+ anti_tank_equipment_3: "Anti Tank Equipment III"
+ pack_anti_tank_equipment: "Pack Anti Tank Equipment"
+ pack_anti_tank_equipment_1: "Pack Anti Tank Equipment I"
+ pack_anti_tank_equipment_2: "Pack Anti Tank Equipment II"
+ pack_anti_tank_equipment_3: "Pack Anti Tank Equipment III"
+ heavy_anti_tank_equipment: "Heavy Anti Tank Equipment"
+ heavy_anti_tank_equipment_1: "Heavy Anti Tank Equipment I"
+ heavy_anti_tank_equipment_2: "Heavy Anti Tank Equipment II"
+ heavy_anti_tank_equipment_3: "Heavy Anti Tank Equipment III"
+ armored_car_equipment: "Armored Car Equipment"
+ gw_armored_car_equipment: "Gw Armored Car Equipment"
+ armored_car_equipment_1: "Armored Car Equipment I"
+ armored_car_equipment_2: "Armored Car Equipment II"
+ armored_car_at_equipment: "Armored Car At Equipment"
+ pack_artillery_equipment: "Pack Artillery Equipment"
+ pack_artillery_equipment_1: "Pack Artillery Equipment I"
+ pack_artillery_equipment_2: "Pack Artillery Equipment II"
+ pack_artillery_equipment_3: "Pack Artillery Equipment III"
+ heavy_artillery_equipment: "Heavy Artillery Equipment"
+ heavy_artillery_equipment_1: "Heavy Artillery Equipment I"
+ heavy_artillery_equipment_2: "Heavy Artillery Equipment II"
+ heavy_artillery_equipment_3: "Heavy Artillery Equipment III"
+ artillery_equipment_2: "Artillery Equipment II"
+ artillery_equipment_3: "Artillery Equipment III"
+ motorized_rocket_equipment: "Motorized Rocket Equipment"
+ motorized_rocket_equipment_1: "Motorized Rocket Equipment I"
+ convoy_1: "Convoy I"
+ floating_harbor_equipment: "Floating Harbor Equipment"
+ floating_harbor_equipment_1: "Floating Harbor Equipment I"
+ infantry_equipment_0: "Infantry Equipment"
+ infantry_equipment_1: "Infantry Equipment I"
+ infantry_equipment_2: "Infantry Equipment II"
+ infantry_equipment_3: "Infantry Equipment III"
+ mechanized_equipment: "Mechanized Equipment"
+ mechanized_equipment_0: "Mechanized Equipment"
+ mechanized_equipment_1: "Mechanized Equipment I"
+ mechanized_equipment_2: "Mechanized Equipment II"
+ mechanized_equipment_3: "Mechanized Equipment III"
+ amphibious_mechanized_equipment: "Amphibious Mechanized Equipment"
+ amphibious_mechanized_equipment_0: "Amphibious Mechanized Equipment I"
+ amphibious_mechanized_equipment_1: "Amphibious Mechanized Equipment I"
+ amphibious_mechanized_equipment_2: "Amphibious Mechanized Equipment II"
+ amphibious_mechanized_equipment_3: "Amphibious Mechanized Equipment III"
+ motorized_equipment: "Motorized Equipment"
+ motorized_equipment_1: "Motorized Equipment I"
+ railway_gun_equipment: "Railway Gun Equipment"
+ railway_gun_equipment_1: "Railway Gun Equipment I"
+ armored_support_vehicle: "Armored Support Vehicle"
+ armored_support_vehicle_1: "Armored Support Vehicle I"
+ support_equipment: "Support Equipment"
+ support_equipment_1: "Support Equipment I"
+ light_tank_chassis: "Light Tank Chassis"
+ light_tank_chassis_1: "Light Tank Chassis I"
+ light_tank_chassis_2: "Light Tank Chassis II"
+ light_tank_chassis_3: "Light Tank Chassis III"
+ medium_tank_chassis: "Medium Tank Chassis"
+ medium_tank_chassis_1: "Medium Tank Chassis I"
+ medium_tank_chassis_2: "Medium Tank Chassis II"
+ medium_tank_chassis_3: "Medium Tank Chassis III"
+ heavy_tank_chassis: "Heavy Tank Chassis"
+ heavy_tank_chassis_1: "Heavy Tank Chassis I"
+ heavy_tank_chassis_2: "Heavy Tank Chassis II"
+ heavy_tank_chassis_3: "Heavy Tank Chassis III"
+ modern_tank_chassis: "Modern Tank Chassis"
+ modern_tank_chassis_1: "Modern Tank Chassis I"
+ light_tank_amphibious_chassis: "Light Tank Amphibious Chassis"
+ light_tank_amphibious_chassis_1: "Light Tank Amphibious Chassis I"
+ light_tank_amphibious_chassis_2: "Light Tank Amphibious Chassis II"
+ light_tank_amphibious_chassis_3: "Light Tank Amphibious Chassis III"
+ medium_tank_amphibious_chassis: "Medium Tank Amphibious Chassis"
+ medium_tank_amphibious_chassis_1: "Medium Tank Amphibious Chassis I"
+ medium_tank_amphibious_chassis_2: "Medium Tank Amphibious Chassis II"
+ medium_tank_amphibious_chassis_3: "Medium Tank Amphibious Chassis III"
+ heavy_tank_amphibious_chassis: "Heavy Tank Amphibious Chassis"
+ heavy_tank_amphibious_chassis_1: "Heavy Tank Amphibious Chassis I"
+ heavy_tank_amphibious_chassis_2: "Heavy Tank Amphibious Chassis II"
+ heavy_tank_amphibious_chassis_3: "Heavy Tank Amphibious Chassis III"
+ modern_tank_amphibious_chassis: "Modern Tank Amphibious Chassis"
+ modern_tank_amphibious_chassis_1: "Modern Tank Amphibious Chassis I"
+ train_equipment: "Train Equipment"
+ train_equipment_1: "Train Equipment I"
+ fighter_equipment_1: "Fighter Equipment I"
+ fighter_equipment_2: "Fighter Equipment II"
+ fighter_equipment_3: "Fighter Equipment III"
+ jet_fighter_equipment_1: "Jet Fighter Equipment I"
+ CAS_equipment_1: "Cas Equipment I"
+ CAS_equipment_2: "Cas Equipment II"
+ CAS_equipment_3: "Cas Equipment III"
+ tac_bomber_equipment_1: "Tac Bomber Equipment I"
+ tac_bomber_equipment_2: "Tac Bomber Equipment II"
+ tac_bomber_equipment_3: "Tac Bomber Equipment III"
+ jet_tac_bomber_equipment_1: "Jet Tac Bomber Equipment I"
+ heavy_fighter_equipment_1: "Heavy Fighter Equipment I"
+ heavy_fighter_equipment_2: "Heavy Fighter Equipment II"
+ heavy_fighter_equipment_3: "Heavy Fighter Equipment III"
+ scout_plane_equipment_1: "Scout Plane Equipment I"
+ scout_plane_equipment_2: "Scout Plane Equipment II"
+ scout_plane_equipment_3: "Scout Plane Equipment III"
+ strat_bomber_equipment_1: "Strat Bomber Equipment I"
+ strat_bomber_equipment_2: "Strat Bomber Equipment II"
+ strat_bomber_equipment_3: "Strat Bomber Equipment III"
+ mechanized_aa_equipment: "Mechanized Anti-Air Equipment"
+ mechanized_spg_equipment: "Mechanized Self-propelled Gun Equipment"
+ mechanized_td_equipment: "Mechanized Tank-Destroyer Equipment"
+ mechanized_utility_equipment: "Mechanized Utility Equipment"
+ mechanized_flame_equipment: "Mechanized Flame Equipment"
+ amphibious_mechanized_aa_equipment: "Amphibious Mechanized Anti-Air Equipment"
+ amphibious_mechanized_spg_equipment: "Amphibious Mechanized Self-propelled Gun Equipment"
+ amphibious_mechanized_td_equipment: "Amphibious Mechanized Tank-Destroyer Equipment"
+ amphibious_mechanized_utility_equipment: "Amphibious Mechanized Utility Equipment"
+ amphibious_mechanized_flame_equipment: "Amphibious Mechanized Flame Equipment"
+ light_tank_aa_chassis: "Light Tank Anti-Air Chassis"
+ light_tank_artillery_chassis: "Light Tank Artillery Chassis"
+ light_tank_destroyer_chassis: "Light Tank Destroyer Chassis"
+ light_tank_flame_chassis: "Light Tank Flame Chassis"
+ medium_tank_aa_chassis: "Medium Tank Anti-Air Chassis"
+ medium_tank_artillery_chassis: "Medium Tank Artillery Chassis"
+ medium_tank_destroyer_chassis: "Medium Tank Destroyer Chassis"
+ medium_tank_flame_chassis: "Medium Tank Flame Chassis"
+ heavy_tank_aa_chassis: "Heavy Tank Anti-Air Chassis"
+ heavy_tank_artillery_chassis: "Heavy Tank Artillery Chassis"
+ heavy_tank_destroyer_chassis: "Heavy Tank Destroyer Chassis"
+ heavy_tank_flame_chassis: "Heavy Tank Flame Chassis"
+ modern_tank_aa_chassis: "Modern Tank Anti-Air Chassis"
+ modern_tank_artillery_chassis: "Modern Tank Artillery Chassis"
+ modern_tank_destroyer_chassis: "Modern Tank Destroyer Chassis"
+ modern_tank_flame_chassis: "Modern Tank Flame Chassis"
+ light_tank_amphibious_aa_chassis: "Light Tank Amphibious Anti-Air Chassis"
+ light_tank_amphibious_artillery_chassis: "Light Tank Amphibious Artillery Chassis"
+ light_tank_amphibious_destroyer_chassis: "Light Tank Amphibious Destroyer Chassis"
+ light_tank_amphibious_amphibious_chassis: "Light Tank Amphibious Amphibious Chassis"
+ light_tank_amphibious_flame_chassis: "Light Tank Amphibious Flame Chassis"
+ medium_tank_amphibious_aa_chassis: "Medium Tank Amphibious Anti-Air Chassis"
+ medium_tank_amphibious_artillery_chassis: "Medium Tank Amphibious Artillery Chassis"
+ medium_tank_amphibious_destroyer_chassis: "Medium Tank Amphibious Destroyer Chassis"
+ medium_tank_amphibious_amphibious_chassis: "Medium Tank Amphibious Amphibious Chassis"
+ medium_tank_amphibious_flame_chassis: "Medium Tank Amphibious Flame Chassis"
+ heavy_tank_amphibious_aa_chassis: "Heavy Tank Amphibious Anti-Air Chassis"
+ heavy_tank_amphibious_artillery_chassis: "Heavy Tank Amphibious Artillery Chassis"
+ heavy_tank_amphibious_destroyer_chassis: "Heavy Tank Amphibious Destroyer Chassis"
+ heavy_tank_amphibious_amphibious_chassis: "Heavy Tank Amphibious Amphibious Chassis"
+ heavy_tank_amphibious_flame_chassis: "Heavy Tank Amphibious Flame Chassis"
+ modern_tank_amphibious_aa_chassis: "Modern Tank Amphibious Anti-Air Chassis"
+ modern_tank_amphibious_artillery_chassis: "Modern Tank Amphibious Artillery Chassis"
+ modern_tank_amphibious_destroyer_chassis: "Modern Tank Amphibious Destroyer Chassis"
+ modern_tank_amphibious_flame_chassis: "Modern Tank Amphibious Flame Chassis"
+ mechanized_aa_equipment_0: "Mechanized Anti-Air Equipment"
+ mechanized_aa_equipment_1: "Mechanized Anti-Air Equipment I"
+ mechanized_aa_equipment_2: "Mechanized Anti-Air Equipment II"
+ mechanized_aa_equipment_3: "Mechanized Anti-Air Equipment III"
+ mechanized_spg_equipment_0: "Mechanized Self-propelled Gun Equipment"
+ mechanized_spg_equipment_1: "Mechanized Self-propelled Gun Equipment I"
+ mechanized_spg_equipment_2: "Mechanized Self-propelled Gun Equipment II"
+ mechanized_spg_equipment_3: "Mechanized Self-propelled Gun Equipment III"
+ mechanized_td_equipment_0: "Mechanized Tank-Destroyer Equipment"
+ mechanized_td_equipment_1: "Mechanized Tank-Destroyer Equipment I"
+ mechanized_td_equipment_2: "Mechanized Tank-Destroyer Equipment II"
+ mechanized_td_equipment_3: "Mechanized Tank-Destroyer Equipment III"
+ mechanized_utility_equipment_0: "Mechanized Utility Equipment"
+ mechanized_utility_equipment_1: "Mechanized Utility Equipment I"
+ mechanized_utility_equipment_2: "Mechanized Utility Equipment II"
+ mechanized_utility_equipment_3: "Mechanized Utility Equipment III"
+ mechanized_flame_equipment_0: "Mechanized Flame Equipment"
+ mechanized_flame_equipment_1: "Mechanized Flame Equipment I"
+ mechanized_flame_equipment_2: "Mechanized Flame Equipment II"
+ mechanized_flame_equipment_3: "Mechanized Flame Equipment III"
+ amphibious_mechanized_aa_equipment_0: "Amphibious Mechanized Anti-Air Equipment"
+ amphibious_mechanized_aa_equipment_1: "Amphibious Mechanized Anti-Air Equipment I"
+ amphibious_mechanized_aa_equipment_2: "Amphibious Mechanized Anti-Air Equipment II"
+ amphibious_mechanized_aa_equipment_3: "Amphibious Mechanized Anti-Air Equipment III"
+ amphibious_mechanized_spg_equipment_0: "Amphibious Mechanized Self-propelled Gun Equipment"
+ amphibious_mechanized_spg_equipment_1: "Amphibious Mechanized Self-propelled Gun Equipment I"
+ amphibious_mechanized_spg_equipment_2: "Amphibious Mechanized Self-propelled Gun Equipment II"
+ amphibious_mechanized_spg_equipment_3: "Amphibious Mechanized Self-propelled Gun Equipment III"
+ amphibious_mechanized_td_equipment_0: "Amphibious Mechanized Tank-Destroyer Equipment"
+ amphibious_mechanized_td_equipment_1: "Amphibious Mechanized Tank-Destroyer Equipment I"
+ amphibious_mechanized_td_equipment_2: "Amphibious Mechanized Tank-Destroyer Equipment II"
+ amphibious_mechanized_td_equipment_3: "Amphibious Mechanized Tank-Destroyer Equipment III"
+ amphibious_mechanized_utility_equipment_0: "Amphibious Mechanized Utility Equipment"
+ amphibious_mechanized_utility_equipment_1: "Amphibious Mechanized Utility Equipment I"
+ amphibious_mechanized_utility_equipment_2: "Amphibious Mechanized Utility Equipment II"
+ amphibious_mechanized_utility_equipment_3: "Amphibious Mechanized Utility Equipment III"
+ amphibious_mechanized_flame_equipment_0: "Amphibious Mechanized Flame Equipment"
+ amphibious_mechanized_flame_equipment_1: "Amphibious Mechanized Flame Equipment I"
+ amphibious_mechanized_flame_equipment_2: "Amphibious Mechanized Flame Equipment II"
+ amphibious_mechanized_flame_equipment_3: "Amphibious Mechanized Flame Equipment III"
+ fighter_archetype: "Fighter Archetype"
+ jet_fighter_archetype: "Jet Fighter Archetype"
+ cas_archetype: "Cas Archetype"
+ scout_plane_archetype: "Scout Plane Archetype"
+ heavy_fighter_archetype: "Heavy Fighter Archetype"
+ tactical_bomber_archetype: "Tactical Bomber Archetype"
+ jet_tactical_bomber_archetype: "Jet Tactical Bomber Archetype"
+ strategic_bomber_archetype: "Strategic Bomber Archetype"

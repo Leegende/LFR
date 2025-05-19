@@ -476,6 +476,8 @@ script_enum_equipment_bonus_type = {
 	tactical_bomber_archetype
 	jet_tactical_bomber_archetype
 	strategic_bomber_archetype
-
-
+	super_heavy_artillery_equipment
+	super_heavy_artillery_equipment_1
+	motorbike_equipment
+	motorbike_equipment_1
 }

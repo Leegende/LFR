@@ -9,7 +9,7 @@ GER_weisung_nr_1_trigger = {
 
 GER_weisung_nr_10a_trigger = {
 	GER = {
-		has_completed_focus = GER_operation_weserübung
+		has_completed_focus = GER_operation_weseruebung
 	}
 	NOT = {
 		has_global_flag = GER_weisung_nr_10a

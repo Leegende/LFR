@@ -7,9 +7,7 @@ sub_units = {
 		type = {
 			railway_gun
 		}
-		need = {
-			railway_gun_equipment = 1
-		}
+		
 		categories = {
 			category_railway_gun
 		}
@@ -25,9 +23,7 @@ sub_units = {
 		type = {
 			railway_gun
 		}
-		need = {
-			railway_gun_equipment_1 = 1
-		}
+		
 		categories = {
 			category_railway_gun
 		}

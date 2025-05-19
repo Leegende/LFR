@@ -15,10 +15,7 @@ sub_units = {
 			category_pack
 		}
 		same_support_type = anti_air
-		need = {
-			pack_anti_air_equipment = 10
-		}
-		mountain = {
+				mountain = {
 			attack = 0.03
 		}
 		hills = {
@@ -41,9 +38,6 @@ sub_units = {
 			category_medium
 		}
 		same_support_type = anti_air
-		need = {
-			anti_air_equipment = 10
-		}
 	}
 	heavy_anti_air = {
 		sprite = infantry
@@ -60,9 +54,6 @@ sub_units = {
 			category_aa_line
 			category_aa
 			category_heavy
-		}
-		need = {
-			heavy_anti_air_equipment = 10
 		}
 		mountain = {
 			attack = -0.03
@@ -89,9 +80,6 @@ sub_units = {
 			category_light_tank
 			category_armor_aa
 		}
-		need = {
-			light_tank_aa_chassis = 20
-		}
 		same_support_type = anti_air
 	}
 	medium_tank_anti_air = {
@@ -110,9 +98,6 @@ sub_units = {
 			category_aa
 			category_medium_tank
 			category_armor_aa
-		}
-		need = {
-			medium_tank_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -133,9 +118,6 @@ sub_units = {
 			category_heavy_tank
 			category_armor_aa
 		}
-		need = {
-			heavy_tank_aa_chassis = 20
-		}
 		same_support_type = anti_air
 	}
 	modern_tank_anti_air = {
@@ -153,9 +135,6 @@ sub_units = {
 			category_aa
 			category_modern_tank
 			category_armor_aa
-		}
-		need = {
-			modern_tank_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -176,9 +155,6 @@ sub_units = {
 			category_light_tank
 			category_amphibious_armor_aa
 		}
-		need = {
-			light_tank_amphibious_aa_chassis = 20
-		}
 		same_support_type = anti_air
 	}
 	medium_tank_amphibious_anti_air = {
@@ -193,9 +169,6 @@ sub_units = {
 			category_aa
 			category_medium_tank
 			category_amphibious_armor_aa
-		}
-		need = {
-			medium_tank_amphibious_aa_chassis = 20
 		}
 		same_support_type = anti_air
 	}
@@ -216,9 +189,6 @@ sub_units = {
 			category_armor
 			category_amphibious_armor_aa
 		}
-		need = {
-			heavy_tank_amphibious_aa_chassis = 20
-		}
 		same_support_type = anti_air
 	}
 	modern_tank_amphibious_anti_air = {
@@ -238,9 +208,6 @@ sub_units = {
 			category_armor
 			category_amphibious_armor_aa
 		}
-		need = {
-			modern_tank_amphibious_aa_chassis = 20
-		}
 		same_support_type = anti_air
 	}
 	amphibious_mechanized_anti_air = {
@@ -259,9 +226,6 @@ sub_units = {
 			category_aa
 			category_amphibious_mechanized
 		}
-		need = {
-			amphibious_mechanized_aa_equipment = 20
-		}
 		same_support_type = anti_air
 	}
 	mechanized_anti_air = {
@@ -279,9 +243,25 @@ sub_units = {
 			category_aa
 			category_mechanized
 		}
-		need = {
-			mechanized_aa_equipment = 20
+		same_support_type = anti_air
+	}
+	motorised_anti_air = {
+		sprite = mechanized
+		map_icon_category = transport
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			mechanized
+			anti_air
+		}
+		group = support
+		categories = {
+			category_aa
+			category_mechanized
 		}
 		same_support_type = anti_air
 	}
+
+
 }

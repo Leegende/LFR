@@ -478,7 +478,7 @@
 		}
 	}
 	focus = {
-		id = GER_operation_weserübung
+		id = GER_operation_weseruebung
 		icon = GFX_weserübung
 		x = 2
 		y = 1
@@ -504,9 +504,9 @@
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_operation_weserübung
+			focus = GER_operation_weseruebung
 		}
-		relative_position_id = GER_operation_weserübung
+		relative_position_id = GER_operation_weseruebung
 		available = {
 			always = yes
 		}
@@ -1921,7 +1921,7 @@
 		}
 	}
 	focus = {
-		id = GER_rüstungsstab
+		id = GER_ruestungsstab
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
@@ -1987,7 +1987,7 @@
 			focus = GER_organization_todt
 		}
 		prerequisite = {
-			focus = GER_rüstungsstab
+			focus = GER_ruestungsstab
 		}
 		relative_position_id = GER_the_new_berlin
 		available = {
@@ -2126,7 +2126,7 @@
 			focus = GER_himmlers_shadow_economy
 		}
 		mutually_exclusive = {
-			focus = GER_göring_programm
+			focus = GER_goering_programm
 		}
 		relative_position_id = GER_totaler_krieg
 		available = {
@@ -2215,7 +2215,7 @@
 		}
 	}
 	focus = {
-		id = GER_göring_programm
+		id = GER_goering_programm
 		icon = GFX_goal_unknown
 		x = -3
 		y = 3
@@ -2244,9 +2244,9 @@
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_göring_programm
+			focus = GER_goering_programm
 		}
-		relative_position_id = GER_göring_programm
+		relative_position_id = GER_goering_programm
 		available = {
 			always = yes
 		}
@@ -4421,137 +4421,6 @@
 		completion_reward = {
 		}
 	}
-	#	██╗    ██╗██╗   ██╗███╗   ██╗██████╗ ███████╗██████╗ ██╗    ██╗ █████╗ ███████╗███████╗███████╗███╗   ██╗
-	#	██║    ██║██║   ██║████╗  ██║██╔══██╗██╔════╝██╔══██╗██║    ██║██╔══██╗██╔════╝██╔════╝██╔════╝████╗  ██║
-	#	██║ █╗ ██║██║   ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝██║ █╗ ██║███████║█████╗  █████╗  █████╗  ██╔██╗ ██║
-	#	██║███╗██║██║   ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗██║███╗██║██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██║╚██╗██║
-	#	╚███╔███╔╝╚██████╔╝██║ ╚████║██████╔╝███████╗██║  ██║╚███╔███╔╝██║  ██║██║     ██║     ███████╗██║ ╚████║
-	#	 ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═══╝
-	focus = {
-		id = GER_super_tank_1
-		icon = GFX_josef_dietrich4
-		text_icon = GER_inner_circle_focus_style
-		x = -1
-		y = 2
-		cost = 1
-		prerequisite = {
-			focus = GER_dietrich_4
-			focus = GER_guderian_4
-			focus = GER_model_4
-		}
-		mutually_exclusive = {
-			focus = GER_super_tank_1
-		}
-		relative_position_id = GER_guderian_4
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			# research ding maus oder E50
-		}
-	}
-	focus = {
-		id = GER_super_tank_2
-		icon = GFX_josef_dietrich4
-		text_icon = GER_inner_circle_focus_style
-		x = 1
-		y = 2
-		cost = 1
-		prerequisite = {
-			focus = GER_dietrich_4
-			focus = GER_guderian_4
-			focus = GER_model_4
-		}
-		mutually_exclusive = {
-			focus = GER_super_tank_1
-		}
-		relative_position_id = GER_guderian_4
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			# research ding maus oder E50
-		}
-	}
-	focus = {
-		id = GER_super_gun_1
-		icon = GFX_josef_dietrich4
-		text_icon = GER_inner_circle_focus_style
-		x = 3
-		y = 2
-		cost = 1
-		prerequisite = {
-			focus = GER_kluge_4
-			focus = GER_student_4
-		}
-		mutually_exclusive = {
-			focus = GER_super_gun_2
-		}
-		relative_position_id = GER_kluge_4
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			# research ding ratte
-		}
-	}
-	focus = {
-		id = GER_super_plane_1
-		icon = GFX_josef_dietrich4
-		text_icon = GER_inner_circle_focus_style
-		x = 2
-		y = 2
-		cost = 1
-		prerequisite = {
-			focus = GER_kesselring_4
-			focus = GER_milch_4
-		}
-		mutually_exclusive = {
-			focus = GER_super_plane_2
-		}
-		relative_position_id = GER_kesselring_4
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			# research ding ratte
-		}
-	}
-	focus = {
-		id = GER_super_plane_2
-		icon = GFX_josef_dietrich4
-		text_icon = GER_inner_circle_focus_style
-		x = 4
-		y = 2
-		cost = 1
-		prerequisite = {
-			focus = GER_kesselring_4
-			focus = GER_milch_4
-		}
-		mutually_exclusive = {
-			focus = GER_super_plane_1
-		}
-		relative_position_id = GER_kesselring_4
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			# research ding 
-		}
-	}
+
+
 }

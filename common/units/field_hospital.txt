@@ -24,10 +24,7 @@ sub_units = {
 		can_be_parachuted = yes
 		casualty_trickleback = 0.2
 		experience_loss_factor = -0.15
-		need = {
-			support_equipment = 20
-			motorized_equipment = 25
-		}
+		
 		same_support_type = field_hospital
 	}
 	mechanized_field_hospital = {
@@ -63,11 +60,7 @@ sub_units = {
 		essential = {
 			mechanized_utility_equipment
 		}
-		need = {
-			support_equipment = 20
-			motorized_equipment = 25
-			mechanized_utility_equipment = 24
-		}
+		
 		same_support_type = field_hospital
 	}
 	helicopter_field_hospital = {
@@ -99,11 +92,7 @@ sub_units = {
 		hard_attack = -1
 		breakthrough = -1
 		defense = -1
-		need = {
-			support_equipment = 20
-			motorized_equipment = 25
-			#helicopter_equipment_1 = 24
-		}
+	
 		same_support_type = field_hospital
 	}
 }

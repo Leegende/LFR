@@ -28,10 +28,7 @@ sub_units = {
 		essential = {
 			support_equipment
 		}
-		need = {
-			support_equipment = 15
-			infantry_equipment = 40
-		}
+		
 		same_support_type = military_police
 	}
 }
