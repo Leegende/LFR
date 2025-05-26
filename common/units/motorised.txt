@@ -1,0 +1,117 @@
+sub_units = {
+	motorised = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_red_guard = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_marine = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_mountaineer = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_shocktrooper = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_ranger = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+	motorised_sturmtruppe = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = mobile
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+	}
+
+
+
+}

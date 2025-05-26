@@ -1,20 +1,17 @@
 sub_units = {
 	amtrac_anti_air = {
-		sprite = mechanised
-		map_icon_category = transport
+		sprite = amtrac
+		map_icon_category = infantry
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			mechanized
-			anti_air
-			amphibious
-		}
 		group = support
 		categories = {
-			category_aa
 			category_amtrac
+			category_anti_air
+			category_infantry
 		}
+		affects_speed = yes
+		transport = amtrac_aa_equipment
 		same_support_type = anti_air
 	}
 	anti_air = {
@@ -22,284 +19,233 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		affects_speed = no
-		type = {
-			support
-		}
 		group = support
 		categories = {
-			category_aa_line
-			category_aa
 			category_medium
+			category_anti_air
 		}
+		affects_speed = yes
+		transport = infantry_archetype
 		same_support_type = anti_air
 	}
 	heavy_anti_air = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		ai_priority = 0
 		active = no
-		affects_speed = no
-		type = {
-			support
-		}
 		group = support
 		categories = {
-			category_aa_line
-			category_aa
 			category_heavy
+			category_anti_air
 		}
-		mountain = {
-			attack = -0.03
-		}
-		hills = {
-			attack = -0.03
-		}
+		affects_speed = yes
+		transport = infantry_archetype
 		same_support_type = anti_air
 	}
 	heavy_tank_amphibious_anti_air = {
-		sprite = heavy_armor
+		sprite = heavy_amphibious_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_aa
+			category_anti_air
 			category_heavy_tank
 			category_armor
-			category_amphibious_armor_aa
+			category_amphibious_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = heavy_tank_amphibious_aa_chassis
 	}
 	heavy_tank_amphibious_anti_air_ss = {
-		sprite = heavy_armor
+		sprite = heavy_amphibious_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_aa
+			category_anti_air
 			category_heavy_tank
 			category_armor
-			category_amphibious_armor_aa
+			category_amphibious_armor_anti_air
 			category_ss
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = heavy_tank_amphibious_aa_chassis
 	}
 	heavy_tank_anti_air = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
-		affects_speed = yes
 		active = no
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_heavy_tank
-			category_armor_aa
+			category_armor
+			category_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = heavy_tank_aa_chassis
 	}
 	heavy_tank_anti_air_ss = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
-		affects_speed = yes
 		active = no
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_heavy_tank
-			category_armor_aa
+			category_armor
+			category_armor_anti_air
 			category_ss
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = heavy_tank_aa_chassis
 	}
 	light_tank_amphibious_anti_air = {
-		sprite = light_armor
+		sprite = light_amphibious_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_light_tank
-			category_amphibious_armor_aa
+			category_armor
+			category_amphibious_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = light_tank_amphibious_aa_chassis
 	}
 	light_tank_anti_air = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
-		affects_speed = yes
 		active = no
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_light_tank
-			category_armor_aa
+			category_armor
+			category_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = light_tank_aa_chassis
 	}
 	mechanised_anti_air = {
 		sprite = mechanised
-		map_icon_category = transport
+		map_icon_category = infantry
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			mechanized
-			anti_air
-		}
 		group = support
 		categories = {
-			category_aa
 			category_mechanised
+			category_anti_air
+			category_infantry
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = mechanised_aa_equipment
 	}
 	medium_tank_amphibious_anti_air = {
-		sprite = medium_armor
+		sprite = medium_amphibious_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
-		affects_speed = yes
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_medium_tank
-			category_amphibious_armor_aa
+			category_armor
+			category_amphibious_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = medium_tank_amphibious_aa_chassis
 	}
 	medium_tank_anti_air = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
 		group = support
 		categories = {
-			category_armor
-			category_aa
+			category_anti_air
 			category_medium_tank
-			category_armor_aa
+			category_armor
+			category_armor_anti_air
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = medium_tank_aa_chassis
 	}
 	modern_tank_amphibious_anti_air = {
+		sprite = modern_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		group = support
+		categories = {
+			category_anti_air
+			category_modern_tank
+			category_armor
+			category_amphibious_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = modern_tank_amphibious_aa_chassis
+	}
+	modern_tank_anti_air = {
 		sprite = modern_armor
 		map_icon_category = armored
 		priority = 0
 		active = no
+		group = support
+		categories = {
+			category_anti_air
+			category_modern_tank
+			category_armor
+			category_armor_anti_air
+		}
 		affects_speed = yes
-		type = {
-			armor
-			anti_air
-		}
-		group = support
-		categories = {
-			category_aa
-			category_modern_tank
-			category_armor
-			category_amphibious_armor_aa
-		}
 		same_support_type = anti_air
-	}
-	modern_tank_anti_air = {
-		sprite = medium_armor
-		map_icon_category = armored
-		priority = 0
-		active = no
-		type = {
-			armor
-			anti_air
-		}
-		group = support
-		categories = {
-			category_armor
-			category_aa
-			category_modern_tank
-			category_armor_aa
-		}
-		same_support_type = anti_air
+		transport = modern_tank_aa_chassis
 	}
 	motorised_anti_air = {
-		sprite = mechanised
-		map_icon_category = transport
+		sprite = motorised
+		map_icon_category = infantry
 		priority = 0
 		active = no
-		affects_speed = yes
-		type = {
-			mechanized
-			anti_air
-		}
 		group = support
 		categories = {
-			category_aa
-			category_mechanised
+			category_motorised
+			category_anti_air
+			category_infantry
 		}
+		affects_speed = yes
 		same_support_type = anti_air
+		transport = motorised_anti_air_archetype
 	}
 	pack_anti_air = {
 		sprite = infantry
 		map_icon_category = infantry
-		priority = 2
+		priority = 0
 		active = no
-		affects_speed = no
-		type = {
-			support
-		}
 		group = support
 		categories = {
-			category_aa_line
-			category_aa
 			category_pack
+			category_anti_air
 		}
+		affects_speed = yes
+		transport = infantry_archetype
 		same_support_type = anti_air
-		mountain = {
-			attack = 0.03
-		}
-		hills = {
-			attack = 0.03
-		}
 	}
 }

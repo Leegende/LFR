@@ -30,7 +30,7 @@ sub_units = {
 		
 		same_support_type = maintenance_company
 	}
-	armored_maintenance = {
+	armored_maintenance_company = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0

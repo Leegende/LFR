@@ -58,6 +58,68 @@ sub_units = {
 		}
 		same_support_type = recon
 	}
+	rangers = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		weight = 0.1
+		supply_consumption = 0.02
+		recon = 1
+		can_be_parachuted = yes
+		essential = {
+			infantry_archetype
+			support_equipment
+		}
+		maximum_speed = 2
+	
+		forest = {
+			movement = 0.04
+		}
+		hills = {
+			movement = 0.04
+		}
+		mountain = {
+			movement = 0.04
+		}
+		rock = {
+			movement = 0.04
+		}
+		jungle = {
+			movement = 0.04
+		}
+		marsh = {
+			movement = 0.04
+		}
+		plains = {
+			movement = 0.04
+		}
+		desert = {
+			movement = 0.04
+		}
+		river = {
+			movement = 0.04
+		}
+		same_support_type = recon
+	}
+	
+	
+	
 	motorised_recon = {
 		sprite = infantry
 		map_icon_category = infantry

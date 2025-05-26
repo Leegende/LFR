@@ -16,9 +16,9 @@ sub_unit_categories = {
 	category_heavy_tank
 	category_modern_tank
 	#################################
-	category_aa
-	category_armor_aa
-	category_amphibious_armor_aa
+	category_anti_air
+	category_armor_anti_air
+	category_amphibious_armor_anti_air
 	#################################
 	category_anti_tank
 	category_armor_destroyer
@@ -52,10 +52,6 @@ sub_unit_categories = {
 	category_medium
 	category_heavy
 	#################################
-	category_aa_line
-	category_anti_tank_line
-	category_artillery_line
-	#################################
 	category_motorised
 	category_mechanised
 	category_amtrac
@@ -65,8 +61,13 @@ sub_unit_categories = {
 	#################################
 	category_infantry
 	category_special_forces
-	category_special_forces_line
+	category_marine
+	category_mountaineer
+	category_ranger
+	category_shocktrooper
+	category_sturmtruppe
 	category_infantry_line
+	category_cavalry
 	#################################
 	category_railway_gun
 }

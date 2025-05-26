@@ -1,36 +1,28 @@
-sub_unites = {
+sub_units = {
 	amtrac = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
+			category_infantry_line
 		}
+		transport = amtrac_equipment
 	}
 	amtrac_marine = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-			infantry
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
 			category_special_forces
-			category_special_forces_line
-			category_infantry_line
+			category_marine
 		}
 		transport = amtrac_equipment
 	}
@@ -39,18 +31,12 @@ sub_unites = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-			infantry
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
 			category_special_forces
-			category_special_forces_line
-			category_infantry_line
+			category_mountaineer
 		}
 		transport = amtrac_equipment
 	}
@@ -59,18 +45,12 @@ sub_unites = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-			infantry
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
 			category_special_forces
-			category_special_forces_line
-			category_infantry_line
+			category_ranger
 		}
 		transport = amtrac_equipment
 	}
@@ -79,18 +59,12 @@ sub_unites = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-			infantry
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
 			category_special_forces
-			category_special_forces_line
-			category_infantry_line
+			category_shocktrooper
 		}
 		transport = amtrac_equipment
 	}
@@ -99,18 +73,12 @@ sub_unites = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
-		type = {
-			mechanized
-			amphibious
-			infantry
-		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_amtrac
 			category_infantry
 			category_special_forces
-			category_special_forces_line
-			category_infantry_line
+			category_sturmtruppe
 		}
 		transport = amtrac_equipment
 	}

@@ -84,7 +84,7 @@ sub_units = {
 		categories = {
 			category_artillery
 			category_medium
-			category_artillery_line
+			
 		}
 		combat_width = 1
 		manpower = 500
@@ -150,7 +150,7 @@ sub_units = {
 		categories = {
 			category_artillery
 			category_medium
-			category_artillery_line
+			
 			category_red_guard
 		}
 		combat_width = 1
@@ -217,7 +217,7 @@ sub_units = {
 		categories = {
 			category_artillery
 			category_heavy
-			category_artillery_line
+			
 		}
 		combat_width = 1
 		manpower = 500
@@ -460,7 +460,7 @@ sub_units = {
 		}
 		group = infantry
 		categories = {
-			category_artillery_line
+			
 			category_artillery
 			category_pack
 		}
@@ -527,7 +527,7 @@ sub_units = {
 		group = infantry
 		categories = {
 			category_artillery
-			category_artillery_line
+			
 		}
 		combat_width = 1
 		manpower = 500
@@ -582,7 +582,74 @@ sub_units = {
 			attack = 0.125
 		}
 	}
-	red_guard_artillery = {
+	super_heavy_self_propelled_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			artillery
+		}
+		group = infantry
+		categories = {
+			category_artillery
+			
+		}
+		combat_width = 1
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.3
+		supply_consumption_factor = 0.06
+		maximum_speed = -0.5
+		forest = {
+			attack = -0.125
+			movement = -0.1
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+			attack = -0.125
+		}
+		rock = {
+			movement = -0.2
+			attack = -0.125
+		}
+		jungle = {
+			attack = -0.175
+			movement = -0.3
+		}
+		marsh = {
+			attack = -0.125
+			movement = -0.3
+		}
+		fort = {
+			attack = 0.7
+		}
+		river = {
+			attack = -0.125
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.8
+		}
+		urban = {
+			attack = 0.4
+		}
+		dense_urban = {
+			attack = 0.625
+		}
+		town = {
+			attack = 0.125
+		}
+	}
+	artillery_red_guard = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -596,7 +663,7 @@ sub_units = {
 			category_artillery
 			category_medium
 			category_red_guard
-			category_artillery_line
+			
 		}
 		combat_width = 1
 		manpower = 500
@@ -1343,6 +1410,71 @@ sub_units = {
 		group = support
 		categories = {
 			category_motorised
+			category_artillery
+		}
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.1
+		max_strength = 1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.2
+		supply_consumption_factor = 0.04
+		forest = {
+			attack = -0.1
+			movement = -0.5
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.05
+		}
+		mountain = {
+			attack = -0.1
+			movement = -0.2
+		}
+		rock = {
+			movement = -0.2
+		}
+		jungle = {
+			attack = 0.1
+			movement = -0.3
+		}
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+		fort = {
+			attack = 0.2
+		}
+		river = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = -0.075
+		}
+		urban = {
+			attack = -0.1
+		}
+		dense_urban = {
+			attack = -0.15
+		}
+		town = {
+			attack = -0.05
+		}
+	}
+	rocket_artillery = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			infantry
+			artillery
+		}
+		group = support
+		categories = {
+			category_infantry
 			category_artillery
 		}
 		manpower = 500
