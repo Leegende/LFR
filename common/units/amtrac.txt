@@ -54,7 +54,7 @@ sub_unites = {
 		}
 		transport = amtrac_equipment
 	}
-	amtrac_shocktrooper = {
+	amtrac_ranger = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
@@ -74,7 +74,7 @@ sub_unites = {
 		}
 		transport = amtrac_equipment
 	}
-	amtrac_ranger = {
+	amtrac_shocktrooper = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
