@@ -98,11 +98,10 @@ technologies = {
 			artillery_red_guard
 			heavy_artillery
 			heavy_tank_amphibious_artillery
-			heavy_tank_amphibious_destroyer_ss
+			heavy_tank_amphibious_artillery_ss
 			pack_artillery
 			super_heavy_artillery
 			super_heavy_self_propelled_artillery
-			artillery_red_guard
 			light_tank_artillery
 			medium_tank_artillery
 			heavy_tank_artillery
@@ -202,6 +201,7 @@ technologies = {
 			heavy_tank_amphibious_ss
 			heavy_tank_red_guard
 			heavy_tank_ss
+			heavy_tank_artillery_ss
 			light_tank
 			light_tank_amphibious
 			light_tank_red_guard

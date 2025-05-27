@@ -7,7 +7,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -78,7 +78,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -149,7 +149,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -220,7 +220,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -291,7 +291,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -362,7 +362,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -433,7 +433,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry
@@ -504,7 +504,7 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_mechanised
 			category_infantry

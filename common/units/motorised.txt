@@ -8,7 +8,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -24,7 +24,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -40,7 +40,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -56,7 +56,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -72,7 +72,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -88,7 +88,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry
@@ -104,7 +104,7 @@ sub_units = {
 		type = {
 			motorized
 		}
-		group = mobile
+		group = infantry
 		categories = {
 			category_motorised
 			category_infantry

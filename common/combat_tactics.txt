@@ -197,7 +197,7 @@ tactic_delay = {
 		is_attacker = no
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -237,7 +237,7 @@ tactic_tactical_withdrawal = {
 			has_trait = trickster
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -339,7 +339,7 @@ tactic_breakthrough = {
 			skill_advantage > 1
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -383,7 +383,7 @@ tactic_blitz = {
 			skill_advantage > 1
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 		modifier = {
@@ -411,7 +411,7 @@ tactic_elastic_defense = {
 			skill > 2
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -434,7 +434,7 @@ tactic_backhand_blow = {
 			}
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -674,7 +674,7 @@ tactic_guerrilla_tactics = {
 			has_trait = trickster
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -693,7 +693,7 @@ tactic_human_wave_tactics = {
 		frontage_full = yes
 		has_reserves = yes
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -726,7 +726,7 @@ tactic_infantry_charge = {
 		is_attacker = yes
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -741,7 +741,7 @@ tactic_planned_attack = {
 		is_attacker = yes
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -755,7 +755,7 @@ tactic_relentless_assault = {
 		is_attacker = yes
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -771,7 +771,7 @@ tactic_unexpected_thrust = {
 		is_attacker = yes
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -786,7 +786,7 @@ tactic_overwhelming_fire = {
 		is_attacker = no
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 2
 	}
@@ -801,7 +801,7 @@ tactic_barrage = {
 		is_attacker = yes
 		phase = no
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 	}
@@ -823,7 +823,7 @@ tactic_masterful_blitz = {
 			skill_advantage > 1
 		}
 	}
-	active = no
+	active = yes
 	base = {
 		factor = 4
 		modifier = {

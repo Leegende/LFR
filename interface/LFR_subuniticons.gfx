@@ -997,6 +997,22 @@ spriteTypes = {
 		name = "GFX_unit_motorised_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/motorised/motorised.dds"
 	}
+	spriteType = {
+		name = "GFX_unit_motorised_red_guard_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/motorised/motorised_red_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_motorised_red_guard_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/motorised/motorised_red_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_motorised_marine_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/motorised/motorised_marine.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_motorised_marine_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/motorised/motorised_marine.dds"
+	}
 	#██████  ███████  ██████  ██████  ███    ██ 
 	#██   ██ ██      ██      ██    ██ ████   ██ 
 	#██████  █████   ██      ██    ██ ██ ██  ██ 

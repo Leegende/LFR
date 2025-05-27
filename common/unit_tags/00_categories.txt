@@ -70,4 +70,5 @@ sub_unit_categories = {
 	category_cavalry
 	#################################
 	category_railway_gun
+	category_rocket
 }

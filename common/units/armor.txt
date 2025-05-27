@@ -95,7 +95,7 @@ sub_units = {
 			armor
 			amphibious
 		}
-		group = amphibious_armor
+		group = armor
 		categories = {
 			category_armor
 			category_heavy_tank
@@ -606,7 +606,7 @@ sub_units = {
 			armor
 			amphibious
 		}
-		group = amphibious_armor
+		group = armor
 		categories = {
 			category_armor
 			category_light_tank
@@ -774,7 +774,7 @@ sub_units = {
 			armor
 			amphibious
 		}
-		group = amphibious_armor
+		group = armor
 		categories = {
 			category_armor
 			category_medium_tank

@@ -76,7 +76,7 @@ equipments = {
 		interface_category = interface_category_land
 		can_license = no
 	}
-	super_heavy_artillery_1 = {
+	super_heavy_artillery_equipment_1 = {
 		archetype = super_heavy_artillery_equipment
 	}
 	super_heavy_self_propelled_artillery = {

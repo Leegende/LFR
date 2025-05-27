@@ -477,8 +477,6 @@ script_enum_equipment_bonus_type = {
 	mechanized
 	motorized
 	armored_car_equipment_1
-	super_heavy_artillery_equipment
-	super_heavy_artillery_1
 	super_heavy_self_propelled_artillery
 	super_heavy_self_propelled_artillery_1
 	rocket_artillery_equipment
@@ -489,6 +487,5 @@ script_enum_equipment_bonus_type = {
 	mechanised_aa_equipment_2
 	mechanised_aa_equipment_3
 	mechanised_aa_equipment_0
-
-
+	motorised_equipment
 }
