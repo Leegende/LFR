@@ -1,6 +1,6 @@
 technologies = {
-	@radio = -3
-	@radar = -1
+	@radio = -2
+	@radar = 3
 	@computing = 3
 	@firecontrol = 4
 	@encryption_x = 1
@@ -11,6 +11,7 @@ technologies = {
 	@rockets_1944 = 6
 	@rockets_1945 = 8
 	@rockets_1946 = 10
+	@fuel = 5
 	juggle5 = {
 		research_cost = 0
 		folder = {
@@ -413,7 +414,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 0
 			}
 		}
@@ -434,7 +435,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 2
 			}
 		}
@@ -462,7 +463,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 4
 			}
 		}
@@ -491,7 +492,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 6
 			}
 		}
@@ -520,7 +521,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 8
 			}
 		}
@@ -545,7 +546,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 10
 			}
 		}
@@ -805,7 +806,7 @@ technologies = {
 			base = -9999999
 		}
 		path = {
-			leads_to_tech = radio
+			leads_to_tech = radio1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -821,7 +822,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = -1
+				x = 1
 				y = 0
 			}
 		}
@@ -830,6 +831,258 @@ technologies = {
 			computing
 		}
 	}
+	radio1 = {
+		path = {
+			leads_to_tech = radio
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = inf_radio1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = arty_radio1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = aa_radio
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = engineer_radio
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = 3
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	
+	aa_radio = {
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = 3
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+		
+	engineer_radio = {
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1937
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = 3
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	inf_radio1 = {
+		path = {
+			leads_to_tech = inf_radio2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = 5
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	inf_radio2 = {
+		path = {
+			leads_to_tech = inf_radio3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = 7
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	inf_radio3 = {
+		
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = 9
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+
+	arty_radio1 = {
+		path = {
+			leads_to_tech = arty_radio2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = 5
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	arty_radio2 = {
+		path = {
+			leads_to_tech = arty_radio3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = 7
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+	arty_radio3 = {
+		
+		research_cost = 2
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1938
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = 9
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		categories = {
+			engineering
+			radio
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 	radio = {
 		path = {
 			leads_to_tech = improved_radio
@@ -843,7 +1096,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = @radio
+				x = 1
 				y = 5
 			}
 		}
@@ -868,7 +1121,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = @radio
+				x = 1
 				y = 7
 			}
 		}
@@ -889,7 +1142,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = @radio
+				x = 1
 				y = 9
 			}
 		}
@@ -1012,7 +1265,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 2
 			}
 		}
@@ -1035,7 +1288,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 4
 			}
 		}
@@ -1058,7 +1311,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 6
 			}
 		}
@@ -1077,7 +1330,7 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = {
-				x = 1
+				x = @fuel
 				y = 8
 			}
 		}

@@ -80,7 +80,7 @@ sub_units = {
 		type = {
 			artillery
 		}
-		group = infantry
+		group = artillery
 		categories = {
 			category_artillery
 			category_medium

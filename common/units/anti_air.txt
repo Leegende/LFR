@@ -5,6 +5,9 @@ sub_units = {
 		priority = 0
 		active = no
 		group = support
+		type = {
+			support
+		}
 		categories = {
 			category_amtrac
 			category_anti_air
@@ -13,6 +16,19 @@ sub_units = {
 		affects_speed = yes
 		transport = amtrac_aa_equipment
 		same_support_type = anti_air
+		combat_width = 0
+		training_time = 120
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			amtrac_aa_equipment
+		}
+		need = {
+			amtrac_aa_equipment = 25
+		}
 	}
 	anti_air = {
 		sprite = infantry
@@ -20,6 +36,9 @@ sub_units = {
 		priority = 0
 		active = no
 		group = support
+		type = {
+			support
+		}
 		categories = {
 			category_medium
 			category_anti_air
@@ -34,6 +53,9 @@ sub_units = {
 		priority = 0
 		active = no
 		group = support
+		type = {
+			support
+		}
 		categories = {
 			category_heavy
 			category_anti_air
@@ -48,6 +70,9 @@ sub_units = {
 		priority = 0
 		active = no
 		group = support
+		type = {
+			support
+		}
 		categories = {
 			category_anti_air
 			category_heavy_tank
@@ -62,6 +87,9 @@ sub_units = {
 		sprite = heavy_amphibious_armor
 		map_icon_category = armored
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {
@@ -80,6 +108,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_anti_air
@@ -96,6 +127,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_anti_air
@@ -113,6 +147,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_anti_air
@@ -129,6 +166,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_anti_air
@@ -145,6 +185,9 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_mechanised
@@ -160,6 +203,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		active = no
+		type = {
+			support
+		}
 		group = support
 		categories = {
 			category_anti_air
@@ -175,6 +221,9 @@ sub_units = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {
@@ -191,6 +240,9 @@ sub_units = {
 		sprite = modern_amphibious_armor
 		map_icon_category = armored
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {
@@ -207,6 +259,9 @@ sub_units = {
 		sprite = modern_armor
 		map_icon_category = armored
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {
@@ -223,6 +278,9 @@ sub_units = {
 		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {
@@ -238,6 +296,9 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
+		type = {
+			support
+		}
 		active = no
 		group = support
 		categories = {

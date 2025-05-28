@@ -1220,4 +1220,28 @@ spriteTypes = {
 		name = "GFX_unit_modern_tank_amphibious_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/tank/modern_tank_amphibious.dds"
 	}
+	spriteType = {
+		name = "GFX_group_infantry_icon"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_group_artillery_icon"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_group_infantry_icon"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_group_mobile_icon"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/mechanised_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_group_armor_icon"
+		textureFile = "gfx/interface/counters/divisions_large/tank/medium_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_group_amphibious_armor_icon"
+		textureFile = "gfx/interface/counters/divisions_large/tank/medium_tank_amphibious.dds"
+	}
 }

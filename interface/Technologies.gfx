@@ -1838,4 +1838,40 @@ spriteTypes = {
 		name = "GFX_jet_tactical_bomber1_medium"
 		texturefile = "gfx/interface/technologies/jet_tactical_bomber1.dds"
 	}
+	SpriteType = {
+		name = "GFX_radio1_medium"
+		texturefile = "gfx/interface/technologies/radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_radio_medium"
+		texturefile = "gfx/interface/technologies/aa_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_engineer_radio_medium"
+		texturefile = "gfx/interface/technologies/engineer_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_radio1_medium"
+		texturefile = "gfx/interface/technologies/inf_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_radio2_medium"
+		texturefile = "gfx/interface/technologies/inf_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_radio3_medium"
+		texturefile = "gfx/interface/technologies/inf_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_arty_radio1_medium"
+		texturefile = "gfx/interface/technologies/art_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_arty_radio2_medium"
+		texturefile = "gfx/interface/technologies/art_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_arty_radio3_medium"
+		texturefile = "gfx/interface/technologies/art_radio.dds"
+	}
 }

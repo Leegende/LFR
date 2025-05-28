@@ -6,8 +6,6 @@ sub_units = {
 		affects_speed = yes
 		active = no
 		type = {
-			armor
-			flame
 			support
 		}
 		group = support
@@ -69,8 +67,6 @@ sub_units = {
 		affects_speed = yes
 		active = no
 		type = {
-			armor
-			flame
 			support
 		}
 		group = support
