@@ -1,10 +1,11 @@
 sub_units = {
+	@flame_need = 30
 	light_tank_flamethrower = {
 		sprite = light_tank
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			support
 		}
@@ -15,57 +16,28 @@ sub_units = {
 			category_armor_support_company
 			category_light_tank
 		}
-		same_support_type = flame
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		can_be_parachuted = yes
-		soft_attack = -0.5
-		breakthrough = -0.5
-		hard_attack = -0.75
-		defense = -0.75
-		armor_value = -0.75
-		
-		forest = {
-			attack = 0.05
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = light_tank_flame_chassis
+		essential = {
+			light_tank_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
+		need = {
+			light_tank_flame_chassis = @flame_need
 		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.1
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
-		}
+		same_support_type = flame
 	}
 	medium_tank_flamethrower = {
 		sprite = medium_tank
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			support
 		}
@@ -77,47 +49,18 @@ sub_units = {
 			category_medium_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = no
-		soft_attack = -0.45
-		breakthrough = -0.45
-		hard_attack = -0.7
-		defense = -0.7
-		armor_value = -0.7
-		
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = medium_tank_flame_chassis
+		essential = {
+			medium_tank_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.15
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.15
-		}
-		fort = {
-			attack = 0.2
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
+		need = {
+			medium_tank_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -126,7 +69,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -140,44 +83,18 @@ sub_units = {
 			category_heavy_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.03
-		can_be_parachuted = no
-		breakthrough = -0.4
-		soft_attack = -0.4
-		hard_attack = -0.625
-		defense = -0.625
-		armor_value = -0.625
-		
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = heavy_tank_flame_chassis
+		essential = {
+			heavy_tank_flame_chassis
 		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.25
-			movement = 0.1
-		}
-		river = {
-			attack = 0.05
-		}
-		amphibious = {
-			attack = 0.05
+		need = {
+			heavy_tank_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -186,7 +103,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -200,47 +117,18 @@ sub_units = {
 			category_modern_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = no
-		soft_attack = -0.45
-		breakthrough = -0.45
-		hard_attack = -0.7
-		defense = -0.7
-		armor_value = -0.7
-	
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = modern_tank_flame_chassis
+		essential = {
+			modern_tank_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.15
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.15
-		}
-		fort = {
-			attack = 0.2
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
+		need = {
+			modern_tank_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -249,7 +137,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -264,47 +152,18 @@ sub_units = {
 			category_light_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		can_be_parachuted = yes
-		soft_attack = -0.5
-		breakthrough = -0.5
-		hard_attack = -0.75
-		defense = -0.75
-		armor_value = -0.75
-		
-		forest = {
-			attack = 0.05
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = light_tank_amphibious_flame_chassis
+		essential = {
+			light_tank_amphibious_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.1
-			movement = 0.1
-		}
-		river = {
-			attack = 0.15
-		}
-		amphibious = {
-			attack = 0.15
+		need = {
+			light_tank_amphibious_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -313,7 +172,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -328,47 +187,18 @@ sub_units = {
 			category_medium_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = no
-		soft_attack = -0.45
-		breakthrough = -0.45
-		hard_attack = -0.7
-		defense = -0.7
-		armor_value = -0.7
-		
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = medium_tank_amphibious_flame_chassis
+		essential = {
+			medium_tank_amphibious_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.15
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.15
-		}
-		fort = {
-			attack = 0.2
-			movement = 0.1
-		}
-		river = {
-			attack = 0.15
-		}
-		amphibious = {
-			attack = 0.15
+		need = {
+			medium_tank_amphibious_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -377,7 +207,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -392,44 +222,18 @@ sub_units = {
 			category_heavy_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.03
-		can_be_parachuted = no
-		breakthrough = -0.4
-		soft_attack = -0.4
-		hard_attack = -0.625
-		defense = -0.625
-		armor_value = -0.625
-		
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = heavy_tank_amphibious_flame_chassis
+		essential = {
+			heavy_tank_amphibious_flame_chassis
 		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.25
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
+		need = {
+			heavy_tank_amphibious_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -438,7 +242,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			armor
 			flame
@@ -453,47 +257,18 @@ sub_units = {
 			category_modern_tank
 		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = no
-		soft_attack = -0.45
-		breakthrough = -0.45
-		hard_attack = -0.7
-		defense = -0.7
-		armor_value = -0.7
-		
-		forest = {
-			attack = 0.1
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = modern_tank_amphibious_flame_chassis
+		essential = {
+			modern_tank_amphibious_flame_chassis
 		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.15
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.15
-		}
-		fort = {
-			attack = 0.2
-			movement = 0.1
-		}
-		river = {
-			attack = 0.15
-		}
-		amphibious = {
-			attack = 0.15
+		need = {
+			modern_tank_amphibious_flame_chassis = @flame_need
 		}
 		same_support_type = flame
 	}

@@ -9,6 +9,7 @@ equipments = {
 	}
 	infantry_equipment_0 = {
 		archetype = infantry_archetype
+		soft_attack = 4
 	}
 	infantry_equipment_1 = {
 		archetype = infantry_archetype

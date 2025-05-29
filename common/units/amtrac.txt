@@ -3,7 +3,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac
@@ -32,7 +32,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac
@@ -62,7 +62,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac
@@ -92,7 +92,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac
@@ -122,7 +122,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac
@@ -152,7 +152,7 @@ sub_units = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		group = infantry
 		categories = {
 			category_amtrac

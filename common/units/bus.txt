@@ -3,12 +3,9 @@ sub_units = {
 		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		can_be_parachuted = yes
-		type = {
-			motorized
-		}
-		group = mobile
+
 	}
 }

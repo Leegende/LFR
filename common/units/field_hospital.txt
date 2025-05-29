@@ -1,9 +1,10 @@
 sub_units = {
+	@field_need = 30
 	field_hospital = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -16,22 +17,23 @@ sub_units = {
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
-		default_morale = 0.6
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.05
-		can_be_parachuted = yes
-		casualty_trickleback = 0.2
-		experience_loss_factor = -0.15
-		
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+		}
 		same_support_type = field_hospital
 	}
 	mechanised_field_hospital = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -44,28 +46,25 @@ sub_units = {
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
-		default_morale = 0.6
-		manpower = 400
-		training_time = 120
-		weight = 0.2
-		supply_consumption = 0.1
-		can_be_parachuted = yes
-		same_support_type = field_hospital
-		casualty_trickleback = 0.25
-		experience_loss_factor = -0.25
-		soft_attack = -1
-		hard_attack = -1
-		breakthrough = -1
-		defense = -1
-		
-		
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			mechanised_utility_equipment
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+			mechanised_utility_equipment = @field_need
+		}
 		same_support_type = field_hospital
 	}
 	helicopter_field_hospital = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -78,19 +77,18 @@ sub_units = {
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
-		default_morale = 0.6
-		manpower = 400
-		training_time = 120
-		weight = 0.2
-		supply_consumption = 0.1
-		can_be_parachuted = yes
-		casualty_trickleback = 0.35
-		experience_loss_factor = -0.35
-		soft_attack = -1
-		hard_attack = -1
-		breakthrough = -1
-		defense = -1
-	
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			helicopter_archetype
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+			helicopter_archetype = @field_need
+		}
 		same_support_type = field_hospital
 	}
 }

@@ -3,7 +3,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -17,43 +17,15 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 1
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = support_equipment
 		essential = {
-			infantry_archetype
 			support_equipment
 		}
-		maximum_speed = 2
-		forest = {
-			movement = 0.04
-		}
-		hills = {
-			movement = 0.04
-		}
-		mountain = {
-			movement = 0.04
-		}
-		rock = {
-			movement = 0.04
-		}
-		jungle = {
-			movement = 0.04
-		}
-		marsh = {
-			movement = 0.04
-		}
-		plains = {
-			movement = 0.04
-		}
-		desert = {
-			movement = 0.04
-		}
-		river = {
-			movement = 0.04
+		need = {
+			support_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -61,8 +33,8 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
-		affects_speed = no
+		active = yes
+		affects_speed = yes
 		type = {
 			support
 		}
@@ -75,43 +47,15 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 1
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		transport = support_equipment
 		essential = {
-			infantry_archetype
 			support_equipment
 		}
-		maximum_speed = 2
-		forest = {
-			movement = 0.04
-		}
-		hills = {
-			movement = 0.04
-		}
-		mountain = {
-			movement = 0.04
-		}
-		rock = {
-			movement = 0.04
-		}
-		jungle = {
-			movement = 0.04
-		}
-		marsh = {
-			movement = 0.04
-		}
-		plains = {
-			movement = 0.04
-		}
-		desert = {
-			movement = 0.04
-		}
-		river = {
-			movement = 0.04
+		need = {
+			support_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -119,7 +63,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -133,44 +77,16 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 2
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = no
+		training_time = 100
 		essential = {
-			infantry_archetype
 			support_equipment
 			motorised_equipment
 		}
-		transport = motorised_equipment
-		forest = {
-			movement = 0.06
-		}
-		hills = {
-			movement = 0.06
-		}
-		mountain = {
-			movement = 0.06
-		}
-		rock = {
-			movement = 0.06
-		}
-		jungle = {
-			movement = 0.06
-		}
-		marsh = {
-			movement = 0.06
-		}
-		plains = {
-			movement = 0.06
-		}
-		desert = {
-			movement = 0.06
-		}
-		river = {
-			movement = 0.06
+		need = {
+			motorised_equipment = 20
+			support_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -178,7 +94,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -192,45 +108,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 3
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = armored_car_archetype
 		essential = {
-			infantry_archetype
 			support_equipment
-			motorised_equipment
+			armored_car_archetype
 		}
-		forest = {
-			movement = 0.1
-		}
-		hills = {
-			movement = 0.1
-		}
-		mountain = {
-			movement = 0.1
-		}
-		rock = {
-			movement = 0.1
-		}
-		jungle = {
-			movement = 0.1
-		}
-		marsh = {
-			movement = 0.1
-		}
-		plains = {
-			movement = 0.1
-		}
-		desert = {
-			movement = 0.075
-			attack = 0.1
-			defence = 0.025
-		}
-		river = {
-			movement = 0.1
+		need = {
+			motorised_equipment = 20
+			armored_car_archetype = 20
 		}
 		same_support_type = recon
 	}
@@ -238,7 +126,7 @@ sub_units = {
 		sprite = light_tank
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -254,44 +142,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 3
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = light_tank_chassis
 		essential = {
-			infantry_archetype
 			support_equipment
-			motorised_equipment
 			light_tank_chassis
 		}
-		forest = {
-			movement = 0.08
-		}
-		hills = {
-			movement = 0.08
-		}
-		mountain = {
-			movement = 0.08
-		}
-		rock = {
-			movement = 0.08
-		}
-		jungle = {
-			movement = 0.08
-		}
-		marsh = {
-			movement = 0.08
-		}
-		plains = {
-			movement = 0.08
-		}
-		desert = {
-			movement = 0.08
-		}
-		river = {
-			movement = 0.08
+		need = {
+			motorised_equipment = 20
+			light_tank_chassis = 20
 		}
 		same_support_type = recon
 	}
@@ -299,7 +160,7 @@ sub_units = {
 		sprite = light_tank
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -315,46 +176,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 3
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = light_tank_amphibious_chassis
 		essential = {
-			infantry_archetype
 			support_equipment
-			motorised_equipment
 			light_tank_amphibious_chassis
 		}
-		forest = {
-			movement = 0.08
-		}
-		hills = {
-			movement = 0.08
-		}
-		mountain = {
-			movement = 0.08
-		}
-		rock = {
-			movement = 0.08
-		}
-		jungle = {
-			movement = 0.08
-		}
-		marsh = {
-			attack = 0.05
-			movement = 0.12
-		}
-		plains = {
-			movement = 0.08
-		}
-		desert = {
-			movement = 0.08
-		}
-		river = {
-			attack = 0.05
-			movement = 0.12
+		need = {
+			motorised_equipment = 20
+			light_tank_amphibious_chassis = 20
 		}
 		same_support_type = recon
 	}
@@ -362,7 +194,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -374,36 +206,17 @@ sub_units = {
 		}
 		combat_width = 0
 		max_strength = 2
-		max_organisation = 30
+		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.06
-		recon = 1
-		can_be_parachuted = yes
-		maximum_speed = 0.6
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = support_equipment
 		essential = {
-			infantry_archetype
 			support_equipment
 		}
-		forest = {
-			movement = 0.15
-			attack = 0.05
-		}
-		hills = {
-			movement = 0.15
-			attack = 0.05
-		}
-		mountain = {
-			movement = 0.1
-			defence = 0.05
-		}
-		jungle = {
-			movement = 0.1
-		}
-		plains = {
-			movement = 0.1
+		need = {
+			support_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -411,7 +224,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -425,43 +238,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 2
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = mechanised_equipment
 		essential = {
-			infantry_archetype
 			support_equipment
-			motorised_equipment
+			mechanised_equipment
 		}
-		forest = {
-			movement = 0.07
-		}
-		hills = {
-			movement = 0.07
-		}
-		mountain = {
-			movement = 0.07
-		}
-		rock = {
-			movement = 0.07
-		}
-		jungle = {
-			movement = 0.07
-		}
-		marsh = {
-			movement = 0.07
-		}
-		plains = {
-			movement = 0.07
-		}
-		desert = {
-			movement = 0.07
-		}
-		river = {
-			movement = 0.07
+		need = {
+			support_equipment = 20
+			mechanised_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -469,7 +256,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -483,45 +270,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 400
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		recon = 2
-		can_be_parachuted = yes
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = amtrac_equipment
 		essential = {
-			infantry_archetype
 			support_equipment
-			motorised_equipment
+			amtrac_equipment
 		}
-		forest = {
-			movement = 0.07
-		}
-		hills = {
-			movement = 0.07
-		}
-		mountain = {
-			movement = 0.07
-		}
-		rock = {
-			movement = 0.07
-		}
-		jungle = {
-			movement = 0.07
-		}
-		marsh = {
-			attack = 0.025
-			movement = 0.1
-		}
-		plains = {
-			movement = 0.07
-		}
-		desert = {
-			movement = 0.07
-		}
-		river = {
-			attack = 0.025
-			movement = 0.1
+		need = {
+			support_equipment = 20
+			amtrac_equipment = 20
 		}
 		same_support_type = recon
 	}
@@ -529,7 +288,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -543,40 +302,17 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.07
-		recon = 2
-		can_be_parachuted = no
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = helicopter_archetype
 		essential = {
-			infantry_archetype
 			support_equipment
+			helicopter_archetype
 		}
-		transport = motorised_equipment
-		forest = {
-			movement = 0.15
-		}
-		hills = {
-			movement = 0.1
-		}
-		mountain = {
-			movement = 0.1
-		}
-		jungle = {
-			movement = 0.15
-		}
-		marsh = {
-			movement = 0.15
-		}
-		plains = {
-			movement = 0.15
-		}
-		desert = {
-			movement = 0.15
-		}
-		river = {
-			movement = 0.15
+		need = {
+			support_equipment = 20
+			helicopter_archetype = 20
 		}
 		same_support_type = recon
 	}

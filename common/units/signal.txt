@@ -3,7 +3,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -14,26 +14,27 @@ sub_units = {
 			category_signal_company
 		}
 		combat_width = 0
-		max_strength = 1
-		max_organisation = 80
-		default_morale = 0.8
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.02
-		can_be_parachuted = yes
-		initiative = 0.2
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
 		essential = {
 			support_equipment
 			motorised_equipment
 		}
-		same_support_type = signal_company
+		need = {
+			support_equipment = 20
+			motorised_equipment = 20
+		}
+		same_support_type = field_hospital
 	}
 	armored_signal_company = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = no
+		active = yes
 		affects_speed = no
 		type = {
 			support
@@ -44,19 +45,20 @@ sub_units = {
 			category_signal_company
 		}
 		combat_width = 0
-		max_strength = 1
+		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 500
-		training_time = 120
-		weight = 0.1
-		supply_consumption = 0.035
-		can_be_parachuted = no
-		initiative = 0.25
+		manpower = 300
+		affects_speed = no
+		training_time = 100
 		essential = {
 			support_equipment
 			armored_support_vehicle
 		}
-		same_support_type = recon
+		need = {
+			support_equipment = 20
+			armored_support_vehicle = 20
+		}
+		same_support_type = field_hospital
 	}
 }
