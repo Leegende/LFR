@@ -1167,7 +1167,7 @@
 	}
 	focus = {
 		id = GER_economical_integration
-		icon = GFX_goal_unknown
+		icon = GFX_economical_integration
 		x = 3
 		y = 3
 		cost = 1
@@ -1256,7 +1256,7 @@
 	}
 	focus = {
 		id = GER_develop_hungary
-		icon = GFX_goal_unknown
+		icon = GFX_develop_hungary
 		x = -1
 		y = 1
 		cost = 1
@@ -1296,7 +1296,7 @@
 	}
 	focus = {
 		id = GER_develop_romania
-		icon = GFX_goal_unknown
+		icon = GER_develop_romania
 		x = 0
 		y = 2
 		cost = 1
@@ -1336,7 +1336,7 @@
 	}
 	focus = {
 		id = GER_develop_bulgaria
-		icon = GFX_goal_unknown
+		icon = GER_develop_bulgaria
 		x = 1
 		y = 1
 		cost = 1
@@ -1415,7 +1415,7 @@
 	}
 	focus = {
 		id = GER_trade_deal
-		icon = GFX_goal_unknown
+		icon = GFX_trade_deal
 		x = -1
 		y = 1
 		cost = 1
@@ -1842,14 +1842,9 @@
 	focus = {
 		id = GER_totaler_krieg
 		icon = GFX_total_war
-		x = 0
-		y = 2
+		x = 34
+		y = 7
 		cost = 1
-		prerequisite = {
-			focus = GER_ostwall
-			focus = GER_osttruppen
-		}
-		relative_position_id = GER_unternehmen_barbarossa
 		available = {
 			has_war_with_major = yes
 		}

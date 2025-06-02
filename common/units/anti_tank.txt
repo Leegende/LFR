@@ -1,4 +1,6 @@
 sub_units = {
+
+	@at_need = 20
 	amtrac_anti_tank = {
 		sprite = amtrac
 		map_icon_category = infantry
@@ -23,7 +25,7 @@ sub_units = {
 			amtrac_td_equipment
 		}
 		need = {
-			amtrac_td_equipment = @aa_need
+			amtrac_td_equipment = @at_need
 		}
 	}
 	anti_tank = {
@@ -49,7 +51,7 @@ sub_units = {
 			anti_tank_archetype
 		}
 		need = {
-			anti_tank_archetype = @aa_need
+			anti_tank_archetype = @at_need
 		}
 	}
 	heavy_anti_tank = {
@@ -75,7 +77,7 @@ sub_units = {
 			heavy_anti_tank_archetype
 		}
 		need = {
-			heavy_anti_tank_archetype = @aa_need
+			heavy_anti_tank_archetype = @at_need
 		}
 	}
 	heavy_tank_amphibious_destroyer_ss = {
@@ -108,7 +110,7 @@ sub_units = {
 			heavy_tank_amphibious_destroyer_chassis
 		}
 		need = {
-			heavy_tank_amphibious_destroyer_chassis = @aa_need
+			heavy_tank_amphibious_destroyer_chassis = @at_need
 		}
 	}
 	heavy_tank_amphibious_destroyer = {
@@ -140,7 +142,7 @@ sub_units = {
 			heavy_tank_amphibious_destroyer_chassis
 		}
 		need = {
-			heavy_tank_amphibious_destroyer_chassis = @aa_need
+			heavy_tank_amphibious_destroyer_chassis = @at_need
 		}
 	}
 	heavy_tank_destroyer = {
@@ -171,7 +173,7 @@ sub_units = {
 			heavy_tank_destroyer_chassis
 		}
 		need = {
-			heavy_tank_destroyer_chassis = @aa_need
+			heavy_tank_destroyer_chassis = @at_need
 		}
 	}
 	heavy_tank_destroyer_ss = {
@@ -204,7 +206,7 @@ sub_units = {
 			heavy_tank_destroyer_chassis
 		}
 		need = {
-			heavy_tank_destroyer_chassis = @aa_need
+			heavy_tank_destroyer_chassis = @at_need
 		}
 	}
 	light_tank_destroyer = {
@@ -236,7 +238,7 @@ sub_units = {
 			light_tank_destroyer_chassis
 		}
 		need = {
-			light_tank_destroyer_chassis = @aa_need
+			light_tank_destroyer_chassis = @at_need
 		}
 	}
 	light_tank_amphibious_destroyer = {
@@ -268,7 +270,7 @@ sub_units = {
 			light_tank_amphibious_destroyer_chassis
 		}
 		need = {
-			light_tank_amphibious_destroyer_chassis = @aa_need
+			light_tank_amphibious_destroyer_chassis = @at_need
 		}
 	}
 	mechanised_anti_tank = {
@@ -297,7 +299,7 @@ sub_units = {
 			mechanised_td_equipment
 		}
 		need = {
-			mechanised_td_equipment = @aa_need
+			mechanised_td_equipment = @at_need
 		}
 	}
 	medium_tank_amphibious_destroyer = {
@@ -328,7 +330,7 @@ sub_units = {
 			medium_tank_amphibious_destroyer_chassis
 		}
 		need = {
-			medium_tank_amphibious_destroyer_chassis = @aa_need
+			medium_tank_amphibious_destroyer_chassis = @at_need
 		}
 	}
 	medium_tank_destroyer = {
@@ -359,7 +361,7 @@ sub_units = {
 			medium_tank_destroyer_chassis
 		}
 		need = {
-			medium_tank_destroyer_chassis = @aa_need
+			medium_tank_destroyer_chassis = @at_need
 		}
 	}
 	modern_tank_amphibious_destroyer = {
@@ -391,7 +393,7 @@ sub_units = {
 			modern_tank_amphibious_destroyer_chassis
 		}
 		need = {
-			modern_tank_amphibious_destroyer_chassis = @aa_need
+			modern_tank_amphibious_destroyer_chassis = @at_need
 		}
 	}
 	modern_tank_destroyer = {
@@ -422,7 +424,7 @@ sub_units = {
 			modern_tank_destroyer_chassis
 		}
 		need = {
-			modern_tank_destroyer_chassis = @aa_need
+			modern_tank_destroyer_chassis = @at_need
 		}
 	}
 	pack_anti_tank = {
@@ -451,7 +453,7 @@ sub_units = {
 			pack_anti_tank_archetype
 		}
 		need = {
-			pack_anti_tank_archetype = @aa_need
+			pack_anti_tank_archetype = @at_need
 		}
 	}
 }

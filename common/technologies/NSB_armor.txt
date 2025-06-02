@@ -135,23 +135,12 @@ technologies = {
 	basic_light_tank_amphibious = {
 		enable_equipments = {
 			light_tank_amphibious_chassis_1
-			light_tank_amphibious_aa_chassis_1
-			light_tank_amphibious_destroyer_chassis_1
-			light_tank_amphibious_artillery_chassis_1
-			light_tank_amphibious_flame_chassis_1
 		}
 		ai_will_do = {
 			base = -9999999
 		}
 		research_cost = 1
 		start_year = 1939
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @light_tank
-				y = @1938
-			}
-		}
 		categories = {
 			armor
 			armor_light
@@ -199,19 +188,9 @@ technologies = {
 		}
 		enable_equipments = {
 			light_tank_amphibious_chassis_2
-			light_tank_amphibious_aa_chassis_2
-			light_tank_amphibious_destroyer_chassis_2
-			light_tank_amphibious_artillery_chassis_2
 		}
 		research_cost = 1
 		start_year = 1940
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @light_tank
-				y = @1940
-			}
-		}
 		categories = {
 			armor
 			armor_light
@@ -261,19 +240,9 @@ technologies = {
 		}
 		enable_equipments = {
 			light_tank_amphibious_chassis_3
-			light_tank_amphibious_aa_chassis_3
-			light_tank_amphibious_destroyer_chassis_3
-			light_tank_amphibious_artillery_chassis_3
 		}
 		research_cost = 1
 		start_year = 1942
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @light_tank
-				y = @1942
-			}
-		}
 		categories = {
 			armor
 			armor_light
@@ -323,19 +292,9 @@ technologies = {
 		}
 		enable_equipments = {
 			medium_tank_amphibious_chassis_1
-			medium_tank_amphibious_destroyer_chassis_1
-			medium_tank_amphibious_artillery_chassis_1
-			medium_tank_amphibious_aa_chassis_1
 		}
 		research_cost = 1.25
 		start_year = 1939
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @medium_tank
-				y = @1938
-			}
-		}
 		categories = {
 			armor
 			armor_medium
@@ -383,19 +342,9 @@ technologies = {
 		}
 		enable_equipments = {
 			medium_tank_amphibious_chassis_2
-			medium_tank_amphibious_destroyer_chassis_2
-			medium_tank_amphibious_artillery_chassis_2
-			medium_tank_amphibious_aa_chassis_2
 		}
 		research_cost = 1.25
 		start_year = 1940
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @medium_tank
-				y = @1940
-			}
-		}
 		categories = {
 			armor
 			armor_medium
@@ -442,22 +391,12 @@ technologies = {
 	advanced_medium_tank_amphibious = {
 		enable_equipments = {
 			medium_tank_chassis_3
-			medium_tank_destroyer_chassis_3
-			medium_tank_artillery_chassis_3
-			medium_tank_aa_chassis_3
 		}
 		ai_will_do = {
 			base = -9999999
 		}
 		research_cost = 1.25
 		start_year = 1942
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @medium_tank
-				y = @1942
-			}
-		}
 		categories = {
 			armor
 			armor_medium
@@ -503,22 +442,12 @@ technologies = {
 	main_battle_tank_amphibious = {
 		enable_equipments = {
 			modern_tank_amphibious_chassis_1
-			modern_tank_amphibious_destroyer_chassis_1
-			modern_tank_amphibious_artillery_chassis_1
-			modern_tank_amphibious_aa_chassis_1
 		}
 		ai_will_do = {
 			base = -9999999
 		}
 		research_cost = 2
 		start_year = 1944
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @medium_tank
-				y = @1944
-			}
-		}
 		categories = {
 			armor
 			armor_medium
@@ -562,22 +491,12 @@ technologies = {
 	basic_heavy_tank_amphibious = {
 		enable_equipments = {
 			heavy_tank_amphibious_chassis_1
-			heavy_tank_amphibious_destroyer_chassis_1
-			heavy_tank_amphibious_artillery_chassis_1
-			heavy_tank_amphibious_aa_chassis_1
 		}
 		ai_will_do = {
 			base = -9999999
 		}
 		research_cost = 1.5
 		start_year = 1938
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @heavy_tank
-				y = @1938
-			}
-		}
 		categories = {
 			armor
 			armor_heavy
@@ -592,10 +511,6 @@ technologies = {
 			heavy_tank_destroyer_chassis_2
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
-			heavy_tank_amphibious_chassis_2
-			heavy_tank_amphibious_destroyer_chassis_2
-			heavy_tank_amphibious_artillery_chassis_2
-			heavy_tank_amphibious_aa_chassis_2
 		}
 		enable_equipment_modules = {
 			tank_heavy_turret_2
@@ -626,22 +541,12 @@ technologies = {
 	improved_heavy_tank_amphibious = {
 		enable_equipments = {
 			heavy_tank_amphibious_chassis_2
-			heavy_tank_amphibious_destroyer_chassis_2
-			heavy_tank_amphibious_artillery_chassis_2
-			heavy_tank_amphibious_aa_chassis_2
 		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
 		start_year = 1940
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @heavy_tank
-				y = @1940
-			}
-		}
 		categories = {
 			armor
 			armor_heavy
@@ -656,10 +561,6 @@ technologies = {
 			heavy_tank_destroyer_chassis_3
 			heavy_tank_artillery_chassis_3
 			heavy_tank_aa_chassis_3
-			heavy_tank_amphibious_chassis_3
-			heavy_tank_amphibious_destroyer_chassis_3
-			heavy_tank_amphibious_artillery_chassis_3
-			heavy_tank_amphibious_aa_chassis_3
 		}
 		enable_equipment_modules = {
 			tank_heavy_turret_3
@@ -692,22 +593,12 @@ technologies = {
 	advanced_heavy_tank_amphibious = {
 		enable_equipments = {
 			heavy_tank_amphibious_chassis_3
-			heavy_tank_amphibious_destroyer_chassis_3
-			heavy_tank_amphibious_artillery_chassis_3
-			heavy_tank_amphibious_aa_chassis_3
 		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
 		start_year = 1942
-		folder = {
-			name = nsb_armour_folder
-			position = {
-				x = @heavy_tank
-				y = @1942
-			}
-		}
 		categories = {
 			armor
 			armor_heavy
@@ -718,7 +609,6 @@ technologies = {
 		category_armor = {
 			soft_attack = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1936
 		path = {
@@ -744,7 +634,6 @@ technologies = {
 		category_armor = {
 			soft_attack = 0.1
 		}
-		
 		custom_modifier_tooltip = tank_upgrade_tt
 		research_cost = 2.5
 		start_year = 1938
@@ -771,7 +660,6 @@ technologies = {
 		category_armor = {
 			soft_attack = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1940
 		folder = {
@@ -794,7 +682,6 @@ technologies = {
 		category_armor = {
 			hard_attack = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1938
 		path = {
@@ -820,7 +707,6 @@ technologies = {
 		category_armor = {
 			hard_attack = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1940
 		path = {
@@ -846,7 +732,6 @@ technologies = {
 		category_armor = {
 			hard_attack = 0.1
 		}
-		
 		research_cost = 2.5
 		ai_will_do = {
 			base = -9999999
@@ -1203,7 +1088,6 @@ technologies = {
 			hardness = 0.05
 			armor_value = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1938
 		path = {
@@ -1230,7 +1114,6 @@ technologies = {
 			hardness = 0.05
 			armor_value = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1940
 		path = {
@@ -1257,7 +1140,6 @@ technologies = {
 			hardness = 0.05
 			armor_value = 0.1
 		}
-		
 		research_cost = 2.5
 		start_year = 1942
 		folder = {

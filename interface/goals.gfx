@@ -335,13 +335,32 @@ spriteTypes = {
 		name = "GFX_autarky"
 		texturefile = "gfx/interface/goals/focus_GER_autarky_achieved.dds"
 	}
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_economic_investments"
 		texturefile = "gfx/interface/goals/focus_GER_kdf_wagen.dds"
 	}
-
-	SpriteType = { 
+	SpriteType = {
 		name = "GFX_economical_dependency"
 		texturefile = "gfx/interface/focus/GER/focus_GER_economical_dependency.tga"
+	}
+	SpriteType = {
+		name = "GFX_economical_integration"
+		texturefile = "gfx/interface/goals/focus_ger_reichskommisariats.dds"
+	}
+	SpriteType = {
+		name = "GFX_trade_deal"
+		texturefile = "gfx/interface/focus/GER/GER_volkswagen_benefits.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_hungary"
+		texturefile = "gfx/interface/focus/GER/develop_hungary.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_romania"
+		texturefile = "gfx/interface/focus/GER/develop_romania.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_bulgaria"
+		texturefile = "gfx/interface/focus/GER/develop_bulgaria.dds"
 	}
 }

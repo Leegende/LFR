@@ -1,4 +1,5 @@
 sub_units = {
+	@tank_need = 50
 	heavy_tank_amphibious_ss = {
 		sprite = amphibious_armor
 		map_icon_category = armored
@@ -26,7 +27,7 @@ sub_units = {
 			heavy_tank_amphibious_chassis
 		}
 		need = {
-			heavy_tank_amphibious_chassis = @aa_need
+			heavy_tank_amphibious_chassis = @tank_need
 		}
 	}
 	heavy_tank_red_guard = {
@@ -57,7 +58,7 @@ sub_units = {
 			heavy_tank_chassis
 		}
 		need = {
-			heavy_tank_chassis = @aa_need
+			heavy_tank_chassis = @tank_need
 		}
 	}
 	heavy_tank_amphibious = {
@@ -88,7 +89,7 @@ sub_units = {
 			heavy_tank_amphibious_chassis
 		}
 		need = {
-			heavy_tank_amphibious_chassis = @aa_need
+			heavy_tank_amphibious_chassis = @tank_need
 		}
 	}
 	heavy_tank = {
@@ -118,7 +119,7 @@ sub_units = {
 			heavy_tank_chassis
 		}
 		need = {
-			heavy_tank_chassis = @aa_need
+			heavy_tank_chassis = @tank_need
 		}
 	}
 	heavy_tank_ss = {
@@ -148,7 +149,7 @@ sub_units = {
 			heavy_tank_chassis
 		}
 		need = {
-			heavy_tank_chassis = @aa_need
+			heavy_tank_chassis = @tank_need
 		}
 	}
 	light_tank = {
@@ -178,7 +179,7 @@ sub_units = {
 			light_tank_chassis
 		}
 		need = {
-			light_tank_chassis = @aa_need
+			light_tank_chassis = @tank_need
 		}
 	}
 	light_tank_amphibious = {
@@ -209,7 +210,7 @@ sub_units = {
 			light_tank_amphibious_chassis
 		}
 		need = {
-			light_tank_amphibious_chassis = @aa_need
+			light_tank_amphibious_chassis = @tank_need
 		}
 	}
 	light_tank_red_guard = {
@@ -241,7 +242,7 @@ sub_units = {
 			light_tank_chassis
 		}
 		need = {
-			light_tank_chassis = @aa_need
+			light_tank_chassis = @tank_need
 		}
 	}
 	medium_tank = {
@@ -271,7 +272,7 @@ sub_units = {
 			medium_tank_chassis
 		}
 		need = {
-			medium_tank_chassis = @aa_need
+			medium_tank_chassis = @tank_need
 		}
 	}
 	medium_tank_amphibious = {
@@ -302,7 +303,7 @@ sub_units = {
 			medium_tank_amphibious_chassis
 		}
 		need = {
-			medium_tank_amphibious_chassis = @aa_need
+			medium_tank_amphibious_chassis = @tank_need
 		}
 	}
 	medium_tank_red_guard = {
@@ -333,7 +334,7 @@ sub_units = {
 			medium_tank_amphibious_chassis
 		}
 		need = {
-			medium_tank_amphibious_chassis = @aa_need
+			medium_tank_amphibious_chassis = @tank_need
 		}
 	}
 	modern_tank = {
@@ -363,7 +364,7 @@ sub_units = {
 			modern_tank_chassis
 		}
 		need = {
-			modern_tank_chassis = @aa_need
+			modern_tank_chassis = @tank_need
 		}
 	}
 	modern_tank_amphibious = {
@@ -393,7 +394,7 @@ sub_units = {
 			modern_tank_amphibious_chassis
 		}
 		need = {
-			modern_tank_amphibious_chassis = @aa_need
+			modern_tank_amphibious_chassis = @tank_need
 		}
 	}
 }

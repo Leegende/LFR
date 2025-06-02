@@ -728,7 +728,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_EQ_MOD_CAT_tank_armament_tier_light_1"
+		name = "GFX_EQ_MOD_CAT_tank_armament_tier_light_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_light_one_man_turret.dds"
 		legacy_lazy_load = no
 	}
@@ -936,7 +936,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_EMI_EQ_MOD_CAT_tank_armament_tier_medium_1"
+		name = "GFX_EQ_MOD_CAT_tank_armament_tier_medium_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/medium_soft_cannon_1.dds"
 		legacy_lazy_load = no
 	}
@@ -1035,4 +1035,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_wheeled_suspension.dds"
 		legacy_lazy_load = no
 	}
+
+
+
+
+
+	
 }
