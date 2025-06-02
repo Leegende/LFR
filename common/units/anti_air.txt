@@ -283,7 +283,7 @@ sub_units = {
 			light_tank_aa_chassis
 		}
 		need = {
-			light_tank_chassis = @aa_need
+			light_tank_aa_chassis = @aa_need
 		}
 	}
 	mechanised_anti_air = {

@@ -363,4 +363,25 @@ spriteTypes = {
 		name = "GFX_develop_bulgaria"
 		texturefile = "gfx/interface/focus/GER/develop_bulgaria.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_hungarian_aluminium"
+		texturefile = "gfx/interface/focus/GER/hungarian_aluminium.dds"
+	}
+	SpriteType = {
+		name = "GFX_bulgarian_chromium"
+		texturefile = "gfx/interface/focus/GER/bulgarian_chromium.dds"
+	}
+	SpriteType = {
+		name = "GFX_romanian_oil"
+		texturefile = "gfx/interface/focus/GER/romanian_oil.dds"
+	}
+	SpriteType = {
+		name = "GFX_substitute_trade"
+		texturefile = "gfx/interface/focus/GER/substitudate_trade.dds"
+	}
+
+
+
+
 }

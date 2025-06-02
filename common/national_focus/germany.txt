@@ -1213,7 +1213,7 @@
 	}
 	focus = {
 		id = GER_substitute_trade
-		icon = GFX_goal_unknown
+		icon = GFX_substitute_trade
 		x = 1
 		y = 1
 		cost = 1
@@ -1296,7 +1296,7 @@
 	}
 	focus = {
 		id = GER_develop_romania
-		icon = GER_develop_romania
+		icon = GFX_develop_romania
 		x = 0
 		y = 2
 		cost = 1
@@ -1336,7 +1336,7 @@
 	}
 	focus = {
 		id = GER_develop_bulgaria
-		icon = GER_develop_bulgaria
+		icon = GFX_develop_bulgaria
 		x = 1
 		y = 1
 		cost = 1
@@ -1435,7 +1435,7 @@
 	}
 	focus = {
 		id = GER_hungarian_aluminium
-		icon = GFX_goal_unknown
+		icon = GFX_hungarian_aluminium
 		x = -1
 		y = 1
 		cost = 1
@@ -1460,7 +1460,7 @@
 	}
 	focus = {
 		id = GER_romanian_oil
-		icon = GFX_goal_unknown
+		icon = GFX_romanian_oil
 		x = 0
 		y = 2
 		cost = 1
@@ -1485,7 +1485,7 @@
 	}
 	focus = {
 		id = GER_bulgarian_chromium
-		icon = GFX_goal_unknown
+		icon = GFX_bulgarian_chromium
 		x = 1
 		y = 1
 		cost = 1
