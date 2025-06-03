@@ -337,6 +337,20 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_molotov_ribbentrop_pact
+				bonus = 2
+				uses = 1
+				category = armor
+			}
+			SOV = {
+				add_tech_bonus = {
+					name = GER_molotov_ribbentrop_pact
+					bonus = 2
+					uses = 1
+					category = armor
+				}
+			}
 			every_state = {
 				limit = {
 					has_state_flag = PRUSSIA
@@ -2595,99 +2609,98 @@
 		ai_will_do = {
 			factor = 10
 		}
+
 		completion_reward = {
-			custom_effect_tooltip = {
-				localization_key = "Spawn in 6 SS-Übermenschen-Converts in Berlin"
+			set_technology = {
+				panzergranate_technology = 1
 			}
-			hidden_effect = {
-				division_template = {
-					name = "SS-Übermenschen"
-					regiments = {
-						converts = {
-							x = 0
-							y = 0
-						}
-						converts = {
-							x = 0
-							y = 1
-						}
-						converts = {
-							x = 0
-							y = 2
-						}
-						converts = {
-							x = 0
-							y = 3
-						}
-						converts = {
-							x = 1
-							y = 0
-						}
-						converts = {
-							x = 1
-							y = 1
-						}
-						converts = {
-							x = 1
-							y = 2
-						}
-						converts = {
-							x = 1
-							y = 3
-						}
-						converts = {
-							x = 2
-							y = 0
-						}
-						converts = {
-							x = 2
-							y = 1
-						}
-						converts = {
-							x = 2
-							y = 2
-						}
-						converts = {
-							x = 3
-							y = 0
-						}
-						converts = {
-							x = 3
-							y = 1
-						}
-						converts = {
-							x = 3
-							y = 2
-						}
-						converts = {
-							x = 3
-							y = 3
-						}
-						converts = {
-							x = 4
-							y = 0
-						}
-						converts = {
-							x = 4
-							y = 1
-						}
-						converts = {
-							x = 4
-							y = 2
-						}
-						converts = {
-							x = 4
-							y = 3
-						}
+			division_template = {
+				name = "SS-Übermenschen"
+				regiments = {
+					converts = {
+						x = 0
+						y = 0
+					}
+					converts = {
+						x = 0
+						y = 1
+					}
+					converts = {
+						x = 0
+						y = 2
+					}
+					converts = {
+						x = 0
+						y = 3
+					}
+					converts = {
+						x = 1
+						y = 0
+					}
+					converts = {
+						x = 1
+						y = 1
+					}
+					converts = {
+						x = 1
+						y = 2
+					}
+					converts = {
+						x = 1
+						y = 3
+					}
+					converts = {
+						x = 2
+						y = 0
+					}
+					converts = {
+						x = 2
+						y = 1
+					}
+					converts = {
+						x = 2
+						y = 2
+					}
+					converts = {
+						x = 3
+						y = 0
+					}
+					converts = {
+						x = 3
+						y = 1
+					}
+					converts = {
+						x = 3
+						y = 2
+					}
+					converts = {
+						x = 3
+						y = 3
+					}
+					converts = {
+						x = 4
+						y = 0
+					}
+					converts = {
+						x = 4
+						y = 1
+					}
+					converts = {
+						x = 4
+						y = 2
+					}
+					converts = {
+						x = 4
+						y = 3
 					}
 				}
-				367 = {
-					for_loop_effect = {
-						end = 6
-						create_unit = {
-							division = "division_template = \"SS-Übermenschen\" start_experience_factor = 1"
-							owner = GER
-						}
+			}
+			367 = {
+				for_loop_effect = {
+					end = 100
+					create_unit = {
+						division = "division_template = \"SS-Übermenschen\" start_experience_factor = 1"
+						owner = GER
 					}
 				}
 			}
@@ -4416,6 +4429,4 @@
 		completion_reward = {
 		}
 	}
-
-
 }

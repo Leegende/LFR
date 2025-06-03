@@ -18,7 +18,7 @@ country_event = {
 
 country_event = {
 	id = germany.2
-	title = germany.2.t
+	title = "Appointed Sepp Dietrich"
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {

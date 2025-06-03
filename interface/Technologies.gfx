@@ -1874,4 +1874,8 @@ spriteTypes = {
 		name = "GFX_arty_radio3_medium"
 		texturefile = "gfx/interface/technologies/art_radio.dds"
 	}
+	SpriteType = {
+		name = "GFX_panzergranate_technology_medium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/apcr_rounds.dds"
+	}
 }

@@ -96,6 +96,11 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = panzergranate
+			count < 2
+		}
+
+		module_count_limit = {
 			module = expanded_fuel_tank
 			count < 2
 		}
@@ -321,6 +326,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {
@@ -556,6 +565,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {
@@ -802,6 +815,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = panzergranate
+			count < 2
+		}
+		module_count_limit = {
 			module = expanded_fuel_tank
 			count < 2
 		}
@@ -941,6 +958,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {
@@ -1170,6 +1191,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {
@@ -1404,6 +1429,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {
@@ -1648,6 +1677,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = apcr_round
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate
 			count < 2
 		}
 		module_count_limit = {

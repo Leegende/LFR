@@ -17,6 +17,15 @@ technologies = {
 	@1941 = 5
 	@1942 = 6
 	@1944 = 8
+	panzergranate_technology = {
+		research_cost = 0
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipment_modules = {
+			panzergranate
+		}
+	}
 	juggle2 = {
 		research_cost = 0
 		folder = {

@@ -196,6 +196,22 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
+    panzergranate = {
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2
+		}
+		multiply_stats = {
+			ap_attack = 0.2
+			soft_attack = 0.05
+			hard_attack = 0.1
+			breakthrough = 0.1
+		}
+		dismantle_cost_ic = 1
+	}
+
+
 	advanced_artillery_round = {
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret

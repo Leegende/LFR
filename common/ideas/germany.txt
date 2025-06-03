@@ -1,6 +1,5 @@
 ideas = {
 	country = {
-		
 		ig_farben_idea = {
 			cost = 0
 			removal_cost = 0
@@ -38,12 +37,12 @@ ideas = {
 				heavy_tank_chassis = {
 					maximum_speed = 0.15
 					reliability = 0.075
-					build_cost_ic = -0.05
+					build_cost_ic = -0.075
 					instant = yes
 				}
 				heavy_tank_amphibious_chassis = {
-					maximum_speed = 0.15
-					reliability = 0.075
+					maximum_speed = 0.2
+					reliability = 0.1
 					build_cost_ic = -0.05
 					instant = yes
 				}
