@@ -6,40 +6,44 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-		"ENG" = {
-			history = "ENG_GATHERING_STORM_DESC"
+		"CAN" = {
+			history = ""
 			ideology = democratic
-		}
-		"GER" = {
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-		}
-		"ITA" = {
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
-		}
-		"SOV" = {
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-		}
-		"HUN" = {
-			history = ""
-			ideology = communism
-		}
-		"ROM" = {
-			history = ""
-			ideology = communism
 		}
 		"IRE" = {
 			history = ""
+			ideology = democratic
+		}
+		"FRA" = {
+			history = ""
+			ideology = democratic
+		}
+		"ENG" = {
+			history = ""
+			ideology = democratic
+		}
+		"SOV" = {
+			history = ""
 			ideology = communism
 		}
-		"---" = {
-			history = "OTHER_GATHERING_STORM_DESC"
+		"GER" = {
+			history = ""
+			ideology = fascism
+		}
+		"ITA" = {
+			history = ""
+			ideology = fascism
+		}
+		"SPR" = {
+			history = ""
+			ideology = democratic
+		}
+		"HUN" = {
+			history = ""
+			ideology = neutrality
 		}
 		effect = {
-			randomize_weather = 22345			# <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
+			randomize_weather = 12345
 		}
 	}
 }
