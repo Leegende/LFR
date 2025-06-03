@@ -1022,7 +1022,7 @@
  MODIFIER_MIC_TO_TARGET_FACTOR_DESC:0 "How many §YMilitary§! factories are controlled by target country"
  MODIFIER_TRADE_TO_TARGET_FACTOR:0 "Extra trade to target"
  MODIFIER_TRADE_TO_TARGET_FACTOR_DESC:0 "Extra produced recourses available for trade to target country"
- MODIFIER_TRADE_COST_TO_TARGET_FACTOR:0 "Target country trade cost"
+ MODIFIER_TRADE_COST_TO_TARGET_FACTOR:0 "Trade cost"
  MODIFIER_TRADE_COST_TO_TARGET_FACTOR_DESC:0 "Resources per factory in trade between countries"
  MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE:0 "Special Forces Supply Grace"
  MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE_DESC:0 "Extra hours that our Special Forces divisions can last without supplies."

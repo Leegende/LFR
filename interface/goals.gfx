@@ -25,7 +25,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_first_vienna_award"
-		texturefile = "gfx/interface/focus/GER/GER_first_vienna_award.tga"
+		texturefile = "gfx/interface/focus/GER/GER_first_vienna_award.dds"
 	}
 	SpriteType = {
 		name = "GFX_end_of_czechoslovakia"
@@ -345,7 +345,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_economical_integration"
-		texturefile = "gfx/interface/goals/focus_ger_reichskommisariats.dds"
+		texturefile = "gfx/interface/focus/GER/economical_integration.dds"
 	}
 	SpriteType = {
 		name = "GFX_trade_deal"
