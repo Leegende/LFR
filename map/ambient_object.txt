@@ -1,13 +1,14 @@
 type = {
-	type = "ambient_wind_entity"
+	type = "bigben"
 	use_animation = no
+	scale = 0.5
 	always_visible = yes
 	object = {
-		name = "ambient_wind"
+		name = "bigben_entity"
 		position = {
-			0
-			0
-			0
+			1233
+			11.5
+			1572
 		}
 		rotation = {
 			0
@@ -16,3 +17,283 @@ type = {
 		}
 	}
 }
+
+type = {
+	type = "hagia"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "hagia_entity"
+		position = {
+			2652
+			10.5
+			930
+		}
+		rotation = {
+			0
+			-106
+			0
+		}
+	}
+}
+
+type = {
+	type = "domeofrock"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "domeofrock_entity"
+		position = {
+			2963
+			11.3
+			410
+		}
+		rotation = {
+			0
+			-106
+			0
+		}
+	}
+}
+
+type = {
+	type = "kremlin"
+	use_animation = no
+	scale = 0.35
+	always_visible = yes
+	object = {
+		name = "kremlin"
+		position = {
+			3079
+			12
+			1857
+		}
+		rotation = {
+			0
+			210
+			0
+		}
+	}
+}
+
+type = {
+	type = "reichstag"
+	use_animation = no
+	scale = 0.3
+	always_visible = yes
+	object = {
+		name = "reichstag"
+		position = {
+			1884  
+			10.7
+			1639
+		}
+		rotation = {
+			0
+			120
+			0
+		}
+	}
+}
+
+type = {
+	type = "eiffel"
+	use_animation = no
+	scale = 0.15
+	always_visible = yes
+	object = {
+		name = "eiffel"
+		position = {
+			1344 
+			10.7
+			1403
+		}
+		rotation = {
+			0
+			120
+			0
+		}
+	}
+}
+
+type = {
+	type = "giza"
+	use_animation = no
+	scale = 0.5
+	always_visible = yes
+	object = {
+		name = "giza"
+		position = {
+		    2749 
+			10.7
+			314
+		}
+		rotation = {
+			0
+			140
+			0
+		}
+	}
+}
+
+type = {
+	type = "colosseum"
+	use_animation = no
+	scale = 0.7
+	always_visible = yes
+	object = {
+		name = "colosseum"
+		position = {
+			1849 
+			11
+			977
+		}
+		rotation = {
+			0
+			-50
+			0
+		}
+	}
+}
+
+type = {
+	type = "brandenburg"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "brandenburg"
+		position = {
+			1887    
+			9.9
+			1636
+		}
+		rotation = {
+			0
+			105
+			0
+		}
+	}
+}
+
+type = {
+	type = "pisa"
+	use_animation = no
+	scale = 0.6
+	always_visible = yes
+	object = {
+		name = "pisa"
+		position = {
+			1754  
+			10
+			1085
+		}
+		rotation = {
+			0
+			220
+			0
+		}
+	}
+}
+
+type = {
+	type = "test"
+	use_animation = no
+	always_visible = yes
+	object = {
+		name = "test"
+		position = {
+			2975
+			-10
+			1384.38
+		}
+		rotation = {
+			0
+			220
+			0
+		}
+	}
+}
+
+type = {
+	type = "saintsophia"
+	use_animation = no
+	scale = 0.1
+	always_visible = yes
+	object = {
+		name = "saintsophia_entity"
+		position = {
+			2374 
+			10.2
+			1026
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "prudential"
+	use_animation = no
+	scale = 0.3
+	always_visible = yes
+	object = {
+		name = "prudential"
+		position = {
+			2265 
+			11.3
+			1624
+		}
+		rotation = {
+			0
+			-130
+			0
+		}
+	}
+}
+
+type = {
+	type = "acropolis"
+	use_animation = no
+	scale = 0.26
+	always_visible = yes
+	object = {
+		name = "acropolis"
+		position = {
+			2393 
+			11.2
+			752
+		}
+		rotation = {
+			0
+			60
+			0
+		}
+	}
+}
+
+type = {
+	type = "pantheon"
+	use_animation = no
+	scale = 0.1
+	always_visible = yes
+	object = {
+		name = "pantheon"
+		position = {
+			1844 
+			10.3
+			981
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+

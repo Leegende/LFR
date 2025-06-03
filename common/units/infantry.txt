@@ -343,11 +343,15 @@ sub_units = {
 		type = {
 			infantry
 		}
+		soft_attack = -1
+		hard_attack = -1
+		defense = -1
 		group = infantry
 		combat_width = 2
 		max_strength = 0
-		max_organisation = -999
-		default_morale = 0.3
+		max_organisation = -9999
+		default_morale = 0
+		combat_width = 0
 		manpower = 1000
 		training_time = 20
 		supply_consumption = 0.00

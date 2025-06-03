@@ -2616,6 +2616,11 @@
 			}
 			division_template = {
 				name = "SS-Übermenschen"
+				template_counter = 8
+				is_locked = no
+				force_allow_recruiting = yes
+				priority = 2
+				division_cap = 9
 				regiments = {
 					converts = {
 						x = 0
@@ -2697,7 +2702,7 @@
 			}
 			367 = {
 				for_loop_effect = {
-					end = 100
+					end = 6
 					create_unit = {
 						division = "division_template = \"SS-Übermenschen\" start_experience_factor = 1"
 						owner = GER
