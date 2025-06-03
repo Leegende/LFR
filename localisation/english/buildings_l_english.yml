@@ -116,6 +116,8 @@
 
  concentration_camp: "Konzentrationslager"
  concentration_camp_desc: ""
+ ss_kaserne: "Konzentrationslager"
+ ss_kaserne: ""
  BUILDING_BOMBED:0 "$BUILDING$ bombed!"
  BUILDING_SABOTAGED:0 "$BUILDING$ sabotaged!"
  BUILDING_REPAIRED:0 "$BUILDING$ repaired!"

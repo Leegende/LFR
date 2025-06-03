@@ -115,11 +115,15 @@ GER_reform_the_okw = {
 		cost = 50
 		days_remove = 0
 		complete_effect = {
-			complete_national_focus = GER_appoint_sepp_dietrich
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_sepp_dietrich
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
 		}
+		fire_only_once = yes
 		visible = {
 			has_completed_focus = GER_appoint_the_okw
 			check_variable = {
@@ -128,6 +132,7 @@ GER_reform_the_okw = {
 		}
 	}
 	GER_appoint_heinz_guderian_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -143,7 +148,10 @@ GER_reform_the_okw = {
 		cost = 50
 		days_remove = 0
 		complete_effect = {
-			complete_national_focus = GER_appoint_heinz_guderian
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_heinz_guderian
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
@@ -156,6 +164,7 @@ GER_reform_the_okw = {
 		}
 	}
 	GER_appoint_walter_model_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -177,13 +186,17 @@ GER_reform_the_okw = {
 			}
 		}
 		complete_effect = {
-			complete_national_focus = GER_appoint_walter_model
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_walter_model
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
 		}
 	}
 	GER_appoint_guenther_von_kluge_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -205,13 +218,17 @@ GER_reform_the_okw = {
 			}
 		}
 		complete_effect = {
-			complete_national_focus = GER_appoint_günther_von_kluge
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_günther_von_kluge
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
 		}
 	}
 	GER_appoint_kurt_student_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -233,13 +250,17 @@ GER_reform_the_okw = {
 			}
 		}
 		complete_effect = {
-			complete_national_focus = GER_appoint_kurt_student
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_kurt_student
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
 		}
 	}
 	GER_appoint_albert_kesselring_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -261,13 +282,17 @@ GER_reform_the_okw = {
 			}
 		}
 		complete_effect = {
-			complete_national_focus = GER_appoint_albert_kesselring
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_albert_kesselring
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}
 		}
 	}
 	GER_appoint_erhard_milch_decision = {
+		fire_only_once = yes
 		icon = GFX_decision_generic_operation
 		allowed = {
 			tag = GER
@@ -289,7 +314,10 @@ GER_reform_the_okw = {
 			}
 		}
 		complete_effect = {
-			complete_national_focus = GER_appoint_erhard_milch
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_erhard_milch
+			}
 			add_to_variable = {
 				GER_appoint_okw_members = 1
 			}

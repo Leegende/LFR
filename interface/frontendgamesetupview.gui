@@ -1795,11 +1795,11 @@ guiTypes = {
 	containerWindowType = {
 		name ="gamesetup_gameplay_settings_window"
 		position = { x=0 y=196}	
-		show_position = { x=5 y =-85}
+		show_position = { x=5 y =7}
 		animation_type = decelerated
 		animation_time = 1000
 		
-		size = {width=598 height=151}							### DUNNO WHAT FOR BUT IT WAS IN HERE
+		size = {width=598 height=150}						
 		orientation = lower_right
 		origo = lower_right
 	
@@ -1829,7 +1829,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 9 y = 12 }
+			position = {x = -999 y = 12 }
 			name = "difficulty_text"
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
@@ -1841,7 +1841,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "very_easy_cb"
-			position = { x=9 y=47}
+			position = { x=-999 y=47}
 			quadTextureSprite ="GFX_difficulty_button_civilian"	
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
@@ -1850,7 +1850,7 @@ guiTypes = {
 
 		checkboxType = {
 			name = "easy_cb"
-			position = { x=125 y=47}
+			position = { x=-999 y=47}
 			quadTextureSprite ="GFX_difficulty_button_recruit"	
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
@@ -1868,7 +1868,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "hard_cb"
-			position = { x=357 y=47}
+			position = { x=-999 y=47}
 			quadTextureSprite ="GFX_difficulty_button_veteran"
 			buttonText = "FE_DIFFICULTY_HARD"
 			buttonFont = "hoi_20b"
@@ -1877,7 +1877,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "very_hard_cb"
-			position = { x=473 y=47}
+			position = { x=-999 y=47}
 			quadTextureSprite ="GFX_difficulty_button_elite"
 			buttonText = "FE_DIFFICULTY_VERY_HARD"
 			buttonFont = "hoi_20b"
@@ -1945,7 +1945,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 30 y = 103 }
+			position = {x = -999 y = 103 }
 			name = "ironman_text"
 			font = "hoi_24header"
 			maxWidth = 370
@@ -1958,7 +1958,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "ironman_cb"
-			position = { x=530 y =101}
+			position = { x=-999 y =101}
 			quadTextureSprite ="GFX_generic_checkbox"	
 			clicksound = click_checkbox
 		}

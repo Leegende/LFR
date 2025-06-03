@@ -8,4 +8,24 @@ on_actions = {
 			}
 		}
 	}
+	on_daily_GER = {
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = GER_dietrich
+				}
+				if = {
+					limit = {
+						check_variable = {
+							GER_dietrich_days > GER_dietrich_days_needed
+						}
+					}
+					add_to_variable = {
+						GER_dietrich_days = 1
+					}
+				}
+				
+			}
+		}
+	}
 }

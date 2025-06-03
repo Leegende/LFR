@@ -93,3 +93,9 @@
  GER_appoint_albert_kesselring_decision: "Appoint Albert Kesselring"
  GER_appoint_erhard_milch_decision: "Appoint Erhard Milch"
  GER_remove_failed_reform_the_okw_decision: "Remove Failed Reform of the OKW"
+ GER_remaining_generals_text:0 "[?remaining_generals]"
+ GER_appoint_generals_tt:0 "|--------------------------------------------------|\n| §Y[GER_remaining_gens]§! §YGenerals§! remaining to be §Gappointed§! |\n|--------------------------------------------------|"
+
+
+
+ 

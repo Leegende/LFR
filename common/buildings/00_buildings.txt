@@ -195,9 +195,11 @@ buildings = {
 	concentration_camp = {
 		show_on_map = 1
 		base_cost = 3000
+		per_controlled_building_extra_cost = 1000
 		damage_factor = 0.1
 		icon_frame = 13
 		value = 1
+		hide_if_missing_tech = yes
 		spawn_point = special_project_facility_spawn
 		specialization = {
 			specialization_land
@@ -214,6 +216,34 @@ buildings = {
 			province_max = 1
 		}
 	}
+	ss_kaserne = {
+		show_on_map = 1
+		base_cost = 3000
+		per_controlled_building_extra_cost = 1000
+		damage_factor = 0.1
+		icon_frame = 13
+		value = 1
+		hide_if_missing_tech = yes
+		spawn_point = special_project_facility_spawn
+		specialization = {
+			specialization_land
+		}
+		tags = {
+			facility
+		}
+		need_supply = no
+		need_detection = yes
+		detecting_intel_type = army
+		only_display_if_exists = yes
+		special_icon = GFX_specialization_land
+		level_cap = {
+			province_max = 1
+		}
+	}
+
+
+
+
 	rocket_site = {
 		show_on_map = 1
 		base_cost = 999999
