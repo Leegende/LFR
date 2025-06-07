@@ -1,6 +1,9 @@
 GER_economy_dynamic_modifier_tt = {
-	custom_effect_tooltip = GER_german_economy_spirit_change
+	custom_effect_tooltip = GER_mefo_bills_spirit_change
 }
 GER_failed_reform_the_okw_tt = {
 	custom_effect_tooltip = GER_reform_the_okw_change
+}
+GER_wehrmacht_dynamic_modifier_tt = {
+	custom_effect_tooltip = GER_wehrmacht_change
 }

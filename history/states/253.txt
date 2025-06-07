@@ -15,6 +15,6 @@ state = {
 	}
 	manpower = 269123
 	buildings_max_level_factor = 1
-	state_category = wasteland
+	state_category = rural
 	local_supplies = 0
 }

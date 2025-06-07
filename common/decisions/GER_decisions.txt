@@ -342,7 +342,7 @@ GER_autarky_category = {
 		remove_effect = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_german_economy_local_resources_factor = 0.05
+				GER_mefo_bills_local_resources_factor = 0.05
 				tooltip = local_resources_factor_tt
 			}
 		}
@@ -364,7 +364,7 @@ GER_autarky_category = {
 		remove_effect = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_german_economy_min_export = -0.05
+				GER_mefo_bills_min_export = -0.05
 				tooltip = min_export_tt
 			}
 		}
