@@ -133,7 +133,7 @@
 				126 = {
 					remove_core_of = CZE
 				}
-				234 = {
+				251 = {
 					transfer_state_to = POL
 					add_core_of = POL
 					remove_core_of = CZE
@@ -162,7 +162,7 @@
 			factor = 10
 		}
 		completion_reward = {
-			273 = {
+			251 = {
 				transfer_state_to = GER
 				add_core_of = GER
 			}
@@ -2496,7 +2496,7 @@
 			custom_effect_tooltip = GER_appoint_okw_tooltip
 			GER_wehrmacht_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_wehrmacht_army_infantry_attack_factor  = 0.075
+				GER_wehrmacht_army_infantry_attack_factor = 0.075
 				tooltip = army_infantry_attack_factor_tt
 			}
 			add_to_variable = {
@@ -2504,11 +2504,11 @@
 				tooltip = max_command_power_mult_tt
 			}
 			add_to_variable = {
-				GER_wehrmacht_org_loss_when_moving  = -0.1
+				GER_wehrmacht_org_loss_when_moving = -0.1
 				tooltip = org_loss_when_moving_tt
 			}
 			add_to_variable = {
-				GER_wehrmacht_experience_gain_army_factor  = 0.1
+				GER_wehrmacht_experience_gain_army_factor = 0.1
 				tooltip = experience_gain_army_factor_tt
 			}
 		}
@@ -2518,7 +2518,7 @@
 		icon = GFX_josef_dietrich
 		x = -20
 		y = 1
-		cost = 1
+		cost = 0
 		text_icon = GER_inner_circle_focus_style
 		prerequisite = {
 			focus = GER_appoint_the_okw
@@ -2532,7 +2532,7 @@
 		}
 		completion_reward = {
 			country_event = germany.2
-			set_country_flag = GER_dietrich
+			set_country_flag = GER_dietrich_1
 		}
 	}
 	focus = {
@@ -2920,17 +2920,14 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_sepp_dietrich
 		}
 		relative_position_id = GER_appoint_sepp_dietrich
 		available = {
 			set_temp_variable = {
-				temp_focus_days = 5
-			}
-			multiply_temp_variable = {
-				temp_focus_days = 7
+				level_one_days = 750
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -2953,13 +2950,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_dietrich_1
 		}
 		relative_position_id = GER_dietrich_1
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 30
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Sepp Dietrich"
+					FLAG_DAYS = [?GER_dietrich_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -2973,13 +2980,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_dietrich_2
 		}
 		relative_position_id = GER_dietrich_2
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 60
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Sepp Dietrich"
+					FLAG_DAYS = [?GER_dietrich_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -2993,13 +3010,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_dietrich_3
 		}
 		relative_position_id = GER_dietrich_3
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 90
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Sepp Dietrich"
+					FLAG_DAYS = [?GER_dietrich_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3013,7 +3040,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = -14
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -3026,6 +3053,7 @@
 		}
 		completion_reward = {
 			country_event = germany.3
+			set_country_flag = GER_guderian_1
 		}
 	}
 	focus = {
@@ -3034,13 +3062,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_heinz_guderian
 		}
 		relative_position_id = GER_appoint_heinz_guderian
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Heinz Guderian"
+					FLAG_DAYS = [?GER_guderian_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3054,13 +3092,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_guderian_1
 		}
 		relative_position_id = GER_guderian_1
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 30
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Heinz Guderian"
+					FLAG_DAYS = [?GER_guderian_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3074,13 +3122,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_guderian_2
 		}
 		relative_position_id = GER_guderian_2
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 60
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Heinz Guderian"
+					FLAG_DAYS = [?GER_guderian_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3094,13 +3152,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_guderian_3
 		}
 		relative_position_id = GER_guderian_3
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 90
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Heinz Guderian"
+					FLAG_DAYS = [?GER_guderian_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3289,7 +3357,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -3302,6 +3370,7 @@
 		}
 		completion_reward = {
 			country_event = germany.5
+			set_country_flag = GER_kluge_1
 		}
 	}
 	focus = {
@@ -3310,13 +3379,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_günther_von_kluge
 		}
 		relative_position_id = GER_appoint_günther_von_kluge
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Günther von Kluge"
+					FLAG_DAYS = [?GER_kluge_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3330,7 +3409,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_kluge_1
 		}
@@ -3350,7 +3429,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.3
 		prerequisite = {
 			focus = GER_kluge_2
 		}
@@ -3370,7 +3449,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_kluge_3
 		}
@@ -3509,7 +3588,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 6
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -3522,6 +3601,7 @@
 		}
 		completion_reward = {
 			country_event = germany.6
+			set_country_flag = GER_student_1
 		}
 	}
 	focus = {
@@ -3690,13 +3770,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_kurt_student
 		}
 		relative_position_id = GER_appoint_kurt_student
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Günther von Kluge"
+					FLAG_DAYS = [?GER_student_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3710,7 +3800,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_student_1
 		}
@@ -3730,7 +3820,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_student_2
 		}
@@ -3750,7 +3840,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_student_3
 		}
@@ -3770,7 +3860,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = -6
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -3783,6 +3873,7 @@
 		}
 		completion_reward = {
 			country_event = germany.4
+			set_country_flag = GER_model_1
 		}
 	}
 	focus = {
@@ -3791,13 +3882,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_walter_model
 		}
 		relative_position_id = GER_appoint_walter_model
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Walter Model"
+					FLAG_DAYS = [?GER_model_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3811,13 +3912,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_model_1
 		}
 		relative_position_id = GER_model_1
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 30
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Walter Model"
+					FLAG_DAYS = [?GER_model_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3831,13 +3942,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_model_2
 		}
 		relative_position_id = GER_model_2
 		available = {
-			always = yes
+				set_temp_variable = {
+				level_one_days = 60
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Walter Model"
+					FLAG_DAYS = [?GER_model_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3851,13 +3972,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_model_3
 		}
 		relative_position_id = GER_model_3
 		available = {
-			always = yes
+				set_temp_variable = {
+				level_one_days = 90
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Walter Model"
+					FLAG_DAYS = [?GER_model_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -4018,7 +4149,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 14
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -4031,6 +4162,7 @@
 		}
 		completion_reward = {
 			country_event = germany.7
+			set_country_flag = GER_kesselring_1
 		}
 	}
 	focus = {
@@ -4039,13 +4171,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_albert_kesselring
 		}
 		relative_position_id = GER_appoint_albert_kesselring
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Albert Kesselring"
+					FLAG_DAYS = [?GER_kesselring_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -4059,7 +4201,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_kesselring_1
 		}
@@ -4079,7 +4221,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_kesselring_2
 		}
@@ -4099,7 +4241,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_kesselring_3
 		}
@@ -4240,7 +4382,7 @@
 		x = 20
 		text_icon = GER_inner_circle_focus_style
 		y = 1
-		cost = 1
+		cost = 0
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -4253,6 +4395,7 @@
 		}
 		completion_reward = {
 			country_event = germany.8
+			set_country_flag = GER_milch_1
 		}
 	}
 	focus = {
@@ -4261,13 +4404,23 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 107.2
 		prerequisite = {
 			focus = GER_appoint_erhard_milch
 		}
 		relative_position_id = GER_appoint_erhard_milch
 		available = {
-			always = yes
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Erhard Milch"
+					FLAG_DAYS = [?GER_milch_days]
+				}
+				always = no
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -4281,7 +4434,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 4.3
 		prerequisite = {
 			focus = GER_milch_1
 		}
@@ -4301,7 +4454,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 8.6
 		prerequisite = {
 			focus = GER_milch_2
 		}
@@ -4321,7 +4474,7 @@
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 1
+		cost = 12.9
 		prerequisite = {
 			focus = GER_milch_3
 		}
