@@ -1,0 +1,2007 @@
+﻿focus_tree = {
+	id = hungary_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = {
+		x = 5000
+		y = 5000
+	}
+	focus = {
+		id = HUN_politic_1
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_2
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_1
+		mutually_exclusive = {
+			focus = HUN_politic_3
+		}
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_3
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = HUN_politic_2
+		}
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_4
+		icon = GFX_goal_unknown
+		x = -3
+		y = 2
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_2
+			focus = HUN_politic_3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_4
+		prerequisite = {
+			focus = HUN_politic_4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_6
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_7
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_6
+		prerequisite = {
+			focus = HUN_politic_6
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_politic_8
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_7
+		prerequisite = {
+			focus = HUN_politic_7
+		}
+		prerequisite = {
+			focus = HUN_horty1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch
+		icon = GFX_goal_unknown
+		x = -6
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch1
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch
+		prerequisite = {
+			focus = HUN_monarch
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_king1
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch1
+		mutually_exclusive = {
+			focus = HUN_king2
+		}
+		prerequisite = {
+			focus = HUN_monarch1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_king2
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch1
+		prerequisite = {
+			focus = HUN_monarch1
+		}
+		available = {
+			always = yes
+		}
+		mutually_exclusive = {
+			focus = HUN_king1
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch2
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		cost = 5
+		relative_position_id = HUN_monarch1
+		prerequisite = {
+			focus = HUN_king1
+			focus = HUN_king2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch3
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 5
+		relative_position_id = HUN_monarch1
+		prerequisite = {
+			focus = HUN_king1
+			focus = HUN_king2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch4
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch2
+		prerequisite = {
+			focus = HUN_monarch2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch3
+		prerequisite = {
+			focus = HUN_monarch3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 5
+		relative_position_id = HUN_monarch1
+		prerequisite = {
+			focus = HUN_monarch4
+		}
+		prerequisite = {
+			focus = HUN_monarch5
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_monarch7
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_monarch4
+		prerequisite = {
+			focus = HUN_monarch4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king1
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king
+		prerequisite = {
+			focus = HUN_fascist_king
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king2
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king1
+		prerequisite = {
+			focus = HUN_fascist_king1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king3
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king
+		prerequisite = {
+			focus = HUN_fascist_king
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king4
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king3
+		prerequisite = {
+			focus = HUN_fascist_king3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_fascist_king
+		prerequisite = {
+			focus = HUN_fascist_king
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = HUN_fascist_king
+		prerequisite = {
+			focus = HUN_fascist_king5
+		}
+		prerequisite = {
+			focus = HUN_fascist_king2
+		}
+		prerequisite = {
+			focus = HUN_fascist_king4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king7
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king
+		prerequisite = {
+			focus = HUN_fascist_king
+			focus = HUN_horty4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_fascist_king8
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_fascist_king2
+		prerequisite = {
+			focus = HUN_fascist_king2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty1
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_horty
+		prerequisite = {
+			focus = HUN_horty
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty2
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_horty
+		prerequisite = {
+			focus = HUN_horty
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty3
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_horty
+		prerequisite = {
+			focus = HUN_horty
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_horty3
+		prerequisite = {
+			focus = HUN_horty3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_horty5
+		prerequisite = {
+			focus = HUN_horty5
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_horty4
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_horty
+		prerequisite = {
+			focus = HUN_horty1
+		}
+		prerequisite = {
+			focus = HUN_horty2
+		}
+		prerequisite = {
+			focus = HUN_horty3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = HUN_horty
+		prerequisite = {
+			focus = HUN_horty4
+			focus = HUN_fascist_king
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil1
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_mil
+		prerequisite = {
+			focus = HUN_mil
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil2
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_mil1
+		prerequisite = {
+			focus = HUN_mil1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil3
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_mil1
+		prerequisite = {
+			focus = HUN_mil1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil4
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 5
+		relative_position_id = HUN_mil
+		prerequisite = {
+			focus = HUN_mil
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_mil5
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_mil
+		prerequisite = {
+			focus = HUN_mil
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions
+		icon = GFX_goal_unknown
+		x = -5
+		y = 7
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_monarch6
+			focus = HUN_fascist_king6
+			focus = HUN_mil2
+			focus = HUN_mil3
+			focus = HUN_mil4
+		}
+		mutually_exclusive = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions1
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions2
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions3
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions4
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions5
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions3
+		prerequisite = {
+			focus = HUN_exploit_regions3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_exploit_regions13
+		prerequisite = {
+			focus = HUN_exploit_regions13
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions7
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions2
+		prerequisite = {
+			focus = HUN_exploit_regions2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions8
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions7
+		prerequisite = {
+			focus = HUN_exploit_regions7
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions9
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions2
+		prerequisite = {
+			focus = HUN_exploit_regions2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions10
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions9
+		prerequisite = {
+			focus = HUN_exploit_regions9
+		}
+		mutually_exclusive = {
+			focus = HUN_exploit_regions14
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions11
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions12
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions4
+		prerequisite = {
+			focus = HUN_exploit_regions4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions13
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions4
+		prerequisite = {
+			focus = HUN_exploit_regions4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions14
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_exploit_regions12
+		prerequisite = {
+			focus = HUN_exploit_regions12
+		}
+		mutually_exclusive = {
+			focus = HUN_exploit_regions10
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_exploit_regions15
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 5
+		relative_position_id = HUN_exploit_regions
+		prerequisite = {
+			focus = HUN_exploit_regions10
+			focus = HUN_exploit_regions14
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		cost = 5
+		relative_position_id = HUN_politic_1
+		prerequisite = {
+			focus = HUN_monarch6
+			focus = HUN_fascist_king6
+			focus = HUN_mil2
+			focus = HUN_mil3
+			focus = HUN_mil4
+		}
+		mutually_exclusive = {
+			focus = HUN_exploit_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions1
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions2
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions3
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions4
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions5
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions1
+		prerequisite = {
+			focus = HUN_integrate_regions1
+			focus = HUN_integrate_regions3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions7
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions6
+		prerequisite = {
+			focus = HUN_integrate_regions6
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions8
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions6
+		prerequisite = {
+			focus = HUN_integrate_regions6
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions9
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_integrate_regions6
+		prerequisite = {
+			focus = HUN_integrate_regions7
+			focus = HUN_integrate_regions8
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions10
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions3
+		prerequisite = {
+			focus = HUN_integrate_regions3
+			focus = HUN_integrate_regions1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions11
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions10
+		prerequisite = {
+			focus = HUN_integrate_regions10
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions12
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions10
+		prerequisite = {
+			focus = HUN_integrate_regions10
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions13
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_integrate_regions10
+		prerequisite = {
+			focus = HUN_integrate_regions11
+			focus = HUN_integrate_regions12
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions13
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HUN_integrate_regions10
+		prerequisite = {
+			focus = HUN_integrate_regions11
+			focus = HUN_integrate_regions12
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions14
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions5
+		prerequisite = {
+			focus = HUN_integrate_regions5
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions15
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions5
+		prerequisite = {
+			focus = HUN_integrate_regions5
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions16
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions14
+		prerequisite = {
+			focus = HUN_integrate_regions14
+			focus = HUN_integrate_regions15
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions17
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HUN_integrate_regions15
+		prerequisite = {
+			focus = HUN_integrate_regions15
+			focus = HUN_integrate_regions14
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions18
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = HUN_integrate_regions5
+		prerequisite = {
+			focus = HUN_integrate_regions17
+			focus = HUN_integrate_regions16
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_integrate_regions19
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 5
+		relative_position_id = HUN_integrate_regions
+		prerequisite = {
+			focus = HUN_integrate_regions9
+			focus = HUN_integrate_regions13
+			focus = HUN_integrate_regions18
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army1
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army2
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army3
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = HUN_army2
+		prerequisite = {
+			focus = HUN_army2
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army4
+		icon = GFX_goal_unknown
+		x = -2
+		y = 2
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army5
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = HUN_army6
+		}
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army6
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = HUN_army5
+		}
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army7
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army5
+			focus = HUN_army6
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army8
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = HUN_army9
+		}
+		relative_position_id = HUN_army7
+		prerequisite = {
+			focus = HUN_army7
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army9
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = HUN_army8
+		}
+		relative_position_id = HUN_army7
+		prerequisite = {
+			focus = HUN_army7
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army10
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army11
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army1
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army12
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = HUN_army11
+		prerequisite = {
+			focus = HUN_army11
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army13
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		relative_position_id = HUN_army1
+		prerequisite = {
+			focus = HUN_army3
+		}
+		prerequisite = {
+			focus = HUN_army8
+			focus = HUN_army9
+		}
+		prerequisite = {
+			focus = HUN_army12
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army14
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = HUN_army13
+		mutually_exclusive = {
+			focus = HUN_army18
+		}
+		prerequisite = {
+			focus = HUN_army13
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army15
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = HUN_army14
+		prerequisite = {
+			focus = HUN_army14
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army16
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = HUN_army15
+		prerequisite = {
+			focus = HUN_army15
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army17
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = HUN_army16
+		prerequisite = {
+			focus = HUN_army16
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army18
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = HUN_army13
+		prerequisite = {
+			focus = HUN_army13
+		}
+			mutually_exclusive = {
+			focus = HUN_army14
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army19
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = HUN_army18
+		prerequisite = {
+			focus = HUN_army18
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army20
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = HUN_army19
+		mutually_exclusive = {
+			focus = HUN_army21
+		}
+		prerequisite = {
+			focus = HUN_army19
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army21
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = HUN_army20
+		}
+		relative_position_id = HUN_army19
+		prerequisite = {
+			focus = HUN_army19
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HUN_army22
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = HUN_army19
+		prerequisite = {
+			focus = HUN_army20
+			focus = HUN_army21
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+}
