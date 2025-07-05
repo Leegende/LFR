@@ -2,6 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "supply_station_mesh"
 		file = "gfx/models/buildings/supply_station.mesh"
+		scale = 1.4
 
 		meshsettings = {
 			name = "supply_station_Shape"

@@ -7,3 +7,6 @@ GER_failed_reform_the_okw_tt = {
 GER_wehrmacht_dynamic_modifier_tt = {
 	custom_effect_tooltip = GER_wehrmacht_change
 }
+HUN_national_mood_dynamic_modifier_tt = {
+	custom_effect_tooltip = HUN_national_mood_change
+}

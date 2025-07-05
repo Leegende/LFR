@@ -316,11 +316,9 @@ PixelShader =
 			float vSnowAlpha = 1-vSpec;
 			diffuse.rgb = GetOverlay( diffuse.rgb, TerrainColor.rgb, COLORMAP_OVERLAY_STRENGTH );
 
-		#ifndef LOW_END_GFX
 			float4 vMudSnow = GetMudSnowColor( Input.prepos, SnowMudData );	
 			diffuse.rgb = ApplySnow( diffuse.rgb, Input.prepos, normal, vMudSnow, SnowTexture, CityLightsAndSnowNoise, vGlossiness, vSnowAlpha );
 			diffuse.rgb = GetMudColor( diffuse.rgb, vMudSnow, Input.prepos, normal, vGlossiness, vSpec, MudDiffuseGloss, MudNormalSpec );
-		#endif
 							
 			// Gradient Borders
 			float vBloomAlpha = 0.0f;
@@ -387,12 +385,8 @@ PixelShader =
 			vOut += CityLights * CITY_LIGHTS_INTENSITY * CityLightsMask * vNightFactor;
 		#endif
 
-			float3 vFOW = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
-			vOut = lerp( vFOW, vOut, BORDER_FOW_REMOVAL_FACTOR * ( 1 - vBloomAlpha ) );
-		
-		#ifndef LOW_END_GFX
-			vOut = ApplyDistanceFog( vOut, Input.prepos );
-		#endif
+			//float3 vFOW = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
+			//vOut = lerp( vFOW, vOut, BORDER_FOW_REMOVAL_FACTOR * ( 1 - vBloomAlpha ) );
 			
 			vOut = DayNightWithBlend( vOut, vGlobeNormal, lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 			

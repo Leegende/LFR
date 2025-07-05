@@ -3,13 +3,13 @@ PixelShader =
 	Code
 	[[
 	
-	static const float HEIGHT_FOG_END = 0;
-	static const float HEIGHT_FOG_START = 0;
-	static const float HEIGHT_FOG_POW = 0;
-	static const float HEIGHT_FOG_MAX = 0;
+	static const float HEIGHT_FOG_END = 15.0;
+	static const float HEIGHT_FOG_START = 12.0;
+	static const float HEIGHT_FOG_POW = 3.5;
+	static const float HEIGHT_FOG_MAX = 1.0;
 	
-	static const float FOW_TRANSPARENCY_MIN = 0.0;
-	static const float FOW_TRANSPARENCY_MAX = 0.0;
+	static const float FOW_TRANSPARENCY_MIN = 0.3;
+	static const float FOW_TRANSPARENCY_MAX = 0.9;
 	
 	static const float FOW_COLOR_MIN = 0.2;
 	static const float FOW_COLOR_MAX = 1.0;
@@ -78,14 +78,12 @@ PixelShader =
 	
 	float3 ApplyFOW( float3 Color, float FogColorFactor, float FogAlphaFactor )
 	{
-		float3 FogColor = lerp(DARK_FOW_COLOR, BRIGHT_FOW_COLOR, FogColorFactor);
-		return lerp(Color, FogColor, FogAlphaFactor);
+		return Color;
 	}
 	
 	float3 ApplyFOW( float3 Color, in sampler2D FOWTexture, float4 UV )
 	{
-		float4 FogValues = tex2Dproj( FOWTexture, UV );
-		return ApplyFOW( Color, FogValues.y, FogValues.z );
+		return Color;
 	}
 
 	]]

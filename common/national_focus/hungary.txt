@@ -26,6 +26,7 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_political_power = 120
 		}
 	}
 	focus = {
@@ -48,6 +49,16 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_advisor_cost_factor = -0.25
+				tooltip = political_advisor_cost_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -70,6 +81,16 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_war_support = 0.025
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = 0.15
+				tooltip = political_power_gain_tt
+			}
 		}
 	}
 	focus = {
@@ -182,12 +203,31 @@
 			focus = HUN_politic_1
 		}
 		available = {
-			always = yes
+			NOT = {
+				OR = {
+					has_completed_focus = HUN_fascist_king
+					has_completed_focus = HUN_horty
+				}
+			}
 		}
 		ai_will_do = {
 			factor = -99999
 		}
 		completion_reward = {
+			add_stability = -0.1
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_neutrality_drift = 0.05
+				tooltip = neutrality_drift_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_stability_weekly = 0.001
+				tooltip = stability_weekly_tt
+			}
 		}
 	}
 	focus = {
@@ -228,7 +268,9 @@
 		ai_will_do = {
 			factor = -99999
 		}
+		###austrian king -> slovakia integration
 		completion_reward = {
+
 		}
 	}
 	focus = {
@@ -250,7 +292,14 @@
 		ai_will_do = {
 			factor = -99999
 		}
+		####hungarian king -> transylvania integration
 		completion_reward = {
+			HUN_otto_von_habsburg = {
+				promote_character = {
+					ideology = neutrality
+				}
+			}
+			
 		}
 	}
 	focus = {
@@ -271,6 +320,14 @@
 			factor = -99999
 		}
 		completion_reward = {
+			254 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -383,7 +440,12 @@
 			focus = HUN_politic_1
 		}
 		available = {
-			always = yes
+			NOT = {
+				OR = {
+					has_completed_focus = HUN_monarch
+					has_completed_focus = HUN_horty
+				}
+			}
 		}
 		ai_will_do = {
 			factor = -99999
@@ -561,7 +623,12 @@
 			focus = HUN_politic_1
 		}
 		available = {
-			always = yes
+			NOT = {
+				OR = {
+					has_completed_focus = HUN_monarch
+					has_completed_focus = HUN_fascist_king
+				}
+			}
 		}
 		ai_will_do = {
 			factor = -99999
@@ -1908,7 +1975,7 @@
 		prerequisite = {
 			focus = HUN_army13
 		}
-			mutually_exclusive = {
+		mutually_exclusive = {
 			focus = HUN_army14
 		}
 		cost = 5

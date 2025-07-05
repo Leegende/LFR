@@ -1,3 +1,18 @@
-characters={
+characters = {
+	HUN_otto_von_habsburg = {
+		name = HUN_otto_von_habsburg
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_hungary_otto_von_hapsburg"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				HUN_the_habsburg_prince
+			}
+			expire = "1965.1.1.1"
+		}
+	}
 	
 }

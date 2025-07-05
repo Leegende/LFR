@@ -117,3 +117,14 @@ GER_wehrmacht = {
 	training_time_factor = GER_wehrmacht_training_time_factor
 	unit_leader_as_advisor_cp_cost_factor = GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor
 }
+HUN_national_mood = {
+	enable = {
+		always = yes
+	}
+	icon = GFX_idea_GER_army
+	political_advisor_cost_factor = HUN_national_mood_political_advisor_cost_factor
+	political_power_gain = HUN_national_mood_political_power_gain
+	neutrality_drift = HUN_national_mood_neutrality_drift
+	fascism_drift = HUN_national_mood_fascism_drift
+	stability_weekly = HUN_national_mood_stability_weekly
+}
