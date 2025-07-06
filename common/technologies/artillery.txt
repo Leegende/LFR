@@ -79,8 +79,15 @@ technologies = {
 		pack_anti_air = {
 			anti_air_attack = 0.1
 		}
-
-
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
 		path = {
 			leads_to_tech = light_artillery
 		}
@@ -91,7 +98,7 @@ technologies = {
 			leads_to_tech = light_artillery_upgrade1
 		}
 		research_cost = 1
-		start_year = 1937
+		start_year = 1938
 		folder = {
 			name = artillery_folder
 			position = {
@@ -108,8 +115,8 @@ technologies = {
 		}
 	}
 	light_artillery = {
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1939
 		enable_equipments = {
 			pack_artillery_equipment_1
 		}
@@ -133,8 +140,8 @@ technologies = {
 		}
 	}
 	light_anti_tank = {
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1939
 		enable_equipments = {
 			pack_anti_tank_equipment_1
 		}
@@ -158,6 +165,18 @@ technologies = {
 		}
 	}
 	light_artillery_upgrade1 = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
 		path = {
 			leads_to_tech = light_artillery1
 		}
@@ -168,7 +187,7 @@ technologies = {
 			leads_to_tech = light_artillery_upgrade2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1940
 		folder = {
 			name = artillery_folder
 			position = {
@@ -188,8 +207,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1941
 		enable_equipments = {
 			pack_artillery_equipment_2
 		}
@@ -213,8 +232,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1941
 		enable_equipments = {
 			pack_anti_tank_equipment_2
 		}
@@ -235,6 +254,18 @@ technologies = {
 		}
 	}
 	light_artillery_upgrade2 = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
 		ai_will_do = {
 			base = -9999999
 		}
@@ -245,7 +276,7 @@ technologies = {
 			leads_to_tech = light_anti_tank2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = artillery_folder
 			position = {
@@ -262,8 +293,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1943
 		enable_equipments = {
 			pack_artillery_equipment_3
 		}
@@ -287,8 +318,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1943
 		enable_equipments = {
 			pack_anti_tank_equipment_3
 		}
@@ -309,6 +340,18 @@ technologies = {
 		}
 	}
 	medium_artillery_upgrade = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
 		ai_will_do = {
 			base = -9999999
 		}
@@ -322,7 +365,7 @@ technologies = {
 			leads_to_tech = medium_artillery_upgrade1
 		}
 		research_cost = 1
-		start_year = 1937
+		start_year = 1938
 		folder = {
 			name = artillery_folder
 			position = {
@@ -339,8 +382,8 @@ technologies = {
 		ai_will_do = {
 			base = -9999999
 		}
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1939
 		enable_equipments = {
 			artillery_equipment_1
 		}
@@ -361,11 +404,11 @@ technologies = {
 		}
 	}
 	medium_anti_tank = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1939
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
@@ -386,6 +429,18 @@ technologies = {
 		}
 	}
 	medium_artillery_upgrade1 = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
 		ai_will_do = {
 			base = -9999999
 		}
@@ -399,7 +454,7 @@ technologies = {
 			leads_to_tech = medium_artillery_upgrade2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1940
 		folder = {
 			name = artillery_folder
 			position = {
@@ -413,11 +468,11 @@ technologies = {
 		}
 	}
 	medium_artillery1 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1941
 		enable_equipments = {
 			artillery_equipment_2
 		}
@@ -438,11 +493,11 @@ technologies = {
 		}
 	}
 	medium_anti_tank1 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1941
 		enable_equipments = {
 			anti_tank_equipment_2
 		}
@@ -463,6 +518,18 @@ technologies = {
 		}
 	}
 	medium_artillery_upgrade2 = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
 		ai_will_do = {
 			base = -9999999
 		}
@@ -473,7 +540,7 @@ technologies = {
 			leads_to_tech = medium_anti_tank2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = artillery_folder
 			position = {
@@ -487,11 +554,11 @@ technologies = {
 		}
 	}
 	medium_artillery2 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1943
 		enable_equipments = {
 			artillery_equipment_3
 		}
@@ -512,11 +579,11 @@ technologies = {
 		}
 	}
 	medium_anti_tank2 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1943
 		enable_equipments = {
 			anti_tank_equipment_3
 		}
@@ -537,6 +604,21 @@ technologies = {
 		}
 	}
 	heavy_artillery_upgrade = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
 		path = {
 			leads_to_tech = heavy_artillery
 		}
@@ -550,7 +632,7 @@ technologies = {
 			leads_to_tech = heavy_artillery_upgrade1
 		}
 		research_cost = 1
-		start_year = 1937
+		start_year = 1938
 		folder = {
 			name = artillery_folder
 			position = {
@@ -564,11 +646,11 @@ technologies = {
 		}
 	}
 	heavy_artillery = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1939
 		enable_equipments = {
 			heavy_artillery_equipment_1
 		}
@@ -589,11 +671,11 @@ technologies = {
 		}
 	}
 	heavy_anti_tank = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1939
 		enable_equipments = {
 			heavy_anti_tank_equipment_1
 		}
@@ -614,6 +696,21 @@ technologies = {
 		}
 	}
 	heavy_artillery_upgrade1 = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
 		path = {
 			leads_to_tech = heavy_artillery1
 		}
@@ -627,7 +724,7 @@ technologies = {
 			leads_to_tech = heavy_artillery_upgrade2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1940
 		folder = {
 			name = artillery_folder
 			position = {
@@ -641,11 +738,11 @@ technologies = {
 		}
 	}
 	heavy_artillery1 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1941
 		enable_equipments = {
 			heavy_artillery_equipment_2
 		}
@@ -666,11 +763,11 @@ technologies = {
 		}
 	}
 	heavy_anti_tank1 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1941
 		enable_equipments = {
 			heavy_anti_tank_equipment_2
 		}
@@ -691,6 +788,21 @@ technologies = {
 		}
 	}
 	heavy_artillery_upgrade2 = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
 		ai_will_do = {
 			base = -9999999
 		}
@@ -701,7 +813,7 @@ technologies = {
 			leads_to_tech = heavy_anti_tank2
 		}
 		research_cost = 1
-		start_year = 1938
+		start_year = 1942
 		folder = {
 			name = artillery_folder
 			position = {
@@ -715,11 +827,11 @@ technologies = {
 		}
 	}
 	heavy_artillery2 = {
-		research_cost = 1
+		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
 		}
-		start_year = 1938
+		start_year = 1943
 		enable_equipments = {
 			heavy_artillery_equipment_3
 		}
@@ -740,8 +852,8 @@ technologies = {
 		}
 	}
 	heavy_anti_tank2 = {
-		research_cost = 1
-		start_year = 1938
+		research_cost = 1.5
+		start_year = 1943
 		ai_will_do = {
 			base = -9999999
 		}

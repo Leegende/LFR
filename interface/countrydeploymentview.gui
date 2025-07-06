@@ -385,7 +385,7 @@ guiTypes = {
 		iconType = {
 			name = "can_paradrop_icon"
 			spriteType = "GFX_can_paradrop_icon_small"
-			position = { x = 7 y = 42 }
+			position = { x = -999 y = 42 }
 			frame = 2
 			alwaystransparent = yes
 		}

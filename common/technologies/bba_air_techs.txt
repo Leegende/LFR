@@ -34,7 +34,7 @@ technologies = {
 			leads_to_tech = scout_plane1
 			research_cost_coeff = 1
 		}
-		research_cost = 2
+		research_cost = 0
 		start_year = 1933
 		folder = {
 			name = bba_air_techs_folder
@@ -313,9 +313,6 @@ technologies = {
 		}
 	}
 	early_bomber = {
-		enable_equipments = {
-			tac_bomber_equipment_0
-		}
 		path = {
 			leads_to_tech = heavy_fighter1
 			research_cost_coeff = 1
@@ -328,7 +325,7 @@ technologies = {
 			leads_to_tech = strategic_bomber1
 			research_cost_coeff = 1
 		}
-		research_cost = 2
+		research_cost = 0
 		start_year = 1933
 		ai_will_do = {
 			base = -9999999

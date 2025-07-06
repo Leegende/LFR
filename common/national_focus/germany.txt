@@ -1187,6 +1187,7 @@
 		cost = 1
 		prerequisite = {
 			focus = GER_long_term
+			focus = GER_short_term
 		}
 		relative_position_id = GER_four_year_plan
 		mutually_exclusive = {
@@ -1395,6 +1396,7 @@
 		cost = 1
 		prerequisite = {
 			focus = GER_short_term
+			focus = GER_long_term
 		}
 		mutually_exclusive = {
 			focus = GER_economical_integration

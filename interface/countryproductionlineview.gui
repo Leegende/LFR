@@ -1699,7 +1699,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "expand"
-			position = { x=13 y=8 }
+			position = { x=-9999 y=8 }
 			quadTextureSprite = "GFX_division_list_column_button"
 			frame = 8
 			clicksound = click_default

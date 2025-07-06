@@ -248,6 +248,7 @@ buildings = {
 		show_on_map = 1
 		base_cost = 999999
 		hide_if_missing_tech = yes
+		
 		icon_frame = 99
 		rocket_production = 0
 		rocket_launch_capacity = 1

@@ -1752,7 +1752,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/early_fighter.dds"
+		texturefile = "gfx/interface/technologies/airbase.dds"
 	}
 	SpriteType = {
 		name = "GFX_fighter1_medium"
@@ -1832,7 +1832,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/early_bomber.dds"
+		texturefile = "gfx/interface/technologies/antiair.dds"
 	}
 	SpriteType = {
 		name = "GFX_jet_tactical_bomber1_medium"
