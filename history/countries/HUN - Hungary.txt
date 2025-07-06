@@ -3,29 +3,36 @@ set_cosmetic_tag = HUN_neutrality
 every_owned_state = {
 	set_state_flag = HUN_INITIAL_STATE
 }
+
 set_variable = {
 	HUN_national_mood_political_advisor_cost_factor = 0
 	tooltip = political_advisor_cost_factor_tt
 }
+
 set_variable = {
 	HUN_national_mood_political_power_gain = 0
 	tooltip = political_power_gain_tt
 }
+
 set_variable = {
 	HUN_national_mood_neutrality_drift = 0
 	tooltip = neutrality_drift_tt
 }
+
 set_variable = {
 	HUN_national_mood_fascism_drift = 0
 	tooltip = fascism_drift_tt
 }
+
 set_variable = {
 	HUN_national_mood_stability_weekly = 0
 	tooltip = stability_weekly_tt
 }
+
 add_dynamic_modifier = {
 	modifier = HUN_national_mood
 }
+
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.6
@@ -39,14 +46,14 @@ set_politics = {
 
 set_popularities = {
 	democratic = 25
-	fascism = 31
+	fascism = 21
 	neutrality = 44
+	communism = 10
 }
 
-create_country_leader = {
-	name = HUN_miklos_horthy
-	picture = GFX_portrait_HUN_miklos_horthy
-	ideology = conservatism
-}
 
+
+recruit_character = HUN_miklós_horthy
 recruit_character = HUN_otto_von_habsburg
+recruit_character = HUN_kalman_daranyi
+recruit_character = HUN_joseph_august_von_habsburg

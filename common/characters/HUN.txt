@@ -1,4 +1,17 @@
 characters = {
+	HUN_miklós_horthy = {
+		name = "Miklós Horthy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = 500
+		}
+	}
 	HUN_otto_von_habsburg = {
 		name = HUN_otto_von_habsburg
 		portraits = {
@@ -6,13 +19,28 @@ characters = {
 				large = "GFX_Portrait_hungary_otto_von_hapsburg"
 			}
 		}
-		country_leader = {
-			ideology = despotism
-			traits = {
-				HUN_the_habsburg_prince
+	}
+	HUN_kalman_daranyi = {
+		name = "HUN_kalman_daranyi"
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_europe_2"
 			}
-			expire = "1965.1.1.1"
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HUN_kalman_daranyi
+			traits = {
+				prime_minister_okyar
+			}
 		}
 	}
-	
+	HUN_joseph_august_von_habsburg = {
+		name = HUN_joseph_august_von_habsburg
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_joseph_august_von_habsburg
+			}
+		}
+	}
 }
