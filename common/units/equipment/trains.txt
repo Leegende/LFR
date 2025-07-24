@@ -7,8 +7,10 @@ equipments = {
 		group_by = archetype
 		sprite = train
 		interface_category = interface_category_land
+		
 	}
 	train_equipment_1 = {
 		archetype = train_equipment
+		build_cost_ic = 10
 	}
 }

@@ -53,6 +53,12 @@ technologies = {
 		}
 	}
 	tech_engineers = {
+		category_engineers_company = {
+			entrenchment = 2
+			river = {
+				attack = 0.15
+			}
+		}
 		path = {
 			leads_to_tech = tech_engineers2
 		}
@@ -74,6 +80,12 @@ technologies = {
 		}
 	}
 	tech_engineers2 = {
+		category_engineers_company = {
+			entrenchment = 2
+			fort = {
+				defence = 0.1
+			}
+		}
 		path = {
 			leads_to_tech = tech_engineers3
 			research_cost_coeff = 1
@@ -96,6 +108,21 @@ technologies = {
 		}
 	}
 	tech_engineers3 = {
+		category_engineers_company = {
+			entrenchment = 2
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+			dense_urban = {
+				attack = 0.25
+				defence = 0.15
+			}
+			town = {
+				attack = 0.1
+				defence = 0.15
+			}
+		}
 		path = {
 			leads_to_tech = tech_engineers4
 		}
@@ -117,6 +144,12 @@ technologies = {
 		}
 	}
 	tech_engineers4 = {
+		category_engineers_company = {
+			entrenchment = 2
+			river = {
+				attack = 0.15
+			}
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -135,6 +168,33 @@ technologies = {
 		}
 	}
 	tech_recon = {
+		category_recon_company = {
+			recon = 2
+			forest = {
+				movement = 0.015
+			}
+			hills = {
+				movement = 0.015
+			}
+			mountain = {
+				movement = 0.015
+			}
+			jungle = {
+				movement = 0.015
+			}
+			marsh = {
+				movement = 0.015
+			}
+			plains = {
+				movement = 0.015
+			}
+			desert = {
+				movement = 0.015
+			}
+			river = {
+				movement = 0.015
+			}
+		}
 		path = {
 			leads_to_tech = tech_recon2
 			research_cost_coeff = 1
@@ -157,6 +217,33 @@ technologies = {
 		}
 	}
 	tech_recon2 = {
+		category_recon_company = {
+			recon = 2
+			forest = {
+				movement = 0.015
+			}
+			hills = {
+				movement = 0.015
+			}
+			mountain = {
+				movement = 0.015
+			}
+			jungle = {
+				movement = 0.015
+			}
+			marsh = {
+				movement = 0.015
+			}
+			plains = {
+				movement = 0.015
+			}
+			desert = {
+				movement = 0.015
+			}
+			river = {
+				movement = 0.015
+			}
+		}
 		path = {
 			leads_to_tech = tech_recon3
 			research_cost_coeff = 1
@@ -179,6 +266,33 @@ technologies = {
 		}
 	}
 	tech_recon3 = {
+		category_recon_company = {
+			recon = 2
+			forest = {
+				movement = 0.015
+			}
+			hills = {
+				movement = 0.015
+			}
+			mountain = {
+				movement = 0.015
+			}
+			jungle = {
+				movement = 0.015
+			}
+			marsh = {
+				movement = 0.015
+			}
+			plains = {
+				movement = 0.015
+			}
+			desert = {
+				movement = 0.015
+			}
+			river = {
+				movement = 0.015
+			}
+		}
 		path = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
@@ -201,6 +315,33 @@ technologies = {
 		}
 	}
 	tech_recon4 = {
+		category_recon_company = {
+			recon = 2
+			forest = {
+				movement = 0.015
+			}
+			hills = {
+				movement = 0.015
+			}
+			mountain = {
+				movement = 0.015
+			}
+			jungle = {
+				movement = 0.015
+			}
+			marsh = {
+				movement = 0.015
+			}
+			plains = {
+				movement = 0.015
+			}
+			desert = {
+				movement = 0.015
+			}
+			river = {
+				movement = 0.015
+			}
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -219,6 +360,10 @@ technologies = {
 		}
 	}
 	tech_military_police = {
+		category_military_police_company = {
+			suppression_factor = 0.2
+			max_organisation = 10
+		}
 		path = {
 			leads_to_tech = tech_military_police2
 			research_cost_coeff = 1
@@ -241,6 +386,10 @@ technologies = {
 		}
 	}
 	tech_military_police2 = {
+		category_military_police_company = {
+			suppression_factor = 0.2
+			max_organisation = 10
+		}
 		path = {
 			leads_to_tech = tech_military_police3
 		}
@@ -262,6 +411,10 @@ technologies = {
 		}
 	}
 	tech_military_police3 = {
+		category_military_police_company = {
+			suppression_factor = 0.2
+			max_organisation = 10
+		}
 		path = {
 			leads_to_tech = tech_military_police4
 		}
@@ -283,6 +436,10 @@ technologies = {
 		}
 	}
 	tech_military_police4 = {
+		category_military_police_company = {
+			suppression_factor = 0.2
+			max_organisation = 10
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -301,6 +458,11 @@ technologies = {
 		}
 	}
 	tech_maintenance_company = {
+		category_maintenance_company = {
+			reliability_factor = 0.1
+			max_strength = 5
+			default_morale = 0.1
+		}
 		path = {
 			leads_to_tech = tech_maintenance_company2
 			research_cost_coeff = 1
@@ -323,6 +485,11 @@ technologies = {
 		}
 	}
 	tech_maintenance_company2 = {
+		category_maintenance_company = {
+			reliability_factor = 0.1
+			max_strength = 5
+			default_morale = 0.1
+		}
 		path = {
 			leads_to_tech = tech_maintenance_company3
 		}
@@ -347,6 +514,11 @@ technologies = {
 		}
 	}
 	tech_maintenance_company3 = {
+		category_maintenance_company = {
+			reliability_factor = 0.1
+			max_strength = 5
+			default_morale = 0.1
+		}
 		path = {
 			leads_to_tech = tech_maintenance_company4
 		}
@@ -368,6 +540,11 @@ technologies = {
 		}
 	}
 	tech_maintenance_company4 = {
+		category_maintenance_company = {
+			reliability_factor = 0.1
+			max_strength = 5
+			default_morale = 0.1
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -386,6 +563,10 @@ technologies = {
 		}
 	}
 	tech_field_hospital = {
+		category_field_hospital_company = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
 		path = {
 			leads_to_tech = tech_field_hospital2
 		}
@@ -407,6 +588,10 @@ technologies = {
 		}
 	}
 	tech_field_hospital2 = {
+		category_field_hospital_company = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
 		path = {
 			leads_to_tech = tech_field_hospital3
 			research_cost_coeff = 1
@@ -429,6 +614,10 @@ technologies = {
 		}
 	}
 	tech_field_hospital3 = {
+		category_field_hospital_company = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
 		path = {
 			leads_to_tech = tech_field_hospital4
 			research_cost_coeff = 1
@@ -451,6 +640,10 @@ technologies = {
 		}
 	}
 	tech_field_hospital4 = {
+		category_field_hospital_company = {
+			casualty_trickleback = 0.15
+			experience_loss_factor = -0.15
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -469,6 +662,10 @@ technologies = {
 		}
 	}
 	tech_logistics_company = {
+		category_logistics_company = {
+			supply_consumption_factor = -0.03
+			fuel_consumption_factor = -0.05
+		}
 		path = {
 			leads_to_tech = tech_logistics_company2
 			research_cost_coeff = 1
@@ -491,6 +688,10 @@ technologies = {
 		}
 	}
 	tech_logistics_company2 = {
+		category_logistics_company = {
+			supply_consumption_factor = -0.03
+			fuel_consumption_factor = -0.05
+		}
 		path = {
 			leads_to_tech = tech_logistics_company3
 			research_cost_coeff = 1
@@ -513,6 +714,10 @@ technologies = {
 		}
 	}
 	tech_logistics_company3 = {
+		category_logistics_company = {
+			supply_consumption_factor = -0.03
+			fuel_consumption_factor = -0.05
+		}
 		path = {
 			leads_to_tech = tech_logistics_company4
 		}
@@ -534,6 +739,10 @@ technologies = {
 		}
 	}
 	tech_logistics_company4 = {
+		category_logistics_company = {
+			supply_consumption_factor = -0.03
+			fuel_consumption_factor = -0.05
+		}
 		research_cost = 1.5
 		ai_will_do = {
 			base = -9999999
@@ -552,6 +761,11 @@ technologies = {
 		}
 	}
 	tech_signal_company = {
+		category_signal_company = {
+			initiative = 0.1
+			max_organisation = 15
+			default_morale = 0.2
+		}
 		path = {
 			leads_to_tech = tech_signal_company2
 		}
@@ -573,6 +787,11 @@ technologies = {
 		}
 	}
 	tech_signal_company2 = {
+		category_signal_company = {
+			initiative = 0.1
+			max_organisation = 15
+			default_morale = 0.2
+		}
 		path = {
 			leads_to_tech = tech_signal_company3
 		}
@@ -594,6 +813,11 @@ technologies = {
 		}
 	}
 	tech_signal_company3 = {
+		category_signal_company = {
+			initiative = 0.1
+			max_organisation = 15
+			default_morale = 0.2
+		}
 		path = {
 			leads_to_tech = tech_signal_company4
 		}
@@ -615,6 +839,11 @@ technologies = {
 		}
 	}
 	tech_signal_company4 = {
+		category_signal_company = {
+			initiative = 0.1
+			max_organisation = 15
+			default_morale = 0.2
+		}
 		research_cost = 1.5
 		start_year = 1944
 		ai_will_do = {

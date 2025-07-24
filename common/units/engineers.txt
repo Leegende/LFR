@@ -23,6 +23,13 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
+		entrenchment = 2
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.20
+			add = yes
+		}
+
 		essential = {
 			support_equipment
 		}

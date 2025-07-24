@@ -883,6 +883,15 @@ technologies = {
 		}
 	}
 	aa_radio = {
+		on_research_complete = {
+			custom_effect_tooltip = tooltip_3
+		}
+		category_anti_air = {
+			anti_air_attack = 0.1
+			ap_attack = 0.1
+			max_organisation = 25
+		}
+		coordination_bonus = 0.025
 		research_cost = 2
 		ai_will_do = {
 			base = -9999999
@@ -901,6 +910,14 @@ technologies = {
 		}
 	}
 	engineer_radio = {
+		on_research_complete = {
+			custom_effect_tooltip = tooltip_3
+		}
+		category_engineers_company = {
+			entrenchment = 2
+			max_strength = 8
+			max_organisation = 25
+		}
 		research_cost = 2
 		ai_will_do = {
 			base = -9999999
@@ -1124,7 +1141,7 @@ technologies = {
 		category_armor = {
 			max_organisation = 5
 			need = {
-				support_equipment  = 3
+				support_equipment = 3
 			}
 			breakthrough = 0.1
 			defense = 0.1
@@ -1162,7 +1179,7 @@ technologies = {
 		category_armor = {
 			max_organisation = 5
 			need = {
-				support_equipment  = 3
+				support_equipment = 3
 			}
 			breakthrough = 0.1
 			defense = 0.1
@@ -1200,7 +1217,7 @@ technologies = {
 		category_armor = {
 			max_organisation = 5
 			need = {
-				support_equipment  = 3
+				support_equipment = 3
 			}
 			breakthrough = 0.1
 			defense = 0.1

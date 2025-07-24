@@ -189,7 +189,7 @@ sub_units = {
 		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
-		active = yes
+		active = no
 		affects_speed = yes
 		type = {
 			motorized

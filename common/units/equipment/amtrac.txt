@@ -347,7 +347,6 @@ equipments = {
 		armor_value = 20
 		ap_attack = 16
 		build_cost_ic = 10
-		lend_lease_cost = 1.5
 		reliability = 1.05
 		resources = {
 			steel = 30

@@ -32,6 +32,18 @@ technologies = {
 			base = -9999999
 		}
 	}
+	enable_stormtroopers = {
+		research_cost = 0
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_subunits = {
+			sturmtruppe
+			amtrac_sturmtruppe
+			motorised_sturmtruppe
+			mechanised_sturmtruppe
+		}
+	}
 	juggle1 = {
 		research_cost = 0
 		folder = {

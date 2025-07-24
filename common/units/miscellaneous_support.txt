@@ -3,7 +3,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = yes
+		active = no
 		affects_speed = no
 		type = {
 			support
@@ -30,7 +30,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = yes
+		active = no
 		affects_speed = no
 		type = {
 			support
@@ -57,7 +57,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		active = yes
+		active = no
 		affects_speed = no
 		type = {
 			support

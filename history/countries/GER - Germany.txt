@@ -333,7 +333,7 @@ add_to_variable = {
 }
 
 add_to_variable = {
-	GER_mefo_bills_consumer_goods_factor = -0.2
+	GER_mefo_bills_consumer_goods_factor = 0
 	tooltip = consumer_goods_factor_tt
 }
 
@@ -420,11 +420,6 @@ add_to_variable = {
 add_to_variable = {
 	GER_mefo_bills_production_speed_industrial_complex_factor = 0
 	tooltip = production_industrial_complex_factor_tt
-}
-
-add_to_variable = {
-	GER_mefo_bills_consumer_goods_factor = 0
-	tooltip = consumer_goods_factor_tt
 }
 
 add_to_variable = {

@@ -133,7 +133,7 @@
 				126 = {
 					remove_core_of = CZE
 				}
-				251 = {
+				212 = {
 					transfer_state_to = POL
 					add_core_of = POL
 					remove_core_of = CZE
@@ -2487,7 +2487,7 @@
 		icon = GFX_appoint_the_okw
 		x = 18
 		y = 0
-		cost = 5
+		cost = 14.3
 		available = {
 			always = yes
 		}
@@ -3294,6 +3294,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = beyond_obstacles
 		}
 	}
 	focus = {
@@ -3313,6 +3314,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = camouflage_mastery
 		}
 	}
 	focus = {
@@ -3332,6 +3334,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = rasputiza
 		}
 	}
 	focus = {
@@ -3351,6 +3354,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = nebelwand
 		}
 	}
 	focus = {
@@ -3483,6 +3487,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = the_prussian_legacy
 		}
 	}
 	focus = {
@@ -3503,6 +3508,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = artillery_bombardment
 		}
 	}
 	focus = {
@@ -3525,6 +3531,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = lessons_of_the_great_war
 		}
 	}
 	focus = {
@@ -3544,6 +3551,9 @@
 			factor = 10
 		}
 		completion_reward = {
+			set_technology = {
+				enable_stormtroopers = 1
+			}
 		}
 	}
 	focus = {
@@ -3563,6 +3573,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = guns_for_everyone
 		}
 	}
 	focus = {
@@ -3582,6 +3593,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = panzerbüchse
 		}
 	}
 	focus = {
@@ -3624,6 +3636,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = combined_arms
 		}
 	}
 	focus = {
@@ -3646,6 +3659,14 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = stukageschader
+				bonus = 2
+				uses = 1
+				technology = CAS2
+				technology = CAS3
+			}
+			add_ideas = stukageschader
 		}
 	}
 	focus = {
@@ -3668,6 +3689,14 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = stukageschader
+				bonus = 2
+				uses = 1
+				technology = CAS2
+				technology = CAS3
+			}
+			add_ideas = flying_artillery
 		}
 	}
 	focus = {
@@ -3687,6 +3716,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = leuna_benzin
 		}
 	}
 	focus = {
@@ -3725,6 +3755,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ideas = flak_vierling
 		}
 	}
 	focus = {
@@ -3764,6 +3795,10 @@
 			factor = 10
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = combined_arms
+				add_idea = combined_arms_2
+			}
 		}
 	}
 	focus = {
@@ -3950,7 +3985,7 @@
 		}
 		relative_position_id = GER_model_2
 		available = {
-				set_temp_variable = {
+			set_temp_variable = {
 				level_one_days = 60
 			}
 			custom_override_tooltip = {
@@ -3980,7 +4015,7 @@
 		}
 		relative_position_id = GER_model_3
 		available = {
-				set_temp_variable = {
+			set_temp_variable = {
 				level_one_days = 90
 			}
 			custom_override_tooltip = {
@@ -4276,7 +4311,7 @@
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				name = GER_3_7_cm_pak
+				name = GER_gen_2_fighter
 				bonus = 1
 				uses = 1
 				technology = fighter2
@@ -4300,6 +4335,12 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_gen_3_fighter
+				bonus = 1
+				uses = 1
+				technology = fighter3
+			}
 		}
 	}
 	focus = {
@@ -4319,6 +4360,37 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ace = {
+				name = "Erich"
+				surname = "Hartmann"
+				callsign = "Bubi"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Gerhard"
+				surname = "Barkhorn"
+				callsign = "Bärchen"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Günther"
+				surname = "Rall"
+				callsign = "Bär"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Adolf"
+				surname = "Galland"
+				callsign = "Abbe"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Hans-Joachim"
+				surname = "Marseilles"
+				callsign = "Pips"
+				type = fighter_genius
+			}
+			add_ideas = nsfk
 		}
 	}
 	focus = {
@@ -4338,6 +4410,40 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_ace = {
+				name = "Werner"
+				surname = "Mölders"
+				callsign = "Werny"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Kurt"
+				surname = "Wegner"
+				callsign = "Kuddel"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Rudolf"
+				surname = "Sauerbruch"
+				callsign = "Sauer"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Otto"
+				surname = "Kittel"
+				callsign = "Otti"
+				type = fighter_genius
+			}
+			add_ace = {
+				name = "Walter"
+				surname = "Novotny"
+				callsign = "Novi"
+				type = fighter_genius
+			}
+			swap_ideas = {
+				remove_idea = nsfk
+				add_idea = GER_learn_from_the_best
+			}
 		}
 	}
 	focus = {

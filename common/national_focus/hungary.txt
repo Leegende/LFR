@@ -111,6 +111,15 @@
 			factor = -99999
 		}
 		completion_reward = {
+			if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon
+				}
+				swap_ideas = {
+					remove_idea = HUN_treaty_of_triannon
+					add_idea = HUN_treaty_of_triannon_1
+				}
+			}
 		}
 	}
 	focus = {
@@ -130,6 +139,18 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			add_research_slot = 1
+			swap_ideas = {
+				remove_idea = HUN_treaty_of_triannon_1
+				add_idea = HUN_treaty_of_triannon_2
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
 		}
 	}
 	focus = {
@@ -149,6 +170,16 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 200
+				state = 200
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_local_resources_factor = 0.1
+				tooltip = local_resources_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -168,6 +199,8 @@
 			factor = -99999
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = HUN_aluminium_concern
 		}
 	}
 	focus = {
@@ -190,6 +223,20 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_politic_8
+				bonus = 1
+				uses = 2
+				technology = advanced_machine_tools
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = concentrated_industry3
+				technology = concentrated_industry4
+				technology = concentrated_industry5
+				technology = dispersed_industry3
+				technology = dispersed_industry4
+				technology = dispersed_industry5
+			}
 		}
 	}
 	focus = {
@@ -268,25 +315,18 @@
 			focus = HUN_monarch1
 		}
 		available = {
-			always = yes
+			neutrality > 0.6
 		}
 		ai_will_do = {
 			factor = -99999
 		}
 		completion_reward = {
-			HUN_otto_von_habsburg = {
-				promote_character = {
-					ideology = despotism
-				}
-			}
 			retire_character = HUN_miklós_horthy
-			effect_tooltip = {
-				create_country_leader = {
-					name = "Otto von Habsburg"
-					picture = "GFX_Portrait_hungary_otto_von_hapsburg"
-					expire = "1965.1.1"
-					ideology = despotism
-				}
+			create_country_leader = {
+				name = "Otto von Habsburg"
+				picture = "GFX_Portrait_hungary_otto_von_hapsburg"
+				expire = "1965.1.1"
+				ideology = despotism
 			}
 		}
 	}
@@ -301,7 +341,7 @@
 			focus = HUN_monarch1
 		}
 		available = {
-			always = yes
+			neutrality > 0.6
 		}
 		mutually_exclusive = {
 			focus = HUN_king1
@@ -310,19 +350,12 @@
 			factor = -99999
 		}
 		completion_reward = {
-			HUN_joseph_august_von_habsburg = {
-				promote_character = {
-					ideology = despotism
-				}
-			}
 			retire_character = HUN_miklós_horthy
-			effect_tooltip = {
-				create_country_leader = {
-					name = "Joseph August von Habsburg"
-					picture = "GFX_Portrait_hungary_otto_von_hapsburg"
-					expire = "1965.1.1"
-					ideology = despotism
-				}
+			create_country_leader = {
+				name = "Joseph August von Habsburg"
+				picture = "GFX_portrait_HUN_joseph_august_von_habsburg"
+				expire = "1965.1.1"
+				ideology = despotism
 			}
 		}
 	}
@@ -473,6 +506,14 @@
 					instant_build = yes
 				}
 			}
+			200 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -516,7 +557,7 @@
 		}
 		completion_reward = {
 			177 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -547,6 +588,34 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_stability_weekly = -0.015
+				tooltip = stability_weekly_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.25
+				tooltip = political_power_gain_tt
+			}
+			add_ideas = war_economy
+			if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon
+				}
+				remove_ideas = HUN_treaty_of_triannon
+			}
+			else_if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_1
+				}
+				remove_ideas = HUN_treaty_of_triannon_1
+			}
+			else_if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_2
+				}
+				remove_ideas = HUN_treaty_of_triannon_2
+			}
 		}
 	}
 	focus = {
@@ -566,6 +635,20 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_stability = -0.05
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.15
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -585,6 +668,24 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_war_support = -0.05
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.05
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			201 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -604,6 +705,23 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.1
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_industrial_complex_factor = -0.25
+				tooltip = production_speed_industrial_complex_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -623,6 +741,35 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.025
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.1
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_start_efficiency_factor = 0.05
+				tooltip = production_factory_start_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_arms_factory_factor = 0.1
+				tooltip = production_speed_arms_factory_factor_tt
+			}
+			200 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -642,6 +789,23 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_industrial_capacity_factory_tt = 0.05
+				tooltip = industrial_capacity_factory_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = -0.1
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.1
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -667,6 +831,16 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 200
+				state = 200
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_local_resources_factor = 0.15
+				tooltip = local_resources_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -706,6 +880,24 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_political_power = -100
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.025
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = -0.05
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_stability_weekly = 0.005
+				tooltip = stability_weekly_tt
+			}
 		}
 	}
 	focus = {
@@ -730,6 +922,13 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_fascism_drift = 0.05
+				tooltip = fascism_drift_tt
+			}
 		}
 	}
 	focus = {
@@ -749,6 +948,23 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_production_speed_infrastructure_factor = 0.1
+				tooltip = production_speed_infrastructure_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_industrial_complex_factor = 0.1
+				tooltip = production_speed_industrial_complex_factor_tt
+			}
+			254 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -768,6 +984,27 @@
 			factor = -99999
 		}
 		completion_reward = {
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_research_speed_factor = 0.15
+				tooltip = research_speed_factor_tt
+			}
+			200 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -787,6 +1024,41 @@
 			factor = -99999
 		}
 		completion_reward = {
+			200 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			254 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = HUN_horty3
+				bonus = 1
+				uses = 2
+				technology = advanced_machine_tools
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = concentrated_industry3
+				technology = concentrated_industry4
+				technology = concentrated_industry5
+				technology = dispersed_industry3
+				technology = dispersed_industry4
+				technology = dispersed_industry5
+			}
 		}
 	}
 	focus = {
@@ -806,6 +1078,33 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_horty5
+				bonus = 0.75
+				uses = 2
+				category = construction
+			}
+			254 = {
+				add_building_construction = {
+					type = steel_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_building_construction = {
+					type = steel_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			200 = {
+				add_building_construction = {
+					type = steel_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -825,6 +1124,30 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_horty3
+				bonus = 1
+				uses = 2
+				technology = advanced_machine_tools
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = concentrated_industry3
+				technology = concentrated_industry4
+				technology = concentrated_industry5
+				technology = dispersed_industry3
+				technology = dispersed_industry4
+				technology = dispersed_industry5
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_fascism_drift = 0.05
+				tooltip = fascism_drift_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_research_speed_factor = 0.15
+				tooltip = research_speed_factor_tt
+			}
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -844,12 +1167,36 @@
 			focus = HUN_horty3
 		}
 		available = {
-			always = yes
+			fascism > 0.4
 		}
 		ai_will_do = {
 			factor = -99999
 		}
 		completion_reward = {
+			add_war_support = 0.1
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				last_election = "1935.12.17"
+				election_frequency = 48
+			}
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_research_speed_factor = 0.05
+				tooltip = research_speed_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_infrastructure_factor = -0.2
+				tooltip = production_speed_infrastructure_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_industrial_complex_factor = -0.35
+				tooltip = production_speed_industrial_complex_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_speed_arms_factory_factor = 0.15
+				tooltip = production_speed_arms_factory_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -870,6 +1217,24 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_political_power = 50
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_production_factory_max_efficiency_factor = 0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_efficiency_gain_factor = 0.05
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_production_factory_start_efficiency_factor = 0.05
+				tooltip = production_factory_start_efficiency_factor_tt
+			}
+			add_to_variable = {
+				HUN_national_mood_line_change_production_efficiency_factor = 0.05
+				tooltip = line_change_production_efficiency_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -889,6 +1254,14 @@
 			factor = -99999
 		}
 		completion_reward = {
+			200 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -908,6 +1281,14 @@
 			factor = -99999
 		}
 		completion_reward = {
+			201 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -927,6 +1308,14 @@
 			factor = -99999
 		}
 		completion_reward = {
+			254 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -946,6 +1335,15 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_ideas = HUN_specialised_research
+			200 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -965,6 +1363,13 @@
 			factor = -99999
 		}
 		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.025
+			HUN_national_mood_dynamic_modifier_tt = yes
+			add_to_variable = {
+				HUN_national_mood_industrial_capacity_factory_tt = 0.1
+				tooltip = industrial_capacity_factory_tt
+			}
 		}
 	}
 	focus = {
@@ -991,6 +1396,24 @@
 			factor = -99999
 		}
 		completion_reward = {
+			if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon
+				}
+				remove_ideas = HUN_treaty_of_triannon
+			}
+			else_if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_1
+				}
+				remove_ideas = HUN_treaty_of_triannon_1
+			}
+			else_if = {
+				limit = {
+					has_idea = HUN_treaty_of_triannon_2
+				}
+				remove_ideas = HUN_treaty_of_triannon_2
+			}
 		}
 	}
 	focus = {

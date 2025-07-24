@@ -258,3 +258,7 @@ NDefines_Graphics.NGraphics.RAILWAY_BRIDGE_LARGE_WIDTH = 0
 NDefines_Graphics.NGraphics.RAILWAY_BRIDGE_GAP_WIDTH = 0
 NDefines_Graphics.NGraphics.RAILWAY_BRIDGE_GAP_LARGE_WIDTH = 0
 NDefines_Graphics.NGraphics.COARSE_RAILWAY_GUN_POSITION_OFFSET = { 0, 0 }
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 240			
+NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1				
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0			
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 0				

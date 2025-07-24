@@ -507,7 +507,6 @@ equipments = {
 		ap_attack = 21
 		build_cost_ic = 8
 		reliability = 1.1
-		lend_lease_cost = 2
 		resources = {
 			steel = 4
 			rubber = 1
