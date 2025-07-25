@@ -28,7 +28,7 @@ sub_units = {
 			support_equipment = 20
 			motorised_equipment = 20
 		}
-		same_support_type = field_hospital
+		same_support_type = signal_company
 	}
 	armored_signal_company = {
 		sprite = infantry
@@ -59,6 +59,6 @@ sub_units = {
 			support_equipment = 20
 			armored_support_vehicle = 20
 		}
-		same_support_type = field_hospital
+		same_support_type = signal_company
 	}
 }
