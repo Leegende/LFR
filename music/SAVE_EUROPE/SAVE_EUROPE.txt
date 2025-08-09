@@ -1,0 +1,39 @@
+music_station = "SAVE_EUROPE"
+music = {
+	song = "Rammstein_-_Sonne"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+
+music_station = "SAVE_EUROPE"
+music = {
+	song = "Better_Off_Alone_x_Clarity_x_Unlock_It_x_Alone"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+
+music_station = "SAVE_EUROPE"
+music = {
+	song = "Rammstein_x_Adolf_Hitler_-_Sonne"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+
+music_station = "SAVE_EUROPE"
+music = {
+	song = "Katy_Perry_-_Hot_N_Cold_(Vriled)"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
