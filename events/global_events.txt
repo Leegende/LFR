@@ -1,0 +1,87 @@
+add_namespace = news
+news_event = {
+	id = news.1
+	title = "Rhineland"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+
+news_event = {
+	id = news.2
+	title = "Anschluss"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+
+news_event = {
+	id = news.3
+	title = "Transfered Sudetenland"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+
+news_event = {
+	id = news.4
+	title = "Memel"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+news_event = {
+	id = news.5
+	title = "First Vienna Award"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+news_event = {
+	id = news.6
+	title = "End of Czechoslovakia"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+news_event = {
+	id = news.7
+	title = "Second Vienna Award"
+	desc = ""
+	picture = GFX_news_event_AUS_military_march
+	is_triggered_only = yes
+	option = {
+		name = "Ok"
+	}
+}
+news_event = {
+	id = news.8
+	title = ""
+	desc = ""
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		name = "Ok"
+	}
+	timeout_days = 1
+}
+
+

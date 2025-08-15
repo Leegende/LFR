@@ -1,0 +1,27 @@
+state = {
+	id = 100
+	name = "STATE_100"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			19151
+			20
+		}
+	}
+	provinces = {
+		1708
+		17204
+		17545
+		18119
+		19151
+		17731
+	}
+	manpower = 114120
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

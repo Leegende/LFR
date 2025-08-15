@@ -1,0 +1,139 @@
+
+state = {
+id = 175
+	name = "STATE_175"
+	provinces = {
+		5845
+		12054
+		12210
+		12251
+		12287
+		12326
+		20612
+		1609
+		12356
+		20611
+		535
+		6951
+		9343
+		12338
+		20614
+		12262
+		12268
+		8041
+		12544
+		12612
+		20613
+		7035
+		8466
+		9193
+		12504
+		12562
+		2462
+		12209
+		7377
+		12159
+		12216
+		12321
+		12355
+		20610
+		3304
+		6493
+		7811
+		9212
+		12118
+		12167
+		12184
+		12220
+		4904
+		8233
+		12122
+		12183
+		20609
+		12379
+		12402
+		12423
+		12435
+		12472
+		12517
+		7350
+		12143
+		12153
+		12208
+		20608
+		2992
+		6373
+		12079
+		12101
+		20583
+		20620
+		
+		12227
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+		}
+		victory_points = {
+			12210
+			2
+		}
+		victory_points = {
+			20611
+			2
+		}
+		victory_points = {
+			6951
+			2
+		}
+		victory_points = {
+			12268
+			20
+		}
+		victory_points = {
+			8041
+			5
+		}
+		victory_points = {
+			7035
+			5
+		}
+		victory_points = {
+			12220
+			5
+		}
+		victory_points = {
+			7811
+			2
+		}
+		victory_points = {
+			20609
+			2
+		}
+		victory_points = {
+			12379
+			20
+		}
+		victory_points = {
+			12517
+			2
+		}
+		victory_points = {
+			20608
+			40
+		}
+		
+		
+		
+		
+	}
+	manpower = 6715439
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}
+

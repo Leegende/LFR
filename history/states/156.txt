@@ -1,0 +1,101 @@
+state = {
+	id = 156
+	name = "STATE_156"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		set_state_flag = SECONDVIENNA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			20387
+			5
+		}
+		victory_points = {
+			5279
+			5
+		}
+		victory_points = {
+			3243
+			5
+		}
+		victory_points = {
+			14190
+			5
+		}
+		victory_points = {
+			3720
+			2
+		}
+		victory_points = {
+			14205
+			10
+		}
+		victory_points = {
+			14237
+			20
+		}
+	}
+	provinces = {
+		8505
+		14028
+		14045
+		14076
+		14125
+		6330
+		14093
+		14118
+		14126
+		20387
+		2028
+		5659
+		9373
+		20429
+		14167
+		14196
+		191
+		8801
+		14146
+		148
+		4539
+		5640
+		7893
+		4552
+		5279
+		14075
+		20424
+		1193
+		3243
+		3720
+		5680
+		6706
+		7873
+		14190
+		14226
+		14227
+		20426
+		2376
+		2590
+		3959
+		8171
+		14205
+		14246
+		20423
+		4428
+		8160
+		14209
+		14216
+		14221
+		14237
+		14254
+		14266
+		20430
+	}
+	manpower = 1298242
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+}

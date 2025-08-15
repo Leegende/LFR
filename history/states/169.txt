@@ -1,0 +1,24 @@
+state = {
+	id = 169
+	name = "STATE_169"
+	history = {
+		add_core_of = ENG
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			20535
+			1
+		}
+	}
+	provinces = {
+		20535
+		20536
+		21504
+	}
+	manpower = 258367
+	state_category = city
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

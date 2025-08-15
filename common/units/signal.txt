@@ -1,0 +1,64 @@
+sub_units = {
+	signal_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_signal_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorised_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorised_equipment = 20
+		}
+		same_support_type = signal_company
+	}
+	armored_signal_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_armor_support_company
+			category_signal_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			armored_support_vehicle
+		}
+		need = {
+			support_equipment = 20
+			armored_support_vehicle = 20
+		}
+		same_support_type = signal_company
+	}
+}

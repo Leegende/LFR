@@ -1,0 +1,62 @@
+state = {
+	id = 10
+	name = "STATE_10"
+	history = {
+		owner = DMZ
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+	provinces = {
+		5565
+		6694
+		6746
+		10675
+		10711
+		15984
+		3810
+		6812
+		10474
+		19996
+		2189
+		2627
+		4961
+		5059
+		10514
+		10573
+		10617
+		7976
+		8167
+		16279
+		17232
+		18095
+		5384
+		16471
+		2134
+		5908
+		7075
+		10618
+		10637
+		10659
+		333
+		2468
+		5620
+		8209
+		8426
+		9185
+		9444
+		9465
+		10515
+		10546
+		10589
+		17965
+		19956
+	}
+}

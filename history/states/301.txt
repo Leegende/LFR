@@ -1,0 +1,43 @@
+
+state = {
+	id = 301
+	name = "STATE_301"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		set_state_flag = SECONDVIENNA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			7483
+			10
+		}
+	}
+	provinces = {
+		3983
+		9622
+		14060
+		14081
+		20425
+		1688
+		14008
+		892
+		13899
+		13947
+		13988
+		13989
+		3272
+		4657
+		7483
+		16298
+		319
+		9229
+	}
+	manpower = 738988
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

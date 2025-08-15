@@ -1,0 +1,71 @@
+state = {
+	id = 292
+	name = "STATE_292"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			8147
+			20
+		}
+		victory_points = {
+			1933
+			10
+		}
+		victory_points = {
+			19845
+			5
+		}
+		victory_points = {
+			9592
+			2
+		}
+		victory_points = {
+			9518
+			2
+		}
+		victory_points = {
+			14473
+			2
+		}
+		victory_points = {
+			14283
+			2
+		}
+	}
+	provinces = {
+		2531
+		5224
+		6177
+		9089
+		14283
+		14300
+		8147
+		1933
+		2170
+		5174
+		6000
+		14417
+		20530
+		330
+		2478
+		3911
+		4483
+		6891
+		9518
+		9592
+		14505
+		19845
+		4884
+		9599
+		14473
+	}
+	manpower = 1274424
+	state_category = rural
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

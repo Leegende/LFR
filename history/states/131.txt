@@ -1,0 +1,65 @@
+state = {
+	id = 131
+	name = "STATE_131"
+	history = {
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+		}
+		add_core_of = ITA
+		victory_points = {
+			17789
+			1
+		}
+		victory_points = {
+			20482
+			2
+		}
+		victory_points = {
+			7575
+			20
+		}
+		victory_points = {
+			14309
+			10
+		}
+		victory_points = {
+			5331
+			5
+		}
+	}
+	provinces = {
+		20127
+		20130
+		14245
+		2174
+		14200
+		18916
+		14257
+		17789
+		9109
+		20482
+		4659
+		18920
+		1613
+		14357
+		14308
+		14343
+		17019
+		9663
+		20192
+		20481
+		7575
+		19417
+		14309
+		5331
+		7915
+		14408
+		14153
+	}
+	manpower = 978689
+	buildings_max_level_factor = 1
+	state_category = small_island
+	local_supplies = 0
+}

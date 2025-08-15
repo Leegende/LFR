@@ -1,0 +1,411 @@
+sub_units = {
+	light_infantry = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 25
+		}
+	}
+	infantry = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	infantry_red_guard = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+			category_red_guard
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	cavalry = {
+		sprite = cavalry
+		map_icon_category = other
+		priority = 2
+		active = yes
+		cavalry = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+			category_cavalry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	camelry = {
+		sprite = camelry
+		map_icon_category = other
+		priority = 599
+		ai_priority = 200
+		active = yes
+		cavalry = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+				category_cavalry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	elephants = {
+		sprite = elephantry
+		map_icon_category = other
+		priority = 599
+		ai_priority = 200
+		active = yes
+		cavalry = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_infantry_line
+				category_cavalry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	marine = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_special_forces
+			category_infantry_line
+			category_marine
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 20
+		default_morale = 0.4
+		manpower = 1000
+		supply_consumption = 0.15
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	mountaineer = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_special_forces
+			category_infantry_line
+			category_mountaineer
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 20
+		default_morale = 0.4
+		manpower = 1000
+		supply_consumption = 0.15
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	shocktrooper = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_special_forces
+			category_infantry_line
+			category_shocktrooper
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 20
+		default_morale = 0.4
+		manpower = 1000
+		supply_consumption = 0.15
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	ranger = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_special_forces
+			category_infantry_line
+			category_ranger
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 20
+		default_morale = 0.4
+		manpower = 1000
+		supply_consumption = 0.15
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	sturmtruppe = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 1
+		affects_speed = yes
+		active = no
+		type = {
+			infantry
+		}
+		group = infantry
+		categories = {
+			category_infantry
+			category_special_forces
+			category_infantry_line
+			category_sturmtruppe
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 20
+		default_morale = 0.4
+		manpower = 1000
+		supply_consumption = 0.15
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 50
+		}
+	}
+	converts = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 600
+		ai_priority = 200
+		active = yes
+		type = {
+			infantry
+		}
+		soft_attack = -1
+		hard_attack = -1
+		defense = -1
+		group = infantry
+		combat_width = 2
+		max_strength = 0
+		max_organisation = -9999
+		default_morale = 0
+		combat_width = 0
+		manpower = 1000
+		training_time = 20
+		supply_consumption = 0.00
+		training_time = 100
+		transport = infantry_archetype
+		essential = {
+			infantry_archetype
+		}
+		need = {
+			infantry_archetype = 10
+		}
+		plains = {
+			attack = -1
+			defence = -1
+		}
+		hills = {
+			attack = -1
+			defence = -1
+		}
+		forest = {
+			attack = -1
+			defence = -1
+		}
+		mountain = {
+			attack = -1
+			defence = -1
+		}
+		jungle = {
+			attack = -1
+			defence = -1
+		}
+		marsh = {
+			attack = -1
+			defence = -1
+		}
+		desert = {
+			attack = -1
+			defence = -1
+		}
+		urban = {
+			attack = -1
+			defence = -1
+		}
+		river = {
+			attack = -1
+			defence = -1
+		}
+		amphibious = {
+			attack = -1
+			defence = -1
+		}
+		desert = {
+			attack = -1
+			defence = -1
+		}
+	}
+}

@@ -1,0 +1,105 @@
+state = {
+	id = 223
+	name = "STATE_223"
+	provinces = {
+		12921
+		12935
+		12879
+		4244
+		1595
+		2008
+		2329
+		362
+		520
+		12651
+		12684
+		2335
+		5523
+		5661
+		6828
+		8234
+		8379
+		13162
+		448
+		1214
+		3632
+		3941
+		4379
+		8674
+		9239
+		9602
+		12982
+		13098
+		15768
+		872
+		2021
+		3254
+		3711
+		5201
+		8101
+		9323
+		12725
+		12803
+		12885
+		1015
+		2069
+		3136
+		3268
+		8340
+		9147
+		12643
+		12756
+		12842
+		3002
+		4630
+		7398
+		12683
+		12724
+		12795
+		12850
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			12935
+			1
+		}
+		victory_points = {
+			13162
+			5
+		}
+		victory_points = {
+			8379
+			1
+		}
+		victory_points = {
+			9602
+			5
+		}
+		victory_points = {
+			4379
+			1
+		}
+		victory_points = {
+			8101
+			2
+		}
+		victory_points = {
+			12756
+			2
+		}
+		victory_points = {
+			12724
+			80
+		}
+	}
+	manpower = 2418882
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

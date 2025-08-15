@@ -1,0 +1,34 @@
+state = {
+	id = 247
+	name = "STATE_247"
+	history = {
+		owner = UAC
+		add_core_of = UAC
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			19157
+			80
+		}
+	}
+	provinces = {
+		18625
+		19152
+		1667
+		15806
+		15823
+		18551
+		19161
+		19163
+		19165
+		19166
+		19160
+		18550
+		19157
+	}
+	manpower = 79000
+	state_category = wasteland
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

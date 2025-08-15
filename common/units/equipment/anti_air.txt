@@ -1,0 +1,92 @@
+equipments = {
+	pack_anti_air_archetype = {
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+		soft_attack = 3
+		hard_attack = 3
+		ap_attack = 20
+		air_attack = 12.5
+		build_cost_ic = 2
+		reliability = 0.8
+		defense = 5
+		breakthrough = 1
+		resources = {
+			steel = 1
+		}
+	}
+	pack_anti_air_equipment_1 = {
+		archetype = pack_anti_air_archetype
+	}
+	anti_air_archetype = {
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	anti_air_equipment_1 = {
+		archetype = anti_air_archetype
+		soft_attack = 5
+		hard_attack = 5
+		ap_attack = 15
+		air_attack = 20
+		build_cost_ic = 3
+		reliability = 0.8
+		defense = 5
+		breakthrough = 1
+		resources = {
+			steel = 1
+		}
+	}
+	heavy_anti_air_archetype = {
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+		soft_attack = 15
+		hard_attack = 15
+		ap_attack = 50
+		air_attack = 35
+		build_cost_ic = 7
+		reliability = 0.8
+		defense = 10
+		breakthrough = 5
+		resources = {
+			steel = 3
+			tungsten = 1
+		}
+	}
+	heavy_anti_air_equipment_1 = {
+		archetype = heavy_anti_air_archetype
+	}
+	motorised_anti_air_archetype = {
+		is_archetype = yes
+		picture = archetype_anti_air_equipment
+		type = {
+			anti_air
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	motorised_anti_air_equipment_1 = {
+		archetype = motorised_anti_air_archetype
+	}
+}

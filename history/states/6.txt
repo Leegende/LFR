@@ -1,0 +1,116 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			6103
+			2
+		}
+		victory_points = {
+			19223
+			2
+		}
+		victory_points = {
+			15268
+			5
+		}
+		victory_points = {
+			17623
+			10
+		}
+		victory_points = {
+			15169
+			80
+		}
+		victory_points = {
+			19173
+			10
+		}
+		victory_points = {
+			15144
+			2
+		}
+		victory_points = {
+			9406
+			2
+		}
+		victory_points = {
+			3744
+			2
+		}
+		victory_points = {
+			7333
+			2
+		}
+		victory_points = {
+			1616
+			1
+		}
+	}
+	provinces = {
+		15963
+		18163
+		18488
+		14998
+		15019
+		3227
+		6103
+		15183
+		18187
+		6288
+		16343
+		18186
+		1379
+		6772
+		19223
+		19224
+		22
+		1240
+		7001
+		15221
+		15268
+		15278
+		15951
+		7421
+		15092
+		17406
+		17623
+		15169
+		15069
+		16460
+		19173
+		15144
+		19167
+		19170
+		4658
+		4137
+		9406
+		14997
+		15040
+		18635
+		2316
+		3744
+		18682
+		2706
+		7333
+		1616
+		16097
+		18569
+		19171
+		6332
+		15154
+		16099
+		15123
+		17434
+	}
+	manpower = 1412922
+	state_category = rural
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

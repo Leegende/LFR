@@ -1,0 +1,48 @@
+state = {
+id = 9
+	name = "STATE_9"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			8778
+			5
+		}
+		victory_points = {
+			15274
+			5
+		}
+		victory_points = {
+			15368
+			15
+		}
+	}
+	provinces = {
+		8045
+		8778
+		1646
+		3628
+		8900
+		9245
+		15217
+		15248
+		15257
+		15274
+		7761
+		15338
+		15368
+		15382
+		1238
+		4513
+	}
+	manpower = 1771700
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}
+

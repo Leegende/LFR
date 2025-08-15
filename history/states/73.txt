@@ -1,0 +1,107 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	history = {
+		owner = UAC
+		add_core_of = UAC
+		victory_points = {
+			297
+			5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			21221
+			10
+		}
+		victory_points = {
+			21208
+			1
+		}
+		victory_points = {
+			21226
+			10
+		}
+		victory_points = {
+			21241
+			2
+		}
+		victory_points = {
+			21234
+			10
+		}
+		victory_points = {
+			21242
+			10
+		}
+		victory_points = {
+			8554
+			5
+		}
+		victory_points = {
+			21246
+			10
+		}
+		victory_points = {
+			21229
+			20
+		}
+	}
+	provinces = {
+		297
+		15748
+		21231
+		21232
+		21237
+		21221
+		15801
+		21208
+		21209
+		21210
+		21211
+		21214
+		21217
+		21226
+		21241
+		21244
+		21230
+		21234
+		21236
+		21233
+		21228
+		21239
+		21242
+		7823
+		19341
+		21225
+		21235
+		8554
+		21224
+		3251
+		21222
+		21227
+		21246
+		15713
+		19203
+		21240
+		21243
+		21229
+		21238
+		8878
+		21216
+		21220
+		21223
+		7607
+		18628
+		21212
+		21213
+		21215
+		21218
+		21219
+	}
+	manpower = 1845300
+	state_category = city
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

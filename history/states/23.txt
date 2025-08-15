@@ -1,0 +1,58 @@
+state = {
+	id = 23
+	name = "STATE_23"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			19764
+			20
+		}
+		victory_points = {
+			19778
+			5
+		}
+		victory_points = {
+			15387
+			20
+		}
+		victory_points = {
+			3862
+			2
+		}
+		victory_points = {
+			4729
+			10
+		}
+	}
+	provinces = {
+		2285
+		2581
+		3376
+		4729
+		5225
+		7654
+		15285
+		15332
+		15359
+		19793
+		77
+		3862
+		3887
+		4217
+		7009
+		15387
+		15394
+		19764
+		19778
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

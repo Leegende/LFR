@@ -1,0 +1,126 @@
+
+state = {
+id = 123
+	name = "STATE_123"
+	history = {
+		owner = CZE
+		add_core_of = CZE
+		set_state_flag = SLOVAKIA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			20070
+			20
+		}
+		victory_points = {
+			13091
+			5
+		}
+		victory_points = {
+			13101
+			5
+		}
+		victory_points = {
+			13146
+			5
+		}
+		victory_points = {
+			13248
+			5
+		}
+		victory_points = {
+			3029
+			2
+		}
+		victory_points = {
+			13016
+			5
+		}
+		victory_points = {
+			4579
+			5
+		}
+		victory_points = {
+			9477
+			5
+		}
+		victory_points = {
+			13354
+			5
+		}
+	}
+	provinces = {
+		12871
+		16767
+		20070
+		4148
+		12942
+		13017
+		20085
+		12972
+		1384
+		5066
+		5909
+		7116
+		9564
+		13070
+		13091
+		13101
+		2343
+		5815
+		13146
+		109
+		1652
+		3029
+		3116
+		4670
+		5091
+		5306
+		5867
+		8677
+		13193
+		13218
+		13248
+		13333
+		13370
+		20078
+		20079
+		3193
+		13016
+		13032
+		20069
+		4579
+		4695
+		5262
+		6712
+		9477
+		13301
+		20076
+		20077
+		1729
+		3203
+		3772
+		7193
+		13254
+		13397
+		926
+		8476
+		8859
+		13192
+		13201
+		13247
+		1014
+		6411
+		13354
+		20074
+		19939
+	}
+	manpower = 2115955
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}
+

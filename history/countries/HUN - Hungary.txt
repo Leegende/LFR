@@ -1,0 +1,106 @@
+﻿capital = 254
+set_cosmetic_tag = HUN_neutrality
+every_owned_state = {
+	set_state_flag = HUN_INITIAL_STATE
+}
+
+set_variable = {
+	HUN_national_mood_political_advisor_cost_factor = 0
+	tooltip = political_advisor_cost_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_political_power_gain = 0
+	tooltip = political_power_gain_tt
+}
+
+set_variable = {
+	HUN_national_mood_neutrality_drift = 0
+	tooltip = neutrality_drift_tt
+}
+
+set_variable = {
+	HUN_national_mood_fascism_drift = 0
+	tooltip = fascism_drift_tt
+}
+
+set_variable = {
+	HUN_national_mood_stability_weekly = 0
+	tooltip = stability_weekly_tt
+}
+
+set_variable = {
+	HUN_national_mood_local_resources_factor = 0
+	tooltip = local_resources_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_production_speed_industrial_complex_factor = 0
+	tooltip = production_speed_industrial_complex_factor
+}
+
+set_variable = {
+	HUN_national_mood_production_speed_infrastructure_factor = 0
+	tooltip = production_speed_infrastructure_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_production_speed_arms_factory_factor = 0
+	tooltip = production_speed_arms_factory_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_research_speed_factor = 0
+	tooltip = research_speed_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_production_factory_max_efficiency_factor = 0
+	tooltip = production_factory_max_efficiency_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_production_factory_efficiency_gain_factor = 0
+	tooltip = production_factory_efficiency_gain_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_production_factory_start_efficiency_factor = 0
+	tooltip = production_factory_start_efficiency_factor_tt
+}
+
+set_variable = {
+	HUN_national_mood_line_change_production_efficiency_factor = 0
+	tooltip = line_change_production_efficiency_factor_tt
+}
+set_variable = {
+	HUN_national_mood_industrial_capacity_factory_tt = 0
+	tooltip = industrial_capacity_factory_tt
+}
+
+add_dynamic_modifier = {
+	modifier = HUN_national_mood
+}
+
+add_ideas = HUN_treaty_of_triannon
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+set_cosmetic_tag = HUN_neutrality
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 25
+	fascism = 21
+	neutrality = 44
+	communism = 10
+}
+
+recruit_character = HUN_miklós_horthy
+recruit_character = HUN_kalman_daranyi
+recruit_character = HUN_ferenc_szalasi

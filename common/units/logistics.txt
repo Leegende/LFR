@@ -1,0 +1,195 @@
+sub_units = {
+	logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_logistics_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorised_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorised_equipment = 20
+		}
+		same_support_type = logistics_company
+	}
+	horse_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_logistics_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorised_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorised_equipment = 20
+		}
+		same_support_type = logistics_company
+	}
+	motorbike_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_logistics_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorbike_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorbike_equipment  = 20
+		}
+		same_support_type = logistics_company
+	}
+	motorised_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_logistics_company
+			category_motorised
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorised_equipment
+		}
+		need = {
+			support_equipment = 20
+			motorised_equipment = 20
+		}
+		same_support_type = logistics_company
+	}
+	mechanised_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_mechanised_support_company
+			category_logistics_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			mechanised_utility_equipment
+		}
+		need = {
+			support_equipment = 20
+			mechanised_utility_equipment  = 20
+		}
+		same_support_type = logistics_company
+	}
+	helicopter_logistics_company = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = no
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_helicopter_support_company
+			category_logistics_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			helicopter_archetype
+		}
+		need = {
+			support_equipment = 20
+			helicopter_archetype  = 20
+		}
+		same_support_type = logistics_company
+	}
+}

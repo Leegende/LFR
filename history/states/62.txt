@@ -1,0 +1,115 @@
+state = {
+	id = 62
+	name = "STATE_62"
+	history = {
+		owner = UAC
+		add_core_of = UAC
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			648
+			2
+		}
+		victory_points = {
+			21283
+			10
+		}
+		victory_points = {
+			21270
+			2
+		}
+		victory_points = {
+			21258
+			2
+		}
+		victory_points = {
+			21248
+			2
+		}
+		victory_points = {
+			7787
+			2
+		}
+		victory_points = {
+			21275
+			40
+		}
+		victory_points = {
+			7143
+			20
+		}
+	}
+	provinces = {
+		1818
+		2076
+		1687
+		15126
+		15238
+		21514
+		15112
+		648
+		21276
+		21277
+		4819
+		21279
+		21283
+		21286
+		19211
+		21270
+		3882
+		19212
+		19342
+		21267
+		1215
+		1365
+		6535
+		21247
+		21256
+		21258
+		21261
+		21263
+		21268
+		1605
+		6352
+		21248
+		21250
+		21252
+		21264
+		21265
+		7787
+		21273
+		21278
+		21321
+		353
+		2395
+		6155
+		2054
+		4313
+		7407
+		15729
+		15731
+		15755
+		21271
+		21274
+		21280
+		696
+		4113
+		15786
+		21255
+		21259
+		21266
+		18570
+		2910
+		18525
+		21269
+		21272
+		21275
+		7143
+		15757
+	}
+	manpower = 563290
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

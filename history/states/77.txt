@@ -1,0 +1,54 @@
+state = {
+	id = 77
+	name = "STATE_77"
+	provinces = {
+		21102
+		7056
+		21099
+		21098
+		21087
+		21436
+		21079
+		1127
+		21055
+		21572
+		21057
+		21060
+		5947
+		21064
+		21458
+		7010
+		21076
+		2273
+		3859
+		21086
+		21605
+		21085
+		3363
+		21080
+		15180
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			21098
+			5
+		}
+		victory_points = {
+			21079
+			40
+		}
+		victory_points = {
+			21057
+			5
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+}

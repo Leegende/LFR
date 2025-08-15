@@ -1,0 +1,22 @@
+state = {
+	id = 315
+	name = "STATE_315"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		victory_points = {
+			19107
+			1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		19107
+	}
+	manpower = 4700
+	state_category = tiny_island
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

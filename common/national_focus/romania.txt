@@ -1,0 +1,120 @@
+﻿focus_tree = {
+	id = romanian_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = {
+		x = 5000
+		y = 5000
+	}
+	focus = {
+		id = ROM_maxi_bring_den_müll_raus
+		icon = GFX_rhineland
+		x = 0
+		y = 0
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = ROM_31_geburtstag
+		icon = GFX_rhineland
+		x = 0
+		y = 1
+		relative_position_id = ROM_maxi_bring_den_müll_raus
+		prerequisite = {
+			focus = ROM_maxi_bring_den_müll_raus
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+			transfer_state = 1
+		}
+	}
+	focus = {
+		id = ROM_download_loli_content
+		icon = GFX_rhineland
+		x = -1
+		y = 1
+		relative_position_id = ROM_31_geburtstag
+		prerequisite = {
+			focus = ROM_31_geburtstag
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+			custom_effect_tooltip = juggle1_gain
+		}
+	}
+	focus = {
+		id = ROM_download_vtuber_content
+		icon = GFX_rhineland
+		x = 1
+		y = 1
+		relative_position_id = ROM_31_geburtstag
+		prerequisite = {
+			focus = ROM_31_geburtstag
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+			BUL = {
+				add_political_power = 100
+				transfer_state = 100
+			}
+		}
+	}
+	focus = {
+		id = ROM_adresse_leaken
+		icon = GFX_rhineland
+		x = 0
+		y = 2
+		relative_position_id = ROM_31_geburtstag
+		prerequisite = {
+			focus = ROM_download_loli_content
+		}
+		prerequisite = {
+			focus = ROM_download_vtuber_content
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+			add_ideas = war_economy
+		}
+	}
+}

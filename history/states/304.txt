@@ -1,0 +1,107 @@
+
+state = {
+id = 304
+	name = "STATE_304"
+	history = {
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 7
+			arms_factory = 5
+		}
+		victory_points = {
+			5586
+			2
+		}
+		victory_points = {
+			5834
+			2
+		}
+		victory_points = {
+			11275
+			2
+		}
+		victory_points = {
+			19391
+			80
+		}
+		victory_points = {
+			4488
+			1
+		}
+		victory_points = {
+			1524
+			2
+		}
+		victory_points = {
+			6960
+			2
+		}
+		victory_points = {
+			11754
+			1
+		}
+	}
+	provinces = {
+		
+		
+		6331
+		9528
+		11048
+		5504
+		5586
+		9344
+		
+		5834
+		2094
+		6094
+		19313
+		2991
+		8122
+		8578
+		11116
+		11175
+		11188
+		9561
+		11246
+		11275
+		1242
+		11298
+		11306
+		19391
+		4488
+		8080
+		11381
+		
+		6760
+		8929
+		9041
+		11359
+		11429
+		11461
+		2862
+		4994
+		1524
+		11577
+		4082
+		6597
+		6960
+		11595
+		76
+		2349
+		4596
+		11626
+		11754
+		8
+		6558
+		7270
+		8495
+		11322
+	}
+	manpower = 1426604
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+}
+

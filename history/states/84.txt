@@ -1,0 +1,59 @@
+state = {
+	id = 84
+	name = "STATE_84"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			21063
+			5
+		}
+	}
+	provinces = {
+		5012
+		2608
+		21061
+		21566
+		7157
+		3890
+		5541
+		21598
+		3780
+		1564
+		1893
+		4771
+		21596
+		9371
+		15306
+		4517
+		7513
+		21374
+		4452
+		21063
+		21599
+		21423
+		2036
+		15892
+		21059
+		21554
+		6738
+		21406
+		394
+		21411
+		15277
+		21567
+		21418
+		9251
+		9206
+		15258
+		21565
+		15333
+	}
+	manpower = 1
+	state_category = city
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

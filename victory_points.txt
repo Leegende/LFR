@@ -1,0 +1,10733 @@
+victory_points = {
+	4451
+	2
+}
+
+victory_points = {
+	3546
+	1
+}
+
+victory_points = {
+	19664
+	5
+}
+
+victory_points = {
+	19941
+	10
+}
+
+victory_points = {
+	20002
+	2
+}
+
+victory_points = {
+	10736
+	2
+}
+
+victory_points = {
+	12221
+	5
+}
+
+victory_points = {
+	1049
+	5
+}
+
+victory_points = {
+	19913
+	20
+}
+
+victory_points = {
+	12328
+	2
+}
+
+victory_points = {
+	12103
+	2
+}
+
+victory_points = {
+	19914
+	5
+}
+
+victory_points = {
+	12424
+	5
+}
+
+victory_points = {
+	2486
+	2
+}
+
+victory_points = {
+	6103
+	2
+}
+
+victory_points = {
+	19223
+	2
+}
+
+victory_points = {
+	15268
+	5
+}
+
+victory_points = {
+	17623
+	10
+}
+
+victory_points = {
+	15169
+	80
+}
+
+victory_points = {
+	19173
+	10
+}
+
+victory_points = {
+	15144
+	2
+}
+
+victory_points = {
+	9406
+	2
+}
+
+victory_points = {
+	3744
+	2
+}
+
+victory_points = {
+	7333
+	2
+}
+
+victory_points = {
+	1616
+	1
+}
+
+victory_points = {
+	7994
+	40
+}
+
+victory_points = {
+	15048
+	5
+}
+
+victory_points = {
+	7680
+	5
+}
+
+victory_points = {
+	15309
+	5
+}
+
+victory_points = {
+	19779
+	5
+}
+
+victory_points = {
+	19780
+	20
+}
+
+victory_points = {
+	5529
+	20
+}
+
+victory_points = {
+	6199
+	5
+}
+
+victory_points = {
+	1843
+	2
+}
+
+victory_points = {
+	15247
+	40
+}
+
+victory_points = {
+	15192
+	10
+}
+
+victory_points = {
+	4996
+	2
+}
+
+victory_points = {
+	8778
+	5
+}
+
+victory_points = {
+	15274
+	5
+}
+
+victory_points = {
+	15368
+	15
+}
+
+victory_points = {
+	20327
+	10
+}
+
+victory_points = {
+	20257
+	5
+}
+
+victory_points = {
+	20253
+	5
+}
+
+victory_points = {
+	20258
+	2
+}
+
+victory_points = {
+	20252
+	40
+}
+
+victory_points = {
+	20254
+	5
+}
+
+victory_points = {
+	20256
+	5
+}
+
+victory_points = {
+	19804
+	2
+}
+
+victory_points = {
+	15241
+	20
+}
+
+victory_points = {
+	19805
+	2
+}
+
+victory_points = {
+	16915
+	2
+}
+
+victory_points = {
+	18973
+	5
+}
+
+victory_points = {
+	7494
+	5
+}
+
+victory_points = {
+	18175
+	2
+}
+
+victory_points = {
+	10140
+	5
+}
+
+victory_points = {
+	3118
+	2
+}
+
+victory_points = {
+	16514
+	2
+}
+
+victory_points = {
+	18549
+	5
+}
+
+victory_points = {
+	789
+	2
+}
+
+victory_points = {
+	19219
+	2
+}
+
+victory_points = {
+	16734
+	2
+}
+
+victory_points = {
+	5513
+	20
+}
+
+victory_points = {
+	18947
+	80
+}
+
+victory_points = {
+	15088
+	10
+}
+
+victory_points = {
+	18985
+	2
+}
+
+victory_points = {
+	5442
+	5
+}
+
+victory_points = {
+	4491
+	5
+}
+
+victory_points = {
+	18901
+	5
+}
+
+victory_points = {
+	16236
+	2
+}
+
+victory_points = {
+	15116
+	2
+}
+
+victory_points = {
+	5102
+	20
+}
+
+victory_points = {
+	7318
+	5
+}
+
+victory_points = {
+	608
+	20
+}
+
+victory_points = {
+	14725
+	10
+}
+
+victory_points = {
+	7446
+	5
+}
+
+victory_points = {
+	4011
+	2
+}
+
+victory_points = {
+	3843
+	2
+}
+
+victory_points = {
+	18948
+	10
+}
+
+victory_points = {
+	14715
+	2
+}
+
+victory_points = {
+	7693
+	2
+}
+
+victory_points = {
+	9252
+	5
+}
+
+victory_points = {
+	16165
+	20
+}
+
+victory_points = {
+	14688
+	10
+}
+
+victory_points = {
+	19772
+	20
+}
+
+victory_points = {
+	15416
+	2
+}
+
+victory_points = {
+	19775
+	5
+}
+
+victory_points = {
+	19773
+	10
+}
+
+victory_points = {
+	19794
+	2
+}
+
+victory_points = {
+	19774
+	5
+}
+
+victory_points = {
+	19752
+	5
+}
+
+victory_points = {
+	19751
+	5
+}
+
+victory_points = {
+	19800
+	2
+}
+
+victory_points = {
+	958
+	2
+}
+
+victory_points = {
+	6284
+	2
+}
+
+victory_points = {
+	9865
+	20
+}
+
+victory_points = {
+	19668
+	5
+}
+
+victory_points = {
+	19701
+	2
+}
+
+victory_points = {
+	19667
+	5
+}
+
+victory_points = {
+	12451
+	20
+}
+
+victory_points = {
+	998
+	2
+}
+
+victory_points = {
+	3385
+	2
+}
+
+victory_points = {
+	6615
+	2
+}
+
+victory_points = {
+	2165
+	5
+}
+
+victory_points = {
+	12713
+	2
+}
+
+victory_points = {
+	19915
+	20
+}
+
+victory_points = {
+	12211
+	5
+}
+
+victory_points = {
+	19745
+	11
+}
+
+victory_points = {
+	19740
+	10
+}
+
+victory_points = {
+	4122
+	2
+}
+
+victory_points = {
+	18656
+	2
+}
+
+victory_points = {
+	19746
+	5
+}
+
+victory_points = {
+	15175
+	2
+}
+
+victory_points = {
+	19764
+	20
+}
+
+victory_points = {
+	19778
+	5
+}
+
+victory_points = {
+	15387
+	20
+}
+
+victory_points = {
+	3862
+	2
+}
+
+victory_points = {
+	4729
+	10
+}
+
+victory_points = {
+	19923
+	20
+}
+
+victory_points = {
+	11775
+	2
+}
+
+victory_points = {
+	19924
+	10
+}
+
+victory_points = {
+	8713
+	5
+}
+
+victory_points = {
+	5230
+	2
+}
+
+victory_points = {
+	6917
+	2
+}
+
+victory_points = {
+	20274
+	2
+}
+
+victory_points = {
+	20356
+	2
+}
+
+victory_points = {
+	20255
+	5
+}
+
+victory_points = {
+	20249
+	2
+}
+
+victory_points = {
+	15233
+	5
+}
+
+victory_points = {
+	21110
+	5
+}
+
+victory_points = {
+	21108
+	10
+}
+
+victory_points = {
+	21109
+	2
+}
+
+victory_points = {
+	10006
+	5
+}
+
+victory_points = {
+	19424
+	5
+}
+
+victory_points = {
+	19437
+	5
+}
+
+victory_points = {
+	23
+	2
+}
+
+victory_points = {
+	7999
+	2
+}
+
+victory_points = {
+	9588
+	2
+}
+
+victory_points = {
+	1904
+	2
+}
+
+victory_points = {
+	433
+	2
+}
+
+victory_points = {
+	20250
+	5
+}
+
+victory_points = {
+	8576
+	2
+}
+
+victory_points = {
+	20269
+	2
+}
+
+victory_points = {
+	20251
+	10
+}
+
+victory_points = {
+	15356
+	40
+}
+
+victory_points = {
+	5843
+	5
+}
+
+victory_points = {
+	20020
+	25
+}
+
+victory_points = {
+	15438
+	5
+}
+
+victory_points = {
+	15461
+	5
+}
+
+victory_points = {
+	7121
+	5
+}
+
+victory_points = {
+	15418
+	2
+}
+
+victory_points = {
+	5351
+	10
+}
+
+victory_points = {
+	15350
+	20
+}
+
+victory_points = {
+	2068
+	5
+}
+
+victory_points = {
+	19767
+	20
+}
+
+victory_points = {
+	7546
+	40
+}
+
+victory_points = {
+	1785
+	2
+}
+
+victory_points = {
+	19771
+	10
+}
+
+victory_points = {
+	10142
+	20
+}
+
+victory_points = {
+	8092
+	2
+}
+
+victory_points = {
+	10383
+	2
+}
+
+victory_points = {
+	10079
+	2
+}
+
+victory_points = {
+	5186
+	5
+}
+
+victory_points = {
+	6862
+	40
+}
+
+victory_points = {
+	19909
+	5
+}
+
+victory_points = {
+	914
+	2
+}
+
+victory_points = {
+	12722
+	2
+}
+
+victory_points = {
+	7368
+	2
+}
+
+victory_points = {
+	12818
+	5
+}
+
+victory_points = {
+	6830
+	5
+}
+
+victory_points = {
+	19937
+	5
+}
+
+victory_points = {
+	12483
+	5
+}
+
+victory_points = {
+	12706
+	10
+}
+
+victory_points = {
+	19910
+	5
+}
+
+victory_points = {
+	6002
+	10
+}
+
+victory_points = {
+	12960
+	2
+}
+
+victory_points = {
+	12622
+	20
+}
+
+victory_points = {
+	12568
+	5
+}
+
+victory_points = {
+	12588
+	2
+}
+
+victory_points = {
+	19776
+	40
+}
+
+victory_points = {
+	19777
+	20
+}
+
+victory_points = {
+	15496
+	5
+}
+
+victory_points = {
+	4026
+	2
+}
+
+victory_points = {
+	19765
+	10
+}
+
+victory_points = {
+	19795
+	5
+}
+
+victory_points = {
+	19662
+	10
+}
+
+victory_points = {
+	9940
+	2
+}
+
+victory_points = {
+	19661
+	5
+}
+
+victory_points = {
+	2832
+	2
+}
+
+victory_points = {
+	21046
+	5
+}
+
+victory_points = {
+	21040
+	40
+}
+
+victory_points = {
+	21037
+	2
+}
+
+victory_points = {
+	21033
+	5
+}
+
+victory_points = {
+	21031
+	5
+}
+
+victory_points = {
+	21028
+	2
+}
+
+victory_points = {
+	21026
+	20
+}
+
+victory_points = {
+	21039
+	2
+}
+
+victory_points = {
+	1043
+	20
+}
+
+victory_points = {
+	19450
+	10
+}
+
+victory_points = {
+	6634
+	2
+}
+
+victory_points = {
+	8487
+	2
+}
+
+victory_points = {
+	10201
+	5
+}
+
+victory_points = {
+	9785
+	10
+}
+
+victory_points = {
+	9521
+	2
+}
+
+victory_points = {
+	21004
+	5
+}
+
+victory_points = {
+	21003
+	5
+}
+
+victory_points = {
+	15477
+	10
+}
+
+victory_points = {
+	1956
+	5
+}
+
+victory_points = {
+	20989
+	5
+}
+
+victory_points = {
+	20987
+	10
+}
+
+victory_points = {
+	20985
+	10
+}
+
+victory_points = {
+	20982
+	5
+}
+
+victory_points = {
+	20993
+	5
+}
+
+victory_points = {
+	2477
+	10
+}
+
+victory_points = {
+	20995
+	5
+}
+
+victory_points = {
+	15538
+	5
+}
+
+victory_points = {
+	12429
+	20
+}
+
+victory_points = {
+	12093
+	5
+}
+
+victory_points = {
+	12120
+	20
+}
+
+victory_points = {
+	19912
+	20
+}
+
+victory_points = {
+	7907
+	2
+}
+
+victory_points = {
+	19911
+	5
+}
+
+victory_points = {
+	21001
+	80
+}
+
+victory_points = {
+	21002
+	20
+}
+
+victory_points = {
+	3163
+	10
+}
+
+victory_points = {
+	20996
+	5
+}
+
+victory_points = {
+	20958
+	5
+}
+
+victory_points = {
+	20956
+	40
+}
+
+victory_points = {
+	3067
+	2
+}
+
+victory_points = {
+	20946
+	5
+}
+
+victory_points = {
+	20988
+	5
+}
+
+victory_points = {
+	15578
+	5
+}
+
+victory_points = {
+	4618
+	5
+}
+
+victory_points = {
+	20949
+	5
+}
+
+victory_points = {
+	21315
+	10
+}
+
+victory_points = {
+	15534
+	20
+}
+
+victory_points = {
+	21314
+	5
+}
+
+victory_points = {
+	21318
+	2
+}
+
+victory_points = {
+	15583
+	20
+}
+
+victory_points = {
+	15716
+	2
+}
+
+victory_points = {
+	15631
+	20
+}
+
+victory_points = {
+	6374
+	5
+}
+
+victory_points = {
+	21292
+	1
+}
+
+victory_points = {
+	21303
+	2
+}
+
+victory_points = {
+	21320
+	2
+}
+
+victory_points = {
+	21285
+	2
+}
+
+victory_points = {
+	15692
+	40
+}
+
+victory_points = {
+	15659
+	10
+}
+
+victory_points = {
+	3960
+	5
+}
+
+victory_points = {
+	6247
+	2
+}
+
+victory_points = {
+	8575
+	5
+}
+
+victory_points = {
+	692
+	2
+}
+
+victory_points = {
+	15680
+	40
+}
+
+victory_points = {
+	21
+	5
+}
+
+victory_points = {
+	21300
+	5
+}
+
+victory_points = {
+	21307
+	10
+}
+
+victory_points = {
+	21301
+	2
+}
+
+victory_points = {
+	15550
+	40
+}
+
+victory_points = {
+	15694
+	5
+}
+
+victory_points = {
+	21290
+	5
+}
+
+victory_points = {
+	21327
+	10
+}
+
+victory_points = {
+	15463
+	2
+}
+
+victory_points = {
+	20978
+	20
+}
+
+victory_points = {
+	7849
+	10
+}
+
+victory_points = {
+	3714
+	2
+}
+
+victory_points = {
+	20974
+	20
+}
+
+victory_points = {
+	20976
+	5
+}
+
+victory_points = {
+	20950
+	5
+}
+
+victory_points = {
+	20945
+	5
+}
+
+victory_points = {
+	20969
+	5
+}
+
+victory_points = {
+	20965
+	5
+}
+
+victory_points = {
+	20962
+	5
+}
+
+victory_points = {
+	20975
+	10
+}
+
+victory_points = {
+	8877
+	5
+}
+
+victory_points = {
+	19925
+	5
+}
+
+victory_points = {
+	11526
+	2
+}
+
+victory_points = {
+	769
+	10
+}
+
+victory_points = {
+	19932
+	20
+}
+
+victory_points = {
+	3258
+	2
+}
+
+victory_points = {
+	11238
+	2
+}
+
+victory_points = {
+	11384
+	5
+}
+
+victory_points = {
+	19928
+	2
+}
+
+victory_points = {
+	19927
+	40
+}
+
+victory_points = {
+	9966
+	40
+}
+
+victory_points = {
+	9482
+	2
+}
+
+victory_points = {
+	4594
+	2
+}
+
+victory_points = {
+	19916
+	5
+}
+
+victory_points = {
+	19918
+	20
+}
+
+victory_points = {
+	19917
+	5
+}
+
+victory_points = {
+	2086
+	2
+}
+
+victory_points = {
+	8773
+	5
+}
+
+victory_points = {
+	12981
+	5
+}
+
+victory_points = {
+	12896
+	2
+}
+
+victory_points = {
+	3940
+	2
+}
+
+victory_points = {
+	19678
+	5
+}
+
+victory_points = {
+	3715
+	2
+}
+
+victory_points = {
+	19712
+	5
+}
+
+victory_points = {
+	9900
+	2
+}
+
+victory_points = {
+	4599
+	2
+}
+
+victory_points = {
+	19456
+	1
+}
+
+victory_points = {
+	10284
+	2
+}
+
+victory_points = {
+	19402
+	1
+}
+
+victory_points = {
+	4063
+	1
+}
+
+victory_points = {
+	20912
+	10
+}
+
+victory_points = {
+	20909
+	10
+}
+
+victory_points = {
+	3292
+	5
+}
+
+victory_points = {
+	20908
+	5
+}
+
+victory_points = {
+	20910
+	10
+}
+
+victory_points = {
+	20913
+	20
+}
+
+victory_points = {
+	19768
+	5
+}
+
+victory_points = {
+	5100
+	20
+}
+
+victory_points = {
+	6214
+	2
+}
+
+victory_points = {
+	17238
+	20
+}
+
+victory_points = {
+	17238
+	20
+}
+
+victory_points = {
+	9305
+	2
+}
+
+victory_points = {
+	19004
+	2
+}
+
+victory_points = {
+	6281
+	2
+}
+
+victory_points = {
+	3070
+	20
+}
+
+victory_points = {
+	17318
+	2
+}
+
+victory_points = {
+	3070
+	20
+}
+
+victory_points = {
+	20349
+	5
+}
+
+victory_points = {
+	20352
+	2
+}
+
+victory_points = {
+	20354
+	2
+}
+
+victory_points = {
+	20350
+	10
+}
+
+victory_points = {
+	2722
+	1
+}
+
+victory_points = {
+	13309
+	5
+}
+
+victory_points = {
+	20019
+	1
+}
+
+victory_points = {
+	2824
+	4
+}
+
+victory_points = {
+	9559
+	1
+}
+
+victory_points = {
+	9985
+	80
+}
+
+victory_points = {
+	6617
+	5
+}
+
+victory_points = {
+	18223
+	5
+}
+
+victory_points = {
+	3309
+	2
+}
+
+victory_points = {
+	10005
+	10
+}
+
+victory_points = {
+	10012
+	5
+}
+
+victory_points = {
+	17228
+	2
+}
+
+victory_points = {
+	2679
+	2
+}
+
+victory_points = {
+	15897
+	2
+}
+
+victory_points = {
+	4836
+	2
+}
+
+victory_points = {
+	7397
+	2
+}
+
+victory_points = {
+	1937
+	20
+}
+
+victory_points = {
+	1643
+	2
+}
+
+victory_points = {
+	2789
+	2
+}
+
+victory_points = {
+	20903
+	5
+}
+
+victory_points = {
+	20899
+	2
+}
+
+victory_points = {
+	20895
+	5
+}
+
+victory_points = {
+	20896
+	2
+}
+
+victory_points = {
+	15715
+	5
+}
+
+victory_points = {
+	7967
+	5
+}
+
+victory_points = {
+	20878
+	2
+}
+
+victory_points = {
+	20885
+	80
+}
+
+victory_points = {
+	1012
+	10
+}
+
+victory_points = {
+	20897
+	2
+}
+
+victory_points = {
+	20905
+	2
+}
+
+victory_points = {
+	7813
+	10
+}
+
+victory_points = {
+	20890
+	20
+}
+
+victory_points = {
+	15673
+	40
+}
+
+victory_points = {
+	15900
+	2
+}
+
+victory_points = {
+	2333
+	10
+}
+
+victory_points = {
+	15746
+	2
+}
+
+victory_points = {
+	20879
+	20
+}
+
+victory_points = {
+	15717
+	5
+}
+
+victory_points = {
+	15736
+	5
+}
+
+victory_points = {
+	681
+	2
+}
+
+victory_points = {
+	15682
+	5
+}
+
+victory_points = {
+	1572
+	20
+}
+
+victory_points = {
+	633
+	2
+}
+
+victory_points = {
+	15681
+	2
+}
+
+victory_points = {
+	15679
+	20
+}
+
+victory_points = {
+	21024
+	2
+}
+
+victory_points = {
+	21022
+	5
+}
+
+victory_points = {
+	7745
+	2
+}
+
+victory_points = {
+	21020
+	2
+}
+
+victory_points = {
+	15693
+	2
+}
+
+victory_points = {
+	1352
+	2
+}
+
+victory_points = {
+	7661
+	5
+}
+
+victory_points = {
+	3605
+	2
+}
+
+victory_points = {
+	4368
+	2
+}
+
+victory_points = {
+	4870
+	40
+}
+
+victory_points = {
+	9585
+	2
+}
+
+victory_points = {
+	11924
+	5
+}
+
+victory_points = {
+	8903
+	2
+}
+
+victory_points = {
+	11715
+	1
+}
+
+victory_points = {
+	1781
+	5
+}
+
+victory_points = {
+	7764
+	5
+}
+
+victory_points = {
+	21117
+	10
+}
+
+victory_points = {
+	21124
+	5
+}
+
+victory_points = {
+	21128
+	10
+}
+
+victory_points = {
+	648
+	2
+}
+
+victory_points = {
+	21283
+	10
+}
+
+victory_points = {
+	21270
+	2
+}
+
+victory_points = {
+	21258
+	2
+}
+
+victory_points = {
+	21248
+	2
+}
+
+victory_points = {
+	7787
+	2
+}
+
+victory_points = {
+	21275
+	40
+}
+
+victory_points = {
+	7143
+	20
+}
+
+victory_points = {
+	7514
+	2
+}
+
+victory_points = {
+	1405
+	2
+}
+
+victory_points = {
+	249
+	40
+}
+
+victory_points = {
+	12912
+	20
+}
+
+victory_points = {
+	19919
+	5
+}
+
+victory_points = {
+	13138
+	2
+}
+
+victory_points = {
+	15743
+	10
+}
+
+victory_points = {
+	18541
+	5
+}
+
+victory_points = {
+	19138
+	10
+}
+
+victory_points = {
+	18736
+	10
+}
+
+victory_points = {
+	19127
+	2
+}
+
+victory_points = {
+	18632
+	40
+}
+
+victory_points = {
+	19155
+	5
+}
+
+victory_points = {
+	8753
+	5
+}
+
+victory_points = {
+	18878
+	10
+}
+
+victory_points = {
+	18560
+	10
+}
+
+victory_points = {
+	18763
+	10
+}
+
+victory_points = {
+	1449
+	2
+}
+
+victory_points = {
+	18683
+	2
+}
+
+victory_points = {
+	15593
+	20
+}
+
+victory_points = {
+	18565
+	5
+}
+
+victory_points = {
+	18553
+	2
+}
+
+victory_points = {
+	18823
+	2
+}
+
+victory_points = {
+	18735
+	5
+}
+
+victory_points = {
+	9636
+	5
+}
+
+victory_points = {
+	18589
+	80
+}
+
+victory_points = {
+	4704
+	10
+}
+
+victory_points = {
+	2321
+	2
+}
+
+victory_points = {
+	18832
+	5
+}
+
+victory_points = {
+	4332
+	2
+}
+
+victory_points = {
+	124
+	2
+}
+
+victory_points = {
+	15594
+	20
+}
+
+victory_points = {
+	4684
+	40
+}
+
+victory_points = {
+	18831
+	20
+}
+
+victory_points = {
+	18868
+	10
+}
+
+victory_points = {
+	18605
+	10
+}
+
+victory_points = {
+	21206
+	2
+}
+
+victory_points = {
+	2235
+	5
+}
+
+victory_points = {
+	21119
+	20
+}
+
+victory_points = {
+	21113
+	10
+}
+
+victory_points = {
+	15783
+	10
+}
+
+victory_points = {
+	15800
+	80
+}
+
+victory_points = {
+	21158
+	10
+}
+
+victory_points = {
+	21194
+	2
+}
+
+victory_points = {
+	21203
+	2
+}
+
+victory_points = {
+	21202
+	10
+}
+
+victory_points = {
+	2779
+	10
+}
+
+victory_points = {
+	21170
+	1
+}
+
+victory_points = {
+	21189
+	40
+}
+
+victory_points = {
+	21186
+	5
+}
+
+victory_points = {
+	4934
+	40
+}
+
+victory_points = {
+	5075
+	10
+}
+
+victory_points = {
+	21150
+	10
+}
+
+victory_points = {
+	297
+	5
+}
+
+buildings = {
+	infrastructure = 6
+}
+
+victory_points = {
+	21221
+	10
+}
+
+victory_points = {
+	21208
+	1
+}
+
+victory_points = {
+	21226
+	10
+}
+
+victory_points = {
+	21241
+	2
+}
+
+victory_points = {
+	21234
+	10
+}
+
+victory_points = {
+	21242
+	10
+}
+
+victory_points = {
+	8554
+	5
+}
+
+victory_points = {
+	21246
+	10
+}
+
+victory_points = {
+	21229
+	20
+}
+
+victory_points = {
+	2044
+	1
+}
+
+victory_points = {
+	21106
+	5
+}
+
+victory_points = {
+	21105
+	5
+}
+
+victory_points = {
+	19394
+	40
+}
+
+victory_points = {
+	10667
+	2
+}
+
+victory_points = {
+	8504
+	2
+}
+
+victory_points = {
+	6682
+	2
+}
+
+victory_points = {
+	10802
+	5
+}
+
+victory_points = {
+	21098
+	5
+}
+
+victory_points = {
+	21079
+	40
+}
+
+victory_points = {
+	21057
+	5
+}
+
+victory_points = {
+	881
+	1
+}
+
+victory_points = {
+	9984
+	5
+}
+
+victory_points = {
+	19014
+	5
+}
+
+victory_points = {
+	8974
+	2
+}
+
+victory_points = {
+	18289
+	2
+}
+
+victory_points = {
+	10028
+	5
+}
+
+victory_points = {
+	4347
+	20
+}
+
+victory_points = {
+	21051
+	1
+}
+
+victory_points = {
+	21063
+	5
+}
+
+victory_points = {
+	21169
+	20
+}
+
+victory_points = {
+	21160
+	10
+}
+
+victory_points = {
+	21192
+	20
+}
+
+victory_points = {
+	21188
+	5
+}
+
+victory_points = {
+	11409
+	20
+}
+
+victory_points = {
+	11466
+	5
+}
+
+victory_points = {
+	19931
+	5
+}
+
+victory_points = {
+	8745
+	5
+}
+
+victory_points = {
+	2542
+	2
+}
+
+victory_points = {
+	11514
+	2
+}
+
+victory_points = {
+	4076
+	2
+}
+
+victory_points = {
+	15720
+	5
+}
+
+victory_points = {
+	21093
+	10
+}
+
+victory_points = {
+	21097
+	5
+}
+
+victory_points = {
+	21101
+	10
+}
+
+victory_points = {
+	15718
+	80
+}
+
+victory_points = {
+	4456
+	5
+}
+
+victory_points = {
+	21095
+	10
+}
+
+victory_points = {
+	21077
+	5
+}
+
+victory_points = {
+	2653
+	5
+}
+
+victory_points = {
+	21082
+	5
+}
+
+victory_points = {
+	21130
+	5
+}
+
+victory_points = {
+	21137
+	10
+}
+
+victory_points = {
+	19397
+	1
+}
+
+victory_points = {
+	11770
+	10
+}
+
+victory_points = {
+	11351
+	5
+}
+
+victory_points = {
+	7212
+	2
+}
+
+victory_points = {
+	11551
+	5
+}
+
+victory_points = {
+	11472
+	5
+}
+
+victory_points = {
+	19893
+	10
+}
+
+victory_points = {
+	7155
+	10
+}
+
+victory_points = {
+	5900
+	10
+}
+
+victory_points = {
+	11312
+	10
+}
+
+victory_points = {
+	21111
+	2
+}
+
+victory_points = {
+	21193
+	2
+}
+
+victory_points = {
+	21196
+	1
+}
+
+victory_points = {
+	12637
+	5
+}
+
+victory_points = {
+	1406
+	2
+}
+
+victory_points = {
+	12284
+	5
+}
+
+victory_points = {
+	73
+	5
+}
+
+victory_points = {
+	12664
+	2
+}
+
+victory_points = {
+	12325
+	5
+}
+
+victory_points = {
+	4392
+	5
+}
+
+victory_points = {
+	12502
+	20
+}
+
+victory_points = {
+	8296
+	2
+}
+
+victory_points = {
+	6087
+	2
+}
+
+victory_points = {
+	16977
+	80
+}
+
+victory_points = {
+	16829
+	40
+}
+
+victory_points = {
+	19151
+	20
+}
+
+victory_points = {
+	20528
+	5
+}
+
+victory_points = {
+	14413
+	5
+}
+
+victory_points = {
+	19860
+	2
+}
+
+victory_points = {
+	20021
+	5
+}
+
+victory_points = {
+	14305
+	2
+}
+
+victory_points = {
+	2290
+	1
+}
+
+victory_points = {
+	3648
+	1
+}
+
+victory_points = {
+	20006
+	1
+}
+
+victory_points = {
+	1697
+	50
+}
+
+victory_points = {
+	16144
+	2
+}
+
+victory_points = {
+	20016
+	5
+}
+
+victory_points = {
+	2414
+	2
+}
+
+victory_points = {
+	20022
+	40
+}
+
+victory_points = {
+	2422
+	2
+}
+
+victory_points = {
+	14292
+	5
+}
+
+victory_points = {
+	20055
+	2
+}
+
+victory_points = {
+	8239
+	5
+}
+
+victory_points = {
+	3869
+	5
+}
+
+victory_points = {
+	451
+	5
+}
+
+victory_points = {
+	2772
+	10
+}
+
+victory_points = {
+	14293
+	5
+}
+
+victory_points = {
+	6412
+	2
+}
+
+victory_points = {
+	830
+	2
+}
+
+victory_points = {
+	14270
+	80
+}
+
+victory_points = {
+	20013
+	5
+}
+
+victory_points = {
+	4189
+	15
+}
+
+victory_points = {
+	14571
+	10
+}
+
+victory_points = {
+	14595
+	5
+}
+
+victory_points = {
+	19881
+	5
+}
+
+victory_points = {
+	5096
+	5
+}
+
+victory_points = {
+	14690
+	5
+}
+
+victory_points = {
+	14681
+	15
+}
+
+victory_points = {
+	6926
+	10
+}
+
+victory_points = {
+	14625
+	5
+}
+
+victory_points = {
+	20014
+	5
+}
+
+victory_points = {
+	19882
+	30
+}
+
+victory_points = {
+	14360
+	5
+}
+
+victory_points = {
+	14307
+	20
+}
+
+victory_points = {
+	14251
+	10
+}
+
+victory_points = {
+	14294
+	20
+}
+
+victory_points = {
+	14208
+	10
+}
+
+victory_points = {
+	9279
+	1
+}
+
+victory_points = {
+	547
+	10
+}
+
+victory_points = {
+	14079
+	2
+}
+
+victory_points = {
+	20051
+	5
+}
+
+victory_points = {
+	5701
+	5
+}
+
+victory_points = {
+	5779
+	1
+}
+
+victory_points = {
+	20015
+	10
+}
+
+victory_points = {
+	14388
+	10
+}
+
+victory_points = {
+	14456
+	20
+}
+
+victory_points = {
+	9013
+	15
+}
+
+victory_points = {
+	5299
+	20
+}
+
+victory_points = {
+	14450
+	15
+}
+
+victory_points = {
+	9629
+	15
+}
+
+victory_points = {
+	20023
+	30
+}
+
+victory_points = {
+	5932
+	10
+}
+
+victory_points = {
+	14583
+	10
+}
+
+victory_points = {
+	14579
+	15
+}
+
+victory_points = {
+	9423
+	10
+}
+
+victory_points = {
+	9397
+	5
+}
+
+victory_points = {
+	18573
+	4
+}
+
+victory_points = {
+	7740
+	2
+}
+
+victory_points = {
+	3763
+	10
+}
+
+victory_points = {
+	14895
+	5
+}
+
+victory_points = {
+	6258
+	5
+}
+
+victory_points = {
+	4846
+	5
+}
+
+victory_points = {
+	19195
+	1
+}
+
+victory_points = {
+	20009
+	80
+}
+
+victory_points = {
+	14958
+	2
+}
+
+victory_points = {
+	8177
+	3
+}
+
+victory_points = {
+	7237
+	5
+}
+
+victory_points = {
+	14709
+	4
+}
+
+victory_points = {
+	14772
+	5
+}
+
+victory_points = {
+	7237
+	5
+}
+
+victory_points = {
+	14836
+	10
+}
+
+victory_points = {
+	3976
+	5
+}
+
+victory_points = {
+	5885
+	2
+}
+
+victory_points = {
+	9617
+	10
+}
+
+victory_points = {
+	6754
+	15
+}
+
+victory_points = {
+	3593
+	5
+}
+
+victory_points = {
+	20031
+	5
+}
+
+victory_points = {
+	19883
+	10
+}
+
+victory_points = {
+	14629
+	5
+}
+
+victory_points = {
+	20534
+	1
+}
+
+victory_points = {
+	59
+	2
+}
+
+victory_points = {
+	9716
+	2
+}
+
+victory_points = {
+	9727
+	2
+}
+
+victory_points = {
+	1191
+	1
+}
+
+victory_points = {
+	15008
+	5
+}
+
+victory_points = {
+	4116
+	5
+}
+
+victory_points = {
+	15109
+	10
+}
+
+victory_points = {
+	6041
+	5
+}
+
+victory_points = {
+	20008
+	60
+}
+
+victory_points = {
+	15093
+	5
+}
+
+victory_points = {
+	20045
+	10
+}
+
+victory_points = {
+	1980
+	15
+}
+
+victory_points = {
+	14922
+	5
+}
+
+victory_points = {
+	15118
+	20
+}
+
+victory_points = {
+	15087
+	10
+}
+
+victory_points = {
+	20007
+	10
+}
+
+victory_points = {
+	6160
+	5
+}
+
+victory_points = {
+	15006
+	20
+}
+
+victory_points = {
+	14010
+	10
+}
+
+victory_points = {
+	14112
+	10
+}
+
+victory_points = {
+	2660
+	2
+}
+
+victory_points = {
+	20035
+	10
+}
+
+victory_points = {
+	7275
+	5
+}
+
+victory_points = {
+	19084
+	1
+}
+
+victory_points = {
+	20496
+	2
+}
+
+victory_points = {
+	20034
+	5
+}
+
+victory_points = {
+	8443
+	5
+}
+
+victory_points = {
+	20495
+	2
+}
+
+victory_points = {
+	8387
+	2
+}
+
+victory_points = {
+	5848
+	2
+}
+
+victory_points = {
+	12816
+	2
+}
+
+victory_points = {
+	12929
+	2
+}
+
+victory_points = {
+	12963
+	2
+}
+
+victory_points = {
+	4103
+	2
+}
+
+victory_points = {
+	12681
+	5
+}
+
+victory_points = {
+	20056
+	80
+}
+
+victory_points = {
+	20071
+	5
+}
+
+victory_points = {
+	2925
+	10
+}
+
+victory_points = {
+	8199
+	2
+}
+
+victory_points = {
+	12964
+	5
+}
+
+victory_points = {
+	13154
+	5
+}
+
+victory_points = {
+	12647
+	5
+}
+
+victory_points = {
+	4683
+	2
+}
+
+victory_points = {
+	12762
+	5
+}
+
+victory_points = {
+	12810
+	20
+}
+
+victory_points = {
+	13031
+	2
+}
+
+victory_points = {
+	7351
+	5
+}
+
+victory_points = {
+	3539
+	2
+}
+
+victory_points = {
+	20066
+	10
+}
+
+victory_points = {
+	13040
+	20
+}
+
+victory_points = {
+	6771
+	2
+}
+
+victory_points = {
+	2195
+	2
+}
+
+victory_points = {
+	12640
+	5
+}
+
+victory_points = {
+	9313
+	2
+}
+
+victory_points = {
+	907
+	5
+}
+
+victory_points = {
+	20061
+	5
+}
+
+victory_points = {
+	12393
+	5
+}
+
+victory_points = {
+	4177
+	5
+}
+
+victory_points = {
+	4097
+	2
+}
+
+victory_points = {
+	20070
+	20
+}
+
+victory_points = {
+	13091
+	5
+}
+
+victory_points = {
+	13101
+	5
+}
+
+victory_points = {
+	13146
+	5
+}
+
+victory_points = {
+	13248
+	5
+}
+
+victory_points = {
+	3029
+	2
+}
+
+victory_points = {
+	13016
+	5
+}
+
+victory_points = {
+	4579
+	5
+}
+
+victory_points = {
+	9477
+	5
+}
+
+victory_points = {
+	13354
+	5
+}
+
+victory_points = {
+	13403
+	2
+}
+
+victory_points = {
+	13239
+	20
+}
+
+victory_points = {
+	20075
+	2
+}
+
+victory_points = {
+	14284
+	2
+}
+
+victory_points = {
+	20146
+	2
+}
+
+victory_points = {
+	20190
+	2
+}
+
+victory_points = {
+	20171
+	5
+}
+
+victory_points = {
+	14668
+	10
+}
+
+victory_points = {
+	4403
+	2
+}
+
+victory_points = {
+	20120
+	40
+}
+
+victory_points = {
+	14073
+	2
+}
+
+victory_points = {
+	14096
+	2
+}
+
+victory_points = {
+	14344
+	5
+}
+
+victory_points = {
+	14414
+	1
+}
+
+victory_points = {
+	14289
+	3
+}
+
+victory_points = {
+	14327
+	2
+}
+
+victory_points = {
+	4635
+	4
+}
+
+victory_points = {
+	4355
+	2
+}
+
+victory_points = {
+	14289
+	2
+}
+
+victory_points = {
+	14272
+	5
+}
+
+victory_points = {
+	3816
+	5
+}
+
+victory_points = {
+	14328
+	20
+}
+
+victory_points = {
+	14265
+	2
+}
+
+victory_points = {
+	14201
+	2
+}
+
+victory_points = {
+	14117
+	5
+}
+
+victory_points = {
+	17789
+	1
+}
+
+victory_points = {
+	20482
+	2
+}
+
+victory_points = {
+	7575
+	20
+}
+
+victory_points = {
+	14309
+	10
+}
+
+victory_points = {
+	5331
+	5
+}
+
+victory_points = {
+	14584
+	5
+}
+
+victory_points = {
+	9051
+	2
+}
+
+victory_points = {
+	2360
+	2
+}
+
+victory_points = {
+	14007
+	5
+}
+
+victory_points = {
+	14138
+	20
+}
+
+victory_points = {
+	2169
+	2
+}
+
+victory_points = {
+	20119
+	20
+}
+
+victory_points = {
+	20195
+	2
+}
+
+victory_points = {
+	20191
+	2
+}
+
+victory_points = {
+	20189
+	2
+}
+
+victory_points = {
+	6755
+	2
+}
+
+victory_points = {
+	14432
+	5
+}
+
+victory_points = {
+	20179
+	10
+}
+
+victory_points = {
+	1186
+	10
+}
+
+victory_points = {
+	387
+	10
+}
+
+victory_points = {
+	14631
+	40
+}
+
+victory_points = {
+	2924
+	5
+}
+
+victory_points = {
+	14800
+	2
+}
+
+victory_points = {
+	10523
+	20
+}
+
+victory_points = {
+	10671
+	5
+}
+
+victory_points = {
+	3846
+	2
+}
+
+victory_points = {
+	2976
+	2
+}
+
+victory_points = {
+	7425
+	5
+}
+
+victory_points = {
+	19612
+	5
+}
+
+victory_points = {
+	9651
+	2
+}
+
+victory_points = {
+	19609
+	5
+}
+
+victory_points = {
+	6640
+	2
+}
+
+victory_points = {
+	10305
+	2
+}
+
+victory_points = {
+	2707
+	10
+}
+
+victory_points = {
+	8360
+	2
+}
+
+victory_points = {
+	10535
+	2
+}
+
+victory_points = {
+	19617
+	2
+}
+
+victory_points = {
+	20122
+	5
+}
+
+victory_points = {
+	14543
+	5
+}
+
+victory_points = {
+	4719
+	10
+}
+
+victory_points = {
+	1085
+	2
+}
+
+victory_points = {
+	14490
+	1
+}
+
+victory_points = {
+	20200
+	5
+}
+
+victory_points = {
+	14459
+	80
+}
+
+victory_points = {
+	20121
+	5
+}
+
+victory_points = {
+	5842
+	2
+}
+
+victory_points = {
+	3833
+	2
+}
+
+victory_points = {
+	20201
+	5
+}
+
+victory_points = {
+	14731
+	5
+}
+
+victory_points = {
+	14718
+	20
+}
+
+victory_points = {
+	8259
+	5
+}
+
+victory_points = {
+	14632
+	10
+}
+
+victory_points = {
+	4006
+	5
+}
+
+victory_points = {
+	19089
+	20
+}
+
+victory_points = {
+	10299
+	2
+}
+
+victory_points = {
+	5153
+	2
+}
+
+victory_points = {
+	14354
+	2
+}
+
+victory_points = {
+	7456
+	2
+}
+
+victory_points = {
+	8544
+	10
+}
+
+victory_points = {
+	8299
+	5
+}
+
+victory_points = {
+	20198
+	10
+}
+
+victory_points = {
+	20222
+	10
+}
+
+victory_points = {
+	14848
+	5
+}
+
+victory_points = {
+	14805
+	40
+}
+
+victory_points = {
+	20223
+	10
+}
+
+victory_points = {
+	14818
+	5
+}
+
+victory_points = {
+	1435
+	1
+}
+
+victory_points = {
+	20168
+	5
+}
+
+victory_points = {
+	17762
+	15
+}
+
+victory_points = {
+	17287
+	1
+}
+
+victory_points = {
+	20199
+	5
+}
+
+victory_points = {
+	14979
+	5
+}
+
+victory_points = {
+	20226
+	20
+}
+
+victory_points = {
+	404
+	2
+}
+
+victory_points = {
+	20237
+	2
+}
+
+victory_points = {
+	1945
+	2
+}
+
+victory_points = {
+	14917
+	5
+}
+
+victory_points = {
+	20236
+	2
+}
+
+victory_points = {
+	86
+	2
+}
+
+victory_points = {
+	19409
+	10
+}
+
+victory_points = {
+	2856
+	2
+}
+
+victory_points = {
+	5768
+	20
+}
+
+victory_points = {
+	9581
+	5
+}
+
+victory_points = {
+	8962
+	2
+}
+
+victory_points = {
+	12446
+	15
+}
+
+victory_points = {
+	19410
+	5
+}
+
+victory_points = {
+	10472
+	20
+}
+
+victory_points = {
+	18955
+	5
+}
+
+victory_points = {
+	16051
+	2
+}
+
+victory_points = {
+	17102
+	2
+}
+
+victory_points = {
+	20342
+	2
+}
+
+victory_points = {
+	5637
+	2
+}
+
+victory_points = {
+	4131
+	5
+}
+
+victory_points = {
+	3101
+	2
+}
+
+victory_points = {
+	15074
+	20
+}
+
+victory_points = {
+	955
+	2
+}
+
+victory_points = {
+	15110
+	2
+}
+
+victory_points = {
+	9240
+	5
+}
+
+victory_points = {
+	3756
+	2
+}
+
+victory_points = {
+	20338
+	5
+}
+
+victory_points = {
+	20337
+	2
+}
+
+victory_points = {
+	7274
+	5
+}
+
+victory_points = {
+	14608
+	5
+}
+
+victory_points = {
+	1911
+	2
+}
+
+victory_points = {
+	1528
+	2
+}
+
+victory_points = {
+	20366
+	80
+}
+
+victory_points = {
+	7297
+	2
+}
+
+victory_points = {
+	3778
+	2
+}
+
+victory_points = {
+	20381
+	5
+}
+
+victory_points = {
+	3994
+	2
+}
+
+victory_points = {
+	14938
+	2
+}
+
+victory_points = {
+	14870
+	5
+}
+
+victory_points = {
+	20369
+	5
+}
+
+victory_points = {
+	17944
+	2
+}
+
+victory_points = {
+	20371
+	10
+}
+
+victory_points = {
+	14892
+	20
+}
+
+victory_points = {
+	6806
+	2
+}
+
+victory_points = {
+	20197
+	5
+}
+
+victory_points = {
+	14968
+	2
+}
+
+victory_points = {
+	20362
+	5
+}
+
+victory_points = {
+	20373
+	5
+}
+
+victory_points = {
+	20385
+	2
+}
+
+victory_points = {
+	14710
+	20
+}
+
+victory_points = {
+	20363
+	5
+}
+
+victory_points = {
+	20372
+	10
+}
+
+victory_points = {
+	20364
+	10
+}
+
+victory_points = {
+	20365
+	5
+}
+
+victory_points = {
+	4965
+	10
+}
+
+victory_points = {
+	14746
+	5
+}
+
+victory_points = {
+	14672
+	2
+}
+
+victory_points = {
+	9647
+	1
+}
+
+victory_points = {
+	5762
+	2
+}
+
+victory_points = {
+	8645
+	2
+}
+
+victory_points = {
+	14213
+	20
+}
+
+victory_points = {
+	909
+	5
+}
+
+victory_points = {
+	13863
+	2
+}
+
+victory_points = {
+	14127
+	2
+}
+
+victory_points = {
+	3813
+	2
+}
+
+victory_points = {
+	208
+	2
+}
+
+victory_points = {
+	2734
+	5
+}
+
+victory_points = {
+	13796
+	5
+}
+
+victory_points = {
+	13942
+	20
+}
+
+victory_points = {
+	20428
+	10
+}
+
+victory_points = {
+	13697
+	2
+}
+
+victory_points = {
+	20398
+	10
+}
+
+victory_points = {
+	20397
+	10
+}
+
+victory_points = {
+	20396
+	20
+}
+
+victory_points = {
+	20387
+	5
+}
+
+victory_points = {
+	5279
+	5
+}
+
+victory_points = {
+	3243
+	5
+}
+
+victory_points = {
+	14190
+	5
+}
+
+victory_points = {
+	3720
+	2
+}
+
+victory_points = {
+	14205
+	10
+}
+
+victory_points = {
+	14237
+	20
+}
+
+victory_points = {
+	14452
+	10
+}
+
+victory_points = {
+	14622
+	5
+}
+
+victory_points = {
+	14525
+	2
+}
+
+victory_points = {
+	14361
+	10
+}
+
+victory_points = {
+	14398
+	20
+}
+
+victory_points = {
+	4554
+	20
+}
+
+victory_points = {
+	7492
+	5
+}
+
+victory_points = {
+	20393
+	5
+}
+
+victory_points = {
+	4146
+	5
+}
+
+victory_points = {
+	20394
+	5
+}
+
+victory_points = {
+	2738
+	2
+}
+
+victory_points = {
+	5837
+	80
+}
+
+victory_points = {
+	20409
+	2
+}
+
+victory_points = {
+	1413
+	2
+}
+
+victory_points = {
+	14587
+	2
+}
+
+victory_points = {
+	3914
+	2
+}
+
+victory_points = {
+	14572
+	20
+}
+
+victory_points = {
+	1176
+	2
+}
+
+victory_points = {
+	969
+	10
+}
+
+victory_points = {
+	13814
+	20
+}
+
+victory_points = {
+	5863
+	2
+}
+
+victory_points = {
+	13609
+	10
+}
+
+victory_points = {
+	6656
+	5
+}
+
+victory_points = {
+	20388
+	10
+}
+
+victory_points = {
+	14064
+	5
+}
+
+victory_points = {
+	20443
+	10
+}
+
+victory_points = {
+	14218
+	5
+}
+
+victory_points = {
+	20439
+	20
+}
+
+victory_points = {
+	13877
+	5
+}
+
+victory_points = {
+	20389
+	10
+}
+
+victory_points = {
+	19708
+	20
+}
+
+victory_points = {
+	19709
+	2
+}
+
+victory_points = {
+	3477
+	2
+}
+
+victory_points = {
+	18499
+	2
+}
+
+victory_points = {
+	16518
+	2
+}
+
+victory_points = {
+	19707
+	2
+}
+
+victory_points = {
+	16307
+	5
+}
+
+victory_points = {
+	924
+	5
+}
+
+victory_points = {
+	9320
+	5
+}
+
+victory_points = {
+	8049
+	10
+}
+
+victory_points = {
+	7390
+	2
+}
+
+victory_points = {
+	8735
+	10
+}
+
+victory_points = {
+	20392
+	40
+}
+
+victory_points = {
+	13805
+	2
+}
+
+victory_points = {
+	13469
+	2
+}
+
+victory_points = {
+	707
+	2
+}
+
+victory_points = {
+	20391
+	10
+}
+
+victory_points = {
+	8593
+	2
+}
+
+victory_points = {
+	8775
+	2
+}
+
+victory_points = {
+	5734
+	2
+}
+
+victory_points = {
+	13287
+	10
+}
+
+victory_points = {
+	2281
+	5
+}
+
+victory_points = {
+	11210
+	2
+}
+
+victory_points = {
+	11171
+	2
+}
+
+victory_points = {
+	1577
+	10
+}
+
+victory_points = {
+	11094
+	5
+}
+
+victory_points = {
+	11034
+	2
+}
+
+victory_points = {
+	19905
+	10
+}
+
+victory_points = {
+	2421
+	2
+}
+
+victory_points = {
+	20478
+	2
+}
+
+victory_points = {
+	11161
+	2
+}
+
+victory_points = {
+	11248
+	2
+}
+
+victory_points = {
+	10752
+	2
+}
+
+victory_points = {
+	10893
+	2
+}
+
+victory_points = {
+	10853
+	2
+}
+
+victory_points = {
+	19906
+	20
+}
+
+victory_points = {
+	3541
+	2
+}
+
+victory_points = {
+	20532
+	2
+}
+
+victory_points = {
+	375
+	3
+}
+
+victory_points = {
+	2451
+	2
+}
+
+victory_points = {
+	9644
+	5
+}
+
+victory_points = {
+	14643
+	20
+}
+
+victory_points = {
+	8486
+	10
+}
+
+victory_points = {
+	5490
+	2
+}
+
+victory_points = {
+	19760
+	10
+}
+
+victory_points = {
+	7586
+	10
+}
+
+victory_points = {
+	14960
+	80
+}
+
+victory_points = {
+	19808
+	10
+}
+
+victory_points = {
+	7694
+	5
+}
+
+victory_points = {
+	19761
+	5
+}
+
+victory_points = {
+	5400
+	2
+}
+
+victory_points = {
+	6046
+	2
+}
+
+victory_points = {
+	19759
+	10
+}
+
+victory_points = {
+	7542
+	40
+}
+
+victory_points = {
+	491
+	5
+}
+
+victory_points = {
+	3407
+	2
+}
+
+victory_points = {
+	5968
+	2
+}
+
+victory_points = {
+	10447
+	5
+}
+
+victory_points = {
+	10288
+	2
+}
+
+victory_points = {
+	8925
+	2
+}
+
+victory_points = {
+	17856
+	10
+}
+
+victory_points = {
+	20535
+	1
+}
+
+victory_points = {
+	8562
+	2
+}
+
+victory_points = {
+	6762
+	10
+}
+
+victory_points = {
+	3207
+	2
+}
+
+victory_points = {
+	5107
+	5
+}
+
+victory_points = {
+	748
+	5
+}
+
+victory_points = {
+	9655
+	5
+}
+
+victory_points = {
+	9308
+	5
+}
+
+victory_points = {
+	20578
+	2
+}
+
+victory_points = {
+	20551
+	10
+}
+
+victory_points = {
+	1579
+	2
+}
+
+victory_points = {
+	11257
+	20
+}
+
+victory_points = {
+	6227
+	5
+}
+
+victory_points = {
+	6130
+	2
+}
+
+victory_points = {
+	11193
+	5
+}
+
+victory_points = {
+	20563
+	2
+}
+
+victory_points = {
+	11300
+	2
+}
+
+victory_points = {
+	5035
+	10
+}
+
+victory_points = {
+	11066
+	2
+}
+
+victory_points = {
+	28
+	2
+}
+
+victory_points = {
+	10941
+	5
+}
+
+victory_points = {
+	11159
+	5
+}
+
+victory_points = {
+	20638
+	2
+}
+
+victory_points = {
+	20634
+	20
+}
+
+victory_points = {
+	11622
+	2
+}
+
+victory_points = {
+	11956
+	2
+}
+
+victory_points = {
+	3680
+	5
+}
+
+victory_points = {
+	20615
+	20
+}
+
+victory_points = {
+	12210
+	2
+}
+
+victory_points = {
+	20611
+	2
+}
+
+victory_points = {
+	6951
+	2
+}
+
+victory_points = {
+	12268
+	20
+}
+
+victory_points = {
+	8041
+	5
+}
+
+victory_points = {
+	7035
+	5
+}
+
+victory_points = {
+	12220
+	5
+}
+
+victory_points = {
+	7811
+	2
+}
+
+victory_points = {
+	20609
+	2
+}
+
+victory_points = {
+	12379
+	20
+}
+
+victory_points = {
+	12517
+	2
+}
+
+victory_points = {
+	20608
+	40
+}
+
+victory_points = {
+	12599
+	2
+}
+
+victory_points = {
+	9490
+	40
+}
+
+victory_points = {
+	5425
+	10
+}
+
+victory_points = {
+	8402
+	10
+}
+
+victory_points = {
+	5693
+	5
+}
+
+victory_points = {
+	12364
+	5
+}
+
+victory_points = {
+	12313
+	2
+}
+
+victory_points = {
+	8095
+	2
+}
+
+victory_points = {
+	8274
+	10
+}
+
+victory_points = {
+	20607
+	5
+}
+
+victory_points = {
+	6045
+	5
+}
+
+victory_points = {
+	19942
+	10
+}
+
+victory_points = {
+	6758
+	5
+}
+
+victory_points = {
+	12567
+	5
+}
+
+victory_points = {
+	6250
+	5
+}
+
+victory_points = {
+	5259
+	2
+}
+
+victory_points = {
+	20598
+	10
+}
+
+victory_points = {
+	20602
+	2
+}
+
+victory_points = {
+	11764
+	5
+}
+
+victory_points = {
+	7025
+	2
+}
+
+victory_points = {
+	20689
+	40
+}
+
+victory_points = {
+	11075
+	5
+}
+
+victory_points = {
+	11438
+	2
+}
+
+victory_points = {
+	11343
+	5
+}
+
+victory_points = {
+	11430
+	2
+}
+
+victory_points = {
+	11183
+	2
+}
+
+victory_points = {
+	20680
+	10
+}
+
+victory_points = {
+	11207
+	10
+}
+
+victory_points = {
+	4891
+	2
+}
+
+victory_points = {
+	12033
+	10
+}
+
+victory_points = {
+	9031
+	4
+}
+
+victory_points = {
+	20677
+	5
+}
+
+victory_points = {
+	11788
+	20
+}
+
+victory_points = {
+	20659
+	5
+}
+
+victory_points = {
+	11684
+	40
+}
+
+victory_points = {
+	20673
+	10
+}
+
+victory_points = {
+	11982
+	2
+}
+
+victory_points = {
+	12078
+	2
+}
+
+victory_points = {
+	12363
+	5
+}
+
+victory_points = {
+	12392
+	10
+}
+
+victory_points = {
+	12378
+	10
+}
+
+victory_points = {
+	20626
+	2
+}
+
+victory_points = {
+	12479
+	2
+}
+
+victory_points = {
+	20622
+	20
+}
+
+victory_points = {
+	12294
+	2
+}
+
+victory_points = {
+	2375
+	1
+}
+
+victory_points = {
+	18767
+	80
+}
+
+victory_points = {
+	11089
+	2
+}
+
+victory_points = {
+	4322
+	20
+}
+
+victory_points = {
+	11120
+	2
+}
+
+victory_points = {
+	7341
+	20
+}
+
+victory_points = {
+	19647
+	1
+}
+
+victory_points = {
+	8430
+	5
+}
+
+victory_points = {
+	11031
+	1
+}
+
+victory_points = {
+	3214
+	2
+}
+
+victory_points = {
+	9110
+	5
+}
+
+victory_points = {
+	10927
+	2
+}
+
+victory_points = {
+	10903
+	2
+}
+
+victory_points = {
+	10903
+	2
+}
+
+victory_points = {
+	10482
+	80
+}
+
+victory_points = {
+	3693
+	20
+}
+
+victory_points = {
+	7983
+	5
+}
+
+victory_points = {
+	5146
+	2
+}
+
+victory_points = {
+	18999
+	10
+}
+
+victory_points = {
+	1863
+	5
+}
+
+victory_points = {
+	8129
+	5
+}
+
+victory_points = {
+	10708
+	5
+}
+
+victory_points = {
+	1774
+	2
+}
+
+victory_points = {
+	7367
+	2
+}
+
+victory_points = {
+	20688
+	5
+}
+
+victory_points = {
+	1050
+	5
+}
+
+victory_points = {
+	240
+	2
+}
+
+victory_points = {
+	11372
+	10
+}
+
+victory_points = {
+	20684
+	2
+}
+
+victory_points = {
+	4980
+	5
+}
+
+victory_points = {
+	4664
+	2
+}
+
+victory_points = {
+	20682
+	10
+}
+
+victory_points = {
+	11745
+	5
+}
+
+victory_points = {
+	20697
+	20
+}
+
+victory_points = {
+	11888
+	20
+}
+
+victory_points = {
+	20698
+	5
+}
+
+victory_points = {
+	12201
+	5
+}
+
+victory_points = {
+	20706
+	10
+}
+
+victory_points = {
+	11995
+	10
+}
+
+victory_points = {
+	20702
+	2
+}
+
+victory_points = {
+	8976
+	2
+}
+
+victory_points = {
+	9545
+	5
+}
+
+victory_points = {
+	11887
+	2
+}
+
+victory_points = {
+	12207
+	10
+}
+
+victory_points = {
+	5650
+	40
+}
+
+victory_points = {
+	20738
+	40
+}
+
+victory_points = {
+	8947
+	2
+}
+
+victory_points = {
+	8574
+	10
+}
+
+victory_points = {
+	12083
+	40
+}
+
+victory_points = {
+	20737
+	40
+}
+
+victory_points = {
+	12193
+	20
+}
+
+victory_points = {
+	12234
+	10
+}
+
+victory_points = {
+	12413
+	5
+}
+
+victory_points = {
+	7843
+	40
+}
+
+victory_points = {
+	12543
+	2
+}
+
+victory_points = {
+	8700
+	10
+}
+
+victory_points = {
+	9315
+	10
+}
+
+victory_points = {
+	12538
+	5
+}
+
+victory_points = {
+	12401
+	2
+}
+
+victory_points = {
+	12672
+	20
+}
+
+victory_points = {
+	12673
+	40
+}
+
+victory_points = {
+	6415
+	2
+}
+
+victory_points = {
+	7596
+	5
+}
+
+victory_points = {
+	12799
+	10
+}
+
+victory_points = {
+	8152
+	5
+}
+
+victory_points = {
+	12654
+	2
+}
+
+victory_points = {
+	12482
+	5
+}
+
+victory_points = {
+	7566
+	2
+}
+
+victory_points = {
+	428
+	2
+}
+
+victory_points = {
+	11030
+	5
+}
+
+victory_points = {
+	2540
+	2
+}
+
+victory_points = {
+	10755
+	2
+}
+
+victory_points = {
+	3599
+	10
+}
+
+victory_points = {
+	12150
+	2
+}
+
+victory_points = {
+	2236
+	2
+}
+
+victory_points = {
+	11631
+	2
+}
+
+victory_points = {
+	20734
+	10
+}
+
+victory_points = {
+	8475
+	20
+}
+
+victory_points = {
+	20734
+	20
+}
+
+victory_points = {
+	20736
+	40
+}
+
+victory_points = {
+	5555
+	5
+}
+
+victory_points = {
+	8536
+	5
+}
+
+victory_points = {
+	8240
+	5
+}
+
+victory_points = {
+	11955
+	2
+}
+
+victory_points = {
+	12390
+	20
+}
+
+victory_points = {
+	12434
+	20
+}
+
+victory_points = {
+	12461
+	2
+}
+
+victory_points = {
+	20739
+	10
+}
+
+victory_points = {
+	12582
+	2
+}
+
+victory_points = {
+	12836
+	10
+}
+
+victory_points = {
+	12953
+	5
+}
+
+victory_points = {
+	13106
+	2
+}
+
+victory_points = {
+	7401
+	2
+}
+
+victory_points = {
+	20729
+	10
+}
+
+victory_points = {
+	12876
+	5
+}
+
+victory_points = {
+	6957
+	2
+}
+
+victory_points = {
+	13047
+	10
+}
+
+victory_points = {
+	6453
+	2
+}
+
+victory_points = {
+	20743
+	10
+}
+
+victory_points = {
+	5086
+	5
+}
+
+victory_points = {
+	12853
+	2
+}
+
+victory_points = {
+	10264
+	2
+}
+
+victory_points = {
+	19398
+	10
+}
+
+victory_points = {
+	10443
+	10
+}
+
+victory_points = {
+	9082
+	2
+}
+
+victory_points = {
+	5270
+	5
+}
+
+victory_points = {
+	13519
+	20
+}
+
+victory_points = {
+	3091
+	2
+}
+
+victory_points = {
+	13237
+	5
+}
+
+victory_points = {
+	20767
+	20
+}
+
+victory_points = {
+	13312
+	2
+}
+
+victory_points = {
+	13095
+	20
+}
+
+victory_points = {
+	20755
+	10
+}
+
+victory_points = {
+	13297
+	5
+}
+
+victory_points = {
+	13597
+	5
+}
+
+victory_points = {
+	13303
+	10
+}
+
+victory_points = {
+	20748
+	5
+}
+
+victory_points = {
+	3588
+	10
+}
+
+victory_points = {
+	13408
+	2
+}
+
+victory_points = {
+	20762
+	2
+}
+
+victory_points = {
+	12947
+	2
+}
+
+victory_points = {
+	20763
+	2
+}
+
+victory_points = {
+	20757
+	5
+}
+
+victory_points = {
+	13191
+	5
+}
+
+victory_points = {
+	13060
+	10
+}
+
+victory_points = {
+	13447
+	2
+}
+
+victory_points = {
+	13598
+	2
+}
+
+victory_points = {
+	2168
+	2
+}
+
+victory_points = {
+	1598
+	40
+}
+
+victory_points = {
+	1497
+	5
+}
+
+victory_points = {
+	5553
+	20
+}
+
+victory_points = {
+	8530
+	5
+}
+
+victory_points = {
+	3784
+	20
+}
+
+victory_points = {
+	10471
+	5
+}
+
+victory_points = {
+	10481
+	10
+}
+
+victory_points = {
+	4068
+	10
+}
+
+victory_points = {
+	10596
+	5
+}
+
+victory_points = {
+	10300
+	5
+}
+
+victory_points = {
+	12710
+	5
+}
+
+victory_points = {
+	9164
+	2
+}
+
+victory_points = {
+	4871
+	5
+}
+
+victory_points = {
+	13130
+	1
+}
+
+victory_points = {
+	20792
+	10
+}
+
+victory_points = {
+	2528
+	2
+}
+
+victory_points = {
+	5497
+	2
+}
+
+victory_points = {
+	12730
+	10
+}
+
+victory_points = {
+	12969
+	2
+}
+
+victory_points = {
+	422
+	2
+}
+
+victory_points = {
+	1721
+	5
+}
+
+victory_points = {
+	18962
+	2
+}
+
+victory_points = {
+	4753
+	2
+}
+
+victory_points = {
+	12918
+	20
+}
+
+victory_points = {
+	12889
+	10
+}
+
+victory_points = {
+	20774
+	5
+}
+
+victory_points = {
+	12687
+	2
+}
+
+victory_points = {
+	5572
+	2
+}
+
+victory_points = {
+	13352
+	20
+}
+
+victory_points = {
+	20790
+	2
+}
+
+victory_points = {
+	9258
+	80
+}
+
+victory_points = {
+	13461
+	2
+}
+
+victory_points = {
+	1224
+	2
+}
+
+victory_points = {
+	8752
+	5
+}
+
+victory_points = {
+	20808
+	5
+}
+
+victory_points = {
+	8013
+	5
+}
+
+victory_points = {
+	20804
+	2
+}
+
+victory_points = {
+	7580
+	2
+}
+
+victory_points = {
+	3178
+	2
+}
+
+victory_points = {
+	4897
+	5
+}
+
+victory_points = {
+	13100
+	10
+}
+
+victory_points = {
+	20813
+	1
+}
+
+victory_points = {
+	20843
+	5
+}
+
+victory_points = {
+	13779
+	10
+}
+
+victory_points = {
+	4426
+	1
+}
+
+victory_points = {
+	5302
+	1
+}
+
+victory_points = {
+	20810
+	1
+}
+
+victory_points = {
+	13572
+	10
+}
+
+victory_points = {
+	13396
+	20
+}
+
+victory_points = {
+	4309
+	2
+}
+
+victory_points = {
+	13751
+	1
+}
+
+victory_points = {
+	13987
+	5
+}
+
+victory_points = {
+	7710
+	2
+}
+
+victory_points = {
+	3032
+	20
+}
+
+victory_points = {
+	13425
+	5
+}
+
+victory_points = {
+	13613
+	2
+}
+
+victory_points = {
+	7959
+	1
+}
+
+victory_points = {
+	20848
+	80
+}
+
+victory_points = {
+	13650
+	10
+}
+
+victory_points = {
+	6868
+	5
+}
+
+victory_points = {
+	13776
+	10
+}
+
+victory_points = {
+	13870
+	5
+}
+
+victory_points = {
+	20089
+	5
+}
+
+victory_points = {
+	4296
+	2
+}
+
+victory_points = {
+	13775
+	5
+}
+
+victory_points = {
+	20087
+	5
+}
+
+victory_points = {
+	13917
+	5
+}
+
+victory_points = {
+	5215
+	5
+}
+
+victory_points = {
+	14044
+	2
+}
+
+victory_points = {
+	8687
+	10
+}
+
+victory_points = {
+	20091
+	10
+}
+
+victory_points = {
+	4997
+	2
+}
+
+victory_points = {
+	13958
+	2
+}
+
+victory_points = {
+	13539
+	10
+}
+
+victory_points = {
+	7774
+	2
+}
+
+victory_points = {
+	8222
+	20
+}
+
+victory_points = {
+	13790
+	2
+}
+
+victory_points = {
+	13853
+	2
+}
+
+victory_points = {
+	5120
+	2
+}
+
+victory_points = {
+	13946
+	5
+}
+
+victory_points = {
+	20092
+	10
+}
+
+victory_points = {
+	21014
+	10
+}
+
+victory_points = {
+	20917
+	5
+}
+
+victory_points = {
+	20922
+	1
+}
+
+victory_points = {
+	21012
+	20
+}
+
+victory_points = {
+	21013
+	5
+}
+
+victory_points = {
+	20921
+	2
+}
+
+victory_points = {
+	21011
+	20
+}
+
+victory_points = {
+	10418
+	20
+}
+
+victory_points = {
+	7714
+	2
+}
+
+victory_points = {
+	2116
+	5
+}
+
+victory_points = {
+	791
+	2
+}
+
+victory_points = {
+	6236
+	2
+}
+
+victory_points = {
+	10533
+	20
+}
+
+victory_points = {
+	10536
+	10
+}
+
+victory_points = {
+	744
+	2
+}
+
+victory_points = {
+	10505
+	2
+}
+
+victory_points = {
+	16308
+	5
+}
+
+victory_points = {
+	16328
+	2
+}
+
+victory_points = {
+	10564
+	5
+}
+
+victory_points = {
+	10688
+	5
+}
+
+victory_points = {
+	10672
+	2
+}
+
+victory_points = {
+	6964
+	2
+}
+
+victory_points = {
+	18646
+	80
+}
+
+victory_points = {
+	10796
+	10
+}
+
+victory_points = {
+	10698
+	10
+}
+
+victory_points = {
+	10776
+	5
+}
+
+victory_points = {
+	1086
+	5
+}
+
+victory_points = {
+	152
+	2
+}
+
+victory_points = {
+	10764
+	2
+}
+
+victory_points = {
+	10846
+	2
+}
+
+victory_points = {
+	3260
+	2
+}
+
+victory_points = {
+	7352
+	10
+}
+
+victory_points = {
+	2820
+	10
+}
+
+victory_points = {
+	9233
+	10
+}
+
+victory_points = {
+	10664
+	5
+}
+
+victory_points = {
+	3495
+	5
+}
+
+victory_points = {
+	10568
+	5
+}
+
+victory_points = {
+	10785
+	2
+}
+
+victory_points = {
+	10603
+	2
+}
+
+victory_points = {
+	10568
+	2
+}
+
+victory_points = {
+	8617
+	20
+}
+
+victory_points = {
+	7626
+	10
+}
+
+victory_points = {
+	4291
+	10
+}
+
+victory_points = {
+	10503
+	5
+}
+
+victory_points = {
+	10487
+	5
+}
+
+victory_points = {
+	7082
+	2
+}
+
+victory_points = {
+	10480
+	2
+}
+
+victory_points = {
+	19095
+	10
+}
+
+victory_points = {
+	10610
+	20
+}
+
+victory_points = {
+	6085
+	2
+}
+
+victory_points = {
+	20196
+	5
+}
+
+victory_points = {
+	5357
+	10
+}
+
+victory_points = {
+	5099
+	2
+}
+
+victory_points = {
+	11951
+	10
+}
+
+victory_points = {
+	12256
+	10
+}
+
+victory_points = {
+	12039
+	10
+}
+
+victory_points = {
+	6625
+	10
+}
+
+victory_points = {
+	3044
+	10
+}
+
+victory_points = {
+	9413
+	5
+}
+
+victory_points = {
+	19873
+	2
+}
+
+victory_points = {
+	12077
+	20
+}
+
+victory_points = {
+	347
+	2
+}
+
+victory_points = {
+	10920
+	20
+}
+
+victory_points = {
+	2958
+	2
+}
+
+victory_points = {
+	11407
+	20
+}
+
+victory_points = {
+	19921
+	5
+}
+
+victory_points = {
+	11367
+	20
+}
+
+victory_points = {
+	6231
+	5
+}
+
+victory_points = {
+	19922
+	5
+}
+
+victory_points = {
+	10993
+	2
+}
+
+victory_points = {
+	11131
+	2
+}
+
+victory_points = {
+	5243
+	5
+}
+
+victory_points = {
+	775
+	5
+}
+
+victory_points = {
+	11900
+	2
+}
+
+victory_points = {
+	11767
+	2
+}
+
+victory_points = {
+	11800
+	80
+}
+
+victory_points = {
+	895
+	5
+}
+
+victory_points = {
+	13834
+	5
+}
+
+victory_points = {
+	2226
+	5
+}
+
+victory_points = {
+	6919
+	10
+}
+
+victory_points = {
+	19814
+	20
+}
+
+victory_points = {
+	6799
+	5
+}
+
+victory_points = {
+	13722
+	10
+}
+
+victory_points = {
+	5178
+	2
+}
+
+victory_points = {
+	7806
+	80
+}
+
+victory_points = {
+	8057
+	5
+}
+
+victory_points = {
+	19039
+	40
+}
+
+victory_points = {
+	10628
+	20
+}
+
+victory_points = {
+	10690
+	2
+}
+
+victory_points = {
+	10727
+	5
+}
+
+victory_points = {
+	4225
+	2
+}
+
+victory_points = {
+	4932
+	10
+}
+
+victory_points = {
+	442
+	5
+}
+
+victory_points = {
+	10843
+	5
+}
+
+victory_points = {
+	10936
+	2
+}
+
+victory_points = {
+	6752
+	5
+}
+
+victory_points = {
+	1140
+	40
+}
+
+victory_points = {
+	1362
+	2
+}
+
+victory_points = {
+	11187
+	20
+}
+
+victory_points = {
+	1492
+	10
+}
+
+victory_points = {
+	8762
+	5
+}
+
+victory_points = {
+	6756
+	2
+}
+
+victory_points = {
+	10984
+	5
+}
+
+victory_points = {
+	9197
+	2
+}
+
+victory_points = {
+	10977
+	2
+}
+
+victory_points = {
+	6686
+	2
+}
+
+victory_points = {
+	10899
+	10
+}
+
+victory_points = {
+	10827
+	5
+}
+
+victory_points = {
+	10850
+	2
+}
+
+victory_points = {
+	16044
+	10
+}
+
+victory_points = {
+	758
+	2
+}
+
+victory_points = {
+	5789
+	2
+}
+
+victory_points = {
+	8454
+	2
+}
+
+victory_points = {
+	12532
+	5
+}
+
+victory_points = {
+	8295
+	5
+}
+
+victory_points = {
+	4731
+	5
+}
+
+victory_points = {
+	2025
+	80
+}
+
+victory_points = {
+	13798
+	1
+}
+
+victory_points = {
+	13845
+	20
+}
+
+victory_points = {
+	8175
+	10
+}
+
+victory_points = {
+	15840
+	5
+}
+
+victory_points = {
+	6999
+	10
+}
+
+victory_points = {
+	813
+	5
+}
+
+victory_points = {
+	1709
+	80
+}
+
+victory_points = {
+	13674
+	2
+}
+
+victory_points = {
+	7322
+	20
+}
+
+victory_points = {
+	7423
+	10
+}
+
+victory_points = {
+	13220
+	5
+}
+
+victory_points = {
+	13463
+	2
+}
+
+victory_points = {
+	3298
+	20
+}
+
+victory_points = {
+	7168
+	20
+}
+
+victory_points = {
+	4196
+	2
+}
+
+victory_points = {
+	13499
+	5
+}
+
+victory_points = {
+	13839
+	10
+}
+
+victory_points = {
+	13760
+	10
+}
+
+victory_points = {
+	13799
+	80
+}
+
+victory_points = {
+	13383
+	5
+}
+
+victory_points = {
+	8565
+	20
+}
+
+victory_points = {
+	4967
+	2
+}
+
+victory_points = {
+	13164
+	2
+}
+
+victory_points = {
+	5654
+	2
+}
+
+victory_points = {
+	279
+	2
+}
+
+victory_points = {
+	12990
+	2
+}
+
+victory_points = {
+	12935
+	1
+}
+
+victory_points = {
+	13162
+	5
+}
+
+victory_points = {
+	8379
+	1
+}
+
+victory_points = {
+	9602
+	5
+}
+
+victory_points = {
+	4379
+	1
+}
+
+victory_points = {
+	8101
+	2
+}
+
+victory_points = {
+	12756
+	2
+}
+
+victory_points = {
+	12724
+	80
+}
+
+victory_points = {
+	3320
+	2
+}
+
+victory_points = {
+	4837
+	1
+}
+
+victory_points = {
+	225
+	1
+}
+
+victory_points = {
+	6680
+	20
+}
+
+victory_points = {
+	2158
+	20
+}
+
+victory_points = {
+	8427
+	2
+}
+
+victory_points = {
+	3066
+	2
+}
+
+victory_points = {
+	3267
+	1
+}
+
+victory_points = {
+	7125
+	2
+}
+
+victory_points = {
+	613
+	20
+}
+
+victory_points = {
+	12501
+	2
+}
+
+victory_points = {
+	12453
+	2
+}
+
+victory_points = {
+	8611
+	5
+}
+
+victory_points = {
+	1887
+	2
+}
+
+victory_points = {
+	11916
+	5
+}
+
+victory_points = {
+	1257
+	1
+}
+
+victory_points = {
+	8309
+	5
+}
+
+victory_points = {
+	11656
+	2
+}
+
+victory_points = {
+	4761
+	2
+}
+
+victory_points = {
+	11394
+	20
+}
+
+victory_points = {
+	19075
+	2
+}
+
+victory_points = {
+	13927
+	1
+}
+
+victory_points = {
+	20450
+	10
+}
+
+victory_points = {
+	20390
+	5
+}
+
+victory_points = {
+	9014
+	2
+}
+
+victory_points = {
+	13569
+	2
+}
+
+victory_points = {
+	4939
+	5
+}
+
+victory_points = {
+	12723
+	2
+}
+
+victory_points = {
+	12811
+	2
+}
+
+victory_points = {
+	4895
+	1
+}
+
+victory_points = {
+	4574
+	2
+}
+
+victory_points = {
+	478
+	20
+}
+
+victory_points = {
+	5657
+	2
+}
+
+victory_points = {
+	4027
+	1
+}
+
+victory_points = {
+	12642
+	2
+}
+
+victory_points = {
+	4206
+	2
+}
+
+victory_points = {
+	10519
+	1
+}
+
+victory_points = {
+	10553
+	20
+}
+
+victory_points = {
+	6749
+	10
+}
+
+victory_points = {
+	10470
+	2
+}
+
+victory_points = {
+	4020
+	5
+}
+
+victory_points = {
+	6813
+	1
+}
+
+victory_points = {
+	12750
+	5
+}
+
+victory_points = {
+	12308
+	5
+}
+
+victory_points = {
+	8854
+	2
+}
+
+victory_points = {
+	12573
+	1
+}
+
+victory_points = {
+	12154
+	1
+}
+
+victory_points = {
+	8021
+	20
+}
+
+victory_points = {
+	6360
+	10
+}
+
+victory_points = {
+	13864
+	2
+}
+
+victory_points = {
+	3340
+	40
+}
+
+victory_points = {
+	4987
+	1
+}
+
+victory_points = {
+	9218
+	10
+}
+
+victory_points = {
+	5157
+	1
+}
+
+victory_points = {
+	6966
+	5
+}
+
+victory_points = {
+	14393
+	20
+}
+
+victory_points = {
+	13806
+	10
+}
+
+victory_points = {
+	14325
+	10
+}
+
+victory_points = {
+	8718
+	5
+}
+
+victory_points = {
+	3523
+	20
+}
+
+victory_points = {
+	9345
+	1
+}
+
+victory_points = {
+	14022
+	80
+}
+
+victory_points = {
+	3104
+	2
+}
+
+victory_points = {
+	13233
+	1
+}
+
+victory_points = {
+	3461
+	2
+}
+
+victory_points = {
+	5626
+	1
+}
+
+victory_points = {
+	13182
+	2
+}
+
+victory_points = {
+	13034
+	20
+}
+
+victory_points = {
+	13140
+	1
+}
+
+victory_points = {
+	510
+	1
+}
+
+victory_points = {
+	9303
+	1
+}
+
+victory_points = {
+	6434
+	1
+}
+
+victory_points = {
+	12801
+	10
+}
+
+victory_points = {
+	13436
+	1
+}
+
+victory_points = {
+	5108
+	5
+}
+
+victory_points = {
+	8945
+	1
+}
+
+victory_points = {
+	12866
+	1
+}
+
+victory_points = {
+	13183
+	5
+}
+
+victory_points = {
+	12794
+	1
+}
+
+victory_points = {
+	5631
+	1
+}
+
+victory_points = {
+	2255
+	1
+}
+
+victory_points = {
+	13042
+	1
+}
+
+victory_points = {
+	12949
+	20
+}
+
+victory_points = {
+	12874
+	2
+}
+
+victory_points = {
+	12934
+	1
+}
+
+victory_points = {
+	7102
+	2
+}
+
+victory_points = {
+	1543
+	1
+}
+
+victory_points = {
+	2691
+	5
+}
+
+victory_points = {
+	13652
+	2
+}
+
+victory_points = {
+	13652
+	1
+}
+
+victory_points = {
+	7054
+	1
+}
+
+victory_points = {
+	2926
+	1
+}
+
+victory_points = {
+	13844
+	1
+}
+
+victory_points = {
+	13328
+	1
+}
+
+victory_points = {
+	9169
+	20
+}
+
+victory_points = {
+	2628
+	20
+}
+
+victory_points = {
+	3974
+	1
+}
+
+victory_points = {
+	4629
+	1
+}
+
+victory_points = {
+	13888
+	20
+}
+
+victory_points = {
+	15855
+	1
+}
+
+victory_points = {
+	8675
+	20
+}
+
+victory_points = {
+	13687
+	10
+}
+
+victory_points = {
+	13406
+	40
+}
+
+victory_points = {
+	4869
+	10
+}
+
+victory_points = {
+	13477
+	2
+}
+
+victory_points = {
+	945
+	1
+}
+
+victory_points = {
+	13581
+	40
+}
+
+victory_points = {
+	9631
+	1
+}
+
+victory_points = {
+	14113
+	1
+}
+
+victory_points = {
+	13990
+	1
+}
+
+victory_points = {
+	312
+	1
+}
+
+victory_points = {
+	9661
+	2
+}
+
+victory_points = {
+	18528
+	40
+}
+
+victory_points = {
+	4575
+	10
+}
+
+victory_points = {
+	11432
+	10
+}
+
+victory_points = {
+	11320
+	2
+}
+
+victory_points = {
+	10761
+	2
+}
+
+victory_points = {
+	5610
+	2
+}
+
+victory_points = {
+	12309
+	5
+}
+
+victory_points = {
+	12260
+	5
+}
+
+victory_points = {
+	469
+	1
+}
+
+victory_points = {
+	12081
+	20
+}
+
+victory_points = {
+	9230
+	1
+}
+
+victory_points = {
+	12048
+	2
+}
+
+victory_points = {
+	12751
+	2
+}
+
+victory_points = {
+	6644
+	1
+}
+
+victory_points = {
+	11703
+	5
+}
+
+victory_points = {
+	1944
+	5
+}
+
+victory_points = {
+	11861
+	10
+}
+
+victory_points = {
+	9085
+	20
+}
+
+victory_points = {
+	11069
+	80
+}
+
+victory_points = {
+	10959
+	10
+}
+
+victory_points = {
+	11163
+	20
+}
+
+victory_points = {
+	2090
+	2
+}
+
+victory_points = {
+	8313
+	2
+}
+
+victory_points = {
+	11047
+	5
+}
+
+victory_points = {
+	8395
+	2
+}
+
+victory_points = {
+	10825
+	20
+}
+
+victory_points = {
+	8109
+	10
+}
+
+victory_points = {
+	15878
+	10
+}
+
+victory_points = {
+	10730
+	20
+}
+
+victory_points = {
+	10721
+	5
+}
+
+victory_points = {
+	5904
+	2
+}
+
+victory_points = {
+	10759
+	5
+}
+
+victory_points = {
+	10713
+	2
+}
+
+victory_points = {
+	10492
+	10
+}
+
+victory_points = {
+	19157
+	80
+}
+
+victory_points = {
+	5322
+	20
+}
+
+victory_points = {
+	12690
+	5
+}
+
+victory_points = {
+	6508
+	2
+}
+
+victory_points = {
+	17868
+	3
+}
+
+victory_points = {
+	16403
+	80
+}
+
+victory_points = {
+	14842
+	5
+}
+
+victory_points = {
+	5267
+	2
+}
+
+victory_points = {
+	18490
+	10
+}
+
+victory_points = {
+	5219
+	2
+}
+
+victory_points = {
+	14866
+	2
+}
+
+victory_points = {
+	14926
+	10
+}
+
+victory_points = {
+	8837
+	2
+}
+
+victory_points = {
+	16151
+	2
+}
+
+victory_points = {
+	9266
+	20
+}
+
+victory_points = {
+	14747
+	5
+}
+
+victory_points = {
+	6158
+	5
+}
+
+victory_points = {
+	13489
+	10
+}
+
+victory_points = {
+	20402
+	2
+}
+
+victory_points = {
+	6336
+	5
+}
+
+victory_points = {
+	13574
+	5
+}
+
+victory_points = {
+	18280
+	80
+}
+
+victory_points = {
+	19758
+	5
+}
+
+victory_points = {
+	1704
+	2
+}
+
+victory_points = {
+	14894
+	2
+}
+
+victory_points = {
+	14921
+	40
+}
+
+victory_points = {
+	4721
+	2
+}
+
+victory_points = {
+	14383
+	10
+}
+
+victory_points = {
+	20386
+	5
+}
+
+victory_points = {
+	14437
+	2
+}
+
+victory_points = {
+	20395
+	10
+}
+
+victory_points = {
+	14535
+	20
+}
+
+victory_points = {
+	4777
+	2
+}
+
+victory_points = {
+	14556
+	2
+}
+
+victory_points = {
+	5137
+	5
+}
+
+victory_points = {
+	3866
+	2
+}
+
+victory_points = {
+	19885
+	10
+}
+
+victory_points = {
+	12898
+	10
+}
+
+victory_points = {
+	12957
+	15
+}
+
+victory_points = {
+	2730
+	2
+}
+
+victory_points = {
+	6317
+	2
+}
+
+victory_points = {
+	13003
+	2
+}
+
+victory_points = {
+	8352
+	5
+}
+
+victory_points = {
+	12952
+	2
+}
+
+victory_points = {
+	6841
+	2
+}
+
+victory_points = {
+	19847
+	10
+}
+
+victory_points = {
+	13380
+	2
+}
+
+victory_points = {
+	16640
+	2
+}
+
+victory_points = {
+	6613
+	5
+}
+
+victory_points = {
+	19841
+	10
+}
+
+victory_points = {
+	5794
+	2
+}
+
+victory_points = {
+	12901
+	2
+}
+
+victory_points = {
+	12503
+	5
+}
+
+victory_points = {
+	12549
+	5
+}
+
+victory_points = {
+	19891
+	10
+}
+
+victory_points = {
+	12494
+	2
+}
+
+victory_points = {
+	5375
+	20
+}
+
+victory_points = {
+	12533
+	5
+}
+
+victory_points = {
+	9341
+	5
+}
+
+victory_points = {
+	19890
+	10
+}
+
+victory_points = {
+	7962
+	1
+}
+
+victory_points = {
+	16442
+	2
+}
+
+victory_points = {
+	19864
+	2
+}
+
+victory_points = {
+	12814
+	5
+}
+
+victory_points = {
+	4400
+	2
+}
+
+victory_points = {
+	19850
+	10
+}
+
+victory_points = {
+	13169
+	5
+}
+
+victory_points = {
+	13363
+	5
+}
+
+victory_points = {
+	13307
+	2
+}
+
+victory_points = {
+	2444
+	2
+}
+
+victory_points = {
+	3382
+	2
+}
+
+victory_points = {
+	1808
+	2
+}
+
+victory_points = {
+	1327
+	10
+}
+
+victory_points = {
+	4567
+	20
+}
+
+victory_points = {
+	3294
+	2
+}
+
+victory_points = {
+	6513
+	10
+}
+
+victory_points = {
+	2404
+	10
+}
+
+victory_points = {
+	4848
+	2
+}
+
+victory_points = {
+	917
+	2
+}
+
+victory_points = {
+	16961
+	5
+}
+
+victory_points = {
+	6753
+	2
+}
+
+victory_points = {
+	8892
+	5
+}
+
+victory_points = {
+	10099
+	2
+}
+
+victory_points = {
+	455
+	2
+}
+
+victory_points = {
+	10197
+	5
+}
+
+victory_points = {
+	17541
+	2
+}
+
+victory_points = {
+	3636
+	2
+}
+
+victory_points = {
+	10219
+	40
+}
+
+victory_points = {
+	18053
+	5
+}
+
+victory_points = {
+	1121
+	2
+}
+
+victory_points = {
+	9915
+	2
+}
+
+victory_points = {
+	11529
+	5
+}
+
+victory_points = {
+	11734
+	2
+}
+
+victory_points = {
+	11137
+	5
+}
+
+victory_points = {
+	1051
+	2
+}
+
+victory_points = {
+	5423
+	2
+}
+
+victory_points = {
+	1689
+	2
+}
+
+victory_points = {
+	2033
+	5
+}
+
+victory_points = {
+	4678
+	5
+}
+
+victory_points = {
+	5473
+	40
+}
+
+victory_points = {
+	12110
+	2
+}
+
+victory_points = {
+	19716
+	20
+}
+
+victory_points = {
+	17908
+	2
+}
+
+victory_points = {
+	14591
+	10
+}
+
+victory_points = {
+	14614
+	10
+}
+
+victory_points = {
+	3371
+	5
+}
+
+victory_points = {
+	14519
+	2
+}
+
+victory_points = {
+	1273
+	5
+}
+
+victory_points = {
+	16269
+	2
+}
+
+victory_points = {
+	14364
+	2
+}
+
+victory_points = {
+	2394
+	2
+}
+
+victory_points = {
+	14363
+	10
+}
+
+victory_points = {
+	5980
+	2
+}
+
+victory_points = {
+	14484
+	20
+}
+
+victory_points = {
+	14479
+	5
+}
+
+victory_points = {
+	9048
+	5
+}
+
+victory_points = {
+	14282
+	5
+}
+
+victory_points = {
+	14320
+	2
+}
+
+victory_points = {
+	14331
+	5
+}
+
+victory_points = {
+	9552
+	2
+}
+
+victory_points = {
+	14249
+	5
+}
+
+victory_points = {
+	5395
+	2
+}
+
+victory_points = {
+	5527
+	5
+}
+
+victory_points = {
+	14206
+	2
+}
+
+victory_points = {
+	13991
+	2
+}
+
+victory_points = {
+	5540
+	2
+}
+
+victory_points = {
+	5417
+	5
+}
+
+victory_points = {
+	14069
+	2
+}
+
+victory_points = {
+	17588
+	10
+}
+
+victory_points = {
+	16666
+	5
+}
+
+victory_points = {
+	918
+	2
+}
+
+victory_points = {
+	14264
+	2
+}
+
+victory_points = {
+	860
+	2
+}
+
+victory_points = {
+	8573
+	20
+}
+
+victory_points = {
+	14311
+	2
+}
+
+victory_points = {
+	7091
+	2
+}
+
+victory_points = {
+	14386
+	40
+}
+
+victory_points = {
+	14347
+	2
+}
+
+victory_points = {
+	13931
+	5
+}
+
+victory_points = {
+	8105
+	2
+}
+
+victory_points = {
+	4104
+	10
+}
+
+victory_points = {
+	13792
+	2
+}
+
+victory_points = {
+	14095
+	10
+}
+
+victory_points = {
+	12604
+	5
+}
+
+victory_points = {
+	1848
+	10
+}
+
+victory_points = {
+	2600
+	2
+}
+
+victory_points = {
+	12812
+	2
+}
+
+victory_points = {
+	12555
+	2
+}
+
+victory_points = {
+	13180
+	2
+}
+
+victory_points = {
+	13216
+	80
+}
+
+victory_points = {
+	570
+	20
+}
+
+victory_points = {
+	12115
+	5
+}
+
+victory_points = {
+	2954
+	2
+}
+
+victory_points = {
+	12527
+	2
+}
+
+victory_points = {
+	12577
+	2
+}
+
+victory_points = {
+	12397
+	2
+}
+
+victory_points = {
+	11984
+	40
+}
+
+victory_points = {
+	12289
+	5
+}
+
+victory_points = {
+	5148
+	2
+}
+
+victory_points = {
+	8330
+	2
+}
+
+victory_points = {
+	11927
+	2
+}
+
+victory_points = {
+	3979
+	2
+}
+
+victory_points = {
+	12615
+	5
+}
+
+victory_points = {
+	7343
+	20
+}
+
+victory_points = {
+	12610
+	2
+}
+
+victory_points = {
+	12188
+	20
+}
+
+victory_points = {
+	2463
+	2
+}
+
+victory_points = {
+	18368
+	2
+}
+
+victory_points = {
+	5749
+	2
+}
+
+victory_points = {
+	3359
+	2
+}
+
+victory_points = {
+	12036
+	2
+}
+
+victory_points = {
+	11941
+	20
+}
+
+victory_points = {
+	3999
+	5
+}
+
+victory_points = {
+	17621
+	10
+}
+
+victory_points = {
+	9640
+	2
+}
+
+victory_points = {
+	6009
+	2
+}
+
+victory_points = {
+	1372
+	5
+}
+
+victory_points = {
+	7865
+	2
+}
+
+victory_points = {
+	11883
+	2
+}
+
+victory_points = {
+	12051
+	40
+}
+
+victory_points = {
+	9584
+	2
+}
+
+victory_points = {
+	11870
+	5
+}
+
+victory_points = {
+	5759
+	2
+}
+
+victory_points = {
+	8324
+	2
+}
+
+victory_points = {
+	11326
+	40
+}
+
+victory_points = {
+	18981
+	5
+}
+
+victory_points = {
+	11356
+	5
+}
+
+victory_points = {
+	2495
+	2
+}
+
+victory_points = {
+	10966
+	2
+}
+
+victory_points = {
+	10954
+	20
+}
+
+victory_points = {
+	11025
+	2
+}
+
+victory_points = {
+	8697
+	2
+}
+
+victory_points = {
+	16336
+	2
+}
+
+victory_points = {
+	19033
+	40
+}
+
+victory_points = {
+	1312
+	2
+}
+
+victory_points = {
+	2567
+	2
+}
+
+victory_points = {
+	18045
+	2
+}
+
+victory_points = {
+	1923
+	2
+}
+
+victory_points = {
+	18923
+	10
+}
+
+victory_points = {
+	18924
+	20
+}
+
+victory_points = {
+	778
+	2
+}
+
+victory_points = {
+	1618
+	2
+}
+
+victory_points = {
+	17208
+	5
+}
+
+victory_points = {
+	9699
+	2
+}
+
+victory_points = {
+	8634
+	5
+}
+
+victory_points = {
+	16843
+	10
+}
+
+victory_points = {
+	8301
+	10
+}
+
+victory_points = {
+	2306
+	2
+}
+
+victory_points = {
+	12242
+	2
+}
+
+victory_points = {
+	18781
+	10
+}
+
+victory_points = {
+	10737
+	2
+}
+
+victory_points = {
+	10907
+	2
+}
+
+victory_points = {
+	8594
+	2
+}
+
+victory_points = {
+	19387
+	5
+}
+
+victory_points = {
+	8520
+	2
+}
+
+victory_points = {
+	17519
+	2
+}
+
+victory_points = {
+	4770
+	2
+}
+
+victory_points = {
+	6275
+	20
+}
+
+victory_points = {
+	8187
+	20
+}
+
+victory_points = {
+	14707
+	2
+}
+
+victory_points = {
+	18127
+	10
+}
+
+victory_points = {
+	10866
+	20
+}
+
+victory_points = {
+	10760
+	10
+}
+
+victory_points = {
+	10780
+	2
+}
+
+victory_points = {
+	10895
+	5
+}
+
+victory_points = {
+	4358
+	2
+}
+
+victory_points = {
+	16873
+	2
+}
+
+victory_points = {
+	1419
+	2
+}
+
+victory_points = {
+	13306
+	2
+}
+
+victory_points = {
+	5251
+	40
+}
+
+victory_points = {
+	1994
+	20
+}
+
+victory_points = {
+	10823
+	2
+}
+
+victory_points = {
+	19389
+	5
+}
+
+victory_points = {
+	10876
+	2
+}
+
+victory_points = {
+	10884
+	1
+}
+
+victory_points = {
+	10897
+	2
+}
+
+victory_points = {
+	5380
+	2
+}
+
+victory_points = {
+	8147
+	20
+}
+
+victory_points = {
+	1933
+	10
+}
+
+victory_points = {
+	19845
+	5
+}
+
+victory_points = {
+	9592
+	2
+}
+
+victory_points = {
+	9518
+	2
+}
+
+victory_points = {
+	14473
+	2
+}
+
+victory_points = {
+	14283
+	2
+}
+
+victory_points = {
+	2538
+	20
+}
+
+victory_points = {
+	11316
+	2
+}
+
+victory_points = {
+	11713
+	5
+}
+
+victory_points = {
+	19427
+	40
+}
+
+victory_points = {
+	8397
+	2
+}
+
+victory_points = {
+	1225
+	2
+}
+
+victory_points = {
+	14658
+	2
+}
+
+victory_points = {
+	3072
+	20
+}
+
+victory_points = {
+	14711
+	5
+}
+
+victory_points = {
+	8260
+	2
+}
+
+victory_points = {
+	7261
+	5
+}
+
+victory_points = {
+	19762
+	10
+}
+
+victory_points = {
+	8331
+	2
+}
+
+victory_points = {
+	10878
+	10
+}
+
+victory_points = {
+	4742
+	20
+}
+
+victory_points = {
+	11049
+	10
+}
+
+victory_points = {
+	7901
+	5
+}
+
+victory_points = {
+	4633
+	10
+}
+
+victory_points = {
+	11110
+	20
+}
+
+victory_points = {
+	8633
+	40
+}
+
+victory_points = {
+	7848
+	20
+}
+
+victory_points = {
+	12105
+	10
+}
+
+victory_points = {
+	6937
+	2
+}
+
+victory_points = {
+	12241
+	2
+}
+
+victory_points = {
+	13059
+	10
+}
+
+victory_points = {
+	13089
+	1
+}
+
+victory_points = {
+	13296
+	20
+}
+
+victory_points = {
+	9043
+	2
+}
+
+victory_points = {
+	19848
+	5
+}
+
+victory_points = {
+	19849
+	10
+}
+
+victory_points = {
+	13803
+	2
+}
+
+victory_points = {
+	5307
+	2
+}
+
+victory_points = {
+	8264
+	2
+}
+
+victory_points = {
+	7670
+	1
+}
+
+victory_points = {
+	14039
+	2
+}
+
+victory_points = {
+	9456
+	2
+}
+
+victory_points = {
+	14288
+	10
+}
+
+victory_points = {
+	19824
+	2
+}
+
+victory_points = {
+	3998
+	2
+}
+
+victory_points = {
+	1173
+	10
+}
+
+victory_points = {
+	2664
+	5
+}
+
+victory_points = {
+	11423
+	2
+}
+
+victory_points = {
+	11290
+	5
+}
+
+victory_points = {
+	11228
+	40
+}
+
+victory_points = {
+	11357
+	80
+}
+
+victory_points = {
+	5726
+	2
+}
+
+victory_points = {
+	11321
+	2
+}
+
+victory_points = {
+	11327
+	5
+}
+
+victory_points = {
+	7483
+	10
+}
+
+victory_points = {
+	9077
+	10
+}
+
+victory_points = {
+	11264
+	40
+}
+
+victory_points = {
+	6722
+	15
+}
+
+victory_points = {
+	5586
+	2
+}
+
+victory_points = {
+	5834
+	2
+}
+
+victory_points = {
+	11275
+	2
+}
+
+victory_points = {
+	19391
+	80
+}
+
+victory_points = {
+	4488
+	1
+}
+
+victory_points = {
+	1524
+	2
+}
+
+victory_points = {
+	6960
+	2
+}
+
+victory_points = {
+	11754
+	1
+}
+
+victory_points = {
+	10923
+	20
+}
+
+victory_points = {
+	6282
+	2
+}
+
+victory_points = {
+	14886
+	5
+}
+
+victory_points = {
+	7645
+	1
+}
+
+victory_points = {
+	20231
+	5
+}
+
+victory_points = {
+	20216
+	10
+}
+
+victory_points = {
+	15094
+	5
+}
+
+victory_points = {
+	20218
+	10
+}
+
+victory_points = {
+	20217
+	20
+}
+
+victory_points = {
+	8916
+	2
+}
+
+victory_points = {
+	15027
+	5
+}
+
+victory_points = {
+	9375
+	20
+}
+
+victory_points = {
+	53
+	2
+}
+
+victory_points = {
+	12975
+	2
+}
+
+victory_points = {
+	12616
+	40
+}
+
+victory_points = {
+	2782
+	2
+}
+
+victory_points = {
+	19019
+	10
+}
+
+victory_points = {
+	13555
+	2
+}
+
+victory_points = {
+	1322
+	2
+}
+
+victory_points = {
+	10952
+	20
+}
+
+victory_points = {
+	11347
+	2
+}
+
+victory_points = {
+	8742
+	10
+}
+
+victory_points = {
+	8960
+	2
+}
+
+victory_points = {
+	1726
+	2
+}
+
+victory_points = {
+	5804
+	5
+}
+
+victory_points = {
+	9145
+	2
+}
+
+victory_points = {
+	19107
+	1
+}
+
+victory_points = {
+	12192
+	5
+}
+
+victory_points = {
+	8709
+	5
+}
+
+victory_points = {
+	12176
+	5
+}
+
+victory_points = {
+	8366
+	10
+}
+
+victory_points = {
+	1501
+	20
+}
+
+victory_points = {
+	8810
+	10
+}
+
+victory_points = {
+	12375
+	25
+}
+
+victory_points = {
+	7887
+	10
+}
+
+victory_points = {
+	12389
+	40
+}
+
+victory_points = {
+	12205
+	20
+}
+
+victory_points = {
+	12157
+	2
+}
+
+victory_points = {
+	8746
+	10
+}
+
+victory_points = {
+	12255
+	5
+}
+
+victory_points = {
+	12361
+	5
+}
+
+victory_points = {
+	3958
+	5
+}
+
+victory_points = {
+	8779
+	2
+}
+
+victory_points = {
+	12249
+	20
+}
+
+victory_points = {
+	9081
+	5
+}
+
+victory_points = {
+	12311
+	5
+}
+
+victory_points = {
+	19892
+	5
+}
+
+victory_points = {
+	12354
+	5
+}
+
+victory_points = {
+	12362
+	5
+}
+
+victory_points = {
+	13921
+	5
+}
+
+victory_points = {
+	19816
+	10
+}
+
+victory_points = {
+	19866
+	2
+}
+
+victory_points = {
+	14068
+	2
+}
+
+victory_points = {
+	14111
+	1
+}
+
+victory_points = {
+	3047
+	10
+}
+
+victory_points = {
+	19859
+	5
+}
+
+victory_points = {
+	14156
+	2
+}
+
+victory_points = {
+	19857
+	5
+}
+
+victory_points = {
+	19858
+	5
+}
+
+victory_points = {
+	13890
+	2
+}
+
+victory_points = {
+	7052
+	5
+}
+
+victory_points = {
+	6444
+	2
+}
+
+victory_points = {
+	3088
+	2
+}
+
+victory_points = {
+	1777
+	2
+}
+
+victory_points = {
+	4264
+	2
+}
+
+victory_points = {
+	11666
+	20
+}
+
+victory_points = {
+	2171
+	2
+}
+
+victory_points = {
+	9546
+	2
+}
+
+victory_points = {
+	11804
+	2
+}
+
+victory_points = {
+	11918
+	5
+}
+
+victory_points = {
+	12032
+	10
+}
+
+victory_points = {
+	11935
+	10
+}
+
+victory_points = {
+	12038
+	80
+}
+
+victory_points = {
+	19724
+	2
+}
+
+victory_points = {
+	1307
+	2
+}
+
+victory_points = {
+	19920
+	10
+}
+
+victory_points = {
+	9098
+	2
+}
+
+victory_points = {
+	1216
+	2
+}
+
+victory_points = {
+	11547
+	2
+}
+
+victory_points = {
+	9350
+	2
+}
+
+victory_points = {
+	11589
+	10
+}
+
+victory_points = {
+	11252
+	40
+}
+
+victory_points = {
+	990
+	15
+}
+
+victory_points = {
+	11653
+	40
+}
+
+victory_points = {
+	11587
+	10
+}
+
+victory_points = {
+	19415
+	10
+}
+
+victory_points = {
+	1868
+	10
+}
+
+victory_points = {
+	19414
+	5
+}
+
+victory_points = {
+	11476
+	15
+}
+
+victory_points = {
+	11462
+	20
+}
+
+victory_points = {
+	11454
+	2
+}
+
+victory_points = {
+	11214
+	5
+}
+
+victory_points = {
+	11215
+	5
+}
+
+victory_points = {
+	11323
+	10
+}
+
+victory_points = {
+	6961
+	20
+}
+
+victory_points = {
+	2352
+	2
+}
+
+victory_points = {
+	19422
+	5
+}
+
+victory_points = {
+	19421
+	2
+}
+
+victory_points = {
+	5722
+	2
+}
+
+victory_points = {
+	12007
+	5
+}
+
+victory_points = {
+	12091
+	20
+}
+
+victory_points = {
+	19411
+	10
+}
+
+victory_points = {
+	11491
+	5
+}
+
+victory_points = {
+	11379
+	20
+}
+
+victory_points = {
+	11548
+	5
+}
+
+victory_points = {
+	1361
+	2
+}
+
+victory_points = {
+	18650
+	2
+}
+
+victory_points = {
+	506
+	2
+}
+
+victory_points = {
+	19388
+	5
+}
+
+victory_points = {
+	2912
+	2
+}
+
+victory_points = {
+	11917
+	10
+}
+
+victory_points = {
+	7746
+	2
+}
+
+victory_points = {
+	2747
+	20
+}
+
+victory_points = {
+	11627
+	5
+}
+
+victory_points = {
+	11517
+	2
+}
+
+victory_points = {
+	11781
+	15
+}
+
+victory_points = {
+	5193
+	10
+}
+
+victory_points = {
+	4503
+	10
+}
+
+victory_points = {
+	6529
+	10
+}
+
+victory_points = {
+	11755
+	2
+}
+
+victory_points = {
+	19413
+	20
+}
+
+victory_points = {
+	11729
+	40
+}
+
+victory_points = {
+	8961
+	5
+}
+
+victory_points = {
+	7784
+	5
+}
+
+victory_points = {
+	1045
+	10
+}
+
+victory_points = {
+	11821
+	20
+}
+
+victory_points = {
+	11886
+	40
+}
+
+victory_points = {
+	1809
+	20
+}
+
+victory_points = {
+	11833
+	10
+}
+
+victory_points = {
+	9580
+	5
+}
+
+victory_points = {
+	13269
+	5
+}
+
+victory_points = {
+	13114
+	5
+}
+
+victory_points = {
+	13260
+	2
+}
+
+victory_points = {
+	19865
+	80
+}
+
+victory_points = {
+	5238
+	2
+}
+
+victory_points = {
+	6945
+	10
+}
+
+victory_points = {
+	13124
+	2
+}
+
+victory_points = {
+	5521
+	2
+}
+
+victory_points = {
+	19908
+	40
+}
+
+victory_points = {
+	12160
+	2
+}
+
+victory_points = {
+	9574
+	5
+}
+
+victory_points = {
+	8862
+	5
+}
+
+victory_points = {
+	11820
+	5
+}
+
+victory_points = {
+	5931
+	2
+}
+
+victory_points = {
+	11945
+	10
+}
+
+victory_points = {
+	18842
+	2
+}
+
+victory_points = {
+	7738
+	2
+}
+
+victory_points = {
+	18610
+	40
+}
+
+victory_points = {
+	10296
+	2
+}
+
+victory_points = {
+	10221
+	20
+}
+
+victory_points = {
+	10160
+	2
+}
+
+victory_points = {
+	10274
+	2
+}
+
+victory_points = {
+	12895
+	5
+}
+
+victory_points = {
+	11934
+	10
+}
+
+victory_points = {
+	19419
+	20
+}
+
+victory_points = {
+	7617
+	10
+}
+
+victory_points = {
+	19412
+	10
+}
+
+victory_points = {
+	6784
+	5
+}
+
+victory_points = {
+	19666
+	10
+}
+
+victory_points = {
+	1447
+	2
+}
+
+victory_points = {
+	4788
+	1
+}
+
+victory_points = {
+	9511
+	2
+}
+
+victory_points = {
+	9271
+	5
+}
+
+victory_points = {
+	16723
+	10
+}
+
+victory_points = {
+	5025
+	5
+}
+
+victory_points = {
+	14544
+	2
+}
+
+victory_points = {
+	7491
+	5
+}
+
+victory_points = {
+	14498
+	2
+}
+
+victory_points = {
+	14463
+	2
+}
+
+victory_points = {
+	12923
+	2
+}
+
+victory_points = {
+	7592
+	2
+}
+
+victory_points = {
+	299
+	1
+}
+
+victory_points = {
+	8954
+	5
+}
+
+victory_points = {
+	2067
+	10
+}
+
+victory_points = {
+	13052
+	2
+}
+
+victory_points = {
+	13294
+	2
+}
+
+victory_points = {
+	14548
+	2
+}
+
+victory_points = {
+	14342
+	5
+}
+
+victory_points = {
+	783
+	2
+}
+
+victory_points = {
+	7758
+	2
+}
+
+victory_points = {
+	9551
+	2
+}
+
+victory_points = {
+	4016
+	5
+}
+
+victory_points = {
+	13330
+	5
+}
+
+victory_points = {
+	8588
+	2
+}
+
+victory_points = {
+	13346
+	10
+}
+
+victory_points = {
+	13526
+	5
+}
+
+victory_points = {
+	13459
+	20
+}
+
+victory_points = {
+	13267
+	5
+}
+
+victory_points = {
+	13351
+	2
+}
+
+victory_points = {
+	13616
+	5
+}
+
+victory_points = {
+	13658
+	5
+}
+
+victory_points = {
+	13410
+	20
+}
+
+victory_points = {
+	13755
+	10
+}
+
+victory_points = {
+	2887
+	2
+}
+
+victory_points = {
+	2934
+	2
+}
+
+victory_points = {
+	13418
+	2
+}
+
+victory_points = {
+	19813
+	10
+}
+
+victory_points = {
+	13693
+	5
+}
+
+victory_points = {
+	3751
+	10
+}
+
+victory_points = {
+	13846
+	5
+}
+
+victory_points = {
+	13810
+	2
+}
+
+victory_points = {
+	6572
+	2
+}
+
+victory_points = {
+	19665
+	5
+}
+
+victory_points = {
+	4168
+	2
+}
+
+victory_points = {
+	19385
+	10
+}
+
+victory_points = {
+	19681
+	5
+}
+
+victory_points = {
+	1791
+	2
+}
+
+victory_points = {
+	19680
+	2
+}
+
+victory_points = {
+	19669
+	5
+}
+
+victory_points = {
+	19618
+	2
+}
+
+victory_points = {
+	9674
+	2
+}
+
+victory_points = {
+	19619
+	2
+}
+
+victory_points = {
+	10625
+	80
+}
+
+victory_points = {
+	10686
+	10
+}
+
+victory_points = {
+	5092
+	2
+}
+
+victory_points = {
+	7574
+	2
+}
+
+victory_points = {
+	14431
+	20
+}
+
+victory_points = {
+	20492
+	5
+}
+
+victory_points = {
+	5987
+	5
+}
+
+victory_points = {
+	5379
+	5
+}
+
+victory_points = {
+	9609
+	2
+}
+
+victory_points = {
+	7290
+	2
+}
+
+victory_points = {
+	14642
+	10
+}
+
+victory_points = {
+	9123
+	2
+}
+
+victory_points = {
+	19815
+	5
+}
+
+victory_points = {
+	14657
+	20
+}
+
+victory_points = {
+	8584
+	5
+}
+
+victory_points = {
+	14692
+	2
+}
+
+victory_points = {
+	14604
+	2
+}
+
+victory_points = {
+	14611
+	5
+}
+
+victory_points = {
+	14576
+	2
+}
+
+victory_points = {
+	8560
+	40
+}
+
+victory_points = {
+	14667
+	10
+}
+
+victory_points = {
+	8806
+	5
+}
+
+victory_points = {
+	8802
+	2
+}
+
+victory_points = {
+	14737
+	10
+}
+
+victory_points = {
+	1712
+	5
+}
+
+victory_points = {
+	7929
+	2
+}
+
+victory_points = {
+	3262
+	2
+}
+
+victory_points = {
+	14751
+	5
+}
+
+victory_points = {
+	14665
+	1
+}
+
+victory_points = {
+	14853
+	10
+}
+
+victory_points = {
+	4439
+	20
+}
+
+victory_points = {
+	14861
+	5
+}
+
+victory_points = {
+	5202
+	2
+}
+
+victory_points = {
+	14694
+	20
+}
+
+victory_points = {
+	14783
+	5
+}
+
+victory_points = {
+	5491
+	5
+}
+
+victory_points = {
+	19756
+	20
+}
+
+victory_points = {
+	750
+	20
+}
+
+victory_points = {
+	19757
+	10
+}
+
+victory_points = {
+	19763
+	10
+}
+
+victory_points = {
+	993
+	5
+}
+
+victory_points = {
+	14673
+	20
+}
+
+victory_points = {
+	3667
+	20
+}
+
+victory_points = {
+	9359
+	5
+}
+
+victory_points = {
+	3956
+	10
+}
+
+victory_points = {
+	14947
+	5
+}
+
+victory_points = {
+	19753
+	20
+}
+
+victory_points = {
+	1129
+	2
+}
+
+victory_points = {
+	8308
+	5
+}
+
+victory_points = {
+	9211
+	10
+}
+
+victory_points = {
+	14811
+	5
+}
+
+victory_points = {
+	2372
+	2
+}
+
+victory_points = {
+	19754
+	10
+}
+
+victory_points = {
+	7708
+	2
+}
+
+victory_points = {
+	19748
+	5
+}
+
+victory_points = {
+	3682
+	10
+}
+
+victory_points = {
+	3440
+	10
+}
+
+victory_points = {
+	19769
+	2
+}
+
+victory_points = {
+	19770
+	10
+}
+
+victory_points = {
+	19749
+	5
+}
+
+victory_points = {
+	8410
+	5
+}
+
+victory_points = {
+	5767
+	5
+}
+
+victory_points = {
+	15120
+	80
+}
+
+victory_points = {
+	19750
+	6
+}
+
+victory_points = {
+	15100
+	5
+}
+
+victory_points = {
+	19747
+	10
+}
+
+victory_points = {
+	19649
+	2
+}
+
+victory_points = {
+	20569
+	2
+}
+
+victory_points = {
+	11365
+	2
+}
+
+victory_points = {
+	11685
+	5
+}
+
+victory_points = {
+	20565
+	5
+}
+
+victory_points = {
+	20575
+	10
+}
+
+victory_points = {
+	2720
+	2
+}
+
+victory_points = {
+	1190
+	2
+}
+
+victory_points = {
+	8905
+	5
+}
+
+victory_points = {
+	6184
+	80
+}
+
+victory_points = {
+	2247
+	3
+}	
+
+victory_points = {
+	16954
+	10
+}
+
+victory_points = {
+	16125
+	40
+}
+
+victory_points = {
+	17898
+	2
+}
+
+victory_points = {
+	18230
+	10
+}
+
+victory_points = {
+	17690
+	2
+}
+
+victory_points = {
+	19153
+	10
+}
+
+victory_points = {
+	20293
+	2
+}
+
+victory_points = {
+	20292
+	2
+}
+
+victory_points = {
+	7548
+	20
+}
+
+victory_points = {
+	992
+	2
+}
+
+victory_points = {
+	21078
+	5
+}
+
+victory_points = {
+	21068
+	1
+}

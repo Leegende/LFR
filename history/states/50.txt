@@ -1,0 +1,89 @@
+state = {
+	id = 50
+	name = "STATE_50"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			19403 = {
+				naval_base = 1
+			}
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+		}
+		victory_points = {
+			4599
+			2
+		}
+		victory_points = {
+			19456
+			1
+		}
+		victory_points = {
+			10284
+			2
+		}
+		victory_points = {
+			19402
+			1
+		}
+		victory_points = {
+			4063
+			1
+		}
+	}
+	provinces = {
+		19403
+		19404
+		2424
+		4599
+		1803
+		3213
+		6340
+		6512
+		10190
+		845
+		4360
+		7283
+		10222
+		10259
+		10283
+		19456
+		745
+		2481
+		2860
+		3805
+		4192
+		4735
+		8272
+		9064
+		10284
+		10342
+		19455
+		19402
+		4063
+		4993
+		10461
+		10565
+		19454
+		3764
+		4850
+		10314
+		10420
+		3989
+		10326
+		19452
+		19453
+		10645
+		19399
+		19405
+		19406
+		19407
+		19408
+	}
+	manpower = 416079
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

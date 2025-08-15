@@ -1,0 +1,37 @@
+characters = {
+	#GER_hjalmar_schacht = {
+	#	name = GER_hjalmar_schacht
+	#	advisor = {
+	#		slot = political_advisor
+	#		idea_token = GER_hjalmar_schacht
+	#		cost = 75
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_four_year_plan
+	#		}
+	#		traits = {
+	#			GER_mefo_bills_architect_trait
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/ideas/idea_hjalmar_schacht.dds"
+	#		}
+	#	}
+	#}
+	GER_adolf_hitler = {
+		name = GER_adolf_hitler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

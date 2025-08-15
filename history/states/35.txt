@@ -1,0 +1,18 @@
+state = {
+	id = 35
+	name = "STATE_35"
+	history = {
+		owner = SWE
+		add_core_of = SWE
+	}
+	provinces = {
+		19632
+		19651
+		19541
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	impassable = yes
+	state_category = wasteland
+	local_supplies = 0
+}

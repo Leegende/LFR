@@ -1,0 +1,275 @@
+sub_units = {
+	@flame_need = 30
+	light_tank_flamethrower = {
+		sprite = light_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_light_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = light_tank_flame_chassis
+		essential = {
+			light_tank_flame_chassis
+		}
+		need = {
+			light_tank_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	medium_tank_flamethrower = {
+		sprite = medium_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_medium_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = medium_tank_flame_chassis
+		essential = {
+			medium_tank_flame_chassis
+		}
+		need = {
+			medium_tank_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	heavy_tank_flamethrower = {
+		sprite = heavy_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_heavy_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = heavy_tank_flame_chassis
+		essential = {
+			heavy_tank_flame_chassis
+		}
+		need = {
+			heavy_tank_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	modern_tank_flamethrower = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+		}
+		group = support
+		categories = {
+			category_armor
+			category_armor_flamethrower
+			category_armor_support_company
+			category_modern_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = modern_tank_flame_chassis
+		essential = {
+			modern_tank_flame_chassis
+		}
+		need = {
+			modern_tank_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	light_tank_amphibious_flamethrower = {
+		sprite = light_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			category_armor
+			category_amphibious_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_light_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = light_tank_amphibious_flame_chassis
+		essential = {
+			light_tank_amphibious_flame_chassis
+		}
+		need = {
+			light_tank_amphibious_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	medium_tank_amphibious_flamethrower = {
+		sprite = medium_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			category_armor
+			category_amphibious_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_medium_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = medium_tank_amphibious_flame_chassis
+		essential = {
+			medium_tank_amphibious_flame_chassis
+		}
+		need = {
+			medium_tank_amphibious_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	heavy_tank_amphibious_flamethrower = {
+		sprite = heavy_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			category_armor
+			category_amphibious_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_heavy_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = heavy_tank_amphibious_flame_chassis
+		essential = {
+			heavy_tank_amphibious_flame_chassis
+		}
+		need = {
+			heavy_tank_amphibious_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+	modern_tank_amphibious_flamethrower = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			flame
+			support
+			amphibious
+		}
+		group = support
+		categories = {
+			category_armor
+			category_amphibious_armor_flamethrower
+			category_amphibious_armor_support_company
+			category_modern_tank
+		}
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		transport = modern_tank_amphibious_flame_chassis
+		essential = {
+			modern_tank_amphibious_flame_chassis
+		}
+		need = {
+			modern_tank_amphibious_flame_chassis = @flame_need
+		}
+		same_support_type = flame
+	}
+}

@@ -1,0 +1,99 @@
+
+state = {
+	id = 211
+	name = "STATE_211"
+	history = {
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 6
+		}
+		victory_points = {
+			5357
+			10
+		}
+		victory_points = {
+			5099
+			2
+		}
+		victory_points = {
+			11951
+			10
+		}
+		victory_points = {
+			12256
+			10
+		}
+		victory_points = {
+			12039
+			10
+		}
+		victory_points = {
+			6625
+			10
+		}
+		victory_points = {
+			3044
+			10
+		}
+		victory_points = {
+			9413
+			5
+		}
+		victory_points = {
+			19873
+			2
+		}
+		victory_points = {
+			12077
+			20
+		}
+	}
+	provinces = {
+		7103
+		19854
+		8539
+		658
+		5099
+		5357
+		11943
+		21666
+		21667
+		6838
+		11951
+		19872
+		19895
+		12256
+		19896
+		6618
+		6625
+		5879
+		12107
+		12039
+		19903
+		11556
+		1705
+		3044
+		11969
+		3322
+		9413
+		12181
+		4251
+		19870
+		19871
+		19873
+		8641
+		11994
+		12077
+		12100
+		12130
+		12151
+		12306
+	}
+	manpower = 2393745
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

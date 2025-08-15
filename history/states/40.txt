@@ -1,0 +1,101 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	provinces = {
+		12323
+		12395
+		6498
+		6560
+		19725
+		19947
+		9125
+		12429
+		12462
+		4107
+		4372
+		6264
+		8579
+		8808
+		8963
+		12093
+		1628
+		7695
+		8001
+		12430
+		12450
+		12511
+		12525
+		773
+		1325
+		1369
+		3817
+		4421
+		4907
+		6574
+		12080
+		12120
+		12125
+		12179
+		12235
+		3005
+		6039
+		6487
+		7851
+		7907
+		8834
+		9512
+		12108
+		12113
+		12178
+		12314
+		19912
+		6759
+		8571
+		12406
+		12416
+		12417
+		12463
+		12497
+		12536
+		12587
+		12601
+		19911
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			12429
+			20
+		}
+		victory_points = {
+			12093
+			5
+		}
+		victory_points = {
+			12120
+			20
+		}
+		victory_points = {
+			19912
+			20
+		}
+		victory_points = {
+			7907
+			2
+		}
+		victory_points = {
+			19911
+			5
+		}
+	}
+	manpower = 2177000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+}

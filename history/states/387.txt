@@ -1,0 +1,57 @@
+state = {
+	id = 387
+	name = "STATE_387"
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces = {
+		18775
+		18702
+		987
+		4458
+		7127
+		8774
+		18636
+		2249
+		550
+		5016
+		16582
+		916
+		15552
+		2156
+		2058
+		889
+		15664
+		4562
+		15610
+		15672
+		17050
+		15706
+		1344
+		1943
+		1042
+		1294
+		15705
+		16405
+		5704
+		9429
+		1055
+		326
+		7005
+		16716
+		17748
+		15846
+		15858
+		5168
+		6272
+		1466
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

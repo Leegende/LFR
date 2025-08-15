@@ -1,0 +1,42 @@
+state = {
+	id = 363
+	name = "STATE_363"
+	provinces = {
+		19769
+		7044
+		6223
+		2830
+		21633
+		19770
+		1918
+		21509
+		1141
+		2652
+		9569
+		1540
+		21620
+		21530
+		18588
+		6552
+		14014
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			19769
+			2
+		}
+		victory_points = {
+			19770
+			10
+		}
+	}
+	manpower = 18000
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = enclave
+}

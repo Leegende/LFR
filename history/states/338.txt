@@ -1,0 +1,29 @@
+state = {
+	id = 338
+	name = "STATE_338"
+	history = {
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			12895
+			5
+		}
+	}
+	provinces = {
+		2715
+		4482
+		12699
+		12857
+		12852
+		12895
+	}
+	manpower = 295500
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

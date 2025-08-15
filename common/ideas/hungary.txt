@@ -1,0 +1,83 @@
+ideas = {
+	industrial_concern = {
+		HUN_aluminium_concern = {
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				has_completed_focus = HUN_politic_7
+			}
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+				construction = 0.15
+			}
+			modifier = {
+				local_resources = 1
+				local_resources_factor = 1
+			}
+		}
+	}
+	country = {
+		HUN_anti_bolshevism = {
+			picture = generic_manpower_bonus
+			allowed = {
+				original_tag = HUN
+			}
+			removal_cost = -1
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+				supply_consumption_factor = -0.05
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		HUN_treaty_of_triannon = {
+			picture = HUN_treaty_of_triannon
+			available = {
+				has_war = no
+			}
+			modifier = {
+				conscription = -0.005
+				production_speed_arms_factory_factor = -0.25
+				industrial_capacity_factory = -0.25
+				war_support_factor = -0.5
+			}
+		}
+		HUN_treaty_of_triannon_1 = {
+			picture = HUN_treaty_of_triannon
+			available = {
+				has_war = no
+			}
+			modifier = {
+				conscription = -0.005
+				production_speed_arms_factory_factor = -0.15
+				industrial_capacity_factory = -0.15
+				war_support_factor = -0.3
+			}
+		}
+		HUN_treaty_of_triannon_2 = {
+			picture = HUN_treaty_of_triannon
+			available = {
+				has_war = no
+			}
+			modifier = {
+				conscription = -0.005
+				production_speed_arms_factory_factor = -0.05
+				industrial_capacity_factory = -0.05
+				war_support_factor = -0.1
+			}
+		}
+		HUN_specialised_research = {
+			picture = HUN_treaty_of_triannon
+			research_bonus = {
+				construction = 0.25
+			}
+		}
+	}
+}

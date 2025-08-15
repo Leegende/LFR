@@ -1,0 +1,35 @@
+state = {
+	id = 249
+	name = "STATE_249"
+	provinces = {
+		3930
+		5266
+		12458
+		5322
+		8816
+		12690
+		12711
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		set_state_flag = PRUSSIA
+		victory_points = {
+			5322
+			20
+		}
+		victory_points = {
+			12690
+			5
+		}
+	}
+	manpower = 911781
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+}

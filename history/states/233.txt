@@ -1,0 +1,62 @@
+state = {
+	id = 233
+	name = "STATE_233"
+	provinces = {
+		3104
+		5954
+		6897
+		7032
+		8526
+		13910
+		14022
+		19325
+		378
+		3327
+		5474
+		8521
+		8522
+		13753
+		555
+		3442
+		3519
+		4417
+		7076
+		13759
+		13815
+		13887
+		15884
+		19324
+		114
+		2511
+		4222
+		9242
+		9345
+		13826
+		13905
+	}
+	history = {
+		
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		victory_points = {
+			9345
+			1
+		}
+		victory_points = {
+			14022
+			80
+		}
+		victory_points = {
+			3104
+			2
+		}
+	}
+	manpower = 1803031
+	state_category = metropolis
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

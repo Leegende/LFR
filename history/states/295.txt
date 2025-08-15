@@ -1,0 +1,101 @@
+state = {
+	id = 295
+	name = "STATE_295"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			8397
+			2
+		}
+		victory_points = {
+			1225
+			2
+		}
+		victory_points = {
+			14658
+			2
+		}
+		victory_points = {
+			3072
+			20
+		}
+		victory_points = {
+			14711
+			5
+		}
+		victory_points = {
+			8260
+			2
+		}
+		victory_points = {
+			7261
+			5
+		}
+		victory_points = {
+			19762
+			10
+		}
+		victory_points = {
+			8331
+			2
+		}
+	}
+	provinces = {
+		3085
+		3170
+		1217
+		6859
+		8397
+		14793
+		14527
+		7918
+		9598
+		8331
+		1225
+		6248
+		824
+		2216
+		4124
+		6941
+		14639
+		14646
+		14658
+		3072
+		3372
+		3834
+		19829
+		19830
+		19856
+		5346
+		7624
+		8733
+		14711
+		14721
+		20526
+		7261
+		8260
+		9132
+		14729
+		14749
+		19809
+		6233
+		8650
+		8964
+		14804
+		14827
+		14832
+		14838
+		19762
+		14634
+	}
+	manpower = 2053370
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

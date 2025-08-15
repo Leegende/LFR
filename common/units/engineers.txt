@@ -1,0 +1,279 @@
+sub_units = {
+	@eng_need = 30
+	engineers = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		entrenchment = 2
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.20
+			add = yes
+		}
+
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	assault_engineers = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_assault_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	armored_assault_engineers = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			armor
+		}
+		group = support
+		categories = {
+			category_armor_support_company
+			category_assault_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			armored_support_vehicle
+		}
+		need = {
+			support_equipment = @eng_need
+			armored_support_vehicle = @eng_need
+		}
+		same_support_type = engineers
+	}
+	mechanised_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			category_mechanised_support_company
+			category_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			mechanised_utility_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+			mechanised_utility_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	mechanised_assault_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			category_mechanised_support_company
+			category_assault_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			mechanised_utility_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+			mechanised_utility_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	amtrac_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_amtrac_support_company
+			category_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			amtrac_utility_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+			amtrac_utility_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	amtrac_assault_engineers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			mechanized
+		}
+		group = support
+		categories = {
+			category_amtrac_support_company
+			category_assault_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			amtrac_utility_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+			amtrac_utility_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+	pioneers = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_assault_engineers_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = @eng_need
+		}
+		same_support_type = engineers
+	}
+}

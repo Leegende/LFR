@@ -1,0 +1,521 @@
+sub_units = {
+	@aa_need = 25
+	amtrac_anti_air = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = support
+		type = {
+			support
+		}
+		categories = {
+			category_amtrac
+			category_anti_air
+			category_infantry
+		}
+		affects_speed = yes
+		transport = amtrac_aa_equipment
+		same_support_type = anti_air
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			amtrac_aa_equipment
+		}
+		need = {
+			amtrac_aa_equipment = @aa_need
+		}
+	}
+	anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = support
+		type = {
+			support
+		}
+		categories = {
+			category_medium
+			category_anti_air
+		}
+		affects_speed = yes
+		transport = infantry_archetype
+		same_support_type = anti_air
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			anti_air_archetype
+		}
+		need = {
+			anti_air_archetype = @aa_need
+		}
+	}
+	heavy_anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = support
+		type = {
+			support
+		}
+		categories = {
+			category_heavy
+			category_anti_air
+		}
+		affects_speed = yes
+		transport = infantry_archetype
+		same_support_type = anti_air
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			heavy_anti_air_archetype
+		}
+		need = {
+			heavy_anti_air_archetype = @aa_need
+		}
+	}
+	heavy_tank_amphibious_anti_air = {
+		sprite = heavy_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		group = support
+		type = {
+			support
+		}
+		categories = {
+			category_anti_air
+			category_heavy_tank
+			category_armor
+			category_amphibious_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = heavy_tank_amphibious_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_amphibious_aa_chassis
+		}
+		need = {
+			heavy_tank_amphibious_aa_chassis = @aa_need
+		}
+	}
+	heavy_tank_amphibious_anti_air_ss = {
+		sprite = heavy_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		type = {
+			support
+		}
+		active = no
+		group = support
+		categories = {
+			category_anti_air
+			category_heavy_tank
+			category_armor
+			category_amphibious_armor_anti_air
+			category_ss
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = heavy_tank_amphibious_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_amphibious_aa_chassis
+		}
+		need = {
+			heavy_tank_amphibious_aa_chassis = @aa_need
+		}
+		breakthrough = -0.85
+	}
+	heavy_tank_anti_air = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_anti_air
+			category_heavy_tank
+			category_armor
+			category_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = heavy_tank_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_aa_chassis
+		}
+		need = {
+			heavy_tank_chassis = @aa_need
+		}
+		breakthrough = -0.85
+	}
+	heavy_tank_anti_air_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_anti_air
+			category_heavy_tank
+			category_armor
+			category_armor_anti_air
+			category_ss
+		}
+		affects_speed = no
+		same_support_type = anti_air
+		transport = heavy_tank_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		breakthrough = -0.85
+		essential = {
+			heavy_tank_aa_chassis
+		}
+		need = {
+			heavy_tank_chassis = @aa_need
+		}
+	}
+	light_tank_amphibious_anti_air = {
+		sprite = light_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_anti_air
+			category_light_tank
+			category_armor
+			category_amphibious_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = light_tank_amphibious_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		breakthrough = -0.85
+		essential = {
+			light_tank_amphibious_aa_chassis
+		}
+		need = {
+			light_tank_amphibious_aa_chassis = @aa_need
+		}
+	}
+	light_tank_anti_air = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_anti_air
+			category_light_tank
+			category_armor
+			category_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = light_tank_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		breakthrough = -0.85
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			light_tank_aa_chassis
+		}
+		need = {
+			light_tank_aa_chassis = @aa_need
+		}
+	}
+	mechanised_anti_air = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_mechanised
+			category_anti_air
+			category_infantry
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = mechanised_aa_equipment
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		default_morale = 0
+		breakthrough = -0.85
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			mechanised_aa_equipment
+		}
+		need = {
+			mechanised_aa_equipment = @aa_need
+		}
+	}
+	medium_tank_amphibious_anti_air = {
+		sprite = medium_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_anti_air
+			category_medium_tank
+			category_armor
+			category_amphibious_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = medium_tank_amphibious_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			medium_tank_amphibious_aa_chassis
+		}
+		need = {
+			medium_tank_amphibious_aa_chassis = @aa_need
+		}
+	}
+	medium_tank_anti_air = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		group = support
+		categories = {
+			category_anti_air
+			category_medium_tank
+			category_armor
+			category_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = medium_tank_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			medium_tank_aa_chassis
+		}
+		need = {
+			medium_tank_aa_chassis = @aa_need
+		}
+	}
+	modern_tank_amphibious_anti_air = {
+		sprite = modern_amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		group = support
+		categories = {
+			category_anti_air
+			category_modern_tank
+			category_armor
+			category_amphibious_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = modern_tank_amphibious_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			modern_tank_amphibious_aa_chassis
+		}
+		need = {
+			modern_tank_amphibious_aa_chassis = @aa_need
+		}
+	}
+	modern_tank_anti_air = {
+		sprite = modern_armor
+		map_icon_category = armored
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		group = support
+		categories = {
+			category_anti_air
+			category_modern_tank
+			category_armor
+			category_armor_anti_air
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = modern_tank_aa_chassis
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			modern_tank_aa_chassis
+		}
+		need = {
+			modern_tank_aa_chassis = @aa_need
+		}
+	}
+	motorised_anti_air = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		group = support
+		categories = {
+			category_motorised
+			category_anti_air
+			category_infantry
+		}
+		affects_speed = yes
+		same_support_type = anti_air
+		transport = motorised_anti_air_archetype
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		max_organisation = 0
+		breakthrough = -0.85
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			motorised_anti_air_archetype
+		}
+		need = {
+			motorised_anti_air_archetype = @aa_need
+		}
+	}
+	pack_anti_air = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		type = {
+			support
+		}
+		active = yes
+		group = support
+		categories = {
+			category_pack
+			category_anti_air
+		}
+		affects_speed = yes
+		transport = infantry_archetype
+		same_support_type = anti_air
+		combat_width = 0
+		training_time = 100
+		max_strength = 0
+		breakthrough = -0.85
+		max_organisation = 0
+		default_morale = 0
+		manpower = 250
+		supply_consumption = 0.1
+		essential = {
+			pack_anti_air_archetype
+		}
+		need = {
+			pack_anti_air_archetype = @aa_need
+		}
+	}
+}

@@ -1,0 +1,483 @@
+equipments = {
+	amtrac_equipment = {
+		is_archetype = yes
+		picture = archetype_motorised_equipment
+		is_buildable = no
+		type = armor
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_secondary_turret
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_mechanised_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_non_tracked_suspension_type
+					mech_half_tracked_suspension_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_armor_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+		}
+		module_count_limit = {
+			module = mech_sloped_armor
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_special_armor_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armor_skirts
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_tungston_core_ammunition
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armored_roof
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_stabilizer
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_external_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_commanders_cupola
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_extra_ammo_storage
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = secondary_turret_hmg_mech
+			turret_type_slot = tank_module_troop_carrier
+			suspension_type_slot = tank_wheeled_suspension_mech
+			armor_type_slot = mech_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_2 = mech_amtrac_module
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		maximum_speed = 4.0
+	}
+	amtrac_equipment_0 = {
+		archetype = amtrac_equipment
+		is_buildable = no
+	}
+	amtrac_equipment_1 = {
+		archetype = amtrac_equipment
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_secondary_turret
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_mechanised_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_non_tracked_suspension_type
+					mech_half_tracked_suspension_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_armor_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+			special_type_slot_2 = {
+				required = yes
+				allowed_module_categories = {
+					mech_amphibious_drive
+				}
+			}
+		}
+		module_count_limit = {
+			module = mech_sloped_armor
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_special_armor_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armor_skirts
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_tungston_core_ammunition
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armored_roof
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_stabilizer
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_external_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_commanders_cupola
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_extra_ammo_storage
+			count < 2
+		}
+	}
+	amtrac_equipment_2 = {
+		archetype = amtrac_equipment
+		parent = amtrac_equipment_1
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_secondary_turret
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_mechanised_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_non_tracked_suspension_type
+					mech_half_tracked_suspension_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_armor_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+			special_type_slot_2 = {
+				required = yes
+				allowed_module_categories = {
+					mech_amphibious_drive
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+		}
+		module_count_limit = {
+			module = mech_sloped_armor
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_special_armor_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armor_skirts
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_tungston_core_ammunition
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armored_roof
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_stabilizer
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_external_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_commanders_cupola
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_extra_ammo_storage
+			count < 2
+		}
+		defense = 6
+		breakthrough = 11
+		hardness = 0.65
+		armor_value = 20
+		ap_attack = 16
+		build_cost_ic = 10
+		reliability = 1.05
+		resources = {
+			steel = 30
+			rubber = 10
+		}
+	}
+	amtrac_equipment_3 = {
+		archetype = amtrac_equipment
+		parent = amtrac_equipment_2
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_secondary_turret
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_mechanised_turret_type
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_non_tracked_suspension_type
+					mech_half_tracked_suspension_type
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_armor_type
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+			special_type_slot_2 = {
+				required = yes
+				allowed_module_categories = {
+					mech_amphibious_drive
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+					mech_special_module
+					mech_special_armor_module
+				}
+			}
+		}
+		module_count_limit = {
+			module = mech_sloped_armor
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_radio_module
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_special_armor_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_wet_ammo_storage
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armor_skirts
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_auto_loader
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_additional_machine_guns
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_tungston_core_ammunition
+			count < 2
+		}
+		module_count_limit = {
+			category = mech_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armored_roof
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_smoke_launchers
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_stabilizer
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_external_fuel_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_commanders_cupola
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_extra_ammo_storage
+			count < 2
+		}
+	}
+}

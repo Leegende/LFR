@@ -1,0 +1,139 @@
+state = {
+	id = 220
+	name = "STATE_220"
+	provinces = {
+		4600
+		8754
+		13797
+		13798
+		305
+		307
+		8833
+		13742
+		13845
+		13874
+		865
+		1641
+		2801
+		7364
+		7799
+		8175
+		8777
+		9296
+		13064
+		13142
+		13279
+		13412
+		314
+		6077
+		965
+		2275
+		5237
+		5401
+		13344
+		13378
+		13451
+		13478
+		15840
+		6189
+		6999
+		7093
+		13299
+		13361
+		13407
+		813
+		1504
+		9235
+		9256
+		13498
+		13516
+		13565
+		13622
+		1709
+		8020
+		13226
+		13509
+		19852
+		17
+		147
+		3084
+		3710
+		8462
+		9191
+		13570
+		13645
+		13674
+		7322
+		8896
+		2532
+		7149
+		7423
+		8437
+		13043
+		13189
+		13280
+		13391
+		3026
+		8361
+		13163
+		13220
+	}
+	history = {
+		
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
+		}
+		victory_points = {
+			13798
+			1
+		}
+		victory_points = {
+			13845
+			20
+		}
+		victory_points = {
+			8175
+			10
+		}
+		victory_points = {
+			15840
+			5
+		}
+		victory_points = {
+			6999
+			10
+		}
+		victory_points = {
+			813
+			5
+		}
+		victory_points = {
+			1709
+			80
+		}
+		victory_points = {
+			13674
+			2
+		}
+		victory_points = {
+			7322
+			20
+		}
+		victory_points = {
+			7423
+			10
+		}
+		victory_points = {
+			13220
+			5
+		}
+	}
+	manpower = 4969560
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

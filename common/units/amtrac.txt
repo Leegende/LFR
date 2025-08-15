@@ -1,0 +1,181 @@
+sub_units = {
+	amtrac = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_infantry_line
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 50
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 100
+			infantry_archetype = 100
+		}
+	}
+	amtrac_marine = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_marine
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 125
+			infantry_archetype = 125
+		}
+	}
+	amtrac_mountaineer = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_mountaineer
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 100
+			infantry_archetype = 100
+		}
+	}
+	amtrac_ranger = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_ranger
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 100
+			infantry_archetype = 100
+		}
+	}
+	amtrac_shocktrooper = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_shocktrooper
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 100
+			infantry_archetype = 100
+		}
+	}
+	amtrac_sturmtruppe = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		group = infantry
+		categories = {
+			category_amtrac
+			category_infantry
+			category_special_forces
+			category_sturmtruppe
+		}
+		transport = amtrac_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		essential = {
+			infantry_archetype
+			amtrac_equipment
+		}
+		need = {
+			amtrac_equipment = 100
+			infantry_archetype = 100
+		}
+	}
+}

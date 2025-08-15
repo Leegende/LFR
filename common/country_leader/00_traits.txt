@@ -1,0 +1,43 @@
+leader_traits = {
+	GER_mefo_bills_architect_trait = {
+		sprite = 10
+		random = no
+		consumer_goods_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+	}
+	HUN_the_habsburg_prince = {
+		random = no
+		sprite = 13
+		conscription = 0.005
+		political_power_factor = 0.1
+	}
+	prime_minister_okyar = {
+		random = no
+		sprite = 13
+		local_resources_factor = 0.1
+		subversive_activites_upkeep = -0.15
+		production_speed_arms_factory_factor = 0.05
+		democratic_drift = 0.1
+	}
+	HUN_king1 = {
+		removal_cost = -1
+		stability_factor = -0.1
+		consumer_goods_factor = -0.15
+	}
+	HUN_king2 = {
+		random = no
+		sprite = 13
+		removal_cost = -1
+		army_artillery_attack_factor = 0.05
+		army_infantry_attack_factor = 0.05
+	}
+	HUN_prime_minister_atsiz = {
+		random = no
+		war_support_factor = 0.1
+		mobilization_laws_cost_factor = -0.25
+		justify_war_goal_time = -0.33
+		conscription = 0.005
+		fascism_drift = 0.1
+	}
+}

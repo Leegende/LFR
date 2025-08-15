@@ -1,0 +1,298 @@
+﻿focus_tree = {
+	id = spanish_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	continuous_focus_position = {
+		x = 5000
+		y = 5000
+	}
+	focus = {
+		id = SPR_politic_1
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_2
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_1
+		prerequisite = {
+			focus = SPR_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_3
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_1
+		prerequisite = {
+			focus = SPR_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_4
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_1
+		prerequisite = {
+			focus = SPR_politic_1
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_5
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_4
+		prerequisite = {
+			focus = SPR_politic_4
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_6
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_2
+		prerequisite = {
+			focus = SPR_politic_2
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_7
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SPR_politic_3
+		prerequisite = {
+			focus = SPR_politic_3
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_politic_8
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 5
+		relative_position_id = SPR_politic_1
+		prerequisite = {
+			focus = SPR_politic_6
+			focus = SPR_politic_5
+			focus = SPR_politic_7
+		}
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_civilwar
+		icon = GFX_goal_unknown
+		x = -4
+		y = 3
+		relative_position_id = SPR_politic_2
+		prerequisite = {
+			focus = SPR_politic_2
+		}
+		mutually_exclusive = {
+			focus = SPR_peace
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_nationalist
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = SPR_civilwar
+		prerequisite = {
+			focus = SPR_civilwar
+		}
+		mutually_exclusive = {
+			focus = SPR_carlist
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_carlist
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = SPR_civilwar
+		prerequisite = {
+			focus = SPR_civilwar
+		}
+		mutually_exclusive = {
+			focus = SPR_nationalist
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_peace
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		relative_position_id = SPR_politic_3
+		mutually_exclusive = {
+			focus = SPR_civilwar
+		}
+		prerequisite = {
+			focus = SPR_politic_3
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_peace_nationalist
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = SPR_peace
+		prerequisite = {
+			focus = SPR_peace
+		}
+		mutually_exclusive = {
+			focus = SPR_king
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SPR_king
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = SPR_peace
+		prerequisite = {
+			focus = SPR_peace
+		}
+		mutually_exclusive = {
+			focus = SPR_peace_nationalist
+		}
+		cost = 5
+		available = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = -99999
+		}
+		completion_reward = {
+		}
+	}
+}

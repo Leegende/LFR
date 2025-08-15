@@ -1,0 +1,150 @@
+state = {
+	id = 15
+	name = "STATE_15"
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			19219
+			2
+		}
+		victory_points = {
+			16734
+			2
+		}
+		victory_points = {
+			5513
+			20
+		}
+		victory_points = {
+			18947
+			80
+		}
+		victory_points = {
+			15088
+			10
+		}
+		victory_points = {
+			18985
+			2
+		}
+		victory_points = {
+			5442
+			5
+		}
+		victory_points = {
+			4491
+			5
+		}
+		victory_points = {
+			18901
+			5
+		}
+		victory_points = {
+			16236
+			2
+		}
+		victory_points = {
+			15116
+			2
+		}
+		victory_points = {
+			5102
+			20
+		}
+		victory_points = {
+			7318
+			5
+		}
+	}
+	provinces = {
+		21665
+		15263
+		15288
+		16593
+		19219
+		7682
+		16734
+		1719
+		5513
+		15045
+		15053
+		15086
+		19333
+		546
+		1638
+		7517
+		18947
+		3379
+		5388
+		6651
+		9374
+		15088
+		15138
+		18985
+		19066
+		5442
+		8322
+		15152
+		18741
+		4491
+		7927
+		2472
+		6347
+		14978
+		15033
+		17990
+		18901
+		1723
+		4504
+		8100
+		14995
+		14999
+		15022
+		15034
+		16236
+		18884
+		4505
+		4896
+		6985
+		15075
+		15099
+		15116
+		5102
+		5753
+		15170
+		19284
+		7619
+		9276
+		9532
+		15199
+		18260
+		14913
+		14933
+		17654
+		18136
+		19220
+		7318
+		7913
+		16010
+		16630
+		17391
+		18203
+		991
+		6963
+		17485
+		15062
+		1771
+		15206
+		16370
+	}
+	manpower = 3638130
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

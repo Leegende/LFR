@@ -1,0 +1,25 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces = {
+		7148
+		19374
+		19379
+		1445
+		19375
+		19380
+	}
+	manpower = 773815
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

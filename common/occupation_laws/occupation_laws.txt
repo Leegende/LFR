@@ -1,0 +1,30 @@
+foreign_civilian_oversight = {
+	icon = 3
+	default_law = yes
+	sound_effect = "Martial_Law_Interface_Foreign_Cvilian_Oversight"
+	missing_garrison_law = yes
+	state_modifier = {
+		resistance_target = -0.15
+		required_garrison_factor = -0.8
+		resistance_damage_to_garrison = -0.25
+		compliance_gain = 0
+		local_factories = 0
+		local_resources = 0
+	}
+	starting_law = yes
+}
+
+forced_labor_occupation = {
+	icon = 8
+	sound_effect = "Martial_Law_Interface_Forced_Labor_Occupation"
+	state_modifier = {
+		resistance_target = -0.45
+		compliance_gain = -0.08
+		resistance_damage_to_garrison = 0.3
+		required_garrison_factor = 0
+		local_resources = 0.35
+		local_factories = 0.25
+		repair_speed_infrastructure_factor = 0.25
+		custom_modifier_tooltip = "resource_sabotage_decrease_tooltip"
+	}
+}

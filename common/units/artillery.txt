@@ -1,0 +1,635 @@
+sub_units = {
+	@art_need = 10
+	amtrac_artillery = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		type = {
+			mechanized
+			artillery
+			amphibious
+		}
+		group = mobile
+		categories = {
+			category_amtrac
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = amtrac_spg_equipment
+		essential = {
+			amtrac_spg_equipment
+		}
+		need = {
+			amtrac_spg_equipment = @art_need
+		}
+	}
+	artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+			category_medium
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = artillery_equipment_1
+		essential = {
+			artillery_equipment_1
+		}
+		need = {
+			artillery_equipment = @art_need
+		}
+	}
+	artillery_red_guard = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+			category_medium
+			category_red_guard
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = artillery_equipment_1
+		essential = {
+			artillery_equipment_1
+		}
+		need = {
+			artillery_equipment = @art_need
+		}
+	}
+	heavy_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+			category_heavy
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = heavy_artillery_equipment_1
+		essential = {
+			heavy_artillery_equipment_1
+		}
+		need = {
+			heavy_artillery_equipment = @art_need
+		}
+	}
+	heavy_tank_amphibious_artillery = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_artillery
+			category_heavy_tank
+			category_amphibious_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = heavy_tank_amphibious_artillery_chassis
+		essential = {
+			heavy_tank_amphibious_artillery_chassis
+		}
+		need = {
+			heavy_tank_amphibious_artillery_chassis = @art_need
+		}
+	}
+	heavy_tank_amphibious_artillery_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		type = {
+			armor
+			anti_tank
+		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_armor
+			category_amphibious_armor_artillery
+			category_heavy_tank
+			category_ss
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = heavy_tank_amphibious_artillery_chassis
+		essential = {
+			heavy_tank_amphibious_artillery_chassis
+		}
+		need = {
+			heavy_tank_amphibious_artillery_chassis = @art_need
+		}
+	}
+	pack_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+			category_pack
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = pack_artillery_equipment_1
+		essential = {
+			pack_artillery_equipment_1
+		}
+		need = {
+			pack_artillery_equipment = @art_need
+		}
+	}
+	super_heavy_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = super_heavy_artillery_equipment_1
+		essential = {
+			super_heavy_artillery_equipment_1
+		}
+		need = {
+			super_heavy_artillery_equipment = @art_need
+		}
+	}
+	super_heavy_self_propelled_artillery = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = super_heavy_self_propelled_artillery_1
+		essential = {
+			super_heavy_self_propelled_artillery_1
+		}
+		need = {
+			super_heavy_self_propelled_artillery = @art_need
+		}
+	}
+	light_tank_artillery = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = armor
+		categories = {
+			category_artillery
+			category_armor
+			category_light_tank
+			category_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = light_tank_artillery_chassis
+		essential = {
+			light_tank_artillery_chassis
+		}
+		need = {
+			light_tank_artillery_chassis = @art_need
+		}
+	}
+	medium_tank_artillery = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_artillery
+			category_medium_tank
+			category_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = medium_tank_artillery_chassis
+		essential = {
+			medium_tank_artillery_chassis
+		}
+		need = {
+			medium_tank_artillery_chassis = @art_need
+		}
+	}
+	heavy_tank_artillery = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_artillery
+			category_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = heavy_tank_artillery_chassis
+		essential = {
+			heavy_tank_artillery_chassis
+		}
+		need = {
+			heavy_tank_artillery_chassis = @art_need
+		}
+	}
+	heavy_tank_artillery_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_artillery
+			category_armor_artillery
+			category_ss
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = heavy_tank_artillery_chassis
+		essential = {
+			heavy_tank_artillery_chassis
+		}
+		need = {
+			heavy_tank_artillery_chassis = @art_need
+		}
+	}
+	modern_tank_artillery = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_modern_tank
+			category_artillery
+			category_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = modern_tank_artillery_chassis
+		essential = {
+			modern_tank_artillery_chassis
+		}
+		need = {
+			modern_tank_artillery_chassis = @art_need
+		}
+	}
+	light_tank_amphibious_artillery = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_light_tank
+			category_artillery
+			category_amphibious_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = light_tank_amphibious_artillery_chassis
+		essential = {
+			light_tank_amphibious_artillery_chassis
+		}
+		need = {
+			light_tank_amphibious_artillery_chassis = @art_need
+		}
+	}
+	medium_tank_amphibious_artillery = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_artillery
+			category_medium_tank
+			category_amphibious_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = medium_tank_amphibious_artillery_chassis
+		essential = {
+			medium_tank_amphibious_artillery_chassis
+		}
+		need = {
+			medium_tank_amphibious_artillery_chassis = @art_need
+		}
+	}
+	modern_tank_amphibious_artillery = {
+		sprite = modern_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			artillery
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_artillery
+			category_modern_tank
+			category_amphibious_armor_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = modern_tank_amphibious_artillery_chassis
+		essential = {
+			modern_tank_amphibious_artillery_chassis
+		}
+		need = {
+			modern_tank_amphibious_artillery_chassis = @art_need
+		}
+	}
+	mechanised_artillery = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			mechanized
+		}
+		group = mobile
+		categories = {
+			category_mechanised
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = mechanised_spg_equipment
+		essential = {
+			mechanised_spg_equipment
+		}
+		need = {
+			mechanised_spg_equipment = @art_need
+		}
+	}
+	motorised_rocket_artillery = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			mechanized
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_motorised
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = motorised_rocket_equipment
+		essential = {
+			motorised_rocket_equipment
+		}
+		need = {
+			motorised_rocket_equipment = @art_need
+		}
+	}
+	rocket_artillery = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			infantry
+			artillery
+		}
+		group = artillery
+		categories = {
+			category_infantry
+			category_artillery
+		}
+		combat_width = 2
+		manpower = 500
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 100
+		supply_consumption = 0.18
+		affects_speed = yes
+		transport = rocket_artillery_equipment
+		essential = {
+			rocket_artillery_equipment
+		}
+		need = {
+			rocket_artillery_equipment = @art_need
+		}
+	}
+}

@@ -1,0 +1,72 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	history = {
+		owner = FRA
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			20912
+			10
+		}
+		victory_points = {
+			20909
+			10
+		}
+		victory_points = {
+			3292
+			5
+		}
+		victory_points = {
+			20908
+			5
+		}
+		victory_points = {
+			20910
+			10
+		}
+		victory_points = {
+			20913
+			20
+		}
+		victory_points = {
+			19768
+			5
+		}
+	}
+	provinces = {
+		20911
+
+		5095
+		8599
+		15589
+		20912
+		2256
+		3292
+		8510
+		20907
+		20909
+		3031
+		8820
+		15611
+		15620
+		2128
+		3299
+		6286
+		8108
+		20908
+		5587
+		8595
+		20902
+		20906
+		20910
+		20913
+		19768
+	}
+	manpower = 879446
+	state_category = large_town
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

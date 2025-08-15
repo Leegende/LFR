@@ -1,0 +1,78 @@
+state = {
+	id = 145
+	name = "STATE_145"
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			20342
+			2
+		}
+		victory_points = {
+			5637
+			2
+		}
+		victory_points = {
+			4131
+			5
+		}
+		victory_points = {
+			3101
+			2
+		}
+		victory_points = {
+			15074
+			20
+		}
+		victory_points = {
+			955
+			2
+		}
+		victory_points = {
+			15110
+			2
+		}
+	}
+	provinces = {
+		7411
+		15003
+		20342
+		5567
+		5637
+		20344
+		4346
+		15084
+		15133
+		15167
+		20285
+		4131
+		7731
+		15072
+		20340
+		20341
+		20345
+		6660
+		17548
+		9314
+		20343
+		15110
+		20347
+		20346
+		3101
+		8011
+		1020
+		15074
+		15097
+		955
+		20281
+	}
+	manpower = 1255729
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+}

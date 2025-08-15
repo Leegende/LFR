@@ -1,0 +1,9 @@
+characters = {
+	DEN_thorvald_stauning = {
+		country_leader = {
+			ideology = socialism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

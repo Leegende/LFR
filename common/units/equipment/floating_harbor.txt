@@ -1,0 +1,19 @@
+equipments = {
+	floating_harbor_archetype = {
+		year = 1910
+		is_archetype = yes
+		is_buildable = no
+		type = floating_harbor
+		group_by = archetype
+		interface_category = interface_category_other_ships
+		can_be_lend_leased = {
+			always = no
+		}
+		can_be_produced = {
+			always = no
+		}
+	}
+	floating_harbor_equipment_1 = {
+		archetype = floating_harbor_archetype
+	}
+}

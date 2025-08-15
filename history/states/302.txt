@@ -1,0 +1,51 @@
+state = {
+	id = 302
+	name = "STATE_302"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 4
+		}
+		victory_points = {
+			9077
+			10
+		}
+		victory_points = {
+			11264
+			40
+		}
+		victory_points = {
+			6722
+			15
+		}
+	}
+	provinces = {
+		3769
+		6785
+		9007
+		10937
+		2131
+		3097
+		3378
+		6722
+		9077
+		9386
+		11057
+		11108
+		11109
+		11157
+		11165
+		11189
+		11205
+		11230
+		11247
+		11264
+		11281
+	}
+	manpower = 5078000
+	buildings_max_level_factor = 1
+	state_category = pastoral
+}

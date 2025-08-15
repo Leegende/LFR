@@ -1,0 +1,12 @@
+intro_songs = {
+    song = "intro"
+}
+
+music = {
+    name = "intro"
+    file = "intro.ogg"
+    volume = 0.01
+    always_on = yes
+    loop = yes
+    channel = "loading"
+}

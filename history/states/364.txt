@@ -1,0 +1,87 @@
+state = {
+	id = 364
+	name = "STATE_364"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			19749
+			5
+		}
+		victory_points = {
+			8410
+			5
+		}
+		victory_points = {
+			5767
+			5
+		}
+		victory_points = {
+			15120
+			80
+		}
+		victory_points = {
+			19750
+			6
+		}
+	}
+	provinces = {
+		528
+		2373
+		2888
+		4308
+		5488
+		5767
+		5963
+		15032
+		15065
+		19786
+		2859
+		9336
+		9583
+		15095
+		15103
+		15120
+		15124
+		15140
+		15148
+		19785
+		411
+		2045
+		2726
+		3722
+		4212
+		8410
+		8654
+		15096
+		15149
+		15171
+		15222
+		15246
+		15255
+		20509
+		605
+		4874
+		5685
+		6630
+		6733
+		6988
+		7659
+		15179
+		15226
+		19749
+		19750
+		20512
+		20513
+		20514
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+}

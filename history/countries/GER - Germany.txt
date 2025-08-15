@@ -1,0 +1,506 @@
+﻿capital = 367
+set_fuel_ratio = 0.8
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.76
+set_war_support = 0.3
+create_faction = AXIS_NAME
+add_to_faction = ITA
+add_to_faction = HUN
+add_to_faction = ROM
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_dynamic_modifier = {
+	modifier = GER_mefo_bills
+}
+
+add_dynamic_modifier = {
+	modifier = GER_wehrmacht
+}
+
+set_variable = {
+	GER_wehrmacht_acclimatization_cold_climate_gain_factor = 0
+	tooltip = acclimatization_cold_climate_gain_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_acclimatization_hot_climate_gain_factor = 0
+	tooltip = acclimatization_hot_climate_gain_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_air_superiority_bonus_in_combat = 0
+	tooltip = air_superiority_bonus_in_combat_tt
+}
+
+set_variable = {
+	GER_wehrmacht_air_training_xp_gain_factor = 0
+	tooltip = air_training_xp_gain_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_armor_attack_factor = -0.05
+	tooltip = army_armor_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_armor_speed_factor = 0
+	tooltip = army_armor_speed_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_artillery_attack_factor = 0
+	tooltip = army_artillery_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_artillery_defence_factor = 0
+	tooltip = army_artillery_defence_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_attack_factor = 0
+	tooltip = army_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_core_attack_factor = 0
+	tooltip = army_core_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_core_defence_factor = 0
+	tooltip = army_core_defence_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_defence_factor = 0
+	tooltip = army_defence_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_fuel_consumption_factor = 0
+	tooltip = army_fuel_consumption_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_infantry_attack_factor = -0.05
+	tooltip = army_infantry_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_infantry_defence_factor = 0
+	tooltip = army_infantry_defence_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_leader_cost_factor = 0
+	tooltip = army_leader_cost_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_leader_start_logistics_level = 0
+	tooltip = army_leader_start_logistics_level_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_leader_start_planning_level = 0
+	tooltip = army_leader_start_planning_level_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_morale_factor = 0
+	tooltip = army_morale_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_army_org_factor = -0.05
+	tooltip = army_org_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_autonomy_gain = 0
+	tooltip = autonomy_gain_tt
+}
+
+set_variable = {
+	GER_wehrmacht_cas_damage_reduction = 0
+	tooltip = cas_damage_reduction_tt
+}
+
+set_variable = {
+	GER_wehrmacht_command_power_gain_mult = 0
+	tooltip = command_power_gain_mult_tt
+}
+
+set_variable = {
+	GER_wehrmacht_conscription = 0
+	tooltip = conscription_tt
+}
+
+set_variable = {
+	GER_wehrmacht_conscription_factor = 0
+	tooltip = conscription_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_coordination_bonus = -0.05
+	tooltip = coordination_bonus_tt
+}
+
+set_variable = {
+	GER_wehrmacht_dig_in_speed_factor = -0.2
+	tooltip = dig_in_speed_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_equipment_capture = 0
+	tooltip = equipment_capture_tt
+}
+
+set_variable = {
+	GER_wehrmacht_equipment_capture_factor = 0
+	tooltip = equipment_capture_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_experience_gain_air = 0
+	tooltip = experience_gain_air_tt
+}
+
+set_variable = {
+	GER_wehrmacht_experience_gain_army = 0
+	tooltip = experience_gain_army_tt
+}
+
+set_variable = {
+	GER_wehrmacht_experience_gain_navy = 0
+	tooltip = experience_gain_navy_tt
+}
+
+set_variable = {
+	GER_wehrmacht_experience_gain_army_factor = 0
+	tooltip = experience_gain_army_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_experience_loss_factor = 0
+	tooltip = experience_loss_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_ground_attack_factor = 0
+	tooltip = ground_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_industrial_capacity_factory = 0
+	tooltip = industrial_capacity_factory_tt
+}
+
+set_variable = {
+	GER_wehrmacht_initiative_factor = 0
+	tooltip = initiative_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_land_doctrine_cost_factor = 0.25
+	tooltip = land_doctrine_cost_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_land_night_attack = 0
+	tooltip = land_night_attack_tt
+}
+
+set_variable = {
+	GER_wehrmacht_max_command_power = 0
+	tooltip = max_command_power_tt
+}
+
+set_variable = {
+	GER_wehrmacht_max_planning_factor = -0.1
+	tooltip = max_planning_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_mechanized_attack_factor = 0
+	tooltip = mechanized_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_minimum_training_level = 0
+	tooltip = minimum_training_level_tt
+}
+
+set_variable = {
+	GER_wehrmacht_mobilization_speed = 0
+	tooltip = mobilization_speed_tt
+}
+
+set_variable = {
+	GER_wehrmacht_modifier_army_sub_unit_militia_attack_factor = 0
+	tooltip = modifier_army_sub_unit_militia_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_modifier_army_sub_unit_militia_defence_factor = 0
+	tooltip = modifier_army_sub_unit_militia_defence_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_modifier_army_sub_unit_militia_max_org_factor = 0
+	tooltip = modifier_army_sub_unit_militia_max_org_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_motorized_attack_factor = 0
+	tooltip = motorized_attack_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_non_core_manpower = 0
+	tooltip = non_core_manpower_tt
+}
+
+set_variable = {
+	GER_wehrmacht_org_loss_when_moving = 0.3
+	tooltip = org_loss_when_moving_tt
+}
+
+set_variable = {
+	GER_wehrmacht_planning_speed = -0.2
+	tooltip = planning_speed_tt
+}
+
+set_variable = {
+	GER_wehrmacht_production_speed_air_base_factor = 0
+	tooltip = production_speed_air_base_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_recon_factor = 0
+	tooltip = recon_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_resistance_target = 0
+	tooltip = resistance_target_tt
+}
+
+set_variable = {
+	GER_wehrmacht_special_forces_cap = 0
+	tooltip = special_forces_cap_tt
+}
+
+set_variable = {
+	GER_wehrmacht_spotting_chance = 0
+	tooltip = spotting_chance_tt
+}
+
+set_variable = {
+	GER_wehrmacht_supply_consumption_factor = 0
+	tooltip = supply_consumption_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_supply_factor = 0
+	tooltip = supply_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_training_time_factor = 0
+	tooltip = training_time_factor_tt
+}
+
+set_variable = {
+	GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor = 0
+	tooltip = unit_leader_as_advisor_cp_cost_factor_tt
+}
+
+set_variable = {
+	GER_appoint_okw_members = 0
+}
+
+add_to_variable = {
+	GER_mefo_bills_political_power_cost = 0.35
+	tooltip = political_power_cost_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_consumer_goods_factor = 0
+	tooltip = consumer_goods_factor_tt
+}
+
+add_to_variable = {
+	GER_failed_reform_the_okw_army_attack_factor = -0.1
+	tooltip = army_attack_factor_tt
+}
+
+add_to_variable = {
+	GER_failed_reform_the_okw_army_morale_factor = -0.05
+	tooltip = army_morale_factor_tt
+}
+
+add_to_variable = {
+	GER_failed_reform_the_okw_army_org_factor = -0.05
+	tooltip = army_org_factor_tt
+}
+
+add_to_variable = {
+	GER_failed_reform_the_okw_political_advisor_cost_factor = 0.25
+	tooltip = political_advisor_cost_factor_tt
+}
+
+add_to_variable = {
+	GER_failed_reform_the_okw_political_power_gain = -0.1
+	tooltip = political_power_gain_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_infrastracture_factor = 0.1
+	tooltip = production_speed_infastructure_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_arms_factory_factor = 0.1
+	tooltip = production_speed_arms_factory_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_naval_base_factor = 0.1
+	tooltip = production_speed_naval_base_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_coastal_bunker_factor = 0.1
+	tooltip = production_speed_coastal_bunker_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_bunker_factor = 0.1
+	tooltip = production_speed_bunker_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_air_base_factor = 0.1
+	tooltip = production_speed_air_base_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_anti_air_building_factor = 0.1
+	tooltip = production_speed_anti_air_building_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_radar_station_factor = 0.1
+	tooltip = production_speed_radar_station_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_synthetic_refinery_factor = 0.2
+	tooltip = production_speed_synthetic_refinery_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_infrastructure_factor = 0
+	tooltip = production_speed_infrastructure_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_arms_factory_factor = 0
+	tooltip = production_speed_arms_factory_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_industrial_complex_factor = 0
+	tooltip = production_industrial_complex_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_research_speed_factor = 0
+	tooltip = research_speed_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_factory_max_efficiency_factor = 0
+	tooltip = production_factory_max_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_min_export = 0
+	tooltip = min_export_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_local_resources_factor = 0
+	tooltip = local_resources_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_factory_start_efficiency_factor = 0
+	tooltip = production_factory_start_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_factory_efficiency_gain_factor = 0
+	tooltip = production_factory_efficiency_gain_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_line_change_production_efficiency_factor = 0
+	tooltip = line_change_production_efficiency_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_industrial_capacity_factory = 0
+	tooltip = industrial_capacity_factory_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_conversion_cost_civ_to_mil_factor = 0
+	tooltip = conversion_cost_civ_to_mil_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_conversion_cost_mil_to_civ_factor = 0
+	tooltip = conversion_cost_mil_to_civ_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_production_speed_buildings_factor = 0
+	tooltip = production_speed_buildings_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_armor_research_bonus = 0
+	tooltip = production_speed_buildings_factor_tt
+}
+
+add_to_variable = {
+	GER_mefo_bills_air_equipment_research_bonus = 0
+	tooltip = production_speed_buildings_factor_tt
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
+}
+
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+	armored_car1 = 1
+	basic_train = 1
+	tech_support = 1
+	basic_tank = 1
+	basic_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}

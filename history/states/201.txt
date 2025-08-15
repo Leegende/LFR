@@ -1,0 +1,138 @@
+
+state = {
+id = 201
+	name = "STATE_201"
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 4
+		}
+		victory_points = {
+			20091
+			10
+		}
+		victory_points = {
+			4997
+			2
+		}
+		victory_points = {
+			13958
+			2
+		}
+		victory_points = {
+			13539
+			10
+		}
+		victory_points = {
+			7774
+			2
+		}
+		victory_points = {
+			8222
+			20
+		}
+		victory_points = {
+			13790
+			2
+		}
+		victory_points = {
+			13853
+			2
+		}
+		victory_points = {
+			5120
+			2
+		}
+		victory_points = {
+			13946
+			5
+		}
+		victory_points = {
+			20092
+			10
+		}
+	}
+	provinces = {
+		153
+		2624
+		3164
+		3341
+		4997
+		6439
+		6647
+		8165
+		13886
+		13941
+		14003
+		14011
+		14055
+		20091
+		20405
+		3620
+		5594
+		13958
+		19226
+		16808
+		20093
+		14059
+		14080
+		1760
+		2152
+		6432
+		7452
+		8055
+		13490
+		13514
+		13539
+		13559
+		1309
+		7774
+		9607
+		13640
+		20861
+		4570
+		8222
+		9333
+		13707
+		17112
+		20859
+		20860
+		1685
+		4098
+		13656
+		13790
+		13824
+		13842
+		13853
+		20095
+		5120
+		8839
+		13696
+		13913
+		17640
+		2107
+		9046
+		13946
+		13980
+		20399
+		8542
+		14027
+		14097
+		20092
+		14018
+		14051
+		14074
+		14084
+		14092
+		18337
+		14012
+	}
+	manpower = 2458597
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}
+

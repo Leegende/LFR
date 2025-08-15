@@ -1,0 +1,77 @@
+state = {
+	id = 215
+	name = "STATE_215"
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			5243
+			5
+		}
+		victory_points = {
+			775
+			5
+		}
+		victory_points = {
+			11900
+			2
+		}
+		victory_points = {
+			11767
+			2
+		}
+		victory_points = {
+			11800
+			80
+		}
+		victory_points = {
+			895
+			5
+		}
+	}
+	provinces = {
+		19855
+		246
+		2388
+		3409
+		3781
+		5243
+		8127
+		8534
+		11747
+		11801
+		11837
+		775
+		895
+		1831
+		2334
+		4856
+		7055
+		8086
+		11824
+		11881
+		11900
+		11936
+		11958
+		11987
+		12027
+		3034
+		4365
+		7533
+		11767
+		11845
+		11855
+		7307
+		11774
+		11800
+	}
+	manpower = 2942870
+	buildings_max_level_factor = 1
+	state_category = metropolis
+	local_supplies = 0
+}

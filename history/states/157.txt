@@ -1,0 +1,198 @@
+state = {
+	id = 157
+	name = "STATE_157"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 5
+		}
+		victory_points = {
+			14452
+			10
+		}
+		victory_points = {
+			14622
+			5
+		}
+		victory_points = {
+			14525
+			2
+		}
+		victory_points = {
+			14361
+			10
+		}
+		victory_points = {
+			14398
+			20
+		}
+		victory_points = {
+			4554
+			20
+		}
+		victory_points = {
+			7492
+			5
+		}
+		victory_points = {
+			20393
+			5
+		}
+		victory_points = {
+			4146
+			5
+		}
+		victory_points = {
+			20394
+			5
+		}
+		victory_points = {
+			2738
+			2
+		}
+		victory_points = {
+			5837
+			80
+		}
+		victory_points = {
+			20409
+			2
+		}
+		victory_points = {
+			1413
+			2
+		}
+		victory_points = {
+			14587
+			2
+		}
+		victory_points = {
+			3914
+			2
+		}
+		victory_points = {
+			14572
+			20
+		}
+		victory_points = {
+			1176
+			2
+		}
+	}
+	provinces = {
+		4250
+		5472
+		8420
+		14452
+		14504
+		17582
+		20410
+		20456
+		2018
+		5862
+		9657
+		14532
+		14622
+		20408
+		6245
+		8220
+		14525
+		743
+		20416
+		2777
+		6643
+		6793
+		14310
+		14358
+		14361
+		14392
+		14428
+		7329
+		14350
+		14397
+		17724
+		1783
+		3673
+		7966
+		8577
+		14345
+		14398
+		14433
+		14444
+		2752
+		4554
+		4608
+		14336
+		14402
+		6664
+		6730
+		7492
+		8586
+		14369
+		14415
+		20417
+		7872
+		7933
+		8044
+		14375
+		14384
+		14462
+		20393
+		20412
+		4146
+		4749
+		7961
+		14510
+		14521
+		2738
+		3454
+		3870
+		5510
+		7637
+		14536
+		14550
+		14562
+		20394
+		20413
+		20414
+		20415
+		1413
+		2517
+		5160
+		5837
+		6208
+		8290
+		8968
+		14492
+		14511
+		20409
+		3914
+		4356
+		14587
+		14612
+		20411
+		5320
+		5436
+		14281
+		14329
+		960
+		1176
+		3146
+		14572
+		14574
+		14598
+		20383
+		5063
+		16752
+		17138
+		8765
+		14263
+	}
+	manpower = 4691335
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+}

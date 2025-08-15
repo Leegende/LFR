@@ -1,0 +1,51 @@
+characters = {
+	HUN_miklós_horthy = {
+		name = "Miklós Horthy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			id = 500
+		}
+	}
+	HUN_kalman_daranyi = {
+		name = "HUN_kalman_daranyi"
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_europe_2"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HUN_kalman_daranyi
+			traits = {
+				prime_minister_okyar
+			}
+		}
+	}
+	HUN_ferenc_szalasi = {
+		name = "HUN_ferenc_szalasi"
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = HUN_ferenc_szalasi
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				has_completed_focus = HUN_horty
+			}
+			traits = {
+				HUN_prime_minister_atsiz
+			}
+		}
+	}
+}

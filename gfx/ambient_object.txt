@@ -1,0 +1,552 @@
+type = {
+	type = "bigben"
+	use_animation = no
+	scale = 0.5
+	always_visible = yes
+	object = {
+		name = "bigben_entity"
+		position = {
+			2798.67
+			11.5
+			1557.24
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "hagia"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "hagia_entity"
+		position = {
+			3252.92
+			10.5
+			1344.72
+		}
+		rotation = {
+			0
+			-106
+			0
+		}
+	}
+}
+
+type = {
+	type = "empirestate"
+	use_animation = no
+	scale = 0.1
+	always_visible = yes
+	object = {
+		name = "empirestate"
+		position = {
+			1654.44
+			10.5
+			1557.5
+		}
+		rotation = {
+			0
+			-20
+			0
+		}
+	}
+}
+
+type = {
+	type = "kaaba"
+	use_animation = no
+	scale = 0.5
+	always_visible = yes
+	object = {
+		name = "kaaba_entity"
+		position = {
+			3426.21
+			10.4
+			996.18
+		}
+		rotation = {
+			0
+			60
+			0
+		}
+	}
+}
+
+type = {
+	type = "domeofrock"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "domeofrock_entity"
+		position = {
+			3355.96
+			11.3
+			1172.78
+		}
+		rotation = {
+			0
+			-106
+			0
+		}
+	}
+}
+
+type = {
+	type = "ladyliberty"
+	use_animation = no
+	scale = 0.4
+	always_visible = yes
+	object = {
+		name = "ladyliberty"
+		position = {
+			1653.88
+			11
+			1549.42
+		}
+		rotation = {
+			0
+			210
+			0
+		}
+	}
+}
+
+type = {
+	type = "kremlin"
+	use_animation = no
+	scale = 0.35
+	always_visible = yes
+	object = {
+		name = "kremlin"
+		position = {
+			3395.49
+			12
+			1646.32
+		}
+		rotation = {
+			0
+			210
+			0
+		}
+	}
+}
+
+type = {
+	type = "reichstag"
+	use_animation = no
+	scale = 0.3
+	always_visible = yes
+	object = {
+		name = "reichstag"
+		position = {
+			3008.48
+			10.7
+			1570.69 
+		}
+		rotation = {
+			0
+			120
+			0
+		}
+	}
+}
+
+type = {
+	type = "eiffel"
+	use_animation = no
+	scale = 0.15
+	always_visible = yes
+	object = {
+		name = "eiffel"
+		position = {
+			2839.43
+			10.7
+			1495.46
+		}
+		rotation = {
+			0
+			120
+			0
+		}
+	}
+}
+
+type = {
+	type = "giza"
+	use_animation = no
+	scale = 0.5
+	always_visible = yes
+	object = {
+		name = "giza"
+		position = {
+			3288.94
+			10.7
+			1141.25
+		}
+		rotation = {
+			0
+			140
+			0
+		}
+	}
+}
+
+type = {
+	type = "colosseum"
+	use_animation = no
+	scale = 0.7
+	always_visible = yes
+	object = {
+		name = "colosseum"
+		position = {
+			3003.95
+			11
+			1359.52
+		}
+		rotation = {
+			0
+			-50
+			0
+		}
+	}
+}
+
+type = {
+	type = "christredeemer"
+	use_animation = no
+	scale = 1.3
+	always_visible = yes
+	object = {
+		name = "christredeemer"
+		position = {
+			2125.9
+			11.7
+			514.31
+		}
+		rotation = {
+			0
+			50
+			0
+		}
+	}
+}
+
+type = {
+	type = "brandenburg"
+	use_animation = no
+	scale = 0.2
+	always_visible = yes
+	object = {
+		name = "brandenburg"
+		position = {
+			 
+			1890.92 
+			9.9
+			15163463.36 
+		}
+		rotation = {
+			0
+			105
+			0
+		}
+	}
+}
+
+type = {
+	type = "pisa"
+	use_animation = no
+	scale = 0.6
+	always_visible = yes
+	object = {
+		name = "pisa"
+		position = {
+			2975
+			10
+			1384.38
+		}
+		rotation = {
+			0
+			220
+			0
+		}
+	}
+}
+
+type = {
+	type = "test"
+	use_animation = no
+	always_visible = yes
+	object = {
+		name = "test"
+		position = {
+			2975
+			-10
+			1384.38
+		}
+		rotation = {
+			0
+			220
+			0
+		}
+	}
+}
+
+type = {
+	type = "greatwall"
+	use_animation = no
+	scale = 1.15
+	always_visible = yes
+	object = {
+		name = "greatwall"
+		position = {
+			4620.88
+			8
+			1348.5
+		}
+		rotation = {
+			0
+			180
+			0
+		}
+	}
+}
+
+type = {
+	type = "chickenitza"
+	use_animation = no
+	always_visible = yes
+	object = {
+		name = "chickenitza"
+		position = {
+			1415.93
+			9
+			1192.38
+		}
+		rotation = {
+			0
+			90
+			0
+		}
+	}
+}
+
+type = {
+	type = "saintsophia"
+	use_animation = no
+	always_visible = yes
+	scale = 0.1
+	object = {
+		name = "saintsophia_entity"
+		position = {
+			3277.56
+			10.2
+			1525.47
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "tajmahal"
+	use_animation = no
+	scale = 0.25
+	always_visible = yes
+	object = {
+		name = "tajmahal"
+		position = {
+			4031.33
+			11.2
+			1098.87
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "capitol"
+	use_animation = no
+	scale = 0.3
+	always_visible = yes
+	object = {
+		name = "capitol"
+		position = {
+			1601.89
+			10.1
+			1532.42
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "prudential"
+	use_animation = no
+	scale = 0.3
+	always_visible = yes
+	object = {
+		name = "prudential"
+		position = {
+			3133.79
+			11.3
+			1561.57
+		}
+		rotation = {
+			0
+			-130
+			0
+		}
+	}
+}
+
+type = {
+	type = "acropolis"
+	use_animation = no
+	scale = 0.26
+	always_visible = yes
+	object = {
+		name = "acropolis"
+		position = {
+			3171.46
+			11.2
+			1288.04
+		}
+		rotation = {
+			0
+			60
+			0
+		}
+	}
+}
+
+type = {
+	type = "pantheon"
+	use_animation = no
+	scale = 0.1
+	always_visible = yes
+	object = {
+		name = "pantheon"
+		position = {
+			3005.6
+			10.3
+			1355.88
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "okayama"
+	use_animation = no
+	always_visible = yes
+	object = {
+		name = "okayama"
+		position = {
+			4896.59
+			10
+			1224.54
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "washingtonmonument"
+	use_animation = no
+	scale = 0.5
+	always_visible = yes
+	object = {
+		name = "washingtonmonument	"
+		position = {
+			1886.32
+			10
+			291.53
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+	object = {
+		name = "washingtonmonument	"
+		position = {
+			1603.39
+			10
+			1522.79
+		}
+		rotation = {
+			0
+			0
+			0
+		}
+	}
+}
+
+type = {
+	type = "himeji"
+	use_animation = no
+	always_visible = yes
+	scale = 0.3
+	object = {
+		name = "himeji"
+		position = {
+			4910.06
+			10.3
+			1228.66
+		}
+		rotation = {
+			0
+			60
+			0
+		}
+	}
+}
+
+type = {
+	type = "hooverdam"
+	use_animation = no
+	always_visible = yes
+	scale = 0.2
+	object = {
+		name = "hooverdam"
+		position = {
+			1016.24
+			10.3
+			1466.82
+		}
+		rotation = {
+			0
+			-90
+			0
+		}
+	}
+}
+
+#######################################
