@@ -133,7 +133,7 @@ guiTypes = {
 				maxWidth = 195
 				maxHeight = 20
 				multiline = no
-				format = center
+				format = left
 			}
 			
 			buttonType = {

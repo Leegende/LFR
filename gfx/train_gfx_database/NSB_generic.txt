@@ -4,7 +4,7 @@
 
 # wagon_data = {
 # 	entity = european_train_locomotive_01_entity # name of the entity
-# 	scale = 2.5 # entity can be scaled if default entity scale is off
+# 	scale = 0 # = 2.5 # entity can be scale = 0 #d if default entity scale = 0 # is off
 # 	rotation = 0.5 # entity can be rotationd if default rotation is wrong
 # 	length = length of the wagon entity. wagons are attached together like a chain. this should be the chain link of chain (if wagons will interlop with each other this is smaller then entity length)
 # 	shift = { 0.0 0.0 0.0 } # wagon entities should be position by 0 position being their back point (the point that will be attached to prev wagon). if not the entoty can be shifted
@@ -34,7 +34,7 @@
 
 wagon_data = {
 	entity = GER_train_locomotive_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -43,7 +43,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = GER_train_locomotive_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -52,7 +52,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = GER_train_locomotive_equipment_3_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -61,7 +61,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = ITA_train_locomotive_equipment_1_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -70,7 +70,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_locomotive_equipment_1_entity
-	scale = 0.55
+	scale = 0 # = 0.55
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -79,7 +79,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_locomotive_equipment_2_entity
-	scale = 0.55
+	scale = 0 # = 0.55
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -88,7 +88,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_locomotive_equipment_3_entity
-	scale = 0.37
+	scale = 0 # = 0.37
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -97,7 +97,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = USA_train_locomotive_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -106,7 +106,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = USA_train_locomotive_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -115,7 +115,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_locomotive_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -124,7 +124,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_locomotive_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -133,7 +133,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_locomotive_1_equipment_3_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -142,7 +142,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_locomotive_2_equipment_3_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.8
@@ -151,7 +151,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = FRA_train_locomotive_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -160,7 +160,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = FRA_train_locomotive_equipment_2_entity
-	scale = 0.55
+	scale = 0 # = 0.55
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.0
@@ -169,7 +169,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = ENG_train_locomotive_equipment_1_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -178,7 +178,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = ENG_train_locomotive_equipment_2_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -187,7 +187,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = GER_train_coal_equipment_1_entity
-	scale = 0.38
+	scale = 0 # = 0.38
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.5
@@ -195,7 +195,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = GER_train_coal_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.5
@@ -203,14 +203,14 @@ wagon_data = {
 
 wagon_data = {
 	entity = GER_train_coal_equipment_3_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.5
 }
 wagon_data = {
 	entity = ITA_train_coal_equipment_1_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.7
@@ -218,7 +218,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_coal_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.65
@@ -226,7 +226,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_coal_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.65
@@ -234,7 +234,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = SOV_train_coal_equipment_3_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.35
@@ -242,7 +242,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = USA_train_coal_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.75
@@ -250,7 +250,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = USA_train_coal_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.75
@@ -258,7 +258,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_coal_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.60
@@ -266,7 +266,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_coal_equipment_2_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -274,7 +274,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = JAP_train_coal_equipment_3_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.8
@@ -282,7 +282,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = FRA_train_coal_equipment_1_entity
-	scale = 0.5
+	scale = 0 # = 0.5
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -290,7 +290,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = FRA_train_coal_equipment_2_entity
-	scale = 0.55
+	scale = 0 # = 0.55
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.9
@@ -298,7 +298,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = ENG_train_coal_equipment_1_entity
-	scale = 0.4
+	scale = 0 # = 0.4
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.65
@@ -306,7 +306,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = ENG_train_coal_equipment_2_entity
-	scale = 0.4
+	scale = 0 # = 0.4
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.65
@@ -316,7 +316,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = wagon_1_entity
-	scale = 0.35
+	scale = 0 # = 0.35
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.8
@@ -324,7 +324,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = wagon_2_entity
-	scale = 0.45
+	scale = 0 # = 0.45
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 2.18
@@ -332,7 +332,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = flat_wagon_entity
-	scale = 0.6
+	scale = 0 # = 0.6
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 3.45
@@ -340,7 +340,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = tank_wagon_entity
-	scale = 0.4
+	scale = 0 # = 0.4
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.95
@@ -348,7 +348,7 @@ wagon_data = {
 
 wagon_data = {
 	entity = tank_wagon_2_entity
-	scale = 0.4
+	scale = 0 # = 0.4
 	rotation = 90
 	shift = { 0.0 0.6 0.0 }
 	length = 1.95

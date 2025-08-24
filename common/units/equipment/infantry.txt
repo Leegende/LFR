@@ -6,7 +6,6 @@ equipments = {
 		group_by = archetype
 		interface_category = interface_category_land
 		can_license = no
-		priority = 0
 		reliability = 0.8
 		maximum_speed = 4
 		defense = 8

@@ -673,7 +673,7 @@ equipment_modules = {
 		allow_equipment_type = artillery
 		add_stats = {
 			soft_attack = 35
-			hard_attack = 17
+			hard_attack = 25
 			ap_attack = 50
 			build_cost_ic = 8
 		}
@@ -723,7 +723,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			soft_attack = 25
-			hard_attack = 30
+			hard_attack = 35
 			ap_attack = 55
 			build_cost_ic = 8
 		}
