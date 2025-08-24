@@ -44,8 +44,6 @@ sub_units = {
 			category_medium
 			category_anti_air
 		}
-		affects_speed = yes
-		transport = infantry_archetype
 		same_support_type = anti_air
 		combat_width = 0
 		training_time = 100
@@ -74,8 +72,6 @@ sub_units = {
 			category_heavy
 			category_anti_air
 		}
-		affects_speed = yes
-		transport = infantry_archetype
 		same_support_type = anti_air
 		combat_width = 0
 		training_time = 100
@@ -500,8 +496,6 @@ sub_units = {
 			category_pack
 			category_anti_air
 		}
-		affects_speed = yes
-		transport = infantry_archetype
 		same_support_type = anti_air
 		combat_width = 0
 		training_time = 100
