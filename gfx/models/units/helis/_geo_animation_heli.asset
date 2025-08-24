@@ -1,0 +1,26 @@
+##PAH2
+animation = {
+	name = "geo_pah2_animation_training_animation"
+	file = "geo_pah2_animation_training.anim"
+}
+animation = {
+	name = "geo_pah2_animation_idle_animation"
+	file = "geo_pah2_animation_idle.anim"
+}
+animation = {
+	name = "geo_pah2_animation_move_animation"
+	file = "geo_pah2_animation_move.anim"
+}
+##AH1
+animation = {
+	name = "geo_ah1_animation_training_animation"
+	file = "geo_ah1_animation_training.anim"
+}
+animation = {
+	name = "geo_ah1_animation_idle_animation"
+	file = "geo_ah1_animation_idle.anim"
+}
+animation = {
+	name = "geo_ah1_animation_move_animation"
+	file = "geo_ah1_animation_move.anim"
+}
