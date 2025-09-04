@@ -1,23 +1,23 @@
 music = {
-	name = "Rammstein_-_Sonne"
+	name = "SONG_1"
 	file = "Rammstein - Sonne.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "Better_Off_Alone_x_Clarity_x_Unlock_It_x_Alone"
+	name = "SONG_2"
 	file = "Better Off Alone x Clarity x Unlock It x Alone.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "Rammstein_x_Adolf_Hitler_-_Sonne"
+	name = "SONG_3"
 	file = "Rammstein X Adolf Hitler - Sonne.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "Katy_Perry_-_Hot_N_Cold_(Vriled)"
+	name = "SONG_4"
 	file = "Katy Perry - Hot N Cold (Vriled).ogg"
 	volume = 0.65
 }
