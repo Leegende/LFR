@@ -660,7 +660,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_ig_farben
+				#has_completed_focus = GER_ig_farben
 			}
 			research_bonus = {
 				synthetics = 0.2
