@@ -1,0 +1,31 @@
+﻿l_english:
+ GER_weisung_nr_1_tt:0 "§YFührerweisung Nr. 1§!\n§LAb 5:45 wird zurückgeschossen!§!\n\nRequires §YGermany§! to complete Focus:\n - §RFall Weiß§!\n\nEffect:\n -  §YGermany§! declares War against §RPoland§! "
+
+ GER_weisung_nr_10a_tt:0 "§YFührerweisung Nr. 10a§!\n§LBrr Brr Batapim§!\n\nRequires §YGermany§! to complete Focus:\n - §ROperation Weserübung§!\n\nEffect:\n -  §YGermany§! declares War against §RDenmark & Norway§! "
+
+ GER_weisung_nr_31_tt:0 "§YFührerweisung Nr. 31§!\n§LVertikalrotierende Taube§!\n\nRequires §YItaly§! to control §RAswan§!\n\nEffect:\n -  §YItaly§! gets Idea:"
+
+ GER_weisung_nr_11_tt:0 "§YFührerweisung Nr. 11§!\n§LTripidropi Tropidripi!§!\n\nRequires §YGermany§! to complete Focus:\n - §RFall Gelb§!\n\nEffect:\n -  §YGermany§! declares War against §RBenelux§! "
+
+ GER_weisung_nr_17_tt:0 "§YFührerweisung Nr. 17§!\n§Lplaceholder§!\n\nRequires §YFrance§! to be §Rcapitualed§!:\n\nEffect:\n -  §YGermany§! gets Idea:"
+
+ GER_weisung_nr_19b_tt:0 "§YFührerweisung Nr. 19b§!\n§Lplaceholder§!\n\nRequires §YFrance§! to be §Rcapitualed§!:\n\nEffect:\n -  §YGermany§! gets Decision:"
+
+ GER_weisung_nr_28_tt:0 "§YFührerweisung Nr. 28§!\n§LGrüne Teufel!§!\n\nRequires §YGermany or ally§! to control §RKreta§!:\n\nEffect:\n - §YItaly§! gets Idea:\n - §YGermany§! gets Idea:"
+
+ GER_weisung_nr_21_tt:0 "§YFührerweisung Nr. 21§!\n§LDas Kartenhaus bricht zusammen!§!\n\nRequires §YGermany§! to complete Focus:\n - §RUnternehmen Barbarossa§!\n\nEffect:\n - §YGermany§! declares War against §RSoviet Union§! "
+
+ GER_weisung_nr_20_tt:0 "§YFührerweisung Nr. 20§!\n§LAb 5:45 wird zurückgeschossen!§!\n\n§YGermany§! completes Focus §RUnternehmen Marita§!\n\nEffect:\n - §YAxis§! declares against Greece"
+
+ GER_weisung_nr_26_tt:0 "§YFührerweisung Nr. 26§!\n§LAb 5:45 wird zurückgeschossen!§!\n\n§YGermany§! completes Focus §RAprilkrieg§!\n\nEffect:\n - §YAxis§! declares against Yugoslavia"
+
+ GER_weisung_nr_22b_tt:0 "§YFührerweisung Nr. 22b§!\n§LAb 5:45 wird zurückgeschossen!§!\n\nRequires §YFrance§! to be §Rcapitualed§!:\n\nEffect:\n -  §YItaly§! joins the War against the §RAllies§! "
+
+
+ GER_weisung_nr_35a_tt:0 "§YFührerweisung Nr. 35a§!\n§LMoskau Moskau!§!\n\nRequires §YGermany§! to control §RMoskau§!:\n\nEffect:\n -  §YGermany§! gets Idea:"
+
+ GER_weisung_nr_40_tt:0 "§YFührerweisung Nr. 40§!\n§LHeinz get se Flammenwerfer!§!\n\nRequires the Atlantikwall to be finished\n - all §YAtlantic§! & §YNorthsea§! provinces need\n  - lvl. 5 coastal fort\n  - one division \n\nEffect:\n -  All Coastal §YSates§! get Idea"
+
+ GER_weisung_nr_63_tt:0 "§YFührerweisung Nr. 63§!\n§LAb 5:45 wird zurückgeschossen!§!\n\nRequires §YWarschau§! to controlled by the §RSoviet Union§!\n\nEffect:\n -  §YGermany§! recruts the §RVolkssturm§!"
+
+
