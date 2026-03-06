@@ -1,0 +1,113 @@
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "GER_quest_scripted_decisions_ui"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 260 }
+		iconType = {
+			name ="virtue_bg"
+			spriteType = "GFX_GER_gui_hitler_table"
+			position = { x=5 y=-15 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_1_button"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_1_tt
+			position = { x=100	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_10a"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_10a_tt
+			position = { x=150	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_11"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_11_tt
+			position = { x=200	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_31"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_31_tt
+			position = { x=250	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_17"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_17_tt
+			position = { x=300	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_19b"
+			spriteType = "GFX_GER_gui_paceholder_1"
+			clicksound = click_ok
+			pdx_tooltip = GER_weisung_nr_19b_tt
+			position = { x=350	 y=20 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_20"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_20_tt
+			position = { x=50	 y=120 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_21"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_21_tt
+			position = { x=100	 y=120 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_22b"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_22b_tt
+			position = { x=150	 y=120 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_26"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_26_tt
+			clicksound = click_ok
+			position = { x=400	 y=120 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_28"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_28_tt
+			position = { x=200	 y=120 }
+		}
+	
+		buttonType = {
+			name ="GER_weisung_nr_35a"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_35a_tt
+			position = { x=250	 y=120 }
+		}
+		#row 2
+		buttonType = {
+			name ="GER_weisung_nr_40"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_40_tt
+			clicksound = click_ok
+			position = { x=300	 y=120 }
+		}
+		buttonType = {
+			name ="GER_weisung_nr_63"
+			spriteType = "GFX_GER_gui_paceholder_2"
+			pdx_tooltip = GER_weisung_nr_63_tt
+			clicksound = click_ok
+			position = { x=350	 y=120 }
+		}
+		
+		
+		
+	}
+
+}

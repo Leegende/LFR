@@ -1,0 +1,387 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_rhineland"
+		texturefile = "gfx/interface/focus/GER/GER_rhineland.dds"
+	}
+	SpriteType = {
+		name = "GFX_anschluss"
+		texturefile = "gfx/interface/focus/GER/GER_anschluss.dds"
+	}
+	SpriteType = {
+		name = "GFX_demand_sudetenland"
+		texturefile = "gfx/interface/focus/GER/GER_demand_sudetenland.dds"
+	}
+	SpriteType = {
+		name = "GFX_demand_memel"
+		texturefile = "gfx/interface/focus/GER/GER_demand_memel.dds"
+	}
+	SpriteType = {
+		name = "GFX_first_vienna_award"
+		texturefile = "gfx/interface/focus/GER/GER_first_vienna_award.dds"
+	}
+	SpriteType = {
+		name = "GFX_end_of_czechoslovakia"
+		texturefile = "gfx/interface/focus/GER/GER_end_of_czechoslovakia.dds"
+	}
+	SpriteType = {
+		name = "GFX_second_vienna_award"
+		texturefile = "gfx/interface/focus/GER/GER_second_vienna_award.tga"
+	}
+	SpriteType = {
+		name = "GFX_molotov_ribbentrop_pact"
+		texturefile = "gfx/interface/focus/GER/GER_molotov_ribbentrop_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_fall_weiss"
+		texturefile = "gfx/interface/focus/GER/GER_fall_weiss.dds"
+	}
+	SpriteType = {
+		name = "GFX_four_year_olan"
+		texturefile = "gfx/interface/focus/GER/GER_four_year_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_integrate_romania"
+		texturefile = "gfx/interface/focus/GER/GER_integrate_romania.dds"
+	}
+	SpriteType = {
+		name = "GFX_integrate_hungary"
+		texturefile = "gfx/interface/focus/GER/GER_integrate_hungary.dds"
+	}
+	SpriteType = {
+		name = "GFX_weserübung"
+		texturefile = "gfx/interface/focus/GER/GER_weserübung.tga"
+	}
+	SpriteType = {
+		name = "GFX_swedish_trade"
+		texturefile = "gfx/interface/focus/GER/GER_swedish_trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_fall_gelb"
+		texturefile = "gfx/interface/focus/GER/GER_fall_gelb.tga"
+	}
+	SpriteType = {
+		name = "GFX_italian_savoy"
+		texturefile = "gfx/interface/focus/GER/GER_italian_savoy.dds"
+	}
+	SpriteType = {
+		name = "GFX_prepare_the_final_blow"
+		texturefile = "gfx/interface/focus/GER/GER_prepare_final_blow.dds"
+	}
+	SpriteType = {
+		name = "GFX_unternehmen_barbarossa"
+		texturefile = "gfx/interface/focus/GER/GER_unternehmen_barbarossa.tga"
+	}
+	SpriteType = {
+		name = "GFX_expand_the_ss"
+		texturefile = "gfx/interface/focus/GER/GER_expand_the_ss.dds"
+	}
+	SpriteType = {
+		name = "GFX_osttruppen"
+		texturefile = "gfx/interface/focus/GER/GER_osttruppen.dds"
+	}
+	SpriteType = {
+		name = "GFX_ostwall"
+		texturefile = "gfx/interface/focus/GER/GER_ostwall.dds"
+	}
+	SpriteType = {
+		name = "GFX_appoint_the_okw"
+		texturefile = "gfx/interface/focus/GER/GER_appoint_the_okw.dds"
+	}
+	SpriteType = {
+		name = "GFX_heinz_guderian"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_heinz_guderian.dds"
+	}
+	SpriteType = {
+		name = "GFX_heinz_guderian1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_heinz_guderian1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heinz_guderian2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_heinz_guderian2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heinz_guderian3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_heinz_guderian3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heinz_guderian4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_heinz_guderian4.dds"
+	}
+	SpriteType = {
+		name = "GFX_walter_model"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_walter_model.dds"
+	}
+	SpriteType = {
+		name = "GFX_walter_model1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_walter_model1.dds"
+	}
+	SpriteType = {
+		name = "GFX_walter_model2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_walter_model2.dds"
+	}
+	SpriteType = {
+		name = "GFX_walter_model3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_walter_model3.dds"
+	}
+	SpriteType = {
+		name = "GFX_walter_model4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_walter_model4.dds"
+	}
+	SpriteType = {
+		name = "GFX_guenther_kluge"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_guenther_kluge.dds"
+	}
+	SpriteType = {
+		name = "GFX_guenther_kluge1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_guenther_kluge1.dds"
+	}
+	SpriteType = {
+		name = "GFX_guenther_kluge2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_guenther_kluge2.dds"
+	}
+	SpriteType = {
+		name = "GFX_guenther_kluge3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_guenther_kluge3.dds"
+	}
+	SpriteType = {
+		name = "GFX_guenther_kluge4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_guenther_kluge4.dds"
+	}
+	SpriteType = {
+		name = "GFX_josef_dietrich"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_josef_dietrich.dds"
+	}
+	SpriteType = {
+		name = "GFX_josef_dietrich1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_josef_dietrich1.dds"
+	}
+	SpriteType = {
+		name = "GFX_josef_dietrich2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_josef_dietrich2.dds"
+	}
+	SpriteType = {
+		name = "GFX_josef_dietrich3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_josef_dietrich3.dds"
+	}
+	SpriteType = {
+		name = "GFX_josef_dietrich4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_josef_dietrich4.dds"
+	}
+	SpriteType = {
+		name = "GFX_kurt_student"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_kurt_student.dds"
+	}
+	SpriteType = {
+		name = "GFX_kurt_student1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_kurt_student1.dds"
+	}
+	SpriteType = {
+		name = "GFX_kurt_student2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_kurt_student2.dds"
+	}
+	SpriteType = {
+		name = "GFX_kurt_student3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_kurt_student3.dds"
+	}
+	SpriteType = {
+		name = "GFX_kurt_student4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_kurt_student4.dds"
+	}
+	SpriteType = {
+		name = "GFX_albert_kesselring"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_albert_kesselring.dds"
+	}
+	SpriteType = {
+		name = "GFX_albert_kesselring1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_albert_kesselring1.dds"
+	}
+	SpriteType = {
+		name = "GFX_albert_kesselring2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_albert_kesselring2.dds"
+	}
+	SpriteType = {
+		name = "GFX_albert_kesselring3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_albert_kesselring3.dds"
+	}
+	SpriteType = {
+		name = "GFX_albert_kesselring4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_albert_kesselring4.dds"
+	}
+	spriteType = {
+		name = "GFX_erhard_milch"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch.dds"
+	}
+	spriteType = {
+		name = "GFX_erhard_milch1"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch1.dds"
+	}
+	spriteType = {
+		name = "GFX_erhard_milch2"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch2.dds"
+	}
+	spriteType = {
+		name = "GFX_erhard_milch3"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch3.dds"
+	}
+	spriteType = {
+		name = "GFX_erhard_milch4"
+		texturefile = "gfx/interface/focus/GER/inner_circle/GER_erhard_milch4.dds"
+	}
+	spriteType = {
+		name = "GFX_mp_40"
+		texturefile = "gfx/interface/focus/GER/GER_mp_40.dds"
+	}
+	spriteType = {
+		name = "GFX_3_7_cm_pak"
+		texturefile = "gfx/interface/focus/GER/GER_3_7_cm_pak.dds"
+	}
+	spriteType = {
+		name = "GFX_7_5_cm_KwK_40"
+		texturefile = "gfx/interface/focus/GER/GER_7_5_cm_kwk_40.dds"
+	}
+	spriteType = {
+		name = "GFX_long_term"
+		texturefile = "gfx/interface/focus/GER/GER_long_term.tga"
+	}
+	spriteType = {
+		name = "GFX_short_term"
+		texturefile = "gfx/interface/focus/GER/GER_short_term.tga"
+	}
+	spriteType = {
+		name = "GFX_war_economy"
+		texturefile = "gfx/interface/focus/GER/GER_war_economy.tga"
+	}
+	spriteType = {
+		name = "GFX_kdf_wagen"
+		texturefile = "gfx/interface/focus/GER/GER_kdf_wagen.tga"
+	}
+	spriteType = {
+		name = "GFX_ig_farben"
+		texturefile = "gfx/interface/focus/GER/GER_ig_farben.tga"
+	}
+	spriteType = {
+		name = "GFX_hermann_goring_werke"
+		texturefile = "gfx/interface/focus/GER/GER_hermann_goring_werke.tga"
+	}
+	spriteType = {
+		name = "GFX_reichsautobahn"
+		texturefile = "gfx/interface/focus/GER/GER_reichsautobahn.dds"
+	}
+	spriteType = {
+		name = "GFX_heeresversuchsanstalt_kummersdorf"
+		texturefile = "gfx/interface/focus/GER/GER_heeresversuchsanstalt_kummersdorf.dds"
+	}
+	spriteType = {
+		name = "GFX_total_war"
+		texturefile = "gfx/interface/focus/GER/GER_total_war.tga"
+	}
+	spriteType = {
+		name = "GFX_schlattmann_programm"
+		texturefile = "gfx/interface/focus/GER/GER_schlattmann_programm.dds"
+	}
+	spriteType = {
+		name = "GFX_coal_liquidization"
+		texturefile = "gfx/interface/focus/GER/GER_coal_liquidization.tga"
+	}
+	spriteType = {
+		name = "GFX_deutscher_stahl"
+		texturefile = "gfx/interface/focus/GER/GER_deutscher_stahl.tga"
+	}
+	spriteType = {
+		name = "GFX_secure_the_lifeline"
+		texturefile = "gfx/interface/focus/GER/GER_secure_the_lifeline.tga"
+	}
+	spriteType = {
+		name = "GFX_kickstart_rubber_production"
+		texturefile = "gfx/interface/focus/GER/GER_kickstart_rubber_production.tga"
+	}
+	spriteType = {
+		name = "GFX_reichsarbeiterdienst"
+		texturefile = "gfx/interface/focus/GER/GER_reichsarbeiterdienst.tga"
+	}
+	spriteType = {
+		name = "GFX_deutsche_arbeitsfront"
+		texturefile = "gfx/interface/focus/GER/GER_deutsche_arbeitsfront.dds"
+	}
+	spriteType = {
+		name = "GFX_rheinmetall_merger"
+		texturefile = "gfx/interface/focus/GER/GER_rheinmetall_merger.dds"
+	}
+	spriteType = {
+		name = "GFX_expand_mefo_bills"
+		texturefile = "gfx/interface/focus/GER/GER_expand_mefo_bills.dds"
+	}
+	spriteType = {
+		name = "GFX_heeresversuchsanstalt_peenemuende"
+		texturefile = "gfx/interface/focus/GER/GER_heeresversuchsanstalt_peenemuende.tga"
+	}
+	spriteType = {
+		name = "GFX_improved_refinerys"
+		texturefile = "gfx/interface/focus/GER/GER_improved_refinerys.tga"
+	}
+	spriteType = {
+		name = "GFX_bulgaria"
+		texturefile = "gfx/interface/focus/GER/GER_bulgaria.dds"
+	}
+	spriteType = {
+		name = "GFX_autarky"
+		texturefile = "gfx/interface/goals/focus_GER_autarky_achieved.dds"
+	}
+	SpriteType = {
+		name = "GFX_economic_investments"
+		texturefile = "gfx/interface/goals/focus_GER_kdf_wagen.dds"
+	}
+	SpriteType = {
+		name = "GFX_economical_dependency"
+		texturefile = "gfx/interface/focus/GER/focus_GER_economical_dependency.tga"
+	}
+	SpriteType = {
+		name = "GFX_economical_integration"
+		texturefile = "gfx/interface/focus/GER/economical_integration.dds"
+	}
+	SpriteType = {
+		name = "GFX_trade_deal"
+		texturefile = "gfx/interface/focus/GER/GER_volkswagen_benefits.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_hungary"
+		texturefile = "gfx/interface/focus/GER/develop_hungary.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_romania"
+		texturefile = "gfx/interface/focus/GER/develop_romania.dds"
+	}
+	SpriteType = {
+		name = "GFX_develop_bulgaria"
+		texturefile = "gfx/interface/focus/GER/develop_bulgaria.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_hungarian_aluminium"
+		texturefile = "gfx/interface/focus/GER/hungarian_aluminium.dds"
+	}
+	SpriteType = {
+		name = "GFX_bulgarian_chromium"
+		texturefile = "gfx/interface/focus/GER/bulgarian_chromium.dds"
+	}
+	SpriteType = {
+		name = "GFX_romanian_oil"
+		texturefile = "gfx/interface/focus/GER/romanian_oil.dds"
+	}
+	SpriteType = {
+		name = "GFX_substitute_trade"
+		texturefile = "gfx/interface/focus/GER/substitudate_trade.dds"
+	}
+
+
+
+
+}
