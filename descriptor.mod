@@ -129,6 +129,7 @@ replace_path="history/general"
 replace_path="map/strategicregions"
 replace_path="events"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
+replace_path="music"
 
 
 
