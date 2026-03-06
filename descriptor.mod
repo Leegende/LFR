@@ -130,10 +130,5 @@ replace_path="map/strategicregions"
 replace_path="events"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 replace_path="music"
-
-
-
-
-
 supported_version="1.17.*"
 remote_file_id="5000000000"
