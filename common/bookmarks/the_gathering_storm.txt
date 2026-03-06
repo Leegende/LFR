@@ -38,12 +38,5 @@ bookmarks = {
 			history = ""
 			ideology = democratic
 		}
-		"HUN" = {
-			history = ""
-			ideology = neutrality
-		}
-		effect = {
-			randomize_weather = 12345
-		}
 	}
 }
