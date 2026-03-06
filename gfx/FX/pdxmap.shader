@@ -318,7 +318,7 @@ PixelShader =
 
 			float4 vMudSnow = GetMudSnowColor( Input.prepos, SnowMudData );	
 			diffuse.rgb = ApplySnow( diffuse.rgb, Input.prepos, normal, vMudSnow, SnowTexture, CityLightsAndSnowNoise, vGlossiness, vSnowAlpha );
-			diffuse.rgb = GetMudColor( diffuse.rgb, vMudSnow, Input.prepos, normal, vGlossiness, vSpec, MudDiffuseGloss, MudNormalSpec );
+			diffuse.rgb = GetMudColor( diffuse.rgb, vMudSnow, Input.prepos, normal, vGlossiness, vSpec, MudDiffuseGloss, MudNormalSpec, TerrainColor.rgb, CityLightsAndSnowNoise );
 							
 			// Gradient Borders
 			float vBloomAlpha = 0.0f;
@@ -385,8 +385,12 @@ PixelShader =
 			vOut += CityLights * CITY_LIGHTS_INTENSITY * CityLightsMask * vNightFactor;
 		#endif
 
-			//float3 vFOW = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
-			//vOut = lerp( vFOW, vOut, BORDER_FOW_REMOVAL_FACTOR * ( 1 - vBloomAlpha ) );
+			float3 vFOW = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
+			vOut = lerp( vFOW, vOut, BORDER_FOW_REMOVAL_FACTOR * ( 1 - vBloomAlpha ) );
+		
+		#ifndef LOW_END_GFX
+			vOut = ApplyDistanceFog( vOut, Input.prepos );
+		#endif
 			
 			vOut = DayNightWithBlend( vOut, vGlobeNormal, lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 			
@@ -485,7 +489,7 @@ Effect terrain
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShaderTerrain"
-	Defines = { "PDX_IMPROVED_BLINN_PHONG" }
+	Defines = { "LOW_END_GFX" }
 }
 
 Effect underwater

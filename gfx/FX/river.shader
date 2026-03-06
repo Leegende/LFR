@@ -308,7 +308,11 @@ PixelShader =
 		
 			SampleWater( Input.vUV, vUVMultipliers, vTimeDirectionSeasonLerp.x * vTimeDirectionSeasonLerp.y * 0.05f, vTimeMultipliers, B, M, waterNormal, LeanTexture1, LeanTexture2 );
 			
+		#ifdef LOW_END_GFX
 			float3 SunDirWater = float3( 0, 1, 0 );
+		#else
+			float3 SunDirWater = CalculateSunDirectionWater( Input.vPrePos_Fade.xyz );
+		#endif
 			float3 H = normalize( normalize(vCamPos - Input.vPrePos_Fade.xyz).xzy + -SunDirWater.xzy );
 			float2 HWave = H.xy/H.z - B;
 		
@@ -317,12 +321,32 @@ PixelShader =
 			float e = HWave.x*HWave.x*sigma.y + HWave.y*HWave.y*sigma.x - 2*HWave.x*HWave.y*sigma.z;
 			float spec = (det <= 0) ? 0.0f : exp( -0.5f*e/det ) / sqrt(det);
 		
+		#ifdef LOW_END_GFX
 			float3 normal = waterNormal;
+		#else
+			//float3 vHeightNormal = normalize( tex2D( HeightNormal, Input.vWorldUV ).rbg - 0.5f );
+			float3 vCanalNormal = normalize( tex2D( NormalMap, float2( vNewUV.x, 1.0f - vNewUV.y ) ).rbg - 0.5f );
+			vCanalNormal.z *= vFlip;
+			
+			float3 vTangent = normalize( float3( Input.vTangent.x, 0.0f, Input.vTangent.y ) );
+			float3 vBitangent = normalize( float3( Input.vTangent.y, 0.0f, -Input.vTangent.x ) );
+			float3 vTmpNormal = normalize( cross( vTangent, vBitangent ) );
+			float3x3 TNB = Create3x3( vTangent, vTmpNormal, vBitangent );
+			float3 vSideNormal = normalize( mul( vCanalNormal, TNB ) );
+			float3 normal = normalize( lerp( waterNormal, vSideNormal, waterSideAlpha.x ) );
+		#endif
 		
 			// Gradient Borders
 			float gradientBorderFactor = 1.0f - gradient_border_camera_distance();
 
 			float vBloomAlpha = 0.0f;	
+		#ifndef LOW_END_GFX
+			gradient_border_apply( diffuseColor.rgb, normal, Input.vWorldUV, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
+		
+			float3 gradientBorderWaterColor = waterColor;
+			gradient_border_apply( gradientBorderWaterColor, normal, Input.vWorldUV, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
+			waterColor = lerp( waterColor, gradientBorderWaterColor, gradientBorderFactor );
+		#endif
 			
 			float3 vEyeDir = normalize( Input.vPrePos_Fade.xyz - vCamPos.xyz );
 			float3 reflection = reflect( vEyeDir, normal );
@@ -361,9 +385,16 @@ PixelShader =
 		
 			CalculateSunLight( lightingProperties, fShadowTerm, diffuseLight, specularLight );
 
+		#ifndef LOW_END_GFX
+			CalculatePointLights( lightingProperties, LightDataMap, LightIndexMap, diffuseLight, specularLight);
+		#endif
+
 			float3 vOut = ComposeLight(lightingProperties, diffuseLight, specularLight);
 			
 			vOut = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
+		#ifndef LOW_END_GFX
+			vOut = ApplyDistanceFog( vOut, Input.vPrePos_Fade.xyz );
+		#endif
 			vOut = DayNightWithBlend( vOut, CalcGlobeNormal( Input.vPrePos_Fade.xz ), lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 				
 			float vFadeValue = ( 1.0f - Input.vPrePos_Fade.w );
@@ -397,7 +428,6 @@ Effect river_low_gfx
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
-	Defines = { "LOW_END_GFX" }
 }
 
 Effect river

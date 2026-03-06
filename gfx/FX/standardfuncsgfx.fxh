@@ -26,9 +26,10 @@ ConstantBuffer( 0, 0 )
 	float3		AmbientPosZ;
 	float3		AmbientNegZ;
 	float		CubemapIntensity;
-	float4		SunDiffuseIntensity
-	float4		MoonDiffuseIntensity
+	float4		SunDiffuseIntensity;
+	float4		MoonDiffuseIntensity;
 	float		GB_TextureHeight;
+	float		SunSpecularIntensity;
 };
 
 
@@ -168,43 +169,6 @@ PixelShader =
 		return lerp( vColor, res, vOverlayPercent );
 	}
 
-	// Borrowed from below - Numerous other variants had artifacts
-	// https://www.shadertoy.com/view/4dKcWK
-		static const float EPSILON = 1e-7; // DX11 is -7, DX9 can do -10. If error higher then sign will flip, negative saturation etc.
-		float3 RGBtoHCV(in float3 rgb)
-		{
-			// RGB [0..1] to Hue-Chroma-Value [0..1]
-			// Based on work by Sam Hocevar and Emil Persson
-			float4 p = (rgb.g < rgb.b) ? float4(rgb.bg, -1., 2. / 3.) : float4(rgb.gb, 0., -1. / 3.);
-			float4 q = (rgb.r < p.x) ? float4(p.xyw, rgb.r) : float4(rgb.r, p.yzx);
-			float c = q.x - min(q.w, q.y);
-			float h = abs((q.w - q.y) / (6. * c + EPSILON) + q.z);
-			return float3(h, c, q.x);
-		}
-		float3 RGBtoHSL(in float3 rgb)
-		{
-			// RGB [0..1] to Hue-Saturation-Lightness [0..1]
-			float3 hcv = RGBtoHCV(rgb);
-			float z = hcv.z - hcv.y * 0.5;
-			float s = hcv.y / (1. - abs(z * 2. - 1.) + EPSILON);
-			return float3(hcv.x, s, z);
-		}
-		float3 HUEtoRGB(in float hue)
-		{
-			// Hue [0..1] to RGB [0..1]
-			// See http://www.chilliant.com/rgb2hsv.html
-			float3 rgb = abs(hue * 6. - float3(3, 2, 4)) * float3(1, -1, -1) + float3(-1, 2, 2);
-			return clamp(rgb, 0., 1.);
-		}
-		float3 HSLtoRGB(in float3 hsl)
-		{
-			// Hue-Saturation-Lightness [0..1] to RGB [0..1]
-			float3 rgb = HUEtoRGB(hsl.x);
-			float c = (1. - abs(2. * hsl.z - 1.)) * hsl.y;
-			return (rgb - 0.5) * c + hsl.z;
-		}
-	//~~~~
-	
 	float3 Levels( float3 vInColor, float vMinInput, float vMaxInput )
 	{
 		float3 vRet = saturate( vInColor - vMinInput );
@@ -256,8 +220,7 @@ PixelShader =
 
 	float3 ApplyDistanceFog( float3 vColor, float vFogFactor )
 	{
-		// IMO this looks bad.
-		return vColor;//lerp( vColor, FOG_COLOR, vFogFactor );
+		return lerp( vColor, FOG_COLOR, vFogFactor );
 	}
 
 	float3 ApplyDistanceFog( float3 vColor, float3 vPos )
@@ -272,28 +235,25 @@ PixelShader =
 
 	
 	float3 GetMudColor( in float3 vResult, in float4 vMudSnowColor, in float3 vPos, inout float3 vNormal, inout float vGlossiness, inout float vSpec,
-						 in sampler2D MudDiffuseGlossSampler, in sampler2D MudNormalSpecSampler )
+						 in sampler2D MudDiffuseGlossSampler, in sampler2D MudNormalSpecSampler, in float3 TerrainColor, in sampler2D SnowNoise )
 	{
+		float vOpacity = cam_distance( MUD_CAM_MIN, MUD_CAM_MAX );
+		float vNoise = lerp( 1.0, (0.5 + tex2D( SnowNoise, vPos.xz * 0.01f ).a) * 0.5, vOpacity);
+
 		float vMudCurrent = lerp( vMudSnowColor.r, vMudSnowColor.a, vFoWOpacity_FoWTime_SnowMudFade_MaxGameSpeed.z );
 		vMudCurrent *= 1.0 - saturate( saturate( vNormal.y - MUD_NORMAL_CUTOFF ) * ( ( 1.0 - MUD_NORMAL_CUTOFF ) * 1000.0 ) );
-		vMudCurrent = saturate( vMudCurrent * MUD_STRENGHTEN );
+		vMudCurrent = saturate( vMudCurrent * MUD_STRENGHTEN * vNoise );
 		float4 vMudDiffuseGloss = tex2D( MudDiffuseGlossSampler, vPos.xz * MUD_TILING );
-		float4 vMudNormalSpec = tex2D( MudNormalSpecSampler, vPos.xz * MUD_TILING );
-		
+		float4 vMudNormalSpec = tex2D( MudNormalSpecSampler, vPos.xz * MUD_TILING );	
+
 		float3 vMudNormal = normalize( vMudNormalSpec.rbg - 0.5 );
 		vMudNormal = normalize( RotateVectorByVector( vMudNormal, vNormal ) );
 		vNormal = normalize( lerp( vNormal, vMudNormal, vMudCurrent ) );
 		vGlossiness = lerp( vGlossiness, vMudDiffuseGloss.a, vMudCurrent );
 		vSpec = lerp( vSpec, vMudNormalSpec.a, vMudCurrent );
 		
-		// Adjust luminosity of mud based on luminosity of underlying terrain
-		// Weighted for clarity - Essential for clean mud blending. Difficult to discern underlying terrain otherwise.
-		float3 hsl = RGBtoHSL(vMudDiffuseGloss.rgb);
-		float lum = dot(vResult, float3(0.2126, 0.7152, 0.0722));
-		float weight = 0.32;
-		vMudDiffuseGloss.rgb = HSLtoRGB(float3(hsl.rg, hsl.b*weight + lum*(1-weight)));
-		
-		return lerp( vResult, vMudDiffuseGloss.rgb, vMudCurrent );
+		float3 MudMix = GetOverlay( vMudDiffuseGloss.rgb, TerrainColor.rgb, COLORMAP_MUD_OVERLAY_STRENGTH );
+		return lerp( vResult, MudMix, vMudCurrent );
 	}
 
 	float GetSnow( float4 vMudSnowColor )
@@ -358,7 +318,7 @@ PixelShader =
 	}
 
 
-	#define NO_NIGHT
+	//#define NO_NIGHT
 
 	static const float GMT_OFFSET = 2793.0f; // X position on map, of Greenwitch GMT+0
 	static const float FEATHER_MIN = -0.01f;
@@ -638,8 +598,8 @@ PixelShader =
 	float3 CalculateSunDirection( float3 vWorldPos, float3 SunPos, float3 SecondSunPos, float3 MoonPos, float3 SecondMoonPos )
 	{
 		float vSelected = DayNightFactor( CalcGlobeNormal( vWorldPos.xz ), 0.0f, 0.0001f  );
-		float3 vSourcePos = lerp( float3(2800, SunPos.y, 1000), MoonPos, vSelected );
-		float3 vSecondSourcePos = lerp( float3(0, SecondSunPos.y, 1000), SecondMoonPos, vSelected );
+		float3 vSourcePos = lerp( SunPos, MoonPos, vSelected );
+		float3 vSecondSourcePos = lerp( SecondSunPos, SecondMoonPos, vSelected );
 
 		if ( vWorldPos.x - vSourcePos.x > MAP_SIZE_X * 0.5 )
 		{
@@ -792,6 +752,7 @@ PixelShader =
 
 		return diffuse + specular;
 	}
+
 
 	float3 CalcSnowAmbient( float3 aDiffuseLight, float vSnowFactor )
 	{
@@ -948,11 +909,11 @@ PixelShader =
 		vCh = vInit;
 
 		const float PulseSpeedMult = 3.5f;
-		float FX = tex2D( gbTex2, uv ).b;
-		vStrength *= lerp( lerp( 0.45f, 1.0f, 1.0f - FX ), 1.0f, ( sin( vGlobalTime * PulseSpeedMult ) + 1.0f ) / 2 );
+		float2 FX_Alpha = tex2D( gbTex2, uv ).bg;
+		vStrength *= lerp( lerp( 0.45f, 1.0f, 1.0f - FX_Alpha.r ), 1.0f, ( sin( vGlobalTime * PulseSpeedMult ) + 1.0f ) / 2 );
 
-		float vFullWidth = 5.25f / 255.0f;//lerp( 5.25f, 0.01f, FX ) / 255.f;
-		float vGradientWidth = 0.5f / 255.0f;//lerp( 0.5f, 0.1f, FX ) / 255.f;
+		float vFullWidth = 5.25f / 255.0f;//lerp( 5.25f, 0.01f, FX_Alpha.r ) / 255.f;
+		float vGradientWidth = 0.5f / 255.0f;//lerp( 0.5f, 0.1f, FX_Alpha.r ) / 255.f;
 
 		// Grab multisampled border color
 		float4 vGBDist = gradient_border_multisample_alpha( tex2D( gbTex, uv ), gbTex, uv );
@@ -979,17 +940,14 @@ PixelShader =
 		
 		vThick *= floor(vOldOutline);
 
-		float vMaxGradient = max(vColorOpacity, vOutline );  // max(vOutline, max(0.2f, vColorOpacity));
-		vCh = lerp( vCh, vGBDist.rgb, max( vMaxGradient, vThick )* vStrength);
+		float vMaxGradient = max( vColorOpacity, vOutline );
 
-		// Compensate the brightness since the 2nd layer is now black (not white) although it's alpha is 0
-		vCh *= 1.15f;
-		vCh = min( vCh, float3( 1, 1, 1 ) );
+		vCh = lerp( vCh, vGBDist.rgb, max( vMaxGradient, vThick )* vStrength);
 
 		// Make the outline edge darker
 		vCh = lerp( vCh, vCh * .5, vThick );
 
-		return max( vMaxGradient, vThick );
+		return max( vMaxGradient, vThick ) * FX_Alpha.g;
 	}
 
 	void gradient_border_apply( inout float3 vColor, float3 vNormal, float2 vUV, 
@@ -1019,12 +977,12 @@ PixelShader =
 		
 		float vAlpha1 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh1, vNormal, vUV, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.x, GB_STRENGTH_CH1 );
 		// Now mix, the resultat with background
-		float TranspA = 1.0f - tex2D( TexCh2, vUV ).g;		
+		float TranspA = tex2D( TexCh2, vUV ).g;		
 		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspA );
 		
 		
 		float vAlpha2 = gradient_border_process_channel( vGradMix, vColor, vGBCamDistCh2, vNormal, vUV2, TexCh1, TexCh2, vOutlineMult, vOutlineCutoff.y, (1.0 - vAlpha1 * GB_STRENGTH_CH1 * GB_FIRST_LAYER_PRIORITY) * GB_STRENGTH_CH2 );
-		float TranspB = 1.0f - tex2D( TexCh2, vUV2 ).g;
+		float TranspB = tex2D( TexCh2, vUV2 ).g;
 		vColor = lerp( vColor, vGradMix, ( GB_OPACITY_NEAR + ( 1.0f - vGBCamDist ) * ( GB_OPACITY_FAR - GB_OPACITY_NEAR ) ) * TranspB );
 		
 	//vColor = GetOverlay( vColor, ToLinear(vGradMix), 0.80);
@@ -1093,6 +1051,81 @@ PixelShader =
 		vOccupationMask *= vColorMask.a;
 		vBloomAlpha = vBloomAlpha * ( 1.0f - vOccupationMask );
 		vColor = lerp( vColor, vColorMask.rgb, vOccupationMask );
+	}
+	
+	void dominance_fx_apply(inout float3 Color, float3 Normal, float2 UV, in sampler2D Texture1, in sampler2D Texture2, in sampler2D Texture3, float2 OutlineCutoff, float2 CameraDistOverride, float OutlineMult)
+	{
+		// Since the gradient border texture is divided in two vertically, we need to map the UV to the expected part
+
+		float HalfPix = 0.5f / GB_TextureHeight;
+		float2 GBUV = float2(UV.x, UV.y * 0.5f - HalfPix);
+		
+		float4 Sample = tex2D( Texture2, GBUV );
+		float4 ColorMask = float4(ToGamma(Sample.rgb),saturate(ceil(Sample.a*2)*0.5f));
+
+		// Some constants, defining them here probably isn't best practice, 
+		// but they only impact this function, and it seems excessive to try to 
+		// send any of these except potentially TexSize through the constant buffer.
+		const float FadeSpeed = 1.5f;
+		const float ContestedPulseSpeed = 2.5f;
+		const float MinFade = 0.2;
+		const float MaxFade = 0.23;
+
+		float3 EnemyColor = tex2D(Texture3, float2(0,0)).rgb;
+		float3 FriendlyColor = tex2D(Texture3, float2(1,0)).rgb;
+
+		// Calculate the pulsating effect, very simple sine function with some parameters.
+		float Opacity = lerp( MinFade, MaxFade, ( sin( vGlobalTime * FadeSpeed ) + 1 ) * 0.5);
+		float ContestedIntensity = lerp( 0.8f, 1.5f, ( sin( vGlobalTime * FadeSpeed*2 ) + 1 ) * 0.5);
+
+		// Mapped direction is whether the dominance is increasing or decreasing, where 1 is increasing, -1 is decreasing, and 0 is neither.
+		// ColorMask.a will be in 0-1 space, where 0-0.49999... will be neither. values of 0.5 - 1.0 will be mapped to -1 and 1. 
+		// We do a bit of math magic to transpose it to the desired values.
+		// Control of the region is the same, but with the red channel instead of the alpha
+		float ContestedBy = round(Sample.a) * ( Sample.a * 4.f - 3.f );
+		float Control = round(ColorMask.r) * ( ColorMask.r * 4.f - 3.f );
+		float3 OverlayColor = abs(Control)*lerp(EnemyColor, FriendlyColor, (Control + 1)/2);
+		
+		/* This part is taken from the gradient_border_apply function */ 
+		/* It calculates the actual border gradient, and we use it for the alpha*/
+		float4 GBDist =  gradient_border_multisample_alpha(tex2D( Texture1, GBUV ), Texture1, GBUV );
+		float Alpha = GBDist.a;
+	
+		float IsRegionRelevant = saturate(abs(Control) + abs(ContestedBy))* (1- floor(Alpha));
+		if (IsRegionRelevant < 0.99)
+		{
+			return;
+		}
+	
+		float ColorOpacity = Levels( Alpha, 0.0f, OutlineCutoff.x );
+		float Outline = 1.0f - Levels( Alpha,OutlineCutoff.x, 1.0f );
+		float OldOutline = Outline;
+		Outline *= floor(ColorOpacity);
+		if (Outline > 0)
+		{
+			return;
+		}
+		Outline *= OutlineMult;
+
+		float GBCamDist = gradient_border_camera_distance();
+		float SaturatedCamDistOveride = saturate( ( GBCamDist * int( 1.0f - CameraDistOverride.x ) ) + CameraDistOverride.x );
+		ColorOpacity = gradient_border_distance_to_alpha( ColorOpacity, SaturatedCamDistOveride );
+		ColorOpacity *= floor(OldOutline);
+		float MaxGradient = max(ColorOpacity,Outline);
+
+		float OuterFade = max(1.f - (MaxGradient + 0.05f), 0.0f);
+		if (abs(ContestedBy) > 0.7f)
+		{
+			float3 ContestedColor = lerp(EnemyColor, FriendlyColor, (ContestedBy + 1)/2);
+			OverlayColor = lerp(OverlayColor, ContestedColor,saturate(MaxGradient * ContestedIntensity));
+			OuterFade = saturate(OuterFade * 2);
+		}
+ 		/* ------------------------------------------------------------ */
+
+		// Finally, we apply it to the input color by interpolating our resulting color, 
+		// using our numerous alphas as the t value. Most of them are either 1 or 0, 
+		// which essentially filters out the effect for regions that shouldn't be affected by it
+		Color = lerp( Color, OverlayColor, Opacity * OuterFade);
 	}
 
 	// Taken out from pdxmap.lua so other shaders can have access to it

@@ -137,6 +137,15 @@ PixelShader =
 			MipFilter = "Linear"
 			AddressU = "Clamp"
 			AddressV = "Clamp"
+		}		
+		GradientBorderChannel3 =
+		{
+			Index = 14
+			MagFilter = "Point"
+			MinFilter = "Point"
+			MipFilter = "Point"
+			AddressU = "Clamp"
+			AddressV = "Clamp"
 		}
 		ShadowMap =
 		{
@@ -247,7 +256,23 @@ PixelShader =
 		}
 		float MultiSampleTexX( in sampler2D TexCh, in float2 vUV )
 		{
+		#ifdef LOW_END_GFX
 			return tex2D( TexCh, vUV ).x;
+		#else
+			float vOffsetX = -0.5f / MAP_SIZE_X;
+			float vOffsetY = -0.5f / MAP_SIZE_Y;
+			float vResult = tex2D( TexCh, vUV ).x;
+			vResult += tex2D( TexCh, vUV + float2( -vOffsetX, 0 ) ).x;
+			vResult += tex2D( TexCh, vUV + float2( 0, -vOffsetY ) ).x;
+			vResult += tex2D( TexCh, vUV + float2( vOffsetX, 0 ) ).x;
+			vResult += tex2D( TexCh, vUV + float2( 0, vOffsetY ) ).x;
+			vResult += tex2D( TexCh, vUV + float2( -vOffsetX, -vOffsetY ) ).x;
+			vResult += tex2D( TexCh, vUV + float2(  vOffsetX, -vOffsetY ) ).x;
+			vResult += tex2D( TexCh, vUV + float2(  vOffsetX,  vOffsetY ) ).x;
+			vResult += tex2D( TexCh, vUV + float2( -vOffsetX,  vOffsetY ) ).x;
+			vResult /= 9;
+			return vResult;
+		#endif
 		}
 		
 		float4 main( VS_OUTPUT_WATER Input ) : PDX_COLOR
@@ -270,7 +295,11 @@ PixelShader =
 			B *= vFlatten;
 			M *= vFlatten * vFlatten;
 		
+		#ifdef LOW_END_GFX
 			float3 SunDirWater = float3( 0, -1, 0 );
+		#else
+			float3 SunDirWater = CalculateSunDirectionWater( Input.pos );
+		#endif
 			float3 H = normalize( normalize(vCamPos - Input.pos).xzy + -SunDirWater.xzy );
 			float2 HWave = H.xy/H.z - B;
 		
@@ -296,7 +325,11 @@ PixelShader =
 			//float3 reflectiveColor = texCUBElod( ReflectionCubeMap, float4(reflection, CubeMipmapIndex) ).rgb;// * CubemapIntensity;
 			float3 reflectiveColor = texCUBE( ReflectionCubeMap, reflection ).rgb;
 		
+		#ifdef NO_REFRACTIONS
 			float3 refractiveColor = float3( 0, 0.1f, 0.2f );
+		#else
+			float3 refractiveColor = tex2D( WaterRefraction, refractiveUV.xy - vRefractionDistortion ).rgb;
+		#endif
 
 			float fresnelBias = 0.5f; // CUBEMAP INTENSITY
 			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.5f;
@@ -304,6 +337,14 @@ PixelShader =
 			refractiveColor = refractiveColor * ( 1.0f - fresnel ) + reflectiveColor * fresnel;
 			
 			float vIceFade = 0.0f;
+		#ifndef LOW_END_GFX
+			float4 vMudSnowColor = GetMudSnowColor( Input.pos, SnowMudTexture );
+			refractiveColor = ApplyIce( refractiveColor, Input.pos.xz, normal, vMudSnowColor, Input.uv_ice, vIceFade );
+
+			vRefractionDistortion *= 1.0f - vIceFade;
+			vSpecularIntensity += vIceFade * 0.07f;
+			vGlossiness += vIceFade * 20.0f;
+		#endif
 		
 			float vBloomAlpha = 0.0f;
 
@@ -312,6 +353,13 @@ PixelShader =
 				GradientBorderChannel1, GradientBorderChannel2, 0.0f, 
 				vGBCamDistOverride_GBOutlineCutoff.zw * GB_OUTLINE_CUTOFF_SEA,
 				vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
+			
+			// darkness offset -- summary: 
+			// when we fixed an old bug in the gradient border code, it made most mapmodes brighter. Players don't like that.
+			// Therefore we offset the water a bit to make it more like what they're used to.
+			float3 Darkness = float3(0,0,0); 
+			refractiveColor = lerp(refractiveColor, Darkness, 0.2f);
+			
 			secondary_color_mask( refractiveColor, normal, 
 				Input.uv - vRefractionDistortion * 0.001, 
 				ProvinceSecondaryColorMap, 
@@ -326,14 +374,43 @@ PixelShader =
 			lightingProperties._SpecularColor = vec3(vSpecularIntensity);
 			lightingProperties._NonLinearGlossiness = GetNonLinearGlossiness(vGlossiness);
 			
+		
+			// Grab the shadow term
+		#ifdef LOW_END_GFX
 			float3 diffuseLight = vec3(1.0f);
 			float3 specularLight = vec3(0.002f);
+		#else
+			float3 diffuseLight = vec3(0.0);
+			float3 specularLight = vec3(0.0);
+
+			float4 vShadowCoord = Input.vScreenCoord;
+			vShadowCoord.xz = vShadowCoord.xz + vRefractionDistortion * 20.0f;
+			float fShadowTerm = GetShadowScaled( SHADOW_WEIGHT_WATER, vShadowCoord, ShadowMap );
+		
+			CalculateSunLight( lightingProperties, fShadowTerm, SunDirWater, diffuseLight, specularLight );
+
+			CalculatePointLights( lightingProperties, LightDataMap, LightIndexMap, diffuseLight, specularLight);
+		#endif
 
 			float3 vOut = ComposeLight(lightingProperties, diffuseLight, specularLight);
+		
+		#ifndef LOW_END_GFX
+			vOut = ApplyFOW( vOut, ShadowMap, Input.vScreenCoord );
+			vOut = ApplyDistanceFog( vOut, Input.pos );
+		#endif
 
 			vOut = DayNightWithBlend( vOut, CalcGlobeNormal( Input.pos.xz ), lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
-		
+			
+			dominance_fx_apply(vOut, normal, 
+				Input.uv, 
+				GradientBorderChannel1,GradientBorderChannel2,GradientBorderChannel3,
+				vGBCamDistOverride_GBOutlineCutoff.zw * GB_OUTLINE_CUTOFF_SEA,vGBCamDistOverride_GBOutlineCutoff.xy, 0.0f);
+				
+		#ifdef LOW_END_GFX
 			DebugReturn(vOut, lightingProperties, 0.0f);
+		#else
+			DebugReturn(vOut, lightingProperties, fShadowTerm);
+		#endif
 			return float4( vOut, 1.0f - waterShore );
 		}
 	]]
@@ -353,20 +430,21 @@ Effect water_low_gfx
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
-	Defines = { "LOW_END_GFX" "NO_REFRACTIONS" }
+    Defines = { "LOW_END_GFX" }
 }
 
 Effect water_no_refractions
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
-	Defines = { "NO_REFRACTIONS" }
+	Defines = { "LOW_END_GFX" }
 }
 
 Effect water
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShader"
+    Defines = { "LOW_END_GFX" }
 }
 
 
