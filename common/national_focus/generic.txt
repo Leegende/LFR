@@ -6,6 +6,7 @@
 	default = yes
 	reset_on_civilwar = no
 	focus = {
+		text = ""
 		id = army_effort
 		icon = GFX_goal_unknown
 		x = 0

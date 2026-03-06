@@ -14,6 +14,7 @@ replace_path="common/ai_equipment"
 replace_path="common/ai_faction_theaters"
 replace_path="common/ai_focuses"
 replace_path="common/ai_navy"
+replace_path="common/ai_navy/goals"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_templates"
@@ -48,6 +49,7 @@ replace_path="common/factions/icons"
 replace_path="common/factions/member_upgrades"
 replace_path="common/factions/member_upgrades/member_groups"
 replace_path="common/factions/rules"
+replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
 replace_path="common/factions/upgrades"
 replace_path="common/focus_inlay_windows"
@@ -121,9 +123,12 @@ replace_path="common/units/names_railway_guns"
 replace_path="common/units/names_ships"
 replace_path="common/units/unit_modifiers"
 replace_path="common/wargoals"
-
-
-
+replace_path="history/states"
+replace_path="history/countries"
+replace_path="history/general"
+replace_path="map/strategicregions"
+replace_path="events"
+replace_path="gfx/interface/equipmentdesigner/graphic_db"
 
 
 
