@@ -1,0 +1,94 @@
+sub_units = {
+	@field_need = 30
+	field_hospital = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_field_hospital_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+		}
+		same_support_type = field_hospital
+	}
+	mechanised_field_hospital = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_mechanised_support_company
+			category_field_hospital_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			mechanised_utility_equipment
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+			mechanised_utility_equipment = @field_need
+		}
+		same_support_type = field_hospital
+	}
+	helicopter_field_hospital = {
+		sprite = infantry
+		map_icon_category = transport
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_helicopter_support_company
+			category_field_hospital_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			helicopter_archetype
+			support_equipment
+		}
+		need = {
+			support_equipment = @field_need
+			helicopter_archetype = @field_need
+		}
+		same_support_type = field_hospital
+	}
+}

@@ -1,0 +1,400 @@
+sub_units = {
+	@tank_need = 50
+	heavy_tank_amphibious_ss = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_amphibious_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = heavy_tank_amphibious_chassis
+		essential = {
+			heavy_tank_amphibious_chassis
+		}
+		need = {
+			heavy_tank_amphibious_chassis = @tank_need
+		}
+	}
+	heavy_tank_red_guard = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_armor_battalion
+			category_red_guard
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = heavy_tank_chassis
+		essential = {
+			heavy_tank_chassis
+		}
+		need = {
+			heavy_tank_chassis = @tank_need
+		}
+	}
+	heavy_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_amphibious_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = heavy_tank_amphibious_chassis
+		essential = {
+			heavy_tank_amphibious_chassis
+		}
+		need = {
+			heavy_tank_amphibious_chassis = @tank_need
+		}
+	}
+	heavy_tank = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = heavy_tank_chassis
+		essential = {
+			heavy_tank_chassis
+		}
+		need = {
+			heavy_tank_chassis = @tank_need
+		}
+	}
+	heavy_tank_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_armor_battalion
+			category_ss
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = heavy_tank_chassis
+		essential = {
+			heavy_tank_chassis
+		}
+		need = {
+			heavy_tank_chassis = @tank_need
+		}
+	}
+	light_tank = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_light_tank
+			category_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = light_tank_chassis
+		essential = {
+			light_tank_chassis
+		}
+		need = {
+			light_tank_chassis = @tank_need
+		}
+	}
+	light_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_light_tank
+			category_amphibious_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = light_tank_amphibious_chassis
+		essential = {
+			light_tank_amphibious_chassis
+		}
+		need = {
+			light_tank_amphibious_chassis = @tank_need
+		}
+	}
+	light_tank_red_guard = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_light_tank
+			category_armor_battalion
+			category_red_guard
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = light_tank_chassis
+		essential = {
+			light_tank_chassis
+		}
+		need = {
+			light_tank_chassis = @tank_need
+		}
+	}
+	medium_tank = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_medium_tank
+			category_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = medium_tank_chassis
+		essential = {
+			medium_tank_chassis
+		}
+		need = {
+			medium_tank_chassis = @tank_need
+		}
+	}
+	medium_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_medium_tank
+			category_amphibious_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = medium_tank_amphibious_chassis
+		essential = {
+			medium_tank_amphibious_chassis
+		}
+		need = {
+			medium_tank_amphibious_chassis = @tank_need
+		}
+	}
+	medium_tank_red_guard = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = no
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_medium_tank
+			category_armor_battalion
+			category_red_guard
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = medium_tank_amphibious_chassis
+		essential = {
+			medium_tank_amphibious_chassis
+		}
+		need = {
+			medium_tank_amphibious_chassis = @tank_need
+		}
+	}
+	modern_tank = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_modern_tank
+			category_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = modern_tank_chassis
+		essential = {
+			modern_tank_chassis
+		}
+		need = {
+			modern_tank_chassis = @tank_need
+		}
+	}
+	modern_tank_amphibious = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			armor
+			amphibious
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_modern_tank
+			category_amphibious_armor_battalion
+		}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 12
+		default_morale = 0.3
+		max_strength = 2
+		supply_consumption = 0.5
+		affects_speed = yes
+		transport = modern_tank_amphibious_chassis
+		essential = {
+			modern_tank_amphibious_chassis
+		}
+		need = {
+			modern_tank_amphibious_chassis = @tank_need
+		}
+	}
+}

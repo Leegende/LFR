@@ -1,0 +1,22 @@
+state = {
+	id = 213
+	name = "STATE_213"
+	history = {
+		owner = FRA
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			347
+			2
+		}
+	}
+	provinces = {
+		347
+	}
+	manpower = 16640
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

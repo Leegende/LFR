@@ -1,0 +1,219 @@
+sub_units = {
+	motorised = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_red_guard = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_marine = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_mountaineer = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_shocktrooper = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_ranger = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+	motorised_sturmtruppe = {
+		sprite = motorised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			motorized
+		}
+		group = infantry
+		categories = {
+			category_motorised
+			category_infantry
+		}
+		transport = motorised_equipment
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		essential = {
+			infantry_archetype
+			motorised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			motorised_equipment = 50
+		}
+	}
+}

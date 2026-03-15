@@ -1,0 +1,104 @@
+state = {
+	id = 122
+	name = "STATE_122"
+	history = {
+		owner = CZE
+		add_core_of = CZE
+		set_state_flag = SUDETENLAND
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			2195
+			2
+		}
+		victory_points = {
+			12640
+			5
+		}
+		victory_points = {
+			9313
+			2
+		}
+		victory_points = {
+			907
+			5
+		}
+		victory_points = {
+			20061
+			5
+		}
+		victory_points = {
+			12393
+			5
+		}
+		victory_points = {
+			4177
+			5
+		}
+		victory_points = {
+			4097
+			2
+		}
+	}
+	provinces = {
+		2428
+		2579
+		13014
+		13126
+		6506
+		7223
+		20867
+		7372
+		20058
+		20059
+		2195
+		13136
+		2499
+		5812
+		9433
+		12640
+		12655
+		12661
+		12695
+		12721
+		7796
+		9313
+		12510
+		12535
+		907
+		1790
+		9135
+		12393
+		12473
+		12524
+		12550
+		20061
+		20062
+		2217
+		3747
+		4177
+		6766
+		7629
+		12474
+		12496
+		20063
+		2731
+		3308
+		4097
+		12630
+		12688
+		12755
+		1318
+		5564
+		12824
+		12893
+		12948
+	}
+	manpower = 2719158
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+}

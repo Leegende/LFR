@@ -1,0 +1,70 @@
+state = {
+	id = 76
+	name = "STATE_76"
+	provinces = {
+		19393
+		19394
+		3162
+		10552
+		10566
+		19400
+		5435
+		8788
+		9295
+		1218
+		7691
+		8159
+		10607
+		10667
+		7622
+		8504
+		10738
+		5274
+		6390
+		10742
+		10774
+		2970
+		9237
+		1842
+		3895
+		6682
+		8723
+		10775
+		10802
+		19396
+		5959
+		8441
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+		}
+		victory_points = {
+			19394
+			40
+		}
+		victory_points = {
+			10667
+			2
+		}
+		victory_points = {
+			8504
+			2
+		}
+		victory_points = {
+			6682
+			2
+		}
+		victory_points = {
+			10802
+			5
+		}
+	}
+	manpower = 3120500
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+}

@@ -1,0 +1,113 @@
+state = {
+	id = 36
+	name = "STATE_36"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			21046 = {
+				naval_base = 6
+			}
+			infrastructure = 6
+		}
+		victory_points = {
+			21046
+			5
+		}
+		victory_points = {
+			21040
+			40
+		}
+		victory_points = {
+			21037
+			2
+		}
+		victory_points = {
+			21033
+			5
+		}
+		victory_points = {
+			21031
+			5
+		}
+		victory_points = {
+			21028
+			2
+		}
+		victory_points = {
+			21026
+			20
+		}
+		victory_points = {
+			21039
+			2
+		}
+	}
+	provinces = {
+		15470
+		21044
+		21045
+		21046
+		1091
+		15488
+		21036
+		21047
+		21040
+		9565
+		21035
+		21037
+		584
+		9244
+		21032
+		2056
+		7139
+		21048
+		2961
+		5608
+		21030
+		1644
+		15562
+		21033
+		21034
+		6821
+		15570
+		15588
+		15609
+		21031
+		2974
+		9317
+		15603
+		15617
+		15618
+		21028
+		2956
+		8271
+		21029
+		697
+		6920
+		15627
+		21023
+		1834
+		8857
+		9442
+		15625
+		21025
+		21026
+		21027
+		7111
+		21043
+		4420
+		15568
+		2446
+		4086
+		8607
+		21039
+		21041
+		21042
+		15505
+	}
+	manpower = 2307559
+	state_category = town
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

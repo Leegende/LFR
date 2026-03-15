@@ -1,0 +1,97 @@
+state = {
+	id = 340
+	name = "STATE_340"
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			19666 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			19666
+			10
+		}
+		victory_points = {
+			1447
+			2
+		}
+		victory_points = {
+			4788
+			1
+		}
+		victory_points = {
+			9511
+			2
+		}
+	}
+	provinces = {
+		376
+		767
+		1065
+		1118
+		1194
+		1447
+		2302
+		4115
+		4262
+		4643
+		4788
+		5084
+		5481
+		5994
+		7418
+		7496
+		8142
+		9067
+		9732
+		9733
+		9741
+		9751
+		9752
+		9761
+		9772
+		16385
+		16567
+		17712
+		18273
+		18535
+		18872
+		18888
+		18889
+		19653
+		19666
+		391
+		710
+		809
+		1056
+		1337
+		1515
+		2230
+		2618
+		3009
+		3411
+		4364
+		4415
+		5045
+		5864
+		9511
+		9748
+		9757
+		9762
+		9763
+		18623
+		18651
+		18907
+		18927
+		18930
+		19271
+	}
+	manpower = 316400
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+}

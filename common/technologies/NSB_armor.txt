@@ -1,0 +1,1169 @@
+technologies = {
+	#########
+	@light_tank = -8
+	@medium_tank = 0
+	@heavy_tank = 8
+	########
+	@soft_attack_upgrade = -3
+	@hard_attack_upgrade = 3
+	@flamethrower_upgrade = -5
+	@hardness_upgrade = 5
+	########
+	@1936 = 0
+	@1937 = 1
+	@1938 = 2
+	@1939 = 3
+	@1940 = 4
+	@1941 = 5
+	@1942 = 6
+	@1944 = 8
+	panzergranate_technology = {
+		research_cost = 0
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipment_modules = {
+			panzergranate
+		}
+	}
+	juggle2 = {
+		research_cost = 0
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		custom_modifier_tooltip = juggle2_gain
+		on_research_complete = {
+			set_technology = {
+				juggle2 = 0
+			}
+		}
+	}
+	basic_tank = {
+		enable_equipments = {
+			armored_support_vehicle_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipment_modules = {
+			tank_bogie_suspension
+			tank_christie_suspension
+			tank_horstmann_suspension
+			tank_interleaved_suspension
+			tank_torsion_bar_suspension
+			tank_cast_armor
+			tank_welded_armor
+			tank_riveted_armor
+			tank_diesel_engine
+			tank_gasoline_engine
+			tank_petrol_electric_engine
+			additional_machine_guns
+			expanded_fuel_tank
+			extra_ammo_storage
+			smoke_launchers
+			wet_ammo_storage
+			amphibious_drive
+		}
+		path = {
+			leads_to_tech = basic_light_tank
+		}
+		path = {
+			leads_to_tech = basic_medium_tank
+		}
+		path = {
+			leads_to_tech = basic_heavy_tank
+		}
+		path = {
+			leads_to_tech = soft_attack_upgrade
+		}
+		path = {
+			leads_to_tech = hard_attack_upgrade
+		}
+		path = {
+			leads_to_tech = flamethrower_upgrade
+		}
+		path = {
+			leads_to_tech = hardness_upgrade
+		}
+		research_cost = 0
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1936
+			}
+		}
+		categories = {
+			armor
+		}
+	}
+	basic_light_tank = {
+		enable_equipments = {
+			light_tank_chassis_1
+			light_tank_destroyer_chassis_1
+			light_tank_artillery_chassis_1
+			light_tank_aa_chassis_1
+			light_tank_flame_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		sub_technologies = {
+			basic_light_tank_amphibious
+		}
+		enable_equipment_modules = {
+			tank_light_turret_1
+			tank_light_superstructure
+			small_anti_air_cannon_1
+		}
+		path = {
+			leads_to_tech = improved_light_tank
+		}
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	basic_light_tank_amphibious = {
+		enable_equipments = {
+			light_tank_amphibious_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1
+		start_year = 1939
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	improved_light_tank = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			light_tank_chassis_2
+			light_tank_destroyer_chassis_2
+			light_tank_artillery_chassis_2
+			light_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_light_turret_2
+			small_anti_air_cannon_2
+			apcr_round
+			add_on_rockets
+			advanced_artillery_round
+		}
+		path = {
+			leads_to_tech = advanced_light_tank
+		}
+		sub_technologies = {
+			improved_light_tank_amphibious
+		}
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	improved_light_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			light_tank_amphibious_chassis_2
+		}
+		research_cost = 1
+		start_year = 1940
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	advanced_light_tank = {
+		ai_will_do = {
+			base = -9999999
+		}
+		sub_technologies = {
+			advanced_light_tank_amphibious
+		}
+		enable_equipments = {
+			light_tank_chassis_3
+			light_tank_destroyer_chassis_3
+			light_tank_artillery_chassis_3
+			light_tank_aa_chassis_3
+		}
+		enable_equipment_modules = {
+			tank_light_turret_3
+			hull_flamethrower
+			additional_heavy_machine_guns
+			stabilizer
+			small_anti_air_cannon_3
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+		}
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @light_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	advanced_light_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			light_tank_amphibious_chassis_3
+		}
+		research_cost = 1
+		start_year = 1942
+		categories = {
+			armor
+			armor_light
+		}
+	}
+	basic_medium_tank = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			medium_tank_chassis_1
+			medium_tank_destroyer_chassis_1
+			medium_tank_artillery_chassis_1
+			medium_tank_aa_chassis_1
+		}
+		enable_equipment_modules = {
+			tank_medium_turret_1
+			tank_medium_superstructure
+			medium_anti_air_cannon_1
+			flamethrower_1
+			flamethrower_2
+			flamethrower_3
+		}
+		sub_technologies = {
+			basic_medium_tank_amphibious
+		}
+		path = {
+			leads_to_tech = improved_medium_tank
+		}
+		research_cost = 2.25
+		start_year = 1938
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	basic_medium_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			medium_tank_amphibious_chassis_1
+		}
+		research_cost = 1.25
+		start_year = 1939
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	improved_medium_tank = {
+		ai_will_do = {
+			base = -9999999
+		}
+		sub_technologies = {
+			improved_medium_tank_amphibious
+		}
+		enable_equipments = {
+			medium_tank_chassis_2
+			medium_tank_destroyer_chassis_2
+			medium_tank_artillery_chassis_2
+			medium_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_medium_turret_2
+			medium_anti_air_cannon_2
+			add_on_rockets
+			apcr_round
+			advanced_artillery_round
+		}
+		path = {
+			leads_to_tech = advanced_medium_tank
+		}
+		research_cost = 2.25
+		start_year = 1940
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	improved_medium_tank_amphibious = {
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			medium_tank_amphibious_chassis_2
+		}
+		research_cost = 1.25
+		start_year = 1940
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	advanced_medium_tank = {
+		sub_technologies = {
+			advanced_medium_tank_amphibious
+		}
+		enable_equipments = {
+			medium_tank_chassis_3
+			medium_tank_destroyer_chassis_3
+			medium_tank_artillery_chassis_3
+			medium_tank_aa_chassis_3
+		}
+		enable_equipment_modules = {
+			tank_medium_turret_3
+			medium_anti_air_cannon_3
+			hull_flamethrower
+			additional_heavy_machine_guns
+			stabilizer
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+		}
+		research_cost = 2.25
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	advanced_medium_tank_amphibious = {
+		enable_equipments = {
+			medium_tank_chassis_3
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.25
+		start_year = 1942
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	main_battle_tank = {
+		sub_technologies = {
+			main_battle_tank_amphibious
+		}
+		enable_equipments = {
+			modern_tank_chassis_1
+			modern_tank_destroyer_chassis_1
+			modern_tank_artillery_chassis_1
+			modern_tank_aa_chassis_1
+			modern_tank_amphibious_chassis_1
+			modern_tank_amphibious_destroyer_chassis_1
+			modern_tank_amphibious_artillery_chassis_1
+			modern_tank_amphibious_aa_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipment_modules = {
+			modern_aa
+			modern_hard_attack
+			modern_soft_attack
+			tank_modern_turret
+		}
+		research_cost = 3
+		start_year = 1944
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @medium_tank
+				y = @1944
+			}
+		}
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	main_battle_tank_amphibious = {
+		enable_equipments = {
+			modern_tank_amphibious_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 2
+		start_year = 1944
+		categories = {
+			armor
+			armor_medium
+		}
+	}
+	basic_heavy_tank = {
+		sub_technologies = {
+			basic_heavy_tank_amphibious
+		}
+		enable_equipments = {
+			heavy_tank_chassis_1
+			heavy_tank_destroyer_chassis_1
+			heavy_tank_artillery_chassis_1
+			heavy_tank_aa_chassis_1
+		}
+		enable_equipment_modules = {
+			tank_heavy_turret_1
+			tank_heavy_superstructure
+			heavy_anti_air_cannon_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = improved_heavy_tank
+		}
+		research_cost = 2.5
+		start_year = 1936
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	basic_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1938
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	improved_heavy_tank = {
+		sub_technologies = {
+			improved_heavy_tank_amphibious
+		}
+		enable_equipments = {
+			heavy_tank_chassis_2
+			heavy_tank_destroyer_chassis_2
+			heavy_tank_artillery_chassis_2
+			heavy_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			tank_heavy_turret_2
+			heavy_anti_air_cannon_2
+			add_on_rockets
+			apcr_round
+			advanced_artillery_round
+		}
+		path = {
+			leads_to_tech = advanced_heavy_tank
+		}
+		research_cost = 2.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1940
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	improved_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_2
+		}
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1940
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	advanced_heavy_tank = {
+		sub_technologies = {
+			advanced_heavy_tank_amphibious
+		}
+		enable_equipments = {
+			heavy_tank_chassis_3
+			heavy_tank_destroyer_chassis_3
+			heavy_tank_artillery_chassis_3
+			heavy_tank_aa_chassis_3
+		}
+		enable_equipment_modules = {
+			tank_heavy_turret_3
+			heavy_anti_air_cannon_3
+			hull_flamethrower
+			additional_heavy_machine_guns
+			stabilizer
+		}
+		path = {
+			leads_to_tech = main_battle_tank
+		}
+		research_cost = 2.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @heavy_tank
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	advanced_heavy_tank_amphibious = {
+		enable_equipments = {
+			heavy_tank_amphibious_chassis_3
+		}
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1942
+		categories = {
+			armor
+			armor_heavy
+		}
+	}
+	soft_attack_upgrade = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			soft_attack = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1936
+		path = {
+			leads_to_tech = soft_attack_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_soft_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	soft_attack_upgrade1 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			soft_attack = 0.1
+		}
+		custom_modifier_tooltip = tank_upgrade_tt
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = soft_attack_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_soft_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	soft_attack_upgrade2 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			soft_attack = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1940
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @soft_attack_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_soft_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hard_attack_upgrade = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hard_attack = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = hard_attack_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_hard_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hard_attack_upgrade1 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hard_attack = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1940
+		path = {
+			leads_to_tech = hard_attack_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_hard_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hard_attack_upgrade2 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hard_attack = 0.1
+		}
+		research_cost = 2.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hard_attack_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_hard_upgrade
+		}
+	}
+	flamethrower_upgrade = {
+		enable_equipment_modules = {
+			flamethrower_1
+		}
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = flamethrower_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	flamethrower_upgrade1 = {
+		enable_equipment_modules = {
+			flamethrower_2
+		}
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		research_cost = 2.5
+		start_year = 1940
+		path = {
+			leads_to_tech = flamethrower_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	flamethrower_upgrade2 = {
+		enable_equipment_modules = {
+			flamethrower_3
+		}
+		light_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_flamethrower = {
+			river = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		light_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		medium_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		heavy_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		modern_tank_amphibious_flamethrower = {
+			river = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+			forest = {
+				attack = 0.05
+			}
+		}
+		research_cost = 2.5
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @flamethrower_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_flamethrower_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1938
+		path = {
+			leads_to_tech = hardness_upgrade1
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1938
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade1 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1940
+		path = {
+			leads_to_tech = hardness_upgrade2
+		}
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1940
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	hardness_upgrade2 = {
+		custom_modifier_tooltip = tank_upgrade_tt
+		category_armor = {
+			hardness = 0.05
+			armor_value = 0.1
+		}
+		research_cost = 2.5
+		start_year = 1942
+		folder = {
+			name = nsb_armour_folder
+			position = {
+				x = @hardness_upgrade
+				y = @1942
+			}
+		}
+		categories = {
+			armor
+			armor_hardness_upgrade
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+}

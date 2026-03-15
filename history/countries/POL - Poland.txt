@@ -1,0 +1,18 @@
+﻿capital = 215
+set_research_slots = 1
+set_convoys = 200
+set_stability = 1
+set_war_support = 1
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}

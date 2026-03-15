@@ -1,0 +1,80 @@
+state = {
+	id = 289
+	name = "STATE_289"
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			1419
+			2
+		}
+		victory_points = {
+			13306
+			2
+		}
+		victory_points = {
+			5251
+			40
+		}
+	}
+	provinces = {
+		7487
+		6853
+		4053
+		3513
+		18183
+		13816
+		3797
+		13761
+		8736
+		2346
+		9176
+		13348
+		13429
+		13491
+		1419
+		2796
+		3506
+		4220
+		6072
+		7844
+		13204
+		13300
+		13306
+		13372
+		13553
+		2315
+		3802
+		4754
+		5777
+		6006
+		6295
+		6614
+		7186
+		7975
+		8882
+		8895
+		9604
+		13681
+		13840
+		13992
+		4088
+		4390
+		4433
+		5251
+		5547
+		7140
+		14053
+		14104
+		14168
+	}
+	manpower = 708711
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+}

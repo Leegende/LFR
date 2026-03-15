@@ -1,0 +1,75 @@
+state = {
+id = 165
+	name = "STATE_165"
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+	
+		}
+		victory_points = {
+			10752
+			2
+		}
+		victory_points = {
+			10893
+			2
+		}
+		victory_points = {
+			10853
+			2
+		}
+		victory_points = {
+			19906
+			20
+		}
+		victory_points = {
+			3541
+			2
+		}
+	}
+	provinces = {
+		1120
+		7485
+		7828
+		10752
+		10795
+		18151
+		20459
+		1237
+		7926
+		10893
+		10894
+		17194
+		5773
+		6563
+		10855
+		10879
+		10885
+		10910
+		19936
+		20458
+		20471
+		2000
+		2882
+		10837
+		10853
+		10840
+		20457
+		20473
+		3541
+		7846
+		8131
+		19906
+		19933
+		20472
+	}
+	manpower = 1081296
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}
+

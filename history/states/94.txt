@@ -1,0 +1,46 @@
+state = {
+	id = 94
+	name = "STATE_94"
+	history = {
+		owner = UAC
+		add_core_of = UAC
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			21111
+			2
+		}
+	}
+	provinces = {
+		21111
+		21112
+		21115
+		21118
+		15859
+		303
+		19181
+		15252
+		15272
+		7315
+		6649
+		15882
+		6582
+		5118
+		3881
+		15403
+		15886
+		3901
+		751
+		15871
+		15870
+		785
+		15864
+		21613
+		7673
+	}
+	manpower = 2000000
+	state_category = large_city
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

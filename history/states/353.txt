@@ -1,0 +1,81 @@
+state = {
+	id = 353
+	name = "STATE_353"
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 5
+		}
+		victory_points = {
+			19618
+			2
+		}
+		victory_points = {
+			9674
+			2
+		}
+		victory_points = {
+			19619
+			2
+		}
+		victory_points = {
+			10625
+			80
+		}
+		victory_points = {
+			10686
+			10
+		}
+		victory_points = {
+			5092
+			2
+		}
+		victory_points = {
+			7574
+			2
+		}
+	}
+	provinces = {
+		9091
+		9674
+		10720
+		19618
+		569
+		7194
+		10650
+		19619
+		19620
+		3612
+		7786
+		10561
+		10592
+		10625
+		10640
+		4072
+		6240
+		7073
+		8625
+		10686
+		4745
+		5092
+		5506
+		10683
+		10714
+		19622
+		19623
+		19624
+		19625
+		7574
+		19613
+		19621
+		4863
+		8725
+	}
+	manpower = 1809100
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+}

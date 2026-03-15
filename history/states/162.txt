@@ -1,0 +1,122 @@
+
+state = {
+	id = 162
+	name = "STATE_162"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			8049
+			10
+		}
+		victory_points = {
+			7390
+			2
+		}
+		victory_points = {
+			8735
+			10
+		}
+		victory_points = {
+			20392
+			40
+		}
+		victory_points = {
+			13805
+			2
+		}
+		victory_points = {
+			13469
+			2
+		}
+		victory_points = {
+			707
+			2
+		}
+		victory_points = {
+			20391
+			10
+		}
+		victory_points = {
+			8593
+			2
+		}
+	}
+	provinces = {
+		14021
+		6221
+		13949
+		14047
+		3830
+		7233
+		8049
+		9250
+		9648
+		16902
+		20447
+		2175
+		8400
+		8735
+		13920
+		3486
+		4160
+		4330
+		6048
+		7719
+		13837
+		13859
+		13868
+		13907
+		20392
+		39
+		6658
+		7344
+		8612
+		13659
+		13676
+		13719
+		13805
+		1861
+		2967
+		5125
+		5151
+		9166
+		13377
+		13468
+		13469
+		13541
+		20452
+		707
+		3488
+		13959
+		14119
+		14175
+		7390
+		2552
+		3403
+		3926
+		4591
+		7767
+		8593
+		8798
+		13457
+		13530
+		13615
+		13675
+		13746
+		13784
+		20391
+		20453
+		3787
+		8123
+		19319
+	}
+	manpower = 1996593
+	buildings_max_level_factor = 1
+	state_category = large_town
+	local_supplies = 0
+}

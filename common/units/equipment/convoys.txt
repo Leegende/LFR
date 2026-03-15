@@ -1,0 +1,21 @@
+equipments = {
+	convoy = {
+		year = 1936
+		is_archetype = yes
+		type = convoy
+		group_by = archetype
+		interface_category = interface_category_other_ships
+		can_be_lend_leased = {
+			always = no
+		}
+		is_buildable = no
+		can_be_produced = {
+			always = no
+		}
+		build_cost_ic = 0
+	}
+	convoy_1 = {
+		archetype = convoy
+		active = yes
+	}
+}

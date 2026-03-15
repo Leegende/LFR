@@ -1,0 +1,85 @@
+state = {
+	id = 121
+	name = "STATE_121"
+	provinces = {
+		6408
+		9290
+		13090
+		13031
+		20065
+		6771
+		12837
+		7264
+		7998
+		12810
+		12877
+		12925
+		12980
+		2205
+		3539
+		5170
+		7351
+		12979
+		13081
+		13137
+		4807
+		4952
+		6325
+		12930
+		12941
+		20066
+		20068
+		713
+		5512
+		5679
+		6708
+		8980
+		12940
+		12978
+		12995
+		13040
+		13061
+		13062
+	}
+	history = {
+		owner = CZE
+		add_core_of = CZE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			12810
+			20
+		}
+		victory_points = {
+			13031
+			2
+		}
+		victory_points = {
+			7351
+			5
+		}
+		victory_points = {
+			3539
+			2
+		}
+		victory_points = {
+			20066
+			10
+		}
+		victory_points = {
+			13040
+			20
+		}
+		victory_points = {
+			6771
+			2
+		}
+	}
+	manpower = 2201300
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = city
+}

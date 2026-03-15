@@ -1,0 +1,97 @@
+
+state = {
+id = 329
+	name = "STATE_329"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			
+		}
+		victory_points = {
+			2352
+			2
+		}
+		
+		victory_points = {
+			19422
+			5
+		}
+		victory_points = {
+			19421
+			2
+		}
+		victory_points = {
+			5722
+			2
+		}
+		victory_points = {
+			12007
+			5
+		}
+		victory_points = {
+			12091
+			20
+		}
+		victory_points = {
+			19411
+			10
+		}
+	}
+	provinces = {
+		2352
+		4680
+		6111
+		11349
+		19416
+		19421
+		19422
+		19423
+		2147
+		8219
+		11512
+		11549
+		11586
+		1029
+		3973
+		4490
+		11632
+		504
+		5722
+		11728
+		11769
+		11807
+		5253
+		5780
+		798
+		6289
+		8150
+		9365
+		11858
+		11905
+		11962
+		2727
+		6182
+		7272
+		7674
+		11963
+		12007
+		3537
+		8350
+		8936
+		11981
+		11993
+		12037
+		12091
+		12116
+		19411
+	}
+	manpower = 2465800
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}
+

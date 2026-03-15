@@ -1,0 +1,111 @@
+
+state = {
+	id = 128
+	name = "STATE_128"
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			14284
+			2
+		}
+		victory_points = {
+			20146
+			2
+		}
+		victory_points = {
+			20190
+			2
+		}
+		victory_points = {
+			20171
+			5
+		}
+		victory_points = {
+			14668
+			10
+		}
+		victory_points = {
+			4403
+			2
+		}
+	}
+	provinces = {
+		18483
+		5038
+		14322
+		20149
+		14284
+		14391
+		17935
+		20148
+		2626
+		20155
+		20135
+		20136
+		19059
+		20146
+		3381
+		16127
+		20131
+		20145
+		3435
+		14585
+		7255
+		7536
+		20134
+		20126
+		9526
+		17302
+		18482
+		2213
+		20128
+		19228
+		19229
+		20137
+		20190
+		5345
+		8012
+		9133
+		14662
+		14695
+		18299
+		20123
+		20133
+		20138
+		20170
+		20171
+		20140
+		20143
+		14668
+		1932
+		1328
+		15860
+		17479
+		14483
+		14530
+		20124
+		20139
+		20142
+		20141
+		14458
+		20125
+		4403
+		6212
+		20194
+		20147
+		7706
+		17540
+		2438
+		20129
+	}
+	manpower = 1472793
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

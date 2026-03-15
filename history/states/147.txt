@@ -1,0 +1,40 @@
+state = {
+	id = 147
+	name = "STATE_147"
+	history = {
+		owner = ITA
+		add_core_of = ENG
+		victory_points = {
+			7274
+			5
+		}
+		buildings = {
+			20297 = {
+				naval_base = 4
+			}
+			20317 = {
+				naval_base = 1
+			}
+			infrastructure = 6
+		}
+	}
+	provinces = {
+		20297
+		20316
+		20317
+		20318
+		20321
+		20322
+		20323
+		20325
+		7274
+		2379
+		15347
+		15410
+		15371
+	}
+	manpower = 120247
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

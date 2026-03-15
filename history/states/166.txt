@@ -1,0 +1,84 @@
+state = {
+	id = 166
+	name = "STATE_166"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			20532
+			2
+		}
+		victory_points = {
+			375
+			3
+		}
+		victory_points = {
+			2451
+			2
+		}
+		victory_points = {
+			9644
+			5
+		}
+		victory_points = {
+			14643
+			20
+		}
+		victory_points = {
+			8486
+			10
+		}
+	}
+	provinces = {
+		20532
+		236
+		375
+		1187
+		8532
+		14082
+		14130
+		8643
+		9311
+		14035
+		14277
+		822
+		8784
+		396
+		14476
+		20531
+		14528
+		20488
+		2451
+		14135
+		5065
+		6032
+		9644
+		14215
+		14247
+		14339
+		19862
+		19863
+		14353
+		14381
+		3059
+		14582
+		14643
+		16400
+		17972
+		1407
+		20533
+		8486
+		16653
+		19861
+		21659
+	}
+	manpower = 1131305
+	state_category = enclave
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

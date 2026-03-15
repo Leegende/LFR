@@ -1,0 +1,127 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+15350;15368;sea;16316;-1;-1;-1;-1;;Strait of Messina crossing
+15363;4722;sea;17685;-1;-1;-1;-1;;Strait of Bonifacio crossing
+14733;19880;sea;17137;-1;-1;-1;-1;;Piombino-Elba
+13624;20008;sea;17829;-1;-1;-1;-1;;Ischia-Naples
+14357;20127;sea;16880;-1;-1;-1;-1;;Istria-Cherso
+20126;20127;sea;16992;-1;-1;-1;-1;;Krk-Cherso
+20126;2438;sea;16992;-1;-1;-1;-1;;Krk-Croatia
+19229;19228;sea;16857;-1;-1;-1;-1;;Šolta-Šibenik
+20140;19228;sea;16857;-1;-1;-1;-1;;Šolta-Brač
+20140;20133;sea;16857;-1;-1;-1;-1;;Cetina-Brač
+8810;19457;sea;18361;-1;-1;-1;-1;;Isle of Wight
+19879;20661;sea;16134;-1;-1;-1;-1;;BorkumGermany
+4251;19871;sea;16785;-1;-1;-1;-1;;Zeeland 2
+4251;19871;sea;16785;-1;-1;-1;-1;;Zeeland 3
+19854;19870;sea;16785;-1;-1;-1;-1;;Zeeland 5
+19873;19871;sea;16785;-1;-1;-1;-1;;Zeeland 6
+19872;19871;sea;16785;-1;-1;-1;-1;;Zeeland 7
+19901;11445;sea;17256;-1;-1;-1;-1;;Afsluitdijk
+4251;19872;sea;16785;-1;-1;-1;-1;;Zeeland 10
+11951;19872;sea;16785;-1;-1;-1;-1;;South Holland Island 1
+19416;2352;sea;17946;-1;-1;-1;-1;;Anglesey
+6618;19872;sea;16785;-1;-1;-1;-1;;South Holland Island 4
+19895;19872;sea;17639;-1;-1;-1;-1;;South Holland Island 5
+19874;8961;sea;17256;-1;-1;-1;-1;;Netherlands islands 0
+19874;19875;sea;17256;-1;-1;-1;-1;;Netherlands islands 1
+19876;19875;sea;17256;-1;-1;-1;-1;;Netherlands islands 2
+19876;19877;sea;16080;-1;-1;-1;-1;;Netherlands islands 3
+6763;19877;sea;17819;-1;-1;-1;-1;;Netherlands islands 4
+6763;19878;sea;17819;-1;-1;-1;-1;;Netherlands islands 5
+19900;19879;sea;17819;-1;-1;-1;-1;;Netherlands islands 6
+8755;19642;sea;17967;-1;-1;-1;-1;;West Jutland Isles 1
+19643;19642;sea;17967;-1;-1;-1;-1;;West Jutland Isles 2
+19643;10671;sea;17967;-1;-1;-1;-1;;West Jutland Isles 3
+10305;19489;sea;17905;-1;-1;-1;-1;;Hjorring Isle
+7574;19621;sea;16889;-1;-1;-1;-1;;Odense Isle 1
+4072;19620;sea;16220;-1;-1;-1;-1;;Odense Isle 2
+8625;10650;sea;16809;-1;-1;-1;-1;;Odense-Sjaelland 1
+7574;9674;sea;16809;-1;-1;-1;-1;;Odense-Sjaelland 2
+4745;19625;sea;16809;-1;-1;-1;-1;;Sjaelland-Maribo
+19624;19625;sea;16809;-1;-1;-1;-1;;Maribo Isle
+19450;19463;sea;17957;-1;-1;-1;-1;;Norway Islands 1
+19458;3231;sea;17290;-1;-1;-1;-1;;Norway Islands 4
+19466;9521;sea;16420;-1;-1;-1;-1;;Norway Islands 6
+2263;19464;sea;16334;-1;-1;-1;-1;;Norway Islands 8
+19467;19468;sea;16334;-1;-1;-1;-1;;Norway Islands 33
+
+
+
+5084;19653;sea;17255;-1;-1;-1;-1;;Finland Islands 1
+19665;19652;sea;17782;-1;-1;-1;-1;;Finland Islands 2
+19656;19663;sea;16755;-1;-1;-1;-1;;Finland Islands 3
+19656;19655;sea;16810;-1;-1;-1;-1;;Finland Islands 4
+19654;19655;sea;16810;-1;-1;-1;-1;;Finland Islands 5
+9672;19985;sea;17665;-1;-1;-1;-1;;Laane-Saaremaa
+19990;19985;sea;17665;-1;-1;-1;-1;;Saaremaa
+4973;19983;sea;17719;-1;-1;-1;-1;;Laane-Hiiumaa
+19984;19983;sea;17665;-1;-1;-1;-1;;Hiiumaa
+19982;19991;sea;16523;-1;-1;-1;-1;;Hiiumaa-Saaremaa
+18199;19935;sea;16520;-1;-1;-1;-1;;Klaipedos
+3541;19936;sea;17171;-1;-1;-1;-1;;Danzig Bay
+10957;19658;sea;16684;-1;-1;-1;-1;;Stralsund-Rugen
+5363;19647;sea;16046;-1;-1;-1;-1;;Kiel Island
+10830;19645;sea;17502;-1;-1;-1;-1;;Eiderstadt 1
+4894;19646;sea;17502;-1;-1;-1;-1;;Eiderstadt 2
+10830;19644;sea;17502;-1;-1;-1;-1;;Eiderstadt 3
+20128;14458;sea;16992;-1;-1;-1;-1;;Rab-Iablanaz
+20134;2213;sea;16992;-1;-1;-1;-1;;Pag Bridge
+14584;20135;sea;16992;-1;-1;-1;-1;;Ugljan-Zara
+7255;20136;sea;16857;-1;-1;-1;-1;;Morter Bridge
+20137;7536;sea;16857;-1;-1;-1;-1;;Sibenik Islands
+20140;20139;sea;16683;-1;-1;-1;-1;;Brac-Hvar
+20141;20139;sea;16683;-1;-1;-1;-1;;Vis-Hvar
+20147;20138;sea;16538;-1;-1;-1;-1;;Orebic-Korcula
+20142;20147;sea;16538;-1;-1;-1;-1;;Mljet-Dubrovnik
+20535;20536;sea;17521;-1;-1;-1;-1;;Malta-Gozo
+20249;7957;sea;17342;-1;-1;-1;-1;;Corfu-Sarande
+20249;20280;sea;17342;-1;-1;-1;-1;;Corfu-Igoumenitsa
+20361;20283;sea;17033;-1;-1;-1;-1;;Lefkada-Kefalonia
+20284;20283;sea;17060;-1;-1;-1;-1;;Zakynthos-Kefalonia
+20284;20262;sea;17060;-1;-1;-1;-1;;Zakynthos-Elis
+4235;20282;sea;18466;-1;-1;-1;-1;;Kythira-Laconia
+15036;20286;sea;17572;-1;-1;-1;-1;;Thracian island
+9496;20313;sea;16577;-1;-1;-1;-1;;Thessalian islands 1
+20314;20313;sea;16577;-1;-1;-1;-1;;Thessalian islands 2
+20314;20315;sea;16577;-1;-1;-1;-1;;Thessalian islands 3
+15351;20298;sea;18449;-1;-1;-1;-1;;Euboea-Kyklades
+20299;20298;sea;16799;-1;-1;-1;-1;;Kyklades 1
+20299;20307;sea;16799;-1;-1;-1;-1;;Kyklades 2
+20299;20300;sea;16799;-1;-1;-1;-1;;Kyklades 3
+3130;20306;sea;16888;-1;-1;-1;-1;;Attica-Kyklades
+20305;20306;sea;16888;-1;-1;-1;-1;;Kyklades 4
+20305;20304;sea;16888;-1;-1;-1;-1;;Kyklades 5
+20303;20304;sea;18458;-1;-1;-1;-1;;Kyklades 6
+20300;20301;sea;16799;-1;-1;-1;-1;;Kyklades 7
+20302;20301;sea;18458;-1;-1;-1;-1;;Kyklades 8
+20311;20301;sea;18458;-1;-1;-1;-1;;Kyklades 9
+19804;20538;sea;16233;-1;-1;-1;-1;;Ibiza-Formentera
+14346;641;sea;16302;-1;-1;-1;-1;;Krym
+312;641;sea;16302;-1;-1;-1;-1;;Krym
+3436;15879;sea;16302;-1;-1;-1;-1;;Krym
+14325;4075;sea;16440;-1;-1;-1;-1;;Krym
+10636;7073;sea;17860;-1;-1;-1;-1;;Odense-Vejle
+6240;7789;sea;17860;-1;-1;-1;-1;;Odense-Haderslev
+19109;15141;sea;16926;-1;-1;-1;-1;;Sazan-Albania
+20295;20296;sea;16439;-1;-1;-1;-1;;Samos 1-Samos 2
+19405;19408;sea;16263;-1;-1;-1;-1;;Faero 1
+19405;19407;sea;17794;-1;-1;-1;-1;;Faero 2
+19406;19407;sea;17794;-1;-1;-1;-1;;Faero 3
+19403;19404;sea;17501;-1;-1;-1;-1;;Zetland
+10326;19452;sea;16246;-1;-1;-1;-1;;Inverness 1
+10314;10326;sea;16246;-1;-1;-1;-1;;Inverness 2
+10314;19452;sea;16246;-1;-1;-1;-1;;Inverness 3
+4850;10283;sea;17386;-1;-1;-1;-1;;Inverness 4
+4850;19455;sea;18327;-1;-1;-1;-1;;Inverness 5
+3764;19454;sea;18327;-1;-1;-1;-1;;Arcyll 1
+4063;10420;sea;18338;-1;-1;-1;-1;;Arcyll 2
+10645;19399;sea;17891;-1;-1;-1;-1;;Bute 1
+19659;5868;sea;16684;-1;-1;-1;-1;;Greifswald 1
+19659;20559;sea;16684;-1;-1;-1;-1;;Greifswald 2
+19659;768;sea;16684;-1;-1;-1;-1;;Greifswald 3
+19660;11027;sea;17981;-1;-1;-1;-1;;Wolin 1
+19660;20563;sea;17981;-1;-1;-1;-1;;Wolin 2
+19160;19165;sea;18500;-1;-1;-1;-1;;Al-Sabiyyah Channel
+7148;19383;sea;18108;-1;-1;-1;-1;;Northumberland Strait
+3033;19386;sea;16391;-1;-1;-1;-1;;Northampton
+-1;-1;;-1;-1;-1;-1;-1;-1

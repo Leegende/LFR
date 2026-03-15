@@ -1,0 +1,240 @@
+state = {
+	id = 57
+	name = "STATE_57"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			20903
+			5
+		}
+		victory_points = {
+			20899
+			2
+		}
+		victory_points = {
+			20895
+			5
+		}
+		victory_points = {
+			20896
+			2
+		}
+		victory_points = {
+			15715
+			5
+		}
+		victory_points = {
+			7967
+			5
+		}
+		victory_points = {
+			20878
+			2
+		}
+		victory_points = {
+			20885
+			80
+		}
+		victory_points = {
+			1012
+			10
+		}
+		victory_points = {
+			20897
+			2
+		}
+		victory_points = {
+			20905
+			2
+		}
+		victory_points = {
+			7813
+			10
+		}
+		victory_points = {
+			20890
+			20
+		}
+		victory_points = {
+			15673
+			40
+		}
+		victory_points = {
+			15900
+			2
+		}
+		victory_points = {
+			2333
+			10
+		}
+		victory_points = {
+			15746
+			2
+		}
+		victory_points = {
+			20879
+			20
+		}
+		victory_points = {
+			15717
+			5
+		}
+		victory_points = {
+			15736
+			5
+		}
+		victory_points = {
+			681
+			2
+		}
+		victory_points = {
+			15682
+			5
+		}
+		victory_points = {
+			1572
+			20
+		}
+		victory_points = {
+			633
+			2
+		}
+		victory_points = {
+			15681
+			2
+		}
+		victory_points = {
+			15679
+			20
+		}
+	}
+	provinces = {
+		1860
+		3143
+		20886
+		1403
+		1871
+		8172
+		15638
+		15644
+		20899
+		20903
+		20904
+		3271
+		3558
+		4981
+		15647
+		15650
+		15668
+		15684
+		20895
+		20896
+		2879
+		3037
+		4481
+		5708
+		15707
+		15715
+		15719
+		840
+		7967
+		20882
+		20883
+		6423
+		6565
+		15740
+		15759
+		5670
+		9576
+		15751
+		20880
+		20931
+		525
+		5917
+		20876
+		20878
+		5387
+		7643
+		7697
+		4010
+		5530
+		20873
+		15690
+		20929
+		6804
+		20885
+		20928
+		20887
+		1012
+		6781
+		20894
+		20897
+		20898
+		1917
+		2742
+		15665
+		20901
+		6320
+		15641
+		20900
+		20905
+		20914
+		5756
+		7813
+		1203
+		5724
+		7235
+		20889
+		20890
+		15673
+		135
+		973
+		2233
+		4647
+		9424
+		15721
+		15900
+		1775
+		2333
+		3804
+		15746
+		15749
+		2120
+		20879
+		7567
+		7905
+		15717
+		20930
+		340
+		681
+		1713
+		2114
+		15736
+		4617
+		5969
+		6765
+		15682
+		20888
+		20891
+		1677
+		6127
+		7870
+		1572
+		20892
+		633
+		3121
+		2800
+		15681
+		20893
+		15674
+		15679
+	}
+	manpower = 4060248
+	state_category = rural
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

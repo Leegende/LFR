@@ -1,0 +1,53 @@
+
+state = {
+id = 83
+	name = "STATE_83"
+	provinces = {
+		3198
+		7404
+		10502
+		10521
+		10531
+		19957
+		19958
+		7260
+		10547
+		10562
+		10602
+		2814
+		2919
+		5598
+		10641
+		2367
+		3158
+		4500
+		5090
+		5213
+		9302
+		10609
+		10631
+		17057
+		5591
+		5648
+		10719
+		16548
+		17885
+		19955
+		17663
+		18172
+	}
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}
+

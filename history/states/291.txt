@@ -1,0 +1,33 @@
+state = {
+	id = 291
+	name = "STATE_291"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			5380
+			2
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+		}
+	}
+	provinces = {
+		89
+		891
+		3766
+		4208
+		5380
+		7529
+		7885
+		13898
+		13944
+		13952
+		13962
+	}
+	manpower = 153456
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

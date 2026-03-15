@@ -1,0 +1,459 @@
+sub_units = {
+
+	@at_need = 20
+	amtrac_anti_tank = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = mobile
+		categories = {
+			category_amtrac
+			category_anti_tank
+			category_infantry
+		}
+		affects_speed = yes
+		transport = amtrac_td_equipment
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			amtrac_td_equipment
+		}
+		need = {
+			amtrac_td_equipment = @at_need
+		}
+	}
+	anti_tank = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = artillery
+		categories = {
+			category_medium
+			category_anti_tank
+		}
+		affects_speed = yes
+		transport = anti_tank_archetype
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			anti_tank_archetype
+		}
+		need = {
+			anti_tank_archetype = @at_need
+		}
+	}
+	heavy_anti_tank = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = artillery
+		categories = {
+			category_heavy
+			category_anti_tank
+		}
+		affects_speed = yes
+		transport = heavy_anti_tank_archetype
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			heavy_anti_tank_archetype
+		}
+		need = {
+			heavy_anti_tank_archetype = @at_need
+		}
+	}
+	heavy_tank_amphibious_destroyer_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		type = {
+			armor
+			anti_tank
+		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_armor
+			category_amphibious_armor_destroyer
+			category_heavy_tank
+			category_ss
+		}
+		affects_speed = yes
+		transport = heavy_tank_amphibious_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_amphibious_destroyer_chassis
+		}
+		need = {
+			heavy_tank_amphibious_destroyer_chassis = @at_need
+		}
+	}
+	heavy_tank_amphibious_destroyer = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_armor
+			category_amphibious_armor_destroyer
+			category_heavy_tank
+		}
+		affects_speed = yes
+		transport = heavy_tank_amphibious_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_amphibious_destroyer_chassis
+		}
+		need = {
+			heavy_tank_amphibious_destroyer_chassis = @at_need
+		}
+	}
+	heavy_tank_destroyer = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_heavy_tank
+		}
+		affects_speed = yes
+		transport = heavy_tank_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_destroyer_chassis
+		}
+		need = {
+			heavy_tank_destroyer_chassis = @at_need
+		}
+	}
+	heavy_tank_destroyer_ss = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_heavy_tank
+			category_ss
+		}
+		affects_speed = yes
+		transport = heavy_tank_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			heavy_tank_destroyer_chassis
+		}
+		need = {
+			heavy_tank_destroyer_chassis = @at_need
+		}
+	}
+	light_tank_destroyer = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_light_tank
+		}
+		affects_speed = yes
+		transport = light_tank_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			light_tank_destroyer_chassis
+		}
+		need = {
+			light_tank_destroyer_chassis = @at_need
+		}
+	}
+	light_tank_amphibious_destroyer = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			anti_tank
+			armor
+		}
+		categories = {
+			category_armor
+			category_amphibious_armor_destroyer
+			category_light_tank
+		}
+		group = amphibious_armor
+		affects_speed = yes
+		transport = light_tank_amphibious_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			light_tank_amphibious_destroyer_chassis
+		}
+		need = {
+			light_tank_amphibious_destroyer_chassis = @at_need
+		}
+	}
+	mechanised_anti_tank = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			mechanized
+		}
+		group = mobile
+		categories = {
+			category_anti_tank
+			category_mechanised
+		}
+		transport = mechanised_td_equipment
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			mechanised_td_equipment
+		}
+		need = {
+			mechanised_td_equipment = @at_need
+		}
+	}
+	medium_tank_amphibious_destroyer = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			anti_tank
+			armor
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_amphibious_armor_destroyer
+			category_medium_tank
+		}
+		transport = medium_tank_amphibious_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			medium_tank_amphibious_destroyer_chassis
+		}
+		need = {
+			medium_tank_amphibious_destroyer_chassis = @at_need
+		}
+	}
+	medium_tank_destroyer = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_medium_tank
+		}
+		transport = medium_tank_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			medium_tank_destroyer_chassis
+		}
+		need = {
+			medium_tank_destroyer_chassis = @at_need
+		}
+	}
+	modern_tank_amphibious_destroyer = {
+		sprite = modern_tank
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_armor
+			category_amphibious_armor_destroyer
+			category_modern_tank
+		}
+		transport = modern_tank_amphibious_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			modern_tank_amphibious_destroyer_chassis
+		}
+		need = {
+			modern_tank_amphibious_destroyer_chassis = @at_need
+		}
+	}
+	modern_tank_destroyer = {
+		sprite = modern_armor
+		map_icon_category = armored
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			armor
+			anti_tank
+		}
+		group = armor
+		categories = {
+			category_armor
+			category_armor_destroyer
+			category_modern_tank
+		}
+		transport = modern_tank_destroyer_chassis
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			modern_tank_destroyer_chassis
+		}
+		need = {
+			modern_tank_destroyer_chassis = @at_need
+		}
+	}
+	pack_anti_tank = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = yes
+		type = {
+			anti_tank
+		}
+		group = artillery
+		categories = {
+			category_pack
+			category_anti_tank
+		}
+		transport = pack_anti_tank_archetype
+		combat_width = 2
+		training_time = 100
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0
+		manpower = 500
+		supply_consumption = 0.1
+		essential = {
+			pack_anti_tank_archetype
+		}
+		need = {
+			pack_anti_tank_archetype = @at_need
+		}
+	}
+}

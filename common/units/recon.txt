@@ -1,0 +1,319 @@
+sub_units = {
+	recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = support_equipment
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+		same_support_type = recon
+	}
+	rangers = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = yes
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		transport = support_equipment
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+		same_support_type = recon
+	}
+	motorised_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+			motorised_equipment
+		}
+		need = {
+			motorised_equipment = 20
+			support_equipment = 20
+		}
+		same_support_type = recon
+	}
+	armored_car_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_armor_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = armored_car_archetype
+		essential = {
+			support_equipment
+			armored_car_archetype
+		}
+		need = {
+			motorised_equipment = 20
+			armored_car_archetype = 20
+		}
+		same_support_type = recon
+	}
+	light_tank_recon = {
+		sprite = light_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			armor
+		}
+		group = support
+		categories = {
+			category_armor_support_company
+			category_recon_company
+			category_light_tank
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = light_tank_chassis
+		essential = {
+			support_equipment
+			light_tank_chassis
+		}
+		need = {
+			motorised_equipment = 20
+			light_tank_chassis = 20
+		}
+		same_support_type = recon
+	}
+	light_tank_amphibious_recon = {
+		sprite = light_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+			armor
+		}
+		group = support
+		categories = {
+			category_amphibious_armor_support_company
+			category_recon_company
+			category_light_tank
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = light_tank_amphibious_chassis
+		essential = {
+			support_equipment
+			light_tank_amphibious_chassis
+		}
+		need = {
+			motorised_equipment = 20
+			light_tank_amphibious_chassis = 20
+		}
+		same_support_type = recon
+	}
+	ranger_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = support_equipment
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+		same_support_type = recon
+	}
+	mechanised_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_mechanised_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = mechanised_equipment
+		essential = {
+			support_equipment
+			mechanised_equipment
+		}
+		need = {
+			support_equipment = 20
+			mechanised_equipment = 20
+		}
+		same_support_type = recon
+	}
+	amtrac_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_amtrac_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = amtrac_equipment
+		essential = {
+			support_equipment
+			amtrac_equipment
+		}
+		need = {
+			support_equipment = 20
+			amtrac_equipment = 20
+		}
+		same_support_type = recon
+	}
+	helicopter_recon = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_helicopter_support_company
+			category_recon_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = yes
+		training_time = 100
+		transport = helicopter_archetype
+		essential = {
+			support_equipment
+			helicopter_archetype
+		}
+		need = {
+			support_equipment = 20
+			helicopter_archetype = 20
+		}
+		same_support_type = recon
+	}
+}

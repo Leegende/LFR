@@ -1,0 +1,235 @@
+equipments = {
+	pack_artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	pack_artillery_equipment_1 = {
+		archetype = pack_artillery_equipment
+		reliability = 0.8
+		defense = 10
+		breakthrough = 4
+		hardness = 0
+		armor_value = 0
+		soft_attack = 20
+		hard_attack = 2
+		ap_attack = 7
+		air_attack = 0
+		build_cost_ic = 3.5
+	}
+	pack_artillery_equipment_2 = {
+		archetype = pack_artillery_equipment
+		parent = pack_artillery_equipment_1
+		reliability = 0.825
+		defense = 14
+		breakthrough = 8
+		hardness = 0
+		armor_value = 0
+		soft_attack = 30
+		hard_attack = 5
+		ap_attack = 12
+		air_attack = 0
+		build_cost_ic = 5
+	}
+	pack_artillery_equipment_3 = {
+		archetype = pack_artillery_equipment
+		parent = pack_artillery_equipment_2
+		reliability = 0.75
+		defense = 18
+		breakthrough = 10
+		hardness = 0
+		armor_value = 0
+		soft_attack = 38
+		hard_attack = 10
+		ap_attack = 20
+		air_attack = 0
+		build_cost_ic = 7
+	}
+	artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	artillery_equipment_1 = {
+		archetype = artillery_equipment
+		reliability = 0.7
+		defense = 15
+		breakthrough = 6
+		hardness = 0
+		armor_value = 0
+		soft_attack = 25
+		hard_attack = 5
+		ap_attack = 5
+		air_attack = 0
+		build_cost_ic = 4.25
+	}
+	artillery_equipment_2 = {
+		archetype = artillery_equipment
+		parent = artillery_equipment_1
+		reliability = 0.75
+		defense = 20
+		breakthrough = 10
+		hardness = 0
+		armor_value = 0
+		soft_attack = 37
+		hard_attack = 8
+		ap_attack = 10
+		air_attack = 0
+		build_cost_ic = 6
+	}
+	artillery_equipment_3 = {
+		archetype = artillery_equipment
+		parent = artillery_equipment_2
+		reliability = 0.68
+		defense = 25
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+		soft_attack = 42.5
+		hard_attack = 10
+		ap_attack = 15
+		air_attack = 0
+		build_cost_ic = 8
+	}
+	heavy_artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	heavy_artillery_equipment_1 = {
+		archetype = heavy_artillery_equipment
+		reliability = 0.8
+		defense = 20
+		breakthrough = 10
+		hardness = 0
+		armor_value = 0
+		soft_attack = 35
+		hard_attack = 12.5
+		ap_attack = 20
+		air_attack = 0
+		build_cost_ic = 10
+	}
+	heavy_artillery_equipment_2 = {
+		archetype = heavy_artillery_equipment
+		parent = heavy_artillery_equipment_1
+		reliability = 0.85
+		defense = 30
+		breakthrough = 15
+		hardness = 0
+		armor_value = 0
+		soft_attack = 45
+		hard_attack = 20
+		ap_attack = 30
+		air_attack = 0
+		build_cost_ic = 14
+	}
+	heavy_artillery_equipment_3 = {
+		archetype = heavy_artillery_equipment
+		parent = heavy_artillery_equipment_2
+		reliability = 0.75
+		defense = 35
+		breakthrough = 20
+		hardness = 0
+		armor_value = 0
+		soft_attack = 55
+		hard_attack = 27.5
+		ap_attack = 35
+		air_attack = 0
+		build_cost_ic = 19
+	}
+	super_heavy_artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	super_heavy_artillery_equipment_1 = {
+		archetype = super_heavy_artillery_equipment
+		reliability = 0.8
+		defense = 40
+		breakthrough = 25
+		hardness = 0
+		armor_value = 0
+		soft_attack = 60
+		hard_attack = 30
+		ap_attack = 40
+		air_attack = 0
+		build_cost_ic = 35
+	}
+	super_heavy_self_propelled_artillery = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	super_heavy_self_propelled_artillery_1 = {
+		archetype = super_heavy_artillery_equipment
+	}
+	rocket_artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	rocket_artillery_equipment_1 = {
+		archetype = rocket_artillery_equipment
+	}
+	motorised_rocket_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment
+		type = {
+			artillery
+			motorized
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+	}
+	motorised_rocket_equipment_1 = {
+		archetype = motorised_rocket_equipment
+		reliability = 0.75
+		defense = 30
+		breakthrough = 40
+		hardness = 0.1
+		armor_value = 25
+		soft_attack = 60
+		hard_attack = 40
+		ap_attack = 50
+		air_attack = 0
+		build_cost_ic = 20
+		fuel_consumption = 10
+	}
+}

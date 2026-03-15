@@ -1,0 +1,879 @@
+technologies = {
+	##########
+	@light_arty_left = -10
+	@light_arty_center = -8
+	@light_arty_right = -6
+	##################
+	@medium_arty_left = -2
+	@medium_arty_center = 0
+	@medium_arty_right = 2
+	###################
+	@heavy_arty_left = 6
+	@heavy_arty_center = 8
+	@heavy_arty_right = 10
+	##################
+	@1936 = 0
+	@1937 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	##################
+	juggle3 = {
+		research_cost = 0
+		folder = {
+			name = artillery_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		custom_modifier_tooltip = juggle3_gain
+		on_research_complete = {
+			set_technology = {
+				juggle3 = 0
+			}
+		}
+	}
+	basic_artillery = {
+		enable_equipments = {
+			anti_air_equipment_1
+			pack_anti_air_equipment_1
+			heavy_anti_air_equipment_1
+		}
+		path = {
+			leads_to_tech = light_artillery_upgrade
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medium_artillery_upgrade
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_artillery_upgrade
+			research_cost_coeff = 1
+		}
+		research_cost = 0
+		start_year = 1936
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @1936
+				y = @medium_arty_center
+			}
+		}
+		categories = {
+			artillery_category
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	light_artillery_upgrade = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
+		path = {
+			leads_to_tech = light_artillery
+		}
+		path = {
+			leads_to_tech = light_anti_tank
+		}
+		path = {
+			leads_to_tech = light_artillery_upgrade1
+		}
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_center
+				y = @1937
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	light_artillery = {
+		research_cost = 1.5
+		start_year = 1939
+		enable_equipments = {
+			pack_artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			small_soft_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_left
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			artillery
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	light_anti_tank = {
+		research_cost = 1.5
+		start_year = 1939
+		enable_equipments = {
+			pack_anti_tank_equipment_1
+		}
+		enable_equipment_modules = {
+			small_hard_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_right
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			antitank
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	light_artillery_upgrade1 = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
+		path = {
+			leads_to_tech = light_artillery1
+		}
+		path = {
+			leads_to_tech = light_anti_tank1
+		}
+		path = {
+			leads_to_tech = light_artillery_upgrade2
+		}
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_center
+				y = @1939
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+	}
+	light_artillery1 = {
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1941
+		enable_equipments = {
+			pack_artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			small_soft_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_left
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			artillery
+		}
+	}
+	light_anti_tank1 = {
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1941
+		enable_equipments = {
+			pack_anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			small_hard_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_right
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			antitank
+		}
+	}
+	light_artillery_upgrade2 = {
+		pack_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_pack = {
+			soft_attack = 0.05
+			mountain = {
+				attack = 0.025
+			}
+			hills = {
+				attack = 0.025
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = light_artillery2
+		}
+		path = {
+			leads_to_tech = light_anti_tank2
+		}
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_center
+				y = @1941
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+		}
+	}
+	light_artillery2 = {
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1943
+		enable_equipments = {
+			pack_artillery_equipment_3
+		}
+		enable_equipment_modules = {
+			small_soft_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_left
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			artillery
+		}
+	}
+	light_anti_tank2 = {
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1943
+		enable_equipments = {
+			pack_anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			small_hard_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @light_arty_right
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_light
+			antitank
+		}
+	}
+	medium_artillery_upgrade = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = medium_artillery
+		}
+		path = {
+			leads_to_tech = medium_anti_tank
+		}
+		path = {
+			leads_to_tech = medium_artillery_upgrade1
+		}
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_center
+				y = @1937
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+		}
+	}
+	medium_artillery = {
+		ai_will_do = {
+			base = -9999999
+		}
+		research_cost = 1.5
+		start_year = 1939
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			medium_soft_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_left
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			artillery
+		}
+	}
+	medium_anti_tank = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1939
+		enable_equipments = {
+			anti_tank_equipment_1
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_right
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			antitank
+		}
+	}
+	medium_artillery_upgrade1 = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = medium_artillery1
+		}
+		path = {
+			leads_to_tech = medium_anti_tank1
+		}
+		path = {
+			leads_to_tech = medium_artillery_upgrade2
+		}
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_center
+				y = @1939
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+		}
+	}
+	medium_artillery1 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1941
+		enable_equipments = {
+			artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			medium_soft_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_left
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			artillery
+		}
+	}
+	medium_anti_tank1 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1941
+		enable_equipments = {
+			anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_right
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			antitank
+		}
+	}
+	medium_artillery_upgrade2 = {
+		anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_medium = {
+			soft_attack = 0.05
+			forest = {
+				attack = 0.025
+			}
+			town = {
+				attack = 0.025
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = medium_artillery2
+		}
+		path = {
+			leads_to_tech = medium_anti_tank2
+		}
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_center
+				y = @1941
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+		}
+	}
+	medium_artillery2 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1943
+		enable_equipments = {
+			artillery_equipment_3
+		}
+		enable_equipment_modules = {
+			medium_soft_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_left
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			artillery
+		}
+	}
+	medium_anti_tank2 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1943
+		enable_equipments = {
+			anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			medium_hard_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @medium_arty_right
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_medium
+			antitank
+		}
+	}
+	heavy_artillery_upgrade = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
+		path = {
+			leads_to_tech = heavy_artillery
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank
+		}
+		path = {
+			leads_to_tech = heavy_artillery_upgrade1
+		}
+		research_cost = 1
+		start_year = 1938
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_center
+				y = @1937
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+		}
+	}
+	heavy_artillery = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1939
+		enable_equipments = {
+			heavy_artillery_equipment_1
+		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_left
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			artillery
+		}
+	}
+	heavy_anti_tank = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1939
+		enable_equipments = {
+			heavy_anti_tank_equipment_1
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_1
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_right
+				y = @1938
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			antitank
+		}
+	}
+	heavy_artillery_upgrade1 = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
+		path = {
+			leads_to_tech = heavy_artillery1
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank1
+		}
+		path = {
+			leads_to_tech = heavy_artillery_upgrade2
+		}
+		research_cost = 1
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_center
+				y = @1939
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+		}
+	}
+	heavy_artillery1 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1941
+		enable_equipments = {
+			heavy_artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_left
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			artillery
+		}
+	}
+	heavy_anti_tank1 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1941
+		enable_equipments = {
+			heavy_anti_tank_equipment_2
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_2
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_right
+				y = @1940
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			antitank
+		}
+	}
+	heavy_artillery_upgrade2 = {
+		heavy_anti_air = {
+			anti_air_attack = 0.1
+		}
+		category_heavy = {
+			soft_attack = 0.05
+			urban = {
+				attack = 0.025
+			}
+			fort = {
+				attack = 0.025
+			}
+			dense_urban = {
+				attack = 0.025
+			}
+		}
+		ai_will_do = {
+			base = -9999999
+		}
+		path = {
+			leads_to_tech = heavy_artillery2
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank2
+		}
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_center
+				y = @1941
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+		}
+	}
+	heavy_artillery2 = {
+		research_cost = 1.5
+		ai_will_do = {
+			base = -9999999
+		}
+		start_year = 1943
+		enable_equipments = {
+			heavy_artillery_equipment_3
+		}
+		enable_equipment_modules = {
+			heavy_soft_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_left
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			artillery
+		}
+	}
+	heavy_anti_tank2 = {
+		research_cost = 1.5
+		start_year = 1943
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipments = {
+			heavy_anti_tank_equipment_3
+		}
+		enable_equipment_modules = {
+			heavy_hard_cannon_3
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_arty_right
+				y = @1942
+			}
+		}
+		categories = {
+			artillery_category
+			artillery_heavy
+			antitank
+		}
+	}
+}

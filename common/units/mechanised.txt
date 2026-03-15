@@ -1,0 +1,243 @@
+sub_units = {
+	mechanised = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_sturmtruppe = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_ss = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+			category_ss
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_shocktrooper = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_red_guard = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_ranger = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_mountaineer = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+	mechanised_marine = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		type = {
+			mechanized
+		}
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		transport = mechanised_equipment
+		essential = {
+			infantry_archetype
+			mechanised_equipment
+		}
+		need = {
+			infantry_archetype = 50
+			mechanised_equipment = 50
+		}
+	}
+}

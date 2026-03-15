@@ -1,0 +1,50 @@
+equipments = {
+	motorised_equipment = {
+		picture = archetype_motorised_equipment
+		is_buildable = no
+		is_archetype = yes
+		picture = archetype_motorised_equipment
+		type = {
+			motorized
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+		supply_truck = yes
+		maximum_speed = 8
+		reliability = 0.7
+		hardness = 0
+		build_cost_ic = 3
+		resources = {
+			rubber = 1
+			steel = 2
+		}
+	}
+	motorised_equipment_1 = {
+		archetype = motorised_equipment
+	}
+	motorbike_equipment = {
+		picture = archetype_motorised_equipment
+		is_buildable = no
+		is_archetype = yes
+		picture = archetype_motorised_equipment
+		type = {
+			motorized
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+		can_license = no
+		maximum_speed = 6
+		reliability = 0.7
+		hardness = 0
+		build_cost_ic = 2
+		resources = {
+			steel = 1
+		}
+	}
+	motorbike_equipment_1 = {
+		archetype = motorbike_equipment
+	}
+}

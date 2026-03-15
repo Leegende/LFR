@@ -1,0 +1,97 @@
+state = {
+	id = 330
+	name = "STATE_330"
+	provinces = {
+		11260
+		1865
+		1080
+		11304
+		11378
+		11334
+		11441
+		11315
+		3851
+		11346
+		4801
+		8032
+		11440
+		11377
+		11548
+		11477
+		11410
+		2663
+		11436
+		2638
+		18650
+		1361
+		7705
+		11104
+		11133
+		506
+		11201
+		3883
+		11270
+		11212
+		4911
+		5133
+		9425
+		11534
+		11491
+		11451
+		11392
+		8731
+		2382
+		11308
+		11393
+		11606
+		11511
+		1829
+		11519
+		11591
+		6061
+		11599
+		9033
+		11510
+		11385
+		5870
+		908
+		11379
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			11491
+			5
+		}
+		victory_points = {
+			11379
+			20
+		}
+		victory_points = {
+			11548
+			5
+		}
+		victory_points = {
+			1361
+			2
+		}
+		victory_points = {
+			18650
+			2
+		}
+		victory_points = {
+			506
+			2
+		}
+	}
+	manpower = 17452
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

@@ -1,0 +1,49 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		"CAN" = {
+			history = ""
+			ideology = democratic
+		}
+		"IRE" = {
+			history = ""
+			ideology = democratic
+		}
+		"FRA" = {
+			history = ""
+			ideology = democratic
+		}
+		"ENG" = {
+			history = ""
+			ideology = democratic
+		}
+		"SOV" = {
+			history = ""
+			ideology = communism
+		}
+		"GER" = {
+			history = ""
+			ideology = fascism
+		}
+		"ITA" = {
+			history = ""
+			ideology = fascism
+		}
+		"SPR" = {
+			history = ""
+			ideology = democratic
+		}
+		"HUN" = {
+			history = ""
+			ideology = neutrality
+		}
+		effect = {
+			randomize_weather = 12345
+		}
+	}
+}

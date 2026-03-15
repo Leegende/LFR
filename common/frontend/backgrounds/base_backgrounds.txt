@@ -1,0 +1,76 @@
+
+load_ncns_chi = {
+	dlc_allowed = "No Compromise, No Surrender"
+	locale = "simp_chinese"
+}
+
+load_ncns_jap = {
+	dlc_allowed = "No Compromise, No Surrender"
+}
+
+load_lar = {
+	dlc_allowed = "La Resistance"
+}
+load_botb = {
+	dlc_allowed = "Battle for the Bosporus"
+}
+load_nsb = {
+	dlc_allowed = "No Step Back"
+}
+load_nsb2 = {
+	dlc_allowed = "No Step Back"
+}
+
+load_bba = {
+	dlc_allowed = "By Blood Alone"
+}
+
+load_aat = {
+	dlc_allowed = "Arms Against Tyranny"
+}
+
+load_aat2 = {
+	dlc_allowed = "Arms Against Tyranny"
+}
+
+load_toa = {
+	dlc_allowed = "Trial of Allegiance"
+}
+
+load_ww = {
+	dlc_allowed = Gotterdammerung
+}
+
+load_goe = {
+	dlc_allowed =  "Graveyard of Empires" 
+}
+
+load_tfv = {
+	dlc_allowed = "Together for Victory"
+}
+
+load_dod = {
+	dlc_allowed = "Death or Dishonor"
+}
+
+load_tiger = {
+	dlc_allowed = "Waking the Tiger"
+}
+
+load_mtg = {
+	dlc_allowed = "Man the Guns"
+}
+
+load_mtg_2 = {
+	dlc_allowed = "Man the Guns"
+}
+
+load_1 = {}
+load_2 = {}
+load_3 = {}
+load_4 = {}
+load_5 = {}
+load_6 = {}
+load_7 = {}
+load_8 = {}
+load_9 = {}

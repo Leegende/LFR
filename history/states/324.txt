@@ -1,0 +1,60 @@
+state = {
+	id = 324
+	name = "STATE_324"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 8
+			arms_factory = 5
+		}
+		victory_points = {
+			11918
+			5
+		}
+		victory_points = {
+			12032
+			10
+		}
+		victory_points = {
+			11935
+			10
+		}
+		victory_points = {
+			12038
+			80
+		}
+	}
+	provinces = {
+		11872
+		11918
+		2370
+		7881
+		11864
+		11891
+		11912
+		11935
+		11954
+		11965
+		12032
+		113
+		5813
+		11919
+		12038
+		12117
+		12156
+		12008
+		12031
+		12199
+		4687
+		4569
+		2445
+		3966
+		8946
+	}
+	manpower = 52699606
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = megalopolis
+}
