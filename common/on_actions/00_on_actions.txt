@@ -9,26 +9,69 @@ on_actions = {
 		effect = {
 			if = {
 				limit = { NOT = { has_variable = level_one_days } }
-				set_variable = { level_one_days = 30 }
-				set_variable = { level_two_days = 30 }
-				set_variable = { level_three_days = 30 }
-				set_variable = { level_four_days = 30 }
+				set_variable = { level_one_days = 90 }
+				set_variable = { level_two_days = 90 }
+				set_variable = { level_three_days = 90 }
+				set_variable = { level_four_days = 90 }
 			}
 
+			# Ensure appointment variables exist so focus checks do not fail
 			if = {
-				limit = { has_completed_focus = GER_appoint_sepp_dietrich }
+				limit = { NOT = { has_variable = GER_appointment_remaining_days } }
+				set_variable = { GER_appointment_remaining_days = 0 }
+			}
+			if = {
+				limit = { NOT = { has_variable = GER_appointed_generals } }
+				set_variable = { GER_appointed_generals = 0 }
+			}
+
+			# Count appointed generals for the max 3 cap
+			set_variable = { GER_appointed_generals = 0 }
+			if = { limit = { has_country_flag = GER_dietrich_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_guderian_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_model_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_kluge_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_student_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_kesselring_selected } add_to_variable = { GER_appointed_generals = 1 } }
+			if = { limit = { has_country_flag = GER_milch_selected } add_to_variable = { GER_appointed_generals = 1 } }
+
+			# Appointment cooldown and available slot logic
+			if = {
+				limit = { has_country_flag = GER_general_appointment_pending }
 				if = {
-					limit = { NOT = { has_variable = GER_dietrich_days } }
-					set_variable = { GER_dietrich_days = 0 }
+					limit = { NOT = { has_variable = GER_appointment_remaining_days } }
+					set_variable = { GER_appointment_remaining_days = 90 }
 				}
-				if = {
-					limit = { 
-						OR = { 
-							has_country_flag = GER_dietrich_1 has_country_flag = GER_dietrich_2 
-							has_country_flag = GER_dietrich_3 has_country_flag = GER_dietrich_4 
-						}
+				add_to_variable = { GER_appointment_remaining_days = -1 }
+				if = { limit = { check_variable = { GER_appointment_remaining_days < 1 } }
+					clr_country_flag = GER_general_appointment_pending
+					set_country_flag = GER_general_appointment_available
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { GER_appointment_remaining_days < 1 }
+					check_variable = { GER_appointed_generals < 3 }
+				}
+				clr_country_flag = GER_general_appointment_pending
+				set_country_flag = GER_general_appointment_available
+			}
+			if = {
+				limit = { check_variable = { GER_appointed_generals >= 3 } }
+				clr_country_flag = GER_general_appointment_available
+				clr_country_flag = GER_general_appointment_pending
+				set_variable = { GER_appointment_remaining_days = 0 }
+			}
+		if = {
+			limit = { has_completed_focus = GER_appoint_sepp_dietrich }
+			if = {
+				limit = { 
+					OR = { 
+						has_country_flag = GER_dietrich_1 has_country_flag = GER_dietrich_2 
+						has_country_flag = GER_dietrich_3 has_country_flag = GER_dietrich_4 
 					}
-					add_to_variable = { GER_dietrich_days = 1 }
+				}
+				add_to_variable = { GER_dietrich_days = 1 }
 					
 					if = {
 						limit = { has_country_flag = GER_dietrich_1 check_variable = { GER_dietrich_days > level_one_days } }
@@ -163,7 +206,7 @@ on_actions = {
 			}
 
 			if = {
-				limit = { has_completed_focus = GER_appoint_günther_von_kluge }
+				limit = { has_completed_focus = GER_appoint_guenther_von_kluge }
 				if = {
 					limit = { NOT = { has_variable = GER_kluge_days } }
 					set_variable = { GER_kluge_days = 0 }

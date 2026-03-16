@@ -248,9 +248,9 @@ GER = {
 		Dieser
 		Dietz
 		Ditmar
-		Döll
+		Doell
 		Dorn
-		Dörr
+		Doerr
 		Dorsch
 		Dortman
 		Driess
@@ -269,13 +269,13 @@ GER = {
 		Eisele
 		Eisenach
 		Eisenhuth
-		Eitenmüller
-		Elsässer
+		Eitenmueller
+		Elsaesser
 		Engel
 		Engelhardt
 		Erck
 		Erder
-		Eüler
+		Eueler
 		Euler
 		Eurich
 		Ewig
@@ -287,16 +287,16 @@ GER = {
 		Fendel
 		Feuerstein
 		Fischer
-		Göttmann
-		Götz
+		Goettmann
+		Goetz
 		Graf
 		Gramlich
-		Grasmück
+		Grasmueck
 		Grosch
 		Gross
 		Grún
-		Grünemeier
-		Grünwald
+		Gruenemeier
+		Gruenwald
 		Gutherich
 		Gutmann
 		Gutscher
@@ -304,7 +304,7 @@ GER = {
 		Hegele
 		Hegwald
 		Heidenreich
-		Heimbüchner
+		Heimbuechner
 		Hein
 		Heinrich
 		Heitzenreder
@@ -354,10 +354,10 @@ GER = {
 		Kloster
 		Knaus
 		Kniss
-		Knödler
+		Knoedler
 		Kober
 		Koch
-		Köhler
+		Koehler
 		Kohlmann
 		Langlitz
 		Lapp
@@ -397,14 +397,14 @@ GER = {
 		Morasch
 		Moritz
 		Morkel
-		Müller
-		Müller
-		Müller
-		Münster
-		Müntermann
+		Mueller
+		Mueller
+		Mueller
+		Muenster
+		Muentermann
 		Muth
-		Mützig
-		Näb
+		Muetzig
+		Naeb
 		Nafts
 		Nagelschmidt
 		Nazarenus
@@ -427,7 +427,7 @@ GER = {
 		Pickelhaubt
 		Pinnecker
 		Plouqet
-		Präfried
+		Praefried
 		Prasch
 		Preisendorf
 		Quindt
@@ -458,7 +458,7 @@ GER = {
 		Sack
 		Sauer
 		Sauerbrey
-		Schäfer
+		Schaefer
 		Schreieck
 		Schremser
 		Schuh
@@ -476,14 +476,14 @@ GER = {
 		Stellwagen
 		Stiehl
 		Stoll
-		Störger
+		Stoerger
 		Stork
-		Stössel
+		Stoessel
 		Streck
 		Stroh
 		Strohmann
 		Stromberger
-		Stürtz
+		Stuertz
 		Suppes
 		Thierolf
 		Traub
@@ -502,7 +502,7 @@ GER = {
 		Vogel
 		Vogler
 		Voigt
-		Völck
+		Voelck
 		Volk
 		Volz
 		Wasmuth
@@ -533,14 +533,14 @@ GER = {
 		Winkelhausen
 		Wittwanger
 		Wolff
-		Würtz
+		Wuertz
 		Zell
 		Zentner
 		Zieg
 		Ziegler
 		Zitzmann
 		Zorn
-		Zürckgiebel
+		Zuerckgiebel
 	}
 	callsigns = {
 		"Bubi"
@@ -2274,7 +2274,7 @@ FIN = {
 	}
 	surnames = {
 		Pertola
-		Törni
+		Toerni
 		Marttinen
 		Arjanen
 		Rajala
@@ -2284,7 +2284,7 @@ FIN = {
 		Korhonen
 		Nieminen
 		Laine
-		Järvinen
+		Jaervinen
 		Karhu
 		Kari
 		Markkula
@@ -2297,7 +2297,7 @@ FIN = {
 		Oksanen
 		Jaakola
 		Janhunen
-		Mäkelä
-		Mäkinen
+		Maekelae
+		Maekinen
 	}
 }

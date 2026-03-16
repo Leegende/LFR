@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = german_focus
 	country = {
 		factor = 0
@@ -422,7 +422,7 @@
 	}
 	focus = {
 		id = GER_operation_weseruebung
-		icon = GFX_weserübung
+		icon = GFX_weseruebung
 		x = 2
 		y = 1
 		cost = 1
@@ -2494,6 +2494,14 @@
 				GER_wehrmacht_experience_gain_army_factor = 0.1
 				tooltip = experience_gain_army_factor_tt
 			}
+			clr_country_flag = GER_general_appointment_pending
+			set_country_flag = GER_general_appointment_available
+			set_variable = {
+				GER_appointment_remaining_days = 0
+			}
+			set_variable = {
+				GER_appointed_generals = 0
+			}
 		}
 	}
 	focus = {
@@ -2508,7 +2516,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = yes
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_dietrich_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -2516,6 +2534,13 @@
 		completion_reward = {
 			country_event = germany.2
 			set_country_flag = GER_dietrich_1
+			set_country_flag = GER_dietrich_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+			set_variable = {
+				GER_appointment_remaining_days = 90
+			}
+			add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -2547,7 +2572,6 @@
 	focus = {
 		id = GER_bigger_means_better
 		icon = GFX_goal_unknown
-		text = "Bigger is Better"
 		x = -1
 		y = 1
 		cost = 1
@@ -2592,7 +2616,7 @@
 		}
 	}
 	focus = {
-		id = GER_ss_übermenschen
+		id = GER_ss_uebermenschen
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
@@ -2615,7 +2639,7 @@
 				panzergranate_technology = 1
 			}
 			division_template = {
-				name = "SS-Übermenschen"
+				name = "SS-uebermenschen"
 				template_counter = 8
 				is_locked = no
 				force_allow_recruiting = yes
@@ -2700,30 +2724,19 @@
 					}
 				}
 			}
-			367 = {
-				for_loop_effect = {
-					end = 6
-					create_unit = {
-						division = "division_template = "
-						SS-Übermenschen
-						" start_experience_factor = 1"
-						owner = GER
-					}
-				}
-			}
 		}
 	}
 	focus = {
 		id = GER_gehaerteter_panzerstahl
 		icon = GFX_goal_unknown
-		text = "Gehärteter Panzerstahl"
+		text = "Gehaerteter Panzerstahl"
 		x = -1
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_ss_übermenschen
+			focus = GER_ss_uebermenschen
 		}
-		relative_position_id = GER_ss_übermenschen
+		relative_position_id = GER_ss_uebermenschen
 		available = {
 			always = yes
 		}
@@ -2735,16 +2748,15 @@
 		}
 	}
 	focus = {
-		text = "Königstiger"
-		id = GER_königstiger
+		id = GER_koenigstiger
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_ss_übermenschen
+			focus = GER_ss_uebermenschen
 		}
-		relative_position_id = GER_ss_übermenschen
+		relative_position_id = GER_ss_uebermenschen
 		available = {
 			always = yes
 		}
@@ -2753,7 +2765,7 @@
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				name = GER_königstiger
+				name = GER_koenigstiger
 				bonus = 1
 				ahead_reduction = 0.5
 				uses = 1
@@ -2911,7 +2923,7 @@
 		relative_position_id = GER_appoint_sepp_dietrich
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -2941,7 +2953,7 @@
 		relative_position_id = GER_dietrich_1
 		available = {
 			set_temp_variable = {
-				level_one_days = 30
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -2971,7 +2983,7 @@
 		relative_position_id = GER_dietrich_2
 		available = {
 			set_temp_variable = {
-				level_one_days = 60
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3030,7 +3042,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_guderian_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3038,6 +3060,13 @@
 		completion_reward = {
 			country_event = germany.3
 			set_country_flag = GER_guderian_1
+			set_country_flag = GER_guderian_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+			set_variable = {
+				GER_appointment_remaining_days = 90
+			}
+			add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -3053,7 +3082,7 @@
 		relative_position_id = GER_appoint_heinz_guderian
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3083,7 +3112,7 @@
 		relative_position_id = GER_guderian_1
 		available = {
 			set_temp_variable = {
-				level_one_days = 30
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3113,7 +3142,7 @@
 		relative_position_id = GER_guderian_2
 		available = {
 			set_temp_variable = {
-				level_one_days = 60
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3340,7 +3369,7 @@
 		}
 	}
 	focus = {
-		id = GER_appoint_günther_von_kluge
+		id = GER_appoint_guenther_von_kluge
 		icon = GFX_guenther_kluge
 		text_icon = GER_inner_circle_focus_style
 		x = 0
@@ -3351,7 +3380,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_kluge_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3359,6 +3398,13 @@
 		completion_reward = {
 			country_event = germany.5
 			set_country_flag = GER_kluge_1
+			set_country_flag = GER_kluge_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+            set_variable = {
+                    GER_appointment_remaining_days = 90
+            }
+            add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -3369,17 +3415,17 @@
 		y = 1
 		cost = 107.2
 		prerequisite = {
-			focus = GER_appoint_günther_von_kluge
+			focus = GER_appoint_guenther_von_kluge
 		}
-		relative_position_id = GER_appoint_günther_von_kluge
+		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
 					localization_key = GER_inner_circle_focus_in_progress_tt
-					CHARACTER = "Günther von Kluge"
+					CHARACTER = "Guenther von Kluge"
 					FLAG_DAYS = [?GER_kluge_days]
 				}
 				always = no
@@ -3458,10 +3504,10 @@
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_appoint_günther_von_kluge
+			focus = GER_appoint_guenther_von_kluge
 			focus = GER_appoint_kurt_student
 		}
-		relative_position_id = GER_appoint_günther_von_kluge
+		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			always = yes
 		}
@@ -3479,10 +3525,10 @@
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = GER_appoint_günther_von_kluge
+			focus = GER_appoint_guenther_von_kluge
 			focus = GER_appoint_kurt_student
 		}
-		relative_position_id = GER_appoint_günther_von_kluge
+		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			always = yes
 		}
@@ -3505,7 +3551,7 @@
 		prerequisite = {
 			focus = GER_the_prussian_legacy
 		}
-		relative_position_id = GER_appoint_günther_von_kluge
+		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			always = yes
 		}
@@ -3590,7 +3636,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_student_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3598,6 +3654,13 @@
 		completion_reward = {
 			country_event = germany.6
 			set_country_flag = GER_student_1
+			set_country_flag = GER_student_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+            set_variable = {
+                    GER_appointment_remaining_days = 90
+            }
+            add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -3796,12 +3859,12 @@
 		relative_position_id = GER_appoint_kurt_student
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
 					localization_key = GER_inner_circle_focus_in_progress_tt
-					CHARACTER = "Günther von Kluge"
+					CHARACTER = "Guenther von Kluge"
 					FLAG_DAYS = [?GER_student_days]
 				}
 				always = no
@@ -3885,7 +3948,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_model_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -3893,6 +3966,13 @@
 		completion_reward = {
 			country_event = germany.4
 			set_country_flag = GER_model_1
+			set_country_flag = GER_model_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+            set_variable = {
+                    GER_appointment_remaining_days = 90
+            }
+            add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -3908,7 +3988,7 @@
 		relative_position_id = GER_appoint_walter_model
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3938,7 +4018,7 @@
 		relative_position_id = GER_model_1
 		available = {
 			set_temp_variable = {
-				level_one_days = 30
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3968,7 +4048,7 @@
 		relative_position_id = GER_model_2
 		available = {
 			set_temp_variable = {
-				level_one_days = 60
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4023,7 +4103,7 @@
 		cost = 1
 		prerequisite = {
 			focus = GER_appoint_walter_model
-			focus = GER_appoint_günther_von_kluge
+			focus = GER_appoint_guenther_von_kluge
 		}
 		relative_position_id = GER_appoint_walter_model
 		available = {
@@ -4051,7 +4131,7 @@
 		cost = 1
 		prerequisite = {
 			focus = GER_appoint_walter_model
-			focus = GER_appoint_günther_von_kluge
+			focus = GER_appoint_guenther_von_kluge
 		}
 		relative_position_id = GER_appoint_walter_model
 		available = {
@@ -4174,7 +4254,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_kesselring_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -4182,6 +4272,13 @@
 		completion_reward = {
 			country_event = germany.7
 			set_country_flag = GER_kesselring_1
+			set_country_flag = GER_kesselring_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+            set_variable = {
+                    GER_appointment_remaining_days = 90
+            }
+            add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -4197,7 +4294,7 @@
 		relative_position_id = GER_appoint_albert_kesselring
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4351,13 +4448,13 @@
 			add_ace = {
 				name = "Gerhard"
 				surname = "Barkhorn"
-				callsign = "Bärchen"
+				callsign = "Baerchen"
 				type = fighter_genius
 			}
 			add_ace = {
-				name = "Günther"
+				name = "Guenther"
 				surname = "Rall"
-				callsign = "Bär"
+				callsign = "Baer"
 				type = fighter_genius
 			}
 			add_ace = {
@@ -4394,7 +4491,7 @@
 		completion_reward = {
 			add_ace = {
 				name = "Werner"
-				surname = "Mölders"
+				surname = "Moelders"
 				callsign = "Werny"
 				type = fighter_genius
 			}
@@ -4478,7 +4575,17 @@
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			has_country_flag = GER_general_appointment_available
+			NOT = { has_country_flag = GER_general_appointment_pending }
+			check_variable = { GER_appointed_generals < 3 }
+			NOT = { has_country_flag = GER_milch_selected }
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_general_appointment_available
+					REMAINING = [?GER_appointment_remaining_days]
+				}
+				always = yes
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -4486,6 +4593,13 @@
 		completion_reward = {
 			country_event = germany.8
 			set_country_flag = GER_milch_1
+			set_country_flag = GER_milch_selected
+			clr_country_flag = GER_general_appointment_available
+			set_country_flag = GER_general_appointment_pending
+            set_variable = {
+                    GER_appointment_remaining_days = 90
+            }
+            add_to_variable = { GER_appointed_generals = 1 }
 		}
 	}
 	focus = {
@@ -4501,7 +4615,7 @@
 		relative_position_id = GER_appoint_erhard_milch
 		available = {
 			set_temp_variable = {
-				level_one_days = 35
+				level_one_days = 90
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4598,7 +4712,7 @@
 		}
 	}
 	focus = {
-		id = GER_flächenbombardement
+		id = GER_flaechenbombardement
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
@@ -4645,7 +4759,7 @@
 			focus = GER_do_217
 		}
 		prerequisite = {
-			focus = GER_flächenbombardement
+			focus = GER_flaechenbombardement
 		}
 		relative_position_id = GER_big_machines
 		available = {
@@ -4696,3 +4810,11 @@
 		}
 	}
 }
+
+
+
+
+
+
+
+

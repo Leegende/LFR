@@ -14,7 +14,7 @@
 		y = 5000
 	}
 	focus = {
-		id = ROM_maxi_bring_den_müll_raus
+		id = ROM_maxi_bring_den_muell_raus
 		icon = GFX_rhineland
 		x = 0
 		y = 0
@@ -36,9 +36,9 @@
 		icon = GFX_rhineland
 		x = 0
 		y = 1
-		relative_position_id = ROM_maxi_bring_den_müll_raus
+		relative_position_id = ROM_maxi_bring_den_muell_raus
 		prerequisite = {
-			focus = ROM_maxi_bring_den_müll_raus
+			focus = ROM_maxi_bring_den_muell_raus
 		}
 		cost = 5
 		available = {

@@ -22,8 +22,8 @@ add_ideas = {
 }
 
 
-create_faction_from_template = faction_template_comintern
-add_to_faction = SOV
+#create_faction_from_template = faction_template_comintern
+#add_to_faction = SOV
 
 
 create_country_leader = {
