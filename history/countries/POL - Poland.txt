@@ -16,3 +16,8 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+create_country_leader = {
+	name = POL_ignacy_moscicki
+	picture = GFX_portrait_POL_ignacy_moscicki
+	ideology = oligarchism
+}

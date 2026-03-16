@@ -4,3 +4,8 @@ add_ideas = {
 }
 
 set_convoys = 10
+create_country_leader = {
+	name = IRE_Éamon_de_valera
+	picture = GFX_portrait_Eamon_de_Valera
+	ideology = conservatism
+}

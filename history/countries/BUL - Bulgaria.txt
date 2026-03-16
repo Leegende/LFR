@@ -4,9 +4,7 @@ set_stability = 0.7
 set_war_support = 0.6
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1935.3.31"
-	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -14,4 +12,11 @@ set_popularities = {
 	fascism = 30
 	neutrality = 40
 	communism = 5
+}
+
+create_country_leader = {
+	name = BUL_boris_iii
+	picture = GFX_portrait_BUL_boris_iii
+	expire = "1965.1.1"
+	ideology = despotism
 }

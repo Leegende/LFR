@@ -4,3 +4,11 @@ add_ideas = {
 }
 
 set_convoys = 10
+set_politics = {
+	ruling_party = neutrality
+}
+create_country_leader = {
+	name = "Fu'ād I"
+	picture = GFX_Portrait_EGY_faud_i
+	ideology = despotism
+}

@@ -1,0 +1,11 @@
+rule_group_ideology = {
+	rules = {
+		joining_rule_no
+	}
+}
+
+INFLUENCE_SORT = {
+	rules = {
+		change_leader_rule_influence
+	}
+}

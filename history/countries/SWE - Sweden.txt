@@ -20,4 +20,8 @@ set_popularities = {
 	democratic = 100
 }
 
-
+create_country_leader = {
+	name = SWE_per_albin_hansson
+	picture = GFX_portrait_SWE_per_albin_hansson
+	ideology = socialism
+}

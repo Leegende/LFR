@@ -1,4 +1,9 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_unit_super_heavy_armor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_super_heavy_armor_icon.dds"
+		noOfFrames = 2
+	}
 	# █████  ███    ███ ████████ ██████   █████   ██████ 
 	#██   ██ ████  ████    ██    ██   ██ ██   ██ ██      
 	#███████ ██ ████ ██    ██    ██████  ███████ ██      
@@ -1077,7 +1082,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_rangers_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/recon/rangers.dds"
-	} 
+	}
 	spriteType = {
 		name = "GFX_unit_rangers_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/recon/rangers.dds"

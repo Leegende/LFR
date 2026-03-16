@@ -16,3 +16,11 @@ set_popularities = {
 }
 
 set_stability = 0.6
+set_popularities = {
+	neutrality = 100
+}
+create_country_leader = {
+	name = YUG_prince_paul
+	picture = GFX_portrait_YUG_prince_paul
+	ideology = despotism
+}

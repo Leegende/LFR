@@ -1,13 +1,11 @@
 ﻿capital = 367
-set_fuel_ratio = 0.8
+set_fuel_ratio = 1
 set_research_slots = 4
 set_convoys = 500
 set_stability = 0.76
 set_war_support = 0.3
 set_politics = {
 	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -27,4 +25,40 @@ set_technology = {
 	basic_artillery = 1
 	early_fighter = 1
 	early_bomber = 1
+	basic_medium_tank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	fighter1 = 1
+	CAS1 = 1
+	scout_plane1 = 1
+	heavy_fighter1 = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+}
+
+add_dynamic_modifier = {
+	modifier = GER_mefo_bills
+}
+
+add_dynamic_modifier = {
+	modifier = GER_failed_reform_the_okw
+}
+
+add_dynamic_modifier = {
+	modifier = GER_wehrmacht
+}
+
+create_faction_from_template = faction_template_axis
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = BUL
+add_to_faction = HUN
+add_to_faction = ROM
+add_to_faction = SPR
+add_to_faction = FIN
+
+create_country_leader = {
+	name = GER_adolf_hitler
+	picture = GFX_portrait_GER_adolf_hitler
+	ideology = nazism
 }

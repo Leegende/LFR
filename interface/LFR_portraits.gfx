@@ -1,0 +1,16 @@
+spriteTypes = {
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_big_yahu"
+		texturefile = "gfx/leaders/DMZ/animated_big_yahu.dds"
+		noOfFrames = 56
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+	}
+	spriteType = {
+		name = "GFX_Portrait_EGY_faud_i"
+		texturefile = gfx/leaders/UAC/Portrait_EGY_faud_i.dds
+	}
+
+}

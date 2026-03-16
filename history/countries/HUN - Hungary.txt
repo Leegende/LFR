@@ -23,3 +23,8 @@ set_popularities = {
 	communism = 10
 }
 
+create_country_leader = {
+	name = HUN_miklos_horthy
+	picture = GFX_Portrait_hungary_miklos_horthy
+	ideology = oligarchism
+}

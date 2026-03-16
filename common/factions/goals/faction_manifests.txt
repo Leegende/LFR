@@ -1,0 +1,38 @@
+faction_manifest_allies = {
+	name = defense_of_democracy_goal_name
+	description = defense_of_democracy_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 100
+		completed_amount_collection = collection:world_at_peace_countries
+		scale = {
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+}
+
+faction_manifest_comintern = {
+	name = containment_of_communism_goal_name
+	description = containment_of_communism_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 100
+		completed_amount_collection = collection:world_at_peace_countries
+		scale = {
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+}
+
+faction_manifest_axis = {
+	name = regional_expansionism_goal_name
+	description = regional_expansionism_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 100
+		completed_amount_collection = collection:world_at_peace_countries
+		scale = {
+			production_speed_industrial_complex_factor = 0.1
+		}
+	}
+}

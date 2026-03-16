@@ -16,3 +16,9 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+
+create_country_leader = {
+	name = NOR_johan_nygaardsvold
+	picture = GFX_portrait_Johan_Nygaardsvold
+	ideology = socialism
+}

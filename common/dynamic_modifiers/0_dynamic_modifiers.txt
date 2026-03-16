@@ -1,3 +1,29 @@
+
+
+HUN_national_mood = {
+	enable = {
+		always = yes
+	}
+	icon = GFX_idea_GER_army
+	political_advisor_cost_factor = HUN_national_mood_political_advisor_cost_factor
+	political_power_gain = HUN_national_mood_political_power_gain
+	neutrality_drift = HUN_national_mood_neutrality_drift
+	fascism_drift = HUN_national_mood_fascism_drift
+	stability_weekly = HUN_national_mood_stability_weekly
+	local_resources_factor = HUN_national_mood_local_resources_factor
+	production_speed_industrial_complex_factor = HUN_national_mood_production_speed_industrial_complex_factor
+	production_speed_infrastructure_factor = HUN_national_mood_production_speed_infrastructure_factor
+	production_speed_arms_factory_factor = HUN_national_mood_production_speed_arms_factory_factor
+	research_speed_factor = HUN_national_mood_research_speed_factor
+	production_factory_max_efficiency_factor = HUN_national_mood_production_factory_max_efficiency_factor
+	production_factory_efficiency_gain_factor = HUN_national_mood_production_factory_efficiency_gain_factor
+	production_factory_start_efficiency_factor = HUN_national_mood_production_factory_start_efficiency_factor
+	line_change_production_efficiency_factor = HUN_national_mood_line_change_production_efficiency_factor
+	industrial_capacity_factory = HUN_national_mood_industrial_capacity_factory_tt
+}
+
+
+
 GER_reichsautobahn_construct_dynamic_modifier = {
 	enable = {
 		always = yes
@@ -110,26 +136,4 @@ GER_wehrmacht = {
 	supply_factor = GER_wehrmacht_supply_factor
 	training_time_factor = GER_wehrmacht_training_time_factor
 	unit_leader_as_advisor_cp_cost_factor = GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor
-}
-
-HUN_national_mood = {
-	enable = {
-		always = yes
-	}
-	icon = GFX_idea_GER_army
-	political_advisor_cost_factor = HUN_national_mood_political_advisor_cost_factor
-	political_power_gain = HUN_national_mood_political_power_gain
-	neutrality_drift = HUN_national_mood_neutrality_drift
-	fascism_drift = HUN_national_mood_fascism_drift
-	stability_weekly = HUN_national_mood_stability_weekly
-	local_resources_factor = HUN_national_mood_local_resources_factor
-	production_speed_industrial_complex_factor = HUN_national_mood_production_speed_industrial_complex_factor
-	production_speed_infrastructure_factor = HUN_national_mood_production_speed_infrastructure_factor
-	production_speed_arms_factory_factor = HUN_national_mood_production_speed_arms_factory_factor
-	research_speed_factor = HUN_national_mood_research_speed_factor
-	production_factory_max_efficiency_factor = HUN_national_mood_production_factory_max_efficiency_factor
-	production_factory_efficiency_gain_factor = HUN_national_mood_production_factory_efficiency_gain_factor
-	production_factory_start_efficiency_factor = HUN_national_mood_production_factory_start_efficiency_factor
-	line_change_production_efficiency_factor = HUN_national_mood_line_change_production_efficiency_factor
-	industrial_capacity_factory = HUN_national_mood_industrial_capacity_factory_tt
 }

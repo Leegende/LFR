@@ -16,3 +16,8 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+create_country_leader = {
+	name = HOL_hendrikus_colijn
+	picture = GFX_portrait_holland_hendrikus_colijn
+	ideology = conservatism
+}

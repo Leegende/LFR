@@ -30,8 +30,8 @@ state = {
 		9769
 	}
 	history = {
-		owner = ENG
-		add_core_of = SWE
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 6
 		}

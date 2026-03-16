@@ -20,3 +20,8 @@ set_popularities = {
 	communism = 2
 	neutrality = 20
 }
+create_country_leader = {
+	name = ROM_gheorghe_tatarescu
+	picture = GFX_Portrait_romania_gheorghe_tatarescu
+	ideology = conservatism
+}

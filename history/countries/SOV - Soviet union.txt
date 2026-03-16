@@ -20,3 +20,14 @@ set_popularities = {
 add_ideas = {
 	planned_economy
 }
+
+
+create_faction_from_template = faction_template_comintern
+add_to_faction = SOV
+
+
+create_country_leader = {
+	name = SOV_iosif_stalin
+	picture = GFX_portrait_SOV_iosif_stalin
+	ideology = stalinism
+}

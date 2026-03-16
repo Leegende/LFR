@@ -141,7 +141,6 @@ buildings = {
 		}
 	}
 	synthetic_refinery = {
-		show_on_map = 1
 		base_cost = 3000
 		icon_frame = 9
 		local_resources_rubber = 1

@@ -678,28 +678,6 @@ PixelShader =
 		#else
 		float3 vWorldPos = aProperties._WorldSpacePos;
 		
-		//// For DEV on sun positions.
-		// X is from left of map. Z is up/down. Y is sun height.
-		// Internal - Latitude - Height vars respectively
-		// Latitude: ~1000 is equator
-		// X: 0 is in middle ocean between Japan and USA (where Sun2 normally is)
-		//    Max is ~5700 or so.
-		// vVirtualSunPos.xyz ~= float3(2800, 300, 1000)
-		/*
-		const float height = vVirtualSunPos.y;
-		const float spacingX = MAP_SIZE_X/numPoints;
-		float offsetY = vVirtualSunPos.z;
-		float3 Points[numPoints];
-		for(int i=0; i<numPoints; i++){
-			Points[i] = float3(i*spacingX, height, 1100+offsetY);
-			offsetY = -offsetY;
-		}
-		*/
-		
-		// MORE DBG
-		//Points[0] = vVirtualSunPos.xyz; Points[1] = vSecondVirtualSunPos.xyz;
-		
-		// Handles wrapped map
 		for(int k=0; k<numPoints; k++){
 			if ( vWorldPos.x - Points[k].x > MAP_SIZE_X * 0.5 ){
 				Points[k].x += MAP_SIZE_X;

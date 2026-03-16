@@ -8,11 +8,16 @@ add_ideas = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.3.5"
-	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
 	democratic = 100
+}
+
+create_country_leader = {
+	name = DEN_thorvald_stauning
+	picture = GFX_portrait_Thorvald_Stauning
+	expire = "1965.1.1"
+	ideology = socialism
 }
