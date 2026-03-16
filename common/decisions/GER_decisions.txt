@@ -1,0 +1,668 @@
+GER_reform_the_okw = {
+	GER_failed_reform_the_okw_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			always = no
+		}
+		activation = {
+			NOT = {
+				has_completed_focus = GER_appoint_the_okw
+			}
+		}
+		cancel_trigger = {
+			AND = {
+				has_completed_focus = GER_appoint_the_okw
+				check_variable = {
+					GER_appoint_okw_members < 3
+				}
+			}
+		}
+		visible = {
+			AND = {
+				has_completed_focus = GER_appoint_the_okw
+				check_variable = {
+					GER_appoint_okw_members < 3
+				}
+			}
+		}
+		remove_trigger = {
+			AND = {
+				has_completed_focus = GER_appoint_the_okw
+				check_variable = {
+					GER_appoint_okw_members < 3
+				}
+			}
+		}
+		timeout_effect = {
+			army_experience = -100
+			air_experience = -100
+			if = {
+				limit = {
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = GER_failed_reform_the_okw
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = GER_failed_reform_the_okw
+				}
+			}
+			else = {
+				GER_failed_reform_the_okw_tt = yes
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_attack_factor = -0.1
+					tooltip = army_attack_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_morale_factor = -0.05
+					tooltip = army_morale_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_army_org_factor = -0.05
+					tooltip = army_org_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_political_advisor_cost_factor = 0.25
+					tooltip = political_advisor_cost_factor_tt
+				}
+				add_to_variable = {
+					GER_failed_reform_the_okw_political_power_gain = -0.1
+					tooltip = political_power_gain_tt
+				}
+			}
+		}
+		selectable_mission = no
+		days_mission_timeout = 365
+	}
+	GER_remove_failed_reform_the_okw_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			has_war = yes
+		}
+		cost = 50
+		days_remove = 120
+		visible = {
+			has_dynamic_modifier = {
+				modifier = GER_failed_reform_the_okw
+			}
+		}
+		remove_effect = {
+			remove_dynamic_modifier = {
+				modifier = GER_failed_reform_the_okw
+			}
+		}
+	}
+	GER_appoint_sepp_dietrich_decision = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_sepp_dietrich
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_sepp_dietrich
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+	}
+	GER_appoint_heinz_guderian_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_heinz_guderian
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_heinz_guderian
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+	}
+	GER_appoint_walter_model_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_walter_model
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_walter_model
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_guenther_von_kluge_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_günther_von_kluge
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_günther_von_kluge
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_kurt_student_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_kurt_student
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_kurt_student
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_albert_kesselring_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_albert_kesselring
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_albert_kesselring
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+	GER_appoint_erhard_milch_decision = {
+		fire_only_once = yes
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			NOT = {
+				has_completed_focus = GER_appoint_erhard_milch
+			}
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		cost = 50
+		days_remove = 0
+		visible = {
+			has_completed_focus = GER_appoint_the_okw
+			check_variable = {
+				GER_appoint_okw_members < 3
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = GER_appoint_generals_tt
+			hidden_effect = {
+				complete_national_focus = GER_appoint_erhard_milch
+			}
+			add_to_variable = {
+				GER_appoint_okw_members = 1
+			}
+		}
+	}
+}
+
+GER_autarky_category = {
+	GER_drill_baby_drill = {
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		cost = 100
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_local_resources_factor = 0.05
+				tooltip = local_resources_factor_tt
+			}
+		}
+		days_remove = 100
+	}
+	GER_german_mercantilism = {
+		icon = GFX_decision_eng_trade_unions_support
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		cost = 100
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_min_export = -0.05
+				tooltip = min_export_tt
+			}
+		}
+		days_remove = 100
+	}
+	GER_expand_vestag = {
+		icon = GFX_decision_steel
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_completed_focus = GER_deutscher_stahl
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 500
+				state = 186
+			}
+		}
+		days_remove = 100
+	}
+	GER_rheinstall = {
+		icon = GFX_decision_steel
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_completed_focus = GER_deutscher_stahl
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 500
+				state = 189
+			}
+		}
+		days_remove = 100
+	}
+	GER_hydrierwerk_leuna = {
+		icon = GFX_decision_oil
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_tech = excavation3
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			173 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_victory_points = {
+				province = 12258
+				value = 1
+			}
+		}
+		days_remove = 100
+	}
+	GER_festung_ploiesti = {
+		icon = GFX_decision_oil
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_completed_focus = GER_romanian_oil
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			257 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+			add_resource = {
+				type = oil
+				amount = 200
+				state = 257
+			}
+		}
+		days_remove = 100
+	}
+	GER_vereinigte_aluminium_werke = {
+		icon = GFX_decision_aluminium
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = aluminium
+				amount = 500
+				state = 189
+			}
+		}
+		days_remove = 100
+	}
+	GER_hungarian_mal_ag = {
+		icon = GFX_decision_aluminium
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_completed_focus = GER_hungarian_aluminium
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = aluminium
+				amount = 500
+				state = 200
+			}
+			201 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		days_remove = 100
+	}
+	GER_saechsische_wolfram_minen = {
+		icon = GFX_decision_tungsten
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			has_tech = excavation2
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = tungsten
+				amount = 300
+				state = 175
+			}
+		}
+		days_remove = 100
+	}
+	GER_norwegian_deep_sea_mining = {
+		icon = GFX_decision_tungsten
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			controls_state = 27
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = tungsten
+				amount = 300
+				state = 175
+			}
+		}
+		days_remove = 100
+	}
+	GER_finnish_chromium = {
+		icon = GFX_decision_chromium
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			FIN = {
+				controls_state = 350
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = chromium
+				amount = 300
+				state = 350
+			}
+			give_resource_rights = {
+				receiver = GER
+				state = 350
+			}
+			47 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		days_remove = 100
+	}
+	GER_mazedonian_chrom_mines = {
+		icon = GFX_decision_chromium
+		allowed = {
+			original_tag = GER
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			ITA = {
+				controls_state = 142
+			}
+			GER = {
+				has_completed_focus = GER_bulgarian_chromium
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = chromium
+				amount = 300
+				state = 142
+			}
+			142 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		days_remove = 100
+	}
+}

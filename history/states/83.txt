@@ -40,9 +40,6 @@ id = 83
 		owner = DMZ
 		add_core_of = DMZ
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			arms_factory = 1
 		}
 	}
 	manpower = 1

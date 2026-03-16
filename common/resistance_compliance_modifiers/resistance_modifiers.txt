@@ -45,5 +45,7 @@ resistance_90 = {
 		resistance_damage_to_garrison = 2
 	}
 	
-	
+	on_enable = {
+		
+	}
 }

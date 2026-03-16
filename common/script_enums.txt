@@ -107,8 +107,8 @@ script_enum_production_stat = {
 }
 
 script_enum_equipment_category = {
-	support_ship
 	motorized
+	support_ship
 	mechanized
 	land_cruiser
 	suicide
@@ -148,11 +148,11 @@ script_enum_equipment_category = {
 }
 
 script_enum_equipment_bonus_type = {
-	support_ship
 	land_cruiser
 	emplacement_gun_ammo
 	ballistic_missile
 	nuclear_missile
+	support_ship
 	sam_missile
 	infantry
 	artillery

@@ -1,7 +1,5 @@
 ﻿capital = 209
-every_owned_state = {
-	set_state_flag = SOV_INITIAL_STATE
-}
+
 
 set_research_slots = 3
 set_stability = 0.6
@@ -19,3 +17,6 @@ set_popularities = {
 	communism = 95
 }
 
+add_ideas = {
+	planned_economy
+}

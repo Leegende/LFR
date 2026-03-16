@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_gui_hitler_table"
+		texturefile = "gfx/interface/scripted_gui/PRS/GER_gui_hitler_table.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GER_gui_paceholder_1"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_placeholder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_gui_paceholder_2"
+		texturefile = "gfx/interface/scripted_gui/PRS/gui_placeholder2.dds"
+	}
+
+
+
+}

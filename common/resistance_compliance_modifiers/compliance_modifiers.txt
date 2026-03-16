@@ -54,5 +54,11 @@ compliance_80 = {
 	visible = {
 		always = no
 	}
+	enabled = {
+	}
+	state_modifier = {
+	}
 	
+	on_enable = {
+	}
 }

@@ -15,4 +15,4 @@ set_popularities = {
 	neutrality = 60
 }
 
-set_stability = 1
+set_stability = 0.6
