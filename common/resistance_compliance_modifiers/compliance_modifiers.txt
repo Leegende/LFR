@@ -8,7 +8,7 @@ compliance_15 = {
 	threshold = 15
 	margin = 2
 	state_modifier = {
-		enemy_operative_detection_chance = 0.25
+		army_speed_factor = 0.05
 	}
 }
 

@@ -1,3 +1,5 @@
+NDefines.NDiplomacy.TENSION_DECAY_DAILY = 0
+
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.0  -- No equipment capture
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000
@@ -426,6 +428,8 @@ NDefines_Graphics.NGraphics.RESISTANCE_COLOR_BAD = {0.65, 0, 0, 1}
 NDefines_Graphics.NGraphics.STRATEGIC_NAVY_COLOR_MISSION = {0.65, 0.65, 0.0, 1}
 NDefines_Graphics.NGraphics.STRATEGIC_NAVY_COLOR_NEUTRAL = {130.0/255, 130.0/255, 130.0/255, 1}
 NDefines_Graphics.NGraphics.ROOT_FRONT_OFFSET = 2
+
+
 
 for k, v in pairs(NDefines_Graphics) do NDefines[k] = v end
 

@@ -11,6 +11,9 @@ characters = {
 			available = {
 				has_completed_focus = GER_four_year_plan
 			}
+			visible = {
+				always = yes
+			}
 			traits = {
 				GER_mefo_bills_architect_trait
 			}
@@ -21,17 +24,29 @@ characters = {
 			}
 		}
 	}
-	GER_adolf_hitler = {
-		name = GER_adolf_hitler
+	GER_albert_speer = { 
+		name = GER_albert_speer
 		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_adolf_hitler
+			army = {
+				large = GFX_portrait_GER_albert_speer
+				small = GFX_portrait_GER_albert_speer_small
 			}
 		}
-		country_leader = {
-			ideology = nazism
-			expire = "1965.1.1.1"
-			id = -1
-		}
+		advisor = {
+			slot = political_advisor
+			idea_token = speer
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				has_completed_focus = GER_appoint_speer
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				GER_armament_genius
+			}
+		}		
 	}
 }

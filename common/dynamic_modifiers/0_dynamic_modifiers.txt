@@ -1,5 +1,3 @@
-
-
 HUN_national_mood = {
 	enable = {
 		always = yes
@@ -21,8 +19,6 @@ HUN_national_mood = {
 	line_change_production_efficiency_factor = HUN_national_mood_line_change_production_efficiency_factor
 	industrial_capacity_factory = HUN_national_mood_industrial_capacity_factory_tt
 }
-
-
 
 GER_reichsautobahn_construct_dynamic_modifier = {
 	enable = {
@@ -137,3 +133,15 @@ GER_wehrmacht = {
 	training_time_factor = GER_wehrmacht_training_time_factor
 	unit_leader_as_advisor_cp_cost_factor = GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor
 }
+
+GER_dirlewanger_action = {
+	enable = {
+		always = yes
+	}
+	local_factories = 0.1
+	local_resources = 0.1
+	resistance_target = -0.05
+	icon = GFX_idea_GER_army
+}
+
+GER_

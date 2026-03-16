@@ -42,3 +42,46 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 }
+
+SpriteType = {
+	name = "GFX_focus_appoint_the_okw_shine"
+	texturefile = "gfx/interface/focus/GER/GER_appoint_the_okw"
+	effectFile = "gfx/FX/buttonstate.lua"
+	animation = {
+		animationmaskfile = "gfx/interface/goals/GFX_appoint_the_okw.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = -90
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = {
+			x = 0
+			y = 0
+		}
+		animationtexturescale = {
+			x = 1
+			y = 1
+		}
+	}
+	animation = {
+		animationmaskfile = "gfx/interface/focus/GER/GER_appoint_the_okw"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = 90
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = {
+			x = 0
+			y = 0
+		}
+		animationtexturescale = {
+			x = 1
+			y = 1
+		}
+	}
+	legacy_lazy_load = no
+}

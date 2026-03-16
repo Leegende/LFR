@@ -6,6 +6,14 @@ leader_traits = {
 		production_speed_infrastructure_factor = 0.1
 		production_speed_industrial_complex_factor = 0.1
 	}
+	GER_armament_genius = {
+		sprite = 10
+		random = no
+		production_factory_start_efficiency_factor = 0.20
+		production_factory_efficiency_gain_factor = 0.10
+		production_factory_max_efficiency_factor = 0.05
+
+	}
 	HUN_the_habsburg_prince = {
 		random = no
 		sprite = 13

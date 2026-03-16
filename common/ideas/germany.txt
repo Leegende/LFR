@@ -27,6 +27,23 @@ ideas = {
 				air = 0.25
 			}
 		}
+		prepare_barbarossa = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			
+			picture = german_advisors
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+				production_speed_rail_way_factor = 0.25
+				production_speed_air_base_factor = 0.25
+				supply_consumption_factor = -0.05
+				mobilization_speed = 0.5
+				training_time_army_factor  = -0.1
+
+			}
+		}
 		porsche_motors = {
 			allowed = {
 				always = no

@@ -7,7 +7,7 @@ GER_reform_the_okw = {
 		original_tag = GER
 	}
 	visible = {
-		
+		always = yes
 	}
 }
 

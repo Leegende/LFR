@@ -47,6 +47,7 @@ state = {
 		owner = POL
 		add_core_of = POL
 		set_state_flag = PRUSSIA
+		set_state_flag = POL_dirlewanger
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2

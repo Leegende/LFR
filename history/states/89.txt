@@ -58,6 +58,7 @@ state = {
 	}
 	history = {
 		set_state_flag = PRUSSIA
+		set_state_flag = POL_dirlewanger
 		owner = POL
 		add_core_of = POL
 		buildings = {

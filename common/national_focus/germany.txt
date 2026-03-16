@@ -381,78 +381,6 @@
 		}
 	}
 	focus = {
-		id = GER_integrate_hungary
-		icon = GFX_integrate_hungary
-		x = -2
-		y = 1
-		cost = 1
-		prerequisite = {
-			focus = GER_molotov_ribbentrop_pact
-		}
-		relative_position_id = GER_molotov_ribbentrop_pact
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			puppet = HUN
-			254 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			201 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_integrate_romania
-		icon = GFX_integrate_romania
-		x = 2
-		y = 1
-		cost = 1
-		prerequisite = {
-			focus = GER_molotov_ribbentrop_pact
-		}
-		relative_position_id = GER_molotov_ribbentrop_pact
-		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			puppet = ROM
-			157 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			159 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
 		id = GER_fall_gelb
 		icon = GFX_fall_gelb
 		x = -2
@@ -489,6 +417,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = "italian trade for savoy"
 		}
 	}
 	focus = {
@@ -585,6 +514,22 @@
 			factor = 10
 		}
 		completion_reward = {
+			249 = {
+				add_core_of = GER
+				remove_core_of = POL
+			}
+			60 = {
+				add_core_of = GER
+				remove_core_of = POL
+			}
+			214 = {
+				add_core_of = GER
+				remove_core_of = POL
+			}
+			305 = {
+				add_core_of = GER
+				remove_core_of = POL
+			}
 		}
 	}
 	focus = {
@@ -604,6 +549,24 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = "Gives Core Polish States Dirlewanger Effect"
+			effect_tooltip = {
+				add_dynamic_modifier = {
+					modifier = GER_dirlewanger_action
+				}
+			}
+			hidden_effect = {
+				every_owned_state = {
+					if = {
+						limit = {
+							has_state_flag = POL_dirlewanger
+						}
+						add_dynamic_modifier = {
+							modifier = GER_dirlewanger_action
+						}
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -623,6 +586,10 @@
 			factor = 10
 		}
 		completion_reward = {
+			add_timed_idea = {
+				idea = prepare_barbarossa
+				days = 180
+			}
 		}
 	}
 	focus = {
@@ -642,6 +609,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = GER_second_world_war_tooltip
 		}
 	}
 	focus = {
@@ -661,6 +629,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = "decision to build oder-neisse, weichsel or dnejpr line"
 		}
 	}
 	focus = {
@@ -680,6 +649,7 @@
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = "spawn in divs"
 		}
 	}
 	###############################################################################
@@ -1175,6 +1145,17 @@
 					type = synthetic_refinery
 					level = 3
 					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = "Gain 15% Production Efficiency when going longterm"
+			if = {
+				limit = {
+					has_completed_focus = GER_long_term
+				}
+				GER_economy_dynamic_modifier_tt = yes
+				add_to_variable = {
+					GER_mefo_bills_production_factory_efficiency_gain_factor = 0.15
+					tooltip = production_factory_efficiency_gain_factor_tt
 				}
 			}
 		}
@@ -2520,14 +2501,14 @@
 		icon = GFX_josef_dietrich
 		x = -20
 		y = 1
-		cost = 0
+		cost = 5
 		text_icon = GER_inner_circle_focus_style
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
 		relative_position_id = GER_appoint_the_okw
 		available = {
-			always = no
+			always = yes
 		}
 		ai_will_do = {
 			factor = 10
@@ -2613,7 +2594,6 @@
 	focus = {
 		id = GER_ss_übermenschen
 		icon = GFX_goal_unknown
-		text = "SS-Übermenschen"
 		x = 0
 		y = 2
 		cost = 1
@@ -2724,7 +2704,9 @@
 				for_loop_effect = {
 					end = 6
 					create_unit = {
-						division = "division_template = \"SS-Übermenschen\" start_experience_factor = 1"
+						division = "division_template = "
+						SS-Übermenschen
+						" start_experience_factor = 1"
 						owner = GER
 					}
 				}
@@ -2929,7 +2911,7 @@
 		relative_position_id = GER_appoint_sepp_dietrich
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3071,7 +3053,7 @@
 		relative_position_id = GER_appoint_heinz_guderian
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3392,7 +3374,7 @@
 		relative_position_id = GER_appoint_günther_von_kluge
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3814,7 +3796,7 @@
 		relative_position_id = GER_appoint_kurt_student
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3926,7 +3908,7 @@
 		relative_position_id = GER_appoint_walter_model
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4215,7 +4197,7 @@
 		relative_position_id = GER_appoint_albert_kesselring
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4519,7 +4501,7 @@
 		relative_position_id = GER_appoint_erhard_milch
 		available = {
 			set_temp_variable = {
-				level_one_days = 750
+				level_one_days = 35
 			}
 			custom_override_tooltip = {
 				tooltip = {

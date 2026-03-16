@@ -183,7 +183,7 @@ sub_units = {
 			heavy_tank_aa_chassis
 		}
 		need = {
-			heavy_tank_chassis = @aa_need
+			heavy_tank_aa_chassis  = @aa_need
 		}
 		breakthrough = -0.85
 	}

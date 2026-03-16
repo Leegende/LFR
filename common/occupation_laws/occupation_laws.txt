@@ -24,7 +24,5 @@ forced_labor_occupation = {
 		required_garrison_factor = 0
 		local_resources = 0.35
 		local_factories = 0.25
-		repair_speed_infrastructure_factor = 0.25
-		custom_modifier_tooltip = "resource_sabotage_decrease_tooltip"
 	}
 }
