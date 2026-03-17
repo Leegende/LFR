@@ -244,9 +244,7 @@ equipment_modules = {
 			build_cost_ic = 14
 			hardness = 0.025
 		}
-		build_cost_resources = {
-			steel = 15
-		}
+		
 		dismantle_cost_ic = 5
 	}
 	tank_light_turret_1 = {
@@ -265,9 +263,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2
 		}
-		build_cost_resources = {
-			steel = 3
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	tank_light_turret_2 = {
@@ -287,9 +283,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 2.5
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	tank_light_turret_3 = {
@@ -310,9 +304,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 3
 		}
-		build_cost_resources = {
-			steel = 8
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	tank_medium_turret_1 = {
@@ -331,9 +323,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	tank_medium_turret_2 = {
@@ -353,9 +343,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 7
 		}
-		build_cost_resources = {
-			steel = 8
-		}
+		
 		dismantle_cost_ic = 0.3
 	}
 	tank_medium_turret_3 = {
@@ -376,9 +364,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			steel = 8
-		}
+	
 		dismantle_cost_ic = 0.3
 	}
 	tank_heavy_turret_1 = {
@@ -397,9 +383,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			steel = 8
-		}
+		
 		dismantle_cost_ic = 5
 	}
 	tank_heavy_turret_2 = {
@@ -419,9 +403,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 10
 		}
-		build_cost_resources = {
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 5
 	}
 	tank_heavy_turret_3 = {
@@ -442,9 +424,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 12
 		}
-		build_cost_resources = {
-			steel = 15
-		}
+		
 		dismantle_cost_ic = 5
 	}
 	flamethrower_1 = {
@@ -517,11 +497,7 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = 0.1
 		}
-		build_cost_resources = {
-			steel = 15
-			tungsten = 5
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	modern_hard_attack = {
@@ -541,11 +517,7 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = 0.1
 		}
-		build_cost_resources = {
-			steel = 16
-			tungsten = 7
-			chromium = 2
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	modern_aa = {
@@ -564,11 +536,7 @@ equipment_modules = {
 			breakthrough = 15
 			build_cost_ic = 14
 		}
-		build_cost_resources = {
-			steel = 10
-			tungsten = 5
-			chromium = 1
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	small_soft_cannon_1 = {
@@ -581,10 +549,7 @@ equipment_modules = {
 			ap_attack = 20
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			steel = 10
-			tungsten = 2
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	small_soft_cannon_2 = {
@@ -597,10 +562,7 @@ equipment_modules = {
 			ap_attack = 35
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			steel = 12
-			tungsten = 3
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	small_soft_cannon_3 = {
@@ -613,10 +575,7 @@ equipment_modules = {
 			ap_attack = 50
 			build_cost_ic = 10
 		}
-		build_cost_resources = {
-			steel = 14
-			tungsten = 4
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	small_hard_cannon_1 = {
@@ -629,10 +588,7 @@ equipment_modules = {
 			ap_attack = 55
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			tungsten = 10
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	small_hard_cannon_2 = {
@@ -645,10 +601,7 @@ equipment_modules = {
 			ap_attack = 70
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 15
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	small_hard_cannon_3 = {
@@ -661,10 +614,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 10
 		}
-		build_cost_resources = {
-			tungsten = 20
-			steel = 20
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	medium_soft_cannon_1 = {
@@ -677,10 +627,7 @@ equipment_modules = {
 			ap_attack = 50
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			tungsten = 5
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	medium_soft_cannon_2 = {
@@ -693,10 +640,7 @@ equipment_modules = {
 			ap_attack = 74
 			build_cost_ic = 9
 		}
-		build_cost_resources = {
-			tungsten = 10
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	medium_soft_cannon_3 = {
@@ -709,10 +653,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 19
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 20
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	medium_hard_cannon_1 = {
@@ -727,10 +668,7 @@ equipment_modules = {
 			ap_attack = 55
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			tungsten = 10
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	medium_hard_cannon_2 = {
@@ -743,10 +681,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 8
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 15
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	medium_hard_cannon_3 = {
@@ -759,10 +694,7 @@ equipment_modules = {
 			ap_attack = 110
 			build_cost_ic = 9
 		}
-		build_cost_resources = {
-			tungsten = 20
-			steel = 20
-		}
+		
 		dismantle_cost_ic = 0.5
 	}
 	heavy_soft_cannon_1 = {
@@ -775,11 +707,7 @@ equipment_modules = {
 			ap_attack = 90
 			build_cost_ic = 14
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 10
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_soft_cannon_2 = {
@@ -792,11 +720,7 @@ equipment_modules = {
 			ap_attack = 110
 			build_cost_ic = 16
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 15
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_soft_cannon_3 = {
@@ -812,11 +736,7 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.1
 		}
-		build_cost_resources = {
-			tungsten = 15
-			steel = 20
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_hard_cannon_1 = {
@@ -829,11 +749,7 @@ equipment_modules = {
 			ap_attack = 100
 			build_cost_ic = 15
 		}
-		build_cost_resources = {
-			tungsten = 20
-			steel = 15
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_hard_cannon_2 = {
@@ -846,11 +762,7 @@ equipment_modules = {
 			ap_attack = 120
 			build_cost_ic = 18
 		}
-		build_cost_resources = {
-			tungsten = 20
-			steel = 20
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_hard_cannon_3 = {
@@ -866,11 +778,7 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.1
 		}
-		build_cost_resources = {
-			tungsten = 20
-			steel = 25
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	small_anti_air_cannon_1 = {
@@ -895,9 +803,7 @@ equipment_modules = {
 			ap_attack = 20
 			build_cost_ic = 5
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	small_anti_air_cannon_2 = {
@@ -922,9 +828,7 @@ equipment_modules = {
 			ap_attack = 30
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			steel = 8
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	small_anti_air_cannon_3 = {
@@ -949,9 +853,7 @@ equipment_modules = {
 			ap_attack = 40
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			steel = 10
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	medium_anti_air_cannon_1 = {
@@ -976,9 +878,7 @@ equipment_modules = {
 			ap_attack = 30
 			build_cost_ic = 5
 		}
-		build_cost_resources = {
-			steel = 9
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	medium_anti_air_cannon_2 = {
@@ -1003,9 +903,7 @@ equipment_modules = {
 			ap_attack = 40
 			build_cost_ic = 6
 		}
-		build_cost_resources = {
-			steel = 9
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	medium_anti_air_cannon_3 = {
@@ -1030,9 +928,7 @@ equipment_modules = {
 			ap_attack = 35
 			build_cost_ic = 7
 		}
-		build_cost_resources = {
-			steel = 9
-		}
+		
 		dismantle_cost_ic = 3
 	}
 	heavy_anti_air_cannon_1 = {
@@ -1057,10 +953,7 @@ equipment_modules = {
 			ap_attack = 50
 			build_cost_ic = 14
 		}
-		build_cost_resources = {
-			steel = 10
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	heavy_anti_air_cannon_2 = {
@@ -1085,10 +978,7 @@ equipment_modules = {
 			ap_attack = 60
 			build_cost_ic = 18
 		}
-		build_cost_resources = {
-			steel = 15
-			chromium = 3
-		}
+	
 		dismantle_cost_ic = 2
 	}
 	heavy_anti_air_cannon_3 = {
@@ -1113,10 +1003,7 @@ equipment_modules = {
 			ap_attack = 70
 			build_cost_ic = 22
 		}
-		build_cost_resources = {
-			steel = 20
-			chromium = 3
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	tank_gasoline_engine = {
@@ -1186,9 +1073,7 @@ equipment_modules = {
 			build_cost_ic = 0.075
 			armor_value = 0.3
 		}
-		build_cost_resources = {
-			chromium = 5
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	tank_welded_armor = {
@@ -1200,9 +1085,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.15
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	tank_torsion_bar_suspension = {
@@ -1270,9 +1153,7 @@ equipment_modules = {
 			breakthrough = -0.15
 			armor_value = 0.05
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 2
 	}
 	tank_medium_superstructure = {
@@ -1801,9 +1682,7 @@ equipment_modules = {
 			ap_attack = 0.2
 			soft_attack = -0.2
 		}
-		build_cost_resources = {
-			tungsten = 10
-		}
+		
 	}
 	mech_commanders_cupola = {
 		category = mech_special_module
@@ -1822,9 +1701,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.05
 		}
-		build_cost_resources = {
-			steel = 10
-		}
+		
 	}
 	tank_wheeled_suspension_mech = {
 		category = mech_non_tracked_suspension_type
@@ -1834,9 +1711,7 @@ equipment_modules = {
 			maximum_speed = 0.225
 			hardness = -0.2
 		}
-		build_cost_resources = {
-			rubber = 10
-		}
+		
 	}
 	tank_half_track_suspension_mech = {
 		category = mech_half_tracked_suspension_type
@@ -1847,9 +1722,7 @@ equipment_modules = {
 			maximum_speed = 0.1
 			hardness = -0.1
 		}
-		build_cost_resources = {
-			rubber = 5
-		}
+		
 	}
 	mech_riveted_armor = {
 		category = mech_armor_type
@@ -1872,9 +1745,7 @@ equipment_modules = {
 			build_cost_ic = 0.1
 			armor_value = 0.3
 		}
-		build_cost_resources = {
-			chromium = 5
-		}
+		
 		dismantle_cost_ic = 1
 	}
 	mech_welded_armor = {
@@ -1886,9 +1757,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.15
 		}
-		build_cost_resources = {
-			steel = 5
-		}
+		
 		dismantle_cost_ic = 1
 	}
 }

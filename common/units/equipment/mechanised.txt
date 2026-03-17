@@ -115,10 +115,7 @@ equipments = {
 		ap_attack = 11
 		air_attack = 0
 		build_cost_ic = 5
-		resources = {
-			steel = 2
-			rubber = 1
-		}
+		
 		fuel_consumption = 2.4
 	}
 	mechanised_equipment_0 = {
@@ -365,10 +362,7 @@ equipments = {
 		ap_attack = 16
 		build_cost_ic = 7
 		reliability = 1.05
-		resources = {
-			steel = 3
-			rubber = 1
-		}
+		
 	}
 	mechanised_equipment_3 = {
 		archetype = mechanised_equipment
@@ -506,9 +500,6 @@ equipments = {
 		ap_attack = 21
 		build_cost_ic = 8
 		reliability = 1.1
-		resources = {
-			steel = 4
-			rubber = 1
-		}
+		
 	}
 }

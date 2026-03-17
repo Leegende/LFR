@@ -67,7 +67,6 @@
 1;anti_air_building;156.00;9.70;3067.00;4.03;0
 1;anti_air_building;87.00;9.70;3004.00;0.94;0
 1;anti_air_building;102.00;9.70;2986.00;3.27;0
-1;synthetic_refinery;24.00;9.70;3017.00;4.84;0
 1;radar_station;154.00;9.50;3023.00;5.42;0
 1;nuclear_reactor_spawn;24.00;9.70;3034.00;0.81;0
 1;special_project_facility_spawn;138.00;9.70;3020.00;5.04;0
@@ -247,7 +246,6 @@
 2;anti_air_building;2814.00;9.70;2319.00;2.16;0
 2;anti_air_building;2821.00;9.70;2306.00;3.19;0
 2;anti_air_building;2825.00;9.70;2302.00;4.61;0
-2;synthetic_refinery;2755.00;9.70;2311.00;1.70;0
 2;radar_station;2715.00;9.70;2267.00;4.62;0
 2;nuclear_reactor_spawn;2801.00;9.70;2359.00;1.99;0
 2;special_project_facility_spawn;2669.00;9.70;2196.00;0.75;0
@@ -450,7 +448,6 @@
 3;anti_air_building;2516.00;9.70;1779.00;2.79;0
 3;anti_air_building;2505.00;9.70;1735.00;3.20;0
 3;anti_air_building;2611.00;9.70;1832.00;5.13;0
-3;synthetic_refinery;2542.00;9.70;1844.00;6.17;0
 3;radar_station;2554.00;9.70;1793.00;3.01;0
 3;nuclear_reactor_spawn;2537.00;9.70;1797.00;1.36;0
 3;special_project_facility_spawn;2497.00;9.70;1764.00;1.41;0
@@ -521,7 +518,6 @@
 4;anti_air_building;2938.00;9.70;881.00;4.59;0
 4;anti_air_building;2635.00;9.70;827.00;3.81;0
 4;anti_air_building;2826.00;9.70;726.00;1.78;0
-4;synthetic_refinery;3072.00;9.70;723.00;0.05;0
 4;radar_station;2988.00;9.70;817.00;4.72;0
 4;nuclear_reactor_spawn;3083.00;9.70;819.00;3.24;0
 4;special_project_facility_spawn;2648.00;9.70;852.00;1.77;0
@@ -692,7 +688,6 @@
 5;anti_air_building;2334.00;9.70;1587.00;4.94;0
 5;anti_air_building;2335.00;9.70;1587.00;0.18;0
 5;anti_air_building;2387.00;9.70;1541.00;0.69;0
-5;synthetic_refinery;2311.00;9.70;1599.00;2.73;0
 5;radar_station;2350.00;9.70;1574.00;0.04;0
 5;nuclear_reactor_spawn;2343.00;9.70;1539.00;0.60;0
 5;special_project_facility_spawn;2366.00;9.70;1607.00;3.87;0
@@ -890,7 +885,6 @@
 6;anti_air_building;3475.00;9.70;818.00;4.29;0
 6;anti_air_building;3391.00;9.70;895.00;5.28;0
 6;anti_air_building;3382.00;9.70;929.00;3.77;0
-6;synthetic_refinery;3387.00;9.70;925.00;4.65;0
 6;radar_station;3439.00;9.70;875.00;3.68;0
 6;nuclear_reactor_spawn;3421.00;9.70;873.00;3.84;0
 6;special_project_facility_spawn;3455.00;9.70;856.00;1.38;0
@@ -1194,7 +1188,6 @@
 7;anti_air_building;4061.00;9.70;892.00;2.49;0
 7;anti_air_building;4087.00;9.70;908.00;1.07;0
 7;anti_air_building;3936.00;9.70;780.00;5.86;0
-7;synthetic_refinery;4090.00;9.70;814.00;6.20;0
 7;radar_station;3814.00;9.50;886.00;5.49;0
 7;nuclear_reactor_spawn;3938.00;9.70;904.00;3.22;0
 7;special_project_facility_spawn;4045.00;9.70;756.00;4.87;0
@@ -1423,7 +1416,6 @@
 8;anti_air_building;1226.00;9.70;792.00;4.29;0
 8;anti_air_building;1186.00;9.70;838.00;3.95;0
 8;anti_air_building;1223.00;9.70;790.00;1.65;0
-8;synthetic_refinery;1239.00;9.70;893.00;5.00;0
 8;radar_station;1208.00;9.70;830.00;0.79;0
 8;nuclear_reactor_spawn;1202.00;9.70;832.00;3.78;0
 8;special_project_facility_spawn;1211.00;9.70;845.00;6.17;0
@@ -1552,7 +1544,6 @@
 9;anti_air_building;2017.00;9.70;760.00;1.86;0
 9;anti_air_building;2009.00;9.70;852.00;2.24;0
 9;anti_air_building;2043.00;9.70;801.00;3.10;0
-9;synthetic_refinery;2019.00;9.70;771.00;1.47;0
 9;radar_station;2037.00;9.70;813.00;1.68;0
 9;nuclear_reactor_spawn;2028.00;9.70;810.00;5.54;0
 9;special_project_facility_spawn;2067.00;9.70;811.00;2.90;0
@@ -1703,7 +1694,6 @@
 10;anti_air_building;2345.00;9.70;1874.00;1.77;0
 10;anti_air_building;2307.00;9.70;1874.00;1.36;0
 10;anti_air_building;2334.00;9.70;1885.00;1.41;0
-10;synthetic_refinery;2375.00;9.70;1845.00;0.78;0
 10;radar_station;2340.00;9.70;1856.00;2.97;0
 10;nuclear_reactor_spawn;2380.00;9.70;1884.00;0.46;0
 10;special_project_facility_spawn;2324.00;9.70;1849.00;3.61;0
@@ -1950,7 +1940,6 @@
 11;anti_air_building;2331.00;9.70;382.00;1.53;0
 11;anti_air_building;2366.00;9.70;413.00;0.46;0
 11;anti_air_building;2349.00;9.70;367.00;3.45;0
-11;synthetic_refinery;2264.00;9.70;319.00;2.10;0
 11;radar_station;2300.00;9.70;355.00;4.81;0
 11;nuclear_reactor_spawn;2267.00;9.70;402.00;5.53;0
 11;special_project_facility_spawn;2272.00;9.70;357.00;2.82;0
@@ -2182,7 +2171,6 @@
 12;anti_air_building;2432.00;9.70;761.00;4.86;0
 12;anti_air_building;2383.00;9.70;770.00;5.00;0
 12;anti_air_building;2370.00;9.70;784.00;4.07;0
-12;synthetic_refinery;2319.00;9.70;808.00;4.08;0
 12;radar_station;2371.00;9.50;819.00;2.85;0
 12;nuclear_reactor_spawn;2315.00;9.70;872.00;4.51;0
 12;special_project_facility_spawn;2374.00;9.70;777.00;1.31;0
@@ -2333,7 +2321,6 @@
 13;anti_air_building;1371.00;9.70;841.00;1.32;0
 13;anti_air_building;1393.00;9.70;843.00;5.65;0
 13;anti_air_building;1388.00;9.70;846.00;2.70;0
-13;synthetic_refinery;1370.00;9.70;859.00;1.52;0
 13;radar_station;1369.00;9.50;833.00;4.82;0
 13;nuclear_reactor_spawn;1303.00;9.70;810.00;2.89;0
 13;special_project_facility_spawn;1380.00;9.70;834.00;4.03;0
@@ -2719,7 +2706,6 @@
 14;anti_air_building;2806.00;9.70;2170.00;2.35;0
 14;anti_air_building;2917.00;9.70;2073.00;5.89;0
 14;anti_air_building;3006.00;9.70;2050.00;0.46;0
-14;synthetic_refinery;2799.00;9.70;2169.00;4.61;0
 14;radar_station;2889.00;9.70;2097.00;0.67;0
 14;nuclear_reactor_spawn;2895.00;9.70;2068.00;2.12;0
 14;special_project_facility_spawn;2942.00;9.70;2029.00;1.50;0
@@ -3088,7 +3074,6 @@
 15;anti_air_building;3547.00;9.70;922.00;2.58;0
 15;anti_air_building;3567.00;9.70;892.00;2.65;0
 15;anti_air_building;3648.00;9.70;877.00;3.85;0
-15;synthetic_refinery;3510.00;9.70;878.00;0.63;0
 15;radar_station;3585.00;9.70;892.00;1.94;0
 15;nuclear_reactor_spawn;3600.00;9.70;878.00;1.23;0
 15;special_project_facility_spawn;3624.00;9.70;879.00;1.53;0
@@ -3212,7 +3197,6 @@
 16;anti_air_building;871.00;9.70;745.00;2.82;0
 16;anti_air_building;825.00;9.70;876.00;5.46;0
 16;anti_air_building;842.00;9.70;726.00;4.96;0
-16;synthetic_refinery;896.00;9.70;896.00;5.68;0
 16;radar_station;849.00;9.70;845.00;5.15;0
 16;nuclear_reactor_spawn;839.00;9.70;834.00;3.92;0
 16;special_project_facility_spawn;806.00;9.70;904.00;2.01;0
@@ -3238,7 +3222,6 @@
 17;anti_air_building;3679.00;9.70;617.00;3.67;0
 17;anti_air_building;3674.00;9.70;597.00;5.68;0
 17;anti_air_building;3783.00;9.70;606.00;2.92;0
-17;synthetic_refinery;3734.00;9.70;636.00;5.34;0
 17;radar_station;3763.00;9.70;578.00;2.83;0
 17;nuclear_reactor_spawn;3605.00;9.70;693.00;1.77;0
 17;special_project_facility_spawn;3592.00;9.70;734.00;1.94;0
@@ -3444,7 +3427,6 @@
 18;anti_air_building;3481.00;9.70;1048.00;1.24;0
 18;anti_air_building;3579.00;9.70;1004.00;3.94;0
 18;anti_air_building;3517.00;9.70;1079.00;2.04;0
-18;synthetic_refinery;3483.00;9.70;1147.00;4.61;0
 18;radar_station;3513.00;9.70;1055.00;0.87;0
 18;nuclear_reactor_spawn;3481.00;9.70;1077.00;2.48;0
 18;special_project_facility_spawn;3480.00;9.70;996.00;4.95;0
@@ -3656,7 +3638,6 @@
 19;anti_air_building;976.00;9.70;754.00;5.28;0
 19;anti_air_building;1065.00;9.70;784.00;3.77;0
 19;anti_air_building;1098.00;9.70;774.00;4.65;0
-19;synthetic_refinery;965.00;9.70;764.00;1.34;0
 19;radar_station;1037.00;9.70;776.00;2.34;0
 19;nuclear_reactor_spawn;1067.00;9.70;824.00;1.38;0
 19;special_project_facility_spawn;1071.00;9.70;759.00;2.16;0
@@ -3817,7 +3798,6 @@
 20;anti_air_building;2423.00;9.70;2275.00;0.94;0
 20;anti_air_building;2361.00;9.50;2295.00;1.23;0
 20;anti_air_building;2481.00;9.70;2308.00;1.65;0
-20;synthetic_refinery;2393.00;9.70;2330.00;4.86;0
 20;radar_station;2435.00;9.70;2275.00;4.84;0
 20;nuclear_reactor_spawn;2431.00;9.70;2200.00;4.08;0
 20;special_project_facility_spawn;2367.00;9.70;2277.00;1.53;0
@@ -3998,7 +3978,6 @@
 21;anti_air_building;2450.00;9.70;1531.00;1.31;0
 21;anti_air_building;2471.00;9.70;1508.00;3.62;0
 21;anti_air_building;2455.00;9.70;1511.00;2.74;0
-21;synthetic_refinery;2435.00;9.70;1532.00;4.91;0
 21;radar_station;2480.00;9.70;1507.00;5.33;0
 21;nuclear_reactor_spawn;2500.00;9.70;1461.00;0.18;0
 21;special_project_facility_spawn;2499.00;9.70;1476.00;0.69;0
@@ -4141,7 +4120,6 @@
 22;anti_air_building;918.00;9.70;834.00;0.46;0
 22;anti_air_building;930.00;9.70;819.00;3.61;0
 22;anti_air_building;927.00;9.70;887.00;5.44;0
-22;synthetic_refinery;934.00;9.70;814.00;4.29;0
 22;radar_station;935.00;9.70;825.00;0.91;0
 22;nuclear_reactor_spawn;913.00;9.70;840.00;4.65;0
 22;special_project_facility_spawn;892.00;9.70;783.00;1.34;0
@@ -4237,7 +4215,6 @@
 23;anti_air_building;1125.00;9.70;755.00;0.30;0
 23;anti_air_building;1184.00;9.70;740.00;4.23;0
 23;anti_air_building;1147.00;9.70;768.00;4.29;0
-23;synthetic_refinery;1104.00;9.70;803.00;3.95;0
 23;radar_station;1146.00;9.70;777.00;5.37;0
 23;nuclear_reactor_spawn;1168.00;9.70;734.00;5.87;0
 23;special_project_facility_spawn;1124.00;9.70;787.00;0.95;0
@@ -4434,7 +4411,6 @@
 24;anti_air_building;2458.00;9.70;1593.00;3.85;0
 24;anti_air_building;2464.00;9.70;1570.00;0.63;0
 24;anti_air_building;2483.00;9.70;1590.00;0.99;0
-24;synthetic_refinery;2397.00;9.70;1615.00;1.99;0
 24;radar_station;2480.00;9.70;1598.00;2.70;0
 24;nuclear_reactor_spawn;2411.00;9.70;1568.00;0.46;0
 24;special_project_facility_spawn;2563.00;9.70;1565.00;3.45;0
@@ -4623,7 +4599,6 @@
 25;anti_air_building;2276.00;9.70;879.00;1.65;0
 25;anti_air_building;2277.00;9.70;799.00;4.86;0
 25;anti_air_building;2238.00;9.70;858.00;5.00;0
-25;synthetic_refinery;2284.00;9.70;885.00;4.07;0
 25;radar_station;2259.00;9.70;847.00;4.29;0
 25;nuclear_reactor_spawn;2273.00;9.70;840.00;6.26;0
 25;special_project_facility_spawn;2239.00;9.70;868.00;4.51;0
@@ -4801,7 +4776,6 @@
 26;anti_air_building;2824.00;9.70;7.00;4.86;0
 26;anti_air_building;2943.00;9.70;25.00;5.00;0
 26;anti_air_building;2873.00;9.70;23.00;4.07;0
-26;synthetic_refinery;2765.00;9.70;34.00;4.08;0
 26;radar_station;2868.00;9.70;36.00;2.85;0
 26;nuclear_reactor_spawn;2771.00;9.70;9.00;4.51;0
 26;special_project_facility_spawn;2940.00;9.70;49.00;1.31;0
@@ -5103,7 +5077,6 @@
 27;anti_air_building;1733.00;9.70;2151.00;3.81;0
 27;anti_air_building;1631.00;9.70;2319.00;4.96;0
 27;anti_air_building;1782.00;9.70;2210.00;1.49;0
-27;synthetic_refinery;1832.00;9.70;2184.00;0.48;0
 27;radar_station;1722.00;9.70;2217.00;3.09;0
 27;nuclear_reactor_spawn;1694.00;9.70;2322.00;5.83;0
 27;special_project_facility_spawn;1641.00;9.70;2235.00;6.23;0
@@ -5341,7 +5314,6 @@
 28;anti_air_building;2322.00;9.70;741.00;5.50;0
 28;anti_air_building;2313.00;9.70;733.00;1.68;0
 28;anti_air_building;2297.00;9.70;719.00;0.74;0
-28;synthetic_refinery;2328.00;9.70;711.00;0.94;0
 28;radar_station;2307.00;9.70;727.00;2.63;0
 28;nuclear_reactor_spawn;2312.00;9.70;711.00;4.86;0
 28;special_project_facility_spawn;2332.00;9.70;709.00;5.00;0
@@ -5630,7 +5602,6 @@
 29;anti_air_building;1927.00;9.70;731.00;0.19;0
 29;anti_air_building;1945.00;9.70;723.00;2.75;0
 29;anti_air_building;1927.00;9.70;753.00;3.10;0
-29;synthetic_refinery;1960.00;9.70;706.00;5.88;0
 29;radar_station;1907.00;9.50;706.00;0.23;0
 29;nuclear_reactor_spawn;1869.00;9.70;730.00;2.02;0
 29;special_project_facility_spawn;1880.00;9.70;730.00;0.12;0
@@ -5850,7 +5821,6 @@
 30;anti_air_building;896.00;9.70;749.00;0.78;0
 30;anti_air_building;920.00;9.70;734.00;2.95;0
 30;anti_air_building;937.00;9.70;752.00;1.52;0
-30;synthetic_refinery;881.00;9.70;725.00;0.46;0
 30;radar_station;936.00;9.70;717.00;5.42;0
 30;nuclear_reactor_spawn;938.00;9.70;685.00;4.29;0
 30;special_project_facility_spawn;907.00;9.70;740.00;5.28;0
@@ -6237,7 +6207,6 @@
 31;anti_air_building;3656.00;9.70;1998.00;5.01;0
 31;anti_air_building;3855.00;9.70;2182.00;2.22;0
 31;anti_air_building;3690.00;9.70;2091.00;5.47;0
-31;synthetic_refinery;3711.00;9.70;1908.00;3.50;0
 31;radar_station;3691.00;9.70;2059.00;3.51;0
 31;nuclear_reactor_spawn;3541.00;9.70;2140.00;1.29;0
 31;special_project_facility_spawn;3532.00;9.70;2020.00;3.16;0
@@ -6608,7 +6577,6 @@
 32;anti_air_building;2215.00;9.70;1488.00;2.75;0
 32;anti_air_building;2283.00;9.70;1485.00;3.10;0
 32;anti_air_building;2176.00;9.70;1471.00;5.88;0
-32;synthetic_refinery;2338.00;9.70;1473.00;5.03;0
 32;radar_station;2275.00;9.70;1469.00;2.24;0
 32;nuclear_reactor_spawn;2345.00;9.70;1483.00;0.12;0
 32;special_project_facility_spawn;2180.00;9.70;1484.00;3.07;0
@@ -6776,7 +6744,6 @@
 33;anti_air_building;1081.00;9.70;708.00;2.16;0
 33;anti_air_building;1094.00;9.70;699.00;3.19;0
 33;anti_air_building;1076.00;9.70;722.00;4.61;0
-33;synthetic_refinery;1055.00;9.70;715.00;1.70;0
 33;radar_station;1058.00;9.70;713.00;4.62;0
 33;nuclear_reactor_spawn;1061.00;9.70;710.00;1.99;0
 33;special_project_facility_spawn;1106.00;9.70;722.00;0.75;0
@@ -6905,7 +6872,6 @@
 34;anti_air_building;2342.00;9.70;2223.00;0.99;0
 34;anti_air_building;2360.00;9.70;2204.00;2.71;0
 34;anti_air_building;2344.00;9.70;2225.00;3.55;0
-34;synthetic_refinery;2294.00;9.70;2230.00;0.93;0
 34;radar_station;2330.00;9.70;2238.00;1.01;0
 34;nuclear_reactor_spawn;2319.00;9.70;2261.00;1.39;0
 34;special_project_facility_spawn;2365.00;9.70;2206.00;5.50;0
@@ -7121,7 +7087,6 @@
 36;anti_air_building;1662.00;9.70;621.00;0.82;0
 36;anti_air_building;1670.00;9.70;638.00;3.92;0
 36;anti_air_building;1721.00;9.70;637.00;4.25;0
-36;synthetic_refinery;1762.00;9.70;593.00;2.15;0
 36;radar_station;1711.00;9.70;629.00;4.07;0
 36;nuclear_reactor_spawn;1652.00;9.70;592.00;2.04;0
 36;special_project_facility_spawn;1703.00;9.70;660.00;4.61;0
@@ -7279,7 +7244,6 @@
 37;anti_air_building;2376.00;9.70;1763.00;2.95;0
 37;anti_air_building;2397.00;9.70;1739.00;1.52;0
 37;anti_air_building;2367.00;9.70;1798.00;0.46;0
-37;synthetic_refinery;2351.00;9.70;1767.00;3.61;0
 37;radar_station;2380.00;9.70;1772.00;3.83;0
 37;nuclear_reactor_spawn;2377.00;9.70;1783.00;5.28;0
 37;special_project_facility_spawn;2412.00;9.70;1744.00;3.77;0
@@ -7605,7 +7569,6 @@
 38;anti_air_building;1563.00;9.70;2287.00;0.38;0
 38;anti_air_building;1562.00;9.70;2349.00;4.99;0
 38;anti_air_building;1616.00;9.70;2074.00;5.32;0
-38;synthetic_refinery;1488.00;9.70;2249.00;1.99;0
 38;radar_station;1627.00;9.70;2245.00;2.44;0
 38;nuclear_reactor_spawn;1537.00;9.70;2133.00;2.35;0
 38;special_project_facility_spawn;1675.00;9.70;2355.00;5.89;0
@@ -8013,7 +7976,6 @@
 39;anti_air_building;1470.00;9.70;619.00;1.23;0
 39;anti_air_building;1545.00;9.70;657.00;1.53;0
 39;anti_air_building;1584.00;9.70;662.00;0.46;0
-39;synthetic_refinery;1446.00;9.70;636.00;3.45;0
 39;radar_station;1539.00;9.70;655.00;1.27;0
 39;nuclear_reactor_spawn;1486.00;9.70;636.00;4.71;0
 39;special_project_facility_spawn;1541.00;9.70;691.00;5.53;0
@@ -8234,7 +8196,6 @@
 40;anti_air_building;2253.00;9.70;1548.00;3.85;0
 40;anti_air_building;2260.00;9.70;1514.00;0.63;0
 40;anti_air_building;2178.00;9.70;1519.00;0.99;0
-40;synthetic_refinery;2216.00;9.70;1560.00;1.99;0
 40;radar_station;2227.00;9.70;1542.00;2.70;0
 40;nuclear_reactor_spawn;2211.00;9.70;1519.00;0.46;0
 40;special_project_facility_spawn;2260.00;9.70;1563.00;3.45;0
@@ -8379,7 +8340,6 @@
 41;anti_air_building;2494.00;9.70;1969.00;4.51;0
 41;anti_air_building;2492.00;9.70;1995.00;1.31;0
 41;anti_air_building;2508.00;9.70;1945.00;3.62;0
-41;synthetic_refinery;2507.00;9.70;2000.00;2.74;0
 41;radar_station;2485.00;9.70;1969.00;3.24;0
 41;nuclear_reactor_spawn;2503.00;9.70;1931.00;4.94;0
 41;special_project_facility_spawn;2511.00;9.70;1973.00;0.18;0
@@ -8600,7 +8560,6 @@
 42;anti_air_building;1226.00;9.70;567.00;2.75;0
 42;anti_air_building;1351.00;9.70;638.00;3.10;0
 42;anti_air_building;1303.00;9.70;633.00;5.88;0
-42;synthetic_refinery;1202.00;9.70;573.00;5.03;0
 42;radar_station;1276.00;9.70;616.00;2.24;0
 42;nuclear_reactor_spawn;1213.00;9.70;597.00;0.12;0
 42;special_project_facility_spawn;1297.00;9.70;642.00;3.07;0
@@ -9147,7 +9106,6 @@
 43;anti_air_building;3018.00;9.70;633.00;5.93;0
 43;anti_air_building;3077.00;9.70;588.00;5.86;0
 43;anti_air_building;3026.00;9.70;678.00;3.09;0
-43;synthetic_refinery;3053.00;9.70;450.00;4.03;0
 43;radar_station;3131.00;9.70;576.00;5.01;0
 43;nuclear_reactor_spawn;3200.00;9.70;681.00;2.00;0
 43;special_project_facility_spawn;3023.00;9.70;616.00;2.36;0
@@ -9655,7 +9613,6 @@
 44;anti_air_building;1499.00;9.70;522.00;4.27;0
 44;anti_air_building;1405.00;9.70;535.00;0.82;0
 44;anti_air_building;1384.00;9.70;560.00;1.26;0
-44;synthetic_refinery;1552.00;9.70;532.00;4.28;0
 44;radar_station;1398.00;9.70;561.00;0.93;0
 44;nuclear_reactor_spawn;1361.00;9.70;533.00;2.24;0
 44;special_project_facility_spawn;1531.00;9.70;620.00;1.28;0
@@ -9986,7 +9943,6 @@
 45;anti_air_building;2484.00;9.70;1659.00;0.25;0
 45;anti_air_building;2381.00;9.70;1632.00;1.41;0
 45;anti_air_building;2515.00;9.70;1636.00;1.44;0
-45;synthetic_refinery;2436.00;9.70;1701.00;4.55;0
 45;radar_station;2478.00;9.70;1687.00;0.20;0
 45;nuclear_reactor_spawn;2422.00;9.70;1658.00;3.81;0
 45;special_project_facility_spawn;2441.00;9.70;1700.00;4.96;0
@@ -10138,7 +10094,6 @@
 46;anti_air_building;2506.00;9.70;1805.00;3.55;0
 46;anti_air_building;2481.00;9.70;1793.00;0.93;0
 46;anti_air_building;2468.00;9.70;1779.00;2.51;0
-46;synthetic_refinery;2475.00;9.70;1759.00;4.82;0
 46;radar_station;2470.00;9.70;1792.00;0.62;0
 46;nuclear_reactor_spawn;2477.00;9.70;1803.00;1.68;0
 46;special_project_facility_spawn;2439.00;9.70;1742.00;0.74;0
@@ -10219,7 +10174,6 @@
 47;anti_air_building;2435.00;9.70;2164.00;4.82;0
 47;anti_air_building;2442.00;9.70;2171.00;1.39;0
 47;anti_air_building;2516.00;9.70;2197.00;5.50;0
-47;synthetic_refinery;2467.00;9.70;2193.00;1.68;0
 47;radar_station;2443.00;9.70;2182.00;5.65;0
 47;nuclear_reactor_spawn;2481.00;9.70;2207.00;1.23;0
 47;special_project_facility_spawn;2497.00;9.70;2183.00;1.65;0
@@ -10362,7 +10316,6 @@
 48;anti_air_building;2484.00;9.70;1390.00;2.58;0
 48;anti_air_building;2418.00;9.70;1399.00;5.69;0
 48;anti_air_building;2395.00;9.70;1424.00;0.92;0
-48;synthetic_refinery;2377.00;9.70;1416.00;0.66;0
 48;radar_station;2412.00;9.70;1398.00;2.23;0
 48;nuclear_reactor_spawn;2403.00;9.70;1440.00;4.23;0
 48;special_project_facility_spawn;2422.00;9.70;1399.00;3.15;0
@@ -10474,7 +10427,6 @@
 49;anti_air_building;2577.00;9.70;2213.00;1.53;0
 49;anti_air_building;2550.00;9.70;2229.00;6.26;0
 49;anti_air_building;2577.00;9.70;2197.00;4.51;0
-49;synthetic_refinery;2600.00;9.70;2229.00;1.31;0
 49;radar_station;2609.00;9.70;2220.00;4.43;0
 49;nuclear_reactor_spawn;2554.00;9.70;2246.00;4.91;0
 49;special_project_facility_spawn;2535.00;9.70;2210.00;2.95;0
@@ -10658,7 +10610,6 @@
 50;anti_air_building;1004.00;9.70;1978.00;1.55;0
 50;anti_air_building;985.00;9.70;1987.00;5.01;0
 50;anti_air_building;1044.00;9.70;2036.00;2.23;0
-50;synthetic_refinery;1020.00;9.70;2026.00;3.42;0
 50;radar_station;1036.00;9.50;2056.00;2.24;0
 50;nuclear_reactor_spawn;988.00;9.70;1895.00;4.43;0
 50;special_project_facility_spawn;964.00;9.70;1893.00;1.60;0
@@ -10872,7 +10823,6 @@
 51;anti_air_building;1078.00;9.70;577.00;3.41;0
 51;anti_air_building;1100.00;9.70;585.00;4.65;0
 51;anti_air_building;1073.00;9.70;589.00;5.55;0
-51;synthetic_refinery;1051.00;9.70;579.00;0.91;0
 51;radar_station;1024.00;9.50;596.00;1.84;0
 51;nuclear_reactor_spawn;976.00;9.70;589.00;0.05;0
 51;special_project_facility_spawn;959.00;9.70;613.00;3.30;0
@@ -11646,7 +11596,6 @@
 52;anti_air_building;3140.00;9.70;2094.00;5.94;0
 52;anti_air_building;3327.00;9.70;2022.00;6.17;0
 52;anti_air_building;3287.00;9.70;2015.00;5.42;0
-52;synthetic_refinery;3137.00;9.70;2165.00;2.73;0
 52;radar_station;3251.00;9.70;2125.00;6.25;0
 52;nuclear_reactor_spawn;2976.00;9.70;2176.00;3.90;0
 52;special_project_facility_spawn;3330.00;9.70;2021.00;5.65;0
@@ -12082,7 +12031,6 @@
 53;anti_air_building;2471.00;9.70;592.00;0.65;0
 53;anti_air_building;2448.00;9.70;597.00;3.41;0
 53;anti_air_building;2395.00;9.70;621.00;4.65;0
-53;synthetic_refinery;2437.00;9.70;601.00;5.55;0
 53;radar_station;2453.00;9.70;604.00;5.43;0
 53;nuclear_reactor_spawn;2441.00;9.70;594.00;4.52;0
 53;special_project_facility_spawn;2429.00;9.70;601.00;0.05;0
@@ -12247,7 +12195,6 @@
 54;anti_air_building;2858.00;9.70;603.00;5.43;0
 54;anti_air_building;2837.00;9.70;582.00;3.01;0
 54;anti_air_building;2852.00;9.70;583.00;5.37;0
-54;synthetic_refinery;2827.00;9.70;583.00;2.93;0
 54;radar_station;2871.00;9.70;594.00;2.48;0
 54;nuclear_reactor_spawn;2879.00;9.70;591.00;3.85;0
 54;special_project_facility_spawn;2872.00;9.70;597.00;0.63;0
@@ -12393,7 +12340,6 @@
 55;anti_air_building;2690.00;9.70;2148.00;1.55;0
 55;anti_air_building;2705.00;9.70;2189.00;3.07;0
 55;anti_air_building;2737.00;9.70;2160.00;4.78;0
-55;synthetic_refinery;2702.00;9.70;2161.00;0.62;0
 55;radar_station;2740.00;9.70;2157.00;2.83;0
 55;nuclear_reactor_spawn;2744.00;9.70;2167.00;5.76;0
 55;special_project_facility_spawn;2690.00;9.70;2147.00;0.65;0
@@ -12569,7 +12515,6 @@
 56;anti_air_building;976.00;9.70;385.00;1.76;0
 56;anti_air_building;867.00;9.70;294.00;5.82;0
 56;anti_air_building;827.00;9.70;343.00;1.94;0
-56;synthetic_refinery;1108.00;9.70;493.00;5.71;0
 56;radar_station;926.00;9.70;374.00;2.31;0
 56;nuclear_reactor_spawn;822.00;9.70;295.00;5.01;0
 56;special_project_facility_spawn;750.00;9.70;232.00;2.23;0
@@ -12914,7 +12859,6 @@
 57;anti_air_building;1106.00;9.70;543.00;4.61;0
 57;anti_air_building;1054.00;9.70;547.00;1.94;0
 57;anti_air_building;884.00;9.70;451.00;5.34;0
-57;synthetic_refinery;909.00;9.70;456.00;2.12;0
 57;radar_station;952.00;9.70;475.00;2.66;0
 57;nuclear_reactor_spawn;868.00;9.70;472.00;3.64;0
 57;special_project_facility_spawn;1042.00;9.70;571.00;0.08;0
@@ -13399,7 +13343,6 @@
 58;anti_air_building;1635.00;9.70;534.00;3.37;0
 58;anti_air_building;1749.00;9.70;499.00;5.92;0
 58;anti_air_building;1689.00;9.70;518.00;6.18;0
-58;synthetic_refinery;1707.00;9.70;521.00;5.52;0
 58;radar_station;1702.00;9.70;489.00;2.58;0
 58;nuclear_reactor_spawn;1711.00;9.70;472.00;0.13;0
 58;special_project_facility_spawn;1753.00;9.70;447.00;5.91;0
@@ -13648,7 +13591,6 @@
 59;anti_air_building;2304.00;9.70;1401.00;5.55;0
 59;anti_air_building;2292.00;9.70;1394.00;0.91;0
 59;anti_air_building;2245.00;9.70;1435.00;1.17;0
-59;synthetic_refinery;2254.00;9.70;1417.00;4.52;0
 59;radar_station;2271.00;9.70;1419.00;0.43;0
 59;nuclear_reactor_spawn;2304.00;9.70;1397.00;1.70;0
 59;special_project_facility_spawn;2267.00;9.70;1405.00;2.58;0
@@ -13812,7 +13754,6 @@
 60;anti_air_building;2066.00;9.70;1653.00;4.51;0
 60;anti_air_building;2033.00;9.70;1606.00;4.43;0
 60;anti_air_building;2053.00;9.70;1664.00;1.60;0
-60;synthetic_refinery;2053.00;9.70;1645.00;2.41;0
 60;radar_station;2066.00;9.70;1620.00;6.20;0
 60;nuclear_reactor_spawn;2067.00;9.70;1677.00;1.00;0
 60;special_project_facility_spawn;2017.00;9.70;1612.00;2.11;0
@@ -13942,7 +13883,6 @@
 61;anti_air_building;2720.00;9.70;181.00;5.55;0
 61;anti_air_building;2761.00;9.70;131.00;0.91;0
 61;anti_air_building;2760.00;9.70;142.00;1.17;0
-61;synthetic_refinery;2742.00;9.70;162.00;4.52;0
 61;radar_station;2757.00;9.70;146.00;0.43;0
 61;nuclear_reactor_spawn;2733.00;9.70;113.00;1.70;0
 61;special_project_facility_spawn;2739.00;9.70;148.00;2.58;0
@@ -14115,7 +14055,6 @@
 62;anti_air_building;3116.00;9.70;445.00;2.02;0
 62;anti_air_building;2999.00;9.70;426.00;0.12;0
 62;anti_air_building;2986.00;9.70;368.00;3.07;0
-62;synthetic_refinery;3058.00;9.70;446.00;4.09;0
 62;radar_station;3048.00;9.70;383.00;3.62;0
 62;nuclear_reactor_spawn;3128.00;9.70;469.00;1.13;0
 62;special_project_facility_spawn;3011.00;9.70;340.00;0.14;0
@@ -14302,7 +14241,6 @@
 63;anti_air_building;2454.00;9.70;1420.00;1.94;0
 63;anti_air_building;2511.00;9.70;1432.00;5.71;0
 63;anti_air_building;2506.00;9.70;1396.00;0.36;0
-63;synthetic_refinery;2514.00;9.70;1395.00;1.55;0
 63;radar_station;2442.00;9.70;1449.00;1.37;0
 63;nuclear_reactor_spawn;2502.00;9.70;1445.00;3.42;0
 63;special_project_facility_spawn;2455.00;9.70;1439.00;0.62;0
@@ -14953,7 +14891,6 @@
 64;anti_air_building;3383.00;9.70;360.00;2.26;0
 64;anti_air_building;3508.00;9.70;297.00;3.39;0
 64;anti_air_building;3246.00;9.70;390.00;3.60;0
-64;synthetic_refinery;3474.00;9.70;424.00;1.40;0
 64;radar_station;3371.00;9.70;481.00;4.49;0
 64;nuclear_reactor_spawn;3496.00;9.70;431.00;3.19;0
 64;special_project_facility_spawn;3421.00;9.70;350.00;2.87;0
@@ -15302,7 +15239,6 @@
 65;anti_air_building;2734.00;9.70;255.00;4.78;0
 65;anti_air_building;2749.00;9.70;265.00;0.62;0
 65;anti_air_building;2710.00;9.70;231.00;2.71;0
-65;synthetic_refinery;2735.00;9.70;255.00;2.88;0
 65;radar_station;2731.00;9.70;225.00;2.80;0
 65;nuclear_reactor_spawn;2725.00;9.70;240.00;3.41;0
 65;special_project_facility_spawn;2738.00;9.70;260.00;4.65;0
@@ -15420,7 +15356,6 @@
 66;anti_air_building;2868.00;9.70;119.00;0.82;0
 66;anti_air_building;2839.00;9.70;71.00;3.92;0
 66;anti_air_building;2894.00;9.70;115.00;4.25;0
-66;synthetic_refinery;2830.00;9.70;74.00;2.15;0
 66;radar_station;2877.00;9.70;92.00;4.07;0
 66;nuclear_reactor_spawn;2904.00;9.70;116.00;2.04;0
 66;special_project_facility_spawn;2831.00;9.70;68.00;4.61;0
@@ -15632,7 +15567,6 @@
 67;anti_air_building;2881.00;9.70;144.00;3.39;0
 67;anti_air_building;2811.00;9.70;116.00;0.20;0
 67;anti_air_building;2891.00;9.70;152.00;3.81;0
-67;synthetic_refinery;2771.00;9.70;172.00;4.96;0
 67;radar_station;2822.00;9.70;156.00;5.46;0
 67;nuclear_reactor_spawn;2834.00;9.70;121.00;2.56;0
 67;special_project_facility_spawn;2833.00;9.70;144.00;0.49;0
@@ -15854,7 +15788,6 @@
 68;anti_air_building;2761.00;9.70;215.00;3.07;0
 68;anti_air_building;2778.00;9.70;241.00;4.09;0
 68;anti_air_building;2752.00;9.70;190.00;6.14;0
-68;synthetic_refinery;2764.00;9.70;220.00;1.74;0
 68;radar_station;2802.00;9.70;228.00;3.46;0
 68;nuclear_reactor_spawn;2818.00;9.70;237.00;2.00;0
 68;special_project_facility_spawn;2753.00;9.70;192.00;2.49;0
@@ -16029,7 +15962,6 @@
 69;anti_air_building;2807.00;9.70;275.00;3.85;0
 69;anti_air_building;2811.00;9.70;306.00;6.28;0
 69;anti_air_building;2783.00;9.70;285.00;1.76;0
-69;synthetic_refinery;2804.00;9.70;298.00;5.82;0
 69;radar_station;2793.00;9.70;316.00;5.11;0
 69;nuclear_reactor_spawn;2807.00;9.70;287.00;0.36;0
 69;special_project_facility_spawn;2813.00;9.70;272.00;1.55;0
@@ -16156,7 +16088,6 @@
 70;anti_air_building;2769.00;9.70;381.00;1.99;0
 70;anti_air_building;2786.00;9.70;360.00;1.23;0
 70;anti_air_building;2763.00;9.70;366.00;1.53;0
-70;synthetic_refinery;2751.00;9.70;326.00;0.46;0
 70;radar_station;2763.00;9.70;362.00;1.34;0
 70;nuclear_reactor_spawn;2742.00;9.70;354.00;4.26;0
 70;special_project_facility_spawn;2746.00;9.70;343.00;4.71;0
@@ -16374,7 +16305,6 @@
 71;anti_air_building;2905.00;9.70;261.00;6.03;0
 71;anti_air_building;2870.00;9.70;257.00;3.00;0
 71;anti_air_building;2849.00;9.70;290.00;5.51;0
-71;synthetic_refinery;2919.00;9.70;233.00;0.08;0
 71;radar_station;2885.00;9.70;253.00;5.77;0
 71;nuclear_reactor_spawn;2848.00;9.70;294.00;0.11;0
 71;special_project_facility_spawn;2869.00;9.70;232.00;4.32;0
@@ -16667,7 +16597,6 @@
 72;anti_air_building;2678.00;9.70;293.00;0.21;0
 72;anti_air_building;2742.00;9.70;283.00;3.17;0
 72;anti_air_building;2723.00;9.70;320.00;5.18;0
-72;synthetic_refinery;2665.00;9.70;271.00;1.01;0
 72;radar_station;2696.00;9.70;323.00;5.20;0
 72;nuclear_reactor_spawn;2700.00;9.70;278.00;5.71;0
 72;special_project_facility_spawn;2687.00;9.70;347.00;1.26;0
@@ -16885,7 +16814,6 @@
 73;anti_air_building;2934.00;9.70;339.00;5.03;0
 73;anti_air_building;2943.00;9.70;353.00;2.61;0
 73;anti_air_building;2954.00;9.70;465.00;2.02;0
-73;synthetic_refinery;2952.00;9.70;472.00;0.12;0
 73;radar_station;2945.00;9.70;389.00;4.96;0
 73;nuclear_reactor_spawn;2932.00;9.70;367.00;6.14;0
 73;special_project_facility_spawn;2942.00;9.70;420.00;1.74;0
@@ -17094,7 +17022,6 @@
 74;anti_air_building;2613.00;9.70;299.00;0.02;0
 74;anti_air_building;2533.00;9.70;317.00;0.25;0
 74;anti_air_building;2578.00;9.70;311.00;1.41;0
-74;synthetic_refinery;2533.00;9.70;302.00;1.44;0
 74;radar_station;2541.00;9.70;297.00;4.00;0
 74;nuclear_reactor_spawn;2540.00;9.70;271.00;0.20;0
 74;special_project_facility_spawn;2529.00;9.70;298.00;3.81;0
@@ -17218,7 +17145,6 @@
 75;anti_air_building;2350.00;9.70;455.00;2.58;0
 75;anti_air_building;2352.00;9.70;448.00;2.65;0
 75;anti_air_building;2297.00;9.70;462.00;3.85;0
-75;synthetic_refinery;2365.00;9.70;423.00;0.63;0
 75;radar_station;2332.00;9.70;447.00;1.94;0
 75;nuclear_reactor_spawn;2370.00;9.70;431.00;1.23;0
 75;special_project_facility_spawn;2342.00;9.70;445.00;1.53;0
@@ -17352,7 +17278,6 @@
 76;anti_air_building;1065.00;9.70;1784.00;3.42;0
 76;anti_air_building;1002.00;9.70;1825.00;0.62;0
 76;anti_air_building;999.00;9.70;1855.00;4.51;0
-76;synthetic_refinery;1011.00;9.70;1919.00;4.43;0
 76;radar_station;1047.00;9.70;1841.00;1.47;0
 76;nuclear_reactor_spawn;1084.00;9.70;1790.00;4.22;0
 76;special_project_facility_spawn;1024.00;9.70;1809.00;1.83;0
@@ -17503,7 +17428,6 @@
 77;anti_air_building;2259.00;9.70;446.00;0.97;0
 77;anti_air_building;2269.00;9.70;452.00;2.42;0
 77;anti_air_building;2220.00;9.70;344.00;2.48;0
-77;synthetic_refinery;2216.00;9.70;407.00;4.95;0
 77;radar_station;2229.00;9.70;393.00;0.37;0
 77;nuclear_reactor_spawn;2223.00;9.70;425.00;1.76;0
 77;special_project_facility_spawn;2235.00;9.70;438.00;5.82;0
@@ -17581,7 +17505,6 @@
 78;anti_air_building;3231.00;9.70;37.00;0.60;0
 78;anti_air_building;3327.00;9.70;283.00;3.87;0
 78;anti_air_building;3436.00;9.70;194.00;1.12;0
-78;synthetic_refinery;3289.00;9.70;114.00;5.42;0
 78;radar_station;3348.00;9.70;221.00;2.62;0
 78;nuclear_reactor_spawn;3443.00;9.70;145.00;4.78;0
 78;special_project_facility_spawn;3107.00;9.70;357.00;0.62;0
@@ -17696,7 +17619,6 @@
 79;anti_air_building;2436.00;9.70;395.00;2.02;0
 79;anti_air_building;2438.00;9.70;319.00;0.12;0
 79;anti_air_building;2378.00;9.70;319.00;3.07;0
-79;synthetic_refinery;2437.00;9.70;340.00;4.09;0
 79;radar_station;2407.00;9.70;350.00;3.62;0
 79;nuclear_reactor_spawn;2397.00;9.70;350.00;1.13;0
 79;special_project_facility_spawn;2427.00;9.70;369.00;0.14;0
@@ -17880,7 +17802,6 @@
 80;anti_air_building;2638.00;9.70;2083.00;3.81;0
 80;anti_air_building;2732.00;9.70;2109.00;4.96;0
 80;anti_air_building;2737.00;9.70;2072.00;1.49;0
-80;synthetic_refinery;2659.00;9.70;2139.00;0.48;0
 80;radar_station;2697.00;9.70;2100.00;3.09;0
 80;nuclear_reactor_spawn;2698.00;9.70;2100.00;5.83;0
 80;special_project_facility_spawn;2650.00;9.70;2091.00;6.23;0
@@ -18024,7 +17945,6 @@
 81;anti_air_building;2112.00;9.70;336.00;4.61;0
 81;anti_air_building;2194.00;9.70;333.00;0.97;0
 81;anti_air_building;2197.00;9.70;332.00;2.42;0
-81;synthetic_refinery;2209.00;9.70;327.00;2.48;0
 81;radar_station;2160.00;9.70;329.00;0.85;0
 81;nuclear_reactor_spawn;2204.00;9.70;323.00;6.28;0
 81;special_project_facility_spawn;2137.00;9.70;316.00;1.76;0
@@ -18173,7 +18093,6 @@
 82;anti_air_building;2210.00;9.70;288.00;2.02;0
 82;anti_air_building;2205.00;9.70;299.00;0.12;0
 82;anti_air_building;2132.00;9.70;303.00;3.07;0
-82;synthetic_refinery;2112.00;9.70;314.00;4.09;0
 82;radar_station;2164.00;9.70;294.00;3.62;0
 82;nuclear_reactor_spawn;2113.00;9.70;310.00;1.13;0
 82;special_project_facility_spawn;2199.00;9.70;287.00;0.14;0
@@ -18300,7 +18219,6 @@
 83;anti_air_building;2522.00;9.70;1851.00;1.55;0
 83;anti_air_building;2421.00;9.70;1860.00;5.01;0
 83;anti_air_building;2476.00;9.70;1849.00;2.23;0
-83;synthetic_refinery;2476.00;9.70;1835.00;3.42;0
 83;radar_station;2458.00;9.70;1855.00;2.24;0
 83;nuclear_reactor_spawn;2417.00;9.70;1862.00;4.43;0
 83;special_project_facility_spawn;2449.00;9.70;1877.00;1.60;0
@@ -18437,7 +18355,6 @@
 84;anti_air_building;2095.00;9.70;354.00;4.09;0
 84;anti_air_building;2004.00;9.70;377.00;6.14;0
 84;anti_air_building;2052.00;9.70;345.00;1.74;0
-84;synthetic_refinery;2051.00;9.70;353.00;1.13;0
 84;radar_station;2041.00;9.70;360.00;1.18;0
 84;nuclear_reactor_spawn;2015.00;9.70;360.00;2.49;0
 84;special_project_facility_spawn;2025.00;9.70;371.00;1.07;0
@@ -18603,7 +18520,6 @@
 85;anti_air_building;2002.00;9.70;331.00;1.07;0
 85;anti_air_building;1962.00;9.70;328.00;5.86;0
 85;anti_air_building;2018.00;9.70;326.00;6.20;0
-85;synthetic_refinery;1993.00;9.70;334.00;4.54;0
 85;radar_station;2026.00;9.70;321.00;2.21;0
 85;nuclear_reactor_spawn;2010.00;9.70;320.00;4.87;0
 85;special_project_facility_spawn;2002.00;9.70;324.00;4.02;0
@@ -18782,7 +18698,6 @@
 86;anti_air_building;1914.00;9.70;380.00;2.41;0
 86;anti_air_building;1852.00;9.70;386.00;1.64;0
 86;anti_air_building;1824.00;9.70;404.00;0.03;0
-86;synthetic_refinery;1815.00;9.70;383.00;5.52;0
 86;radar_station;1893.00;9.70;369.00;4.71;0
 86;nuclear_reactor_spawn;1923.00;9.70;380.00;6.13;0
 86;special_project_facility_spawn;1833.00;9.70;405.00;4.65;0
@@ -18895,7 +18810,6 @@
 87;anti_air_building;2822.00;9.50;331.00;1.66;0
 87;anti_air_building;2820.00;9.70;326.00;0.82;0
 87;anti_air_building;2819.00;9.70;363.00;3.92;0
-87;synthetic_refinery;2811.00;9.70;363.00;4.25;0
 87;radar_station;2821.00;9.70;345.00;2.46;0
 87;nuclear_reactor_spawn;2815.00;9.70;341.00;3.94;0
 87;special_project_facility_spawn;2814.00;9.70;356.00;2.04;0
@@ -19121,7 +19035,6 @@
 88;anti_air_building;2910.00;9.70;313.00;4.83;0
 88;anti_air_building;2846.00;9.70;321.00;1.77;0
 88;anti_air_building;2867.00;9.70;362.00;5.95;0
-88;synthetic_refinery;2913.00;9.70;341.00;3.61;0
 88;radar_station;2882.00;9.70;336.00;3.35;0
 88;nuclear_reactor_spawn;2857.00;9.70;348.00;4.99;0
 88;special_project_facility_spawn;2890.00;9.70;363.00;5.32;0
@@ -19353,7 +19266,6 @@
 89;anti_air_building;2350.00;9.70;1713.00;5.83;0
 89;anti_air_building;2374.00;9.70;1689.00;6.23;0
 89;anti_air_building;2356.00;9.70;1661.00;2.41;0
-89;synthetic_refinery;2354.00;9.70;1664.00;1.64;0
 89;radar_station;2335.00;9.70;1693.00;4.10;0
 89;nuclear_reactor_spawn;2349.00;9.70;1674.00;2.01;0
 89;special_project_facility_spawn;2364.00;9.70;1694.00;2.36;0
@@ -19563,7 +19475,6 @@
 90;anti_air_building;1803.00;9.70;413.00;3.60;0
 90;anti_air_building;1770.00;9.70;396.00;2.55;0
 90;anti_air_building;1782.00;9.70;434.00;3.44;0
-90;synthetic_refinery;1780.00;9.70;418.00;1.92;0
 90;radar_station;1791.00;9.70;427.00;2.92;0
 90;nuclear_reactor_spawn;1778.00;9.70;406.00;2.44;0
 90;special_project_facility_spawn;1820.00;9.70;398.00;4.80;0
@@ -19856,7 +19767,6 @@
 91;anti_air_building;1927.00;9.70;442.00;0.08;0
 91;anti_air_building;1949.00;9.70;439.00;3.76;0
 91;anti_air_building;1854.00;9.70;458.00;6.14;0
-91;synthetic_refinery;1904.00;9.70;399.00;2.43;0
 91;radar_station;1913.00;9.70;413.00;2.93;0
 91;nuclear_reactor_spawn;1961.00;9.70;396.00;6.24;0
 91;special_project_facility_spawn;1951.00;9.70;402.00;5.09;0
@@ -20006,7 +19916,6 @@
 92;anti_air_building;1002.00;9.70;1748.00;3.15;0
 92;anti_air_building;1010.00;9.70;1749.00;5.43;0
 92;anti_air_building;1014.00;9.70;1751.00;3.01;0
-92;synthetic_refinery;1009.00;9.70;1750.00;5.37;0
 92;radar_station;1010.00;9.70;1753.00;1.77;0
 92;nuclear_reactor_spawn;1002.00;9.70;1748.00;2.65;0
 92;special_project_facility_spawn;1016.00;9.70;1761.00;3.85;0
@@ -20151,7 +20060,6 @@
 93;anti_air_building;1549.00;9.70;1603.00;4.69;0
 93;anti_air_building;1563.00;9.70;1655.00;0.21;0
 93;anti_air_building;1521.00;9.70;1618.00;3.17;0
-93;synthetic_refinery;1522.00;9.70;1683.00;5.18;0
 93;radar_station;1529.00;9.70;1651.00;5.79;0
 93;nuclear_reactor_spawn;1555.00;9.70;1608.00;5.27;0
 93;special_project_facility_spawn;1539.00;9.70;1609.00;5.71;0
@@ -20309,7 +20217,6 @@
 94;anti_air_building;2794.00;9.70;72.00;2.41;0
 94;anti_air_building;2817.00;9.70;92.00;4.22;0
 94;anti_air_building;2807.00;9.70;49.00;1.83;0
-94;synthetic_refinery;2818.00;9.70;98.00;1.00;0
 94;radar_station;2785.00;9.70;73.00;4.93;0
 94;nuclear_reactor_spawn;2803.00;9.70;90.00;0.19;0
 94;special_project_facility_spawn;2772.00;9.70;88.00;2.75;0
@@ -20487,7 +20394,6 @@
 95;anti_air_building;2597.00;9.70;374.00;2.44;0
 95;anti_air_building;2499.00;9.70;361.00;4.80;0
 95;anti_air_building;2625.00;9.70;326.00;5.52;0
-95;synthetic_refinery;2484.00;9.70;391.00;6.18;0
 95;radar_station;2541.00;9.70;359.00;4.10;0
 95;nuclear_reactor_spawn;2499.00;9.70;348.00;3.20;0
 95;special_project_facility_spawn;2523.00;9.70;376.00;0.83;0
@@ -20595,7 +20501,6 @@
 96;anti_air_building;1671.00;9.70;264.00;1.99;0
 96;anti_air_building;2090.00;9.70;283.00;1.23;0
 96;anti_air_building;860.00;9.70;181.00;1.53;0
-96;synthetic_refinery;2294.00;9.70;167.00;0.46;0
 96;radar_station;1618.00;9.70;256.00;1.34;0
 96;nuclear_reactor_spawn;1872.00;9.70;341.00;4.26;0
 96;special_project_facility_spawn;2593.00;9.70;5.00;4.71;0
@@ -20699,7 +20604,6 @@
 97;anti_air_building;1426.00;9.70;1478.00;4.55;0
 97;anti_air_building;1383.00;9.70;1511.00;3.39;0
 97;anti_air_building;1314.00;9.70;1519.00;0.20;0
-97;synthetic_refinery;1340.00;9.70;1473.00;3.81;0
 97;radar_station;1375.00;9.70;1506.00;4.82;0
 97;nuclear_reactor_spawn;1326.00;9.70;1490.00;0.48;0
 97;special_project_facility_spawn;1342.00;9.70;1480.00;2.56;0
@@ -20810,7 +20714,6 @@
 98;anti_air_building;2458.00;9.70;2095.00;4.43;0
 98;anti_air_building;2445.00;9.70;2113.00;1.60;0
 98;anti_air_building;2423.00;9.70;2111.00;2.41;0
-98;synthetic_refinery;2430.00;9.70;2107.00;4.22;0
 98;radar_station;2438.00;9.70;2100.00;5.45;0
 98;nuclear_reactor_spawn;2472.00;9.70;2109.00;2.11;0
 98;special_project_facility_spawn;2389.00;9.70;2099.00;3.60;0
@@ -20886,7 +20789,6 @@
 99;anti_air_building;3922.00;9.70;26.00;1.76;0
 99;anti_air_building;3941.00;9.70;46.00;5.82;0
 99;anti_air_building;3931.00;9.70;42.00;1.94;0
-99;synthetic_refinery;3919.00;9.70;15.00;5.71;0
 99;radar_station;3895.00;9.50;25.00;2.31;0
 99;nuclear_reactor_spawn;3947.00;9.70;33.00;5.01;0
 99;special_project_facility_spawn;3938.00;9.70;47.00;2.23;0
@@ -20948,7 +20850,6 @@
 100;anti_air_building;3733.00;9.70;49.00;4.61;0
 100;anti_air_building;3739.00;9.70;24.00;0.97;0
 100;anti_air_building;3747.00;9.70;53.00;2.42;0
-100;synthetic_refinery;3741.00;9.70;75.00;2.48;0
 100;radar_station;3740.00;9.70;50.00;0.85;0
 100;nuclear_reactor_spawn;3727.00;9.70;65.00;6.28;0
 100;special_project_facility_spawn;3747.00;9.70;47.00;1.76;0
@@ -21042,7 +20943,6 @@
 101;anti_air_building;2425.00;9.70;1756.00;5.86;0
 101;anti_air_building;2435.00;9.70;1767.00;6.20;0
 101;anti_air_building;2399.00;9.70;1810.00;4.54;0
-101;synthetic_refinery;2375.00;9.70;1812.00;4.35;0
 101;radar_station;2427.00;9.70;1799.00;1.09;0
 101;nuclear_reactor_spawn;2407.00;9.70;1821.00;4.02;0
 101;special_project_facility_spawn;2446.00;9.70;1834.00;2.27;0
@@ -21165,7 +21065,6 @@
 102;anti_air_building;2555.00;9.70;2046.00;4.96;0
 102;anti_air_building;2519.00;9.70;2070.00;1.49;0
 102;anti_air_building;2525.00;9.70;2055.00;0.48;0
-102;synthetic_refinery;2546.00;9.70;2061.00;2.56;0
 102;radar_station;2539.00;9.70;2084.00;2.51;0
 102;nuclear_reactor_spawn;2575.00;9.70;2115.00;6.23;0
 102;special_project_facility_spawn;2550.00;9.70;2082.00;2.41;0
@@ -21295,7 +21194,6 @@
 103;anti_air_building;2295.00;9.70;1966.00;0.02;0
 103;anti_air_building;2340.00;9.70;1982.00;0.25;0
 103;anti_air_building;2315.00;9.70;1941.00;1.41;0
-103;synthetic_refinery;2310.00;9.70;1961.00;1.44;0
 103;radar_station;2305.00;9.70;1938.00;4.00;0
 103;nuclear_reactor_spawn;2325.00;9.70;1918.00;0.20;0
 103;special_project_facility_spawn;2291.00;9.70;1901.00;3.81;0
@@ -21452,7 +21350,6 @@
 104;anti_air_building;2539.00;9.70;1863.00;3.00;0
 104;anti_air_building;2387.00;9.70;1937.00;5.51;0
 104;anti_air_building;2475.00;9.70;1898.00;0.08;0
-104;synthetic_refinery;2385.00;9.70;1899.00;4.47;0
 104;radar_station;2449.00;9.70;1915.00;4.00;0
 104;nuclear_reactor_spawn;2414.00;9.70;1935.00;4.32;0
 104;special_project_facility_spawn;2371.00;9.70;1911.00;2.19;0
@@ -21618,7 +21515,6 @@
 105;anti_air_building;2526.00;9.70;1925.00;0.11;0
 105;anti_air_building;2595.00;9.70;1907.00;0.11;0
 105;anti_air_building;2568.00;9.70;1977.00;4.32;0
-105;synthetic_refinery;2518.00;9.70;1911.00;2.19;0
 105;radar_station;2556.00;9.70;1924.00;4.63;0
 105;nuclear_reactor_spawn;2506.00;9.70;1915.00;0.21;0
 105;special_project_facility_spawn;2599.00;9.70;1916.00;3.17;0
@@ -21806,7 +21702,6 @@
 106;anti_air_building;1612.00;9.70;1102.00;3.79;0
 106;anti_air_building;1613.00;9.70;1186.00;5.95;0
 106;anti_air_building;1599.00;9.70;1113.00;2.24;0
-106;synthetic_refinery;1618.00;9.70;1101.00;2.72;0
 106;radar_station;1628.00;9.70;1157.00;1.88;0
 106;nuclear_reactor_spawn;1575.00;9.70;1174.00;0.82;0
 106;special_project_facility_spawn;1659.00;9.70;1153.00;1.26;0
@@ -22008,7 +21903,6 @@
 107;anti_air_building;1707.00;9.70;1206.00;3.13;0
 107;anti_air_building;1694.00;9.70;1206.00;2.95;0
 107;anti_air_building;1649.00;9.70;1225.00;2.44;0
-107;synthetic_refinery;1724.00;9.70;1222.00;4.80;0
 107;radar_station;1701.00;9.70;1211.00;5.08;0
 107;nuclear_reactor_spawn;1700.00;9.70;1197.00;5.53;0
 107;special_project_facility_spawn;1701.00;9.70;1180.00;3.67;0
@@ -22173,7 +22067,6 @@
 108;anti_air_building;1776.00;9.70;1081.00;0.21;0
 108;anti_air_building;1746.00;9.70;1084.00;3.17;0
 108;anti_air_building;1775.00;9.70;1030.00;5.18;0
-108;synthetic_refinery;1771.00;9.70;1100.00;1.01;0
 108;radar_station;1759.00;9.70;1069.00;5.20;0
 108;nuclear_reactor_spawn;1750.00;9.70;1058.00;5.71;0
 108;special_project_facility_spawn;1810.00;9.70;1042.00;1.26;0
@@ -22378,7 +22271,6 @@
 109;anti_air_building;1774.00;9.70;1198.00;2.24;0
 109;anti_air_building;1870.00;9.70;1208.00;2.72;0
 109;anti_air_building;1823.00;9.70;1208.00;1.78;0
-109;synthetic_refinery;1822.00;9.70;1183.00;4.27;0
 109;radar_station;1828.00;9.70;1210.00;3.51;0
 109;nuclear_reactor_spawn;1859.00;9.70;1203.00;4.28;0
 109;special_project_facility_spawn;1831.00;9.70;1228.00;2.29;0
@@ -22567,7 +22459,6 @@
 110;anti_air_building;1832.00;9.70;1105.00;0.33;0
 110;anti_air_building;1773.00;9.70;1124.00;5.27;0
 110;anti_air_building;1724.00;9.70;1157.00;5.71;0
-110;synthetic_refinery;1790.00;9.70;1134.00;1.26;0
 110;radar_station;1771.00;9.70;1130.00;2.33;0
 110;nuclear_reactor_spawn;1715.00;9.70;1134.00;3.44;0
 110;special_project_facility_spawn;1700.00;9.70;1168.00;1.92;0
@@ -22717,7 +22608,6 @@
 111;anti_air_building;1892.00;9.70;944.00;0.08;0
 111;anti_air_building;1859.00;9.70;964.00;4.47;0
 111;anti_air_building;1838.00;9.70;974.00;0.11;0
-111;synthetic_refinery;1879.00;9.70;966.00;0.11;0
 111;radar_station;1857.00;9.70;991.00;0.18;0
 111;nuclear_reactor_spawn;1861.00;9.70;975.00;3.25;0
 111;special_project_facility_spawn;1858.00;9.70;994.00;4.69;0
@@ -22911,7 +22801,6 @@
 112;anti_air_building;1842.00;9.70;1058.00;4.78;0
 112;anti_air_building;1846.00;9.70;1090.00;3.22;0
 112;anti_air_building;1889.00;9.70;1077.00;4.07;0
-112;synthetic_refinery;1871.00;9.70;1080.00;0.19;0
 112;radar_station;1884.00;9.70;1026.00;4.17;0
 112;nuclear_reactor_spawn;1864.00;9.70;1095.00;1.09;0
 112;special_project_facility_spawn;1959.00;9.70;969.00;1.30;0
@@ -23110,7 +22999,6 @@
 113;anti_air_building;2610.00;9.50;2854.00;5.52;0
 113;anti_air_building;2431.00;9.70;2759.00;6.18;0
 113;anti_air_building;2594.00;9.70;2943.00;5.53;0
-113;synthetic_refinery;2590.00;9.70;2839.00;3.67;0
 113;radar_station;2473.00;9.70;2775.00;0.87;0
 113;nuclear_reactor_spawn;2641.00;9.70;2739.00;4.71;0
 113;special_project_facility_spawn;2537.00;9.70;2751.00;1.96;0
@@ -23252,7 +23140,6 @@
 114;anti_air_building;1995.00;9.70;883.00;3.00;0
 114;anti_air_building;2043.00;9.70;900.00;5.51;0
 114;anti_air_building;1997.00;9.70;930.00;0.08;0
-114;synthetic_refinery;2004.00;9.70;915.00;4.47;0
 114;radar_station;1983.00;9.70;910.00;4.00;0
 114;nuclear_reactor_spawn;1978.00;9.70;919.00;4.32;0
 114;special_project_facility_spawn;1925.00;9.70;925.00;2.19;0
@@ -23417,7 +23304,6 @@
 115;anti_air_building;2000.00;9.70;959.00;2.44;0
 115;anti_air_building;2059.00;9.70;928.00;4.80;0
 115;anti_air_building;2114.00;9.70;881.00;5.52;0
-115;synthetic_refinery;2008.00;9.70;944.00;6.18;0
 115;radar_station;2053.00;9.70;934.00;4.10;0
 115;nuclear_reactor_spawn;2059.00;9.70;902.00;3.20;0
 115;special_project_facility_spawn;2081.00;9.70;899.00;0.83;0
@@ -23559,7 +23445,6 @@
 116;anti_air_building;1827.00;9.70;1262.00;1.41;0
 116;anti_air_building;1773.00;9.70;1222.00;1.44;0
 116;anti_air_building;1758.00;9.70;1250.00;4.55;0
-116;synthetic_refinery;1813.00;9.70;1247.00;3.39;0
 116;radar_station;1791.00;9.70;1239.00;0.64;0
 116;nuclear_reactor_spawn;1789.00;9.70;1227.00;4.96;0
 116;special_project_facility_spawn;1794.00;9.70;1235.00;1.49;0
@@ -23758,7 +23643,6 @@
 117;anti_air_building;1672.00;9.70;913.00;2.22;0
 117;anti_air_building;1660.00;9.70;889.00;5.47;0
 117;anti_air_building;1701.00;9.70;837.00;3.50;0
-117;synthetic_refinery;1657.00;9.70;825.00;2.80;0
 117;radar_station;1673.00;9.70;873.00;1.92;0
 117;nuclear_reactor_spawn;1638.00;9.70;909.00;3.16;0
 117;special_project_facility_spawn;1691.00;9.70;900.00;4.73;0
@@ -23966,7 +23850,6 @@
 118;anti_air_building;1671.00;9.70;976.00;4.47;0
 118;anti_air_building;1686.00;9.70;1002.00;0.11;0
 118;anti_air_building;1682.00;9.70;1027.00;0.11;0
-118;synthetic_refinery;1680.00;9.70;951.00;4.32;0
 118;radar_station;1676.00;9.70;997.00;5.51;0
 118;nuclear_reactor_spawn;1680.00;9.70;983.00;4.69;0
 118;special_project_facility_spawn;1677.00;9.70;966.00;0.21;0
@@ -24192,7 +24075,6 @@
 119;anti_air_building;2020.00;9.70;1470.00;2.26;0
 119;anti_air_building;2002.00;9.70;1487.00;1.29;0
 119;anti_air_building;2018.00;9.70;1496.00;1.51;0
-119;synthetic_refinery;1935.00;9.70;1485.00;4.40;0
 119;radar_station;1956.00;9.70;1458.00;2.09;0
 119;nuclear_reactor_spawn;1966.00;9.70;1508.00;5.01;0
 119;special_project_facility_spawn;1972.00;9.70;1490.00;2.22;0
@@ -24324,7 +24206,6 @@
 120;anti_air_building;2092.00;9.70;1465.00;4.96;0
 120;anti_air_building;2120.00;9.70;1455.00;1.49;0
 120;anti_air_building;2114.00;9.70;1466.00;0.48;0
-120;synthetic_refinery;2072.00;9.70;1476.00;2.56;0
 120;radar_station;2083.00;9.70;1475.00;2.51;0
 120;nuclear_reactor_spawn;2076.00;9.70;1476.00;6.23;0
 120;special_project_facility_spawn;2093.00;9.70;1485.00;2.41;0
@@ -24439,7 +24320,6 @@
 121;anti_air_building;2069.00;9.70;1445.00;3.44;0
 121;anti_air_building;2087.00;9.70;1446.00;1.92;0
 121;anti_air_building;2104.00;9.70;1414.00;3.13;0
-121;synthetic_refinery;2027.00;9.70;1411.00;2.95;0
 121;radar_station;2067.00;9.70;1429.00;1.75;0
 121;nuclear_reactor_spawn;2080.00;9.70;1424.00;5.52;0
 121;special_project_facility_spawn;2033.00;9.70;1428.00;6.18;0
@@ -24601,7 +24481,6 @@
 122;anti_air_building;1869.00;9.70;1461.00;3.22;0
 122;anti_air_building;1973.00;9.70;1536.00;4.07;0
 122;anti_air_building;1916.00;9.70;1409.00;0.19;0
-122;synthetic_refinery;1951.00;9.70;1524.00;3.56;0
 122;radar_station;1943.00;9.70;1503.00;3.61;0
 122;nuclear_reactor_spawn;1965.00;9.70;1528.00;1.30;0
 122;special_project_facility_spawn;2008.00;9.70;1407.00;4.69;0
@@ -24801,7 +24680,6 @@
 123;anti_air_building;2089.00;9.70;1373.00;2.12;0
 123;anti_air_building;2170.00;9.70;1392.00;1.50;0
 123;anti_air_building;2150.00;9.70;1423.00;6.24;0
-123;synthetic_refinery;2166.00;9.70;1403.00;3.64;0
 123;radar_station;2152.00;9.70;1405.00;4.28;0
 123;nuclear_reactor_spawn;2147.00;9.70;1417.00;6.14;0
 123;special_project_facility_spawn;2135.00;9.70;1388.00;2.43;0
@@ -24933,7 +24811,6 @@
 124;anti_air_building;2267.00;9.70;1383.00;4.08;0
 124;anti_air_building;2240.00;9.70;1390.00;6.03;0
 124;anti_air_building;2203.00;9.70;1369.00;3.00;0
-124;synthetic_refinery;2114.00;9.70;1338.00;5.51;0
 124;radar_station;2198.00;9.70;1366.00;3.68;0
 124;nuclear_reactor_spawn;2133.00;9.70;1345.00;0.11;0
 124;special_project_facility_spawn;2222.00;9.70;1372.00;0.11;0
@@ -25021,7 +24898,6 @@
 125;anti_air_building;2410.00;9.70;2040.00;0.43;0
 125;anti_air_building;2389.00;9.70;2076.00;6.01;0
 125;anti_air_building;2427.00;9.70;2076.00;4.08;0
-125;synthetic_refinery;2449.00;9.70;2059.00;6.03;0
 125;radar_station;2428.00;9.70;2047.00;4.86;0
 125;nuclear_reactor_spawn;2407.00;9.70;2074.00;0.08;0
 125;special_project_facility_spawn;2412.00;9.70;2072.00;4.47;0
@@ -25077,7 +24953,6 @@
 126;anti_air_building;1661.00;9.70;1321.00;1.74;0
 126;anti_air_building;1574.00;9.70;1259.00;1.13;0
 126;anti_air_building;1673.00;9.70;1318.00;0.14;0
-126;synthetic_refinery;1701.00;9.70;1297.00;2.00;0
 126;radar_station;1636.00;9.70;1272.00;1.87;0
 126;nuclear_reactor_spawn;1584.00;9.70;1255.00;5.86;0
 126;special_project_facility_spawn;1582.00;9.70;1296.00;6.20;0
@@ -25134,7 +25009,6 @@
 127;anti_air_building;2317.00;9.70;2016.00;2.36;0
 127;anti_air_building;2344.00;9.70;2047.00;6.13;0
 127;anti_air_building;2319.00;9.70;2038.00;4.65;0
-127;synthetic_refinery;2337.00;9.70;2035.00;1.05;0
 127;radar_station;2341.00;9.70;2050.00;5.38;0
 127;nuclear_reactor_spawn;2344.00;9.70;2044.00;4.08;0
 127;special_project_facility_spawn;2336.00;9.70;2074.00;6.03;0
@@ -25359,7 +25233,6 @@
 128;anti_air_building;1994.00;9.70;1170.00;5.91;0
 128;anti_air_building;2009.00;9.70;1144.00;5.54;0
 128;anti_air_building;2049.00;9.70;1095.00;0.48;0
-128;synthetic_refinery;2051.00;9.70;1081.00;5.79;0
 128;radar_station;2037.00;9.70;1107.00;0.52;0
 128;nuclear_reactor_spawn;2002.00;9.70;1119.00;5.57;0
 128;special_project_facility_spawn;2016.00;9.70;1087.00;1.77;0
@@ -25628,7 +25501,6 @@
 129;anti_air_building;2118.00;9.70;1194.00;0.46;0
 129;anti_air_building;2033.00;9.70;1243.00;4.61;0
 129;anti_air_building;2013.00;9.70;1234.00;1.94;0
-129;synthetic_refinery;2106.00;9.70;1176.00;5.34;0
 129;radar_station;2107.00;9.70;1196.00;5.37;0
 129;nuclear_reactor_spawn;2151.00;9.70;1172.00;6.24;0
 129;special_project_facility_spawn;2030.00;9.70;1215.00;3.64;0
@@ -25744,7 +25616,6 @@
 130;anti_air_building;2196.00;9.70;1233.00;0.08;0
 130;anti_air_building;2192.00;9.70;1216.00;4.47;0
 130;anti_air_building;2186.00;9.70;1220.00;0.11;0
-130;synthetic_refinery;2200.00;9.70;1226.00;0.11;0
 130;radar_station;2181.00;9.70;1206.00;0.18;0
 130;nuclear_reactor_spawn;2194.00;9.70;1212.00;3.25;0
 130;special_project_facility_spawn;2193.00;9.70;1190.00;4.69;0
@@ -25850,7 +25721,6 @@
 131;anti_air_building;1935.00;9.70;1196.00;3.20;0
 131;anti_air_building;1913.00;9.70;1214.00;0.83;0
 131;anti_air_building;1913.00;9.70;1214.00;4.71;0
-131;synthetic_refinery;1927.00;9.70;1187.00;1.96;0
 131;radar_station;1914.00;9.70;1196.00;5.03;0
 131;nuclear_reactor_spawn;1924.00;9.70;1177.00;3.79;0
 131;special_project_facility_spawn;1927.00;9.70;1196.00;5.95;0
@@ -25924,7 +25794,6 @@
 132;anti_air_building;1981.00;9.70;1111.00;2.27;0
 132;anti_air_building;1981.00;9.70;1112.00;2.34;0
 132;anti_air_building;1980.00;9.70;1115.00;1.40;0
-132;synthetic_refinery;1979.00;9.70;1114.00;0.02;0
 132;radar_station;1980.00;9.70;1113.00;3.46;0
 132;nuclear_reactor_spawn;1980.00;9.70;1112.00;1.44;0
 132;special_project_facility_spawn;1981.00;9.70;1111.00;4.55;0
@@ -26025,7 +25894,6 @@
 133;anti_air_building;1994.00;9.70;1238.00;2.46;0
 133;anti_air_building;1942.00;9.70;1243.00;2.24;0
 133;anti_air_building;1980.00;9.70;1250.00;1.28;0
-133;synthetic_refinery;2023.00;9.70;1261.00;4.78;0
 133;radar_station;1982.00;9.70;1235.00;4.10;0
 133;nuclear_reactor_spawn;1936.00;9.70;1234.00;0.19;0
 133;special_project_facility_spawn;1975.00;9.70;1206.00;3.56;0
@@ -26303,7 +26171,6 @@
 134;anti_air_building;2030.00;9.70;1174.00;1.63;0
 134;anti_air_building;2161.00;9.70;1143.00;4.82;0
 134;anti_air_building;2152.00;9.70;1073.00;4.27;0
-134;synthetic_refinery;2165.00;9.70;1138.00;2.94;0
 134;radar_station;2099.00;9.70;1100.00;3.37;0
 134;nuclear_reactor_spawn;2034.00;9.70;1120.00;3.09;0
 134;special_project_facility_spawn;2141.00;9.70;1104.00;4.03;0
@@ -26633,7 +26500,6 @@
 135;anti_air_building;1648.00;9.70;1840.00;3.36;0
 135;anti_air_building;1649.00;9.70;1813.00;3.55;0
 135;anti_air_building;1728.00;9.70;1948.00;2.99;0
-135;synthetic_refinery;1656.00;9.70;1948.00;1.07;0
 135;radar_station;1705.00;9.70;1894.00;3.49;0
 135;nuclear_reactor_spawn;1729.00;9.70;1969.00;6.09;0
 135;special_project_facility_spawn;1665.00;9.70;1885.00;2.78;0
@@ -26907,7 +26773,6 @@
 136;anti_air_building;2303.00;9.70;1140.00;0.38;0
 136;anti_air_building;2264.00;9.70;1102.00;4.99;0
 136;anti_air_building;2311.00;9.70;1118.00;5.32;0
-136;synthetic_refinery;2229.00;9.70;1117.00;1.99;0
 136;radar_station;2243.00;9.70;1123.00;2.44;0
 136;nuclear_reactor_spawn;2280.00;9.70;1144.00;2.35;0
 136;special_project_facility_spawn;2265.00;9.70;1121.00;5.89;0
@@ -27108,7 +26973,6 @@
 137;anti_air_building;2199.00;9.70;1092.00;4.25;0
 137;anti_air_building;2219.00;9.70;1059.00;2.90;0
 137;anti_air_building;2212.00;9.70;1061.00;5.06;0
-137;synthetic_refinery;2234.00;9.70;1091.00;1.21;0
 137;radar_station;2260.00;9.70;1086.00;4.78;0
 137;nuclear_reactor_spawn;2327.00;9.70;1094.00;3.92;0
 137;special_project_facility_spawn;2333.00;9.70;1144.00;3.07;0
@@ -27328,7 +27192,6 @@
 138;anti_air_building;2655.00;9.70;2022.00;5.97;0
 138;anti_air_building;2739.00;9.70;2048.00;4.66;0
 138;anti_air_building;2668.00;9.70;2036.00;4.25;0
-138;synthetic_refinery;2682.00;9.70;2030.00;2.90;0
 138;radar_station;2681.00;9.70;2021.00;0.08;0
 138;nuclear_reactor_spawn;2752.00;9.70;2074.00;5.20;0
 138;special_project_facility_spawn;2655.00;9.70;2011.00;0.18;0
@@ -27444,7 +27307,6 @@
 139;anti_air_building;2255.00;9.70;1161.00;0.21;0
 139;anti_air_building;2229.00;9.70;1190.00;3.17;0
 139;anti_air_building;2259.00;9.70;1164.00;5.18;0
-139;synthetic_refinery;2256.00;9.70;1176.00;1.01;0
 139;radar_station;2252.00;9.70;1190.00;5.20;0
 139;nuclear_reactor_spawn;2246.00;9.70;1167.00;5.71;0
 139;special_project_facility_spawn;2276.00;9.70;1169.00;1.26;0
@@ -27527,7 +27389,6 @@
 140;anti_air_building;2247.00;9.70;996.00;3.20;0
 140;anti_air_building;2238.00;9.70;1032.00;0.83;0
 140;anti_air_building;2252.00;9.70;1026.00;4.71;0
-140;synthetic_refinery;2274.00;9.70;1015.00;1.96;0
 140;radar_station;2255.00;9.70;1017.00;5.03;0
 140;nuclear_reactor_spawn;2288.00;9.70;1016.00;3.79;0
 140;special_project_facility_spawn;2277.00;9.70;1009.00;5.95;0
@@ -27638,7 +27499,6 @@
 141;anti_air_building;2161.00;9.70;1037.00;4.07;0
 141;anti_air_building;2175.00;9.70;1020.00;0.19;0
 141;anti_air_building;2188.00;9.70;1055.00;3.56;0
-141;synthetic_refinery;2159.00;9.70;1052.00;0.39;0
 141;radar_station;2184.00;9.70;1028.00;2.77;0
 141;nuclear_reactor_spawn;2184.00;9.70;1042.00;4.69;0
 141;special_project_facility_spawn;2191.00;9.70;1018.00;2.22;0
@@ -27795,7 +27655,6 @@
 142;anti_air_building;2307.00;9.70;988.00;6.14;0
 142;anti_air_building;2276.00;9.70;986.00;2.43;0
 142;anti_air_building;2254.00;9.70;950.00;0.45;0
-142;synthetic_refinery;2354.00;9.70;974.00;4.14;0
 142;radar_station;2298.00;9.70;961.00;0.48;0
 142;nuclear_reactor_spawn;2256.00;9.70;934.00;2.26;0
 142;special_project_facility_spawn;2285.00;9.70;995.00;1.29;0
@@ -27978,7 +27837,6 @@
 143;anti_air_building;1052.00;9.70;1529.00;3.65;0
 143;anti_air_building;1041.00;9.70;1524.00;4.27;0
 143;anti_air_building;1086.00;9.70;1530.00;5.69;0
-143;synthetic_refinery;1018.00;9.70;1510.00;3.12;0
 143;radar_station;1051.00;9.70;1523.00;1.30;0
 143;nuclear_reactor_spawn;1069.00;9.70;1549.00;4.79;0
 143;special_project_facility_spawn;1018.00;9.70;1517.00;5.97;0
@@ -28229,7 +28087,6 @@
 144;anti_air_building;3032.00;9.70;1923.00;3.37;0
 144;anti_air_building;3046.00;9.70;1983.00;5.92;0
 144;anti_air_building;3042.00;9.70;2070.00;6.18;0
-144;synthetic_refinery;3001.00;9.70;1969.00;5.52;0
 144;radar_station;3037.00;9.70;1985.00;2.58;0
 144;nuclear_reactor_spawn;2981.00;9.70;1906.00;0.13;0
 144;special_project_facility_spawn;3034.00;9.70;1944.00;5.91;0
@@ -28388,7 +28245,6 @@
 145;anti_air_building;2398.00;9.70;897.00;1.99;0
 145;anti_air_building;2352.00;9.70;936.00;2.42;0
 145;anti_air_building;2363.00;9.70;892.00;0.82;0
-145;synthetic_refinery;2363.00;9.70;900.00;2.35;0
 145;radar_station;2362.00;9.70;909.00;4.15;0
 145;nuclear_reactor_spawn;2417.00;9.70;932.00;4.61;0
 145;special_project_facility_spawn;2388.00;9.70;893.00;1.94;0
@@ -28514,7 +28370,6 @@
 146;anti_air_building;2526.00;9.70;962.00;2.46;0
 146;anti_air_building;2440.00;9.70;930.00;2.24;0
 146;anti_air_building;2478.00;9.70;930.00;1.28;0
-146;synthetic_refinery;2525.00;9.70;955.00;4.78;0
 146;radar_station;2470.00;9.70;937.00;4.10;0
 146;nuclear_reactor_spawn;2489.00;9.70;922.00;0.19;0
 146;special_project_facility_spawn;2477.00;9.70;939.00;3.56;0
@@ -28612,7 +28467,6 @@
 147;anti_air_building;2606.00;9.70;661.00;3.79;0
 147;anti_air_building;2606.00;9.70;652.00;5.95;0
 147;anti_air_building;2572.00;9.70;667.00;2.24;0
-147;synthetic_refinery;2603.00;9.70;655.00;2.72;0
 147;radar_station;2573.00;9.50;664.00;1.88;0
 147;nuclear_reactor_spawn;2608.00;9.70;657.00;0.82;0
 147;special_project_facility_spawn;2593.00;9.70;651.00;1.26;0
@@ -28729,7 +28583,6 @@
 148;anti_air_building;2472.00;9.70;2058.00;4.69;0
 148;anti_air_building;2476.00;9.70;2034.00;2.22;0
 148;anti_air_building;2599.00;9.70;1996.00;4.83;0
-148;synthetic_refinery;2519.00;9.70;2013.00;1.77;0
 148;radar_station;2532.00;9.70;2026.00;3.39;0
 148;nuclear_reactor_spawn;2490.00;9.70;2042.00;3.10;0
 148;special_project_facility_spawn;2518.00;9.70;2006.00;0.38;0
@@ -28844,7 +28697,6 @@
 149;anti_air_building;2394.00;9.70;1061.00;1.99;0
 149;anti_air_building;2335.00;9.70;1099.00;2.42;0
 149;anti_air_building;2343.00;9.70;1071.00;0.82;0
-149;synthetic_refinery;2371.00;9.70;995.00;2.35;0
 149;radar_station;2379.00;9.70;1052.00;4.15;0
 149;nuclear_reactor_spawn;2379.00;9.70;1064.00;4.61;0
 149;special_project_facility_spawn;2378.00;9.70;1059.00;1.94;0
@@ -29005,7 +28857,6 @@
 150;anti_air_building;2374.00;9.70;986.00;4.66;0
 150;anti_air_building;2507.00;9.70;984.00;4.25;0
 150;anti_air_building;2480.00;9.70;1016.00;2.90;0
-150;synthetic_refinery;2439.00;9.70;1000.00;5.06;0
 150;radar_station;2443.00;9.70;987.00;5.88;0
 150;nuclear_reactor_spawn;2470.00;9.70;994.00;0.18;0
 150;special_project_facility_spawn;2514.00;9.70;997.00;3.92;0
@@ -29160,7 +29011,6 @@
 151;anti_air_building;2570.00;9.70;992.00;6.24;0
 151;anti_air_building;2532.00;9.70;1096.00;5.09;0
 151;anti_air_building;2536.00;9.70;1074.00;2.26;0
-151;synthetic_refinery;2558.00;9.70;991.00;1.29;0
 151;radar_station;2556.00;9.70;1039.00;6.01;0
 151;nuclear_reactor_spawn;2574.00;9.70;1033.00;3.31;0
 151;special_project_facility_spawn;2577.00;9.70;1009.00;4.98;0
@@ -29285,7 +29135,6 @@
 152;anti_air_building;2470.00;9.70;1069.00;5.95;0
 152;anti_air_building;2489.00;9.70;1070.00;3.61;0
 152;anti_air_building;2410.00;9.70;1040.00;3.10;0
-152;synthetic_refinery;2428.00;9.70;1041.00;0.38;0
 152;radar_station;2468.00;9.70;1067.00;5.50;0
 152;nuclear_reactor_spawn;2468.00;9.70;1063.00;1.99;0
 152;special_project_facility_spawn;2432.00;9.70;1087.00;2.42;0
@@ -29354,7 +29203,6 @@
 153;anti_air_building;2607.00;9.70;1073.00;0.83;0
 153;anti_air_building;2577.00;9.70;1091.00;4.71;0
 153;anti_air_building;2603.00;9.70;1081.00;1.96;0
-153;synthetic_refinery;2596.00;9.70;1075.00;2.36;0
 153;radar_station;2581.00;9.70;1089.00;5.67;0
 153;nuclear_reactor_spawn;2570.00;9.70;1088.00;5.95;0
 153;special_project_facility_spawn;2551.00;9.70;1109.00;2.24;0
@@ -29452,7 +29300,6 @@
 154;anti_air_building;2291.00;9.70;1213.00;5.34;0
 154;anti_air_building;2331.00;9.70;1197.00;2.12;0
 154;anti_air_building;2293.00;9.70;1158.00;1.50;0
-154;synthetic_refinery;2273.00;9.70;1187.00;6.24;0
 154;radar_station;2286.00;9.70;1185.00;2.16;0
 154;nuclear_reactor_spawn;2321.00;9.70;1220.00;3.76;0
 154;special_project_facility_spawn;2312.00;9.70;1171.00;6.14;0
@@ -29690,7 +29537,6 @@
 155;anti_air_building;2504.00;9.70;1253.00;2.00;0
 155;anti_air_building;2523.00;9.70;1240.00;2.36;0
 155;anti_air_building;2469.00;9.70;1274.00;4.55;0
-155;synthetic_refinery;2407.00;9.70;1303.00;0.58;0
 155;radar_station;2409.00;9.70;1281.00;4.98;0
 155;nuclear_reactor_spawn;2444.00;9.70;1319.00;0.69;0
 155;special_project_facility_spawn;2487.00;9.70;1280.00;4.80;0
@@ -29909,7 +29755,6 @@
 156;anti_air_building;2431.00;9.70;1224.00;5.92;0
 156;anti_air_building;2371.00;9.70;1221.00;6.18;0
 156;anti_air_building;2419.00;9.70;1219.00;5.52;0
-156;synthetic_refinery;2492.00;9.70;1205.00;2.47;0
 156;radar_station;2430.00;9.70;1227.00;1.68;0
 156;nuclear_reactor_spawn;2372.00;9.70;1221.00;5.91;0
 156;special_project_facility_spawn;2450.00;9.70;1215.00;5.54;0
@@ -30205,7 +30050,6 @@
 157;anti_air_building;2580.00;9.70;1184.00;5.71;0
 157;anti_air_building;2544.00;9.70;1150.00;5.96;0
 157;anti_air_building;2505.00;9.70;1129.00;4.90;0
-157;synthetic_refinery;2618.00;9.70;1097.00;2.09;0
 157;radar_station;2552.00;9.70;1146.00;2.80;0
 157;nuclear_reactor_spawn;2541.00;9.70;1180.00;1.27;0
 157;special_project_facility_spawn;2486.00;9.70;1175.00;5.28;0
@@ -30413,7 +30257,6 @@
 158;anti_air_building;154.00;9.70;2595.00;6.14;0
 158;anti_air_building;155.00;9.70;2627.00;2.43;0
 158;anti_air_building;285.00;9.70;2558.00;0.45;0
-158;synthetic_refinery;299.00;9.70;2549.00;4.14;0
 158;radar_station;185.00;9.70;2551.00;0.48;0
 158;nuclear_reactor_spawn;180.00;9.70;2471.00;2.26;0
 158;special_project_facility_spawn;284.00;9.70;2558.00;1.29;0
@@ -30675,7 +30518,6 @@
 159;anti_air_building;2542.00;9.70;1210.00;2.97;0
 159;anti_air_building;2522.00;9.70;1353.00;0.58;0
 159;anti_air_building;2551.00;9.70;1232.00;0.69;0
-159;synthetic_refinery;2575.00;9.70;1245.00;4.80;0
 159;radar_station;2537.00;9.70;1277.00;3.32;0
 159;nuclear_reactor_spawn;2541.00;9.70;1328.00;2.46;0
 159;special_project_facility_spawn;2597.00;9.70;1269.00;3.64;0
@@ -31044,7 +30886,6 @@
 160;anti_air_building;3122.00;9.70;2769.00;0.60;0
 160;anti_air_building;3053.00;9.70;2667.00;3.58;0
 160;anti_air_building;2827.00;9.70;2677.00;3.24;0
-160;synthetic_refinery;3122.00;9.70;2746.00;5.72;0
 160;radar_station;2967.00;9.70;2787.00;2.45;0
 160;nuclear_reactor_spawn;2845.00;9.70;2905.00;2.69;0
 160;special_project_facility_spawn;2690.00;9.70;2784.00;4.25;0
@@ -31292,7 +31133,6 @@
 161;anti_air_building;2661.00;9.70;1224.00;4.61;0
 161;anti_air_building;2659.00;9.70;1218.00;1.94;0
 161;anti_air_building;2669.00;9.70;1184.00;5.34;0
-161;synthetic_refinery;2663.00;9.70;1239.00;2.12;0
 161;radar_station;2671.00;9.70;1207.00;2.66;0
 161;nuclear_reactor_spawn;2682.00;9.70;1232.00;3.64;0
 161;special_project_facility_spawn;2662.00;9.70;1180.00;0.08;0
@@ -31477,7 +31317,6 @@
 162;anti_air_building;2654.00;9.70;1249.00;2.63;0
 162;anti_air_building;2592.00;9.70;1349.00;0.90;0
 162;anti_air_building;2637.00;9.70;1301.00;6.00;0
-162;synthetic_refinery;2576.00;9.70;1331.00;2.83;0
 162;radar_station;2614.00;9.70;1291.00;3.24;0
 162;nuclear_reactor_spawn;2579.00;9.70;1371.00;1.72;0
 162;special_project_facility_spawn;2586.00;9.70;1366.00;4.50;0
@@ -31623,7 +31462,6 @@
 163;anti_air_building;2338.00;9.70;1400.00;1.29;0
 163;anti_air_building;2390.00;9.70;1362.00;1.51;0
 163;anti_air_building;2431.00;9.70;1352.00;4.40;0
-163;synthetic_refinery;2396.00;9.70;1383.00;3.31;0
 163;radar_station;2379.00;9.70;1380.00;2.23;0
 163;nuclear_reactor_spawn;2365.00;9.70;1370.00;2.22;0
 163;special_project_facility_spawn;2397.00;9.70;1372.00;5.47;0
@@ -31796,7 +31634,6 @@
 164;anti_air_building;2199.00;9.70;1760.00;2.76;0
 164;anti_air_building;2324.00;9.70;1743.00;5.40;0
 164;anti_air_building;2264.00;9.70;1755.00;0.58;0
-164;synthetic_refinery;2198.00;9.70;1723.00;3.64;0
 164;radar_station;2250.00;9.70;1727.00;3.14;0
 164;nuclear_reactor_spawn;2271.00;9.70;1745.00;0.90;0
 164;special_project_facility_spawn;2189.00;9.70;1743.00;6.00;0
@@ -31965,7 +31802,6 @@
 165;anti_air_building;2341.00;9.70;1799.00;2.90;0
 165;anti_air_building;2328.00;9.70;1773.00;5.06;0
 165;anti_air_building;2275.00;9.70;1774.00;1.21;0
-165;synthetic_refinery;2257.00;9.70;1774.00;5.20;0
 165;radar_station;2274.00;9.70;1794.00;2.67;0
 165;nuclear_reactor_spawn;2222.00;9.70;1771.00;3.07;0
 165;special_project_facility_spawn;2260.00;9.70;1771.00;3.37;0
@@ -32129,7 +31965,6 @@
 166;anti_air_building;1584.00;9.70;1101.00;5.92;0
 166;anti_air_building;1570.00;9.70;1089.00;6.18;0
 166;anti_air_building;1558.00;9.70;1194.00;5.52;0
-166;synthetic_refinery;1590.00;9.70;1103.00;2.47;0
 166;radar_station;1559.00;9.70;1163.00;1.68;0
 166;nuclear_reactor_spawn;1598.00;9.70;1093.00;5.91;0
 166;special_project_facility_spawn;1554.00;9.70;1202.00;5.54;0
@@ -32285,7 +32120,6 @@
 167;anti_air_building;1369.00;9.70;985.00;2.47;0
 167;anti_air_building;1271.00;9.70;958.00;0.25;0
 167;anti_air_building;1249.00;9.70;925.00;0.13;0
-167;synthetic_refinery;1276.00;9.70;1024.00;5.91;0
 167;radar_station;1319.00;9.70;967.00;4.88;0
 167;nuclear_reactor_spawn;1290.00;9.70;1012.00;5.79;0
 167;special_project_facility_spawn;1273.00;9.70;947.00;1.16;0
@@ -32494,7 +32328,6 @@
 168;anti_air_building;3801.00;9.70;1892.00;1.72;0
 168;anti_air_building;3845.00;9.70;1980.00;4.50;0
 168;anti_air_building;3890.00;9.70;1906.00;6.18;0
-168;synthetic_refinery;3815.00;9.70;1956.00;4.45;0
 168;radar_station;3818.00;9.70;1957.00;3.46;0
 168;nuclear_reactor_spawn;3776.00;9.70;1958.00;3.36;0
 168;special_project_facility_spawn;3848.00;9.70;1978.00;3.55;0
@@ -32586,7 +32419,6 @@
 169;anti_air_building;1943.00;9.70;633.00;3.22;0
 169;anti_air_building;1938.00;9.70;636.00;4.07;0
 169;anti_air_building;1941.00;9.70;636.00;0.19;0
-169;synthetic_refinery;1941.00;9.70;636.00;3.56;0
 169;radar_station;1938.00;9.70;638.00;3.61;0
 169;nuclear_reactor_spawn;1942.00;9.70;633.00;1.30;0
 169;special_project_facility_spawn;1940.00;9.70;634.00;4.69;0
@@ -32792,7 +32624,6 @@
 170;anti_air_building;2004.00;9.70;1709.00;6.09;0
 170;anti_air_building;2086.00;9.70;1728.00;1.81;0
 170;anti_air_building;1956.00;9.70;1710.00;0.25;0
-170;synthetic_refinery;2063.00;9.70;1717.00;1.28;0
 170;radar_station;2027.00;9.70;1727.00;2.63;0
 170;nuclear_reactor_spawn;1999.00;9.70;1734.00;3.80;0
 170;special_project_facility_spawn;2035.00;9.70;1754.00;5.28;0
@@ -32998,7 +32829,6 @@
 171;anti_air_building;1953.00;9.70;1658.00;0.18;0
 171;anti_air_building;1993.00;9.70;1615.00;3.92;0
 171;anti_air_building;1974.00;9.70;1597.00;3.07;0
-171;synthetic_refinery;2005.00;9.70;1652.00;3.37;0
 171;radar_station;1971.00;9.70;1634.00;2.10;0
 171;nuclear_reactor_spawn;1946.00;9.70;1658.00;5.52;0
 171;special_project_facility_spawn;1993.00;9.70;1641.00;2.47;0
@@ -33230,7 +33060,6 @@
 172;anti_air_building;1949.00;9.70;1701.00;3.33;0
 172;anti_air_building;1883.00;9.70;1684.00;0.53;0
 172;anti_air_building;1901.00;9.70;1719.00;3.80;0
-172;synthetic_refinery;1916.00;9.70;1680.00;5.28;0
 172;radar_station;1853.00;9.70;1728.00;3.54;0
 172;nuclear_reactor_spawn;1894.00;9.70;1720.00;5.00;0
 172;special_project_facility_spawn;1898.00;9.70;1739.00;5.30;0
@@ -33488,7 +33317,6 @@
 173;anti_air_building;1831.00;9.70;1584.00;5.11;0
 173;anti_air_building;1782.00;9.70;1597.00;1.72;0
 173;anti_air_building;1811.00;9.70;1651.00;4.50;0
-173;synthetic_refinery;1843.00;9.70;1581.00;6.18;0
 173;radar_station;1822.00;9.70;1605.00;2.59;0
 173;nuclear_reactor_spawn;1786.00;9.70;1626.00;3.58;0
 173;special_project_facility_spawn;1810.00;9.70;1578.00;3.36;0
@@ -33571,7 +33399,6 @@
 174;anti_air_building;1961.00;9.70;1810.00;2.22;0
 174;anti_air_building;1972.00;9.70;1809.00;4.83;0
 174;anti_air_building;1958.00;9.70;1820.00;1.77;0
-174;synthetic_refinery;1961.00;9.70;1811.00;5.95;0
 174;radar_station;1964.00;9.70;1815.00;0.30;0
 174;nuclear_reactor_spawn;1957.00;9.70;1811.00;0.38;0
 174;special_project_facility_spawn;1965.00;9.70;1807.00;4.99;0
@@ -33727,7 +33554,6 @@
 175;anti_air_building;1868.00;9.70;1571.00;5.90;0
 175;anti_air_building;1869.00;9.70;1540.00;4.04;0
 175;anti_air_building;1897.00;9.70;1563.00;3.02;0
-175;synthetic_refinery;1873.00;9.70;1542.00;3.60;0
 175;radar_station;1892.00;9.70;1539.00;5.91;0
 175;nuclear_reactor_spawn;1820.00;9.70;1500.00;4.82;0
 175;special_project_facility_spawn;1873.00;9.70;1569.00;4.27;0
@@ -33954,7 +33780,6 @@
 176;anti_air_building;2023.00;9.70;1560.00;2.02;0
 176;anti_air_building;2041.00;9.70;1502.00;2.00;0
 176;anti_air_building;2063.00;9.70;1545.00;2.36;0
-176;synthetic_refinery;2078.00;9.70;1548.00;4.55;0
 176;radar_station;2034.00;9.70;1546.00;3.38;0
 176;nuclear_reactor_spawn;2080.00;9.70;1522.00;0.58;0
 176;special_project_facility_spawn;1990.00;9.70;1550.00;0.69;0
@@ -34091,7 +33916,6 @@
 177;anti_air_building;2127.00;9.70;1485.00;4.27;0
 177;anti_air_building;2114.00;9.70;1512.00;5.69;0
 177;anti_air_building;2090.00;9.70;1497.00;3.12;0
-177;synthetic_refinery;2120.00;9.70;1508.00;0.04;0
 177;radar_station;2117.00;9.70;1513.00;3.71;0
 177;nuclear_reactor_spawn;2110.00;9.70;1533.00;5.97;0
 177;special_project_facility_spawn;2150.00;9.70;1501.00;4.66;0
@@ -34355,7 +34179,6 @@
 178;anti_air_building;1722.00;9.70;1661.00;0.60;0
 178;anti_air_building;1694.00;9.70;1711.00;3.58;0
 178;anti_air_building;1693.00;9.70;1676.00;3.24;0
-178;synthetic_refinery;1768.00;9.70;1613.00;5.72;0
 178;radar_station;1722.00;9.70;1648.00;2.45;0
 178;nuclear_reactor_spawn;1673.00;9.70;1621.00;2.69;0
 178;special_project_facility_spawn;1725.00;9.70;1573.00;4.25;0
@@ -34616,7 +34439,6 @@
 179;anti_air_building;1727.00;9.70;1529.00;1.28;0
 179;anti_air_building;1744.00;9.70;1524.00;1.31;0
 179;anti_air_building;1739.00;9.70;1508.00;5.90;0
-179;synthetic_refinery;1734.00;9.70;1524.00;4.04;0
 179;radar_station;1785.00;9.70;1535.00;6.13;0
 179;nuclear_reactor_spawn;1761.00;9.70;1503.00;2.04;0
 179;special_project_facility_spawn;1761.00;9.70;1542.00;1.63;0
@@ -34720,7 +34542,6 @@
 180;anti_air_building;2656.00;9.70;2798.00;2.26;0
 180;anti_air_building;2705.00;9.70;2856.00;1.29;0
 180;anti_air_building;2707.00;9.70;2858.00;1.51;0
-180;synthetic_refinery;2755.00;9.70;2910.00;4.40;0
 180;radar_station;2720.00;9.70;2870.00;2.09;0
 180;nuclear_reactor_spawn;2717.00;9.70;2840.00;5.01;0
 180;special_project_facility_spawn;2664.00;9.70;2820.00;2.22;0
@@ -34843,7 +34664,6 @@
 181;anti_air_building;1717.00;9.70;1722.00;2.76;0
 181;anti_air_building;1754.00;9.70;1714.00;5.40;0
 181;anti_air_building;1763.00;9.70;1732.00;0.58;0
-181;synthetic_refinery;1765.00;9.70;1712.00;3.64;0
 181;radar_station;1734.00;9.70;1734.00;3.14;0
 181;nuclear_reactor_spawn;1701.00;9.70;1726.00;0.90;0
 181;special_project_facility_spawn;1714.00;9.70;1727.00;6.00;0
@@ -34977,7 +34797,6 @@
 182;anti_air_building;1669.00;9.70;1739.00;5.52;0
 182;anti_air_building;1658.00;9.70;1792.00;2.47;0
 182;anti_air_building;1702.00;9.70;1790.00;0.25;0
-182;synthetic_refinery;1676.00;9.70;1764.00;0.13;0
 182;radar_station;1686.00;9.70;1769.00;0.78;0
 182;nuclear_reactor_spawn;1676.00;9.70;1791.00;0.48;0
 182;special_project_facility_spawn;1688.00;9.70;1761.00;5.79;0
@@ -35239,7 +35058,6 @@
 183;anti_air_building;3427.00;9.70;1774.00;2.70;0
 183;anti_air_building;3341.00;9.70;1825.00;4.81;0
 183;anti_air_building;3381.00;9.70;1914.00;4.96;0
-183;synthetic_refinery;3329.00;9.70;1855.00;4.41;0
 183;radar_station;3392.00;9.70;1880.00;5.81;0
 183;nuclear_reactor_spawn;3449.00;9.70;1886.00;0.08;0
 183;special_project_facility_spawn;3428.00;9.70;1952.00;5.11;0
@@ -35602,7 +35420,6 @@
 184;anti_air_building;1591.00;9.70;1626.00;1.70;0
 184;anti_air_building;1615.00;9.70;1585.00;6.04;0
 184;anti_air_building;1593.00;9.70;1607.00;4.38;0
-184;synthetic_refinery;1611.00;9.70;1664.00;0.13;0
 184;radar_station;1629.00;9.70;1639.00;2.70;0
 184;nuclear_reactor_spawn;1616.00;9.70;1596.00;4.88;0
 184;special_project_facility_spawn;1606.00;9.70;1589.00;1.83;0
@@ -35795,7 +35612,6 @@
 185;anti_air_building;2454.00;9.70;1935.00;3.16;0
 185;anti_air_building;2421.00;9.70;1952.00;4.73;0
 185;anti_air_building;2421.00;9.70;1944.00;3.65;0
-185;synthetic_refinery;2469.00;9.70;1931.00;4.27;0
 185;radar_station;2451.00;9.70;1944.00;3.36;0
 185;nuclear_reactor_spawn;2440.00;9.70;1959.00;0.04;0
 185;special_project_facility_spawn;2434.00;9.70;1962.00;3.83;0
@@ -35907,7 +35723,6 @@
 186;anti_air_building;1577.00;9.70;1581.00;0.79;0
 186;anti_air_building;1582.00;9.70;1542.00;3.49;0
 186;anti_air_building;1608.00;9.70;1551.00;3.88;0
-186;synthetic_refinery;1593.00;9.70;1557.00;5.54;0
 186;radar_station;1584.00;9.70;1548.00;1.50;0
 186;nuclear_reactor_spawn;1592.00;9.70;1528.00;0.58;0
 186;special_project_facility_spawn;1596.00;9.70;1537.00;3.64;0
@@ -36120,7 +35935,6 @@
 187;anti_air_building;1710.00;9.70;1520.00;1.16;0
 187;anti_air_building;1662.00;9.70;1547.00;5.41;0
 187;anti_air_building;1695.00;9.70;1561.00;2.96;0
-187;synthetic_refinery;1674.00;9.70;1551.00;5.26;0
 187;radar_station;1672.00;9.70;1509.00;1.34;0
 187;nuclear_reactor_spawn;1716.00;9.70;1540.00;5.71;0
 187;special_project_facility_spawn;1641.00;9.70;1527.00;5.96;0
@@ -36390,7 +36204,6 @@
 188;anti_air_building;4082.00;9.70;1621.00;5.69;0
 188;anti_air_building;4058.00;9.70;1826.00;3.61;0
 188;anti_air_building;4084.00;9.70;1957.00;0.89;0
-188;synthetic_refinery;4037.00;9.70;1723.00;0.82;0
 188;radar_station;4042.00;9.70;1764.00;6.01;0
 188;nuclear_reactor_spawn;4032.00;9.70;1627.00;1.61;0
 188;special_project_facility_spawn;4050.00;9.70;1554.00;1.98;0
@@ -36578,7 +36391,6 @@
 189;anti_air_building;1573.00;9.70;1522.00;5.11;0
 189;anti_air_building;1563.00;9.70;1526.00;1.72;0
 189;anti_air_building;1545.00;9.70;1509.00;4.50;0
-189;synthetic_refinery;1575.00;9.70;1509.00;6.18;0
 189;radar_station;1565.00;9.70;1526.00;2.59;0
 189;nuclear_reactor_spawn;1548.00;9.70;1552.00;3.58;0
 189;special_project_facility_spawn;1552.00;9.70;1546.00;3.36;0
@@ -36725,7 +36537,6 @@
 190;anti_air_building;1596.00;9.70;1461.00;3.58;0
 190;anti_air_building;1644.00;9.70;1439.00;3.36;0
 190;anti_air_building;1636.00;9.70;1459.00;3.55;0
-190;synthetic_refinery;1576.00;9.70;1427.00;2.99;0
 190;radar_station;1598.00;9.70;1453.00;3.11;0
 190;nuclear_reactor_spawn;1609.00;9.70;1430.00;0.40;0
 190;special_project_facility_spawn;1612.00;9.70;1462.00;6.09;0
@@ -36838,7 +36649,6 @@
 191;anti_air_building;1056.00;9.70;1925.00;5.31;0
 191;anti_air_building;1082.00;9.70;1987.00;3.90;0
 191;anti_air_building;1066.00;9.70;1943.00;1.56;0
-191;synthetic_refinery;1085.00;9.70;1960.00;0.14;0
 191;radar_station;1085.00;9.70;1945.00;1.19;0
 191;nuclear_reactor_spawn;1126.00;9.70;1959.00;2.05;0
 191;special_project_facility_spawn;1115.00;9.70;1938.00;5.84;0
@@ -36995,7 +36805,6 @@
 192;anti_air_building;1611.00;9.70;1357.00;1.28;0
 192;anti_air_building;1656.00;9.70;1345.00;1.31;0
 192;anti_air_building;1628.00;9.70;1346.00;5.90;0
-192;synthetic_refinery;1619.00;9.70;1367.00;4.04;0
 192;radar_station;1650.00;9.70;1386.00;6.13;0
 192;nuclear_reactor_spawn;1658.00;9.70;1431.00;2.04;0
 192;special_project_facility_spawn;1630.00;9.70;1380.00;1.63;0
@@ -37186,7 +36995,6 @@
 193;anti_air_building;1733.00;9.70;1393.00;3.96;0
 193;anti_air_building;1714.00;9.70;1411.00;4.06;0
 193;anti_air_building;1685.00;9.70;1454.00;2.43;0
-193;synthetic_refinery;1707.00;9.70;1361.00;0.28;0
 193;radar_station;1693.00;9.70;1392.00;5.09;0
 193;nuclear_reactor_spawn;1697.00;9.70;1384.00;6.09;0
 193;special_project_facility_spawn;1727.00;9.70;1410.00;1.81;0
@@ -37474,7 +37282,6 @@
 194;anti_air_building;3257.00;9.70;1967.00;3.15;0
 194;anti_air_building;3151.00;9.70;1886.00;6.19;0
 194;anti_air_building;3206.00;9.70;1908.00;4.98;0
-194;synthetic_refinery;3295.00;9.70;1853.00;5.16;0
 194;radar_station;3233.00;9.70;1903.00;2.38;0
 194;nuclear_reactor_spawn;3243.00;9.70;1948.00;1.57;0
 194;special_project_facility_spawn;3238.00;9.70;1926.00;1.72;0
@@ -37789,7 +37596,6 @@
 195;anti_air_building;1844.00;9.70;1441.00;5.84;0
 195;anti_air_building;1735.00;9.70;1490.00;2.69;0
 195;anti_air_building;1753.00;9.70;1473.00;4.25;0
-195;synthetic_refinery;1732.00;9.70;1474.00;2.47;0
 195;radar_station;1768.00;9.70;1444.00;3.01;0
 195;nuclear_reactor_spawn;1820.00;9.70;1454.00;2.10;0
 195;special_project_facility_spawn;1776.00;9.70;1460.00;4.41;0
@@ -38097,7 +37903,6 @@
 196;anti_air_building;1846.00;9.70;1399.00;4.25;0
 196;anti_air_building;1777.00;9.70;1332.00;2.47;0
 196;anti_air_building;1771.00;9.70;1317.00;6.18;0
-196;synthetic_refinery;1843.00;9.70;1356.00;1.64;0
 196;radar_station;1807.00;9.70;1368.00;5.27;0
 196;nuclear_reactor_spawn;1749.00;9.70;1331.00;3.35;0
 196;special_project_facility_spawn;1887.00;9.70;1403.00;3.19;0
@@ -38313,7 +38118,6 @@
 197;anti_air_building;1721.00;9.70;1290.00;2.02;0
 197;anti_air_building;1720.00;9.70;1293.00;2.00;0
 197;anti_air_building;1770.00;9.70;1275.00;2.36;0
-197;synthetic_refinery;1821.00;9.70;1316.00;4.55;0
 197;radar_station;1809.00;9.70;1294.00;3.38;0
 197;nuclear_reactor_spawn;1709.00;9.70;1303.00;0.58;0
 197;special_project_facility_spawn;1880.00;9.70;1314.00;0.69;0
@@ -38545,7 +38349,6 @@
 198;anti_air_building;1872.00;9.70;1360.00;2.70;0
 198;anti_air_building;1986.00;9.70;1369.00;4.81;0
 198;anti_air_building;1973.00;9.70;1388.00;4.96;0
-198;synthetic_refinery;1975.00;9.70;1300.00;4.41;0
 198;radar_station;1932.00;9.70;1324.00;5.81;0
 198;nuclear_reactor_spawn;1941.00;9.70;1345.00;0.08;0
 198;special_project_facility_spawn;1970.00;9.70;1315.00;5.11;0
@@ -38764,7 +38567,6 @@
 199;anti_air_building;2001.00;9.70;1303.00;6.09;0
 199;anti_air_building;1996.00;9.70;1357.00;1.81;0
 199;anti_air_building;2059.00;9.70;1356.00;0.25;0
-199;synthetic_refinery;2036.00;9.70;1358.00;1.28;0
 199;radar_station;2019.00;9.70;1341.00;2.63;0
 199;nuclear_reactor_spawn;1998.00;9.70;1299.00;3.80;0
 199;special_project_facility_spawn;2041.00;9.70;1339.00;5.28;0
@@ -39005,7 +38807,6 @@
 200;anti_air_building;2112.00;9.50;1286.00;6.07;0
 200;anti_air_building;2163.00;9.70;1317.00;4.94;0
 200;anti_air_building;2120.00;9.70;1262.00;0.08;0
-200;synthetic_refinery;2075.00;9.70;1270.00;5.11;0
 200;radar_station;2097.00;9.70;1281.00;2.26;0
 200;nuclear_reactor_spawn;2074.00;9.70;1250.00;5.18;0
 200;special_project_facility_spawn;2045.00;9.70;1293.00;0.06;0
@@ -39252,7 +39053,6 @@
 201;anti_air_building;2183.00;9.70;1240.00;5.69;0
 201;anti_air_building;2242.00;9.70;1306.00;3.61;0
 201;anti_air_building;2301.00;9.70;1314.00;0.89;0
-201;synthetic_refinery;2306.00;9.70;1314.00;0.82;0
 201;radar_station;2252.00;9.70;1298.00;6.01;0
 201;nuclear_reactor_spawn;2197.00;9.70;1267.00;1.61;0
 201;special_project_facility_spawn;2239.00;9.70;1295.00;1.98;0
@@ -39354,7 +39154,6 @@
 202;anti_air_building;828.00;9.70;3046.00;0.18;0
 202;anti_air_building;827.00;9.70;3052.00;3.92;0
 202;anti_air_building;792.00;9.70;3031.00;3.07;0
-202;synthetic_refinery;837.00;9.70;3049.00;3.37;0
 202;radar_station;817.00;9.70;3044.00;2.10;0
 202;nuclear_reactor_spawn;822.00;9.70;3044.00;5.52;0
 202;special_project_facility_spawn;836.00;9.70;3059.00;2.47;0
@@ -39425,7 +39224,6 @@
 203;anti_air_building;406.00;9.70;463.00;3.88;0
 203;anti_air_building;426.00;9.70;220.00;5.54;0
 203;anti_air_building;414.00;9.70;213.00;2.76;0
-203;synthetic_refinery;421.00;9.70;224.00;5.40;0
 203;radar_station;441.00;9.50;238.00;3.05;0
 203;nuclear_reactor_spawn;471.00;9.70;213.00;2.48;0
 203;special_project_facility_spawn;544.00;9.70;229.00;2.63;0
@@ -39504,7 +39302,6 @@
 204;anti_air_building;7.00;9.70;2764.00;0.48;0
 204;anti_air_building;24.00;9.70;2794.00;5.79;0
 204;anti_air_building;13.00;9.70;2795.00;1.16;0
-204;synthetic_refinery;33.00;9.70;2774.00;2.30;0
 204;radar_station;33.00;9.70;2773.00;2.26;0
 204;nuclear_reactor_spawn;10.00;9.70;2797.00;0.28;0
 204;special_project_facility_spawn;18.00;9.70;2776.00;5.31;0
@@ -39742,7 +39539,6 @@
 205;anti_air_building;3571.00;9.70;1932.00;1.67;0
 205;anti_air_building;3505.00;9.70;1857.00;1.34;0
 205;anti_air_building;3550.00;9.70;1961.00;6.07;0
-205;synthetic_refinery;3640.00;9.70;1922.00;1.70;0
 205;radar_station;3560.00;9.70;1920.00;2.23;0
 205;nuclear_reactor_spawn;3533.00;9.70;1980.00;0.13;0
 205;special_project_facility_spawn;3531.00;9.70;1973.00;5.08;0
@@ -39878,7 +39674,6 @@
 206;anti_air_building;3.00;9.70;1251.00;2.30;0
 206;anti_air_building;3.00;9.70;651.00;5.57;0
 206;anti_air_building;3.00;9.70;647.00;1.77;0
-206;synthetic_refinery;3.00;9.70;259.00;0.28;0
 206;radar_station;3.00;9.70;759.00;2.80;0
 206;nuclear_reactor_spawn;3.00;9.70;1098.00;1.56;0
 206;special_project_facility_spawn;3.00;9.70;333.00;0.14;0
@@ -40109,7 +39904,6 @@
 207;anti_air_building;2800.00;9.70;1942.00;3.86;0
 207;anti_air_building;2956.00;9.70;1943.00;1.67;0
 207;anti_air_building;2801.00;9.70;1866.00;1.34;0
-207;synthetic_refinery;2882.00;9.70;1904.00;6.07;0
 207;radar_station;2860.00;9.70;1931.00;5.60;0
 207;nuclear_reactor_spawn;2893.00;9.70;1874.00;4.38;0
 207;special_project_facility_spawn;2911.00;9.70;1886.00;0.13;0
@@ -40233,7 +40027,6 @@
 208;anti_air_building;3.00;9.70;1709.00;5.91;0
 208;anti_air_building;3.00;9.70;1519.00;5.54;0
 208;anti_air_building;1.00;9.70;2044.00;0.48;0
-208;synthetic_refinery;2.00;9.70;1622.00;5.79;0
 208;radar_station;3.00;9.70;1768.00;0.52;0
 208;nuclear_reactor_spawn;3.00;9.70;1776.00;5.57;0
 208;special_project_facility_spawn;3.00;9.70;1601.00;1.77;0
@@ -40477,7 +40270,6 @@
 209;anti_air_building;3123.00;9.70;1818.00;1.86;0
 209;anti_air_building;3008.00;9.70;1872.00;0.86;0
 209;anti_air_building;3003.00;9.70;1875.00;1.08;0
-209;synthetic_refinery;3089.00;9.70;1902.00;2.09;0
 209;radar_station;3080.00;9.70;1856.00;0.25;0
 209;nuclear_reactor_spawn;3120.00;9.70;1850.00;5.77;0
 209;special_project_facility_spawn;2974.00;9.70;1854.00;0.21;0
@@ -40632,7 +40424,6 @@
 210;anti_air_building;2311.00;9.70;1013.00;3.49;0
 210;anti_air_building;2336.00;9.70;1038.00;3.88;0
 210;anti_air_building;2304.00;9.70;1019.00;5.54;0
-210;synthetic_refinery;2318.00;9.70;1016.00;2.76;0
 210;radar_station;2323.00;9.70;1035.00;2.38;0
 210;nuclear_reactor_spawn;2323.00;9.70;1011.00;3.64;0
 210;special_project_facility_spawn;2336.00;9.70;1056.00;2.48;0
@@ -40753,7 +40544,6 @@
 211;anti_air_building;1527.00;9.70;1580.00;4.06;0
 211;anti_air_building;1529.00;9.70;1573.00;2.43;0
 211;anti_air_building;1526.00;9.70;1577.00;0.28;0
-211;synthetic_refinery;1516.00;9.70;1528.00;3.15;0
 211;radar_station;1469.00;9.70;1566.00;4.86;0
 211;nuclear_reactor_spawn;1525.00;9.70;1544.00;1.81;0
 211;special_project_facility_spawn;1434.00;9.70;1558.00;0.25;0
@@ -40844,7 +40634,6 @@
 212;anti_air_building;2152.00;9.70;1468.00;3.10;0
 212;anti_air_building;2142.00;9.70;1468.00;2.05;0
 212;anti_air_building;2130.00;9.70;1476.00;5.84;0
-212;synthetic_refinery;2158.00;9.70;1463.00;1.12;0
 212;radar_station;2146.00;9.70;1465.00;1.16;0
 212;nuclear_reactor_spawn;2156.00;9.70;1465.00;3.69;0
 212;special_project_facility_spawn;2154.00;9.70;1450.00;4.30;0
@@ -40873,7 +40662,6 @@
 213;anti_air_building;750.00;9.70;289.00;1.77;0
 213;anti_air_building;747.00;9.70;268.00;0.28;0
 213;anti_air_building;744.00;9.70;286.00;5.31;0
-213;synthetic_refinery;725.00;9.70;266.00;3.90;0
 213;radar_station;740.00;9.70;282.00;0.70;0
 213;nuclear_reactor_spawn;736.00;9.70;270.00;2.49;0
 213;special_project_facility_spawn;727.00;9.70;267.00;3.10;0
@@ -41014,7 +40802,6 @@
 214;anti_air_building;2128.00;9.70;1700.00;2.63;0
 214;anti_air_building;2187.00;9.70;1687.00;5.69;0
 214;anti_air_building;2117.00;9.70;1665.00;3.61;0
-214;synthetic_refinery;2125.00;9.70;1661.00;0.89;0
 214;radar_station;2152.00;9.70;1711.00;4.20;0
 214;nuclear_reactor_spawn;2149.00;9.70;1743.00;5.27;0
 214;special_project_facility_spawn;2110.00;9.70;1730.00;1.61;0
@@ -41167,7 +40954,6 @@
 215;anti_air_building;2204.00;9.70;1584.00;2.97;0
 215;anti_air_building;2260.00;9.70;1627.00;0.58;0
 215;anti_air_building;2252.00;9.70;1629.00;0.69;0
-215;synthetic_refinery;2197.00;9.70;1613.00;4.80;0
 215;radar_station;2248.00;9.70;1606.00;3.32;0
 215;nuclear_reactor_spawn;2299.00;9.70;1620.00;2.46;0
 215;special_project_facility_spawn;2267.00;9.70;1611.00;3.64;0
@@ -41322,7 +41108,6 @@
 216;anti_air_building;1205.00;9.70;1312.00;4.50;0
 216;anti_air_building;1229.00;9.70;1362.00;3.91;0
 216;anti_air_building;1256.00;9.70;1344.00;5.71;0
-216;synthetic_refinery;1199.00;9.70;1351.00;5.96;0
 216;radar_station;1193.00;9.70;1331.00;4.29;0
 216;nuclear_reactor_spawn;1212.00;9.70;1332.00;5.91;0
 216;special_project_facility_spawn;1221.00;9.70;1374.00;0.82;0
@@ -41579,7 +41364,6 @@
 217;anti_air_building;3710.00;9.70;1816.00;4.38;0
 217;anti_air_building;3784.00;9.70;1858.00;0.13;0
 217;anti_air_building;3799.00;9.70;1800.00;5.08;0
-217;synthetic_refinery;3756.00;9.70;1802.00;4.29;0
 217;radar_station;3748.00;9.70;1832.00;6.05;0
 217;nuclear_reactor_spawn;3737.00;9.70;1792.00;4.93;0
 217;special_project_facility_spawn;3850.00;9.70;1787.00;0.36;0
@@ -41950,7 +41734,6 @@
 218;anti_air_building;3923.00;9.70;1870.00;1.82;0
 218;anti_air_building;3976.00;9.70;1716.00;4.32;0
 218;anti_air_building;3992.00;9.70;1812.00;2.38;0
-218;synthetic_refinery;3975.00;9.70;1749.00;3.24;0
 218;radar_station;3950.00;9.70;1785.00;3.07;0
 218;nuclear_reactor_spawn;3933.00;9.70;1822.00;5.69;0
 218;special_project_facility_spawn;3958.00;9.70;1713.00;2.26;0
@@ -42176,7 +41959,6 @@
 219;anti_air_building;2756.00;9.70;1523.00;5.68;0
 219;anti_air_building;2712.00;9.70;1516.00;6.09;0
 219;anti_air_building;2700.00;9.70;1512.00;1.81;0
-219;synthetic_refinery;2770.00;9.70;1518.00;0.25;0
 219;radar_station;2744.00;9.70;1524.00;5.33;0
 219;nuclear_reactor_spawn;2798.00;9.70;1504.00;0.53;0
 219;special_project_facility_spawn;2746.00;9.70;1536.00;3.80;0
@@ -42389,7 +42171,6 @@
 220;anti_air_building;3085.00;9.70;1321.00;4.98;0
 220;anti_air_building;3052.00;9.70;1379.00;5.16;0
 220;anti_air_building;3095.00;9.70;1377.00;4.98;0
-220;synthetic_refinery;3037.00;9.70;1339.00;0.06;0
 220;radar_station;3087.00;9.70;1362.00;1.90;0
 220;nuclear_reactor_spawn;3068.00;9.70;1309.00;2.50;0
 220;special_project_facility_spawn;3122.00;9.70;1350.00;3.52;0
@@ -42591,7 +42372,6 @@
 221;anti_air_building;3139.00;9.70;1337.00;5.91;0
 221;anti_air_building;3145.00;9.70;1309.00;0.82;0
 221;anti_air_building;3162.00;9.70;1388.00;1.27;0
-221;synthetic_refinery;3215.00;9.70;1362.00;5.28;0
 221;radar_station;3176.00;9.70;1341.00;2.01;0
 221;nuclear_reactor_spawn;3232.00;9.70;1344.00;1.39;0
 221;special_project_facility_spawn;3179.00;9.70;1303.00;2.63;0
@@ -42839,7 +42619,6 @@
 222;anti_air_building;3147.00;9.70;1434.00;4.38;0
 222;anti_air_building;3242.00;9.70;1420.00;0.13;0
 222;anti_air_building;3334.00;9.70;1415.00;5.08;0
-222;synthetic_refinery;3325.00;9.70;1378.00;4.29;0
 222;radar_station;3254.00;9.70;1394.00;6.05;0
 222;nuclear_reactor_spawn;3273.00;9.70;1373.00;4.93;0
 222;special_project_facility_spawn;3271.00;9.70;1334.00;0.36;0
@@ -43055,7 +42834,6 @@
 223;anti_air_building;3020.00;9.70;1490.00;4.27;0
 223;anti_air_building;3027.00;9.70;1387.00;2.70;0
 223;anti_air_building;3048.00;9.70;1452.00;4.81;0
-223;synthetic_refinery;3057.00;9.70;1497.00;4.96;0
 223;radar_station;3063.00;9.70;1443.00;4.54;0
 223;nuclear_reactor_spawn;3041.00;9.70;1459.00;4.94;0
 223;special_project_facility_spawn;3054.00;9.70;1410.00;0.08;0
@@ -43260,7 +43038,6 @@
 224;anti_air_building;2858.00;9.70;1424.00;3.24;0
 224;anti_air_building;2947.00;9.70;1476.00;5.72;0
 224;anti_air_building;2839.00;9.70;1446.00;0.26;0
-224;synthetic_refinery;2982.00;9.70;1488.00;5.84;0
 224;radar_station;2922.00;9.70;1453.00;1.60;0
 224;nuclear_reactor_spawn;2907.00;9.70;1428.00;2.47;0
 224;special_project_facility_spawn;2979.00;9.70;1472.00;6.18;0
@@ -43447,7 +43224,6 @@
 225;anti_air_building;2864.00;9.70;1546.00;5.27;0
 225;anti_air_building;2941.00;9.70;1499.00;1.61;0
 225;anti_air_building;2906.00;9.70;1562.00;1.98;0
-225;synthetic_refinery;2890.00;9.70;1562.00;5.79;0
 225;radar_station;2911.00;9.70;1560.00;3.25;0
 225;nuclear_reactor_spawn;2891.00;9.70;1612.00;4.81;0
 225;special_project_facility_spawn;2904.00;9.70;1567.00;4.96;0
@@ -43656,7 +43432,6 @@
 226;anti_air_building;2937.00;9.70;1667.00;3.19;0
 226;anti_air_building;2858.00;9.70;1638.00;5.77;0
 226;anti_air_building;2890.00;9.70;1651.00;3.41;0
-226;synthetic_refinery;2869.00;9.70;1731.00;3.15;0
 226;radar_station;2857.00;9.70;1668.00;4.71;0
 226;nuclear_reactor_spawn;2919.00;9.70;1707.00;5.16;0
 226;special_project_facility_spawn;2814.00;9.70;1637.00;4.98;0
@@ -43807,7 +43582,6 @@
 227;anti_air_building;2695.00;9.70;1342.00;1.81;0
 227;anti_air_building;2703.00;9.70;1286.00;0.25;0
 227;anti_air_building;2693.00;9.70;1306.00;1.28;0
-227;synthetic_refinery;2690.00;9.70;1336.00;3.33;0
 227;radar_station;2689.00;9.70;1312.00;3.22;0
 227;nuclear_reactor_spawn;2658.00;9.70;1326.00;5.28;0
 227;special_project_facility_spawn;2735.00;9.70;1336.00;0.33;0
@@ -43936,7 +43710,6 @@
 228;anti_air_building;2559.00;9.70;1404.00;3.91;0
 228;anti_air_building;2580.00;9.70;1429.00;5.71;0
 228;anti_air_building;2555.00;9.70;1469.00;5.96;0
-228;synthetic_refinery;2576.00;9.70;1438.00;4.90;0
 228;radar_station;2557.00;9.70;1444.00;5.54;0
 228;nuclear_reactor_spawn;2592.00;9.70;1449.00;0.82;0
 228;special_project_facility_spawn;2586.00;9.70;1409.00;1.27;0
@@ -44079,7 +43852,6 @@
 229;anti_air_building;1056.00;9.70;1853.00;5.28;0
 229;anti_air_building;1126.00;9.70;1864.00;4.81;0
 229;anti_air_building;1126.00;9.70;1828.00;0.94;0
-229;synthetic_refinery;1039.00;9.70;1894.00;1.39;0
 229;radar_station;1094.00;9.70;1856.00;0.60;0
 229;nuclear_reactor_spawn;1119.00;9.70;1841.00;3.61;0
 229;special_project_facility_spawn;1107.00;9.70;1835.00;0.89;0
@@ -44284,7 +44056,6 @@
 230;anti_air_building;2617.00;9.70;1551.00;2.69;0
 230;anti_air_building;2622.00;9.70;1567.00;4.25;0
 230;anti_air_building;2608.00;9.70;1551.00;2.47;0
-230;synthetic_refinery;2650.00;9.70;1522.00;6.18;0
 230;radar_station;2640.00;9.70;1516.00;0.53;0
 230;nuclear_reactor_spawn;2669.00;9.70;1509.00;4.41;0
 230;special_project_facility_spawn;2641.00;9.70;1536.00;3.35;0
@@ -44456,7 +44227,6 @@
 231;anti_air_building;2977.00;9.70;1308.00;1.61;0
 231;anti_air_building;3001.00;9.70;1308.00;1.98;0
 231;anti_air_building;3015.00;9.70;1310.00;5.79;0
-231;synthetic_refinery;2949.00;9.70;1281.00;4.27;0
 231;radar_station;2982.00;9.70;1293.00;2.10;0
 231;nuclear_reactor_spawn;3030.00;9.70;1313.00;4.96;0
 231;special_project_facility_spawn;2994.00;9.70;1347.00;4.41;0
@@ -44672,7 +44442,6 @@
 232;anti_air_building;2903.00;9.70;1187.00;2.50;0
 232;anti_air_building;2898.00;9.70;1206.00;3.52;0
 232;anti_air_building;2855.00;9.70;1193.00;1.69;0
-232;synthetic_refinery;2946.00;9.70;1191.00;2.22;0
 232;radar_station;2926.00;9.70;1183.00;3.84;0
 232;nuclear_reactor_spawn;2882.00;9.70;1200.00;1.04;0
 232;special_project_facility_spawn;2907.00;9.70;1162.00;6.08;0
@@ -44874,7 +44643,6 @@
 233;anti_air_building;2727.00;9.70;1286.00;5.41;0
 233;anti_air_building;2774.00;9.70;1295.00;2.96;0
 233;anti_air_building;2726.00;9.70;1257.00;5.26;0
-233;synthetic_refinery;2705.00;9.70;1259.00;4.50;0
 233;radar_station;2749.00;9.70;1291.00;4.39;0
 233;nuclear_reactor_spawn;2785.00;9.70;1299.00;5.96;0
 233;special_project_facility_spawn;2739.00;9.70;1275.00;4.90;0
@@ -45017,7 +44785,6 @@
 234;anti_air_building;2605.00;9.70;1401.00;0.82;0
 234;anti_air_building;2607.00;9.70;1391.00;2.54;0
 234;anti_air_building;2622.00;9.70;1439.00;5.27;0
-234;synthetic_refinery;2679.00;9.70;1373.00;1.61;0
 234;radar_station;2642.00;9.70;1410.00;2.78;0
 234;nuclear_reactor_spawn;2658.00;9.70;1431.00;4.27;0
 234;special_project_facility_spawn;2678.00;9.70;1400.00;2.70;0
@@ -45260,7 +45027,6 @@
 235;anti_air_building;2709.00;9.70;1364.00;5.11;0
 235;anti_air_building;2726.00;9.70;1416.00;1.39;0
 235;anti_air_building;2710.00;9.70;1387.00;5.71;0
-235;synthetic_refinery;2699.00;9.70;1378.00;2.80;0
 235;radar_station;2787.00;9.70;1428.00;0.72;0
 235;nuclear_reactor_spawn;2788.00;9.70;1429.00;5.89;0
 235;special_project_facility_spawn;2747.00;9.70;1418.00;5.68;0
@@ -45484,7 +45250,6 @@
 236;anti_air_building;2818.00;9.70;1313.00;1.64;0
 236;anti_air_building;2819.00;9.70;1355.00;2.10;0
 236;anti_air_building;2814.00;9.70;1401.00;4.41;0
-236;synthetic_refinery;2787.00;9.70;1338.00;3.35;0
 236;radar_station;2803.00;9.70;1333.00;5.57;0
 236;nuclear_reactor_spawn;2805.00;9.70;1319.00;3.41;0
 236;special_project_facility_spawn;2837.00;9.70;1304.00;3.15;0
@@ -45687,7 +45452,6 @@
 237;anti_air_building;2972.00;9.70;1361.00;4.98;0
 237;anti_air_building;2883.00;9.70;1354.00;0.06;0
 237;anti_air_building;2914.00;9.70;1383.00;1.57;0
-237;synthetic_refinery;2979.00;9.70;1375.00;1.72;0
 237;radar_station;2944.00;9.70;1368.00;4.82;0
 237;nuclear_reactor_spawn;2929.00;9.70;1370.00;1.69;0
 237;special_project_facility_spawn;2942.00;9.70;1357.00;2.22;0
@@ -45871,7 +45635,6 @@
 238;anti_air_building;2909.00;9.70;1259.00;0.26;0
 238;anti_air_building;2828.00;9.70;1246.00;5.84;0
 238;anti_air_building;2882.00;9.70;1282.00;2.69;0
-238;synthetic_refinery;2852.00;9.70;1244.00;4.25;0
 238;radar_station;2865.00;9.70;1273.00;1.09;0
 238;nuclear_reactor_spawn;2845.00;9.70;1239.00;1.64;0
 238;special_project_facility_spawn;2868.00;9.70;1245.00;2.10;0
@@ -46177,7 +45940,6 @@
 239;anti_air_building;3628.00;9.70;1730.00;6.13;0
 239;anti_air_building;3554.00;9.70;1735.00;4.20;0
 239;anti_air_building;3669.00;9.70;1777.00;5.22;0
-239;synthetic_refinery;3640.00;9.70;1730.00;4.86;0
 239;radar_station;3553.00;9.70;1745.00;4.62;0
 239;nuclear_reactor_spawn;3510.00;9.70;1763.00;4.32;0
 239;special_project_facility_spawn;3618.00;9.70;1737.00;2.38;0
@@ -46427,7 +46189,6 @@
 240;anti_air_building;2828.00;9.70;1465.00;3.68;0
 240;anti_air_building;2852.00;9.70;1538.00;4.18;0
 240;anti_air_building;2852.00;9.70;1498.00;1.04;0
-240;synthetic_refinery;2848.00;9.70;1508.00;6.08;0
 240;radar_station;2799.00;9.70;1547.00;1.93;0
 240;nuclear_reactor_spawn;2832.00;9.70;1470.00;1.67;0
 240;special_project_facility_spawn;2773.00;9.70;1626.00;1.34;0
@@ -46633,7 +46394,6 @@
 241;anti_air_building;2668.00;9.70;1579.00;1.04;0
 241;anti_air_building;2708.00;9.70;1580.00;6.08;0
 241;anti_air_building;2647.00;9.70;1608.00;0.98;0
-241;synthetic_refinery;2624.00;9.70;1635.00;3.86;0
 241;radar_station;2665.00;9.70;1605.00;3.61;0
 241;nuclear_reactor_spawn;2658.00;9.70;1586.00;6.07;0
 241;special_project_facility_spawn;2663.00;9.70;1623.00;1.70;0
@@ -46805,7 +46565,6 @@
 242;anti_air_building;2667.00;9.70;1716.00;1.60;0
 242;anti_air_building;2714.00;9.70;1724.00;0.60;0
 242;anti_air_building;2612.00;9.70;1750.00;3.58;0
-242;synthetic_refinery;2610.00;9.70;1769.00;3.24;0
 242;radar_station;2643.00;9.70;1750.00;4.00;0
 242;nuclear_reactor_spawn;2640.00;9.70;1739.00;5.84;0
 242;special_project_facility_spawn;2586.00;9.70;1753.00;2.69;0
@@ -47016,7 +46775,6 @@
 243;anti_air_building;2801.00;9.70;1752.00;0.06;0
 243;anti_air_building;2811.00;9.70;1716.00;1.58;0
 243;anti_air_building;2832.00;9.70;1712.00;5.84;0
-243;synthetic_refinery;2766.00;9.70;1760.00;1.86;0
 243;radar_station;2795.00;9.70;1712.00;3.31;0
 243;nuclear_reactor_spawn;2859.00;9.70;1737.00;2.09;0
 243;special_project_facility_spawn;2774.00;9.70;1708.00;0.47;0
@@ -47225,7 +46983,6 @@
 244;anti_air_building;2654.00;9.70;1840.00;3.68;0
 244;anti_air_building;2711.00;9.70;1816.00;4.18;0
 244;anti_air_building;2682.00;9.70;1806.00;1.04;0
-244;synthetic_refinery;2717.00;9.70;1843.00;6.08;0
 244;radar_station;2681.00;9.70;1819.00;1.93;0
 244;nuclear_reactor_spawn;2708.00;9.70;1844.00;1.67;0
 244;special_project_facility_spawn;2731.00;9.70;1807.00;1.34;0
@@ -47429,7 +47186,6 @@
 245;anti_air_building;2759.00;9.70;1851.00;0.13;0
 245;anti_air_building;2902.00;9.70;1839.00;5.08;0
 245;anti_air_building;2827.00;9.70;1803.00;4.29;0
-245;synthetic_refinery;2785.00;9.70;1824.00;4.88;0
 245;radar_station;2855.00;9.70;1819.00;4.74;0
 245;nuclear_reactor_spawn;2844.00;9.70;1794.00;0.36;0
 245;special_project_facility_spawn;2799.00;9.70;1848.00;3.95;0
@@ -47650,7 +47406,6 @@
 246;anti_air_building;2642.00;9.70;1943.00;0.30;0
 246;anti_air_building;2647.00;9.70;1916.00;1.82;0
 246;anti_air_building;2686.00;9.70;1877.00;0.06;0
-246;synthetic_refinery;2622.00;9.70;1925.00;1.58;0
 246;radar_station;2683.00;9.70;1926.00;1.52;0
 246;nuclear_reactor_spawn;2654.00;9.70;1948.00;0.86;0
 246;special_project_facility_spawn;2634.00;9.70;1953.00;1.08;0
@@ -47772,7 +47527,6 @@
 247;anti_air_building;3536.00;9.70;285.00;2.31;0
 247;anti_air_building;3541.00;9.70;284.00;1.16;0
 247;anti_air_building;3573.00;9.70;271.00;5.41;0
-247;synthetic_refinery;3538.00;9.70;267.00;2.96;0
 247;radar_station;3560.00;9.70;276.00;1.39;0
 247;nuclear_reactor_spawn;3574.00;9.70;301.00;3.91;0
 247;special_project_facility_spawn;3522.00;9.70;272.00;5.71;0
@@ -47822,7 +47576,6 @@
 248;anti_air_building;108.00;9.70;2902.00;0.69;0
 248;anti_air_building;104.00;9.70;2896.00;4.80;0
 248;anti_air_building;118.00;9.70;2904.00;5.63;0
-248;synthetic_refinery;103.00;9.70;2909.00;1.23;0
 248;radar_station;111.00;9.70;2902.00;5.04;0
 248;nuclear_reactor_spawn;100.00;9.70;2897.00;2.85;0
 248;special_project_facility_spawn;123.00;9.70;2904.00;0.07;0
@@ -47859,7 +47612,6 @@
 249;anti_air_building;2163.00;9.70;1490.00;3.15;0
 249;anti_air_building;2151.00;9.70;1519.00;5.68;0
 249;anti_air_building;2151.00;9.70;1521.00;6.09;0
-249;synthetic_refinery;2148.00;9.70;1483.00;1.81;0
 249;radar_station;2156.00;9.70;1497.00;2.67;0
 249;nuclear_reactor_spawn;2158.00;9.70;1510.00;3.33;0
 249;special_project_facility_spawn;2166.00;9.70;1510.00;0.53;0
@@ -48053,7 +47805,6 @@
 250;anti_air_building;3443.00;9.70;985.00;3.81;0
 250;anti_air_building;3475.00;9.70;978.00;1.59;0
 250;anti_air_building;3339.00;9.70;980.00;3.76;0
-250;synthetic_refinery;3489.00;9.70;973.00;5.70;0
 250;radar_station;3389.00;9.70;991.00;1.92;0
 250;nuclear_reactor_spawn;3313.00;9.70;1032.00;3.90;0
 250;special_project_facility_spawn;3421.00;9.70;1009.00;3.74;0
@@ -48190,7 +47941,6 @@
 251;anti_air_building;2290.00;9.70;1819.00;5.30;0
 251;anti_air_building;2271.00;9.70;1860.00;5.13;0
 251;anti_air_building;2267.00;9.70;1863.00;2.31;0
-251;synthetic_refinery;2270.00;9.70;1857.00;1.16;0
 251;radar_station;2296.00;9.70;1829.00;3.22;0
 251;nuclear_reactor_spawn;2276.00;9.70;1839.00;5.26;0
 251;special_project_facility_spawn;2334.00;9.70;1810.00;4.50;0
@@ -48269,7 +48019,6 @@
 252;anti_air_building;3249.00;9.70;1065.00;1.39;0
 252;anti_air_building;3217.00;9.70;1073.00;2.63;0
 252;anti_air_building;3270.00;9.70;1049.00;5.69;0
-252;synthetic_refinery;3206.00;9.70;1079.00;3.61;0
 252;radar_station;3227.00;9.70;1067.00;4.59;0
 252;nuclear_reactor_spawn;3217.00;9.70;1069.00;2.54;0
 252;special_project_facility_spawn;3202.00;9.70;1069.00;5.27;0
@@ -48327,7 +48076,6 @@
 253;anti_air_building;61.00;9.70;2844.00;4.06;0
 253;anti_air_building;68.00;9.70;2840.00;2.43;0
 253;anti_air_building;65.00;9.70;2843.00;0.28;0
-253;synthetic_refinery;61.00;9.70;2853.00;3.15;0
 253;radar_station;63.00;9.70;2853.00;4.86;0
 253;nuclear_reactor_spawn;62.00;9.70;2853.00;1.81;0
 253;special_project_facility_spawn;59.00;9.70;2859.00;0.25;0
@@ -48438,7 +48186,6 @@
 254;anti_air_building;2169.00;9.70;1345.00;4.98;0
 254;anti_air_building;2224.00;9.70;1350.00;0.06;0
 254;anti_air_building;2246.00;9.70;1332.00;1.57;0
-254;synthetic_refinery;2248.00;9.70;1330.00;1.72;0
 254;radar_station;2234.00;9.70;1336.00;4.82;0
 254;nuclear_reactor_spawn;2196.00;9.70;1293.00;1.69;0
 254;special_project_facility_spawn;2183.00;9.70;1325.00;2.22;0
@@ -48580,7 +48327,6 @@
 255;anti_air_building;1195.00;9.70;941.00;3.35;0
 255;anti_air_building;1220.00;9.70;939.00;3.19;0
 255;anti_air_building;1204.00;9.70;1009.00;5.77;0
-255;synthetic_refinery;1219.00;9.70;935.00;3.41;0
 255;radar_station;1200.00;9.70;951.00;5.18;0
 255;nuclear_reactor_spawn;1190.00;9.70;949.00;4.98;0
 255;special_project_facility_spawn;1194.00;9.70;891.00;5.16;0
@@ -48717,7 +48463,6 @@
 256;anti_air_building;2388.00;9.70;1181.00;5.77;0
 256;anti_air_building;2370.00;9.70;1130.00;3.41;0
 256;anti_air_building;2403.00;9.70;1164.00;3.15;0
-256;synthetic_refinery;2399.00;9.70;1148.00;6.19;0
 256;radar_station;2390.00;9.70;1142.00;5.60;0
 256;nuclear_reactor_spawn;2405.00;9.70;1092.00;4.98;0
 256;special_project_facility_spawn;2394.00;9.70;1172.00;0.06;0
@@ -48885,7 +48630,6 @@
 257;anti_air_building;1319.00;9.70;1442.00;3.95;0
 257;anti_air_building;1318.00;9.70;1461.00;2.79;0
 257;anti_air_building;1372.00;9.70;1425.00;1.36;0
-257;synthetic_refinery;1327.00;9.70;1424.00;5.45;0
 257;radar_station;1339.00;9.70;1445.00;2.30;0
 257;nuclear_reactor_spawn;1288.00;9.70;1448.00;2.48;0
 257;special_project_facility_spawn;1407.00;9.70;1449.00;0.30;0
@@ -49050,7 +48794,6 @@
 258;anti_air_building;1552.00;9.70;1353.00;4.98;0
 258;anti_air_building;1534.00;9.70;1358.00;0.06;0
 258;anti_air_building;1559.00;9.70;1366.00;1.57;0
-258;synthetic_refinery;1540.00;9.70;1355.00;1.72;0
 258;radar_station;1542.00;9.70;1340.00;4.82;0
 258;nuclear_reactor_spawn;1565.00;9.70;1370.00;1.69;0
 258;special_project_facility_spawn;1575.00;9.70;1361.00;2.22;0
@@ -49198,7 +48941,6 @@
 259;anti_air_building;1452.00;9.70;1478.00;1.04;0
 259;anti_air_building;1451.00;9.70;1498.00;6.08;0
 259;anti_air_building;1492.00;9.70;1507.00;0.98;0
-259;synthetic_refinery;1497.00;9.70;1459.00;3.86;0
 259;radar_station;1469.00;9.70;1486.00;3.61;0
 259;nuclear_reactor_spawn;1504.00;9.70;1502.00;6.07;0
 259;special_project_facility_spawn;1517.00;9.70;1513.00;1.70;0
@@ -49380,7 +49122,6 @@
 260;anti_air_building;1440.00;9.70;1409.00;2.09;0
 260;anti_air_building;1501.00;9.70;1358.00;0.47;0
 260;anti_air_building;1415.00;9.70;1393.00;1.45;0
-260;synthetic_refinery;1478.00;9.70;1380.00;5.77;0
 260;radar_station;1465.00;9.70;1404.00;2.21;0
 260;nuclear_reactor_spawn;1453.00;9.70;1427.00;0.73;0
 260;special_project_facility_spawn;1481.00;9.70;1331.00;4.12;0
@@ -49579,7 +49320,6 @@
 261;anti_air_building;3952.00;9.70;2575.00;0.21;0
 261;anti_air_building;3593.00;9.70;2528.00;5.82;0
 261;anti_air_building;3793.00;9.70;2597.00;0.73;0
-261;synthetic_refinery;3978.00;9.70;2495.00;4.12;0
 261;radar_station;3821.00;9.70;2597.00;5.94;0
 261;nuclear_reactor_spawn;3619.00;9.70;2579.00;4.10;0
 261;special_project_facility_spawn;4004.00;9.70;2513.00;4.75;0
@@ -49995,7 +49735,6 @@
 262;anti_air_building;3881.00;9.70;2308.00;0.69;0
 262;anti_air_building;3968.00;9.70;2378.00;1.68;0
 262;anti_air_building;3628.00;9.70;2482.00;1.68;0
-262;synthetic_refinery;3797.00;9.70;2451.00;4.81;0
 262;radar_station;3777.00;9.70;2363.00;1.78;0
 262;nuclear_reactor_spawn;3568.00;9.70;2246.00;4.37;0
 262;special_project_facility_spawn;3957.00;9.70;2398.00;2.70;0
@@ -50511,7 +50250,6 @@
 263;anti_air_building;3944.00;9.70;2153.00;5.32;0
 263;anti_air_building;3993.00;9.70;2083.00;1.04;0
 263;anti_air_building;4002.00;9.70;2019.00;0.42;0
-263;synthetic_refinery;4014.00;9.70;2172.00;3.58;0
 263;radar_station;3968.00;9.70;2077.00;5.83;0
 263;nuclear_reactor_spawn;3953.00;9.70;2127.00;1.68;0
 263;special_project_facility_spawn;3891.00;9.70;2044.00;1.68;0
@@ -50975,7 +50713,6 @@
 264;anti_air_building;3930.00;9.70;1645.00;2.80;0
 264;anti_air_building;3865.00;9.70;1659.00;4.11;0
 264;anti_air_building;3808.00;9.70;1600.00;3.03;0
-264;synthetic_refinery;3882.00;9.70;1680.00;6.04;0
 264;radar_station;3879.00;9.70;1636.00;0.31;0
 264;nuclear_reactor_spawn;3825.00;9.70;1630.00;2.88;0
 264;special_project_facility_spawn;3823.00;9.70;1738.00;3.07;0
@@ -51269,7 +51006,6 @@
 265;anti_air_building;2893.00;9.70;2319.00;2.34;0
 265;anti_air_building;2922.00;9.70;2274.00;3.81;0
 265;anti_air_building;2885.00;9.70;2272.00;1.59;0
-265;synthetic_refinery;2883.00;9.70;2267.00;3.76;0
 265;radar_station;2890.00;9.70;2294.00;5.84;0
 265;nuclear_reactor_spawn;2847.00;9.70;2210.00;3.62;0
 265;special_project_facility_spawn;2852.00;9.70;2258.00;3.90;0
@@ -51505,7 +51241,6 @@
 266;anti_air_building;3315.00;9.70;1246.00;2.19;0
 266;anti_air_building;3394.00;9.70;1108.00;1.17;0
 266;anti_air_building;3361.00;9.70;1198.00;5.11;0
-266;synthetic_refinery;3310.00;9.70;1206.00;1.39;0
 266;radar_station;3372.00;9.70;1173.00;0.50;0
 266;nuclear_reactor_spawn;3392.00;9.70;1143.00;3.56;0
 266;special_project_facility_spawn;3461.00;9.70;1146.00;4.00;0
@@ -51875,7 +51610,6 @@
 267;anti_air_building;3335.00;9.70;1161.00;4.13;0
 267;anti_air_building;3160.00;9.70;1213.00;5.76;0
 267;anti_air_building;3328.00;9.70;1196.00;1.26;0
-267;synthetic_refinery;3267.00;9.70;1218.00;4.77;0
 267;radar_station;3193.00;9.70;1213.00;2.65;0
 267;nuclear_reactor_spawn;3206.00;9.70;1176.00;2.15;0
 267;special_project_facility_spawn;3107.00;9.70;1197.00;1.97;0
@@ -52148,7 +51882,6 @@
 268;anti_air_building;3367.00;9.70;1286.00;6.07;0
 268;anti_air_building;3291.00;9.70;1261.00;1.70;0
 268;anti_air_building;3335.00;9.70;1339.00;6.04;0
-268;synthetic_refinery;3373.00;9.70;1292.00;4.38;0
 268;radar_station;3313.00;9.70;1303.00;5.55;0
 268;nuclear_reactor_spawn;3362.00;9.70;1319.00;4.29;0
 268;special_project_facility_spawn;3295.00;9.70;1290.00;4.88;0
@@ -52380,7 +52113,6 @@
 269;anti_air_building;3359.00;9.70;1244.00;3.36;0
 269;anti_air_building;3450.00;9.70;1236.00;1.82;0
 269;anti_air_building;3479.00;9.70;1291.00;2.20;0
-269;synthetic_refinery;3443.00;9.70;1244.00;1.29;0
 269;radar_station;3439.00;9.70;1260.00;1.11;0
 269;nuclear_reactor_spawn;3553.00;9.70;1212.00;3.66;0
 269;special_project_facility_spawn;3533.00;9.70;1271.00;2.81;0
@@ -52631,7 +52363,6 @@
 270;anti_air_building;3402.00;9.70;1492.00;4.38;0
 270;anti_air_building;3411.00;9.70;1549.00;0.43;0
 270;anti_air_building;3395.00;9.70;1435.00;6.01;0
-270;synthetic_refinery;3373.00;9.70;1525.00;5.50;0
 270;radar_station;3362.00;9.70;1489.00;3.54;0
 270;nuclear_reactor_spawn;3391.00;9.70;1462.00;3.19;0
 270;special_project_facility_spawn;3365.00;9.70;1519.00;0.12;0
@@ -52835,7 +52566,6 @@
 271;anti_air_building;3482.00;9.70;1435.00;1.10;0
 271;anti_air_building;3382.00;9.70;1353.00;2.44;0
 271;anti_air_building;3372.00;9.70;1403.00;4.65;0
-271;synthetic_refinery;3508.00;9.70;1415.00;2.02;0
 271;radar_station;3440.00;9.70;1418.00;2.35;0
 271;nuclear_reactor_spawn;3527.00;9.70;1476.00;2.34;0
 271;special_project_facility_spawn;3399.00;9.70;1422.00;3.81;0
@@ -53101,7 +52831,6 @@
 272;anti_air_building;3254.00;9.70;1563.00;3.13;0
 272;anti_air_building;3226.00;9.70;1567.00;2.31;0
 272;anti_air_building;3190.00;9.70;1586.00;0.58;0
-272;synthetic_refinery;3261.00;9.70;1487.00;1.04;0
 272;radar_station;3222.00;9.70;1529.00;1.26;0
 272;nuclear_reactor_spawn;3225.00;9.70;1475.00;3.61;0
 272;special_project_facility_spawn;3193.00;9.70;1486.00;2.96;0
@@ -53295,7 +53024,6 @@
 273;anti_air_building;3120.00;9.70;1479.00;0.46;0
 273;anti_air_building;3021.00;9.70;1530.00;2.48;0
 273;anti_air_building;3043.00;9.70;1535.00;0.30;0
-273;synthetic_refinery;3014.00;9.70;1502.00;1.82;0
 273;radar_station;3051.00;9.70;1519.00;6.16;0
 273;nuclear_reactor_spawn;2983.00;9.70;1505.00;5.84;0
 273;special_project_facility_spawn;3021.00;9.70;1518.00;1.86;0
@@ -53465,7 +53193,6 @@
 274;anti_air_building;3017.00;9.70;1605.00;1.10;0
 274;anti_air_building;3070.00;9.70;1580.00;2.44;0
 274;anti_air_building;2966.00;9.70;1579.00;4.65;0
-274;synthetic_refinery;2966.00;9.70;1602.00;2.02;0
 274;radar_station;3015.00;9.70;1579.00;2.35;0
 274;nuclear_reactor_spawn;3056.00;9.70;1575.00;2.34;0
 274;special_project_facility_spawn;2946.00;9.70;1626.00;3.81;0
@@ -53632,7 +53359,6 @@
 275;anti_air_building;3680.00;9.70;1574.00;0.73;0
 275;anti_air_building;3600.00;9.70;1577.00;4.12;0
 275;anti_air_building;3582.00;9.70;1520.00;1.31;0
-275;synthetic_refinery;3628.00;9.70;1552.00;2.15;0
 275;radar_station;3627.00;9.70;1544.00;4.00;0
 275;nuclear_reactor_spawn;3575.00;9.70;1565.00;2.19;0
 275;special_project_facility_spawn;3683.00;9.70;1558.00;1.17;0
@@ -53846,7 +53572,6 @@
 276;anti_air_building;3382.00;9.70;1555.00;2.26;0
 276;anti_air_building;3403.00;9.70;1576.00;3.39;0
 276;anti_air_building;3526.00;9.70;1633.00;3.60;0
-276;synthetic_refinery;3519.00;9.70;1628.00;1.40;0
 276;radar_station;3461.00;9.70;1600.00;4.49;0
 276;nuclear_reactor_spawn;3356.00;9.70;1598.00;3.19;0
 276;special_project_facility_spawn;3556.00;9.70;1619.00;2.87;0
@@ -54038,7 +53763,6 @@
 277;anti_air_building;3156.00;9.70;1605.00;5.71;0
 277;anti_air_building;3178.00;9.70;1681.00;2.80;0
 277;anti_air_building;3203.00;9.70;1640.00;3.56;0
-277;synthetic_refinery;3201.00;9.70;1651.00;4.00;0
 277;radar_station;3158.00;9.70;1648.00;2.53;0
 277;nuclear_reactor_spawn;3151.00;9.70;1684.00;1.10;0
 277;special_project_facility_spawn;3132.00;9.70;1615.00;2.44;0
@@ -54331,7 +54055,6 @@
 278;anti_air_building;3374.00;9.70;1781.00;3.14;0
 278;anti_air_building;3473.00;9.70;1731.00;1.99;0
 278;anti_air_building;3432.00;9.70;1649.00;1.48;0
-278;synthetic_refinery;3365.00;9.70;1714.00;0.06;0
 278;radar_station;3416.00;9.70;1712.00;0.55;0
 278;nuclear_reactor_spawn;3402.00;9.70;1674.00;6.17;0
 278;special_project_facility_spawn;3399.00;9.70;1669.00;5.42;0
@@ -54611,7 +54334,6 @@
 279;anti_air_building;3311.00;9.70;1747.00;3.19;0
 279;anti_air_building;3184.00;9.70;1716.00;2.87;0
 279;anti_air_building;3147.00;9.70;1776.00;0.80;0
-279;synthetic_refinery;3158.00;9.70;1711.00;0.31;0
 279;radar_station;3228.00;9.70;1758.00;4.35;0
 279;nuclear_reactor_spawn;3235.00;9.70;1727.00;3.84;0
 279;special_project_facility_spawn;3208.00;9.70;1764.00;3.36;0
@@ -54902,7 +54624,6 @@
 280;anti_air_building;3196.00;9.70;2430.00;0.08;0
 280;anti_air_building;3307.00;9.70;2607.00;0.41;0
 280;anti_air_building;3276.00;9.70;2615.00;5.47;0
-280;synthetic_refinery;3243.00;9.70;2579.00;6.06;0
 280;radar_station;3272.00;9.70;2510.00;3.73;0
 280;nuclear_reactor_spawn;3452.00;9.70;2484.00;0.33;0
 280;special_project_facility_spawn;3244.00;9.70;2398.00;3.01;0
@@ -55259,7 +54980,6 @@
 281;anti_air_building;3268.00;9.70;2347.00;0.59;0
 281;anti_air_building;3420.00;9.70;2366.00;5.66;0
 281;anti_air_building;3233.00;9.70;2305.00;0.00;0
-281;synthetic_refinery;3310.00;9.70;2322.00;3.23;0
 281;radar_station;3373.00;9.70;2343.00;5.54;0
 281;nuclear_reactor_spawn;3280.00;9.70;2258.00;4.92;0
 281;special_project_facility_spawn;3378.00;9.70;2367.00;2.46;0
@@ -55543,7 +55263,6 @@
 282;anti_air_building;4050.00;9.70;2809.00;2.70;0
 282;anti_air_building;4081.00;9.70;2702.00;0.33;0
 282;anti_air_building;4047.00;9.70;2781.00;5.38;0
-282;synthetic_refinery;3749.00;9.70;2712.00;6.14;0
 282;radar_station;3729.00;9.50;2822.00;4.30;0
 282;nuclear_reactor_spawn;3818.00;9.70;2796.00;2.31;0
 282;special_project_facility_spawn;3823.00;9.70;2793.00;0.58;0
@@ -55841,7 +55560,6 @@
 283;anti_air_building;3069.00;9.70;2349.00;3.66;0
 283;anti_air_building;3172.00;9.70;2329.00;2.81;0
 283;anti_air_building;3130.00;9.70;2373.00;5.68;0
-283;synthetic_refinery;3136.00;9.70;2322.00;2.04;0
 283;radar_station;3102.00;9.70;2323.00;2.52;0
 283;nuclear_reactor_spawn;3027.00;9.70;2388.00;5.10;0
 283;special_project_facility_spawn;3115.00;9.70;2249.00;5.64;0
@@ -56251,7 +55969,6 @@
 284;anti_air_building;3936.00;9.70;1019.00;4.29;0
 284;anti_air_building;3918.00;9.70;1272.00;0.06;0
 284;anti_air_building;3870.00;9.70;1249.00;5.15;0
-284;synthetic_refinery;3799.00;9.70;1154.00;0.35;0
 284;radar_station;3851.00;9.70;1119.00;4.66;0
 284;nuclear_reactor_spawn;3853.00;9.70;1196.00;0.92;0
 284;special_project_facility_spawn;3863.00;9.70;1198.00;4.78;0
@@ -56832,7 +56549,6 @@
 285;anti_air_building;3630.00;9.70;1446.00;4.03;0
 285;anti_air_building;3854.00;9.70;1458.00;2.70;0
 285;anti_air_building;3870.00;9.70;1526.00;2.27;0
-285;synthetic_refinery;3676.00;9.70;1405.00;2.87;0
 285;radar_station;3708.00;9.70;1467.00;4.97;0
 285;nuclear_reactor_spawn;3813.00;9.70;1508.00;1.55;0
 285;special_project_facility_spawn;3838.00;9.70;1473.00;1.18;0
@@ -57162,7 +56878,6 @@
 286;anti_air_building;814.00;9.70;1678.00;0.32;0
 286;anti_air_building;852.00;9.70;1789.00;4.44;0
 286;anti_air_building;778.00;9.70;1720.00;5.69;0
-286;synthetic_refinery;786.00;9.70;1728.00;2.26;0
 286;radar_station;813.00;9.70;1737.00;4.98;0
 286;nuclear_reactor_spawn;776.00;9.70;1714.00;1.40;0
 286;special_project_facility_spawn;840.00;9.70;1728.00;4.80;0
@@ -57351,7 +57066,6 @@
 287;anti_air_building;3399.00;9.70;1059.00;4.10;0
 287;anti_air_building;3414.00;9.70;1083.00;4.75;0
 287;anti_air_building;3403.00;9.70;1046.00;2.19;0
-287;synthetic_refinery;3292.00;9.70;1089.00;1.17;0
 287;radar_station;3360.00;9.70;1076.00;0.04;0
 287;nuclear_reactor_spawn;3373.00;9.70;1059.00;5.71;0
 287;special_project_facility_spawn;3307.00;9.70;1100.00;2.80;0
@@ -57516,7 +57230,6 @@
 288;anti_air_building;2967.00;9.70;1782.00;6.13;0
 288;anti_air_building;2983.00;9.70;1817.00;4.20;0
 288;anti_air_building;2947.00;9.70;1732.00;5.22;0
-288;synthetic_refinery;2965.00;9.70;1811.00;4.86;0
 288;radar_station;2967.00;9.70;1758.00;4.62;0
 288;nuclear_reactor_spawn;3034.00;9.70;1771.00;4.32;0
 288;special_project_facility_spawn;2962.00;9.70;1737.00;2.38;0
@@ -57695,7 +57408,6 @@
 289;anti_air_building;3561.00;9.70;1288.00;3.14;0
 289;anti_air_building;3512.00;9.70;1392.00;5.43;0
 289;anti_air_building;3483.00;9.70;1356.00;3.62;0
-289;synthetic_refinery;3496.00;9.70;1333.00;0.62;0
 289;radar_station;3542.00;9.70;1300.00;0.26;0
 289;nuclear_reactor_spawn;3633.00;9.70;1249.00;5.22;0
 289;special_project_facility_spawn;3472.00;9.70;1356.00;4.86;0
@@ -57843,7 +57555,6 @@
 290;anti_air_building;888.00;9.70;1769.00;1.17;0
 290;anti_air_building;940.00;9.70;1749.00;5.11;0
 290;anti_air_building;886.00;9.70;1779.00;1.39;0
-290;synthetic_refinery;914.00;9.70;1758.00;5.71;0
 290;radar_station;907.00;9.70;1781.00;3.91;0
 290;nuclear_reactor_spawn;920.00;9.70;1814.00;4.00;0
 290;special_project_facility_spawn;918.00;9.70;1809.00;5.89;0
@@ -57938,7 +57649,6 @@
 291;anti_air_building;1825.00;9.70;1273.00;0.98;0
 291;anti_air_building;1757.00;9.70;1269.00;3.86;0
 291;anti_air_building;1803.00;9.70;1262.00;1.67;0
-291;synthetic_refinery;1834.00;9.70;1268.00;1.34;0
 291;radar_station;1792.00;9.70;1272.00;5.11;0
 291;nuclear_reactor_spawn;1802.00;9.70;1259.00;6.04;0
 291;special_project_facility_spawn;1800.00;9.70;1263.00;4.38;0
@@ -58019,7 +57729,6 @@
 292;anti_air_building;1469.00;9.70;1192.00;2.09;0
 292;anti_air_building;1502.00;9.70;1170.00;0.47;0
 292;anti_air_building;1501.00;9.70;1185.00;1.45;0
-292;synthetic_refinery;1503.00;9.70;1116.00;5.77;0
 292;radar_station;1503.00;9.70;1164.00;2.21;0
 292;nuclear_reactor_spawn;1475.00;9.70;1177.00;0.73;0
 292;special_project_facility_spawn;1467.00;9.70;1139.00;4.12;0
@@ -58152,7 +57861,6 @@
 293;anti_air_building;2995.00;9.70;1692.00;4.38;0
 293;anti_air_building;3054.00;9.70;1671.00;0.43;0
 293;anti_air_building;2992.00;9.70;1631.00;6.01;0
-293;synthetic_refinery;3077.00;9.70;1617.00;5.50;0
 293;radar_station;3019.00;9.70;1657.00;3.54;0
 293;nuclear_reactor_spawn;3093.00;9.70;1628.00;3.19;0
 293;special_project_facility_spawn;2988.00;9.70;1704.00;0.12;0
@@ -58219,7 +57927,6 @@
 294;anti_air_building;1758.00;9.70;2155.00;5.16;0
 294;anti_air_building;1756.00;9.70;2155.00;4.98;0
 294;anti_air_building;1761.00;9.70;2153.00;0.06;0
-294;synthetic_refinery;1760.00;9.70;2153.00;1.57;0
 294;radar_station;1758.00;9.70;2153.00;3.13;0
 294;nuclear_reactor_spawn;1757.00;9.70;2153.00;3.52;0
 294;special_project_facility_spawn;1758.00;9.70;2154.00;1.69;0
@@ -58339,7 +58046,6 @@
 295;anti_air_building;1266.00;9.70;1043.00;4.20;0
 295;anti_air_building;1250.00;9.70;1106.00;5.22;0
 295;anti_air_building;1278.00;9.70;1050.00;4.86;0
-295;synthetic_refinery;1378.00;9.70;1058.00;4.51;0
 295;radar_station;1297.00;9.70;1072.00;0.08;0
 295;nuclear_reactor_spawn;1228.00;9.70;1043.00;2.38;0
 295;special_project_facility_spawn;1340.00;9.70;1044.00;3.24;0
@@ -58543,7 +58249,6 @@
 296;anti_air_building;1160.00;9.70;1723.00;2.04;0
 296;anti_air_building;1149.00;9.70;1736.00;0.96;0
 296;anti_air_building;1130.00;9.70;1748.00;1.69;0
-296;synthetic_refinery;1153.00;9.70;1757.00;5.10;0
 296;radar_station;1173.00;9.70;1748.00;2.68;0
 296;nuclear_reactor_spawn;1121.00;9.70;1744.00;0.33;0
 296;special_project_facility_spawn;1117.00;9.70;1745.00;5.38;0
@@ -58730,7 +58435,6 @@
 297;anti_air_building;3520.00;9.70;1544.00;3.14;0
 297;anti_air_building;3476.00;9.70;1527.00;5.43;0
 297;anti_air_building;3523.00;9.70;1506.00;3.62;0
-297;synthetic_refinery;3505.00;9.70;1572.00;0.62;0
 297;radar_station;3523.00;9.70;1519.00;0.26;0
 297;nuclear_reactor_spawn;3516.00;9.70;1485.00;5.22;0
 297;special_project_facility_spawn;3516.00;9.70;1559.00;4.86;0
@@ -58860,7 +58564,6 @@
 298;anti_air_building;1535.00;9.70;1418.00;2.34;0
 298;anti_air_building;1597.00;9.70;1372.00;3.81;0
 298;anti_air_building;1584.00;9.70;1352.00;1.59;0
-298;synthetic_refinery;1557.00;9.70;1405.00;3.76;0
 298;radar_station;1582.00;9.70;1377.00;5.84;0
 298;nuclear_reactor_spawn;1590.00;9.70;1356.00;3.62;0
 298;special_project_facility_spawn;1594.00;9.70;1363.00;3.90;0
@@ -59035,7 +58738,6 @@
 299;anti_air_building;1503.00;9.70;1222.00;2.04;0
 299;anti_air_building;1508.00;9.70;1256.00;0.96;0
 299;anti_air_building;1423.00;9.70;1183.00;1.69;0
-299;synthetic_refinery;1517.00;9.70;1256.00;5.10;0
 299;radar_station;1466.00;9.70;1214.00;2.68;0
 299;nuclear_reactor_spawn;1427.00;9.70;1236.00;0.33;0
 299;special_project_facility_spawn;1507.00;9.70;1276.00;5.38;0
@@ -59276,7 +58978,6 @@
 300;anti_air_building;3619.00;9.70;1669.00;3.36;0
 300;anti_air_building;3643.00;9.70;1663.00;0.33;0
 300;anti_air_building;3687.00;9.70;1644.00;3.01;0
-300;synthetic_refinery;3639.00;9.70;1666.00;3.64;0
 300;radar_station;3697.00;9.70;1687.00;4.94;0
 300;nuclear_reactor_spawn;3661.00;9.70;1639.00;5.66;0
 300;special_project_facility_spawn;3724.00;9.70;1707.00;0.00;0
@@ -59412,7 +59113,6 @@
 301;anti_air_building;2299.00;9.70;1272.00;0.21;0
 301;anti_air_building;2314.00;9.70;1253.00;5.82;0
 301;anti_air_building;2327.00;9.70;1253.00;0.73;0
-301;synthetic_refinery;2295.00;9.70;1244.00;4.12;0
 301;radar_station;2300.00;9.70;1256.00;5.94;0
 301;nuclear_reactor_spawn;2287.00;9.70;1238.00;4.10;0
 301;special_project_facility_spawn;2311.00;9.70;1257.00;4.75;0
@@ -59500,7 +59200,6 @@
 302;anti_air_building;1107.00;9.70;1740.00;5.89;0
 302;anti_air_building;1103.00;9.70;1739.00;5.68;0
 302;anti_air_building;1080.00;9.70;1748.00;1.10;0
-302;synthetic_refinery;1090.00;9.70;1752.00;2.44;0
 302;radar_station;1103.00;9.70;1737.00;4.22;0
 302;nuclear_reactor_spawn;1083.00;9.70;1696.00;0.53;0
 302;special_project_facility_spawn;1099.00;9.70;1747.00;0.79;0
@@ -59560,7 +59259,6 @@
 303;anti_air_building;83.00;9.70;2869.00;1.70;0
 303;anti_air_building;65.00;9.70;2862.00;6.04;0
 303;anti_air_building;75.00;9.70;2869.00;4.38;0
-303;synthetic_refinery;81.00;9.70;2870.00;0.13;0
 303;radar_station;76.00;9.70;2874.00;2.70;0
 303;nuclear_reactor_spawn;85.00;9.70;2875.00;4.88;0
 303;special_project_facility_spawn;76.00;9.70;2864.00;1.83;0
@@ -59693,7 +59391,6 @@
 304;anti_air_building;872.00;9.70;1674.00;2.81;0
 304;anti_air_building;929.00;9.70;1697.00;5.68;0
 304;anti_air_building;888.00;9.70;1756.00;2.04;0
-304;synthetic_refinery;903.00;9.70;1624.00;0.96;0
 304;radar_station;889.00;9.70;1690.00;3.61;0
 304;nuclear_reactor_spawn;921.00;9.70;1724.00;5.64;0
 304;special_project_facility_spawn;846.00;9.70;1683.00;2.70;0
@@ -59799,7 +59496,6 @@
 305;anti_air_building;2148.00;9.70;1762.00;1.66;0
 305;anti_air_building;2152.00;9.70;1753.00;0.46;0
 305;anti_air_building;2154.00;9.70;1750.00;2.48;0
-305;synthetic_refinery;2169.00;9.70;1751.00;0.30;0
 305;radar_station;2154.00;9.70;1751.00;2.65;0
 305;nuclear_reactor_spawn;2172.00;9.70;1749.00;1.58;0
 305;special_project_facility_spawn;2151.00;9.70;1748.00;5.84;0
@@ -59944,7 +59640,6 @@
 306;anti_air_building;2203.00;9.70;972.00;0.33;0
 306;anti_air_building;2195.00;9.70;963.00;5.38;0
 306;anti_air_building;2188.00;9.70;1006.00;6.14;0
-306;synthetic_refinery;2184.00;9.70;988.00;1.15;0
 306;radar_station;2221.00;9.70;936.00;1.50;0
 306;nuclear_reactor_spawn;2200.00;9.70;976.00;0.58;0
 306;special_project_facility_spawn;2230.00;9.70;997.00;1.04;0
@@ -60143,7 +59838,6 @@
 307;anti_air_building;4006.00;9.70;1129.00;2.81;0
 307;anti_air_building;3982.00;9.70;1118.00;5.68;0
 307;anti_air_building;4031.00;9.70;1039.00;2.04;0
-307;synthetic_refinery;4082.00;9.70;1028.00;0.96;0
 307;radar_station;4035.00;9.70;1070.00;3.61;0
 307;nuclear_reactor_spawn;3999.00;9.70;1031.00;5.64;0
 307;special_project_facility_spawn;4049.00;9.70;1136.00;2.70;0
@@ -60579,7 +60273,6 @@
 308;anti_air_building;4013.00;9.70;1515.00;3.44;0
 308;anti_air_building;3952.00;9.70;1381.00;5.40;0
 308;anti_air_building;3966.00;9.70;1279.00;2.05;0
-308;synthetic_refinery;3959.00;9.70;1386.00;3.93;0
 308;radar_station;3979.00;9.70;1364.00;2.54;0
 308;nuclear_reactor_spawn;4028.00;9.70;1356.00;1.64;0
 308;special_project_facility_spawn;4015.00;9.70;1408.00;3.20;0
@@ -60795,7 +60488,6 @@
 309;anti_air_building;36.00;9.70;2823.00;1.08;0
 309;anti_air_building;7.00;9.70;2805.00;2.09;0
 309;anti_air_building;20.00;9.70;2816.00;0.47;0
-309;synthetic_refinery;31.00;9.70;2827.00;1.45;0
 309;radar_station;31.00;9.70;2829.00;1.58;0
 309;nuclear_reactor_spawn;24.00;9.70;2824.00;5.82;0
 309;special_project_facility_spawn;38.00;9.70;2819.00;0.73;0
@@ -60846,7 +60538,6 @@
 310;anti_air_building;2731.00;9.70;2716.00;5.82;0
 310;anti_air_building;2714.00;9.70;2692.00;0.73;0
 310;anti_air_building;2664.00;9.70;2689.00;4.12;0
-310;synthetic_refinery;2671.00;9.70;2699.00;1.31;0
 310;radar_station;2699.00;9.70;2675.00;0.21;0
 310;nuclear_reactor_spawn;2697.00;9.70;2685.00;4.75;0
 310;special_project_facility_spawn;2722.00;9.70;2618.00;2.19;0
@@ -61098,7 +60789,6 @@
 311;anti_air_building;3876.00;9.70;1315.00;0.19;0
 311;anti_air_building;3697.00;9.70;1344.00;2.46;0
 311;anti_air_building;3623.00;9.70;1315.00;4.14;0
-311;synthetic_refinery;3888.00;9.70;1323.00;1.66;0
 311;radar_station;3734.00;9.70;1330.00;2.06;0
 311;nuclear_reactor_spawn;3788.00;9.70;1309.00;1.04;0
 311;special_project_facility_spawn;3691.00;9.70;1294.00;0.42;0
@@ -61258,7 +60948,6 @@
 312;anti_air_building;305.00;9.70;2987.00;5.77;0
 312;anti_air_building;278.00;9.70;2979.00;0.21;0
 312;anti_air_building;276.00;9.70;2974.00;5.82;0
-312;synthetic_refinery;275.00;9.70;3003.00;0.73;0
 312;radar_station;278.00;9.70;2979.00;2.24;0
 312;nuclear_reactor_spawn;316.00;9.70;3008.00;2.15;0
 312;special_project_facility_spawn;272.00;9.70;3002.00;4.10;0
@@ -61404,7 +61093,6 @@
 313;anti_air_building;3107.00;9.70;1772.00;1.13;0
 313;anti_air_building;3063.00;9.70;1704.00;1.99;0
 313;anti_air_building;3041.00;9.70;1708.00;2.81;0
-313;synthetic_refinery;2977.00;9.70;1718.00;1.79;0
 313;radar_station;3058.00;9.70;1729.00;2.98;0
 313;nuclear_reactor_spawn;3084.00;9.70;1704.00;0.71;0
 313;special_project_facility_spawn;3019.00;9.70;1743.00;6.27;0
@@ -61490,7 +61178,6 @@
 314;anti_air_building;1104.00;9.70;1440.00;0.21;0
 314;anti_air_building;1130.00;9.70;1425.00;5.82;0
 314;anti_air_building;1124.00;9.50;1459.00;0.73;0
-314;synthetic_refinery;1131.00;9.70;1425.00;4.12;0
 314;radar_station;1117.00;9.50;1440.00;5.94;0
 314;nuclear_reactor_spawn;1123.00;9.50;1457.00;4.10;0
 314;special_project_facility_spawn;1132.00;9.70;1424.00;4.75;0
@@ -61522,7 +61209,6 @@
 315;anti_air_building;393.00;9.70;3013.00;2.09;0
 315;anti_air_building;391.00;9.50;3018.00;0.47;0
 315;anti_air_building;392.00;9.50;3012.00;1.45;0
-315;synthetic_refinery;393.00;9.50;3012.00;5.77;0
 315;radar_station;394.00;9.70;3015.00;2.21;0
 315;nuclear_reactor_spawn;392.00;9.50;3017.00;0.73;0
 315;special_project_facility_spawn;394.00;9.50;3014.00;4.12;0
@@ -61640,7 +61326,6 @@
 316;anti_air_building;1187.00;9.70;1539.00;6.14;0
 316;anti_air_building;1185.00;9.70;1554.00;1.15;0
 316;anti_air_building;1282.00;9.70;1555.00;3.13;0
-316;synthetic_refinery;1200.00;9.70;1545.00;2.31;0
 316;radar_station;1221.00;9.70;1542.00;1.39;0
 316;nuclear_reactor_spawn;1240.00;9.70;1533.00;4.98;0
 316;special_project_facility_spawn;1300.00;9.70;1562.00;3.58;0
@@ -61821,7 +61506,6 @@
 317;anti_air_building;1453.00;9.70;1529.00;2.04;0
 317;anti_air_building;1466.00;9.70;1530.00;0.96;0
 317;anti_air_building;1475.00;9.70;1550.00;1.69;0
-317;synthetic_refinery;1426.00;9.70;1551.00;5.10;0
 317;radar_station;1439.00;9.70;1545.00;2.68;0
 317;nuclear_reactor_spawn;1496.00;9.70;1528.00;0.33;0
 317;special_project_facility_spawn;1388.00;9.70;1558.00;5.38;0
@@ -61897,7 +61581,6 @@
 318;anti_air_building;68.00;9.70;38.00;0.73;0
 318;anti_air_building;59.00;9.70;48.00;4.12;0
 318;anti_air_building;73.00;9.70;41.00;1.31;0
-318;synthetic_refinery;66.00;9.70;22.00;2.15;0
 318;radar_station;49.00;9.70;45.00;4.00;0
 318;nuclear_reactor_spawn;63.00;9.70;53.00;2.19;0
 318;special_project_facility_spawn;49.00;9.70;48.00;1.17;0
@@ -61923,7 +61606,6 @@
 319;anti_air_building;4061.00;9.70;52.00;1.31;0
 319;anti_air_building;4059.00;9.70;50.00;2.15;0
 319;anti_air_building;4043.00;9.70;45.00;4.10;0
-319;synthetic_refinery;4060.00;9.70;52.00;4.75;0
 319;radar_station;4064.00;9.50;47.00;4.38;0
 319;nuclear_reactor_spawn;4090.00;9.70;45.00;5.11;0
 319;special_project_facility_spawn;4089.00;9.70;46.00;1.39;0
@@ -62058,7 +61740,6 @@
 320;anti_air_building;1289.00;9.70;1286.00;3.46;0
 320;anti_air_building;1383.00;9.70;1208.00;3.15;0
 320;anti_air_building;1361.00;9.70;1206.00;0.08;0
-320;synthetic_refinery;1387.00;9.70;1254.00;0.41;0
 320;radar_station;1330.00;9.70;1239.00;5.64;0
 320;nuclear_reactor_spawn;1333.00;9.70;1232.00;4.11;0
 320;special_project_facility_spawn;1332.00;9.70;1227.00;3.36;0
@@ -62257,7 +61938,6 @@
 321;anti_air_building;1231.00;9.70;1193.00;5.66;0
 321;anti_air_building;1221.00;9.70;1214.00;0.00;0
 321;anti_air_building;1196.00;9.70;1206.00;3.23;0
-321;synthetic_refinery;1214.00;9.70;1212.00;4.37;0
 321;radar_station;1190.00;9.70;1225.00;2.38;0
 321;nuclear_reactor_spawn;1232.00;9.70;1275.00;2.46;0
 321;special_project_facility_spawn;1228.00;9.70;1270.00;1.77;0
@@ -62367,7 +62047,6 @@
 322;anti_air_building;3.00;9.70;2573.00;5.89;0
 322;anti_air_building;1.00;9.70;2922.00;5.68;0
 322;anti_air_building;1.00;9.70;2247.00;1.10;0
-322;synthetic_refinery;3.00;9.70;2247.00;2.44;0
 322;radar_station;3.00;9.70;2584.00;4.22;0
 322;nuclear_reactor_spawn;2.00;9.70;2119.00;0.53;0
 322;special_project_facility_spawn;2.00;9.70;2699.00;0.79;0
@@ -62486,7 +62165,6 @@
 323;anti_air_building;3334.00;9.70;1651.00;2.96;0
 323;anti_air_building;3294.00;9.70;1693.00;4.17;0
 323;anti_air_building;3274.00;9.70;1711.00;0.50;0
-323;synthetic_refinery;3288.00;9.70;1674.00;0.80;0
 323;radar_station;3280.00;9.70;1650.00;1.70;0
 323;nuclear_reactor_spawn;3311.00;9.70;1678.00;2.81;0
 323;special_project_facility_spawn;3307.00;9.70;1612.00;1.79;0
@@ -62606,7 +62284,6 @@
 324;anti_air_building;1259.00;9.70;1593.00;3.19;0
 324;anti_air_building;1268.00;9.70;1592.00;2.87;0
 324;anti_air_building;1279.00;9.70;1594.00;0.80;0
-324;synthetic_refinery;1224.00;9.70;1566.00;0.31;0
 324;radar_station;1237.00;9.70;1584.00;4.35;0
 324;nuclear_reactor_spawn;1278.00;9.70;1591.00;3.84;0
 324;special_project_facility_spawn;1221.00;9.70;1566.00;3.36;0
@@ -62904,7 +62581,6 @@
 325;anti_air_building;2781.00;9.70;2588.00;3.97;0
 325;anti_air_building;2760.00;9.70;2562.00;4.77;0
 325;anti_air_building;2781.00;9.70;2482.00;3.01;0
-325;synthetic_refinery;2859.00;9.70;2443.00;3.73;0
 325;radar_station;2857.00;9.70;2506.00;5.52;0
 325;nuclear_reactor_spawn;2842.00;9.70;2591.00;2.43;0
 325;special_project_facility_spawn;2861.00;9.70;2603.00;5.94;0
@@ -63169,7 +62845,6 @@
 326;anti_air_building;2272.00;9.70;1668.00;1.04;0
 326;anti_air_building;2182.00;9.70;1669.00;4.98;0
 326;anti_air_building;2161.00;9.70;1635.00;3.58;0
-326;synthetic_refinery;2187.00;9.70;1649.00;3.61;0
 326;radar_station;2211.00;9.70;1652.00;0.72;0
 326;nuclear_reactor_spawn;2266.00;9.70;1679.00;0.50;0
 326;special_project_facility_spawn;2219.00;9.70;1637.00;0.80;0
@@ -63320,7 +62995,6 @@
 327;anti_air_building;1116.00;9.70;1609.00;0.81;0
 327;anti_air_building;1142.00;9.70;1643.00;0.71;0
 327;anti_air_building;1106.00;9.70;1663.00;6.27;0
-327;synthetic_refinery;1111.00;9.70;1634.00;3.44;0
 327;radar_station;1126.00;9.70;1650.00;0.67;0
 327;nuclear_reactor_spawn;1089.00;9.70;1632.00;1.43;0
 327;special_project_facility_spawn;1136.00;9.70;1664.00;3.46;0
@@ -63470,7 +63144,6 @@
 328;anti_air_building;1233.00;9.70;1687.00;0.80;0
 328;anti_air_building;1175.00;9.70;1646.00;1.13;0
 328;anti_air_building;1211.00;9.70;1706.00;1.99;0
-328;synthetic_refinery;1156.00;9.70;1684.00;2.81;0
 328;radar_station;1193.00;9.70;1675.00;1.26;0
 328;nuclear_reactor_spawn;1174.00;9.70;1651.00;0.81;0
 328;special_project_facility_spawn;1194.00;9.70;1642.00;0.71;0
@@ -63656,7 +63329,6 @@
 329;anti_air_building;1068.00;9.70;1647.00;1.77;0
 329;anti_air_building;1046.00;9.70;1613.00;5.52;0
 329;anti_air_building;1018.00;9.70;1616.00;2.31;0
-329;synthetic_refinery;1060.00;9.70;1650.00;5.04;0
 329;radar_station;1038.00;9.70;1632.00;5.00;0
 329;nuclear_reactor_spawn;1010.00;9.70;1593.00;1.99;0
 329;special_project_facility_spawn;1051.00;9.70;1679.00;1.48;0
@@ -63874,7 +63546,6 @@
 330;anti_air_building;2677.00;9.70;1698.00;4.37;0
 330;anti_air_building;2704.00;9.70;1703.00;6.16;0
 330;anti_air_building;2589.00;9.70;1711.00;4.92;0
-330;synthetic_refinery;2669.00;9.70;1697.00;2.46;0
 330;radar_station;2634.00;9.70;1685.00;3.83;0
 330;nuclear_reactor_spawn;2682.00;9.70;1677.00;2.31;0
 330;special_project_facility_spawn;2576.00;9.70;1722.00;5.04;0
@@ -64043,7 +63714,6 @@
 331;anti_air_building;832.00;9.70;1668.00;6.06;0
 331;anti_air_building;787.00;9.70;1632.00;4.11;0
 331;anti_air_building;822.00;9.70;1657.00;3.36;0
-331;synthetic_refinery;836.00;9.70;1651.00;0.33;0
 331;radar_station;806.00;9.70;1625.00;4.65;0
 331;nuclear_reactor_spawn;821.00;9.70;1612.00;2.95;0
 331;special_project_facility_spawn;860.00;9.70;1621.00;0.59;0
@@ -64227,7 +63897,6 @@
 332;anti_air_building;1274.00;9.70;1607.00;3.46;0
 332;anti_air_building;1187.00;9.70;1625.00;3.15;0
 332;anti_air_building;1225.00;9.70;1644.00;0.08;0
-332;synthetic_refinery;1254.00;9.70;1634.00;0.41;0
 332;radar_station;1244.00;9.70;1631.00;5.64;0
 332;nuclear_reactor_spawn;1239.00;9.70;1650.00;4.11;0
 332;special_project_facility_spawn;1231.00;9.70;1643.00;3.36;0
@@ -64353,7 +64022,6 @@
 333;anti_air_building;1482.00;9.70;1619.00;3.66;0
 333;anti_air_building;1470.00;9.70;1645.00;2.81;0
 333;anti_air_building;1470.00;9.70;1605.00;5.68;0
-333;synthetic_refinery;1464.00;9.70;1630.00;2.04;0
 333;radar_station;1472.00;9.70;1640.00;2.52;0
 333;nuclear_reactor_spawn;1473.00;9.70;1617.00;5.10;0
 333;special_project_facility_spawn;1477.00;9.70;1651.00;5.64;0
@@ -64492,7 +64160,6 @@
 334;anti_air_building;1313.00;9.70;1363.00;5.38;0
 334;anti_air_building;1368.00;9.70;1371.00;0.81;0
 334;anti_air_building;1330.00;9.70;1388.00;0.71;0
-334;synthetic_refinery;1314.00;9.70;1375.00;6.27;0
 334;radar_station;1339.00;9.70;1386.00;1.04;0
 334;nuclear_reactor_spawn;1368.00;9.70;1377.00;1.97;0
 334;special_project_facility_spawn;1314.00;9.70;1389.00;1.43;0
@@ -64626,7 +64293,6 @@
 335;anti_air_building;2140.00;9.70;1543.00;0.71;0
 335;anti_air_building;2167.00;9.70;1564.00;6.27;0
 335;anti_air_building;2151.00;9.70;1566.00;3.44;0
-335;synthetic_refinery;2124.00;9.70;1593.00;4.74;0
 335;radar_station;2150.00;9.70;1588.00;4.21;0
 335;nuclear_reactor_spawn;2156.00;9.70;1588.00;3.46;0
 335;special_project_facility_spawn;2137.00;9.70;1616.00;3.15;0
@@ -64826,7 +64492,6 @@
 336;anti_air_building;3116.00;9.70;1997.00;6.00;0
 336;anti_air_building;3180.00;9.70;2020.00;1.26;0
 336;anti_air_building;3138.00;9.70;1995.00;3.80;0
-336;synthetic_refinery;3071.00;9.70;2008.00;6.08;0
 336;radar_station;3163.00;9.70;1996.00;6.01;0
 336;nuclear_reactor_spawn;3181.00;9.70;1951.00;0.43;0
 336;special_project_facility_spawn;3160.00;9.70;1944.00;6.16;0
@@ -64986,7 +64651,6 @@
 337;anti_air_building;423.00;9.70;2461.00;1.79;0
 337;anti_air_building;489.00;9.70;2598.00;5.38;0
 337;anti_air_building;451.00;9.70;2647.00;0.81;0
-337;synthetic_refinery;381.00;9.70;2577.00;0.71;0
 337;radar_station;437.00;9.70;2553.00;2.83;0
 337;nuclear_reactor_spawn;523.00;9.70;2581.00;4.74;0
 337;special_project_facility_spawn;407.00;9.70;2503.00;1.97;0
@@ -65078,7 +64742,6 @@
 338;anti_air_building;1522.00;9.70;1465.00;4.86;0
 338;anti_air_building;1530.00;9.70;1465.00;4.51;0
 338;anti_air_building;1525.00;9.70;1461.00;1.82;0
-338;synthetic_refinery;1525.00;9.70;1460.00;4.32;0
 338;radar_station;1535.00;9.70;1463.00;1.83;0
 338;nuclear_reactor_spawn;1519.00;9.70;1469.00;0.32;0
 338;special_project_facility_spawn;1534.00;9.70;1444.00;4.44;0
@@ -65158,7 +64821,6 @@
 339;anti_air_building;1166.00;9.70;1568.00;1.04;0
 339;anti_air_building;1163.00;9.70;1600.00;4.98;0
 339;anti_air_building;1140.00;9.70;1551.00;3.58;0
-339;synthetic_refinery;1118.00;9.70;1567.00;3.61;0
 339;radar_station;1152.00;9.70;1575.00;0.72;0
 339;nuclear_reactor_spawn;1109.00;9.70;1592.00;0.50;0
 339;special_project_facility_spawn;1127.00;9.70;1572.00;0.80;0
@@ -65316,7 +64978,6 @@
 340;anti_air_building;2673.00;9.70;2537.00;3.90;0
 340;anti_air_building;2452.00;9.70;2484.00;5.65;0
 340;anti_air_building;2519.00;9.70;2455.00;4.69;0
-340;synthetic_refinery;2582.00;9.70;2569.00;4.52;0
 340;radar_station;2561.00;9.70;2537.00;4.26;0
 340;nuclear_reactor_spawn;2650.00;9.70;2549.00;4.77;0
 340;special_project_facility_spawn;2506.00;9.70;2557.00;6.09;0
@@ -65505,7 +65166,6 @@
 341;anti_air_building;3265.00;9.70;1135.00;2.73;0
 341;anti_air_building;3180.00;9.70;1113.00;5.49;0
 341;anti_air_building;3155.00;9.70;1135.00;3.76;0
-341;synthetic_refinery;3171.00;9.70;1153.00;3.90;0
 341;radar_station;3206.00;9.70;1118.00;0.21;0
 341;nuclear_reactor_spawn;3200.00;9.70;1125.00;4.52;0
 341;special_project_facility_spawn;3215.00;9.70;1126.00;4.16;0
@@ -65685,7 +65345,6 @@
 342;anti_air_building;1158.00;9.70;1412.00;3.90;0
 342;anti_air_building;1265.00;9.70;1373.00;5.65;0
 342;anti_air_building;1171.00;9.70;1394.00;4.69;0
-342;synthetic_refinery;1277.00;9.70;1375.00;4.52;0
 342;radar_station;1223.00;9.70;1409.00;4.26;0
 342;nuclear_reactor_spawn;1239.00;9.70;1392.00;4.77;0
 342;special_project_facility_spawn;1260.00;9.70;1429.00;6.09;0
@@ -65864,7 +65523,6 @@
 343;anti_air_building;1243.00;9.70;1159.00;1.77;0
 343;anti_air_building;1309.00;9.70;1156.00;5.52;0
 343;anti_air_building;1282.00;9.70;1140.00;2.31;0
-343;synthetic_refinery;1243.00;9.70;1143.00;5.04;0
 343;radar_station;1292.00;9.70;1160.00;5.00;0
 343;nuclear_reactor_spawn;1271.00;9.70;1213.00;1.99;0
 343;special_project_facility_spawn;1322.00;9.70;1204.00;1.48;0
@@ -65962,7 +65620,6 @@
 344;anti_air_building;311.00;9.70;2450.00;5.64;0
 344;anti_air_building;372.00;9.70;2471.00;2.70;0
 344;anti_air_building;241.00;9.70;2442.00;0.33;0
-344;synthetic_refinery;298.00;9.70;2474.00;5.38;0
 344;radar_station;274.00;9.70;2472.00;4.45;0
 344;nuclear_reactor_spawn;218.00;9.70;2457.00;3.13;0
 344;special_project_facility_spawn;338.00;9.70;2430.00;2.31;0
@@ -66141,7 +65798,6 @@
 345;anti_air_building;1065.00;9.70;1345.00;6.09;0
 345;anti_air_building;1106.00;9.70;1339.00;4.13;0
 345;anti_air_building;1151.00;9.70;1366.00;5.76;0
-345;synthetic_refinery;1033.00;9.70;1346.00;1.26;0
 345;radar_station;1091.00;9.70;1354.00;5.27;0
 345;nuclear_reactor_spawn;1125.00;9.70;1359.00;1.92;0
 345;special_project_facility_spawn;1099.00;9.70;1334.00;2.15;0
@@ -66288,7 +65944,6 @@
 346;anti_air_building;2464.00;9.70;1353.00;2.81;0
 346;anti_air_building;2465.00;9.70;1351.00;5.68;0
 346;anti_air_building;2466.00;9.70;1361.00;2.04;0
-346;synthetic_refinery;2519.00;9.70;1382.00;0.96;0
 346;radar_station;2493.00;9.70;1361.00;3.61;0
 346;nuclear_reactor_spawn;2504.00;9.70;1357.00;5.64;0
 346;special_project_facility_spawn;2462.00;9.70;1341.00;2.70;0
@@ -66323,7 +65978,6 @@
 347;anti_air_building;1946.00;9.70;2600.00;5.00;0
 347;anti_air_building;2416.00;9.70;2939.00;5.57;0
 347;anti_air_building;2612.00;9.70;2956.00;1.14;0
-347;synthetic_refinery;2189.00;9.70;2868.00;4.91;0
 347;radar_station;2208.00;9.70;2814.00;1.37;0
 347;nuclear_reactor_spawn;1993.00;9.70;2771.00;5.27;0
 347;special_project_facility_spawn;1804.00;9.70;2534.00;5.21;0
@@ -66430,7 +66084,6 @@
 348;anti_air_building;1385.00;9.70;1328.00;6.12;0
 348;anti_air_building;1393.00;9.70;1352.00;5.94;0
 348;anti_air_building;1443.00;9.70;1305.00;6.17;0
-348;synthetic_refinery;1422.00;9.70;1313.00;5.42;0
 348;radar_station;1439.00;9.70;1314.00;4.77;0
 348;nuclear_reactor_spawn;1386.00;9.70;1317.00;3.76;0
 348;special_project_facility_spawn;1461.00;9.70;1319.00;3.90;0
@@ -66576,7 +66229,6 @@
 349;anti_air_building;1349.00;9.70;1301.00;6.17;0
 349;anti_air_building;1262.00;9.70;1310.00;5.42;0
 349;anti_air_building;1311.00;9.70;1314.00;2.73;0
-349;synthetic_refinery;1342.00;9.70;1357.00;5.49;0
 349;radar_station;1313.00;9.70;1324.00;4.70;0
 349;nuclear_reactor_spawn;1378.00;9.70;1356.00;5.65;0
 349;special_project_facility_spawn;1357.00;9.70;1350.00;4.69;0
@@ -66728,7 +66380,6 @@
 350;anti_air_building;2398.00;9.70;2467.00;4.52;0
 350;anti_air_building;2406.00;9.70;2359.00;4.16;0
 350;anti_air_building;2457.00;9.70;2353.00;1.97;0
-350;synthetic_refinery;2291.00;9.70;2393.00;4.77;0
 350;radar_station;2417.00;9.70;2388.00;0.25;0
 350;nuclear_reactor_spawn;2381.00;9.70;2412.00;2.87;0
 350;special_project_facility_spawn;2381.00;9.70;2424.00;4.26;0
@@ -66811,7 +66462,6 @@
 351;anti_air_building;373.00;9.70;3039.00;0.31;0
 351;anti_air_building;432.00;9.70;3051.00;0.92;0
 351;anti_air_building;419.00;9.70;3034.00;0.18;0
-351;synthetic_refinery;451.00;9.70;3026.00;3.84;0
 351;radar_station;399.00;9.70;3040.00;1.54;0
 351;nuclear_reactor_spawn;389.00;9.70;3047.00;2.20;0
 351;special_project_facility_spawn;358.00;9.70;3058.00;1.29;0
@@ -66924,7 +66574,6 @@
 352;anti_air_building;2583.00;9.70;2361.00;6.09;0
 352;anti_air_building;2742.00;9.70;2360.00;4.48;0
 352;anti_air_building;2749.00;9.70;2381.00;2.87;0
-352;synthetic_refinery;2625.00;9.70;2429.00;4.26;0
 352;radar_station;2645.00;9.70;2378.00;6.14;0
 352;nuclear_reactor_spawn;2723.00;9.70;2413.00;3.48;0
 352;special_project_facility_spawn;2696.00;9.70;2322.00;0.45;0
@@ -67088,7 +66737,6 @@
 353;anti_air_building;1795.00;9.70;1829.00;3.03;0
 353;anti_air_building;1834.00;9.70;1830.00;6.04;0
 353;anti_air_building;1825.00;9.70;1793.00;4.78;0
-353;synthetic_refinery;1832.00;9.70;1863.00;2.14;0
 353;radar_station;1782.00;9.70;1829.00;0.10;0
 353;nuclear_reactor_spawn;1821.00;9.70;1869.00;5.29;0
 353;special_project_facility_spawn;1791.00;9.70;1782.00;6.27;0
@@ -67275,7 +66923,6 @@
 354;anti_air_building;1178.00;9.70;1162.00;0.06;0
 354;anti_air_building;1180.00;9.70;1051.00;6.12;0
 354;anti_air_building;1203.00;9.70;1114.00;5.94;0
-354;synthetic_refinery;1180.00;9.70;1166.00;6.17;0
 354;radar_station;1190.00;9.70;1115.00;5.25;0
 354;nuclear_reactor_spawn;1184.00;9.70;1147.00;5.49;0
 354;special_project_facility_spawn;1180.00;9.70;1177.00;3.76;0
@@ -67452,7 +67099,6 @@
 355;anti_air_building;1446.00;9.70;1090.00;1.21;0
 355;anti_air_building;1409.00;9.70;1086.00;0.43;0
 355;anti_air_building;1343.00;9.70;1088.00;6.16;0
-355;synthetic_refinery;1442.00;9.70;1116.00;6.09;0
 355;radar_station;1390.00;9.70;1124.00;3.97;0
 355;nuclear_reactor_spawn;1378.00;9.70;1172.00;1.26;0
 355;special_project_facility_spawn;1378.00;9.70;1172.00;4.77;0
@@ -67600,7 +67246,6 @@
 356;anti_air_building;1500.00;9.70;1072.00;5.04;0
 356;anti_air_building;1541.00;9.70;1057.00;1.04;0
 356;anti_air_building;1530.00;9.70;1127.00;3.14;0
-356;synthetic_refinery;1468.00;9.70;1093.00;1.99;0
 356;radar_station;1516.00;9.70;1092.00;4.96;0
 356;nuclear_reactor_spawn;1538.00;9.70;1104.00;6.12;0
 356;special_project_facility_spawn;1556.00;9.70;1082.00;5.94;0
@@ -67712,7 +67357,6 @@
 357;anti_air_building;2618.00;9.70;2294.00;3.01;0
 357;anti_air_building;2553.00;9.70;2304.00;3.64;0
 357;anti_air_building;2560.00;9.70;2274.00;2.95;0
-357;synthetic_refinery;2574.00;9.70;2302.00;0.59;0
 357;radar_station;2607.00;9.70;2298.00;4.83;0
 357;nuclear_reactor_spawn;2541.00;9.70;2317.00;3.23;0
 357;special_project_facility_spawn;2592.00;9.70;2314.00;4.37;0
@@ -67844,7 +67488,6 @@
 358;anti_air_building;818.00;9.70;991.00;3.03;0
 358;anti_air_building;851.00;9.70;1041.00;6.04;0
 358;anti_air_building;871.00;9.70;1043.00;4.78;0
-358;synthetic_refinery;792.00;9.70;1036.00;2.14;0
 358;radar_station;841.00;9.70;1034.00;0.10;0
 358;nuclear_reactor_spawn;867.00;9.70;1031.00;5.29;0
 358;special_project_facility_spawn;818.00;9.70;1014.00;6.27;0
@@ -68000,7 +67643,6 @@
 359;anti_air_building;1098.00;9.70;1056.00;4.52;0
 359;anti_air_building;1108.00;9.70;1027.00;4.16;0
 359;anti_air_building;1095.00;9.70;1028.00;1.97;0
-359;synthetic_refinery;1106.00;9.70;1064.00;4.77;0
 359;radar_station;1016.00;9.70;1049.00;0.25;0
 359;nuclear_reactor_spawn;936.00;9.70;1067.00;2.87;0
 359;special_project_facility_spawn;955.00;9.70;1069.00;4.26;0
@@ -68108,7 +67750,6 @@
 360;anti_air_building;1178.00;9.70;1036.00;4.74;0
 360;anti_air_building;1116.00;9.70;1016.00;1.97;0
 360;anti_air_building;1159.00;9.70;1025.00;1.43;0
-360;synthetic_refinery;1170.00;9.70;1045.00;3.46;0
 360;radar_station;1152.00;9.70;1024.00;2.10;0
 360;nuclear_reactor_spawn;1144.00;9.70;1004.00;0.41;0
 360;special_project_facility_spawn;1160.00;9.70;1001.00;5.47;0
@@ -68230,7 +67871,6 @@
 361;anti_air_building;933.00;9.70;978.00;3.07;0
 361;anti_air_building;992.00;9.70;986.00;5.29;0
 361;anti_air_building;975.00;9.70;980.00;6.27;0
-361;synthetic_refinery;1010.00;9.70;959.00;6.00;0
 361;radar_station;966.00;9.70;995.00;5.28;0
 361;nuclear_reactor_spawn;986.00;9.70;1012.00;6.08;0
 361;special_project_facility_spawn;918.00;9.70;976.00;2.16;0
@@ -68362,7 +68002,6 @@
 362;anti_air_building;1108.00;9.70;1004.00;1.97;0
 362;anti_air_building;1088.00;9.70;967.00;4.77;0
 362;anti_air_building;1059.00;9.70;1026.00;6.09;0
-362;synthetic_refinery;1055.00;9.70;1052.00;4.48;0
 362;radar_station;1077.00;9.70;980.00;3.32;0
 362;nuclear_reactor_spawn;1038.00;9.70;1018.00;0.43;0
 362;special_project_facility_spawn;1071.00;9.70;1038.00;3.51;0
@@ -68459,7 +68098,6 @@
 363;anti_air_building;962.00;9.70;663.00;2.46;0
 363;anti_air_building;970.00;9.70;660.00;1.77;0
 363;anti_air_building;970.00;9.70;664.00;5.52;0
-363;synthetic_refinery;946.00;9.70;656.00;2.31;0
 363;radar_station;954.00;9.70;657.00;4.06;0
 363;nuclear_reactor_spawn;963.00;9.70;652.00;3.14;0
 363;special_project_facility_spawn;955.00;9.70;657.00;1.99;0
@@ -68610,7 +68248,6 @@
 364;anti_air_building;1014.00;9.70;852.00;4.77;0
 364;anti_air_building;1058.00;9.70;840.00;6.13;0
 364;anti_air_building;1157.00;9.70;855.00;1.92;0
-364;synthetic_refinery;1137.00;9.70;830.00;2.15;0
 364;radar_station;1073.00;9.70;885.00;0.40;0
 364;nuclear_reactor_spawn;1125.00;9.70;858.00;3.15;0
 364;special_project_facility_spawn;1167.00;9.70;856.00;3.32;0
@@ -68712,7 +68349,6 @@
 365;anti_air_building;971.00;9.70;922.00;0.00;0
 365;anti_air_building;1015.00;9.70;898.00;3.23;0
 365;anti_air_building;947.00;9.70;926.00;4.37;0
-365;synthetic_refinery;947.00;9.70;921.00;6.16;0
 365;radar_station;962.00;9.70;908.00;2.17;0
 365;nuclear_reactor_spawn;921.00;9.70;914.00;1.77;0
 365;special_project_facility_spawn;927.00;9.70;917.00;5.52;0
@@ -68758,7 +68394,6 @@
 366;anti_air_building;2211.00;9.70;2169.00;1.79;0
 366;anti_air_building;2201.00;9.70;2168.00;5.38;0
 366;anti_air_building;2219.00;9.70;2179.00;0.81;0
-366;synthetic_refinery;2202.00;9.70;2176.00;0.71;0
 366;radar_station;2225.00;9.70;2169.00;2.83;0
 366;nuclear_reactor_spawn;2221.00;9.70;2176.00;4.74;0
 366;special_project_facility_spawn;2225.00;9.70;2167.00;1.97;0
@@ -68961,7 +68596,6 @@
 367;anti_air_building;1938.00;9.70;1607.00;6.17;0
 367;anti_air_building;1843.00;9.70;1683.00;4.55;0
 367;anti_air_building;1881.00;9.70;1617.00;4.74;0
-367;synthetic_refinery;1860.00;9.70;1664.00;1.62;0
 367;radar_station;1880.00;9.70;1633.00;5.15;0
 367;nuclear_reactor_spawn;1900.00;9.70;1630.00;5.74;0
 367;special_project_facility_spawn;1926.00;9.70;1629.00;3.42;0
@@ -69089,7 +68723,6 @@
 368;anti_air_building;65.00;9.70;2834.00;3.36;0
 368;anti_air_building;29.00;9.70;2853.00;0.33;0
 368;anti_air_building;33.00;9.70;2839.00;3.01;0
-368;synthetic_refinery;23.00;9.70;2861.00;3.64;0
 368;radar_station;38.00;9.70;2839.00;4.94;0
 368;nuclear_reactor_spawn;55.00;9.70;2860.00;5.66;0
 368;special_project_facility_spawn;21.00;9.70;2855.00;0.00;0
@@ -69141,7 +68774,6 @@
 369;anti_air_building;28.00;9.70;2866.00;1.43;0
 369;anti_air_building;31.00;9.70;2891.00;3.46;0
 369;anti_air_building;10.00;9.70;2904.00;3.15;0
-369;synthetic_refinery;51.00;9.70;2885.00;0.08;0
 369;radar_station;41.00;9.70;2888.00;0.74;0
 369;nuclear_reactor_spawn;34.00;9.70;2900.00;6.06;0
 369;special_project_facility_spawn;72.00;9.70;2873.00;4.11;0
@@ -69199,7 +68831,6 @@
 370;anti_air_building;66.00;9.70;2963.00;5.52;0
 370;anti_air_building;90.00;9.70;2901.00;2.31;0
 370;anti_air_building;85.00;9.70;2925.00;5.04;0
-370;synthetic_refinery;83.00;9.70;2908.00;1.04;0
 370;radar_station;64.00;9.70;2928.00;2.48;0
 370;nuclear_reactor_spawn;90.00;9.70;2969.00;1.48;0
 370;special_project_facility_spawn;36.00;9.70;2921.00;0.06;0
@@ -69245,7 +68876,6 @@
 371;anti_air_building;128.00;9.70;2904.00;6.27;0
 371;anti_air_building;132.00;9.70;2908.00;3.44;0
 371;anti_air_building;129.00;9.70;2908.00;4.74;0
-371;synthetic_refinery;127.00;9.70;2905.00;1.97;0
 371;radar_station;130.00;9.70;2904.00;1.60;0
 371;nuclear_reactor_spawn;129.00;9.70;2908.00;3.15;0
 371;special_project_facility_spawn;127.00;9.70;2909.00;0.08;0
@@ -69279,7 +68909,6 @@
 372;anti_air_building;120.00;9.70;2920.00;6.06;0
 372;anti_air_building;119.00;9.70;2921.00;4.11;0
 372;anti_air_building;115.00;9.70;2921.00;3.36;0
-372;synthetic_refinery;121.00;9.70;2917.00;0.33;0
 372;radar_station;128.00;9.70;2915.00;4.65;0
 372;nuclear_reactor_spawn;121.00;9.70;2919.00;2.95;0
 372;special_project_facility_spawn;119.00;9.70;2921.00;0.59;0
@@ -69313,7 +68942,6 @@
 373;anti_air_building;117.00;9.70;2958.00;3.46;0
 373;anti_air_building;115.00;9.70;2958.00;3.15;0
 373;anti_air_building;106.00;9.70;2961.00;0.08;0
-373;synthetic_refinery;116.00;9.70;2957.00;0.41;0
 373;radar_station;115.00;9.70;2950.00;5.64;0
 373;nuclear_reactor_spawn;111.00;9.70;2945.00;4.11;0
 373;special_project_facility_spawn;120.00;9.70;2955.00;3.36;0
@@ -69338,7 +68966,6 @@
 374;anti_air_building;137.00;9.70;2968.00;3.15;0
 374;anti_air_building;132.00;9.70;2968.00;0.08;0
 374;anti_air_building;138.00;9.70;2950.00;0.41;0
-374;synthetic_refinery;135.00;9.70;2951.00;5.47;0
 374;radar_station;130.00;9.70;2953.00;6.06;0
 374;nuclear_reactor_spawn;121.00;9.70;2933.00;3.36;0
 374;special_project_facility_spawn;120.00;9.70;2944.00;0.33;0
@@ -69375,7 +69002,6 @@
 375;anti_air_building;192.00;9.70;3016.00;0.00;0
 375;anti_air_building;178.00;9.70;2999.00;3.23;0
 375;anti_air_building;150.00;9.70;2962.00;4.37;0
-375;synthetic_refinery;149.00;9.70;2946.00;6.16;0
 375;radar_station;174.00;9.70;2980.00;2.17;0
 375;nuclear_reactor_spawn;186.00;9.70;3006.00;1.77;0
 375;special_project_facility_spawn;195.00;9.70;3001.00;5.52;0
@@ -69425,7 +69051,6 @@
 376;anti_air_building;198.00;9.70;2993.00;2.46;0
 376;anti_air_building;219.00;9.70;3004.00;1.77;0
 376;anti_air_building;216.00;9.70;3014.00;5.52;0
-376;synthetic_refinery;204.00;9.70;2980.00;2.31;0
 376;radar_station;220.00;9.70;3008.00;4.06;0
 376;nuclear_reactor_spawn;221.00;9.70;3020.00;3.14;0
 376;special_project_facility_spawn;216.00;9.70;2980.00;1.99;0
@@ -69471,7 +69096,6 @@
 377;anti_air_building;43.00;9.70;2976.00;0.00;0
 377;anti_air_building;7.00;9.70;2958.00;3.23;0
 377;anti_air_building;76.00;9.70;2982.00;4.37;0
-377;synthetic_refinery;42.00;9.70;2962.00;6.16;0
 377;radar_station;46.00;9.70;2974.00;2.17;0
 377;nuclear_reactor_spawn;61.00;9.70;2974.00;1.77;0
 377;special_project_facility_spawn;7.00;9.70;2986.00;5.52;0
@@ -69505,7 +69129,6 @@
 378;anti_air_building;3991.00;9.70;91.00;0.59;0
 378;anti_air_building;3988.00;9.70;104.00;5.66;0
 378;anti_air_building;3991.00;9.70;92.00;0.00;0
-378;synthetic_refinery;3988.00;9.70;98.00;3.23;0
 378;radar_station;3990.00;9.70;102.00;5.54;0
 378;nuclear_reactor_spawn;3993.00;9.70;97.00;4.92;0
 378;special_project_facility_spawn;3990.00;9.70;109.00;2.46;0
@@ -69547,7 +69170,6 @@
 379;anti_air_building;3973.00;9.70;89.00;1.04;0
 379;anti_air_building;3974.00;9.70;86.00;3.14;0
 379;anti_air_building;3963.00;9.70;62.00;1.99;0
-379;synthetic_refinery;3985.00;9.70;63.00;1.48;0
 379;radar_station;3969.00;9.70;80.00;0.92;0
 379;nuclear_reactor_spawn;3972.00;9.70;81.00;5.94;0
 379;special_project_facility_spawn;3970.00;9.70;60.00;6.17;0
@@ -69600,7 +69222,6 @@
 380;anti_air_building;3976.00;9.70;52.00;6.12;0
 380;anti_air_building;3974.00;9.70;19.00;5.94;0
 380;anti_air_building;4001.00;9.70;17.00;6.17;0
-380;synthetic_refinery;3975.00;9.70;56.00;5.42;0
 380;radar_station;3995.00;9.70;32.00;4.77;0
 380;nuclear_reactor_spawn;3976.00;9.70;53.00;3.76;0
 380;special_project_facility_spawn;3986.00;9.70;54.00;3.90;0
@@ -69643,7 +69264,6 @@
 381;anti_air_building;3939.00;9.70;14.00;4.92;0
 381;anti_air_building;3944.00;9.70;2.00;2.46;0
 381;anti_air_building;3944.00;9.70;7.00;1.77;0
-381;synthetic_refinery;3936.00;9.70;3.00;5.52;0
 381;radar_station;3950.00;9.70;12.00;0.72;0
 381;nuclear_reactor_spawn;3955.00;9.70;13.00;1.04;0
 381;special_project_facility_spawn;3957.00;9.70;7.00;3.14;0
@@ -69672,7 +69292,6 @@
 382;anti_air_building;3708.00;9.70;102.00;1.77;0
 382;anti_air_building;3706.00;9.70;103.00;5.52;0
 382;anti_air_building;3706.00;9.70;111.00;2.31;0
-382;synthetic_refinery;3705.00;9.70;111.00;5.04;0
 382;radar_station;3709.00;9.70;105.00;5.00;0
 382;nuclear_reactor_spawn;3706.00;9.70;100.00;1.99;0
 382;special_project_facility_spawn;3709.00;9.70;102.00;1.48;0
@@ -69707,7 +69326,6 @@
 383;anti_air_building;3742.00;9.70;104.00;3.14;0
 383;anti_air_building;3725.00;9.70;73.00;1.99;0
 383;anti_air_building;3753.00;9.70;74.00;1.48;0
-383;synthetic_refinery;3745.00;9.70;88.00;0.06;0
 383;radar_station;3740.00;9.70;91.00;0.55;0
 383;nuclear_reactor_spawn;3739.00;9.70;100.00;6.17;0
 383;special_project_facility_spawn;3732.00;9.70;91.00;5.42;0
@@ -69751,7 +69369,6 @@
 384;anti_air_building;2473.00;9.70;864.00;2.73;0
 384;anti_air_building;2472.00;9.70;861.00;5.49;0
 384;anti_air_building;2464.00;9.70;863.00;3.76;0
-384;synthetic_refinery;2485.00;9.70;894.00;3.90;0
 384;radar_station;2478.00;9.70;869.00;0.21;0
 384;nuclear_reactor_spawn;2486.00;9.70;897.00;4.52;0
 384;special_project_facility_spawn;2482.00;9.70;896.00;4.16;0
@@ -69801,7 +69418,6 @@
 385;anti_air_building;2520.00;9.70;824.00;3.76;0
 385;anti_air_building;2509.00;9.70;785.00;3.90;0
 385;anti_air_building;2527.00;9.70;821.00;5.65;0
-385;synthetic_refinery;2500.00;9.70;784.00;4.69;0
 385;radar_station;2513.00;9.70;780.00;0.09;0
 385;nuclear_reactor_spawn;2524.00;9.70;814.00;1.97;0
 385;special_project_facility_spawn;2538.00;9.70;739.00;4.77;0
@@ -69881,7 +69497,6 @@
 386;anti_air_building;2495.00;9.50;662.00;1.21;0
 386;anti_air_building;2479.00;9.70;696.00;0.43;0
 386;anti_air_building;2479.00;9.50;661.00;6.16;0
-386;synthetic_refinery;2467.00;9.70;702.00;6.09;0
 386;radar_station;2467.00;9.70;705.00;3.97;0
 386;nuclear_reactor_spawn;2495.00;9.70;663.00;1.26;0
 386;special_project_facility_spawn;2432.00;9.70;706.00;4.77;0
@@ -70036,7 +69651,6 @@
 387;anti_air_building;4040.00;9.70;166.00;2.04;0
 387;anti_air_building;4049.00;9.70;106.00;5.99;0
 387;anti_air_building;4081.00;9.70;124.00;6.21;0
-387;synthetic_refinery;4091.00;9.70;178.00;4.29;0
 387;radar_station;4058.00;9.70;141.00;5.37;0
 387;nuclear_reactor_spawn;4035.00;9.70;119.00;3.23;0
 387;special_project_facility_spawn;4027.00;9.70;146.00;0.84;0
@@ -70349,7 +69963,6 @@
 388;anti_air_building;3797.00;9.70;253.00;1.29;0
 388;anti_air_building;3764.00;9.70;288.00;2.86;0
 388;anti_air_building;3734.00;9.70;291.00;2.55;0
-388;synthetic_refinery;3731.00;9.70;262.00;4.96;0
 388;radar_station;3693.00;9.50;307.00;3.42;0
 388;nuclear_reactor_spawn;3796.00;9.70;200.00;5.96;0
 388;special_project_facility_spawn;3738.00;9.70;261.00;0.80;0
@@ -70712,7 +70325,6 @@
 389;anti_air_building;3891.00;9.70;271.00;2.41;0
 389;anti_air_building;3884.00;9.70;276.00;1.64;0
 389;anti_air_building;3821.00;9.70;364.00;3.20;0
-389;synthetic_refinery;3929.00;9.70;306.00;2.95;0
 389;radar_station;3863.00;9.70;354.00;4.38;0
 389;nuclear_reactor_spawn;3829.00;9.70;419.00;4.48;0
 389;special_project_facility_spawn;3861.00;9.70;438.00;2.73;0
@@ -71030,7 +70642,6 @@
 390;anti_air_building;3723.00;9.70;354.00;3.20;0
 390;anti_air_building;3599.00;9.70;398.00;2.95;0
 390;anti_air_building;3661.00;9.70;353.00;4.04;0
-390;synthetic_refinery;3672.00;9.70;369.00;1.51;0
 390;radar_station;3569.00;9.70;430.00;6.01;0
 390;nuclear_reactor_spawn;3627.00;9.70;387.00;4.84;0
 390;special_project_facility_spawn;3622.00;9.70;399.00;5.72;0
@@ -71309,7 +70920,6 @@
 391;anti_air_building;3571.00;9.70;485.00;1.62;0
 391;anti_air_building;3582.00;9.70;549.00;1.77;0
 391;anti_air_building;3557.00;9.70;454.00;1.06;0
-391;synthetic_refinery;3485.00;9.70;535.00;2.64;0
 391;radar_station;3457.00;9.70;530.00;5.39;0
 391;nuclear_reactor_spawn;3565.00;9.70;534.00;2.55;0
 391;special_project_facility_spawn;3496.00;9.70;561.00;5.39;0
@@ -71628,7 +71238,6 @@
 392;anti_air_building;3762.00;9.70;396.00;2.86;0
 392;anti_air_building;3767.00;9.70;422.00;2.55;0
 392;anti_air_building;3787.00;9.70;425.00;4.96;0
-392;synthetic_refinery;3791.00;9.70;459.00;0.36;0
 392;radar_station;3606.00;9.70;451.00;0.14;0
 392;nuclear_reactor_spawn;3806.00;9.70;441.00;0.80;0
 392;special_project_facility_spawn;3746.00;9.70;363.00;5.30;0
@@ -71837,7 +71446,6 @@
 393;anti_air_building;4030.00;9.70;258.00;1.67;0
 393;anti_air_building;4044.00;9.70;256.00;0.88;0
 393;anti_air_building;4055.00;9.70;236.00;2.04;0
-393;synthetic_refinery;4012.00;9.70;218.00;5.99;0
 393;radar_station;4050.00;9.70;241.00;6.08;0
 393;nuclear_reactor_spawn;4042.00;9.70;270.00;3.43;0
 393;special_project_facility_spawn;4060.00;9.70;232.00;2.75;0
@@ -72110,7 +71718,6 @@
 394;anti_air_building;3856.00;9.70;180.00;4.95;0
 394;anti_air_building;3910.00;9.70;169.00;5.08;0
 394;anti_air_building;3867.00;9.70;210.00;5.18;0
-394;synthetic_refinery;3995.00;9.70;186.00;3.78;0
 394;radar_station;3921.00;9.70;187.00;0.20;0
 394;nuclear_reactor_spawn;4018.00;9.70;168.00;3.51;0
 394;special_project_facility_spawn;3836.00;9.70;178.00;1.97;0
@@ -72380,7 +71987,6 @@
 395;anti_air_building;3941.00;9.70;225.00;1.57;0
 395;anti_air_building;3942.00;9.70;258.00;4.72;0
 395;anti_air_building;3955.00;9.70;320.00;0.21;0
-395;synthetic_refinery;3974.00;9.70;276.00;5.96;0
 395;radar_station;3948.00;9.70;270.00;3.06;0
 395;nuclear_reactor_spawn;3938.00;9.70;301.00;4.74;0
 395;special_project_facility_spawn;3943.00;9.70;256.00;1.62;0
@@ -72482,7 +72088,6 @@
 396;anti_air_building;2446.00;9.70;418.00;1.21;0
 396;anti_air_building;2441.00;9.70;406.00;0.43;0
 396;anti_air_building;2394.00;9.70;425.00;6.16;0
-396;synthetic_refinery;2388.00;9.70;424.00;6.09;0
 396;radar_station;2422.00;9.70;412.00;3.97;0
 396;nuclear_reactor_spawn;2430.00;9.70;413.00;1.26;0
 396;special_project_facility_spawn;2434.00;9.70;404.00;4.77;0
@@ -74712,7 +74317,6 @@
 35;anti_air_building;2265.00;9.70;2496.00;2.76;0
 35;anti_air_building;2330.00;9.70;2741.00;4.56;0
 35;anti_air_building;2147.00;9.70;2530.00;3.89;0
-35;synthetic_refinery;1866.00;9.70;2146.00;3.52;0
 35;radar_station;2099.00;9.70;2352.00;3.09;0
 35;nuclear_reactor_spawn;1962.00;9.70;1923.00;0.27;0
 35;special_project_facility_spawn;1878.00;9.70;2087.00;5.10;0

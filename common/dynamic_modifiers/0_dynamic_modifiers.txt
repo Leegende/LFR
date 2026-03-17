@@ -143,5 +143,3 @@ GER_dirlewanger_action = {
 	resistance_target = -0.05
 	icon = GFX_idea_GER_army
 }
-
-GER_

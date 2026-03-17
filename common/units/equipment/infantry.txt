@@ -18,9 +18,7 @@ equipments = {
 		ap_attack = 1
 		air_attack = 0
 		build_cost_ic = 0.5
-		resources = {
-			steel = 1
-		}
+		
 	}
 	infantry_equipment_0 = {
 		archetype = infantry_archetype
@@ -35,9 +33,7 @@ equipments = {
 		hard_attack = 0.3
 		ap_attack = 2
 		build_cost_ic = 0.6
-		resources = {
-			steel = 1
-		}
+		
 	}
 	infantry_equipment_2 = {
 		archetype = infantry_archetype
@@ -48,9 +44,7 @@ equipments = {
 		hard_attack = 0.4
 		ap_attack = 3
 		build_cost_ic = 0.7
-		resources = {
-			steel = 2
-		}
+		
 	}
 	infantry_equipment_3 = {
 		archetype = infantry_archetype
@@ -62,8 +56,6 @@ equipments = {
 		ap_attack = 4
 		reliability = 0.8
 		build_cost_ic = 0.85
-		resources = {
-			steel = 2
-		}
+		
 	}
 }

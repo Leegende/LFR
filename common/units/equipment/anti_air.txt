@@ -17,9 +17,7 @@ equipments = {
 		reliability = 0.8
 		defense = 5
 		breakthrough = 1
-		resources = {
-			steel = 1
-		}
+		
 	}
 	pack_anti_air_equipment_1 = {
 		archetype = pack_anti_air_archetype
@@ -45,9 +43,7 @@ equipments = {
 		reliability = 0.8
 		defense = 5
 		breakthrough = 1
-		resources = {
-			steel = 1
-		}
+		
 	}
 	heavy_anti_air_archetype = {
 		is_archetype = yes
@@ -67,10 +63,7 @@ equipments = {
 		reliability = 0.8
 		defense = 10
 		breakthrough = 5
-		resources = {
-			steel = 3
-			tungsten = 1
-		}
+		
 	}
 	heavy_anti_air_equipment_1 = {
 		archetype = heavy_anti_air_archetype

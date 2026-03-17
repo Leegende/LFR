@@ -348,10 +348,7 @@ equipments = {
 		ap_attack = 16
 		build_cost_ic = 10
 		reliability = 1.05
-		resources = {
-			steel = 30
-			rubber = 10
-		}
+		
 	}
 	amtrac_equipment_3 = {
 		archetype = amtrac_equipment
