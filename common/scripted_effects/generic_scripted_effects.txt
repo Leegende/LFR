@@ -75,3 +75,432 @@ replace_civ_with_arms_factories = {
 		}
 	}
 }
+
+LFR_starting_scripted_effect = {
+	LFR_faction_intel = yes
+	every_country = {
+		limit = {
+			OR = {
+				original_tag = GER
+				original_tag = ITA
+				original_tag = BUL
+				original_tag = ROM
+				original_tag = HUN
+				original_tag = SPR
+				original_tag = FIN
+			}
+		}
+		anti_cross_faction_trade_allies = yes
+	}
+	every_country = {
+		limit = {
+			OR = {
+				original_tag = ENG
+				original_tag = FRA
+				original_tag = CAN
+				original_tag = SOV
+				original_tag = UAC
+				original_tag = YUG
+				original_tag = GRE
+				original_tag = IRE
+			}
+		}
+		anti_cross_faction_trade_axis = yes
+	}
+}
+
+LFR_faction_intel = {
+	every_country = {
+		limit = {
+			OR = {
+				original_tag = GER
+				original_tag = ITA
+				original_tag = BUL
+				original_tag = ROM
+				original_tag = HUN
+				original_tag = SPR
+				original_tag = FIN
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = GER
+				}
+			}
+			add_operation_token = {
+				tag = GER
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = GER
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = GER
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = GER
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = ITA
+				}
+			}
+			add_operation_token = {
+				tag = ITA
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = ITA
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = ITA
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = ITA
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = BUL
+				}
+			}
+			add_operation_token = {
+				tag = BUL
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = BUL
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = BUL
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = BUL
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = ROM
+				}
+			}
+			add_operation_token = {
+				tag = ROM
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = ROM
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = ROM
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = ROM
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = HUN
+				}
+			}
+			add_operation_token = {
+				tag = HUN
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = HUN
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = HUN
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = HUN
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = SPR
+				}
+			}
+			add_operation_token = {
+				tag = SPR
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = SPR
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = SPR
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = SPR
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = FIN
+				}
+			}
+			add_operation_token = {
+				tag = FIN
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = FIN
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = FIN
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = FIN
+				token = E_token_airforce
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			OR = {
+				original_tag = ENG
+				original_tag = FRA
+				original_tag = CAN
+				original_tag = SOV
+				original_tag = UAC
+				original_tag = YUG
+				original_tag = GRE
+				original_tag = IRE
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = ENG
+				}
+			}
+			add_operation_token = {
+				tag = ENG
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = ENG
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = ENG
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = ENG
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = FRA
+				}
+			}
+			add_operation_token = {
+				tag = FRA
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = FRA
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = FRA
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = FRA
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = SOV
+				}
+			}
+			add_operation_token = {
+				tag = SOV
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = SOV
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = SOV
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = SOV
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = CAN
+				}
+			}
+			add_operation_token = {
+				tag = CAN
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = CAN
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = CAN
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = CAN
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = IRE
+				}
+			}
+			add_operation_token = {
+				tag = IRE
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = IRE
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = IRE
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = IRE
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = UAC
+				}
+			}
+			add_operation_token = {
+				tag = UAC
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = UAC
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = UAC
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = UAC
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = YUG
+				}
+			}
+			add_operation_token = {
+				tag = YUG
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = YUG
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = YUG
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = YUG
+				token = E_token_airforce
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					tag = GRE
+				}
+			}
+			add_operation_token = {
+				tag = GRE
+				token = E_token_civilian
+			}
+			add_operation_token = {
+				tag = GRE
+				token = E_token_army
+			}
+			add_operation_token = {
+				tag = GRE
+				token = E_token_navy
+			}
+			add_operation_token = {
+				tag = GRE
+				token = E_token_airforce
+			}
+		}
+	}
+}
+
+anti_cross_faction_trade_allies = {
+	send_embargo = ENG
+	send_embargo = FRA
+	send_embargo = CAN
+	send_embargo = SOV
+	send_embargo = UAC
+	send_embargo = YUG
+	send_embargo = GRE
+	send_embargo = IRE
+}
+
+anti_cross_faction_trade_axis = {
+	send_embargo = GER
+	send_embargo = ITA
+	send_embargo = BUL
+	send_embargo = ROM
+	send_embargo = HUN
+	send_embargo = SPR
+	send_embargo = FIN
+}

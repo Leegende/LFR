@@ -1,8 +1,0 @@
-faction_template_axis = {
-	name = Axis
-	icon = GFX_faction_logo_axis
-	manifest = faction_manifest_axis
-	default_rules = {
-		joining_rule_no
-	}
-}

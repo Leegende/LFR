@@ -57,7 +57,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_weseruebung"
-		texturefile = "gfx/interface/focus/GER/GER_weseruebung.tga"
+		texturefile = "gfx/interface/focus/GER/GER_weseruebung.dds"
 	}
 	SpriteType = {
 		name = "GFX_swedish_trade"

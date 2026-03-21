@@ -637,8 +637,6 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			allowed_civil_war = {
-			}
 			removal_cost = -1
 			picture = generic_pp_unity_bonus
 			targeted_modifier = {

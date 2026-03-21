@@ -53,9 +53,9 @@ sub_units = {
 		training_time = 100
 		supply_consumption = 0.18
 		affects_speed = yes
-		transport = artillery_equipment_1
+		transport = artillery_equipment
 		essential = {
-			artillery_equipment_1
+			artillery_equipment
 		}
 		need = {
 			artillery_equipment = @art_need
@@ -113,9 +113,9 @@ sub_units = {
 		training_time = 100
 		supply_consumption = 0.18
 		affects_speed = yes
-		transport = heavy_artillery_equipment_1
+		transport = heavy_artillery_equipment
 		essential = {
-			heavy_artillery_equipment_1
+			heavy_artillery_equipment
 		}
 		need = {
 			heavy_artillery_equipment = @art_need
@@ -209,9 +209,9 @@ sub_units = {
 		training_time = 100
 		supply_consumption = 0.18
 		affects_speed = yes
-		transport = pack_artillery_equipment_1
+		transport = pack_artillery_equipment
 		essential = {
-			pack_artillery_equipment_1
+			pack_artillery_equipment
 		}
 		need = {
 			pack_artillery_equipment = @art_need
@@ -238,9 +238,9 @@ sub_units = {
 		training_time = 100
 		supply_consumption = 0.18
 		affects_speed = yes
-		transport = super_heavy_artillery_equipment_1
+		transport = super_heavy_artillery_equipment
 		essential = {
-			super_heavy_artillery_equipment_1
+			super_heavy_artillery_equipment
 		}
 		need = {
 			super_heavy_artillery_equipment = @art_need
@@ -267,9 +267,9 @@ sub_units = {
 		training_time = 100
 		supply_consumption = 0.18
 		affects_speed = yes
-		transport = super_heavy_self_propelled_artillery_1
+		transport = super_heavy_self_propelled_artillery
 		essential = {
-			super_heavy_self_propelled_artillery_1
+			super_heavy_self_propelled_artillery
 		}
 		need = {
 			super_heavy_self_propelled_artillery = @art_need

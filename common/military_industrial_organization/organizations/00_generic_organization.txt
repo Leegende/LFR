@@ -1,0 +1,4898 @@
+axis_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = BUL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = SPR
+			original_tag = FIN
+		}
+	}
+	equipment_type = {
+		light_tank_chassis
+		medium_tank_chassis
+		heavy_tank_chassis
+		modern_tank_chassis
+	}
+	tree_header_text = {
+		text = mio_header_design
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 5
+	}
+	tree_header_text = {
+		text = mio_header_engines
+		x = 8
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_axis_medium_tank_designer
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		equipment_bonus = {
+			reliability = 0.05
+			maximum_speed = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_power_traverse
+		name = generic_mio_trait_power_traverse
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed_improvements
+		name = generic_mio_trait_speed_improvements
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_power_traverse
+		all_parents = {
+			generic_mio_trait_power_traverse
+		}
+		mutually_exclusive = {
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense_focus
+		name = generic_mio_trait_defense_focus
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_power_traverse
+		all_parents = {
+			generic_mio_trait_power_traverse
+		}
+		mutually_exclusive = {
+			generic_mio_trait_speed_improvements
+		}
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_all_round_cupola
+		name = generic_mio_trait_all_round_cupola
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_speed_improvements
+		any_parent = {
+			generic_mio_trait_speed_improvements
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_simplified_turret_design
+		name = generic_mio_trait_simplified_turret_design
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defense_focus
+		any_parent = {
+			generic_mio_trait_speed_improvements
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_specialist_shells
+		name = generic_mio_trait_specialist_shells
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_all_round_cupola
+		any_parent = {
+			generic_mio_trait_simplified_turret_design
+			generic_mio_trait_all_round_cupola
+		}
+		mutually_exclusive = {
+			generic_mio_trait_improved_gun_metallurgy
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_gun_metallurgy
+		name = generic_mio_trait_improved_gun_metallurgy
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_simplified_turret_design
+		any_parent = {
+			generic_mio_trait_simplified_turret_design
+			generic_mio_trait_all_round_cupola
+		}
+		mutually_exclusive = {
+			generic_mio_trait_specialist_shells
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			breakthrough = 0.05
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_advanced_shells
+		name = generic_mio_trait_advanced_shells
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_specialist_shells
+		any_parent = {
+			generic_mio_trait_specialist_shells
+			generic_mio_trait_improved_gun_metallurgy
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor_steel_working
+		name = generic_mio_trait_armor_steel_working
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 4
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_power_traverse
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_spaced_armor
+		name = generic_mio_trait_spaced_armor
+		icon = GFX_generic_mio_trait_icon_armor_value
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_armor_steel_working
+		all_parents = {
+			generic_mio_trait_armor_steel_working
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			defense = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_sloped_side_armor
+		name = generic_mio_trait_sloped_side_armor
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_spaced_armor
+		all_parents = {
+			generic_mio_trait_spaced_armor
+		}
+		mutually_exclusive = {
+			generic_mio_trait_crew_survival_layout
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			reliability = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_crew_survival_layout
+		name = generic_mio_trait_crew_survival_layout
+		icon = GFX_generic_mio_trait_icon_defense
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_spaced_armor
+		all_parents = {
+			generic_mio_trait_spaced_armor
+		}
+		mutually_exclusive = {
+			generic_mio_trait_sloped_side_armor
+		}
+		equipment_bonus = {
+			reliability = -0.05
+			maximum_speed = 0.02
+			build_cost_ic = -0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mixed_material_construction
+		name = generic_mio_trait_mixed_material_construction
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_sloped_side_armor
+		all_parents = {
+			generic_mio_trait_sloped_side_armor
+		}
+		equipment_bonus = {
+			hardness = 0.05
+			defense = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_adaptable_build
+		name = generic_mio_trait_adaptable_build
+		icon = GFX_generic_mio_trait_icon_resources
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_crew_survival_layout
+		all_parents = {
+			generic_mio_trait_crew_survival_layout
+		}
+		equipment_bonus = {
+			hardness = -0.05
+			maximum_speed = 0.03
+			build_cost_ic = -0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_production
+		name = generic_mio_trait_mass_production
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_mixed_material_construction
+		any_parent = {
+			generic_mio_trait_mixed_material_construction
+			generic_mio_trait_adaptable_build
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_suspension
+		name = generic_mio_trait_improved_suspension
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 3
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_armor_steel_working
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_truck_engines
+		name = generic_mio_trait_truck_engines
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_improved_suspension
+		all_parents = {
+			generic_mio_trait_improved_suspension
+		}
+		mutually_exclusive = {
+			generic_mio_trait_aircraft_engines
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_aircraft_engines
+		name = generic_mio_trait_aircraft_engines
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_improved_suspension
+		all_parents = {
+			generic_mio_trait_improved_suspension
+		}
+		mutually_exclusive = {
+			generic_mio_trait_truck_engines
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_expanded_production_facilities
+		name = generic_mio_trait_expanded_production_facilities
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_truck_engines
+		any_parent = {
+			generic_mio_trait_truck_engines
+			generic_mio_trait_aircraft_engines
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_efficient_fuel_engines
+		name = generic_mio_trait_efficient_fuel_engines
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_expanded_production_facilities
+		all_parents = {
+			generic_mio_trait_expanded_production_facilities
+		}
+		equipment_bonus = {
+			fuel_consumption = -0.05
+			maximum_speed = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_advanced_production_techniques
+		name = generic_mio_trait_advanced_production_techniques
+		icon = GFX_generic_mio_trait_icon_efficiency_cap
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_efficient_fuel_engines
+		all_parents = {
+			generic_mio_trait_efficient_fuel_engines
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+}
+
+axis_amphibious_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = BUL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = SPR
+			original_tag = FIN
+		}
+	}
+	equipment_type = {
+		light_tank_amphibious_chassis
+		medium_tank_amphibious_chassis
+		heavy_tank_amphibious_chassis
+		modern_tank_amphibious_chassis
+	}
+	tree_header_text = {
+		text = mio_header_design
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 5
+	}
+	tree_header_text = {
+		text = mio_header_engines
+		x = 8
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough
+		name = generic_mio_trait_breakthrough
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_speed
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough1
+		name = generic_mio_trait_breakthrough1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough
+		any_parent = {
+			generic_mio_trait_breakthrough
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed
+		name = generic_mio_trait_speed
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 2
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_breakthrough
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed1
+		name = generic_mio_trait_speed1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_speed
+		any_parent = {
+			generic_mio_trait_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			supply_consumption_factor = -0.05
+			maximum_speed = 0.05
+			reliability = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense
+		name = generic_mio_trait_defense
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough1
+		any_parent = {
+			generic_mio_trait_breakthrough1
+			generic_mio_trait_speed1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack
+		name = generic_mio_trait_soft_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack1
+		name = generic_mio_trait_soft_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_soft_attack
+		any_parent = {
+			generic_mio_trait_soft_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack
+		name = generic_mio_trait_hard_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack1
+		name = generic_mio_trait_hard_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_hard_attack
+		any_parent = {
+			generic_mio_trait_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost
+		name = generic_mio_trait_cost
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+			maximum_speed = -0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost1
+		name = generic_mio_trait_cost1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost
+		any_parent = {
+			generic_mio_trait_cost
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost2
+		name = generic_mio_trait_cost2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost1
+		any_parent = {
+			generic_mio_trait_cost1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			reliability = -0.025
+			maximum_speed = -0.075
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost3
+		name = generic_mio_trait_cost3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost2
+		any_parent = {
+			generic_mio_trait_cost2
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			hardness = -0.05
+			ap_attack = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost4
+		name = generic_mio_trait_cost4
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost3
+		any_parent = {
+			generic_mio_trait_cost3
+			generic_mio_trait_armor3
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			hardness = 0.025
+			max_strength = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor
+		name = generic_mio_trait_armor
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor1
+		name = generic_mio_trait_armor1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor
+		}
+		relative_position_id = generic_mio_trait_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			reliability = -0.025
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor2
+		name = generic_mio_trait_armor2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor1
+		}
+		relative_position_id = generic_mio_trait_armor1
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.025
+			maximum_speed = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor3
+		name = generic_mio_trait_armor3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor2
+		}
+		relative_position_id = generic_mio_trait_armor2
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.075
+			soft_attack = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+}
+
+axis_variants_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = BUL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = SPR
+			original_tag = FIN
+		}
+	}
+	equipment_type = {
+		light_tank_aa_chassis
+		light_tank_artillery_chassis
+		light_tank_destroyer_chassis
+		light_tank_flame_chassis
+		medium_tank_aa_chassis
+		medium_tank_artillery_chassis
+		medium_tank_destroyer_chassis
+		medium_tank_flame_chassis
+		heavy_tank_aa_chassis
+		heavy_tank_artillery_chassis
+		heavy_tank_destroyer_chassis
+		heavy_tank_flame_chassis
+		light_tank_amphibious_aa_chassis
+		light_tank_amphibious_artillery_chassis
+		light_tank_amphibious_destroyer_chassis
+		light_tank_amphibious_flame_chassis
+		medium_tank_amphibious_aa_chassis
+		medium_tank_amphibious_artillery_chassis
+		medium_tank_amphibious_destroyer_chassis
+		medium_tank_amphibious_flame_chassis
+		heavy_tank_amphibious_aa_chassis
+		heavy_tank_amphibious_artillery_chassis
+		heavy_tank_amphibious_destroyer_chassis
+		heavy_tank_amphibious_flame_chassis
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_weapons
+		x = 5
+	}
+	initial_trait = {
+		token = generic_mio_initial_trait_pmfu_tank_variant_designer
+		name = generic_mio_initial_trait_pmfu_tank_variant_designer
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_enemy_tank_refitting
+		name = generic_mio_trait_enemy_tank_refitting
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			maximum_speed = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_efficient_scrap_recycling
+		name = generic_mio_trait_efficient_scrap_recycling
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			defense = 0.05
+			air_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_volume_smelter
+		name = generic_mio_trait_high_volume_smelter
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_efficient_scrap_recycling
+		any_parent = {
+			generic_mio_trait_efficient_scrap_recycling
+		}
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_quality_materials
+		name = generic_mio_trait_quality_materials
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_powered_engine_production
+		name = generic_mio_trait_high_powered_engine_production
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_quality_materials
+		all_parents = {
+			generic_mio_trait_quality_materials
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_duty_machine_tools
+		name = generic_mio_trait_heavy_duty_machine_tools
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_high_volume_smelter
+		all_parents = {
+			generic_mio_trait_high_powered_engine_production
+			generic_mio_trait_high_volume_smelter
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_multi_plant_cooperation
+		name = generic_mio_trait_multi_plant_cooperation
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_heavy_duty_machine_tools
+		any_parent = {
+			generic_mio_trait_heavy_duty_machine_tools
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_standardized_secondary_armament
+		name = generic_mio_trait_standardized_secondary_armament
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 3
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense_focus
+		name = generic_mio_trait_defense_focus
+		icon = GFX_generic_mio_trait_icon_defense
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		any_parent = {
+			generic_mio_trait_standardized_secondary_armament
+		}
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_small_arms_ammunition_production
+		name = generic_mio_trait_mass_small_arms_ammunition_production
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defense_focus
+		any_parent = {
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = -0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_plant_tech_exchange
+		name = generic_mio_trait_plant_tech_exchange
+		icon = GFX_generic_mio_department_icon_facilities
+		position = {
+			x = 2
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		equipment_bonus = {
+			ap_attack = 0.05
+			hardness = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_apcr_hvap_shells
+		name = generic_mio_trait_apcr_hvap_shells
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_plant_tech_exchange
+		any_parent = {
+			generic_mio_trait_plant_tech_exchange
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_24h_rotation_shifts
+		name = generic_mio_trait_24h_rotation_shifts
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_apcr_hvap_shells
+		any_parent = {
+			generic_mio_trait_apcr_hvap_shells
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			ap_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_dual_plant_main_armament_production
+		name = generic_mio_trait_dual_plant_main_armament_production
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 1
+			y = 2
+		}
+		relative_position_id = generic_mio_trait_mass_small_arms_ammunition_production
+		any_parent = {
+			generic_mio_trait_mass_small_arms_ammunition_production
+			generic_mio_trait_24h_rotation_shifts
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+axis_artillery_organization = {
+	icon = GFX_idea_generic_artillery_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = BUL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = SPR
+			original_tag = FIN
+		}
+	}
+	equipment_type = {
+		pack_anti_air_archetype
+		pack_anti_tank_archetype
+		pack_artillery_equipment
+		anti_air_archetype
+		anti_tank_archetype
+		artillery_equipment
+		heavy_anti_air_archetype
+		heavy_artillery_equipment
+		heavy_anti_tank_archetype
+	}
+	trait = {
+		token = axis_artillery_breakthrough
+		name = axis_artillery_breakthrough
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_defense
+		}
+		equipment_bonus = {
+			breakthrough = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_defense
+		name = axis_artillery_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 3
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_breakthrough
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack
+		name = axis_artillery_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_defense
+			axis_artillery_breakthrough
+		}
+		relative_position_id = axis_artillery_breakthrough
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack1
+		name = axis_artillery_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_hard
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.06
+			reliability = -0.075
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_hard
+		name = axis_artillery_soft_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_hard
+		name = axis_artillery_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			hard_attack = 0.2
+			build_cost_ic = 0.045
+		}
+	}
+	trait = {
+		token = axis_artillery_anti_air_attack
+		name = axis_artillery_anti_air_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			anti_air_attack = 0.1
+		}
+		relative_position_id = axis_artillery_soft_attack1
+	}
+	trait = {
+		token = axis_artillery_max_efficiency
+		name = axis_artillery_max_efficiency
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_anti_air_attack
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+		relative_position_id = axis_artillery_anti_air_attack
+	}
+	trait = {
+		token = axis_artillery_piercing
+		name = axis_artillery_piercing
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_defense1
+		}
+		any_parent = {
+			axis_artillery_hard
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			ap_attack = 0.2
+		}
+		relative_position_id = axis_artillery_hard
+	}
+	trait = {
+		token = axis_artillery_production
+		name = axis_artillery_production
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_piercing
+		}
+		equipment_bonus = {
+			hard_attack = 0.1
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.05
+			production_capacity_factor = 0.05
+		}
+		relative_position_id = axis_artillery_piercing
+	}
+	trait = {
+		token = axis_artillery_ic
+		name = axis_artillery_ic
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			hard_attack = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic1
+		name = axis_artillery_ic1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic
+		any_parent = {
+			axis_artillery_ic
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic2
+		name = axis_artillery_ic2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic1
+		any_parent = {
+			axis_artillery_ic1
+		}
+		equipment_bonus = {
+			max_strength = 0.3
+		}
+	}
+	trait = {
+		token = axis_artillery_defense1
+		name = axis_artillery_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_piercing
+		}
+		relative_position_id = axis_artillery_ic2
+		any_parent = {
+			axis_artillery_ic2
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack2
+		name = axis_artillery_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_defense1
+		any_parent = {
+			axis_artillery_defense1
+		}
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+}
+
+axis_infantry_organization = {
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = ITA
+			original_tag = BUL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = SPR
+			original_tag = FIN
+		}
+	}
+	equipment_type = {
+		infantry_archetype
+		support_equipment
+	}
+	trait = {
+		token = axis_infantry_reliability
+		name = axis_infantry_reliability
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack
+		name = axis_infantry_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = -3
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack1
+		name = axis_infantry_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack2
+		name = axis_infantry_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack1
+		any_parent = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = -0.03
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack
+		name = axis_infantry_hard_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack1
+		name = axis_infantry_hard_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hard_attack
+		any_parent = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_defense
+		name = axis_infantry_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense1
+		name = axis_infantry_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_infantry_defense3
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+	}
+	trait = {
+		token = axis_infantry_defense2
+		name = axis_infantry_defense2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense1
+		any_parent = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+			breakthrough = 0.05
+			build_cost_ic = 0.01
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense3
+		name = axis_infantry_defense3
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		mutually_exclusive = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.15
+			build_cost_ic = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_defense4
+		name = axis_infantry_defense4
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense3
+		any_parent = {
+			axis_infantry_defense3
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.2
+			ap_attack = 0.5
+			build_cost_ic = -0.04
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_reliability1
+		name = axis_infantry_reliability1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 3
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_speed
+		name = axis_infantry_speed
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.035
+		}
+	}
+	trait = {
+		token = axis_infantry_speed1
+		name = axis_infantry_speed1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_speed
+		any_parent = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.065
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness
+		name = axis_infantry_hardness
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness1
+		name = axis_infantry_hardness1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hardness
+		any_parent = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+allied_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = CAN
+			original_tag = UAC
+			original_tag = YUG
+			original_tag = GRE
+			original_tag = IRE
+		}
+	}
+	equipment_type = {
+		light_tank_chassis
+		medium_tank_chassis
+		heavy_tank_chassis
+		modern_tank_chassis
+	}
+	tree_header_text = {
+		text = mio_header_light_tank_department
+		x = 0.1
+	}
+	tree_header_text = {
+		text = mio_header_medium_tank_department
+		x = 4
+	}
+	tree_header_text = {
+		text = mio_header_heavy_tank_department
+		x = 8
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_commonwealth_medium_tank_designer
+		equipment_bonus = {
+			maximum_speed = 0.1
+			breakthrough = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_light_tank_improvements
+		name = generic_mio_trait_light_tank_improvements
+		icon = GFX_generic_mio_department_icon_tank_light_tank_weapons
+		position = {
+			x = 0
+			y = 0
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_medium_tank_improvements
+		name = generic_mio_trait_medium_tank_improvements
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_weapons
+		position = {
+			x = 4
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_light_tank_improvements
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_tank_improvements
+		name = generic_mio_trait_heavy_tank_improvements
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_weapons
+		position = {
+			x = 4
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_medium_tank_improvements
+		organization_modifier = {
+			military_industrial_organization_funds_gain = 0.3
+			military_industrial_organization_research_bonus = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_rapid_fire_guns
+		name = generic_mio_trait_rapid_fire_guns
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 0
+			y = 2
+		}
+		relative_position_id = generic_mio_trait_heavy_tank_improvements
+		all_parents = {
+			generic_mio_trait_heavy_tank_improvements
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_production_division
+		name = generic_mio_trait_production_division
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		position = {
+			x = 2
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_light_tank_improvements
+		all_parents = {
+			generic_mio_trait_light_tank_improvements
+			generic_mio_trait_medium_tank_improvements
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_standardized_turrets
+		name = generic_mio_trait_standardized_turrets
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_production_division
+		any_parent = {
+			generic_mio_trait_production_division
+		}
+		equipment_bonus = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_reinforced_construction
+		name = generic_mio_trait_reinforced_construction
+		icon = GFX_generic_mio_department_icon_tank_light_tank_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_light_tank_improvements
+		any_parent = {
+			generic_mio_trait_light_tank_improvements
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_wheel_protection
+		name = generic_mio_trait_improved_wheel_protection
+		icon = GFX_generic_mio_department_icon_tank_light_tank_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_reinforced_construction
+		any_parent = {
+			generic_mio_trait_reinforced_construction
+		}
+		equipment_bonus = {
+			defense = 0.05
+			maximum_speed = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense_focus
+		name = generic_mio_trait_defense_focus
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_medium_tank_improvements
+		any_parent = {
+			generic_mio_trait_medium_tank_improvements
+		}
+		equipment_bonus = {
+			maximum_speed = 0.02
+			defense = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_gun_improvements
+		name = generic_mio_trait_gun_improvements
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defense_focus
+		any_parent = {
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			build_cost_ic = 0.03
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_material_recycling
+		name = generic_mio_trait_material_recycling
+		icon = GFX_generic_mio_trait_icon_resources
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_improved_wheel_protection
+		any_parent = {
+			generic_mio_trait_improved_wheel_protection
+			generic_mio_trait_gun_improvements
+		}
+		mutually_exclusive = {
+			generic_mio_trait_hardened_critical_components
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.03
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed_improvements
+		name = generic_mio_trait_speed_improvements
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_material_recycling
+		all_parents = {
+			generic_mio_trait_material_recycling
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hardened_critical_components
+		name = generic_mio_trait_hardened_critical_components
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = 2
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_material_recycling
+		any_parent = {
+			generic_mio_trait_improved_wheel_protection
+			generic_mio_trait_gun_improvements
+		}
+		mutually_exclusive = {
+			generic_mio_trait_material_recycling
+		}
+		equipment_bonus = {
+			hardness = 0.03
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_protection
+		name = generic_mio_trait_improved_protection
+		icon = GFX_generic_mio_department_icon_tank_general_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_hardened_critical_components
+		all_parents = {
+			generic_mio_trait_hardened_critical_components
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_expanded_production_facilities
+		name = generic_mio_trait_expanded_production_facilities
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		position = {
+			x = 2
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_medium_tank_improvements
+		any_parent = {
+			generic_mio_trait_medium_tank_improvements
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_modular_construction
+		name = generic_mio_trait_modular_construction
+		icon = GFX_generic_mio_department_icon_tank_general_technology
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_expanded_production_facilities
+		any_parent = {
+			generic_mio_trait_expanded_production_facilities
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.03
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_production
+		name = generic_mio_trait_mass_production
+		icon = GFX_generic_mio_trait_icon_efficiency_cap
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_modular_construction
+		all_parents = {
+			generic_mio_trait_modular_construction
+			generic_mio_trait_rapid_fire_guns
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_light_tank_specialization
+		name = generic_mio_trait_light_tank_specialization
+		icon = GFX_generic_mio_department_icon_tank_light_tank_production
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_mass_production
+		any_parent = {
+			generic_mio_trait_mass_production
+		}
+		mutually_exclusive = {
+			generic_mio_trait_medium_tank_specialization
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+			breakthrough = 0.05
+			reliability = 0.05
+			build_cost_ic = -0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_medium_tank_specialization
+		name = generic_mio_trait_medium_tank_specialization
+		icon = GFX_generic_mio_department_icon_tank_medium_tank_production
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_mass_production
+		any_parent = {
+			generic_mio_trait_mass_production
+		}
+		mutually_exclusive = {
+			generic_mio_trait_light_tank_specialization
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			soft_attack = 0.07
+			hard_attack = 0.05
+			reliability = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_tank_specialization
+		name = generic_mio_trait_heavy_tank_specialization
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_production
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_mass_production
+		any_parent = {
+			generic_mio_trait_mass_production
+		}
+		equipment_bonus = {
+			hardness = 0.05
+			build_cost_ic = 0.01
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+}
+
+allied_amphibious_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = CAN
+			original_tag = UAC
+			original_tag = YUG
+			original_tag = GRE
+			original_tag = IRE
+		}
+	}
+	equipment_type = {
+		light_tank_amphibious_chassis
+		medium_tank_amphibious_chassis
+		heavy_tank_amphibious_chassis
+		modern_tank_amphibious_chassis
+	}
+	tree_header_text = {
+		text = mio_header_design
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 5
+	}
+	tree_header_text = {
+		text = mio_header_engines
+		x = 8
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough
+		name = generic_mio_trait_breakthrough
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_speed
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough1
+		name = generic_mio_trait_breakthrough1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough
+		any_parent = {
+			generic_mio_trait_breakthrough
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed
+		name = generic_mio_trait_speed
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 2
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_breakthrough
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed1
+		name = generic_mio_trait_speed1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_speed
+		any_parent = {
+			generic_mio_trait_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			supply_consumption_factor = -0.05
+			maximum_speed = 0.05
+			reliability = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense
+		name = generic_mio_trait_defense
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough1
+		any_parent = {
+			generic_mio_trait_breakthrough1
+			generic_mio_trait_speed1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack
+		name = generic_mio_trait_soft_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack1
+		name = generic_mio_trait_soft_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_soft_attack
+		any_parent = {
+			generic_mio_trait_soft_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack
+		name = generic_mio_trait_hard_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack1
+		name = generic_mio_trait_hard_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_hard_attack
+		any_parent = {
+			generic_mio_trait_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost
+		name = generic_mio_trait_cost
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+			maximum_speed = -0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost1
+		name = generic_mio_trait_cost1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost
+		any_parent = {
+			generic_mio_trait_cost
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost2
+		name = generic_mio_trait_cost2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost1
+		any_parent = {
+			generic_mio_trait_cost1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			reliability = -0.025
+			maximum_speed = -0.075
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost3
+		name = generic_mio_trait_cost3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost2
+		any_parent = {
+			generic_mio_trait_cost2
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			hardness = -0.05
+			ap_attack = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost4
+		name = generic_mio_trait_cost4
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost3
+		any_parent = {
+			generic_mio_trait_cost3
+			generic_mio_trait_armor3
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			hardness = 0.025
+			max_strength = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor
+		name = generic_mio_trait_armor
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor1
+		name = generic_mio_trait_armor1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor
+		}
+		relative_position_id = generic_mio_trait_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			reliability = -0.025
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor2
+		name = generic_mio_trait_armor2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor1
+		}
+		relative_position_id = generic_mio_trait_armor1
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.025
+			maximum_speed = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor3
+		name = generic_mio_trait_armor3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor2
+		}
+		relative_position_id = generic_mio_trait_armor2
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.075
+			soft_attack = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+}
+
+allied_variants_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = CAN
+			original_tag = UAC
+			original_tag = YUG
+			original_tag = GRE
+			original_tag = IRE
+		}
+	}
+	equipment_type = {
+		light_tank_aa_chassis
+		light_tank_artillery_chassis
+		light_tank_destroyer_chassis
+		light_tank_flame_chassis
+		medium_tank_aa_chassis
+		medium_tank_artillery_chassis
+		medium_tank_destroyer_chassis
+		medium_tank_flame_chassis
+		heavy_tank_aa_chassis
+		heavy_tank_artillery_chassis
+		heavy_tank_destroyer_chassis
+		heavy_tank_flame_chassis
+		light_tank_amphibious_aa_chassis
+		light_tank_amphibious_artillery_chassis
+		light_tank_amphibious_destroyer_chassis
+		light_tank_amphibious_flame_chassis
+		medium_tank_amphibious_aa_chassis
+		medium_tank_amphibious_artillery_chassis
+		medium_tank_amphibious_destroyer_chassis
+		medium_tank_amphibious_flame_chassis
+		heavy_tank_amphibious_aa_chassis
+		heavy_tank_amphibious_artillery_chassis
+		heavy_tank_amphibious_destroyer_chassis
+		heavy_tank_amphibious_flame_chassis
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_weapons
+		x = 5
+	}
+	initial_trait = {
+		token = generic_mio_initial_trait_pmfu_tank_variant_designer
+		name = generic_mio_initial_trait_pmfu_tank_variant_designer
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_enemy_tank_refitting
+		name = generic_mio_trait_enemy_tank_refitting
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			maximum_speed = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_efficient_scrap_recycling
+		name = generic_mio_trait_efficient_scrap_recycling
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			defense = 0.05
+			air_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_volume_smelter
+		name = generic_mio_trait_high_volume_smelter
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_efficient_scrap_recycling
+		any_parent = {
+			generic_mio_trait_efficient_scrap_recycling
+		}
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_quality_materials
+		name = generic_mio_trait_quality_materials
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_powered_engine_production
+		name = generic_mio_trait_high_powered_engine_production
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_quality_materials
+		all_parents = {
+			generic_mio_trait_quality_materials
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_duty_machine_tools
+		name = generic_mio_trait_heavy_duty_machine_tools
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_high_volume_smelter
+		all_parents = {
+			generic_mio_trait_high_powered_engine_production
+			generic_mio_trait_high_volume_smelter
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_multi_plant_cooperation
+		name = generic_mio_trait_multi_plant_cooperation
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_heavy_duty_machine_tools
+		any_parent = {
+			generic_mio_trait_heavy_duty_machine_tools
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_standardized_secondary_armament
+		name = generic_mio_trait_standardized_secondary_armament
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 3
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense_focus
+		name = generic_mio_trait_defense_focus
+		icon = GFX_generic_mio_trait_icon_defense
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		any_parent = {
+			generic_mio_trait_standardized_secondary_armament
+		}
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_small_arms_ammunition_production
+		name = generic_mio_trait_mass_small_arms_ammunition_production
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defense_focus
+		any_parent = {
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = -0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_plant_tech_exchange
+		name = generic_mio_trait_plant_tech_exchange
+		icon = GFX_generic_mio_department_icon_facilities
+		position = {
+			x = 2
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		equipment_bonus = {
+			ap_attack = 0.05
+			hardness = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_apcr_hvap_shells
+		name = generic_mio_trait_apcr_hvap_shells
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_plant_tech_exchange
+		any_parent = {
+			generic_mio_trait_plant_tech_exchange
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_24h_rotation_shifts
+		name = generic_mio_trait_24h_rotation_shifts
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_apcr_hvap_shells
+		any_parent = {
+			generic_mio_trait_apcr_hvap_shells
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			ap_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_dual_plant_main_armament_production
+		name = generic_mio_trait_dual_plant_main_armament_production
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 1
+			y = 2
+		}
+		relative_position_id = generic_mio_trait_mass_small_arms_ammunition_production
+		any_parent = {
+			generic_mio_trait_mass_small_arms_ammunition_production
+			generic_mio_trait_24h_rotation_shifts
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+allied_artillery_organization = {
+	icon = GFX_idea_generic_artillery_manufacturer_2
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = CAN
+			original_tag = UAC
+			original_tag = YUG
+			original_tag = GRE
+			original_tag = IRE
+		}
+	}
+	equipment_type = {
+		pack_anti_air_archetype
+		pack_anti_tank_archetype
+		pack_artillery_equipment
+		anti_air_archetype
+		anti_tank_archetype
+		artillery_equipment
+		heavy_anti_air_archetype
+		heavy_artillery_equipment
+		heavy_anti_tank_archetype
+	}
+	trait = {
+		token = axis_artillery_breakthrough
+		name = axis_artillery_breakthrough
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_defense
+		}
+		equipment_bonus = {
+			breakthrough = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_defense
+		name = axis_artillery_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 3
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_breakthrough
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack
+		name = axis_artillery_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_defense
+			axis_artillery_breakthrough
+		}
+		relative_position_id = axis_artillery_breakthrough
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack1
+		name = axis_artillery_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_hard
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.06
+			reliability = -0.075
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_hard
+		name = axis_artillery_soft_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_hard
+		name = axis_artillery_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			hard_attack = 0.2
+			build_cost_ic = 0.045
+		}
+	}
+	trait = {
+		token = axis_artillery_anti_air_attack
+		name = axis_artillery_anti_air_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			anti_air_attack = 0.1
+		}
+		relative_position_id = axis_artillery_soft_attack1
+	}
+	trait = {
+		token = axis_artillery_max_efficiency
+		name = axis_artillery_max_efficiency
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_anti_air_attack
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+		relative_position_id = axis_artillery_anti_air_attack
+	}
+	trait = {
+		token = axis_artillery_piercing
+		name = axis_artillery_piercing
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_defense1
+		}
+		any_parent = {
+			axis_artillery_hard
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			ap_attack = 0.2
+		}
+		relative_position_id = axis_artillery_hard
+	}
+	trait = {
+		token = axis_artillery_production
+		name = axis_artillery_production
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_piercing
+		}
+		equipment_bonus = {
+			hard_attack = 0.1
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.05
+			production_capacity_factor = 0.05
+		}
+		relative_position_id = axis_artillery_piercing
+	}
+	trait = {
+		token = axis_artillery_ic
+		name = axis_artillery_ic
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			hard_attack = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic1
+		name = axis_artillery_ic1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic
+		any_parent = {
+			axis_artillery_ic
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic2
+		name = axis_artillery_ic2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic1
+		any_parent = {
+			axis_artillery_ic1
+		}
+		equipment_bonus = {
+			max_strength = 0.3
+		}
+	}
+	trait = {
+		token = axis_artillery_defense1
+		name = axis_artillery_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_piercing
+		}
+		relative_position_id = axis_artillery_ic2
+		any_parent = {
+			axis_artillery_ic2
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack2
+		name = axis_artillery_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_defense1
+		any_parent = {
+			axis_artillery_defense1
+		}
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+}
+
+allied_infantry_organization = {
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = CAN
+			original_tag = UAC
+			original_tag = YUG
+			original_tag = GRE
+			original_tag = IRE
+		}
+	}
+	equipment_type = {
+		infantry_archetype
+		support_equipment
+	}
+	trait = {
+		token = axis_infantry_reliability
+		name = axis_infantry_reliability
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack
+		name = axis_infantry_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = -3
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack1
+		name = axis_infantry_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack2
+		name = axis_infantry_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack1
+		any_parent = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = -0.03
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack
+		name = axis_infantry_hard_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack1
+		name = axis_infantry_hard_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hard_attack
+		any_parent = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_defense
+		name = axis_infantry_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense1
+		name = axis_infantry_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_infantry_defense3
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+	}
+	trait = {
+		token = axis_infantry_defense2
+		name = axis_infantry_defense2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense1
+		any_parent = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+			breakthrough = 0.05
+			build_cost_ic = 0.01
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense3
+		name = axis_infantry_defense3
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		mutually_exclusive = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.15
+			build_cost_ic = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_defense4
+		name = axis_infantry_defense4
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense3
+		any_parent = {
+			axis_infantry_defense3
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.2
+			ap_attack = 0.5
+			build_cost_ic = -0.04
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_reliability1
+		name = axis_infantry_reliability1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 3
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_speed
+		name = axis_infantry_speed
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.035
+		}
+	}
+	trait = {
+		token = axis_infantry_speed1
+		name = axis_infantry_speed1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_speed
+		any_parent = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.065
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness
+		name = axis_infantry_hardness
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness1
+		name = axis_infantry_hardness1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hardness
+		any_parent = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+comintern_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		tag = SOV
+	}
+	equipment_type = {
+		light_tank_chassis
+		medium_tank_chassis
+		heavy_tank_chassis
+		modern_tank_chassis
+	}
+	tree_header_text = {
+		text = mio_header_tank_construction
+		x = 3
+	}
+	tree_header_text = {
+		text = mio_header_equipment_and_specialization
+		x = 7
+	}
+	initial_trait = {
+		name = generic_mio_initial_trait_comintern_medium_tank_designer
+		equipment_bonus = {
+			reliability = -0.1
+			breakthrough = -0.05
+			build_cost_ic = -0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_simplified_suspension
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			reliability = 0.02
+			maximum_speed = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_crew_ergonomics
+		name = generic_mio_trait_crew_ergonomics
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 4
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_simplified_suspension
+		equipment_bonus = {
+			maximum_speed = 0.02
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor_steel_working
+		name = generic_mio_trait_armor_steel_working
+		icon = GFX_generic_mio_trait_icon_armor_value
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_simplified_suspension
+		any_parent = {
+			generic_mio_trait_simplified_suspension
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			defense = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_tracks
+		name = generic_mio_trait_improved_tracks
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_armor_steel_working
+		any_parent = {
+			generic_mio_trait_armor_steel_working
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_reinforced_construction
+		name = generic_mio_trait_reinforced_construction
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_crew_ergonomics
+		any_parent = {
+			generic_mio_trait_crew_ergonomics
+		}
+		equipment_bonus = {
+			reliability = 0.03
+			hard_attack = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_command_upgrades
+		name = generic_mio_trait_command_upgrades
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_reinforced_construction
+		any_parent = {
+			generic_mio_trait_reinforced_construction
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+			armor_value = 0.05
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_standardized_components
+		name = generic_mio_trait_standardized_components
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		position = {
+			x = 2
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_simplified_suspension
+		all_parents = {
+			generic_mio_trait_simplified_suspension
+			generic_mio_trait_crew_ergonomics
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+			production_resource_need_factor = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_armored_hull
+		name = generic_mio_trait_heavy_armored_hull
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_standardized_components
+		all_parents = {
+			generic_mio_trait_standardized_components
+		}
+		equipment_bonus = {
+			hardness = 0.03
+			breakthrough = 0.05
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_improved_tooling
+		name = generic_mio_trait_improved_tooling
+		icon = GFX_generic_mio_department_icon_tank_general_technology
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_heavy_armored_hull
+		all_parents = {
+			generic_mio_trait_improved_tracks
+			generic_mio_trait_heavy_armored_hull
+			generic_mio_trait_command_upgrades
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_production
+		name = generic_mio_trait_mass_production
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_improved_tooling
+		any_parent = {
+			generic_mio_trait_improved_tooling
+		}
+		mutually_exclusive = {
+			generic_mio_trait_quality_improvements
+		}
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_efficiency_gain_factor = 0.1
+		}
+		equipment_bonus = {
+			reliability = -0.05
+			hardness = -0.05
+			breakthrough = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_quality_improvements
+		name = generic_mio_trait_quality_improvements
+		icon = GFX_generic_mio_department_icon_tank_general_armor
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_improved_tooling
+		any_parent = {
+			generic_mio_trait_improved_tooling
+		}
+		mutually_exclusive = {
+			generic_mio_trait_mass_production
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			defense = 0.1
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = -0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defensive_equipment
+		name = generic_mio_trait_defensive_equipment
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 2
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_crew_ergonomics
+		equipment_bonus = {
+			build_cost_ic = 0.01
+			reliability = 0.03
+			soft_attack = 0.02
+			defense = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_gun_improvements
+		name = generic_mio_trait_gun_improvements
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defensive_equipment
+		all_parents = {
+			generic_mio_trait_crew_ergonomics
+			generic_mio_trait_defensive_equipment
+		}
+		equipment_bonus = {
+			soft_attack = 0.03
+			hard_attack = 0.03
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_long_barreled_guns
+		name = generic_mio_trait_long_barreled_guns
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_gun_improvements
+		all_parents = {
+			generic_mio_trait_gun_improvements
+		}
+		equipment_bonus = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_anti_tank_specialization
+		name = generic_mio_trait_anti_tank_specialization
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_long_barreled_guns
+		any_parent = {
+			generic_mio_trait_long_barreled_guns
+		}
+		mutually_exclusive = {
+			generic_mio_trait_infantry_support_tanks
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			hard_attack = 0.05
+			reliability = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_advanced_armor_design
+		name = generic_mio_trait_advanced_armor_design
+		icon = GFX_generic_mio_trait_icon_armor_value
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_anti_tank_specialization
+		all_parents = {
+			generic_mio_trait_anti_tank_specialization
+		}
+		equipment_bonus = {
+			hardness = 0.05
+			ap_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_infantry_support_tanks
+		name = generic_mio_trait_infantry_support_tanks
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_long_barreled_guns
+		any_parent = {
+			generic_mio_trait_long_barreled_guns
+		}
+		mutually_exclusive = {
+			generic_mio_trait_anti_tank_specialization
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			reliability = -0.05
+		}
+		production_bonus = {
+			production_cost_factor = -0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_barrels_of_hell
+		name = generic_mio_trait_barrels_of_hell
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_infantry_support_tanks
+		any_parent = {
+			generic_mio_trait_infantry_support_tanks
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			breakthrough = 0.05
+		}
+	}
+}
+
+comintern_amphibious_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		tag = SOV
+	}
+	equipment_type = {
+		light_tank_amphibious_chassis
+		medium_tank_amphibious_chassis
+		heavy_tank_amphibious_chassis
+		modern_tank_amphibious_chassis
+	}
+	tree_header_text = {
+		text = mio_header_design
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 5
+	}
+	tree_header_text = {
+		text = mio_header_engines
+		x = 8
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough
+		name = generic_mio_trait_breakthrough
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_speed
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_breakthrough1
+		name = generic_mio_trait_breakthrough1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough
+		any_parent = {
+			generic_mio_trait_breakthrough
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed
+		name = generic_mio_trait_speed
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 2
+			y = 0
+		}
+		mutually_exclusive = {
+			generic_mio_trait_breakthrough
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_speed1
+		name = generic_mio_trait_speed1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_speed
+		any_parent = {
+			generic_mio_trait_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			supply_consumption_factor = -0.05
+			maximum_speed = 0.05
+			reliability = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense
+		name = generic_mio_trait_defense
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_breakthrough1
+		any_parent = {
+			generic_mio_trait_breakthrough1
+			generic_mio_trait_speed1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack
+		name = generic_mio_trait_soft_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_soft_attack1
+		name = generic_mio_trait_soft_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_soft_attack
+		any_parent = {
+			generic_mio_trait_soft_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack
+		name = generic_mio_trait_hard_attack
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_defense
+		any_parent = {
+			generic_mio_trait_defense
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_hard_attack1
+		name = generic_mio_trait_hard_attack1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_hard_attack
+		any_parent = {
+			generic_mio_trait_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+			build_cost_ic = 0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost
+		name = generic_mio_trait_cost
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+			maximum_speed = -0.025
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost1
+		name = generic_mio_trait_cost1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost
+		any_parent = {
+			generic_mio_trait_cost
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = -0.05
+			hard_attack = -0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost2
+		name = generic_mio_trait_cost2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost1
+		any_parent = {
+			generic_mio_trait_cost1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			reliability = -0.025
+			maximum_speed = -0.075
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost3
+		name = generic_mio_trait_cost3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost2
+		any_parent = {
+			generic_mio_trait_cost2
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			hardness = -0.05
+			ap_attack = -0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_cost4
+		name = generic_mio_trait_cost4
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		relative_position_id = generic_mio_trait_cost3
+		any_parent = {
+			generic_mio_trait_cost3
+			generic_mio_trait_armor3
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			hardness = 0.025
+			max_strength = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor
+		name = generic_mio_trait_armor
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor1
+		name = generic_mio_trait_armor1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor
+		}
+		relative_position_id = generic_mio_trait_armor
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.05
+			reliability = -0.025
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor2
+		name = generic_mio_trait_armor2
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor1
+		}
+		relative_position_id = generic_mio_trait_armor1
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.025
+			maximum_speed = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = generic_mio_trait_armor3
+		name = generic_mio_trait_armor3
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		any_parent = {
+			generic_mio_trait_armor2
+		}
+		relative_position_id = generic_mio_trait_armor2
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			armor_value = 0.075
+			soft_attack = -0.05
+			build_cost_ic = 0.01
+		}
+	}
+}
+
+comintern_variants_tank_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_2
+	allowed = {
+		tag = SOV
+	}
+	equipment_type = {
+		light_tank_aa_chassis
+		light_tank_artillery_chassis
+		light_tank_destroyer_chassis
+		light_tank_flame_chassis
+		medium_tank_aa_chassis
+		medium_tank_artillery_chassis
+		medium_tank_destroyer_chassis
+		medium_tank_flame_chassis
+		heavy_tank_aa_chassis
+		heavy_tank_artillery_chassis
+		heavy_tank_destroyer_chassis
+		heavy_tank_flame_chassis
+		light_tank_amphibious_aa_chassis
+		light_tank_amphibious_artillery_chassis
+		light_tank_amphibious_destroyer_chassis
+		light_tank_amphibious_flame_chassis
+		medium_tank_amphibious_aa_chassis
+		medium_tank_amphibious_artillery_chassis
+		medium_tank_amphibious_destroyer_chassis
+		medium_tank_amphibious_flame_chassis
+		heavy_tank_amphibious_aa_chassis
+		heavy_tank_amphibious_artillery_chassis
+		heavy_tank_amphibious_destroyer_chassis
+		heavy_tank_amphibious_flame_chassis
+	}
+	tree_header_text = {
+		text = mio_header_armor
+		x = 1
+	}
+	tree_header_text = {
+		text = mio_header_weapons
+		x = 5
+	}
+	initial_trait = {
+		token = generic_mio_initial_trait_pmfu_tank_variant_designer
+		name = generic_mio_initial_trait_pmfu_tank_variant_designer
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_enemy_tank_refitting
+		name = generic_mio_trait_enemy_tank_refitting
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		equipment_bonus = {
+			maximum_speed = 0.1
+		}
+	}
+	trait = {
+		token = generic_mio_trait_efficient_scrap_recycling
+		name = generic_mio_trait_efficient_scrap_recycling
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = -1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			defense = 0.05
+			air_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_volume_smelter
+		name = generic_mio_trait_high_volume_smelter
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_efficient_scrap_recycling
+		any_parent = {
+			generic_mio_trait_efficient_scrap_recycling
+		}
+		equipment_bonus = {
+			air_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_quality_materials
+		name = generic_mio_trait_quality_materials
+		icon = GFX_generic_mio_trait_icon_reliability
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		any_parent = {
+			generic_mio_trait_enemy_tank_refitting
+		}
+		equipment_bonus = {
+			breakthrough = 0.05
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_high_powered_engine_production
+		name = generic_mio_trait_high_powered_engine_production
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_quality_materials
+		all_parents = {
+			generic_mio_trait_quality_materials
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+			breakthrough = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_heavy_duty_machine_tools
+		name = generic_mio_trait_heavy_duty_machine_tools
+		icon = GFX_generic_mio_department_icon_tank_general_production
+		position = {
+			x = 1
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_high_volume_smelter
+		all_parents = {
+			generic_mio_trait_high_powered_engine_production
+			generic_mio_trait_high_volume_smelter
+		}
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_multi_plant_cooperation
+		name = generic_mio_trait_multi_plant_cooperation
+		icon = GFX_generic_mio_department_icon_tank_general_line_efficiency
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_heavy_duty_machine_tools
+		any_parent = {
+			generic_mio_trait_heavy_duty_machine_tools
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_standardized_secondary_armament
+		name = generic_mio_trait_standardized_secondary_armament
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 3
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_enemy_tank_refitting
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_defense_focus
+		name = generic_mio_trait_defense_focus
+		icon = GFX_generic_mio_trait_icon_defense
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		any_parent = {
+			generic_mio_trait_standardized_secondary_armament
+		}
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_mass_small_arms_ammunition_production
+		name = generic_mio_trait_mass_small_arms_ammunition_production
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_defense_focus
+		any_parent = {
+			generic_mio_trait_defense_focus
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			build_cost_ic = -0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_plant_tech_exchange
+		name = generic_mio_trait_plant_tech_exchange
+		icon = GFX_generic_mio_department_icon_facilities
+		position = {
+			x = 2
+			y = 0
+		}
+		relative_position_id = generic_mio_trait_standardized_secondary_armament
+		equipment_bonus = {
+			ap_attack = 0.05
+			hardness = 0.02
+		}
+	}
+	trait = {
+		token = generic_mio_trait_apcr_hvap_shells
+		name = generic_mio_trait_apcr_hvap_shells
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_plant_tech_exchange
+		any_parent = {
+			generic_mio_trait_plant_tech_exchange
+		}
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+	trait = {
+		token = generic_mio_trait_24h_rotation_shifts
+		name = generic_mio_trait_24h_rotation_shifts
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = generic_mio_trait_apcr_hvap_shells
+		any_parent = {
+			generic_mio_trait_apcr_hvap_shells
+		}
+		equipment_bonus = {
+			armor_value = 0.1
+			ap_attack = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+	trait = {
+		token = generic_mio_trait_dual_plant_main_armament_production
+		name = generic_mio_trait_dual_plant_main_armament_production
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 1
+			y = 2
+		}
+		relative_position_id = generic_mio_trait_mass_small_arms_ammunition_production
+		any_parent = {
+			generic_mio_trait_mass_small_arms_ammunition_production
+			generic_mio_trait_24h_rotation_shifts
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			build_cost_ic = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+comintern_artillery_organization = {
+	icon = GFX_idea_generic_artillery_manufacturer_2
+	allowed = {
+		tag = SOV
+	}
+	equipment_type = {
+		pack_anti_air_archetype
+		pack_anti_tank_archetype
+		pack_artillery_equipment
+		anti_air_archetype
+		anti_tank_archetype
+		artillery_equipment
+		heavy_anti_air_archetype
+		heavy_artillery_equipment
+		heavy_anti_tank_archetype
+	}
+	trait = {
+		token = axis_artillery_breakthrough
+		name = axis_artillery_breakthrough
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_defense
+		}
+		equipment_bonus = {
+			breakthrough = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_defense
+		name = axis_artillery_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 3
+			y = 0
+		}
+		mutually_exclusive = {
+			axis_artillery_breakthrough
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack
+		name = axis_artillery_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_defense
+			axis_artillery_breakthrough
+		}
+		relative_position_id = axis_artillery_breakthrough
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack1
+		name = axis_artillery_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_hard
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.06
+			reliability = -0.075
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_hard
+		name = axis_artillery_soft_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.01
+		}
+	}
+	trait = {
+		token = axis_artillery_hard
+		name = axis_artillery_hard
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 2
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack
+		}
+		mutually_exclusive = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		relative_position_id = axis_artillery_soft_attack
+		equipment_bonus = {
+			hard_attack = 0.2
+			build_cost_ic = 0.045
+		}
+	}
+	trait = {
+		token = axis_artillery_anti_air_attack
+		name = axis_artillery_anti_air_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 1
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_soft_attack1
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			anti_air_attack = 0.1
+		}
+		relative_position_id = axis_artillery_soft_attack1
+	}
+	trait = {
+		token = axis_artillery_max_efficiency
+		name = axis_artillery_max_efficiency
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_anti_air_attack
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+		relative_position_id = axis_artillery_anti_air_attack
+	}
+	trait = {
+		token = axis_artillery_piercing
+		name = axis_artillery_piercing
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_defense1
+		}
+		any_parent = {
+			axis_artillery_hard
+			axis_artillery_soft_hard
+		}
+		equipment_bonus = {
+			ap_attack = 0.2
+		}
+		relative_position_id = axis_artillery_hard
+	}
+	trait = {
+		token = axis_artillery_production
+		name = axis_artillery_production
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		any_parent = {
+			axis_artillery_piercing
+		}
+		equipment_bonus = {
+			hard_attack = 0.1
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.05
+			production_capacity_factor = 0.05
+		}
+		relative_position_id = axis_artillery_piercing
+	}
+	trait = {
+		token = axis_artillery_ic
+		name = axis_artillery_ic
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 6
+			y = 0
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.025
+			hard_attack = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic1
+		name = axis_artillery_ic1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic
+		any_parent = {
+			axis_artillery_ic
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			reliability = -0.05
+		}
+	}
+	trait = {
+		token = axis_artillery_ic2
+		name = axis_artillery_ic2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_ic1
+		any_parent = {
+			axis_artillery_ic1
+		}
+		equipment_bonus = {
+			max_strength = 0.3
+		}
+	}
+	trait = {
+		token = axis_artillery_defense1
+		name = axis_artillery_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_artillery_piercing
+		}
+		relative_position_id = axis_artillery_ic2
+		any_parent = {
+			axis_artillery_ic2
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_artillery_soft_attack2
+		name = axis_artillery_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 0
+			y = 1
+		}
+		relative_position_id = axis_artillery_defense1
+		any_parent = {
+			axis_artillery_defense1
+		}
+		equipment_bonus = {
+			soft_attack = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+}
+
+comintern_infantry_organization = {
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+	allowed = {
+		tag = SOV
+	}
+	equipment_type = {
+		infantry_archetype
+		support_equipment
+	}
+	trait = {
+		token = axis_infantry_reliability
+		name = axis_infantry_reliability
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		position = {
+			x = 4
+			y = 0
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack
+		name = axis_infantry_soft_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = -3
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack1
+		name = axis_infantry_soft_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_soft_attack2
+		name = axis_infantry_soft_attack2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack1
+		any_parent = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.05
+			build_cost_ic = -0.03
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack
+		name = axis_infantry_hard_attack
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_soft_attack
+		any_parent = {
+			axis_infantry_soft_attack
+		}
+		mutually_exclusive = {
+			axis_infantry_soft_attack1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			build_cost_ic = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hard_attack1
+		name = axis_infantry_hard_attack1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hard_attack
+		any_parent = {
+			axis_infantry_hard_attack
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_defense
+		name = axis_infantry_defense
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense1
+		name = axis_infantry_defense1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		mutually_exclusive = {
+			axis_infantry_defense3
+		}
+		equipment_bonus = {
+			soft_attack = 0.05
+			defense = 0.05
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.15
+		}
+	}
+	trait = {
+		token = axis_infantry_defense2
+		name = axis_infantry_defense2
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense1
+		any_parent = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+			breakthrough = 0.05
+			build_cost_ic = 0.01
+		}
+		production_bonus = {
+			production_resource_need_factor = -0.1
+		}
+	}
+	trait = {
+		token = axis_infantry_defense3
+		name = axis_infantry_defense3
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense
+		any_parent = {
+			axis_infantry_defense
+		}
+		mutually_exclusive = {
+			axis_infantry_defense1
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		equipment_bonus = {
+			defense = 0.15
+			build_cost_ic = 0.1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_defense4
+		name = axis_infantry_defense4
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_defense3
+		any_parent = {
+			axis_infantry_defense3
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			hard_attack = 0.2
+			ap_attack = 0.5
+			build_cost_ic = -0.04
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_reliability1
+		name = axis_infantry_reliability1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability
+		any_parent = {
+			axis_infantry_reliability
+		}
+		position = {
+			x = 3
+			y = 1
+		}
+		equipment_bonus = {
+			reliability = 0.05
+		}
+		production_bonus = {
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+	trait = {
+		token = axis_infantry_speed
+		name = axis_infantry_speed
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = -1
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.035
+		}
+	}
+	trait = {
+		token = axis_infantry_speed1
+		name = axis_infantry_speed1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_speed
+		any_parent = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		equipment_bonus = {
+			maximum_speed = 0.125
+			build_cost_ic = 0.065
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness
+		name = axis_infantry_hardness
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_reliability1
+		any_parent = {
+			axis_infantry_reliability1
+		}
+		mutually_exclusive = {
+			axis_infantry_speed
+		}
+		position = {
+			x = 1
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.02
+		}
+	}
+	trait = {
+		token = axis_infantry_hardness1
+		name = axis_infantry_hardness1
+		icon = GFX_generic_mio_department_icon_tank_general_conversion
+		relative_position_id = axis_infantry_hardness
+		any_parent = {
+			axis_infantry_hardness
+		}
+		position = {
+			x = 0
+			y = 1
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.03
+			production_efficiency_gain_factor = 0.05
+		}
+	}
+}

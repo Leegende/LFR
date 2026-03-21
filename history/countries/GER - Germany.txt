@@ -149,3 +149,4 @@ create_country_leader = {
 
 
 recruit_character = GER_hjalmar_schacht
+recruit_character = GER_albert_speer

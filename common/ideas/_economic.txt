@@ -152,7 +152,6 @@ ideas = {
 			modifier = {
 				min_export = 0.8
 				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
 				production_speed_buildings_factor = 0.05
 				research_speed_factor = 0.05
 			}
@@ -189,7 +188,6 @@ ideas = {
 			modifier = {
 				min_export = 0.25
 				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
 				production_speed_buildings_factor = -0.05
 				research_speed_factor = -0.05
 			}
@@ -208,7 +206,6 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				research_speed_factor = 0.05
 				lend_lease_tension = 0.2
-				faction_trade_opinion_factor = 0.25
 			}
 			cancel_if_invalid = no
 			ai_will_do = {
@@ -230,11 +227,9 @@ ideas = {
 			modifier = {
 				min_export = 0
 				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1
 				research_speed_factor = 0.05
 				civilian_intel_to_others = 20
-				navy_intel_to_others = 10
 			}
 			cancel_if_invalid = no
 		}
