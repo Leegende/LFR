@@ -1,3 +1,0 @@
-default = {
-	air_agility = 3
-}

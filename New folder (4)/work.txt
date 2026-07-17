@@ -1,4 +1,0 @@
-faction
-technology gfx
-units
-localisation
