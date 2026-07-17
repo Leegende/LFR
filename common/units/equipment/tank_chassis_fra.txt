@@ -1,0 +1,40 @@
+equipments = {
+	light_tank_h35_chassis = {
+		archetype = light_tank_chassis_archetype
+	}
+	light_tank_r35_chassis = {
+		archetype = light_tank_chassis_archetype
+	}
+	light_tank_amx13_chassis = {
+		archetype = light_tank_chassis_archetype
+	}
+	medium_tank_s35_chassis = {
+		archetype = medium_tank_chassis_archetype
+	}
+	medium_tank_s40_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_s35_chassis
+	}
+	medium_tank_s42_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_s40_chassis
+	}
+	medium_tank_x4_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_s42_chassis
+	}
+	heavy_tank_b1_chassis = {
+		archetype = heavy_tank_chassis_archetype
+	}
+	heavy_tank_arl_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_b1_chassis
+	}
+	heavy_tank_x50_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_arl_chassis
+	}
+	heavy_tank_2c_chassis = {
+		archetype = heavy_tank_chassis_archetype
+	}
+}
