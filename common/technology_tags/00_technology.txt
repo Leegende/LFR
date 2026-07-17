@@ -1,0 +1,76 @@
+technology_categories = {
+}
+
+technology_folders = {
+	infantry_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	armour_ger_folder = {
+		ledger = army
+		available = {
+			original_tag = GER
+		}
+	}
+	armour_ita_folder = {
+		ledger = army
+		available = {
+			original_tag = ITA
+		}
+	}
+	armour_spr_folder = {
+		ledger = army
+		available = {
+			original_tag = SPR
+		}
+	}
+	armour_hun_folder = {
+		ledger = army
+		available = {
+			original_tag = HUN
+		}
+	}
+	armour_fra_folder = {
+		ledger = army
+		available = {
+			original_tag = FRA
+		}
+	}
+	armour_can_folder = {
+		ledger = army
+		available = {
+			original_tag = CAN
+		}
+	}
+	armour_eng_folder = {
+		ledger = army
+		available = {
+			original_tag = ENG
+		}
+	}
+	armour_sov_folder = {
+		ledger = army
+		available = {
+			original_tag = SOV
+		}
+	}
+	artillery_folder = {
+		ledger = army
+	}
+	air_folder = {
+		ledger = air
+		available = {
+			OR = {
+				original_tag = SOV
+				original_tag = ENG
+				original_tag = ITA
+				original_tag = GER
+			}
+		}
+	}
+	industry_folder = {
+		ledger = civilian
+	}
+}

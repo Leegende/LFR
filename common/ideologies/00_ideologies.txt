@@ -1,0 +1,46 @@
+ideologies = {
+	democratic = {
+		types = {
+			conservatism = {
+			}
+		}
+		color = {
+			0
+			0
+			255
+		}
+	}
+	communism = {
+		types = {
+			marxism = {
+			}
+		}
+		color = {
+			255
+			0
+			0
+		}
+	}
+	fascism = {
+		types = {
+			nazism = {
+			}
+		}
+		color = {
+			150
+			75
+			0
+		}
+	}
+	neutrality = {
+		types = {
+			despotism = {
+			}
+		}
+		color = {
+			124
+			124
+			124
+		}
+	}
+}

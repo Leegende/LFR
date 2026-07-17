@@ -1,0 +1,309 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+
+
+technologies = {
+	
+	## Infantry
+	infantry_weapon_1_equipment_technology = {
+		enable_equipments = {
+			infantry_weapon_1_equipment
+		}
+		path = {
+			leads_to_tech = infantry_weapon_2_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	infantry_weapon_2_equipment_technology = {
+		enable_equipments = {
+			infantry_weapon_2_equipment
+		}
+		path = {
+			leads_to_tech = infantry_weapon_3_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	infantry_weapon_3_equipment_technology = {
+		enable_equipments = {
+			infantry_weapon_3_equipment
+		}
+		path = {
+			leads_to_tech = infantry_weapon_4_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	infantry_weapon_4_equipment_technology = {
+		enable_equipments = {
+			infantry_weapon_4_equipment
+		}
+		path = {
+			leads_to_tech = infantry_weapon_5_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1942
+			}
+		}
+	}
+	infantry_weapon_5_equipment_technology = {
+		enable_equipments = {
+			infantry_weapon_5_equipment
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1944
+			}
+		}
+	}
+	## Trains
+	train_1_equipment_technology = {
+		enable_equipments = {
+			train_1_equipment
+		}
+		path = {
+			leads_to_tech = train_2_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	train_2_equipment_technology = {
+		enable_equipments = {
+			train_2_equipment
+		}
+		path = {
+			leads_to_tech = train_3_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	train_3_equipment_technology = {
+		enable_equipments = {
+			train_3_equipment
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	## Armored Cars
+	armored_car_1_equipment_technology = {
+		enable_equipments = {
+			armored_car_1_equipment
+		}
+		path = {
+			leads_to_tech = armored_car_2_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	armored_car_2_equipment_technology = {
+		enable_equipments = {
+			armored_car_2_equipment
+		}
+		path = {
+			leads_to_tech = armored_car_3_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	armored_car_3_equipment_technology = {
+		enable_equipments = {
+			armored_car_3_equipment
+		}
+		path = {
+			leads_to_tech = armored_car_4_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	armored_car_4_equipment_technology = {
+		enable_equipments = {
+			armored_car_4_equipment
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1942
+			}
+		}
+	}
+	## Trucks
+	motorised_equipment_technology = {
+		enable_equipments = {
+			motorised_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtracs_1_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	mechanised_1_equipment_technology = {
+		enable_equipments = {
+			mechanised_1_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtracs_1_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = @1938
+			}
+		}
+	}
+	amtracs_1_equipment_technology = {
+		enable_equipments = {
+			amtracs_1_equipment
+		}
+		path = {
+			leads_to_tech = amtracs_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = mechanised_1_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @1938
+			}
+		}
+	}
+	mechanised_2_equipment_technology = {
+		enable_equipments = {
+			mechanised_2_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtracs_2_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = @1940
+			}
+		}
+	}
+	amtracs_2_equipment_technology = {
+		enable_equipments = {
+			amtracs_2_equipment
+		}
+		path = {
+			leads_to_tech = amtracs_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = mechanised_2_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @1940
+			}
+		}
+	}
+	mechanised_3_equipment_technology = {
+		enable_equipments = {
+			mechanised_3_equipment
+		}
+		path = {
+			leads_to_tech = amtracs_3_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = @1942
+			}
+		}
+	}
+	amtracs_3_equipment_technology = {
+		enable_equipments = {
+			amtracs_3_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_3_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @1942
+			}
+		}
+	}
+}

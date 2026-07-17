@@ -1,0 +1,21 @@
+equipments = {
+	amtracs_equipment_archetype = {
+		year = 1936
+		is_archetype = yes
+		is_buildable = no
+		type = mechanized
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	amtracs_1_equipment = {
+		archetype = amtracs_equipment_archetype
+	}
+	amtracs_2_equipment = {
+		archetype = amtracs_equipment_archetype
+		parent = amtracs_1_equipment
+	}
+	amtracs_3_equipment = {
+		archetype = amtracs_equipment_archetype
+		parent = amtracs_2_equipment
+	}
+}

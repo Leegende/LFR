@@ -1,0 +1,112 @@
+state = {
+	id = 296
+	name = "STATE_296"
+	provinces = {
+		2980
+		4742
+		6783
+		8637
+		10812
+		10824
+		10829
+		10839
+		10851
+		10877
+		10878
+		1332
+		3406
+		4391
+		7901
+		8017
+		8423
+		10863
+		10901
+		10902
+		10919
+		10924
+		10932
+		10996
+		11049
+		271
+		554
+		2993
+		3234
+		3689
+		4633
+		6921
+		7532
+		8333
+		8633
+		9153
+		11002
+		11073
+		11074
+		11101
+		11110
+		11117
+		11146
+		11147
+		11176
+		11177
+		11206
+		11223
+		11231
+		11236
+		11276
+		105
+		5068
+		5616
+		5672
+		7848
+		10979
+		11054
+		11088
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			4742 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			10878
+			10
+		}
+		victory_points = {
+			4742
+			20
+		}
+		victory_points = {
+			11049
+			10
+		}
+		victory_points = {
+			7901
+			5
+		}
+		victory_points = {
+			4633
+			10
+		}
+		victory_points = {
+			11110
+			20
+		}
+		victory_points = {
+			8633
+			40
+		}
+		victory_points = {
+			7848
+			20
+		}
+	}
+	manpower = 5476300
+	buildings_max_level_factor = 1
+	state_category = metropolis
+}

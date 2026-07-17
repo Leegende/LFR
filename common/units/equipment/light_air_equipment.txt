@@ -1,0 +1,39 @@
+equipments = {
+	fighter_1_equipment = {
+		archetype = fighter_equipment_archetype
+	}
+	fighter_2_equipment = {
+		archetype = fighter_equipment_archetype
+		parent = fighter_1_equipment
+	}
+	fighter_3_equipment = {
+		archetype = fighter_equipment_archetype
+		parent = fighter_2_equipment
+	}
+	fighter_bomber_1_equipment = {
+		archetype = fighter_bomber_equipment_archetype
+	}
+	fighter_bomber_2_equipment = {
+		archetype = fighter_bomber_equipment_archetype
+		parent = fighter_bomber_1_equipment
+	}
+	fighter_bomber_3_equipment = {
+		archetype = fighter_bomber_equipment_archetype
+		parent = fighter_bomber_2_equipment
+	}
+	fighter_bomber_4_equipment = {
+		archetype = fighter_bomber_equipment_archetype
+		parent = fighter_bomber_3_equipment
+	}
+	cas_1_equipment = {
+		archetype = cas_equipment_archetype
+	}
+	cas_2_equipment = {
+		archetype = cas_equipment_archetype
+		parent = cas_1_equipment
+	}
+	cas_3_equipment = {
+		archetype = cas_equipment_archetype
+		parent = cas_2_equipment
+	}
+}

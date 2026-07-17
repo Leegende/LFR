@@ -1,0 +1,95 @@
+state = {
+	id = 56
+	name = "STATE_56"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			15897
+			2
+		}
+		victory_points = {
+			4836
+			2
+		}
+		victory_points = {
+			7397
+			2
+		}
+		victory_points = {
+			1937
+			20
+		}
+		victory_points = {
+			1643
+			2
+		}
+		victory_points = {
+			2789
+			2
+		}
+	}
+	provinces = {
+		1135
+		3242
+		3735
+		4429
+		5821
+		15695
+		15737
+		6724
+		20884
+		155
+		1226
+		1656
+		3016
+		3742
+		6136
+		7120
+		15763
+		15791
+		15897
+		20872
+		20877
+		2602
+		4836
+		7883
+		7397
+		9557
+		20868
+		1937
+		15781
+		3655
+		20869
+		1643
+		2724
+		5367
+		15788
+		15799
+		20870
+		20871
+		4
+		878
+		2789
+		3183
+		3688
+		3897
+		6894
+		7020
+		15760
+		15766
+		15780
+		20875
+		2087
+		2411
+		3928
+		5187
+	}
+	manpower = 894620
+	state_category = wasteland
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

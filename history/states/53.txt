@@ -1,0 +1,60 @@
+
+state = {
+id = 53
+	name = "STATE_53"
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		victory_points = {
+			20349
+			5
+		}
+		victory_points = {
+			20352
+			2
+		}
+		victory_points = {
+			20354
+			2
+		}
+		victory_points = {
+			20350
+			10
+		}
+	}
+	provinces = {
+		20096
+		3835
+		4520
+		4060
+		20349
+		20351
+		1622
+		20352
+		15621
+		20350
+		20353
+		20354
+		20355
+		15405
+		21490
+		15376
+		21487
+		21586
+		21638
+		15429
+		1249
+		1811
+
+	}
+	manpower = 380303
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
+

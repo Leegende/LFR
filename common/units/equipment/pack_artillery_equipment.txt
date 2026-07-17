@@ -1,0 +1,27 @@
+equipments = {
+	pack_artillery_equipment_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	pack_artillery_1_equipment = {
+		archetype = pack_artillery_equipment_archetype
+	}
+	pack_artillery_2_equipment = {
+		archetype = pack_artillery_equipment_archetype
+		parent = pack_artillery_1_equipment
+	}
+	pack_artillery_3_equipment = {
+		archetype = pack_artillery_equipment_archetype
+		parent = pack_artillery_2_equipment
+	}
+	pack_artillery_4_equipment = {
+		archetype = pack_artillery_equipment_archetype
+		parent = pack_artillery_3_equipment
+	}
+}

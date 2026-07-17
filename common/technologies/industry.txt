@@ -1,0 +1,631 @@
+technologies = {
+	@1936 = 0
+	@1937 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	tools_1_technology = {
+		path = {
+			leads_to_tech = tools_2_technology
+		}
+		path = {
+			leads_to_tech = concentrated_industry_1_technology
+		}
+		path = {
+			leads_to_tech = dispersed_industry_1_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	tools_2_technology = {
+		path = {
+			leads_to_tech = tools_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	tools_3_technology = {
+		path = {
+			leads_to_tech = tools_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	tools_4_technology = {
+		path = {
+			leads_to_tech = tools_5_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	tools_5_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	concentrated_industry_1_technology = {
+		path = {
+			leads_to_tech = concentrated_industry_2_technology
+		}
+		XOR = {
+			dispersed_industry_1_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1937
+			}
+		}
+	}
+	concentrated_industry_2_technology = {
+		path = {
+			leads_to_tech = concentrated_industry_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1938
+			}
+		}
+	}
+	concentrated_industry_3_technology = {
+		path = {
+			leads_to_tech = concentrated_industry_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1939
+			}
+		}
+	}
+	concentrated_industry_4_technology = {
+		path = {
+			leads_to_tech = concentrated_industry_5_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1940
+			}
+		}
+	}
+	concentrated_industry_5_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1941
+			}
+		}
+	}
+	dispersed_industry_1_technology = {
+		path = {
+			leads_to_tech = dispersed_industry_2_technology
+		}
+		XOR = {
+			concentrated_industry_1_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 4
+				y = @1937
+			}
+		}
+	}
+	dispersed_industry_2_technology = {
+		path = {
+			leads_to_tech = dispersed_industry_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 4
+				y = @1938
+			}
+		}
+	}
+	dispersed_industry_3_technology = {
+		path = {
+			leads_to_tech = dispersed_industry_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 4
+				y = @1939
+			}
+		}
+	}
+	dispersed_industry_4_technology = {
+		path = {
+			leads_to_tech = dispersed_industry_5_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 4
+				y = @1940
+			}
+		}
+	}
+	dispersed_industry_5_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 4
+				y = @1941
+			}
+		}
+	}
+	# construction
+	construction_1_technology = {
+		path = {
+			leads_to_tech = construction_2_technology
+		}
+		path = {
+			leads_to_tech = excavation_1_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	excavation_1_technology = {
+		path = {
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1936
+			}
+		}
+	}
+	construction_2_technology = {
+		path = {
+			leads_to_tech = construction_3_technology
+		}
+		path = {
+			leads_to_tech = excavation_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	excavation_2_technology = {
+		path = {
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1937
+			}
+		}
+	}
+	construction_3_technology = {
+		path = {
+			leads_to_tech = construction_4_technology
+		}
+		path = {
+			leads_to_tech = excavation_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	excavation_3_technology = {
+		path = {
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1938
+			}
+		}
+	}
+	construction_4_technology = {
+		path = {
+			leads_to_tech = construction_5_technology
+		}
+		path = {
+			leads_to_tech = excavation_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	excavation_4_technology = {
+		path = {
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1939
+			}
+		}
+	}
+	construction_5_technology = {
+		path = {
+			leads_to_tech = excavation_5_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	excavation_5_technology = {
+		path = {
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 2
+				y = @1940
+			}
+		}
+	}
+	engineering_1_technology = {
+		path = {
+			leads_to_tech = radio_technology
+		}
+		path = {
+			leads_to_tech = computing_1_technology
+		}
+		path = {
+			leads_to_tech = radar_1_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = @1936
+			}
+		}
+	}
+	radio_technology = {
+		path = {
+			leads_to_tech = radio_tank_1_technology
+		}
+		path = {
+			leads_to_tech = radio_infantry_1_technology
+		}
+		path = {
+			leads_to_tech = radio_artillery_1_technology
+		}
+		path = {
+			leads_to_tech = radio_aa_technology
+		}
+		path = {
+			leads_to_tech = radio_engineers_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = @1937
+			}
+		}
+	}
+	radio_aa_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = @1937
+			}
+		}
+	}
+	radio_engineers_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = @1937
+			}
+		}
+	}
+	radio_infantry_1_technology = {
+		path = {
+			leads_to_tech = radio_infantry_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = @1938
+			}
+		}
+	}
+	radio_infantry_2_technology = {
+		path = {
+			leads_to_tech = radio_infantry_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y = @1939
+			}
+		}
+	}
+	radio_infantry_3_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = -3
+				y =  @1940
+			}
+		}
+	}
+	radio_artillery_1_technology = {
+		path = {
+			leads_to_tech = radio_artillery_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = @1938
+			}
+		}
+	}
+	radio_artillery_2_technology = {
+		path = {
+			leads_to_tech = radio_artillery_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = @1939
+			}
+		}
+	}
+	radio_artillery_3_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = -1
+				y = @1940
+			}
+		}
+	}
+	radio_tank_1_technology = {
+		path = {
+			leads_to_tech = radio_tank_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = @1938
+			}
+		}
+	}
+	radio_tank_2_technology = {
+		path = {
+			leads_to_tech = radio_tank_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = @1939
+			}
+		}
+		enable_equipment_modules = {
+			tank_radio_2
+		}
+	}
+	radio_tank_3_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 1
+				y = @1940
+			}
+		}
+	}
+	computing_1_technology = {
+		path = {
+			leads_to_tech = computing_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 3
+				y = @1937
+			}
+		}
+	}
+	computing_2_technology = {
+		path = {
+			leads_to_tech = computing_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 3
+				y = @1938
+			}
+		}
+	}
+	computing_3_technology = {
+		path = {
+			leads_to_tech = computing_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 3
+				y = @1939
+			}
+		}
+	}
+	computing_4_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 3
+				y = @1940
+			}
+		}
+	}
+	radar_1_technology = {
+		path = {
+			leads_to_tech = radar_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 5
+				y = @1937
+			}
+		}
+	}
+	radar_2_technology = {
+		path = {
+			leads_to_tech = radar_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 5
+				y = @1938
+			}
+		}
+	}
+	radar_3_technology = {
+		path = {
+			leads_to_tech = radar_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 5
+				y = @1939
+			}
+		}
+	}
+	radar_4_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 5
+				y = @1940
+			}
+		}
+	}
+	rubber_processing_1_technology = {
+		path = {
+			leads_to_tech = rubber_processing_2_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	rubber_processing_2_technology = {
+		path = {
+			leads_to_tech = rubber_processing_3_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	rubber_processing_3_technology = {
+		path = {
+			leads_to_tech = rubber_processing_4_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	rubber_processing_4_technology = {
+		path = {
+			leads_to_tech = rubber_processing_5_technology
+		}
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	rubber_processing_5_technology = {
+		folder = {
+			name = industry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+}

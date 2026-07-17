@@ -1,0 +1,90 @@
+state = {
+	id = 143
+	name = "STATE_143"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			19409
+			10
+		}
+		victory_points = {
+			2856
+			2
+		}
+		victory_points = {
+			5768
+			20
+		}
+		victory_points = {
+			9581
+			5
+		}
+		victory_points = {
+			8962
+			2
+		}
+		victory_points = {
+			12446
+			15
+		}
+		victory_points = {
+			19410
+			5
+		}
+	}
+	provinces = {
+		2856
+		4416
+		5976
+		7339
+		7588
+		7689
+		8863
+		9022
+		12352
+		12360
+		12374
+		12427
+		12509
+		19409
+		5768
+		5508
+		6518
+		6679
+		7063
+		7481
+		7978
+		9190
+		9581
+		12139
+		12191
+		12324
+		19420
+		5255
+		6522
+		7419
+		8962
+		9219
+		12561
+		12670
+		779
+		2284
+		6435
+		7136
+		9216
+		12388
+		12420
+		12446
+		19410
+	}
+	manpower = 1985582
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+}

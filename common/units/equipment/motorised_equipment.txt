@@ -1,0 +1,13 @@
+equipments = {
+	motorised_equipment_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = motorized
+		group_by = archetype
+		interface_category = interface_category_land
+		supply_truck = yes
+	}
+	motorised_equipment = {
+		archetype = motorised_equipment_archetype
+	}
+}

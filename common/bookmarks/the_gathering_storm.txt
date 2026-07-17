@@ -1,0 +1,39 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		default = yes
+		"GER" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"FRA" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"ITA" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"SOV" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"CAN" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"HUN" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"SPR" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

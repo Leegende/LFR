@@ -1,0 +1,11 @@
+add_namespace = news
+news_event = {
+	id = news.1
+	desc = ""
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		name = "Ok"
+	}
+	timeout_days = 1
+}

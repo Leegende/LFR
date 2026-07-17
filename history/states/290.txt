@@ -1,0 +1,72 @@
+state = {
+	id = 290
+	name = "STATE_290"
+	provinces = {
+		1994
+		2364
+		6018
+		8501
+		10806
+		10823
+		10891
+		18787
+		3156
+		5582
+		10733
+		10801
+		10811
+		19389
+		19390
+		1755
+		2536
+		10871
+		10876
+		10908
+		10926
+		5859
+		7130
+		9360
+		10884
+		10985
+		19310
+		1890
+		10897
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			1994
+			20
+		}
+		victory_points = {
+			10823
+			2
+		}
+		victory_points = {
+			19389
+			5
+		}
+		victory_points = {
+			10876
+			2
+		}
+		victory_points = {
+			10884
+			1
+		}
+		victory_points = {
+			10897
+			2
+		}
+	}
+	manpower = 1225200
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = large_city
+}

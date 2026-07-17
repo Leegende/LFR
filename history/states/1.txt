@@ -1,0 +1,42 @@
+state = {
+	id = 1
+	name = "STATE_1"
+	provinces = {
+		10
+		151
+		313
+		1578
+		2648
+		3666
+		4185
+		4660
+		5429
+		5655
+		5689
+		6001
+		7831
+		9676
+		19243
+		19367
+		19368
+		19369
+		19370
+		19371
+		19372
+		19378
+		19384
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+		}
+	}
+	manpower = 8593012
+	buildings_max_level_factor = 0
+	local_supplies = 0
+	state_category = large_city
+}

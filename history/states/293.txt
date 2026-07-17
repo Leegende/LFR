@@ -1,0 +1,74 @@
+state = {
+	id = 293
+	name = "STATE_293"
+	provinces = {
+		2538
+		4019
+		7028
+		6741
+		11443
+		9396
+		1021
+		11271
+		16349
+		2368
+		1277
+		8891
+		11413
+		8079
+		11412
+		11493
+		11649
+		11452
+		11455
+		11521
+		11584
+		3526
+		2930
+		2760
+		11658
+		4301
+		11316
+		11831
+		2075
+		8642
+		9479
+		2225
+		11797
+		11796
+		4199
+		3530
+		269
+		11713
+		8447
+		11811
+		1289
+		11494
+		3723
+		7561
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			2538
+			20
+		}
+		victory_points = {
+			11316
+			2
+		}
+		victory_points = {
+			11713
+			5
+		}
+	}
+	manpower = 139264
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+}

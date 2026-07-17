@@ -1,0 +1,34 @@
+state = {
+	id = 346
+	name = "STATE_346"
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			13410
+			20
+		}
+	}
+	provinces = {
+		1510
+		3043
+		5733
+		13445
+		13521
+		13522
+		2704
+		13360
+		13410
+		13449
+		13327
+		13426
+	}
+	manpower = 498750
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+}

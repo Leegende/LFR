@@ -1,0 +1,404 @@
+@pack_anti_tank = -5
+@pack_artillery_upgrade = -7
+@pack_artillery = -9
+@anti_tank_x = -2
+@artillery_x_upgrade = 0
+@artillery_x = 2
+@heavy_anti_tank = 5
+@heavy_artillery_upgrade = 7
+@heavy_artillery = 9
+technologies = {
+	artillery_0_equipment_technology = {
+		enable_equipments = {
+			artillery_0_equipment
+		}
+		path = {
+			leads_to_tech = pack_artillery_1_upgrade_technology
+		}
+		path = {
+			leads_to_tech = artillery_1_upgrade_technology
+		}
+		path = {
+			leads_to_tech = heavy_artillery_1_upgrade_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+	}
+	## pack artillery
+	pack_artillery_1_upgrade_technology = {
+		path = {
+			leads_to_tech = pack_artillery_2_upgrade_technology
+		}
+		path = {
+			leads_to_tech = pack_artillery_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = pack_anti_tank_1_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery_upgrade
+				y = 4
+			}
+		}
+	}
+	pack_artillery_1_equipment_technology = {
+		enable_equipments = {
+			pack_artillery_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery
+				y = 6
+			}
+		}
+	}
+	pack_anti_tank_1_equipment_technology = {
+		enable_equipments = {
+			pack_anti_tank_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_anti_tank
+				y = 6
+			}
+		}
+	}
+	pack_artillery_2_upgrade_technology = {
+		path = {
+			leads_to_tech = pack_artillery_3_upgrade_technology
+		}
+		path = {
+			leads_to_tech = pack_artillery_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = pack_anti_tank_2_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery_upgrade
+				y = 8
+			}
+		}
+	}
+	pack_artillery_2_equipment_technology = {
+		enable_equipments = {
+			pack_artillery_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery
+				y = 10
+			}
+		}
+	}
+	pack_anti_tank_2_equipment_technology = {
+		enable_equipments = {
+			pack_anti_tank_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_anti_tank
+				y = 10
+			}
+		}
+	}
+	pack_artillery_3_upgrade_technology = {
+		path = {
+			leads_to_tech = pack_artillery_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = pack_anti_tank_3_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery_upgrade
+				y = 12
+			}
+		}
+	}
+	pack_artillery_3_equipment_technology = {
+		enable_equipments = {
+			pack_artillery_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_artillery
+				y = 14
+			}
+		}
+	}
+	pack_anti_tank_3_equipment_technology = {
+		enable_equipments = {
+			pack_anti_tank_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @pack_anti_tank
+				y = 14
+			}
+		}
+	}
+	# artillery
+	artillery_1_upgrade_technology = {
+		path = {
+			leads_to_tech = artillery_2_upgrade_technology
+		}
+		path = {
+			leads_to_tech = artillery_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = anti_tank_1_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x_upgrade
+				y = 4
+			}
+		}
+	}
+	artillery_1_equipment_technology = {
+		enable_equipments = {
+			artillery_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x
+				y = 6
+			}
+		}
+	}
+	anti_tank_1_equipment_technology = {
+		enable_equipments = {
+			anti_tank_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @anti_tank_x
+				y = 6
+			}
+		}
+	}
+	artillery_2_upgrade_technology = {
+		path = {
+			leads_to_tech = artillery_3_upgrade_technology
+		}
+		path = {
+			leads_to_tech = artillery_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = anti_tank_2_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x_upgrade
+				y = 8
+			}
+		}
+	}
+	artillery_2_equipment_technology = {
+		enable_equipments = {
+			artillery_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x
+				y = 10
+			}
+		}
+	}
+	anti_tank_2_equipment_technology = {
+		enable_equipments = {
+			anti_tank_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @anti_tank_x
+				y = 10
+			}
+		}
+	}
+	artillery_3_upgrade_technology = {
+		path = {
+			leads_to_tech = artillery_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = anti_tank_3_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x_upgrade
+				y = 12
+			}
+		}
+	}
+	artillery_3_equipment_technology = {
+		enable_equipments = {
+			artillery_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery_x
+				y = 14
+			}
+		}
+	}
+	anti_tank_3_equipment_technology = {
+		enable_equipments = {
+			anti_tank_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @anti_tank_x
+				y = 14
+			}
+		}
+	}
+	# heavy artillery
+	heavy_artillery_1_upgrade_technology = {
+		path = {
+			leads_to_tech = heavy_artillery_2_upgrade_technology
+		}
+		path = {
+			leads_to_tech = heavy_artillery_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank_1_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery_upgrade
+				y = 4
+			}
+		}
+	}
+	heavy_artillery_1_equipment_technology = {
+		enable_equipments = {
+			heavy_artillery_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery
+				y = 6
+			}
+		}
+	}
+	heavy_anti_tank_1_equipment_technology = {
+		enable_equipments = {
+			heavy_anti_tank_1_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_anti_tank
+				y = 6
+			}
+		}
+	}
+	heavy_artillery_2_upgrade_technology = {
+		path = {
+			leads_to_tech = heavy_artillery_3_upgrade_technology
+		}
+		path = {
+			leads_to_tech = heavy_artillery_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank_2_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery_upgrade
+				y = 8
+			}
+		}
+	}
+	heavy_artillery_2_equipment_technology = {
+		enable_equipments = {
+			heavy_artillery_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery
+				y = 10
+			}
+		}
+	}
+	heavy_anti_tank_2_equipment_technology = {
+		enable_equipments = {
+			heavy_anti_tank_2_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_anti_tank
+				y = 10
+			}
+		}
+	}
+	heavy_artillery_3_upgrade_technology = {
+		path = {
+			leads_to_tech = heavy_artillery_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = heavy_anti_tank_3_equipment_technology
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery_upgrade
+				y = 12
+			}
+		}
+	}
+	heavy_artillery_3_equipment_technology = {
+		enable_equipments = {
+			heavy_artillery_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_artillery
+				y = 14
+			}
+		}
+	}
+	heavy_anti_tank_3_equipment_technology = {
+		enable_equipments = {
+			heavy_anti_tank_3_equipment
+		}
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @heavy_anti_tank
+				y = 14
+			}
+		}
+	}
+}

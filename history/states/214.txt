@@ -1,0 +1,113 @@
+state = {
+	id = 214
+	name = "STATE_214"
+	provinces = {
+		21641
+		8474
+		11198
+		11234
+		11282
+		90
+		6271
+		6866
+		7803
+		10854
+		10920
+		10946
+		20545
+		2958
+		4274
+		5984
+		7733
+		11243
+		11314
+		6818
+		9426
+		11199
+		11286
+		11340
+		11341
+		11407
+		11408
+		19921
+		1698
+		8712
+		11167
+		16024
+		18011
+		5827
+		6691
+		7830
+		8503
+		9431
+		11367
+		11464
+		11362
+		5502
+		6231
+		7217
+		11629
+		4280
+		4622
+		8911
+		9394
+		10981
+		10993
+		11005
+		11050
+		11093
+		11131
+		11132
+		19922
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		set_state_flag = PRUSSIA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			10920
+			20
+		}
+		victory_points = {
+			2958
+			2
+		}
+		victory_points = {
+			11407
+			20
+		}
+		victory_points = {
+			19921
+			5
+		}
+		victory_points = {
+			11367
+			20
+		}
+		victory_points = {
+			6231
+			5
+		}
+		victory_points = {
+			19922
+			5
+		}
+		victory_points = {
+			10993
+			2
+		}
+		victory_points = {
+			11131
+			2
+		}
+	}
+	manpower = 2410879
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

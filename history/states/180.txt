@@ -1,0 +1,39 @@
+
+state = {
+id = 180
+	name = "STATE_180"
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			2375 = {
+				naval_base = 1
+			}
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			2375
+			1
+		}
+	}
+	provinces = {
+		1004
+		2127
+		2375
+		4954
+		9691
+		17121
+		18109
+		19561
+		19671
+		19672
+		19670
+	}
+	manpower = 125200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
+

@@ -1,0 +1,92 @@
+state = {
+	id = 327
+	name = "STATE_327"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			11252
+			40
+		}
+		victory_points = {
+			990
+			15
+		}
+		victory_points = {
+			11653
+			40
+		}
+		victory_points = {
+			11587
+			10
+		}
+		victory_points = {
+			19415
+			10
+		}
+		victory_points = {
+			1868
+			10
+		}
+		victory_points = {
+			19414
+			5
+		}
+	}
+	provinces = {
+		2710
+		7742
+		8104
+		11252
+		11303
+		11328
+		11329
+		11350
+		11403
+		57
+		990
+		2907
+		3969
+		11388
+		11437
+		11497
+		11531
+		11578
+		11653
+		5333
+		8666
+		11478
+		11538
+		11550
+		11587
+		11610
+		11670
+		11697
+		1909
+		6923
+		8176
+		8809
+		11674
+		11698
+		19415
+		1868
+		6744
+		11740
+		11794
+		3952
+		8907
+		11816
+		11847
+		19414
+		19418
+	}
+	manpower = 5082300
+	buildings_max_level_factor = 1
+	state_category = metropolis
+	local_supplies = 0
+}

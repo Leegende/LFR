@@ -1,0 +1,272 @@
+state = {
+	id = 267
+	name = "STATE_267"
+	provinces = {
+		5980
+		17526
+		14429
+		19331
+		8248
+		9411
+		14351
+		14363
+		14370
+		14405
+		14421
+		16655
+		3286
+		9048
+		14457
+		14479
+		14484
+		14515
+		207
+		3875
+		4861
+		5658
+		8555
+		14210
+		14239
+		14282
+		14297
+		14320
+		7254
+		9668
+		13879
+		5318
+		9552
+		14290
+		14331
+		14332
+		17164
+		4767
+		5395
+		14219
+		14238
+		14249
+		19065
+		19328
+		5527
+		5540
+		6773
+		7763
+		8098
+		8442
+		8845
+		9278
+		13991
+		14037
+		14048
+		14066
+		14206
+		186
+		468
+		1522
+		5417
+		7412
+		7585
+		8843
+		14069
+		14114
+		16067
+		8003
+		8506
+		14446
+		16897
+		17588
+		2573
+		4075
+		5609
+		14376
+		14411
+		16666
+		8797
+		918
+		13982
+		14024
+		1849
+		14086
+		14264
+		14313
+		14333
+		14385
+		860
+		1738
+		4394
+		14512
+		14526
+		16845
+		17607
+		175
+		217
+		1023
+		2537
+		7091
+		7658
+		8573
+		8740
+		9468
+		14171
+		14311
+		14348
+		14355
+		14399
+		16026
+		17729
+		3328
+		4694
+		9083
+		14304
+		14341
+		14347
+		14386
+		516
+		5960
+		5971
+		6141
+		6650
+		7730
+		8105
+		8624
+		9093
+		9151
+		13291
+		13860
+		13908
+		13931
+		13970
+		14077
+		17939
+		18246
+		18360
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			14363
+			10
+		}
+		victory_points = {
+			5980
+			2
+		}
+		victory_points = {
+			14484
+			20
+		}
+		victory_points = {
+			14479
+			5
+		}
+		victory_points = {
+			9048
+			5
+		}
+		victory_points = {
+			14282
+			5
+		}
+		victory_points = {
+			14320
+			2
+		}
+		victory_points = {
+			14331
+			5
+		}
+		victory_points = {
+			9552
+			2
+		}
+		victory_points = {
+			14249
+			5
+		}
+		victory_points = {
+			5395
+			2
+		}
+		victory_points = {
+			5527
+			5
+		}
+		victory_points = {
+			14206
+			2
+		}
+		victory_points = {
+			13991
+			2
+		}
+		victory_points = {
+			5540
+			2
+		}
+		victory_points = {
+			5417
+			5
+		}
+		victory_points = {
+			14069
+			2
+		}
+		victory_points = {
+			17588
+			10
+		}
+		victory_points = {
+			16666
+			5
+		}
+		victory_points = {
+			918
+			2
+		}
+		victory_points = {
+			14264
+			2
+		}
+		victory_points = {
+			860
+			2
+		}
+		victory_points = {
+			8573
+			20
+		}
+		victory_points = {
+			14311
+			2
+		}
+		victory_points = {
+			7091
+			2
+		}
+		victory_points = {
+			14386
+			40
+		}
+		victory_points = {
+			14347
+			2
+		}
+		victory_points = {
+			13931
+			5
+		}
+		victory_points = {
+			8105
+			2
+		}
+	}
+	manpower = 3544993
+	buildings_max_level_factor = 1
+	state_category = city
+	local_supplies = 0
+}

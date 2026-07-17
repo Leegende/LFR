@@ -1,0 +1,32 @@
+
+state = {
+id = 127
+	name = "STATE_127"
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+		buildings = {
+			infrastructure =5
+			industrial_complex = 1
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+	provinces = {
+		19985
+		19986
+		19987
+		19988
+		19989
+		19990
+		19991
+		19992
+		19993
+		19982
+		19983
+		19984
+	}
+}
+

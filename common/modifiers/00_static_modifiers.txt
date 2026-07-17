@@ -1,0 +1,214 @@
+
+weather_rain_light = {
+	
+}
+weather_rain_heavy = { 
+	
+}
+weather_snow = {
+	
+}
+weather_blizzard = { 
+}
+weather_sandstorm = {
+}
+
+weather_arctic_water = {
+}
+
+weather_mud = { 
+}
+weather_extreme_cold = { 
+
+}
+weather_very_cold = { 
+}
+weather_very_hot = {
+}
+weather_extreme_hot = { 
+
+}
+weather_ground_snow_medium = {
+
+}
+weather_ground_snow_high = { 
+
+}
+
+flooded = {
+
+}
+
+unplanned_offensive = {
+}
+
+night = { 
+}
+
+resistance_effect_base = {
+}
+
+resistance_effect = {
+}
+
+compliance_effect_base = {
+	
+}
+
+compliance_effect = {
+	
+}
+
+non_core = {
+}
+
+non_core_controller = {
+}
+
+lacking_consumer_goods = {
+}
+
+gain_focus = {
+}
+
+free_license = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = { has_war_with = ROOT }
+		}
+	}
+	license_purchase_cost = 0 
+}
+
+stability_good_modifier = {
+	
+}
+
+stability_bad_modifier = {
+	
+}
+
+war_support_good_modifier = {
+	
+}
+
+war_support_bad_modifier = {
+
+}
+
+war_support_during_war = { 
+}
+
+attache_sent = {
+}
+
+
+diff_very_easy_player = {
+
+}
+
+diff_easy_player = {
+	
+}
+
+diff_normal_player = {
+}
+
+diff_hard_player = {
+	
+}
+
+diff_very_hard_player = {
+	
+}
+
+diff_very_easy_ai = {
+}
+
+diff_easy_ai = {
+}
+
+diff_normal_ai = {
+}
+
+diff_hard_ai = {
+}
+
+diff_very_hard_ai = {
+}
+
+diff_strong_ai_generic = {
+
+}
+
+naval_mines_effect = {
+}
+
+air_wing_experience_bonus_max = {
+}
+
+air_wing_experience_malus_min = {
+}
+
+ship_experience_bonus_max = {
+}
+
+ship_experience_malus_min = {
+}
+
+carrier_experience_bonus_max = {
+}
+
+carrier_experience_malus_min = {
+}
+
+pride_of_the_fleet = {
+}
+
+pride_of_the_fleet_country = {
+}
+
+pride_of_the_fleet_sunk_temporary = {
+}
+
+water_modifier_shark_infested = {
+}
+
+screening_bonus = {
+}
+
+capital_screening_bonus = {
+}
+
+country_is_at_peace = {
+}
+
+country_is_at_war = {
+}
+
+passive_decryption_modifier = {
+	
+}
+
+active_decryption_modifier = {
+	
+}
+
+intel_network_state_level_bonus = {
+}
+
+intel_network_state_level_penalty = {
+}
+
+created_intelligence_agency = {
+}
+
+root_out_resistance_mission_modifier = {
+}
+
+operative_nationality_mission = {
+}
+
+operative_nationality_operation = {
+}
+

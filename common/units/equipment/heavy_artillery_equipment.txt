@@ -1,0 +1,27 @@
+equipments = {
+	heavy_artillery_equipment_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	heavy_artillery_1_equipment = {
+		archetype = heavy_artillery_equipment_archetype
+	}
+	heavy_artillery_2_equipment = {
+		archetype = heavy_artillery_equipment_archetype
+		parent = heavy_artillery_1_equipment
+	}
+	heavy_artillery_3_equipment = {
+		archetype = heavy_artillery_equipment_archetype
+		parent = heavy_artillery_2_equipment
+	}
+	heavy_artillery_4_equipment = {
+		archetype = heavy_artillery_equipment_archetype
+		parent = heavy_artillery_3_equipment
+	}
+}

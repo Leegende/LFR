@@ -1,0 +1,9 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			news_event = {
+				id = news.1
+			}
+		}
+	}
+}

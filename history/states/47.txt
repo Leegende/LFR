@@ -1,0 +1,53 @@
+state = {
+	id = 47
+	name = "STATE_47"
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			9966 = {
+				naval_base = 6
+			}
+			19715 = {
+				naval_base = 1
+			}
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 4
+		}
+		victory_points = {
+			9966
+			40
+		}
+		victory_points = {
+			9482
+			2
+		}
+		victory_points = {
+			4594
+			2
+		}
+	}
+	provinces = {
+		19715
+		631
+		2631
+		4594
+		5526
+		6054
+		6606
+		8703
+		8876
+		9482
+		9941
+		9960
+		9966
+		18707
+		19693
+		1924
+	}
+	manpower = 967862
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+}

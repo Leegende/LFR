@@ -1,0 +1,369 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+technologies = {
+	## Support
+	support_equipment_technology = {
+		enable_equipments = {
+			support_equipment
+		}
+		path = {
+			leads_to_tech = engineering_company_1_technology
+		}
+		path = {
+			leads_to_tech = recon_company_1_technology
+		}
+		path = {
+			leads_to_tech = military_police_1_technology
+		}
+		path = {
+			leads_to_tech = maintenance_company_1_technology
+		}
+		path = {
+			leads_to_tech = field_hospital_1_technology
+		}
+		path = {
+			leads_to_tech = logistics_company_1_technology
+		}
+		path = {
+			leads_to_tech = signal_company_1_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+	}
+	engineering_company_1_technology = {
+		path = {
+			leads_to_tech = engineering_company_2_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -6
+				y = @1938
+			}
+		}
+	}
+	engineering_company_2_technology = {
+		path = {
+			leads_to_tech = engineering_company_3_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -6
+				y = @1940
+			}
+		}
+	}
+	engineering_company_3_technology = {
+		path = {
+			leads_to_tech = engineering_company_4_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -6
+				y = @1942
+			}
+		}
+	}
+	engineering_company_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = -6
+				y = @1944
+			}
+		}
+	}
+	recon_company_1_technology = {
+		path = {
+			leads_to_tech = recon_company_2_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -4
+				y = @1938
+			}
+		}
+	}
+	recon_company_2_technology = {
+		path = {
+			leads_to_tech = recon_company_3_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -4
+				y = @1940
+			}
+		}
+	}
+	recon_company_3_technology = {
+		path = {
+			leads_to_tech = recon_company_4_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -4
+				y = @1942
+			}
+		}
+	}
+	recon_company_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = -4
+				y = @1944
+			}
+		}
+	}
+	military_police_1_technology = {
+		path = {
+			leads_to_tech = military_police_2_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -2
+				y = @1938
+			}
+		}
+	}
+	military_police_2_technology = {
+		path = {
+			leads_to_tech = military_police_3_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -2
+				y = @1940
+			}
+		}
+	}
+	military_police_3_technology = {
+		path = {
+			leads_to_tech = military_police_4_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = -2
+				y = @1942
+			}
+		}
+	}
+	military_police_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = -2
+				y = @1944
+			}
+		}
+	}
+	maintenance_company_1_technology = {
+		path = {
+			leads_to_tech = maintenance_company_2_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	maintenance_company_2_technology = {
+		path = {
+			leads_to_tech = maintenance_company_3_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	maintenance_company_3_technology = {
+		path = {
+			leads_to_tech = maintenance_company_4_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 0
+				y = @1942
+			}
+		}
+	}
+	maintenance_company_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = 0
+				y = @1944
+			}
+		}
+	}
+	field_hospital_1_technology = {
+		path = {
+			leads_to_tech = field_hospital_2_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 2
+				y = @1938
+			}
+		}
+	}
+	field_hospital_2_technology = {
+		path = {
+			leads_to_tech = field_hospital_3_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 2
+				y = @1940
+			}
+		}
+	}
+	field_hospital_3_technology = {
+		path = {
+			leads_to_tech = field_hospital_4_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 2
+				y = @1942
+			}
+		}
+	}
+	field_hospital_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = 2
+				y = @1944
+			}
+		}
+	}
+	logistics_company_1_technology = {
+		path = {
+			leads_to_tech = logistics_company_2_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 4
+				y = @1938
+			}
+		}
+	}
+	logistics_company_2_technology = {
+		path = {
+			leads_to_tech = logistics_company_3_technology
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 4
+				y = @1940
+			}
+		}
+	}
+	logistics_company_3_technology = {
+		path = {
+			leads_to_tech = logistics_company_4_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 4
+				y = @1942
+			}
+		}
+	}
+	logistics_company_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = 4
+				y = @1944
+			}
+		}
+	}
+	signal_company_1_technology = {
+		path = {
+			leads_to_tech = signal_company_2_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 6
+				y = @1938
+			}
+		}
+	}
+	signal_company_2_technology = {
+		path = {
+			leads_to_tech = signal_company_3_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 6
+				y = @1940
+			}
+		}
+	}
+	signal_company_3_technology = {
+		path = {
+			leads_to_tech = signal_company_4_technology
+		}
+		folder = {
+			name = support_folder
+			position = {
+				x = 6
+				y = @1942
+			}
+		}
+	}
+	signal_company_4_technology = {
+		folder = {
+			name = support_folder
+			position = {
+				x = 6
+				y = @1944
+			}
+		}
+	}
+}

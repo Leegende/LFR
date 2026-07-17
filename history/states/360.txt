@@ -1,0 +1,37 @@
+state = {
+	id = 360
+	name = "STATE_360"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			3956
+			10
+		}
+	}
+	provinces = {
+		3443
+		3956
+		4119
+		5772
+		6986
+		14728
+		14768
+		14777
+		14788
+		14815
+		14816
+		14847
+		20524
+		20539
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

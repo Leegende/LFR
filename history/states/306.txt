@@ -1,0 +1,113 @@
+state = {
+	id = 306
+	name = "STATE_306"
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 5
+		}
+		victory_points = {
+			6282
+			2
+		}
+		victory_points = {
+			14886
+			5
+		}
+		victory_points = {
+			7645
+			1
+		}
+		victory_points = {
+			20231
+			5
+		}
+		victory_points = {
+			20216
+			10
+		}
+		victory_points = {
+			15094
+			5
+		}
+		victory_points = {
+			20218
+			10
+		}
+		victory_points = {
+			20217
+			20
+		}
+		victory_points = {
+			8916
+			2
+		}
+		victory_points = {
+			15027
+			5
+		}
+	}
+	provinces = {
+		4135
+		20220
+		20235
+		2237
+		9634
+		20241
+		20279
+		6282
+		7957
+		20230
+		19109
+		12
+		3246
+		14886
+		17870
+		18647
+		20224
+		7645
+		14872
+		20233
+		15141
+		16006
+		20231
+		609
+		7709
+		8174
+		15936
+		16227
+		20216
+		20219
+		20242
+		15042
+		15056
+		15071
+		15094
+		18013
+		6260
+		6699
+		20218
+		14976
+		20217
+		17745
+		3445
+		3924
+		5995
+		8916
+		18375
+		20232
+		14901
+		14902
+		18782
+		15027
+		18700
+		20215
+	}
+	manpower = 1401743
+	buildings_max_level_factor = 1
+	state_category = pastoral
+	local_supplies = 0
+}

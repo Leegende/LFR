@@ -1,0 +1,289 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+@fighter_x = 0
+@cas_x = -3
+@fighter_bomber_x = 3
+@heavy_fighter_x = 0
+@tactical_bomber_x = -3
+@transport_plane_x = 3
+technologies = {
+	# light air
+	air_base_building_technology = {
+		path = {
+			leads_to_tech = fighter_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = cas_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = fighter_bomber_1_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	fighter_1_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_x
+				y = @1937
+			}
+		}
+	}
+	fighter_2_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_x
+				y = @1939
+			}
+		}
+	}
+	fighter_3_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_x
+				y = @1941
+			}
+		}
+	}
+	fighter_4_equipment_technology = {
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_x
+				y = @1943
+			}
+		}
+	}
+	cas_1_equipment_technology = {
+		path = {
+			leads_to_tech = cas_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @cas_x
+				y = @1937
+			}
+		}
+	}
+	cas_2_equipment_technology = {
+		path = {
+			leads_to_tech = cas_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @cas_x
+				y = @1939
+			}
+		}
+	}
+	cas_3_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @cas_x
+				y = @1941
+			}
+		}
+	}
+	fighter_bomber_1_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_bomber_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_bomber_x
+				y = @1937
+			}
+		}
+	}
+	fighter_bomber_2_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_bomber_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_bomber_x
+				y = @1939
+			}
+		}
+	}
+	fighter_bomber_3_equipment_technology = {
+		path = {
+			leads_to_tech = fighter_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_bomber_x
+				y = @1941
+			}
+		}
+	}
+	# heavy air
+	anti_air_building_technology = {
+		path = {
+			leads_to_tech = heavy_fighter_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = tactical_bomber_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = transport_plane_1_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	heavy_fighter_1_equipment_technology = {
+		path = {
+			leads_to_tech = heavy_fighter_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @heavy_fighter_x
+				y = @1937
+			}
+		}
+	}
+	heavy_fighter_2_equipment_technology = {
+		path = {
+			leads_to_tech = heavy_fighter_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @heavy_fighter_x
+				y = @1939
+			}
+		}
+	}
+	heavy_fighter_3_equipment_technology = {
+		path = {
+			leads_to_tech = tactical_bomber_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @heavy_fighter_x
+				y = @1941
+			}
+		}
+	}
+	tactical_bomber_1_equipment_technology = {
+		path = {
+			leads_to_tech = tactical_bomber_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @tactical_bomber_x
+				y = @1937
+			}
+		}
+	}
+	tactical_bomber_2_equipment_technology = {
+		path = {
+			leads_to_tech = tactical_bomber_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @tactical_bomber_x
+				y = @1939
+			}
+		}
+	}
+	tactical_bomber_3_equipment_technology = {
+		path = {
+			leads_to_tech = tactical_bomber_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @tactical_bomber_x
+				y = @1941
+			}
+		}
+	}
+	tactical_bomber_4_equipment_technology = {
+		folder = {
+			name = air_folder
+			position = {
+				x = @heavy_fighter_x
+				y = @1943
+			}
+		}
+	}
+	transport_plane_1_equipment_technology = {
+		path = {
+			leads_to_tech = transport_plane_2_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @transport_plane_x
+				y = @1937
+			}
+		}
+	}
+	transport_plane_2_equipment_technology = {
+		path = {
+			leads_to_tech = transport_plane_3_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @transport_plane_x
+				y = @1939
+			}
+		}
+	}
+	transport_plane_3_equipment_technology = {
+		path = {
+			leads_to_tech = tactical_bomber_4_equipment_technology
+		}
+		folder = {
+			name = air_folder
+			position = {
+				x = @transport_plane_x
+				y = @1941
+			}
+		}
+	}
+}

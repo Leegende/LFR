@@ -1,0 +1,67 @@
+
+state = {
+id = 105
+	name = "STATE_105"
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+	provinces = {
+		16871
+		6445
+		18189
+		2558
+		10329
+		8473
+		17557
+		10295
+		3868
+		5649
+		5814
+		10429
+		10490
+		17444
+		17975
+		2841
+		3490
+		5986
+		10357
+		10363
+		17348
+		10327
+		10354
+		19970
+		3594
+		6205
+		6259
+		6268
+		7114
+		8034
+		9201
+		10411
+		10434
+		10445
+		10455
+		16275
+		16697
+		17025
+		19308
+		19971
+		16330
+		17047
+		3791
+		8811
+		10538
+		19013
+		18294
+	}
+}
+

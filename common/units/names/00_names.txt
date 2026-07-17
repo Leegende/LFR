@@ -1,0 +1,220 @@
+generic = {
+	submarine = {
+		prefix = ""
+		generic = {
+			"Submarine"
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = {
+			"Destroyer"
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = {
+			"Light Cruiser"
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = {
+			"Heavy Cruiser"
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = {
+			"Battlecruiser"
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = {
+			"Battleship"
+		}
+	}
+	SH_battleship = {
+		prefix = ""
+		generic = {
+			"Super Heavy Battleship"
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = {
+			"Carrier"
+		}
+	}
+	sh_carrier = {
+		prefix = ""
+		generic = {
+			"Super Heavy Carrier"
+		}
+	}
+	infantry = {
+		prefix = ""
+		generic = {
+			"Infantry Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	marine = {
+		prefix = ""
+		generic = {
+			"Marine Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	mountaineers = {
+		prefix = ""
+		generic = {
+			"Mountain Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	paratrooper = {
+		prefix = ""
+		generic = {
+			"Airborne Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	motorized = {
+		prefix = ""
+		generic = {
+			"Motorized Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	mechanized = {
+		prefix = ""
+		generic = {
+			"Mechanized Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	artillery_brigade = {
+		prefix = ""
+		generic = {
+			"Artillery Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	anti_tank_brigade = {
+		prefix = ""
+		generic = {
+			"Anti-Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	anti_air_brigade = {
+		prefix = ""
+		generic = {
+			"Anti-Air Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	engineer = {
+		prefix = ""
+		generic = {
+			"Engineer Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	recon = {
+		prefix = ""
+		generic = {
+			"Recon Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	field_hospital = {
+		prefix = ""
+		generic = {
+			"Field Hospital"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	logistics_company = {
+		prefix = ""
+		generic = {
+			"Logistics Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	military_police = {
+		prefix = ""
+		generic = {
+			"Police Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	signal_company = {
+		prefix = ""
+		generic = {
+			"Signal Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	maintenance_company = {
+		prefix = ""
+		generic = {
+			"Maintenance Company"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	cavalry = {
+		prefix = ""
+		generic = {
+			"Cavalry Division"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	light_armor = {
+		prefix = ""
+		generic = {
+			"Light Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	medium_armor = {
+		prefix = ""
+		generic = {
+			"Medium Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	heavy_armor = {
+		prefix = ""
+		generic = {
+			"Heavy Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	modern_armor = {
+		prefix = ""
+		generic = {
+			"Modern Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	super_heavy_armor = {
+		prefix = ""
+		generic = {
+			"Super Heavy Tank Brigade"
+		}
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+	}
+	codename = {
+		prefix = ""
+		generic = {
+			"Agent"
+		}
+		generic_pattern = "OPERATIVE_GENERIC_CODENAME_PATTERN"
+		unique = {
+			"Agent 007"
+		}
+	}
+}
