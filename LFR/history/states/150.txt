@@ -1,0 +1,114 @@
+state = {
+id = 150
+	name = "STATE_150"
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			14938
+			2
+		}
+		victory_points = {
+			14870
+			5
+		}
+		victory_points = {
+			20369
+			5
+		}
+		victory_points = {
+			17944
+			2
+		}
+		victory_points = {
+			20371
+			10
+		}
+		victory_points = {
+			14892
+			20
+		}
+		victory_points = {
+			6806
+			2
+		}
+		victory_points = {
+			20197
+			5
+		}
+		victory_points = {
+			14968
+			2
+		}
+		victory_points = {
+			20362
+			5
+		}
+	}
+	provinces = {
+		14938
+		20367
+		4535
+		4746
+		14870
+		18970
+		20380
+		14898
+		14899
+		16993
+		20369
+		20384
+		538
+		14937
+		17216
+		17944
+		14962
+		493
+		14911
+		14942
+		16350
+		17923
+		20377
+		2208
+		3640
+		5563
+		7228
+		8328
+		8938
+		14840
+		14882
+		20371
+		20376
+		1821
+		4984
+		5140
+		5846
+		14806
+		14820
+		14881
+		14892
+		15941
+		4751
+		6806
+		14904
+		14907
+		14931
+		14968
+		20197
+		20378
+		20362
+		20374
+		20375
+		20368
+	}
+	manpower = 1865166
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
+

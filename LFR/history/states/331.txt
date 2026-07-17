@@ -1,0 +1,74 @@
+state = {
+	id = 331
+	name = "STATE_331"
+	history = {
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 3
+		}
+		victory_points = {
+			19388
+			5
+		}
+		victory_points = {
+			2912
+			2
+		}
+		victory_points = {
+			11917
+			10
+		}
+		victory_points = {
+			7746
+			2
+		}
+	}
+	provinces = {
+		11460
+		3300
+		4319
+		6645
+		11530
+		11602
+		11660
+		11692
+		19317
+		9529
+		9593
+		11637
+		11691
+		19388
+		1853
+		2244
+		2912
+		5596
+		8965
+		11930
+		1315
+		2248
+		2761
+		4818
+		5458
+		5802
+		6174
+		6370
+		8269
+		8591
+		11841
+		11871
+		11896
+		11917
+		11961
+		7284
+		7746
+		11815
+		11874
+	}
+	manpower = 670608
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = rural
+}

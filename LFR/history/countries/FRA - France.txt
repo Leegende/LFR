@@ -1,0 +1,27 @@
+﻿capital = 334
+starting_train_buffer = 2
+set_research_slots = 4#
+set_stability = 0.5
+add_command_power = 30
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 64
+	fascism = 1
+	neutrality = 15
+	communism = 20
+}
+
+add_ideas = {
+}
+create_country_leader = {
+	name = FRA_pierre_laval
+	picture = GFX_portrait_fra_pierre_laval
+	ideology = liberalism
+}

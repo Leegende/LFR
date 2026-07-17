@@ -1,0 +1,20 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = {
+			19427
+			40
+		}
+	}
+	provinces = {
+		19427
+	}
+	impassable = yes
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+}

@@ -1,0 +1,64 @@
+
+state = {
+id = 49
+	name = "STATE_49"
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			19678
+			5
+		}
+		victory_points = {
+			3715
+			2
+		}
+		victory_points = {
+			19712
+			5
+		}
+		victory_points = {
+			9900
+			2
+		}
+	}
+	provinces = {
+		3062
+		3367
+		3502
+		3715
+		9917
+		9947
+		9951
+		18648
+		19287
+		19678
+		19694
+		599
+		2805
+		3782
+		3809
+		5852
+		8202
+		9890
+		9900
+		18559
+		18581
+		18772
+		19691
+		19692
+		19704
+		19712
+		19713
+	}
+	manpower = 219460
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = rural
+}
+

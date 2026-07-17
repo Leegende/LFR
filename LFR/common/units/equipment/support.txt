@@ -1,0 +1,18 @@
+equipments = {
+	support_equipment = {
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		can_license = no
+		type = {
+			infantry
+			motorized
+			support
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	support_equipment_1 = {
+		archetype = support_equipment
+	}
+}

@@ -1,0 +1,145 @@
+technology_categories = {
+	artillery_category
+	artillery_light
+	artillery_medium
+	artillery_heavy
+	artillery
+	antitank
+	doctrine
+	air_doctrine
+	land_doctrine
+	special_force_doctrine
+	ranger_doctrine
+	marines_doctrine
+	shock_troop_doctrine
+	air
+	air_light
+	air_heavy
+	air_jet
+	cas
+	fighter
+	scout_planes
+	heavy_fighter
+	tactical_bomber
+	strategic_bombers
+	industry
+	engineering
+	synthetics
+	tools
+	dispersed
+	concentraded
+	construction
+	excavation
+	radio
+	radar
+	computing
+	infantry
+	infantry_weapon
+	infantry_soft_upgrade
+	infantry_hard_upgrade
+	truck
+	armored_car
+	railway_gun
+	special_forces
+	armor
+	armor_light
+	armor_medium
+	armor_heavy
+	armor_soft_upgrade
+	armor_hard_upgrade
+	armor_flamethrower_upgrade
+	armor_hardness_upgrade
+	support_company
+	engineers
+	recon
+	military_police
+	maintenance
+	field_hospital
+	logistic_company
+	signal_company
+}
+
+technology_folders = {
+	infantry_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	armour_folder = {
+		ledger = army
+		available = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+	}
+	nsb_armour_folder = {
+		ledger = army
+		available = {
+			has_dlc = "No Step Back"
+		}
+	}
+	artillery_folder = {
+		ledger = army
+	}
+	air_techs_folder = {
+		available = {
+			NOT = {
+				has_dlc = "By Blood Alone"
+			}
+		}
+		ledger = air
+	}
+	bba_air_techs_folder = {
+		available = {
+			has_dlc = "By Blood Alone"
+		}
+		ledger = air
+	}
+	naval_folder = {
+		available = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		ledger = navy
+	}
+	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalsupportfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	industry_folder = {
+		ledger = civilian
+	}
+	land_doctrine_folder = {
+		ledger = army
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		ledger = navy
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		ledger = air
+		doctrine = yes
+	}
+	special_forces_doctrine_folder = {
+		available = {
+			has_dlc = "Arms Against Tyranny"
+		}
+		ledger = hidden		#For now
+		doctrine = yes
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
+}

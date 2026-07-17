@@ -1,0 +1,209 @@
+type={
+	type="bigben"
+	use_animation=no
+	scale=0.600000
+	always_visible=yes
+	object={
+		name="bigben_entity"
+		position={
+			1230.570 11.500 1572.830 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="pantheon"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+	object={
+		name="pantheon"
+		position={
+			1844.770 10.300 983.290 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="domeofrock"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="domeofrock_entity"
+		position={
+			2961.560 11.300 408.740 
+		}
+		rotation={
+			0.000 -106.000 0.000 
+		}
+	}
+}
+type={
+	type="kremlin"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="kremlin"
+		position={
+			3074.220 12.000 1857.390 
+		}
+		rotation={
+			0.000 280.000 0.000 
+		}
+	}
+}
+type={
+	type="reichstag"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="reichstag"
+		position={
+			1884.290 10.000 1639.240 
+		}
+		rotation={
+			0.000 180.000 0.000 
+		}
+	}
+}
+type={
+	type="eiffel"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+	object={
+		name="eiffel"
+		position={
+			1345.990 10.700 1399.320 
+		}
+		rotation={
+			0.000 120.000 0.000 
+		}
+	}
+}
+type={
+	type="giza"
+	use_animation=no
+	scale=0.600000
+	always_visible=yes
+	object={
+		name="giza"
+		position={
+			2749.330 10.700 313.680 
+		}
+		rotation={
+			0.000 140.000 0.000 
+		}
+	}
+}
+type={
+	type="colosseum"
+	use_animation=no
+	scale=0.700000
+	always_visible=yes
+	object={
+		name="colosseum"
+		position={
+			1848.530 11.000 976.370 
+		}
+		rotation={
+			0.000 -50.000 0.000 
+		}
+	}
+}
+type={
+	type="brandenburg"
+	use_animation=no
+	scale=0.250000
+	always_visible=yes
+	object={
+		name="brandenburg"
+		position={
+			1889.220 10.000 1634.640 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="pisa"
+	use_animation=no
+	scale=0.700000
+	always_visible=yes
+	object={
+		name="pisa"
+		position={
+			1749.610 10.000 1087.120 
+		}
+		rotation={
+			0.000 220.000 0.000 
+		}
+	}
+}
+type={
+	type="test"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="test"
+		position={
+			2975.000 -10.000 1384.380 
+		}
+		rotation={
+			0.000 220.000 0.000 
+		}
+	}
+}
+type={
+	type="saintsophia"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="saintsophia_entity"
+		position={
+			2374.190 10.200 1028.250 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="prudential"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="prudential"
+		position={
+			2262.390 11.300 1620.780 
+		}
+		rotation={
+			0.000 -130.000 0.000 
+		}
+	}
+}
+type={
+	type="acropolis"
+	use_animation=no
+	scale=0.300000
+	always_visible=yes
+	object={
+		name="acropolis"
+		position={
+			2394.470 12.000 754.850 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+}

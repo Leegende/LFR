@@ -1,0 +1,264 @@
+scripted_gui = {
+	GER_okw_scripted_decision_ui = {
+		context_type = decision_category
+		window_name = "GER_quest_scripted_decisions_ui"
+		effects = {
+			GER_weisung_nr_1_button_click = {
+				set_global_flag = GER_weisung_nr_1
+			}
+			GER_weisung_nr_10a_button_click = {
+				GER = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				HUN = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				ROM = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				BUL = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				SPR = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				set_global_flag = GER_weisung_nr_10a
+			}
+			GER_weisung_nr_11_button_click = {
+				GER = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				HUN = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				ROM = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				BUL = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				SPR = {
+					declare_war_on = {
+						target = NOR
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = DEN
+						type = annex_everything
+					}
+				}
+				set_global_flag = GER_weisung_nr_11
+			}
+			GER_weisung_nr_31_button_click = {
+				set_global_flag = GER_weisung_nr_31
+			}
+			GER_weisung_nr_17_button_click = {
+				set_global_flag = GER_weisung_nr_17
+			}
+			GER_weisung_nr_19b_button_click = {
+				set_global_flag = GER_weisung_nr_19b
+			}
+			GER_weisung_nr_20_button_click = {
+				set_global_flag = GER_weisung_nr_20
+			}
+			GER_weisung_nr_21_button_click = {
+				set_global_flag = GER_weisung_nr_21
+			}
+			GER_weisung_nr_22b_button_click = {
+				set_global_flag = GER_weisung_nr_22b
+			}
+			GER_weisung_nr_26_button_click = {
+				set_global_flag = GER_weisung_nr_26
+			}
+			GER_weisung_nr_28_button_click = {
+				set_global_flag = GER_weisung_nr_28
+			}
+			GER_weisung_nr_35a_button_click = {
+				set_global_flag = GER_weisung_nr_35a
+			}
+			GER_weisung_nr_40_button_click = {
+				set_global_flag = GER_weisung_nr_40
+			}
+			GER_weisung_nr_63_button_click = {
+				set_global_flag = GER_weisung_nr_63
+			}
+		}
+		triggers = {
+			GER_weisung_nr_1_button_click_enabled = {
+				GER_weisung_nr_1_trigger = yes
+			}
+			GER_weisung_nr_1_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_1
+				}
+			}
+			GER_weisung_nr_10a_button_click_enabled = {
+				GER_weisung_nr_10a_trigger = yes
+			}
+			GER_weisung_nr_10a_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_10a
+				}
+			}
+			GER_weisung_nr_11_button_click_enabled = {
+				GER_weisung_nr_11_trigger = yes
+			}
+			GER_weisung_nr_11_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_11
+				}
+			}
+			GER_weisung_nr_31_button_click_enabled = {
+				GER_weisung_nr_31_trigger = yes
+			}
+			GER_weisung_nr_31_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_31
+				}
+			}
+			GER_weisung_nr_17_button_click_enabled = {
+				GER_weisung_nr_17_trigger = yes
+			}
+			GER_weisung_nr_17_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_17
+				}
+			}
+			GER_weisung_nr_19b_button_click_enabled = {
+				GER_weisung_nr_19b_trigger = yes
+			}
+			GER_weisung_nr_19b_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_19b
+				}
+			}
+			GER_weisung_nr_20_button_click_enabled = {
+				GER_weisung_nr_20_trigger = yes
+			}
+			GER_weisung_nr_20_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_20
+				}
+			}
+			GER_weisung_nr_21_button_click_enabled = {
+				GER_weisung_nr_21_trigger = yes
+			}
+			GER_weisung_nr_21_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_21
+				}
+			}
+			GER_weisung_nr_22b_button_click_enabled = {
+				GER_weisung_nr_22b_trigger = yes
+			}
+			GER_weisung_nr_22b_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_22b
+				}
+			}
+			GER_weisung_nr_26_button_click_enabled = {
+				GER_weisung_nr_26_trigger = yes
+			}
+			GER_weisung_nr_26_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_26
+				}
+			}
+			GER_weisung_nr_28_button_click_enabled = {
+				GER_weisung_nr_28_trigger = yes
+			}
+			GER_weisung_nr_28_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_28
+				}
+			}
+			GER_weisung_nr_28_button_click_enabled = {
+				GER_weisung_nr_28_trigger = yes
+			}
+			GER_weisung_nr_35a_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_35a
+				}
+			}
+			GER_weisung_nr_35a_button_click_enabled = {
+				GER_weisung_nr_35a_trigger = yes
+			}
+			GER_weisung_nr_40_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_40
+				}
+			}
+			GER_weisung_nr_63_button_click_enabled = {
+				GER_weisung_nr_63_trigger = yes
+			}
+			GER_weisung_nr_63_button_visible = {
+				NOT = {
+					has_global_flag = GER_weisung_nr_63
+				}
+			}
+		}
+	}
+}

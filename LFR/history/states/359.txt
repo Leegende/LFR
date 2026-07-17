@@ -1,0 +1,79 @@
+state = {
+	id = 359
+	name = "STATE_359"
+	history = {
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			19756
+			20
+		}
+		victory_points = {
+			750
+			20
+		}
+		victory_points = {
+			19757
+			10
+		}
+		victory_points = {
+			19763
+			10
+		}
+		victory_points = {
+			993
+			5
+		}
+		victory_points = {
+			14673
+			20
+		}
+		victory_points = {
+			3667
+			20
+		}
+		victory_points = {
+			9359
+			5
+		}
+	}
+	provinces = {
+		233
+		3514
+		3667
+		4862
+		6400
+		9359
+		14673
+		14679
+		14720
+		14726
+		19797
+		20521
+		993
+		3642
+		5832
+		14741
+		19763
+		750
+		4675
+		19755
+		7681
+		9401
+		14738
+		19757
+		5618
+		8647
+		14776
+		19756
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
+}

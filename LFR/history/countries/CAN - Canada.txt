@@ -1,0 +1,21 @@
+﻿capital = 1
+set_research_slots = 3
+add_ideas = {
+}
+
+set_convoys = 10
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic  = 100
+}
+
+create_country_leader = {
+	name = CAN_mackenzie_king
+	picture = GFX_portrait_CAN_mackenzie_king
+	expire = "1965.1.1"
+	ideology = liberalism
+}

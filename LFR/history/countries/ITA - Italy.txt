@@ -1,0 +1,21 @@
+﻿capital = 111
+set_research_slots = 1
+set_convoys = 200
+set_stability = 1
+set_war_support = 1
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
+}
+
+create_country_leader = {
+	name = ITA_benito_mussolini
+	picture = GFX_portrait_ITA_benito_mussolini
+	ideology = fascism_ideology
+}

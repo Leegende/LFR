@@ -1,0 +1,92 @@
+state = {
+	id = 12
+	name = "STATE_12"
+	provinces = {
+		2585
+		8931
+		20273
+		20327
+		20348
+		1114
+		5958
+		15305
+		20257
+		20358
+		20359
+		1747
+		9507
+		15351
+		20253
+		20259
+		5784
+		20258
+		20272
+		20332
+		20252
+		20308
+		1404
+		1930
+		20328
+		91
+		8741
+		9496
+		20254
+		20313
+		20314
+		20315
+		509
+		4354
+		15321
+		3130
+		3316
+		9535
+		20260
+		622
+		3933
+		15142
+		20256
+		20294
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 4
+		}
+		victory_points = {
+			20327
+			10
+		}
+		victory_points = {
+			20257
+			5
+		}
+		victory_points = {
+			20253
+			5
+		}
+		victory_points = {
+			20258
+			2
+		}
+		victory_points = {
+			20252
+			40
+		}
+		victory_points = {
+			20254
+			5
+		}
+		victory_points = {
+			20256
+			5
+		}
+		
+	}
+	manpower = 3259576
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+}

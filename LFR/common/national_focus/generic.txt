@@ -1,0 +1,21 @@
+﻿focus_tree = {
+	id = generic_focus
+	country = {
+		factor = 1
+	}
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+		id = army_effort
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 1000
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+	}
+}

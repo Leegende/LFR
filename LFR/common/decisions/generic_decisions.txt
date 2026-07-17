@@ -1,0 +1,445 @@
+political_actions = {
+	improved_worker_conditions = {
+		icon = generic_industry
+		allowed = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		modifier = {
+			political_power_gain = -0.5
+			stability_weekly = 0.005
+			industrial_capacity_factory = -0.1
+		}
+		days_remove = -1
+		cost = 0
+	}
+	improved_worker_conditions_cancel = {
+		icon = generic_industry
+		allowed = {
+			always = yes
+		}
+		visible = {
+			has_decision = improved_worker_conditions
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = improved_worker_conditions
+		}
+	}
+	war_bonds_cancel = {
+		icon = generic_industry
+		allowed = {
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_decision = war_bonds
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = war_bonds
+		}
+	}
+	war_bonds = {
+		icon = generic_industry
+		allowed = {
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = -1
+		cost = 0
+		modifier = {
+			political_power_gain = -0.5
+			industrial_capacity_factory = 0.05
+			consumer_goods_factor = -0.05
+		}
+		remove_effect = {
+		}
+		complete_effect = {
+		}
+	}
+	anti_fascist_raids = {
+		icon = generic_civil_support
+		visible = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+		available = {
+			fascism > 0.1
+		}
+		modifier = {
+			fascism_drift = -0.05
+			stability_weekly = 0.01
+		}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			add_stability = -0.1
+		}
+	}
+	anti_democratic_raids = {
+		icon = generic_civil_support
+		visible = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+		available = {
+			democratic > 0.1
+		}
+		modifier = {
+			democratic_drift = -0.05
+			stability_weekly = 0.01
+		}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			add_stability = -0.1
+		}
+	}
+	anti_communist_raids = {
+		icon = generic_civil_support
+		visible = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		available = {
+			communism > 0.1
+		}
+		modifier = {
+			communism_drift = -0.05
+			stability_weekly = 0.01
+		}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			add_stability = -0.1
+		}
+	}
+	anti_neutrality_raids = {
+		icon = generic_civil_support
+		visible = {
+			NOT = {
+				has_government = communism
+			}
+		}
+		available = {
+			communism > 0.1
+		}
+		modifier = {
+			neutrality_drift = -0.05
+			stability_weekly = 0.01
+		}
+		days_remove = 120
+		cost = 50
+		complete_effect = {
+			add_stability = -0.1
+		}
+	}
+	ban_fascist_party = {
+		icon = generic_civil_support
+		available = {
+			fascism < 0.2
+		}
+		visible = {
+			NOT = {
+				has_government = fascism
+			}
+			fascism > 0
+		}
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = fascism
+			}
+		}
+		modifier = {
+			fascism_drift = -0.02
+		}
+		days_remove = -1
+		cost = 100
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@fascism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_fascism_flag
+			}
+			custom_effect_tooltip = ban_fascist_party_tt
+			add_stability = ban_ideology_var
+		}
+	}
+	ban_democratic_party = {
+		icon = generic_civil_support
+		available = {
+			democratic < 0.2
+		}
+		visible = {
+			NOT = {
+				has_government = democratic
+			}
+			democratic > 0
+		}
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = democratic
+			}
+		}
+		modifier = {
+			democratic_drift = -0.02
+		}
+		days_remove = -1
+		cost = 100
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@democratic
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_democratic_flag
+			}
+			custom_effect_tooltip = ban_democratic_party_tt
+			add_stability = ban_ideology_var
+		}
+	}
+	ban_communist_party = {
+		icon = generic_civil_support
+		available = {
+			communism < 0.2
+		}
+		visible = {
+			NOT = {
+				has_government = communism
+			}
+			communism > 0
+		}
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = communism
+			}
+		}
+		modifier = {
+			communism_drift = -0.02
+		}
+		days_remove = -1
+		cost = 100
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@communism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+			}
+			custom_effect_tooltip = ban_communist_party_tt
+			add_stability = ban_ideology_var
+		}
+	}
+	ban_neutral_party = {
+		icon = generic_civil_support
+		available = {
+			neutrality < 0.2
+		}
+		visible = {
+			NOT = {
+				has_government = neutrality
+			}
+			neutrality > 0
+		}
+		remove_trigger = {
+			hidden_trigger = {
+				has_government = neutrality
+			}
+		}
+		modifier = {
+			neutrality_drift = -0.02
+		}
+		days_remove = -1
+		cost = 100
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@neutrality
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+			}
+			add_stability = ban_ideology_var
+		}
+	}
+	emergency_factory_conversion = {
+		icon = generic_industry
+		available = {
+			num_of_civilian_factories > 5
+		}
+		visible = {
+			has_defensive_war = yes
+			has_offensive_war = no
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		cost = 100
+		complete_effect = {
+			replace_civ_with_arms_factories = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	women_in_the_workforce = {
+		icon = generic_industry
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_war = yes
+			has_idea = tot_economic_mobilisation
+			OR = {
+				AND = {
+					has_government = democratic
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = communism
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = fascism
+					OR = {
+						has_war_support > 0.89
+						surrender_progress > 0
+					}
+				}
+				AND = {
+					has_government = neutrality
+					has_war_support > 0.84
+					has_stability > 0.7
+				}
+			}
+		}
+		visible = {
+			has_war = yes
+		}
+		cost = 100
+		days_remove = -1
+		remove_trigger = {
+			OR = {
+				has_war = no
+				not = {
+					has_idea = tot_economic_mobilisation
+				}
+			}
+		}
+		modifier = {
+			conscription = 0.03
+			stability_factor = -0.05
+		}
+	}
+	war_propaganda = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_war_support < 0.5
+			has_war = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 180
+		cost = 150
+		modifier = {
+			war_support_weekly = 0.005
+		}
+	}
+	war_propaganda_radio_industry = {
+		icon = generic_prepare_civil_war
+		available = {
+			threat > 0.25
+			has_tech = radio
+			has_war = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			add_war_support = 0.05
+		}
+	}
+	war_propaganda_film_industry = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_war = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		cost = 100
+		complete_effect = {
+			effect_tooltip = {
+				add_war_support = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 54
+	name = "STATE_54"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			2722
+			1
+		}
+		victory_points = {
+			13309
+			5
+		}
+		victory_points = {
+			20019
+			1
+		}
+		victory_points = {
+			2824
+			4
+		}
+		victory_points = {
+			9559
+			1
+		}
+	}
+	provinces = {
+		21477
+		4789
+		6134
+		21533
+		21522
+		1287
+		33
+		15424
+		21636
+		15407
+		11693
+		15318
+		20437
+		2722
+		6903
+		13309
+		15113
+		2757
+		7963
+		20019
+		2824
+		4034
+		20633
+		20745
+		2641
+		14992
+		7623
+		8948
+		9559
+		10616
+	}
+	manpower = 387348
+	state_category = pastoral
+	buildings_max_level_factor = 1
+	local_supplies = 0
+}

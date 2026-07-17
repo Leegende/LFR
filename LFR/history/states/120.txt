@@ -1,0 +1,50 @@
+
+state = {
+id = 120
+	name = "STATE_120"
+	history = {
+		owner = CZE
+		add_core_of = CZE
+		set_state_flag = SUDETENLAND
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		victory_points = {
+			4683
+			2
+		}
+		victory_points = {
+			12762
+			5
+		}
+	}
+	provinces = {
+		120
+		7473
+		12786
+		
+		2167
+		12600
+		12624
+		596
+		4683
+		12807
+		12838
+		20067
+		8770
+		8951
+		12762
+		12779
+		12800
+		12825
+		12904
+		21640
+	}
+	manpower = 639322
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
+

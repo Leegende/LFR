@@ -1,0 +1,16 @@
+equipments = {
+	train_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = train
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+		interface_category = interface_category_land
+		
+	}
+	train_equipment_1 = {
+		archetype = train_equipment
+		build_cost_ic = 10
+	}
+}

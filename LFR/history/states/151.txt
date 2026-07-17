@@ -1,0 +1,78 @@
+
+state = {
+id = 151
+	name = "STATE_151"
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		victory_points = {
+			20373
+			5
+		}
+		victory_points = {
+			20385
+			2
+		}
+		victory_points = {
+			14710
+			20
+		}
+		victory_points = {
+			20363
+			5
+		}
+		victory_points = {
+			20372
+			10
+		}
+	}
+	provinces = {
+		1957
+		3434
+		6798
+		14833
+		2677
+		9464
+		14823
+		20373
+		5454
+		14693
+		20385
+		741
+		1156
+		4232
+		6539
+		14691
+		14710
+		3456
+		14896
+		2753
+		3596
+		8627
+		9400
+		14686
+		14719
+		14735
+		14743
+		14762
+		20363
+		1544
+		1878
+		7278
+		9088
+		14802
+		14834
+		17108
+		20372
+	}
+	manpower = 1381936
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
+

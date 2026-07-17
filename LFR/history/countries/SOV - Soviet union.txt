@@ -1,0 +1,33 @@
+﻿capital = 209
+
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+set_convoys = 10
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 5
+	communism = 95
+}
+
+add_ideas = {
+	planned_economy
+}
+
+
+#create_faction_from_template = faction_template_comintern
+#add_to_faction = SOV
+
+
+create_country_leader = {
+	name = SOV_iosif_stalin
+	picture = GFX_portrait_SOV_iosif_stalin
+	ideology = stalinism
+}

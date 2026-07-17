@@ -1,0 +1,83 @@
+sub_units = {
+	blackshirt_assault = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_miscellaneous_support_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+	}
+	commandos = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_miscellaneous_support_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+	}
+	sniper = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			support
+		}
+		group = support
+		categories = {
+			category_miscellaneous_support_company
+		}
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		affects_speed = no
+		training_time = 100
+		essential = {
+			support_equipment
+		}
+		need = {
+			support_equipment = 20
+		}
+	}
+}

@@ -1,0 +1,69 @@
+
+state = {
+id = 339
+	name = "STATE_339"
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+			
+		}
+		victory_points = {
+			11934
+			10
+		}
+		victory_points = {
+			19419
+			20
+		}
+		victory_points = {
+			7617
+			10
+		}
+		victory_points = {
+			19412
+			10
+		}
+		victory_points = {
+			6784
+			5
+		}
+	}
+	provinces = {
+		6007
+		8868
+		11934
+		12013
+		698
+		3595
+		5806
+		7617
+		9058
+		9068
+		11897
+		11964
+		12026
+		12106
+		19419
+		3838
+		4238
+		7638
+		7666
+		19412
+		1034
+		6638
+		6784
+		8078
+		12225
+		12243
+	}
+	manpower = 1679100
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = large_town
+}
+

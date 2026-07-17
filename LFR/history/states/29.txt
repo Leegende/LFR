@@ -1,0 +1,135 @@
+state = {
+	id = 29
+	name = "STATE_29"
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		victory_points = {
+			15356
+			40
+		}
+		victory_points = {
+			5843
+			5
+		}
+		victory_points = {
+			20020
+			25
+		}
+		victory_points = {
+			15438
+			5
+		}
+		victory_points = {
+			15461
+			5
+		}
+		victory_points = {
+			7121
+			5
+		}
+		victory_points = {
+			15418
+			2
+		}
+		victory_points = {
+			5351
+			10
+		}
+		victory_points = {
+			15350
+			20
+		}
+		victory_points = {
+			2068
+			5
+		}
+	}
+	provinces = {
+		682
+		9272
+		6939
+		15302
+		19197
+		15316
+		7311
+		2188
+		4459
+		21611
+		5820
+		19180
+		21512
+		19334
+		21518
+		15315
+		3018
+		1464
+		21562
+		15289
+		7781
+		15287
+		21508
+		19177
+		1351
+		21506
+		21502
+		15267
+		15282
+		21507
+		15291
+		14170
+		21503
+		3206
+		15151
+		15162
+		21521
+		15220
+		15242
+		9536
+		4046
+		15091
+		15165
+		21526
+		20540
+		3253
+		5079
+		15356
+		15378
+		15395
+		5843
+		15491
+		16394
+		4689
+		7072
+		15413
+		20020
+		7087
+		15438
+		15461
+		20033
+		7121
+		15361
+		15418
+		15419
+		4007
+		5351
+		15480
+		6037
+		15350
+		20032
+		2068
+		6420
+		15452
+		20537
+		15083
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+}

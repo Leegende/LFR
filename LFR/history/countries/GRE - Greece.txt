@@ -1,0 +1,22 @@
+﻿capital = 12
+set_research_slots = 1
+set_convoys = 200
+set_stability = 1
+set_war_support = 1
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = GRE_konstantinos_demertzis
+	picture = GFX_portrait_gre_konstantinos_demertzis
+	ideology = conservatism
+}

@@ -1,0 +1,172 @@
+state = {
+	id = 196
+	name = "STATE_196"
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			5572
+			2
+		}
+		victory_points = {
+			13352
+			20
+		}
+		victory_points = {
+			20790
+			2
+		}
+		victory_points = {
+			9258
+			80
+		}
+		victory_points = {
+			13461
+			2
+		}
+		victory_points = {
+			1224
+			2
+		}
+		victory_points = {
+			8752
+			5
+		}
+		victory_points = {
+			20808
+			5
+		}
+		victory_points = {
+			8013
+			5
+		}
+		victory_points = {
+			20804
+			2
+		}
+		victory_points = {
+			7580
+			2
+		}
+		victory_points = {
+			3178
+			2
+		}
+		victory_points = {
+			4897
+			5
+		}
+		victory_points = {
+			13100
+			10			#Regensburg
+		}
+	}
+	provinces = {
+		5572
+		8394
+		13286
+		20803
+		7024
+		8597
+		8730
+		9163
+		13352
+		13384
+		13448
+		13512
+		20769
+		994
+		5916
+		13475
+		13586
+		13620
+		20790
+		20793
+		20794
+		20806
+		3476
+		9258
+		9383
+		13357
+		13420
+		13455
+		13461
+		13474
+		20770
+		20771
+		1224
+		3759
+		4774
+		5811
+		6190
+		13571
+		13667
+		20772
+		20773
+		1374
+		3950
+		8752
+		9204
+		13442
+		13513
+		13547
+		20789
+		20795
+		6291
+		18848
+		2432
+		5613
+		13546
+		13607
+		13638
+		20808
+		2843
+		3007
+		3841
+		7552
+		8013
+		13213
+		13276
+		13374
+		4530
+		13107
+		13304
+		20787
+		20797
+		20804
+		20796
+		5605
+		7580
+		8278
+		13223
+		20784
+		20785
+		3178
+		4022
+		4865
+		13275
+		13308
+		13332
+		13424
+		20791
+		13100
+		13172
+		642
+		1475
+		4897
+		7845
+		13200
+		13341
+		20783
+		20788
+	}
+	manpower = 3481074
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = town
+}
