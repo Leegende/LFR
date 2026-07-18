@@ -1,70 +1,55 @@
 equipments = {
-	light_tank_chassis_eng_mk6 = {
+	light_tank_mk6_chassis = {
 		archetype = light_tank_chassis_archetype
 	}
-	light_tank_chassis_eng_mk7 = {
+	light_tank_tetrach_chassis = {
 		archetype = light_tank_chassis_archetype
+		parent = light_tank_mk6_chassis
 	}
-	light_tank_chassis_eng_mk8 = {
+	light_tank_tetrach_dd_chassis = {
 		archetype = light_tank_chassis_archetype
+		parent = light_tank_tetrach_chassis
 	}
-	medium_tank_chassis_eng_a10 = {
+	light_tank_harry_hopkins_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_tetrach_chassis
+	}
+	light_tank_m18_hellcat = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_harry_hopkins_chassis
+	}
+	medium_tank_cruiser_mk_2_chassis = {
 		archetype = medium_tank_chassis_archetype
 	}
-	medium_tank_chassis_eng_a15 = {
+	medium_tank_cruiser_mk_4_chassis = {
 		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_a10
+		parent = medium_tank_cruiser_mk_2_chassis
 	}
-	medium_tank_chassis_eng_a27 = {
+	medium_tank_sherman_firefly_chassis = {
 		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_a15
+		parent = medium_tank_cruiser_mk_4_chassis
 	}
-	medium_tank_chassis_eng_a34 = {
+	medium_tank_sherman_dd_chassis = {
 		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_sherman_firefly_chassis
 	}
-	heavy_tank_chassis_eng_a33 = {
-		archetype = heavy_tank_chassis_archetype
-	}
-	medium_tank_chassis_eng_a41 = {
+	medium_tank_cromwell_chassis = {
 		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_a27
+		parent = medium_tank_sherman_firefly_chassis
 	}
-	heavy_tank_chassis_eng_a11 = {
+	heavy_tank_matilda_1_chassis = {
 		archetype = heavy_tank_chassis_archetype
 	}
-	heavy_tank_chassis_eng_a12 = {
+	heavy_tank_matilda_2_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_chassis_eng_a11
+		parent = heavy_tank_matilda_1_chassis
 	}
-	heavy_tank_chassis_eng_val = {
+	heavy_tank_valentine_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_chassis_eng_a12
+		parent = heavy_tank_valentine_chassis
 	}
-	heavy_tank_chassis_eng_a22 = {
+	heavy_tank_churchill_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_chassis_eng_val
-	}
-	heavy_tank_chassis_eng_a43 = {
-		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_chassis_eng_a22
-	}
-	heavy_tank_chassis_eng_a39 = {
-		archetype = heavy_tank_chassis_archetype
-	}
-	heavy_tank_chassis_eng_a45 = {
-		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_chassis_eng_a43
-	}
-	medium_tank_chassis_eng_ac1 = {
-		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_a13
-	}
-	medium_tank_chassis_eng_ac3 = {
-		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_ac1
-	}
-	medium_tank_chassis_eng_ram = {
-		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_chassis_eng_a13
+		parent = heavy_tank_churchill_chassis
 	}
 }

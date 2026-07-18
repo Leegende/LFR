@@ -1,0 +1,12 @@
+equipments = {
+	light_tank_trubia_a4_chassis = {
+		archetype = light_tank_chassis
+	}
+	light_tank_verdeja_1_chassis = {
+		archetype = light_tank_chassis
+		parent = light_tank_verdeja_1_chassis
+	}
+	medium_tank_verdeja_2_chassis = {
+		archetype = medium_tank_chassis
+	}
+}

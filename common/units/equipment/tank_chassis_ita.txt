@@ -1,223 +1,35 @@
 equipments = {
 	light_tank_l3_33_chassis = {
-		visual_level = 0
 		archetype = light_tank_chassis
-		priority = 0
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-		}
-		upgrades = {
-			tank_armor_upgrade
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
-		maximum_speed = 6.7
-		build_cost_ic = 10
-		reliability = 0.8
-		armor_value = 15
-		defense = 5
-		breakthrough = 20
 	}
 	light_tank_l6_40_chassis = {
-		visual_level = 0
 		archetype = light_tank_chassis
-		priority = 0
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-		}
-		upgrades = {
-			tank_armor_upgrade
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
-		maximum_speed = 6.7
-		build_cost_ic = 10
-		reliability = 0.8
-		armor_value = 15
-		defense = 5
-		breakthrough = 20
+		parent = light_tank_l3_33_chassis
+	}
+	light_tank_panzer_2_ausf_c_dak_chassis = {
+		archetype = light_tank_chassis
+		parent = light_tank_l6_40_chassis
 	}
 	medium_tank_m11_39_chassis = {
 		archetype = medium_tank_chassis
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_medium_turret_type_1
-					tank_medium_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-		}
-		upgrades = {
-			tank_armor_upgrade
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
 	}
 	medium_tank_m13_40_chassis = {
 		archetype = medium_tank_chassis
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_medium_turret_type_1
-					tank_medium_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-		}
-		upgrades = {
-			tank_armor_upgrade
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
+		parent = medium_tank_m11_39_chassis
+	}
+	medium_tank_m13_40_amphibious_chassis = {
+		archetype = medium_tank_chassis
+		parent = medium_tank_m13_40_chassis
 	}
 	medium_tank_m15_42_chassis = {
 		archetype = medium_tank_chassis
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_medium_turret_type_1
-					tank_medium_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-		}
-		upgrades = {
-			tank_armor_upgrade
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
+		parent = medium_tank_m13_40_chassis
 	}
 	heavy_tank_p26_40_chassis = {
-		visual_level = 0
 		archetype = heavy_tank_chassis
-		upgrades = {
-			tank_armor_upgrade
-		}
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_heavy_turret_type_1
-					tank_heavy_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-				}
-			}
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
 	}
 	heavy_tank_p43_chassis = {
-		visual_level = 0
 		archetype = heavy_tank_chassis
-		upgrades = {
-			tank_armor_upgrade
-		}
-		module_slots = {
-			main_armament_slot = inherit
-			turret_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					tank_heavy_turret_type_1
-					tank_heavy_turret_type_casemate
-				}
-			}
-			suspension_type_slot = inherit
-			armor_type_slot = inherit
-			engine_type_slot = inherit
-			special_type_slot_1 = inherit
-			special_type_slot_2 = inherit
-			special_type_slot_3 = inherit
-			special_type_slot_4 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-				}
-			}
-		}
-		default_modules = {
-			main_armament_slot = empty
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-		}
+		parent = heavy_tank_p26_40_chassis
 	}
 }

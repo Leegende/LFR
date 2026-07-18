@@ -1,0 +1,10 @@
+equipments = {
+	medium_tank_ram_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_cruiser_mk_4_chassis
+	}
+	medium_tank_grizzly_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_ram_chassis
+	}
+}

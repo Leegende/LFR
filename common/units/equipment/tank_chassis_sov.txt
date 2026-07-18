@@ -1,0 +1,59 @@
+equipments = {
+	light_tank_bt5_chassis = {
+		archetype = light_tank_chassis_archetype
+	}
+	light_tank_bt7_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_bt5_chassis
+	}
+	light_tank_t70_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_bt7_chassis
+	}
+	light_tank_t40_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_t70_chassis
+	}
+	light_tank_zis30_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_t70_chassis
+	}
+	medium_tank_t28_chassis = {
+		archetype = medium_tank_chassis_archetype
+	}
+	medium_tank_t34_57_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_t28_chassis
+	}
+	medium_tank_t35_85_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_t34_57_chassis
+	}
+	medium_tank_t35_85_amphibious_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_t35_85_chassis
+	}
+	medium_tank_t44_chassis = {
+		archetype = medium_tank_chassis_archetype
+		parent = medium_tank_t35_85_chassis
+	}
+	heavy_tank_t35_chassis = {
+		archetype = heavy_tank_chassis_archetype
+	}
+	heavy_tank_kv1_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_t35_chassis
+	}
+	heavy_tank_kv1_amphibious_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_kv1_chassis
+	}
+	heavy_tank_kv2_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_kv1_chassis
+	}
+	heavy_tank_is4_chassis = {
+		archetype = heavy_tank_chassis_archetype
+		parent = heavy_tank_kv2_chassis
+	}
+}
