@@ -506,6 +506,147 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+				containerWindowType = {
+				name = "techtree_stripes_left"
+				position = { x= 0 y= 0 }
+				size = {
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+				instantTextBoxType = {
+					name = "year_1936"
+					position = { x = @stripes_left y = @year_1936 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1936"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1937"
+					position = { x = @stripes_left y = @year_1937 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1937"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1938"
+					position = { x = @stripes_left y = @year_1938 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1938"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1939"
+					position = { x = @stripes_left y = @year_1939 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1939"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1940"
+					position = { x = @stripes_left y = @year_1940 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1940"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1941"
+					position = { x = @stripes_left y = @year_1941 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1941"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1942"
+					position = { x = @stripes_left y = @year_1942 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1942"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1943"
+					position = { x = @stripes_left y = @year_1943 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1943"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "year_1944"
+					position = { x = @stripes_left y = @year_1944 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1944"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+			}
+
+			gridboxtype = {
+				name = "light_tank_panzer_2_chassis_technology_tree"
+				position = { x = 580 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "medium_tank_panzer_3_ausf_a_chassis_technology_tree"
+				position = { x = 880 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "medium_tank_panzer_4_ausf_a_chassis_technology_tree"
+				position = { x = 1080 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			
 		}
 		#armour ita folder
 		containerWindowType = {
