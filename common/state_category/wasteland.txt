@@ -1,10 +1,13 @@
-state_categories={
+state_categories = {
 	wasteland = {
 		local_building_slots = 1
 		buildings_max_level = {
-        		air_base = 10
-    		}
-		color = { 40 40 40 }
-
+			air_base = 10
+		}
+		color = {
+			40
+			40
+			40
+		}
 	}
 }

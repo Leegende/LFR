@@ -4,36 +4,48 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		default = yes
+		picture = GFX
+		default_country = GER
 		"GER" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"FRA" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"ITA" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"SOV" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"CAN" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"HUN" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"SPR" = {
+			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
 		"---" = {
 			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 12345
 		}
 	}
 }

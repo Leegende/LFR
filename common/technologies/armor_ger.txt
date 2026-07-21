@@ -7,6 +7,16 @@
 @1942 = 12
 @1943 = 14
 @1944 = 16
+@light_tanks_left = -9
+@light_amphibious_left = -11
+@light_tanks_right = -6
+@light_tanks_center = -8
+@medium_tanks_left = -2
+@medium_amphibious_left = -4
+@medium_tanks_center = 0
+@medium_tanks_right = 2
+@medium_amphibious_right = 4
+@heavy_tanks = 8
 technologies = {
 	light_tank_panzer_2_chassis_technology = {
 		path = {
@@ -14,6 +24,15 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = light_tank_panzer_38t_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_3_ausf_a_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_4_ausf_a_chassis_technology
+		}
+		path = {
+			leads_to_tech = heavy_tank_neubaufahrzeug_chassis_technology
 		}
 		folder = {
 			name = armour_ger_folder
@@ -25,12 +44,15 @@ technologies = {
 	}
 	light_tank_panzer_35t_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_panzer_35t_chassis_technology
+			leads_to_tech = light_tank_luchs_chassis_technology
+		}
+		path = {
+			leads_to_tech = light_tank_hetzer_chassis_technology
 		}
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
+				x = @light_tanks_right
 				y = @1937
 			}
 		}
@@ -45,7 +67,7 @@ technologies = {
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
+				x = @light_tanks_left
 				y = @1937
 			}
 		}
@@ -54,8 +76,17 @@ technologies = {
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
+				x = @light_amphibious_left
 				y = @1938
+			}
+		}
+	}
+	light_tank_hetzer_chassis_technology = {
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @light_tanks_right
+				y = @1939
 			}
 		}
 	}
@@ -63,17 +94,26 @@ technologies = {
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
+				x = @light_tanks_center
 				y = @1940
 			}
 		}
 	}
 	medium_tank_panzer_3_ausf_a_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_tauchpanzer_3_ausf_a_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_3_ausf_f_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_5_ausf_a_chassis_technology
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
-				y = @1936
+				x = @medium_tanks_left
+				y = @1937
 			}
 		}
 	}
@@ -81,17 +121,26 @@ technologies = {
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = -1
-				y = @1937
+				x = @medium_amphibious_left
+				y = @1938
 			}
 		}
 	}
 	medium_tank_panzer_4_ausf_a_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_tauchpanzer_4_ausf_a_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_4_ausf_j_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_panzer_5_ausf_a_chassis_technology
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
-				y = @1936
+				x = @medium_tanks_right
+				y = @1937
 			}
 		}
 	}
@@ -99,8 +148,86 @@ technologies = {
 		folder = {
 			name = armour_ger_folder
 			position = {
-				x = 0
-				y = @1936
+				x = @medium_amphibious_right
+				y = @1938
+			}
+		}
+	}
+	medium_tank_panzer_3_ausf_f_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_panzer_5_ausf_a_chassis_technology
+		}
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @medium_tanks_left
+				y = @1939
+			}
+		}
+	}
+	medium_tank_panzer_4_ausf_j_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_panzer_5_ausf_a_chassis_technology
+		}
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @medium_tanks_right
+				y = @1939
+			}
+		}
+	}
+	medium_tank_panzer_5_ausf_a_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_panzer_5_ausf_g_chassis_technology
+		}
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1940
+			}
+		}
+	}
+	medium_tank_panzer_5_ausf_g_chassis_technology = {
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1942
+			}
+		}
+	}
+	heavy_tank_neubaufahrzeug_chassis_technology = {
+		path = {
+			leads_to_tech = heavy_tank_tiger_1_chassis_technology
+		}
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @heavy_tanks
+				y = @1937
+			}
+		}
+	}
+	heavy_tank_tiger_1_chassis_technology = {
+		path = {
+			leads_to_tech = heavy_tank_tiger_2_chassis_technology
+		}
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @heavy_tanks
+				y = @1939
+			}
+		}
+	}
+	heavy_tank_tiger_2_chassis_technology = {
+		folder = {
+			name = armour_ger_folder
+			position = {
+				x = @heavy_tanks
+				y = @1941
 			}
 		}
 	}

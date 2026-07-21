@@ -1,0 +1,93 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+@light_tanks_center = -6
+@medium_tanks_center = 0
+@heavy_tanks_center = 0
+technologies = {
+	spr_light_tank_panzer_2_chassis_technology = {
+		path = {
+			leads_to_tech = light_tank_trubia_a4_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_verdeja_2_chassis_technology
+		}
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1936
+			}
+		}
+	}
+	light_tank_trubia_a4_chassis_technology = {
+		path = {
+			leads_to_tech = light_tank_verdeja_1_chassis_technology
+		}
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @light_tanks_center
+				y = @1937
+			}
+		}
+	}
+	light_tank_verdeja_1_chassis_technology = {
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @light_tanks_center
+				y = @1939
+			}
+		}
+	}
+	medium_tank_verdeja_2_chassis_technology = {
+		path = {
+			leads_to_tech = spr_medium_tank_panzer_5_ausf_a_chassis_technology
+		}
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1938
+			}
+		}
+	}
+	spr_medium_tank_panzer_5_ausf_a_chassis_technology = {
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1940
+			}
+		}
+	}
+
+	spr_heavy_tank_tiger_1_chassis_technology = {
+		path = {
+			leads_to_tech = spr_heavy_tank_tiger_2_chassis_technology
+		}
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1939
+			}
+		}
+	}
+	spr_heavy_tank_tiger_2_chassis_technology = {
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1941
+			}
+		}
+	}
+}

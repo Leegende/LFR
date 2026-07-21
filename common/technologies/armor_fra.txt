@@ -1,0 +1,128 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+@light_tanks_center = -6
+@medium_tanks_center = 0
+@heavy_tanks_center = 0
+technologies = {
+	light_tank_h35_chassis_technology = {
+		path = {
+			leads_to_tech = light_tank_r35_chassis_technology
+		}
+		path = {
+			leads_to_tech = medium_tank_somua_s35_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1936
+			}
+		}
+	}
+	light_tank_r35_chassis_technology = {
+		path = {
+			leads_to_tech = light_tank_amx13_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @light_tanks_center
+				y = @1937
+			}
+		}
+	}
+	light_tank_amx13_chassis_technology = {
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @light_tanks_center
+				y = @1939
+			}
+		}
+	}
+	medium_tank_somua_s35_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_somua_s40_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1938
+			}
+		}
+	}
+	medium_tank_somua_s40_chassis_technology = {
+		path = {
+			leads_to_tech = medium_tank_sarl_42_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1940
+			}
+		}
+	}
+	medium_tank_sarl_42_chassis_technology = {
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1939
+			}
+		}
+	}
+	heavy_tank_char_b1_chassis_technology = {
+		path = {
+			leads_to_tech = heavy_tank_arl_44_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1937
+			}
+		}
+	}
+	heavy_tank_arl_44_chassis_technology = {
+		path = {
+			leads_to_tech = heavy_tank_amx_50_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1939
+			}
+		}
+	}
+	heavy_tank_amx_50_chassis_technology = {
+		path = {
+			leads_to_tech = heavy_tank_char_c2_chassis_technology
+		}
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1940
+			}
+		}
+	}
+	heavy_tank_char_c2_chassis_technology = {
+		folder = {
+			name = armour_fra_folder
+			position = {
+				x = @heavy_tanks_center
+				y = @1942
+			}
+		}
+	}
+}

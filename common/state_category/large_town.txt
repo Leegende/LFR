@@ -1,10 +1,13 @@
-state_categories={
+state_categories = {
 	large_town = {
 		local_building_slots = 22
 		buildings_max_level = {
-        		air_base = 10
-    		}
-		color = { 240 240 0 }
-
+			air_base = 10
+		}
+		color = {
+			240
+			240
+			0
+		}
 	}
 }

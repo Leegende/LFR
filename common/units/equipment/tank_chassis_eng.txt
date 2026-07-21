@@ -14,7 +14,7 @@ equipments = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_tetrach_chassis
 	}
-	light_tank_m18_hellcat = {
+	light_tank_m18_hellcat_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_harry_hopkins_chassis
 	}

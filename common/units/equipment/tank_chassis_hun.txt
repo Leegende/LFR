@@ -1,12 +1,12 @@
 equipments = {
 	light_tank_38m_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 	}
 	medium_tank_40m_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 	}
 	medium_tank_44m_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_40m_chassis
 	}
 }

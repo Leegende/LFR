@@ -1,62 +1,70 @@
 equipments = {
 	light_tank_panzer_2_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 	}
 	light_tank_panzer_35t_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_2_chassis
 	}
 	light_tank_panzer_38t_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_35t_chassis
 	}
 	light_tank_schwimmpanzer_38t_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_38t_chassis
 	}
+	light_tank_hetzer_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_panzer_35t_chassis
+	}
+	light_tank_panzer_38t_chassis = {
+		archetype = light_tank_chassis_archetype
+		parent = light_tank_panzer_35t_chassis
+	}
 	light_tank_luchs_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_38t_chassis
 	}
 	medium_tank_panzer_3_ausf_a_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 	}
 	medium_tank_panzer_4_ausf_a_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 	}
 	medium_tank_tauchpanzer_3_ausf_a_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_3_ausf_a_chassis
 	}
 	medium_tank_tauchpanzer_4_ausf_a_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_4_ausf_a_chassis
 	}
 	medium_tank_panzer_3_ausf_f_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_3_ausf_a_chassis
 	}
 	medium_tank_panzer_4_ausf_j_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_4_ausf_a_chassis
 	}
 	medium_tank_panzer_5_ausf_a_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_4_ausf_a_chassis
 	}
 	medium_tank_panzer_5_ausf_g_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_panzer_5_ausf_a_chassis
 	}
 	heavy_tank_neubaufahrzeug_chassis = {
-		archetype = heavy_tank_chassis
+		archetype = heavy_tank_chassis_archetype
 	}
 	heavy_tank_tiger_1_chassis = {
-		archetype = heavy_tank_chassis
+		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_neubaufahrzeug_chassis
 	}
 	heavy_tank_tiger_2_chassis = {
-		archetype = heavy_tank_chassis
+		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_tiger_1_chassis
 	}
 }

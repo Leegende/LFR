@@ -1,0 +1,177 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+@light_tanks_center = 0
+@light_tanks_amphibious = -3
+@medium_tanks_center = 0
+@heavy_tanks_center = 0
+technologies = {
+	sov_light_tank_bt5_chassis_technology = {
+		path = {
+			leads_to_tech = sov_light_tank_t70_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	sov_light_tank_bt7_chassis_technology = {
+		path = {
+			leads_to_tech = sov_light_tank_t70_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	sov_light_tank_t70_chassis_technology = {
+		path = {
+			leads_to_tech = sov_light_tank_t40_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 1
+				y = @1938
+			}
+		}
+	}
+	sov_light_tank_t40_chassis_technology = {
+		path = {
+			leads_to_tech = eng_light_tank_tetrach_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 1
+				y = @1940
+			}
+		}
+	}
+	sov_medium_tank_t28_chassis_technology = {
+		path = {
+			leads_to_tech = sov_medium_tank_t34_57_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	sov_medium_tank_t34_57_chassis_technology = {
+		path = {
+			leads_to_tech = sov_medium_tank_t35_85_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	sov_medium_tank_t35_85_chassis_technology = {
+		path = {
+			leads_to_tech = sov_medium_tank_t35_85_amphibious_chassis_technology
+		}
+		path = {
+			leads_to_tech = sov_medium_tank_t44_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	sov_medium_tank_t35_85_amphibious_chassis_technology = {
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 3
+				y = @1940
+			}
+		}
+	}
+	sov_medium_tank_t44_chassis_technology = {
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1942
+			}
+		}
+	}
+	sov_heavy_tank_t35_chassis_technology = {
+		path = {
+			leads_to_tech = sov_heavy_tank_kv1_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	sov_heavy_tank_kv1_chassis_technology = {
+		path = {
+			leads_to_tech = sov_heavy_tank_kv1_amphibious_chassis_technology
+		}
+		path = {
+			leads_to_tech = sov_heavy_tank_kv2_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	sov_heavy_tank_kv1_amphibious_chassis_technology = {
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 2
+				y = @1939
+			}
+		}
+	}
+	sov_heavy_tank_kv2_chassis_technology = {
+		path = {
+			leads_to_tech = sov_heavy_tank_is4_chassis_technology
+		}
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	sov_heavy_tank_is4_chassis_technology = {
+		folder = {
+			name = armour_sov_folder
+			position = {
+				x = 0
+				y = @1943
+			}
+		}
+	}
+}
