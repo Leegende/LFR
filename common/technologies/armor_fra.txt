@@ -11,12 +11,12 @@
 @medium_tanks_center = 0
 @heavy_tanks_center = 0
 technologies = {
-	light_tank_h35_chassis_technology = {
+	fra_light_tank_h35_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_r35_chassis_technology
+			leads_to_tech = fra_light_tank_r35_chassis_technology
 		}
 		path = {
-			leads_to_tech = medium_tank_somua_s35_chassis_technology
+			leads_to_tech = fra_medium_tank_somua_s35_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -26,7 +26,7 @@ technologies = {
 			}
 		}
 	}
-	light_tank_r35_chassis_technology = {
+	fra_light_tank_r35_chassis_technology = {
 		path = {
 			leads_to_tech = light_tank_amx13_chassis_technology
 		}
@@ -47,9 +47,9 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_somua_s35_chassis_technology = {
+	fra_medium_tank_somua_s35_chassis_technology = {
 		path = {
-			leads_to_tech = medium_tank_somua_s40_chassis_technology
+			leads_to_tech = fra_medium_tank_somua_s40_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -59,9 +59,9 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_somua_s40_chassis_technology = {
+	fra_medium_tank_somua_s40_chassis_technology = {
 		path = {
-			leads_to_tech = medium_tank_sarl_42_chassis_technology
+			leads_to_tech = fra_medium_tank_sarl_42_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -71,7 +71,7 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_sarl_42_chassis_technology = {
+	fra_medium_tank_sarl_42_chassis_technology = {
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -80,9 +80,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_char_b1_chassis_technology = {
+	fra_heavy_tank_char_b1_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_arl_44_chassis_technology
+			leads_to_tech = fra_heavy_tank_arl_44_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -92,9 +92,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_arl_44_chassis_technology = {
+	fra_heavy_tank_arl_44_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_amx_50_chassis_technology
+			leads_to_tech = fra_heavy_tank_amx_50_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -104,9 +104,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_amx_50_chassis_technology = {
+	fra_heavy_tank_amx_50_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_char_c2_chassis_technology
+			leads_to_tech = fra_heavy_tank_char_c2_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -116,7 +116,7 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_char_c2_chassis_technology = {
+	fra_heavy_tank_char_c2_chassis_technology = {
 		folder = {
 			name = armour_fra_folder
 			position = {

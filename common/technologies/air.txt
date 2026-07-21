@@ -10,11 +10,11 @@
 @fighter_x = 0
 @cas_x = -3
 @fighter_bomber_x = 3
-@heavy_fighter_x = 0
-@tactical_bomber_x = -3
+@heavy_fighter_x = -3
+@tactical_bomber_x = 0
 @transport_plane_x = 3
 technologies = {
-	# light air
+	
 	air_base_building_technology = {
 		path = {
 			leads_to_tech = fighter_1_equipment_technology
@@ -150,7 +150,7 @@ technologies = {
 			}
 		}
 	}
-	# heavy air
+	
 	anti_air_building_technology = {
 		path = {
 			leads_to_tech = heavy_fighter_1_equipment_technology
@@ -245,7 +245,7 @@ technologies = {
 		folder = {
 			name = air_folder
 			position = {
-				x = @heavy_fighter_x
+				x = @tactical_bomber_x
 				y = @1943
 			}
 		}

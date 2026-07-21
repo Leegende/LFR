@@ -20,4 +20,8 @@ equipments = {
 		archetype = anti_tank_equipment_archetype
 		parent = anti_tank_2_equipment
 	}
+	anti_tank_4_equipment = {
+		archetype = anti_tank_equipment_archetype
+		parent = anti_tank_2_equipment
+	}
 }

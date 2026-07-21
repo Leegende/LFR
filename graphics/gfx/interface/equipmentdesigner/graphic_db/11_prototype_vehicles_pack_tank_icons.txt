@@ -1,0 +1,547 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+USA = {
+	light_tank_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_4_medium
+			}
+			models = {
+				USA_prototype_armor_4_entity 
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_0_medium
+			}
+			models = {
+				USA_prototype_armor_0_entity 
+			}
+		}
+	}
+	light_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_1_medium
+			}
+			models = {
+				USA_prototype_armor_1_entity 
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_3_medium
+				GFX_USA_prototype_armor_5_medium
+			}
+			models = {
+				USA_prototype_armor_3_entity 
+				USA_prototype_armor_5_entity 
+			}
+		}
+	}
+	medium_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_1_medium
+			}
+			models = {
+				USA_prototype_armor_1_entity 
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_5_medium
+			}
+			models = {
+				USA_prototype_armor_5_entity 
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_2_medium
+			}
+			models = {
+				USA_prototype_armor_2_entity 
+			}
+		}
+	}
+}
+
+CAN = {
+	light_tank_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_USA_prototype_armor_4_medium
+			}
+			models = {
+				USA_prototype_armor_4_entity 
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity 
+			}
+		}
+	}
+	medium_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity 
+			}
+		}
+	}
+}
+
+ENG = {
+	light_tank_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_1_medium
+			}
+			models = {
+				ENG_prototype_armor_1_entity 
+			}
+		}
+	}
+	light_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity 
+			}
+		}
+	}
+	light_tank_destroyer_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_0_medium
+			}
+			models = {
+				ENG_prototype_armor_0_entity 
+			}
+		}
+	}
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CAN_prototype_armor_0_medium
+			}
+			models = {
+				CAN_prototype_armor_0_entity 
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ENG_prototype_armor_2_medium
+			}
+			models = {
+				ENG_prototype_armor_2_entity 
+			}
+		}
+	}
+}
+
+GER = {
+
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CZE_prototype_armor_0_medium
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				CZE_prototype_armor_0_entity 
+				GER_prototype_armor_1_entity 
+			}
+		}
+	}
+
+	medium_tank_aa_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_0_medium
+			}
+			models = {
+				GER_prototype_armor_0_entity 
+			}
+		}
+	}	
+	heavy_tank_artillery_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_GER_prototype_armor_1_medium
+			}
+			models = {
+				GER_prototype_armor_1_entity 
+			}
+		}
+	}
+}
+
+SOV = {
+	light_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_SOV_prototype_armor_0_medium
+			}
+			models = {
+				SOV_prototype_armor_0_entity 
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_SOV_prototype_armor_2_medium
+			}
+			models = {
+				SOV_prototype_armor_2_entity 
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_SOV_prototype_armor_1_medium
+			}
+			models = {
+				SOV_prototype_armor_1_entity 
+			}
+		}
+	}
+	modern_tank_artillery_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_SOV_prototype_armor_3_medium
+				GFX_SOV_main_battle_tank_medium 
+			}
+			models = {
+				SOV_prototype_armor_3_entity 
+			}
+		}
+	}
+}
+ITA = {
+	light_tank_chassis = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ITA_prototype_armor_0_medium
+				GFX_ITA_prototype_armor_2_medium
+			}
+			models = {
+				ITA_prototype_armor_0_entity 
+				ITA_prototype_armor_2_entity 
+			}
+		}
+	}
+	heavy_tank_chassis  = { 
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_ITA_prototype_armor_1_medium
+			}
+			models = {
+				ITA_prototype_armor_1_entity 
+			}
+		}
+	}
+	amphibious_tank_chassis = { 
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			weight = 0.5
+			icons = { 
+				GFX_ITA_prototype_armor_1_medium
+			}
+			models = {
+				ITA_prototype_armor_1_entity 
+			}
+		}
+	}
+}
+FRA = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_3_medium
+			}
+			models = {
+				FRA_prototype_armor_3_entity 
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_0_medium
+				GFX_FRA_prototype_armor_1_medium
+				GFX_FRA_prototype_armor_4_medium
+			}
+			models = {
+				FRA_prototype_armor_0_entity 
+				FRA_prototype_armor_1_entity 
+				FRA_prototype_armor_4_entity 
+			}
+		}
+	}
+	super_heavy_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_0_medium
+			}
+			models = {
+				FRA_prototype_armor_0_entity 
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_2_medium
+			}
+			models = {
+				FRA_prototype_armor_2_entity 
+			}
+		}
+	}
+	amphibious_tank_chassis = { 
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_0_medium
+			}
+			models = {
+				FRA_prototype_armor_0_entity 
+			}
+		}
+	}
+	modern_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_FRA_prototype_armor_2_medium
+			}
+			models = {
+				FRA_prototype_armor_2_entity 
+			}
+		}
+	}
+
+}
+JAP = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_JAP_prototype_armor_0_medium
+			}
+			models = {
+				JAP_prototype_armor_0_entity 
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_JAP_prototype_armor_1_medium
+			}
+			models = {
+				JAP_prototype_armor_1_entity 
+			}
+		}
+	}
+}
+BEL = {
+	light_tank_destroyer_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_BEL_prototype_armor_0_medium
+			}
+			models = {
+				BEL_prototype_armor_0_entity 
+			}
+		}
+	}
+}
+CZE = {
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_CZE_prototype_armor_0_medium
+			}
+			models = {
+				CZE_prototype_armor_0_entity 
+			}
+		}
+	}
+}
+POL = {
+	heavy_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_POL_prototype_armor_0_medium
+			}
+			models = {
+				POL_prototype_armor_0_entity 
+			}
+		}
+	}
+}
+HOL = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_HOL_prototype_armor_0_medium
+			}
+			models = {
+				HOL_prototype_armor_0_entity 
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_HOL_prototype_armor_0_medium
+			}
+			models = {
+				HOL_prototype_armor_0_entity 
+			}
+		}
+	}
+}
+
+AST = {
+	light_tank_chassis = {
+		pool = {
+			weight = 0.5
+			icons = { 
+				GFX_AST_prototype_armor_0_medium
+				GFX_AST_prototype_armor_1_medium
+			}
+			models = {
+				AST_prototype_armor_0_entity 
+				AST_prototype_armor_1_entity 
+			}
+		}
+	}
+}

@@ -12,9 +12,9 @@
 @medium_tanks_center = 0
 @heavy_tanks_center = 0
 technologies = {
-	light_tank_mk6_chassis_technology = {
+	can_light_tank_mk6_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_tetrach_chassis_technology
+			leads_to_tech = can_light_tank_tetrach_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -24,12 +24,12 @@ technologies = {
 			}
 		}
 	}
-	light_tank_tetrach_chassis_technology = {
+	can_light_tank_tetrach_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_tetrach_dd_chassis_technology
+			leads_to_tech = can_light_tank_tetrach_dd_chassis_technology
 		}
 		path = {
-			leads_to_tech = light_tank_harry_hopkins_chassis_technology
+			leads_to_tech = can_light_tank_harry_hopkins_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -39,7 +39,7 @@ technologies = {
 			}
 		}
 	}
-	light_tank_tetrach_dd_chassis_technology = {
+	can_light_tank_tetrach_dd_chassis_technology = {
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -48,7 +48,7 @@ technologies = {
 			}
 		}
 	}
-	light_tank_harry_hopkins_chassis_technology = {
+	can_light_tank_harry_hopkins_chassis_technology = {
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -57,9 +57,9 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_cruiser_mk_2_chassis_technology = {
+	can_medium_tank_cruiser_mk_2_chassis_technology = {
 		path = {
-			leads_to_tech = medium_tank_cruiser_mk_4_chassis_technology
+			leads_to_tech = can_medium_tank_cruiser_mk_4_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -69,12 +69,12 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_cruiser_mk_4_chassis_technology = {
+	can_medium_tank_cruiser_mk_4_chassis_technology = {
 		path = {
-			leads_to_tech = medium_tank_ram_chassis_technology
+			leads_to_tech = can_medium_tank_ram_chassis_technology
 		}
 		path = {
-			leads_to_tech = medium_tank_grizzly_chassis_technology
+			leads_to_tech = can_medium_tank_grizzly_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -84,7 +84,7 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_ram_chassis_technology = {
+	can_medium_tank_ram_chassis_technology = {
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -93,7 +93,7 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_grizzly_chassis_technology = {
+	can_medium_tank_grizzly_chassis_technology = {
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -102,9 +102,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_matilda_1_chassis_technology = {
+	can_heavy_tank_matilda_1_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_matilda_2_chassis_technology
+			leads_to_tech = can_heavy_tank_matilda_2_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -114,9 +114,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_matilda_2_chassis_technology = {
+	can_heavy_tank_matilda_2_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_valentine_chassis_technology
+			leads_to_tech = can_heavy_tank_valentine_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -126,9 +126,9 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_valentine_chassis_technology = {
+	can_heavy_tank_valentine_chassis_technology = {
 		path = {
-			leads_to_tech = heavy_tank_churchill_chassis_technology
+			leads_to_tech = can_heavy_tank_churchill_chassis_technology
 		}
 		folder = {
 			name = armour_can_folder
@@ -138,7 +138,7 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_churchill_chassis_technology = {
+	can_heavy_tank_churchill_chassis_technology = {
 		folder = {
 			name = armour_can_folder
 			position = {

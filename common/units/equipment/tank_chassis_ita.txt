@@ -1,35 +1,35 @@
 equipments = {
 	light_tank_l3_33_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 	}
 	light_tank_l6_40_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_l3_33_chassis
 	}
 	light_tank_panzer_2_ausf_c_dak_chassis = {
-		archetype = light_tank_chassis
+		archetype = light_tank_chassis_archetype
 		parent = light_tank_l6_40_chassis
 	}
 	medium_tank_m11_39_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 	}
 	medium_tank_m13_40_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_m11_39_chassis
 	}
 	medium_tank_m13_40_amphibious_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_m13_40_chassis
 	}
 	medium_tank_m15_42_chassis = {
-		archetype = medium_tank_chassis
+		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_m13_40_chassis
 	}
 	heavy_tank_p26_40_chassis = {
-		archetype = heavy_tank_chassis
+		archetype = heavy_tank_chassis_archetype
 	}
 	heavy_tank_p43_chassis = {
-		archetype = heavy_tank_chassis
+		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_p26_40_chassis
 	}
 }

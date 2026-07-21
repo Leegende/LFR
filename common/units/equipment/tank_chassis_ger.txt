@@ -67,4 +67,5 @@ equipments = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_tiger_1_chassis
 	}
+
 }

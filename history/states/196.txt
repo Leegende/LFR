@@ -63,7 +63,7 @@ state = {
 		}
 		victory_points = {
 			13100
-			10			#Regensburg
+			10			
 		}
 	}
 	provinces = {

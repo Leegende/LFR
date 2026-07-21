@@ -83,7 +83,7 @@ technologies = {
 	}
 	eng_medium_tank_cruiser_mk_4_chassis_technology = {
 		path = {
-			leads_to_tech = eng_medium_tank_sherman_firefly_chassis_technology
+			leads_to_tech = eng_medium_tank_sherman_chassis_technology
 		}
 		path = {
 			leads_to_tech = eng_medium_tank_sherman_dd_chassis_technology
@@ -96,7 +96,7 @@ technologies = {
 			}
 		}
 	}
-	eng_medium_tank_sherman_firefly_chassis_technology = {
+	eng_medium_tank_sherman_chassis_technology = {
 		path = {
 			leads_to_tech = eng_medium_tank_cromwell_chassis_technology
 		}

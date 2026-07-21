@@ -12,12 +12,41 @@ categories = {
 			83
 			176
 		}
+		minimum_seazone_dominance = 250
+	}
+	rock = {
+		color = {
+			248
+			255
+			150
+		}
 	}
 	lakes = {
 		color = {
 			58
 			91
 			255
+		}
+	}
+	safari = {
+		color = {
+			255
+			255
+			255
+		}
+	}
+	town = {
+		color = {
+			120
+			120
+			120
+		}
+	}
+	dense_urban = {
+		color = {
+			120
+			120
+			120
 		}
 	}
 	forest = {

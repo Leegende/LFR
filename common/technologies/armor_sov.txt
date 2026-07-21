@@ -12,14 +12,15 @@
 @medium_tanks_center = 0
 @heavy_tanks_center = 0
 technologies = {
+
 	sov_light_tank_bt5_chassis_technology = {
 		path = {
-			leads_to_tech = sov_light_tank_t70_chassis_technology
+			leads_to_tech = sov_light_tank_bt7_chassis_technology
 		}
 		folder = {
 			name = armour_sov_folder
 			position = {
-				x = 0
+				x = 1
 				y = @1936
 			}
 		}
@@ -31,8 +32,8 @@ technologies = {
 		folder = {
 			name = armour_sov_folder
 			position = {
-				x = 0
-				y = @1936
+				x = 1
+				y = @1937
 			}
 		}
 	}

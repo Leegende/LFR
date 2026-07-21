@@ -5,6 +5,10 @@ equipments = {
 		is_buildable = no
 		type = fighter
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		interface_category = interface_category_air
+		interface_overview_category_index = 1
 	}
 	fighter_bomber_equipment_archetype = {
 		is_archetype = yes
@@ -15,6 +19,10 @@ equipments = {
 			cas
 		}
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 2
+		interface_category = interface_category_air
+		interface_overview_category_index = 1
 	}
 	cas_equipment_archetype = {
 		is_archetype = yes
@@ -22,6 +30,10 @@ equipments = {
 		is_buildable = no
 		type = cas
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 3
+		interface_category = interface_category_air
+		interface_overview_category_index = 1
 	}
 	heavy_fighter_equipment_archetype = {
 		is_archetype = yes
@@ -29,6 +41,10 @@ equipments = {
 		is_buildable = no
 		type = fighter
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 4
+		interface_category = interface_category_air
+		interface_overview_category_index = 3
 	}
 	tactical_bomber_equipment_archetype = {
 		is_archetype = yes
@@ -36,6 +52,10 @@ equipments = {
 		is_buildable = no
 		type = tactical_bomber
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 5
+		interface_category = interface_category_air
+		interface_overview_category_index = 3
 	}
 	transport_plane_equipment_archetype = {
 		is_archetype = yes
@@ -43,5 +63,9 @@ equipments = {
 		is_buildable = no
 		type = air_transport
 		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 6
+		interface_category = interface_category_air
+		interface_overview_category_index = 3
 	}
 }

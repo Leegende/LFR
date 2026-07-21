@@ -7,7 +7,7 @@ sub_unit_categories = {
 	category_tacs
 	category_strats
 	category_jet
-	#################################
+	
 	category_armor
 	category_armor_battalion
 	category_amphibious_armor_battalion
@@ -15,22 +15,22 @@ sub_unit_categories = {
 	category_medium_tank
 	category_heavy_tank
 	category_modern_tank
-	#################################
+	
 	category_anti_air
 	category_armor_anti_air
 	category_amphibious_armor_anti_air
-	#################################
+	
 	category_anti_tank
 	category_armor_destroyer
 	category_amphibious_armor_destroyer
-	#################################
+	
 	category_artillery
 	category_armor_artillery
 	category_amphibious_armor_artillery
-	#################################
+	
 	category_armor_flamethrower
 	category_amphibious_armor_flamethrower
-	#################################
+	
 	category_helicopter_support_company
 	category_armor_support_company
 	category_mechanised_support_company
@@ -38,7 +38,7 @@ sub_unit_categories = {
 	category_amphibious_armor_support_company
 	category_support_company
 	category_miscellaneous_support_company
-	#################################
+	
 	category_engineers_company
 	category_assault_engineers_company
 	category_field_hospital_company
@@ -47,18 +47,18 @@ sub_unit_categories = {
 	category_military_police_company
 	category_recon_company
 	category_signal_company
-	#################################
+	
 	category_pack
 	category_medium
 	category_heavy
-	#################################
+	
 	category_motorised
 	category_mechanised
 	category_amtrac
-	#################################
+	
 	category_red_guard
 	category_ss
-	#################################
+	
 	category_infantry
 	category_special_forces
 	category_marine
@@ -68,7 +68,7 @@ sub_unit_categories = {
 	category_sturmtruppe
 	category_infantry_line
 	category_cavalry
-	#################################
+	
 	category_railway_gun
 	category_rocket
 }

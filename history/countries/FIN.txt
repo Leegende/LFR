@@ -1,1 +1,14 @@
-﻿capital = 47
+capital = 47
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.3.2"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 15
+	fascism = 19
+	communism = 1
+	neutrality = 65
+}

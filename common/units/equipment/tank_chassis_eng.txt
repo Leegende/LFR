@@ -25,17 +25,17 @@ equipments = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_cruiser_mk_2_chassis
 	}
-	medium_tank_sherman_firefly_chassis = {
+	medium_tank_sherman_chassis = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_cruiser_mk_4_chassis
 	}
 	medium_tank_sherman_dd_chassis = {
 		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_sherman_firefly_chassis
+		parent = medium_tank_sherman_chassis
 	}
 	medium_tank_cromwell_chassis = {
 		archetype = medium_tank_chassis_archetype
-		parent = medium_tank_sherman_firefly_chassis
+		parent = medium_tank_sherman_chassis
 	}
 	heavy_tank_matilda_1_chassis = {
 		archetype = heavy_tank_chassis_archetype

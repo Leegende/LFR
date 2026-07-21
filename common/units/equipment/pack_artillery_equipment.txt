@@ -20,8 +20,5 @@ equipments = {
 		archetype = pack_artillery_equipment_archetype
 		parent = pack_artillery_2_equipment
 	}
-	pack_artillery_4_equipment = {
-		archetype = pack_artillery_equipment_archetype
-		parent = pack_artillery_3_equipment
-	}
+	
 }

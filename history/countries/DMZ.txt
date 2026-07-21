@@ -1,1 +1,9 @@
-﻿capital = 389
+capital = 389
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}

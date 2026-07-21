@@ -1,7 +1,7 @@
 ideologies = {
 	democratic = {
 		types = {
-			conservatism = {
+			democratic_ideology = {
 			}
 		}
 		color = {
@@ -12,7 +12,7 @@ ideologies = {
 	}
 	communism = {
 		types = {
-			marxism = {
+			communism_ideology = {
 			}
 		}
 		color = {
@@ -23,7 +23,7 @@ ideologies = {
 	}
 	fascism = {
 		types = {
-			nazism = {
+			fascism_ideology = {
 			}
 		}
 		color = {
@@ -34,7 +34,7 @@ ideologies = {
 	}
 	neutrality = {
 		types = {
-			despotism = {
+			neutrality_ideology = {
 			}
 		}
 		color = {

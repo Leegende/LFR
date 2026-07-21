@@ -191,7 +191,7 @@ technologies = {
 			}
 		}
 	}
-	# construction
+	
 	construction_1_technology = {
 		path = {
 			leads_to_tech = construction_2_technology

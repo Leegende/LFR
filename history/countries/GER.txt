@@ -1,1 +1,14 @@
-﻿capital = 367
+capital = 367
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
+}

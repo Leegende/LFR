@@ -1,0 +1,65 @@
+sub_units = {
+	fighter_equipment = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = {
+			fighter_equipment_archetype = 1
+		}
+		land_air_wing_size = 100
+	}
+	cas_equipment = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = cas
+		need = {
+			cas_equipment_archetype = 1
+		}
+		land_air_wing_size = 100
+	}
+	fighter_bomber_equipment = {
+		sprite = light_plane
+		priority = 3
+		active = yes
+		type = {
+			fighter
+			cas
+		}
+		need = {
+			fighter_bomber_equipment_archetype = 1
+		}
+		land_air_wing_size = 100
+	}
+	tactical_bomber_equipment = {
+		sprite = medium_plane
+		priority = 4
+		active = yes
+		type = tactical_bomber
+		need = {
+			tactical_bomber_equipment_archetype = 1
+		}
+		land_air_wing_size = 100
+	}
+	heavy_fighter = {
+		sprite = medium_plane
+		priority = 1
+		active = yes
+		type = heavy_fighter
+		need = {
+			heavy_fighter_equipment_archetype = 1
+		}
+		land_air_wing_size = 100
+	}
+	transport_plane_equipment = {
+		sprite = medium_plane
+		priority = 5
+		active = yes
+		type = air_transport
+		need = {
+			transport_plane_equipment = 1
+		}
+		land_air_wing_size = 10
+	}
+}

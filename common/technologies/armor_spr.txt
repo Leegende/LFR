@@ -13,10 +13,10 @@
 technologies = {
 	spr_light_tank_panzer_2_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_trubia_a4_chassis_technology
+			leads_to_tech = spr_light_tank_trubia_a4_chassis_technology
 		}
 		path = {
-			leads_to_tech = medium_tank_verdeja_2_chassis_technology
+			leads_to_tech = spr_medium_tank_verdeja_2_chassis_technology
 		}
 		folder = {
 			name = armour_spr_folder
@@ -26,9 +26,9 @@ technologies = {
 			}
 		}
 	}
-	light_tank_trubia_a4_chassis_technology = {
+	spr_light_tank_trubia_a4_chassis_technology = {
 		path = {
-			leads_to_tech = light_tank_verdeja_1_chassis_technology
+			leads_to_tech = spr_light_tank_verdeja_1_chassis_technology
 		}
 		folder = {
 			name = armour_spr_folder
@@ -38,7 +38,7 @@ technologies = {
 			}
 		}
 	}
-	light_tank_verdeja_1_chassis_technology = {
+	spr_light_tank_verdeja_1_chassis_technology = {
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -47,7 +47,7 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_verdeja_2_chassis_technology = {
+	spr_medium_tank_verdeja_2_chassis_technology = {
 		path = {
 			leads_to_tech = spr_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
@@ -68,7 +68,6 @@ technologies = {
 			}
 		}
 	}
-
 	spr_heavy_tank_tiger_1_chassis_technology = {
 		path = {
 			leads_to_tech = spr_heavy_tank_tiger_2_chassis_technology

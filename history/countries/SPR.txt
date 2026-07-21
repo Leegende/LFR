@@ -1,1 +1,11 @@
-﻿capital = 364
+capital = 364
+set_popularities = {
+	democratic = 47
+	fascism = 46
+	communism = 7
+}
+
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}

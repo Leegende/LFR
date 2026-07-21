@@ -4,11 +4,11 @@ equipments = {
 	}
 	light_tank_bt7_chassis = {
 		archetype = light_tank_chassis_archetype
-		parent = light_tank_bt5_chassis
 	}
 	light_tank_t70_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_bt7_chassis
+		parent = light_tank_bt5_chassis
 	}
 	light_tank_t40_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -30,7 +30,7 @@ equipments = {
 		parent = medium_tank_t34_57_chassis
 	}
 	medium_tank_t35_85_amphibious_chassis = {
-		archetype = medium_tank_chassis_archetype
+		archetype = medium_tank_amphibious_chassis_archetype
 		parent = medium_tank_t35_85_chassis
 	}
 	medium_tank_t44_chassis = {

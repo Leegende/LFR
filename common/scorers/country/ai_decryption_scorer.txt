@@ -14,12 +14,12 @@ ai_decryption_target_scorer = {
 				has_capitulated = yes
 				factor = 0 
 			}
-			# strat is directly added
+			
 			modifier = {
 				add = FROM.ai_strategy_decrypt_target@THIS
 			}
 		
-			# continue existing decryptions
+			
 			modifier = {
 				FROM = {
 					is_decrypting = PREV
@@ -43,7 +43,7 @@ ai_decryption_target_scorer = {
 				factor = 1.5
 			}
 
-			# quite possibly we will attack this target due to strats
+			
 			modifier = {
 				NOT = { has_war_with = FROM }
 				OR = {
@@ -73,7 +73,7 @@ ai_decryption_target_scorer = {
 				factor = 0.6
 			}
 
-			# larger countries are a bit more prio
+			
 			modifier = {
 				set_temp_variable = { temp_score = owned_states^num }
 				divide_temp_variable = { temp_score = 20 }

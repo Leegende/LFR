@@ -32,7 +32,7 @@ ai_generic_operation_target_scorer  = {
 				factor = 1.5
 			}
 
-			# quite possibly we will attack this target due to strats
+			
 			modifier = {
 				NOT = { has_war_with = FROM }
 				OR = {
@@ -62,7 +62,7 @@ ai_generic_operation_target_scorer  = {
 				factor = 0.6
 			}
 
-			# larger countries are a bit more prio
+			
 			modifier = {
 				set_temp_variable = { temp_score = armies^num }
 				divide_temp_variable = { temp_score = 100 }
@@ -71,13 +71,13 @@ ai_generic_operation_target_scorer  = {
 				factor = temp_score
 			}
 			
-			# continue targetting same country
+			
 			modifier = {
 				check_variable = { id = generic_operation_target }
 				factor = 2.0
 			}
 			
-			# we got tokens to spend
+			
 			modifier = {
 				FROM = {
 					has_operation_token = {

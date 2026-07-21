@@ -11,7 +11,7 @@
 @medium_tanks_center = 0
 @heavy_tanks_center = 0
 technologies = {
-	light_tank_38m_chassis_technology = {
+	hun_light_tank_38m_chassis_technology = {
 		path = {
 			leads_to_tech = hun_light_tank_luchs_chassis_technology
 		}
@@ -32,9 +32,9 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_40m_chassis_technology = {
+	hun_medium_tank_40m_chassis_technology = {
 		path = {
-			leads_to_tech = medium_tank_44m_chassis_technology
+			leads_to_tech = hun_medium_tank_44m_chassis_technology
 		}
 		folder = {
 			name = armour_hun_folder
@@ -44,7 +44,7 @@ technologies = {
 			}
 		}
 	}
-	medium_tank_44m_chassis_technology = {
+	hun_medium_tank_44m_chassis_technology = {
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -53,7 +53,7 @@ technologies = {
 			}
 		}
 	}
-	heavy_tank_tiger_1_chassis_technology = {
+	hun_heavy_tank_tiger_1_chassis_technology = {
 		path = {
 			leads_to_tech = hun_heavy_tank_tiger_2_chassis_technology
 		}

@@ -7,11 +7,8 @@
 @1942 = 12
 @1943 = 14
 @1944 = 16
-
-
 technologies = {
 	
-	## Infantry
 	infantry_weapon_1_equipment_technology = {
 		enable_equipments = {
 			infantry_weapon_1_equipment
@@ -84,7 +81,215 @@ technologies = {
 			}
 		}
 	}
-	## Trains
+	
+	headquarter_technology = {
+		path = {
+			leads_to_tech = headquarter_infantry_technology
+		}
+		path = {
+			leads_to_tech = headquarter_organisation_1_technology
+		}
+		path = {
+			leads_to_tech = headquarter_defense_1_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	headquarter_organisation_1_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = @1939
+			}
+		}
+	}
+	headquarter_defense_1_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @1939
+			}
+		}
+	}
+	headquarter_infantry_technology = {
+		path = {
+			leads_to_tech = headquarter_motorised_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	headquarter_motorised_technology = {
+		path = {
+			leads_to_tech = headquarter_armored_technology
+		}
+		path = {
+			leads_to_tech = headquarter_organisation_2_technology
+		}
+		path = {
+			leads_to_tech = headquarter_defense_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	headquarter_organisation_2_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = @1941
+			}
+		}
+	}
+	headquarter_defense_2_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = @1941
+			}
+		}
+	}
+	headquarter_armored_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	
+	soft_attack_infantry_weapon_1_technology = {
+		path = {
+			leads_to_tech = soft_attack_infantry_weapon_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	soft_attack_infantry_weapon_2_technology = {
+		path = {
+			leads_to_tech = soft_attack_infantry_weapon_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	soft_attack_infantry_weapon_3_technology = {
+		path = {
+			leads_to_tech = soft_attack_infantry_weapon_4_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	soft_attack_infantry_weapon_4_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1943
+			}
+		}
+	}
+	
+	hard_attack_infantry_weapon_1_technology = {
+		path = {
+			leads_to_tech = hard_attack_infantry_weapon_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	hard_attack_infantry_weapon_2_technology = {
+		path = {
+			leads_to_tech = hard_attack_infantry_weapon_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	hard_attack_infantry_weapon_3_technology = {
+		path = {
+			leads_to_tech = hard_attack_infantry_weapon_4_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	hard_attack_infantry_weapon_4_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1943
+			}
+		}
+	}
+	
+	night_vision_1_technology = {
+		path = {
+			leads_to_tech = night_vision_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+	}
+	night_vision_2_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+	}
+	
 	train_1_equipment_technology = {
 		enable_equipments = {
 			train_1_equipment
@@ -127,7 +332,7 @@ technologies = {
 			}
 		}
 	}
-	## Armored Cars
+	
 	armored_car_1_equipment_technology = {
 		enable_equipments = {
 			armored_car_1_equipment
@@ -185,7 +390,7 @@ technologies = {
 			}
 		}
 	}
-	## Trucks
+	
 	motorised_equipment_technology = {
 		enable_equipments = {
 			motorised_equipment
