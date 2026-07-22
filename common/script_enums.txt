@@ -225,7 +225,6 @@ script_enum_equipment_bonus_type = {
 	armored_car_1_equipment
 	armored_car_2_equipment
 	armored_car_3_equipment
-	armored_car_4_equipment
 	amtrac_1_equipment
 	amtrac_2_equipment
 	amtrac_3_equipment
@@ -305,10 +304,9 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_amx_50_chassis
 	heavy_tank_char_c2_chassis
 	light_tank_panzer_2_chassis
-	light_tank_panzer_35t_chassis
+	light_tank_panzer_1_chassis
 	light_tank_panzer_38t_chassis
 	light_tank_schwimmpanzer_38t_chassis
-	light_tank_hetzer_chassis
 	light_tank_luchs_chassis
 	medium_tank_panzer_3_ausf_a_chassis
 	medium_tank_panzer_4_ausf_a_chassis
@@ -372,31 +370,6 @@ script_enum_equipment_bonus_type = {
 	amtrac_anti_tank_equipment
 	amtrac_utility_equipment
 	amtrac_flame_equipment
-	light_tank_anti_air_chassis
-	light_tank_artillery_chassis
-	light_tank_anti_tank_chassis
-	light_tank_flame_chassis
-	medium_tank_anti_air_chassis
-	medium_tank_artillery_chassis
-	medium_tank_anti_tank_chassis
-	medium_tank_flame_chassis
-	heavy_tank_anti_tank_chassis
-	heavy_tank_artillery_chassis
-	heavy_tank_flame_chassis
-	heavy_tank_anti_air_chassis
-	light_tank_amphibious_aa_chassis
-	light_tank_amphibious_artillery_chassis
-	light_tank_amphibious_destroyer_chassis
-	light_tank_amphibious_amphibious_chassis
-	light_tank_amphibious_flame_chassis
-	medium_tank_amphibious_aa_chassis
-	medium_tank_amphibious_artillery_chassis
-	medium_tank_amphibious_destroyer_chassis
-	medium_tank_amphibious_flame_chassis
-	heavy_tank_amphibious_aa_chassis
-	heavy_tank_amphibious_artillery_chassis
-	heavy_tank_amphibious_destroyer_chassis
-	heavy_tank_amphibious_flame_chassis
 	mechanised_anti_air_equipment1
 	mechanised_anti_air_equipment2
 	mechanised_anti_air_equipment3
@@ -429,4 +402,28 @@ script_enum_equipment_bonus_type = {
 	amtrac_flame_equipment3_equipment
 	support_equipment_1_equipment
 	special_forces_equipment
+	light_anti_air_tank
+	light_artillery_tank
+	light_anti_tank_tank
+	light_flame_tank
+	medium_anti_air_tank
+	medium_artillery_tank
+	medium_anti_tank_tank
+	medium_flame_tank
+	heavy_anti_air_tank
+	heavy_artillery_tank
+	heavy_anti_tank_tank
+	heavy_flame_tank
+	light_amphibious_anti_air_tank
+	light_amphibious_artillery_tank
+	light_amphibious_anti_tank_tank
+	light_amphibious_flame_tank
+	medium_amphibious_anti_air_tank
+	medium_amphibious_artillery_tank
+	medium_amphibious_anti_tank_tank
+	medium_amphibious_flame_tank
+	heavy_amphibious_anti_air_tank
+	heavy_amphibious_artillery_tank
+	heavy_amphibious_anti_tank_tank
+	heavy_amphibious_flame_tank
 }

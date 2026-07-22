@@ -18,12 +18,12 @@
 @medium_amphibious_right = 4
 @heavy_tanks = 8
 technologies = {
-	ger_light_tank_panzer_2_chassis_technology = {
+	ger_light_tank_panzer_1_chassis_technology = {
 		enable_equipments = {
-			light_tank_panzer_2_chassis
+			light_tank_panzer_1_chassis
 		}
 		path = {
-			leads_to_tech = ger_light_tank_panzer_35t_chassis_technology
+			leads_to_tech = ger_light_tank_panzer_2_chassis_technology
 		}
 		path = {
 			leads_to_tech = ger_light_tank_panzer_38t_chassis_technology
@@ -45,12 +45,15 @@ technologies = {
 			}
 		}
 	}
-	ger_light_tank_panzer_35t_chassis_technology = {
+	ger_light_tank_panzer_2_chassis_technology = {
+		enable_equipments = {
+			light_tank_panzer_2_chassis
+		}
 		path = {
 			leads_to_tech = ger_light_tank_luchs_chassis_technology
 		}
 		path = {
-			leads_to_tech = ger_light_tank_hetzer_chassis_technology
+			leads_to_tech = ger_light_tank_hetzer_technology
 		}
 		folder = {
 			name = armour_ger_folder
@@ -61,6 +64,9 @@ technologies = {
 		}
 	}
 	ger_light_tank_panzer_38t_chassis_technology = {
+		enable_equipments = {
+			light_tank_panzer_38t_chassis
+		}
 		path = {
 			leads_to_tech = ger_light_tank_schwimmpanzer_38t_chassis_technology
 		}
@@ -76,6 +82,9 @@ technologies = {
 		}
 	}
 	ger_light_tank_schwimmpanzer_38t_chassis_technology = {
+		enable_equipments = {
+			light_tank_schwimmpanzer_38t_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -84,7 +93,7 @@ technologies = {
 			}
 		}
 	}
-	ger_light_tank_hetzer_chassis_technology = {
+	ger_light_tank_hetzer_technology = {
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -94,6 +103,9 @@ technologies = {
 		}
 	}
 	ger_light_tank_luchs_chassis_technology = {
+		enable_equipments = {
+			light_tank_luchs_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -103,6 +115,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_3_ausf_a_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_3_ausf_a_chassis
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_tauchpanzer_3_ausf_a_chassis_technology
 		}
@@ -121,6 +136,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_tauchpanzer_3_ausf_a_chassis_technology = {
+		enable_equipments = {
+			medium_tank_tauchpanzer_3_ausf_a_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -130,6 +148,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_4_ausf_a_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_4_ausf_a_chassis
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_tauchpanzer_4_ausf_a_chassis_technology
 		}
@@ -148,6 +169,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_tauchpanzer_4_ausf_a_chassis_technology = {
+		enable_equipments = {
+			medium_tank_tauchpanzer_4_ausf_a_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -157,6 +181,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_3_ausf_f_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_3_ausf_f_chassis
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
@@ -169,6 +196,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_4_ausf_j_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_4_ausf_j_chassis
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
@@ -181,6 +211,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_5_ausf_a_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_5_ausf_a_chassis
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_g_chassis_technology
 		}
@@ -193,6 +226,9 @@ technologies = {
 		}
 	}
 	ger_medium_tank_panzer_5_ausf_g_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_5_ausf_g_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -202,6 +238,9 @@ technologies = {
 		}
 	}
 	ger_heavy_tank_neubaufahrzeug_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_neubaufahrzeug_chassis
+		}
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_1_chassis_technology
 		}
@@ -214,6 +253,9 @@ technologies = {
 		}
 	}
 	ger_heavy_tank_tiger_1_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_tiger_1_chassis
+		}
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_2_chassis_technology
 		}
@@ -226,6 +268,9 @@ technologies = {
 		}
 	}
 	ger_heavy_tank_tiger_2_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_tiger_2_chassis
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {

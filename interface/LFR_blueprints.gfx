@@ -1,7 +1,7 @@
 spriteTypes = {
-	spriteType = {
-		name = "GFX_panzer_2_blueprint"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/panzer_2_blueprint.dds"
-		legacy_lazy_load = no
-	}
+	#spriteType = {
+	#	name = "GFX_panzer_2_blueprint"
+	#	textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/panzer_2_blueprint.dds"
+	#	legacy_lazy_load = no
+	#}
 }

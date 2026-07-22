@@ -18,9 +18,9 @@
 @heavy_artillery = 9
 technologies = {
 	artillery_1_equipment_technology = {
-		enable_equipments = {
-			artillery_1_equipment
-		}
+		#enable_equipments = {
+		#	artillery_1_equipment
+		#}
 		path = {
 			leads_to_tech = pack_artillery_1_upgrade_technology
 		}

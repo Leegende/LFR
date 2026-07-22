@@ -1,8 +1,7 @@
 ﻿l_english:
- light_tank_panzer_2_chassis: "Panzerkampfwagen 2 Chassis"
+ light_tank_panzer_2_chassis: "Panzerkampfwagen 2"
  infantry_weapon_1_equipment: "Infantry Weapon I"
  tank_designer_light_tank_chassis_archetype: "Light Tank"
- armor_upgrade: "Armor"
  EQ_MOD_CAT_flamethrower_module_category_TITLE: "Flamethrower Armament"
  flamethrower_1_module: "Flamethrower I"
  flamethrower_2_module: "Flamethrower II"

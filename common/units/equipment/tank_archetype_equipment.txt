@@ -5,7 +5,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_light_tank_equipment
+		picture = archetype_lighttank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
@@ -99,10 +99,6 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = cupola_module
-			count < 2
-		}
-		module_count_limit = {
 			module = expanded_fuel_tank_module
 			count < 2
 		}
@@ -136,7 +132,7 @@ equipments = {
 			armor_type_slot = empty
 			engine_type_slot = empty
 		}
-		maximum_speed = 4
+		maximum_speed = 6
 	}
 	medium_tank_chassis_archetype = {
 		is_archetype = yes
@@ -144,7 +140,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_medium_tank_equipment
+		picture = archetype_mediumtank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
@@ -155,7 +151,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_heavy_tank_equipment
+		picture = archetype_heavytank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
@@ -166,7 +162,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_light_tank_equipment
+		picture = archetype_lighttank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
@@ -177,7 +173,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_medium_tank_equipment
+		picture = archetype_mediumtank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
@@ -188,7 +184,7 @@ equipments = {
 		can_be_produced = {
 			always = yes
 		}
-		picture = archetype_heavy_tank_equipment
+		picture = archetype_heavytank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor

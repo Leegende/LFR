@@ -75,7 +75,6 @@ technologies = {
 			panzergranate_module
 			advanced_artillery_round_module
 			expanded_fuel_tank_module
-			cupola_module
 			light_turret_1_module
 			light_turret_2_module
 			light_turret_3_module

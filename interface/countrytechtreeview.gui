@@ -759,7 +759,7 @@ guiTypes = {
 
 			}
 			gridboxtype = {
-				name = "ger_light_tank_panzer_2_chassis_technology_tree"
+				name = "ger_light_tank_panzer_1_chassis_technology_tree"
 				position = { x = 980 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
