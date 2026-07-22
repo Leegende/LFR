@@ -8,10 +8,9 @@
 @1943 = 14
 @1944 = 16
 technologies = {
-	
 	support_equipment_technology = {
 		enable_equipments = {
-			support_equipment
+			support_equipment_archetype
 		}
 		path = {
 			leads_to_tech = engineering_company_1_technology

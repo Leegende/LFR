@@ -1,6 +1,6 @@
 equipment_modules = {
-	tank_radio_1 = {
-		category = tank_radio_module
+	tank_radio_1_module = {
+		category = radio_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 1
@@ -10,8 +10,8 @@ equipment_modules = {
 			breakthrough = 0.1
 		}
 	}
-	tank_radio_2 = {
-		category = tank_radio_module
+	tank_radio_2_module = {
+		category = radio_module_category
 		parent = tank_radio_1
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -24,8 +24,8 @@ equipment_modules = {
 			hard_attack = 0.05
 		}
 	}
-	tank_radio_3 = {
-		category = tank_radio_module
+	tank_radio_3_module = {
+		category = radio_module_category
 		parent = tank_radio_2
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -38,8 +38,8 @@ equipment_modules = {
 			hard_attack = 0.1
 		}
 	}
-	amphibious_drive = {
-		category = amphibious_drive
+	amphibious_drive_module = {
+		category = amphibious_drive_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 4
@@ -49,8 +49,8 @@ equipment_modules = {
 			build_cost_ic = 0.075
 		}
 	}
-	stabilizer = {
-		category = tank_special_module
+	stabilizer_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 2
@@ -60,8 +60,8 @@ equipment_modules = {
 			hard_attack = 0.075
 		}
 	}
-	smoke_launchers = {
-		category = tank_special_module
+	smoke_launchers_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 1
@@ -69,8 +69,8 @@ equipment_modules = {
 			breakthrough = 5
 		}
 	}
-	extra_ammo_storage = {
-		category = tank_special_module
+	extra_ammo_storage_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			reliability = -0.05
@@ -82,16 +82,16 @@ equipment_modules = {
 			breakthrough = 0.1
 		}
 	}
-	wet_ammo_storage = {
-		category = tank_special_module
+	wet_ammo_storage_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			reliability = 0.1
 			build_cost_ic = 2
 		}
 	}
-	armor_skirts = {
-		category = tank_special_module
+	armor_skirts_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			reliability = 0.05
@@ -101,8 +101,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	easy_maintenance = {
-		category = tank_special_module
+	easy_maintenance_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			reliability = 0.1
@@ -112,8 +112,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	additional_machine_guns = {
-		category = tank_special_module
+	additional_machine_guns_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
 			anti_tank
@@ -125,8 +125,8 @@ equipment_modules = {
 			build_cost_ic = 2
 		}
 	}
-	additional_heavy_machine_guns = {
-		category = tank_special_module
+	additional_heavy_machine_guns_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
 			anti_tank
@@ -139,8 +139,8 @@ equipment_modules = {
 			build_cost_ic = 3
 		}
 	}
-	hull_flamethrower = {
-		category = tank_special_module
+	hull_flamethrower_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
 			anti_tank
@@ -154,16 +154,16 @@ equipment_modules = {
 			build_cost_ic = 3
 		}
 	}
-	dozer_blade = {
-		category = tank_special_module
+	dozer_blade_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			defense = 6
 			build_cost_ic = 2
 		}
 	}
-	add_on_rockets = {
-		category = tank_special_module
+	add_on_rockets_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
 			anti_tank
@@ -175,8 +175,8 @@ equipment_modules = {
 			build_cost_ic = 2
 		}
 	}
-	sloped_armor = {
-		category = tank_special_module
+	sloped_armor_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		multiply_stats = {
 			armor_value = 0.25
@@ -184,8 +184,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	apcr_round = {
-		category = tank_special_module
+	apcr_round_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 2
@@ -196,8 +196,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	panzergranate = {
-		category = tank_special_module
+	panzergranate_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 2
@@ -210,8 +210,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	advanced_artillery_round = {
-		category = tank_special_module
+	advanced_artillery_round_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			build_cost_ic = 2
@@ -222,12 +222,16 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	expanded_fuel_tank = {
-		category = tank_special_module
+	expanded_fuel_tank_module = {
+		category = special_module_category
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			fuel_capacity = 200
 			build_cost_ic = 1.5
 		}
+	}
+	cupola_module = {
+		category = special_module_category
+		sfx = sfx_ui_sd_module_turret
 	}
 }

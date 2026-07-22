@@ -1,27 +1,111 @@
 equipments = {
-	artillery_equipment_archetype = {
+	pack_artillery_archetype = {
 		is_archetype = yes
 		is_buildable = no
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	heavy_artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	super_heavy_artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		can_license = no
+		picture = archetype_artillery_equipment
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	super_heavy_self_propelled_artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		can_license = no
+		picture = archetype_artillery_equipment
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	rocket_artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		can_license = no
+		picture = archetype_artillery_equipment
+		type = artillery
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	motorised_rocket_artillery_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		can_license = no
+		picture = archetype_artillery_equipment
 		type = {
 			artillery
-			infantry
+			motorized
 		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
+	pack_artillery_1_equipment = {
+		archetype = pack_artillery_archetype
+	}
+	pack_artillery_2_equipment = {
+		archetype = pack_artillery_archetype
+		parent = pack_artillery_1_equipment
+	}
+	pack_artillery_3_equipment = {
+		archetype = pack_artillery_archetype
+		parent = pack_artillery_2_equipment
+	}
 	artillery_1_equipment = {
-		archetype = artillery_equipment_archetype
+		archetype = artillery_archetype
 	}
 	artillery_2_equipment = {
-		archetype = artillery_equipment_archetype
+		archetype = artillery_archetype
 		parent = artillery_1_equipment
 	}
 	artillery_3_equipment = {
-		archetype = artillery_equipment_archetype
+		archetype = artillery_archetype
 		parent = artillery_2_equipment
 	}
 	artillery_4_equipment = {
-		archetype = artillery_equipment_archetype
+		archetype = artillery_archetype
 		parent = artillery_3_equipment
+	}
+	heavy_artillery_1_equipment = {
+		archetype = heavy_artillery_archetype
+	}
+	heavy_artillery_2_equipment = {
+		archetype = heavy_artillery_archetype
+		parent = heavy_artillery_1_equipment
+	}
+	heavy_artillery_3_equipment = {
+		archetype = heavy_artillery_archetype
+		parent = heavy_artillery_2_equipment
+	}
+	super_heavy_artillery_1_equipment = {
+		archetype = super_heavy_artillery_archetype
+	}
+	super_heavy_self_propelled_artillery_1_equipment = {
+		archetype = super_heavy_self_propelled_artillery_archetype
+	}
+	rocket_artillery_1_equipment = {
+		archetype = rocket_artillery_archetype
+	}
+	motorised_rocket_artillery_1_equipment = {
+		archetype = motorised_rocket_artillery_archetype
 	}
 }

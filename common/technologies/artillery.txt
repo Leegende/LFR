@@ -86,7 +86,6 @@ technologies = {
 			}
 		}
 	}
-	
 	pack_artillery_1_upgrade_technology = {
 		path = {
 			leads_to_tech = pack_artillery_2_upgrade_technology
@@ -213,7 +212,6 @@ technologies = {
 			}
 		}
 	}
-	
 	artillery_1_upgrade_technology = {
 		path = {
 			leads_to_tech = artillery_2_upgrade_technology
@@ -232,7 +230,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_1_equipment_technology = {
+	artillery_2_equipment_technology = {
 		enable_equipments = {
 			artillery_1_equipment
 		}
@@ -280,7 +278,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_2_equipment_technology = {
+	artillery_3_equipment_technology = {
 		enable_equipments = {
 			artillery_2_equipment
 		}
@@ -319,7 +317,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_3_equipment_technology = {
+	artillery_4_equipment_technology = {
 		enable_equipments = {
 			artillery_3_equipment
 		}
@@ -343,7 +341,6 @@ technologies = {
 			}
 		}
 	}
-	
 	heavy_artillery_1_upgrade_technology = {
 		path = {
 			leads_to_tech = heavy_artillery_2_upgrade_technology

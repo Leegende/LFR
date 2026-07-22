@@ -1,0 +1,20 @@
+equipments = {
+	armored_car_chassis_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = motorized
+		group_by = archetype
+		interface_category = interface_category_armor
+	}
+	armored_car_1_equipment = {
+		archetype = armored_car_chassis_archetype
+	}
+	armored_car_2_equipment = {
+		archetype = armored_car_chassis_archetype
+		parent = armored_car_1_equipment
+	}
+	armored_car_3_equipment = {
+		archetype = armored_car_chassis_archetype
+		parent = armored_car_2_equipment
+	}
+}

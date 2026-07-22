@@ -1,6 +1,30 @@
 equipments = {
 	light_tank_panzer_2_chassis = {
 		archetype = light_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
+		upgrades = {
+			armor_upgrade
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	light_tank_panzer_35t_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -18,13 +42,8 @@ equipments = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_35t_chassis
 	}
-	light_tank_panzer_38t_chassis = {
-		archetype = light_tank_chassis_archetype
-		parent = light_tank_panzer_35t_chassis
-	}
 	light_tank_luchs_chassis = {
 		archetype = light_tank_chassis_archetype
-		parent = light_tank_panzer_38t_chassis
 	}
 	medium_tank_panzer_3_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -67,5 +86,4 @@ equipments = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_tiger_1_chassis
 	}
-
 }

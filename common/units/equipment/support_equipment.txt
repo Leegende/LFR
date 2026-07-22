@@ -10,7 +10,7 @@ equipments = {
 		group_by = archetype
 		interface_category = interface_category_land
 	}
-	support_equipment = {
+	support_equipment_1_equipment = {
 		archetype = support_equipment_archetype
 	}
 }

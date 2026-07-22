@@ -5,7 +5,7 @@ news_event = {
 	is_triggered_only = yes
 	hidden = yes
 	option = {
-		name = "Ok"
+		name = ""
 	}
 	timeout_days = 1
 }

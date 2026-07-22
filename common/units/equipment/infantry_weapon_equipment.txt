@@ -1,5 +1,5 @@
 equipments = {
-	infantry_weapon_equipment_archetype = {
+	infantry_weapon_archetype = {
 		is_archetype = yes
 		is_buildable = no
 		type = infantry
@@ -8,22 +8,22 @@ equipments = {
 		active = yes
 	}
 	infantry_weapon_1_equipment = {
-		archetype = infantry_weapon_equipment_archetype
+		archetype = infantry_weapon_archetype
 	}
 	infantry_weapon_2_equipment = {
-		archetype = infantry_weapon_equipment_archetype
+		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_1_equipment
 	}
 	infantry_weapon_3_equipment = {
-		archetype = infantry_weapon_equipment_archetype
+		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_2_equipment
 	}
 	infantry_weapon_4_equipment = {
-		archetype = infantry_weapon_equipment_archetype
+		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_3_equipment
 	}
 	infantry_weapon_5_equipment = {
-		archetype = infantry_weapon_equipment_archetype
+		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_4_equipment
 	}
 }

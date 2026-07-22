@@ -1,5 +1,5 @@
 equipments = {
-	fighter_equipment_archetype = {
+	fighter_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
@@ -10,7 +10,7 @@ equipments = {
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
 	}
-	fighter_bomber_equipment_archetype = {
+	fighter_bomber_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
@@ -24,7 +24,7 @@ equipments = {
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
 	}
-	cas_equipment_archetype = {
+	cas_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
@@ -35,7 +35,7 @@ equipments = {
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
 	}
-	heavy_fighter_equipment_archetype = {
+	heavy_fighter_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
@@ -46,7 +46,7 @@ equipments = {
 		interface_category = interface_category_air
 		interface_overview_category_index = 3
 	}
-	tactical_bomber_equipment_archetype = {
+	tactical_bomber_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
@@ -57,7 +57,7 @@ equipments = {
 		interface_category = interface_category_air
 		interface_overview_category_index = 3
 	}
-	transport_plane_equipment_archetype = {
+	transport_plane_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no

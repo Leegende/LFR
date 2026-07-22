@@ -1,5 +1,5 @@
 equipments = {
-	mechanised_equipment_archetype = {
+	mechanised_archetype = {
 		is_archetype = yes
 		is_buildable = no
 		type = mechanized
@@ -7,15 +7,15 @@ equipments = {
 		interface_category = interface_category_land
 		supply_truck = no
 	}
-	mechanised_1_equipment = {
-		archetype = mechanised_equipment_archetype
+	mechanised_1 = {
+		archetype = mechanised_archetype
 	}
-	mechanised_2_equipment = {
-		archetype = mechanised_equipment_archetype
-		parent = mechanised_1_equipment
+	mechanised_2 = {
+		archetype = mechanised_archetype
+		parent = mechanised_1
 	}
-	mechanised_3_equipment = {
-		archetype = mechanised_equipment_archetype
-		parent = mechanised_2_equipment
+	mechanised_3 = {
+		archetype = mechanised_archetype
+		parent = mechanised_2
 	}
 }

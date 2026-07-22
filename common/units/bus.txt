@@ -6,6 +6,5 @@ sub_units = {
 		active = yes
 		affects_speed = no
 		can_be_parachuted = yes
-
 	}
 }

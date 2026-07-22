@@ -1,5 +1,5 @@
 upgrades = {
-	tank_armor_upgrade = {
+	armor_upgrade = {
 		max_level = 2
 		linear_cost = {
 			cost_by_level = 0

@@ -1,0 +1,215 @@
+@1936 = 0
+@1937 = 2
+@1938 = 4
+@1939 = 6
+@1940 = 8
+@1941 = 10
+@1942 = 12
+@1943 = 14
+@1944 = 16
+technologies = {
+	train_1_equipment_technology = {
+		enable_equipments = {
+			train_1_equipment
+		}
+		path = {
+			leads_to_tech = train_2_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	train_2_equipment_technology = {
+		enable_equipments = {
+			train_2_equipment
+		}
+		path = {
+			leads_to_tech = train_3_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	train_3_equipment_technology = {
+		enable_equipments = {
+			train_3_equipment
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	armored_car_1_equipment_technology = {
+		enable_equipments = {
+			armored_car_1_equipment
+		}
+		path = {
+			leads_to_tech = armored_car_2_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	armored_car_2_equipment_technology = {
+		enable_equipments = {
+			armored_car_2_equipment
+		}
+		path = {
+			leads_to_tech = armored_car_3_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	armored_car_3_equipment_technology = {
+		enable_equipments = {
+			armored_car_3_equipment
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	motorised_equipment_technology = {
+		enable_equipments = {
+			motorised_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_1_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtrac_1_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	mechanised_1_equipment_technology = {
+		enable_equipments = {
+			mechanised_1
+		}
+		path = {
+			leads_to_tech = mechanised_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtrac_1_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -2
+				y = @1938
+			}
+		}
+	}
+	amtrac_1_equipment_technology = {
+		enable_equipments = {
+			amtrac_1_equipment
+		}
+		path = {
+			leads_to_tech = amtrac_2_equipment_technology
+		}
+		path = {
+			leads_to_tech = mechanised_1_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 2
+				y = @1938
+			}
+		}
+	}
+	mechanised_2_equipment_technology = {
+		enable_equipments = {
+			mechanised_2
+		}
+		path = {
+			leads_to_tech = mechanised_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = amtrac_2_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -2
+				y = @1940
+			}
+		}
+	}
+	amtrac_2_equipment_technology = {
+		enable_equipments = {
+			amtrac_2_equipment
+		}
+		path = {
+			leads_to_tech = amtrac_3_equipment_technology
+		}
+		path = {
+			leads_to_tech = mechanised_2_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 2
+				y = @1940
+			}
+		}
+	}
+	mechanised_3_equipment_technology = {
+		enable_equipments = {
+			mechanised_3
+		}
+		path = {
+			leads_to_tech = amtrac_3_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -2
+				y = @1942
+			}
+		}
+	}
+	amtrac_3_equipment_technology = {
+		enable_equipments = {
+			amtrac_3_equipment
+		}
+		path = {
+			leads_to_tech = mechanised_3_equipment_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 2
+				y = @1942
+			}
+		}
+	}
+}

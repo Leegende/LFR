@@ -187,39 +187,48 @@ script_enum_equipment_bonus_type = {
 	flame
 	land_cruiser
 	###
-	fighter_equipment_archetype
-	fighter_bomber_equipment_archetype
-	cas_equipment_archetype
-	heavy_fighter_equipment_archetype
-	tactical_bomber_equipment_archetype
-	transport_plane_equipment_archetype
-	armored_car_equipment_archetype
-	amtracs_equipment_archetype
-	anti_tank_equipment_archetype
+	fighter_archetype
+	fighter_bomber_archetype
+	cas_archetype
+	heavy_fighter_archetype
+	tactical_bomber_archetype
+	transport_plane_archetype
+	armored_car_chassis_archetype
+	amtrac_archetype
+	anti_tank_archetype
 	light_tank_chassis_archetype
 	medium_tank_chassis_archetype
 	heavy_tank_chassis_archetype
 	light_tank_amphibious_chassis_archetype
 	medium_tank_amphibious_chassis_archetype
 	heavy_tank_amphibious_chassis_archetype
-	artillery_equipment_archetype
-	heavy_anti_tank_equipment_archetype
-	heavy_artillery_equipment_archetype
-	infantry_weapon_equipment_archetype
-	mechanised_equipment_archetype
-	motorised_equipment_archetype
-	pack_anti_tank_equipment_archetype
-	pack_artillery_equipment_archetype
+	artillery_archetype
+	heavy_anti_tank_archetype
+	heavy_artillery_archetype
+	infantry_weapon_archetype
+	mechanised_archetype
+	motorised_archetype
+	pack_anti_tank_archetype
+	pack_artillery_archetype
 	support_equipment_archetype
-	train_equipment_archetype
+	train_archetype
+	pack_anti_air_archetype
+	anti_air_archetype
+	heavy_anti_air_archetype
+	armored_support_vehicle_chassis_archetype
+	super_heavy_artillery_archetype
+	super_heavy_self_propelled_artillery_archetype
+	rocket_artillery_archetype
+	motorised_rocket_artillery_archetype
+	special_forces_equipment_archetype
 	###
 	armored_car_1_equipment
 	armored_car_2_equipment
 	armored_car_3_equipment
 	armored_car_4_equipment
-	amtracs_1_equipment
-	amtracs_2_equipment
-	amtracs_3_equipment
+	amtrac_1_equipment
+	amtrac_2_equipment
+	amtrac_3_equipment
 	anti_tank_1_equipment
 	anti_tank_2_equipment
 	anti_tank_3_equipment
@@ -259,9 +268,9 @@ script_enum_equipment_bonus_type = {
 	cas_1_equipment
 	cas_2_equipment
 	cas_3_equipment
-	mechanised_1_equipment
-	mechanised_2_equipment
-	mechanised_3_equipment
+	mechanised_1
+	mechanised_2
+	mechanised_3
 	motorised_equipment
 	pack_anti_tank_1_equipment
 	pack_anti_tank_2_equipment
@@ -269,7 +278,6 @@ script_enum_equipment_bonus_type = {
 	pack_artillery_1_equipment
 	pack_artillery_2_equipment
 	pack_artillery_3_equipment
-	support_equipment
 	medium_tank_ram_chassis
 	medium_tank_grizzly_chassis
 	light_tank_mk6_chassis
@@ -301,7 +309,6 @@ script_enum_equipment_bonus_type = {
 	light_tank_panzer_38t_chassis
 	light_tank_schwimmpanzer_38t_chassis
 	light_tank_hetzer_chassis
-	light_tank_panzer_38t_chassis
 	light_tank_luchs_chassis
 	medium_tank_panzer_3_ausf_a_chassis
 	medium_tank_panzer_4_ausf_a_chassis
@@ -347,4 +354,79 @@ script_enum_equipment_bonus_type = {
 	train_1_equipment
 	train_2_equipment
 	train_3_equipment
+	pack_anti_air_1_equipment
+	anti_air_1_equipment
+	heavy_anti_air_1_equipment
+	armored_support_vehicle_chassis_1_equipment
+	super_heavy_artillery_1_equipment
+	super_heavy_self_propelled_artillery_1_equipment
+	rocket_artillery_1_equipment
+	motorised_rocket_artillery_1_equipment
+	mechanised_anti_air_equipment
+	mechanised_artillery_equipment
+	mechanised_anti_tank_equipment
+	mechanised_utility_equipment
+	mechanised_flame_equipment
+	amtrac_anti_air_equipment
+	amtrac_artillery_equipment
+	amtrac_anti_tank_equipment
+	amtrac_utility_equipment
+	amtrac_flame_equipment
+	light_tank_anti_air_chassis
+	light_tank_artillery_chassis
+	light_tank_anti_tank_chassis
+	light_tank_flame_chassis
+	medium_tank_anti_air_chassis
+	medium_tank_artillery_chassis
+	medium_tank_anti_tank_chassis
+	medium_tank_flame_chassis
+	heavy_tank_anti_tank_chassis
+	heavy_tank_artillery_chassis
+	heavy_tank_flame_chassis
+	heavy_tank_anti_air_chassis
+	light_tank_amphibious_aa_chassis
+	light_tank_amphibious_artillery_chassis
+	light_tank_amphibious_destroyer_chassis
+	light_tank_amphibious_amphibious_chassis
+	light_tank_amphibious_flame_chassis
+	medium_tank_amphibious_aa_chassis
+	medium_tank_amphibious_artillery_chassis
+	medium_tank_amphibious_destroyer_chassis
+	medium_tank_amphibious_flame_chassis
+	heavy_tank_amphibious_aa_chassis
+	heavy_tank_amphibious_artillery_chassis
+	heavy_tank_amphibious_destroyer_chassis
+	heavy_tank_amphibious_flame_chassis
+	mechanised_anti_air_equipment1
+	mechanised_anti_air_equipment2
+	mechanised_anti_air_equipment3
+	mechanised_artillery_equipment1
+	mechanised_artillery_equipment2
+	mechanised_artillery_equipment3
+	mechanised_anti_tank_equipment1
+	mechanised_anti_tank_equipment2
+	mechanised_anti_tank_equipment3
+	mechanised_utility_equipment1
+	mechanised_utility_equipment2
+	mechanised_utility_equipment3
+	mechanised_flame_equipment1
+	mechanised_flame_equipment2
+	mechanised_flame_equipment3
+	amtrac_anti_air_equipment1_equipment
+	amtrac_anti_air_equipment2_equipment
+	amtrac_anti_air_equipment3_equipment
+	amtrac_artillery_equipment1_equipment
+	amtrac_artillery_equipment2_equipment
+	amtrac_artillery_equipment3_equipment
+	amtrac_anti_tank_equipment1_equipment
+	amtrac_anti_tank_equipment2_equipment
+	amtrac_anti_tank_equipment3_equipment
+	amtrac_utility_equipment1_equipment
+	amtrac_utility_equipment2_equipment
+	amtrac_utility_equipment3_equipment
+	amtrac_flame_equipment1_equipment
+	amtrac_flame_equipment2_equipment
+	amtrac_flame_equipment3_equipment
+	support_equipment_1_equipment
+	special_forces_equipment
 }

@@ -55,6 +55,7 @@ sub_unit_categories = {
 	category_motorised
 	category_mechanised
 	category_amtrac
+	category_armored_car
 	
 	category_red_guard
 	category_ss

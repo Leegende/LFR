@@ -44,9 +44,9 @@ categories = {
 	}
 	dense_urban = {
 		color = {
-			120
-			120
-			120
+			121
+			121
+			121
 		}
 	}
 	forest = {

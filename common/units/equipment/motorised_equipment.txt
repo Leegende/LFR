@@ -1,5 +1,5 @@
 equipments = {
-	motorised_equipment_archetype = {
+	motorised_archetype = {
 		is_archetype = yes
 		is_buildable = no
 		type = motorized
@@ -8,6 +8,6 @@ equipments = {
 		supply_truck = yes
 	}
 	motorised_equipment = {
-		archetype = motorised_equipment_archetype
+		archetype = motorised_archetype
 	}
 }

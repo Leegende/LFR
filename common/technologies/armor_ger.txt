@@ -19,6 +19,9 @@
 @heavy_tanks = 8
 technologies = {
 	ger_light_tank_panzer_2_chassis_technology = {
+		enable_equipments = {
+			light_tank_panzer_2_chassis
+		}
 		path = {
 			leads_to_tech = ger_light_tank_panzer_35t_chassis_technology
 		}

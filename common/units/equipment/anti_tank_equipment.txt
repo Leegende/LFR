@@ -1,27 +1,60 @@
 equipments = {
-	anti_tank_equipment_archetype = {
+	pack_anti_tank_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		type = {
-			anti_tank
-			infantry
-		}
+		type = anti_tank
 		group_by = archetype
 		interface_category = interface_category_land
 	}
+	anti_tank_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = anti_tank
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	heavy_anti_tank_archetype = {
+		is_archetype = yes
+		is_buildable = no
+		type = anti_tank
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	pack_anti_tank_1_equipment = {
+		archetype = pack_anti_tank_archetype
+	}
+	pack_anti_tank_2_equipment = {
+		archetype = pack_anti_tank_archetype
+		parent = pack_anti_tank_1_equipment
+	}
+	pack_anti_tank_3_equipment = {
+		archetype = pack_anti_tank_archetype
+		parent = pack_anti_tank_2_equipment
+	}
 	anti_tank_1_equipment = {
-		archetype = anti_tank_equipment_archetype
+		archetype = anti_tank_archetype
 	}
 	anti_tank_2_equipment = {
-		archetype = anti_tank_equipment_archetype
+		archetype = anti_tank_archetype
 		parent = anti_tank_1_equipment
 	}
 	anti_tank_3_equipment = {
-		archetype = anti_tank_equipment_archetype
+		archetype = anti_tank_archetype
 		parent = anti_tank_2_equipment
 	}
 	anti_tank_4_equipment = {
-		archetype = anti_tank_equipment_archetype
+		archetype = anti_tank_archetype
 		parent = anti_tank_2_equipment
+	}
+	heavy_anti_tank_1_equipment = {
+		archetype = heavy_anti_tank_archetype
+	}
+	heavy_anti_tank_2_equipment = {
+		archetype = heavy_anti_tank_archetype
+		parent = heavy_anti_tank_1_equipment
+	}
+	heavy_anti_tank_3_equipment = {
+		archetype = heavy_anti_tank_archetype
+		parent = heavy_anti_tank_2_equipment
 	}
 }

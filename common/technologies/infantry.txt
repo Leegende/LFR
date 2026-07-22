@@ -8,10 +8,86 @@
 @1943 = 14
 @1944 = 16
 technologies = {
-	
 	infantry_weapon_1_equipment_technology = {
 		enable_equipments = {
 			infantry_weapon_1_equipment
+		}
+		enable_equipment_modules = {
+			gasoline_engine_module
+			diesel_engine_module
+			petrol_electric_engine_module
+			gas_turbine_engine_module
+			riveted_armor_module
+			cast_armor_module
+			welded_armor_module
+			torsion_bar_suspension_module
+			horstmann_suspension_module
+			christie_suspension_module
+			bogie_suspension_module
+			interleaved_suspension_module
+			flamethrower_1_module
+			flamethrower_2_module
+			flamethrower_3_module
+			light_soft_cannon_1_module
+			light_soft_cannon_2_module
+			light_soft_cannon_3_module
+			light_hard_cannon_1_module
+			light_hard_cannon_2_module
+			light_hard_cannon_3_module
+			medium_soft_cannon_1_module
+			medium_soft_cannon_2_module
+			medium_soft_cannon_3_module
+			medium_hard_cannon_1_module
+			medium_hard_cannon_2_module
+			medium_hard_cannon_3_module
+			heavy_soft_cannon_1_module
+			heavy_soft_cannon_2_module
+			heavy_soft_cannon_3_module
+			heavy_hard_cannon_1_module
+			heavy_hard_cannon_2_module
+			heavy_hard_cannon_3_module
+			light_anti_air_cannon_1_module
+			light_anti_air_cannon_2_module
+			light_anti_air_cannon_3_module
+			medium_anti_air_cannon_1_module
+			medium_anti_air_cannon_2_module
+			medium_anti_air_cannon_3_module
+			heavy_anti_air_cannon_1_module
+			heavy_anti_air_cannon_2_module
+			heavy_anti_air_cannon_3_module
+			tank_radio_1_module
+			tank_radio_2_module
+			tank_radio_3_module
+			amphibious_drive_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			armor_skirts_module
+			easy_maintenance_module
+			additional_machine_guns_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			add_on_rockets_module
+			sloped_armor_module
+			apcr_round_module
+			panzergranate_module
+			advanced_artillery_round_module
+			expanded_fuel_tank_module
+			cupola_module
+			light_turret_1_module
+			light_turret_2_module
+			light_turret_3_module
+			medium_turret_1_module
+			medium_turret_2_module
+			medium_turret_3_module
+			heavy_turret_1_module
+			heavy_turret_2_module
+			heavy_turret_3_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
 		}
 		path = {
 			leads_to_tech = infantry_weapon_2_equipment_technology
@@ -81,7 +157,88 @@ technologies = {
 			}
 		}
 	}
-	
+	##special forces
+	special_forces_equipment_technology = {
+		path = {
+			leads_to_tech = less_special_forces_equipment_technology
+		}
+		path = {
+			leads_to_tech = more_special_forces_equipment_technology
+		}
+		enable_equipments = {
+			special_forces_equipment
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	less_special_forces_equipment_technology = {
+		xor = {
+			more_special_forces_equipment_technology
+		}
+		path = {
+			leads_to_tech = defense_special_forces_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = @1939
+			}
+		}
+	}
+	more_special_forces_equipment_technology = {
+		xor = {
+			less_special_forces_equipment_technology
+		}
+		path = {
+			leads_to_tech = attack_special_forces_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -1
+				y = @1939
+			}
+		}
+	}
+	defense_special_forces_equipment_technology = {
+		path = {
+			leads_to_tech = organisation_special_forces_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = @1941
+			}
+		}
+	}
+	attack_special_forces_equipment_technology = {
+		path = {
+			leads_to_tech = organisation_special_forces_equipment_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -1
+				y = @1941
+			}
+		}
+	}
+	organisation_special_forces_equipment_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1943
+			}
+		}
+	}
 	headquarter_technology = {
 		path = {
 			leads_to_tech = headquarter_infantry_technology
@@ -175,7 +332,6 @@ technologies = {
 			}
 		}
 	}
-	
 	soft_attack_infantry_weapon_1_technology = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_2_technology
@@ -221,7 +377,6 @@ technologies = {
 			}
 		}
 	}
-	
 	hard_attack_infantry_weapon_1_technology = {
 		path = {
 			leads_to_tech = hard_attack_infantry_weapon_2_technology
@@ -267,7 +422,6 @@ technologies = {
 			}
 		}
 	}
-	
 	night_vision_1_technology = {
 		path = {
 			leads_to_tech = night_vision_2_technology
@@ -286,228 +440,6 @@ technologies = {
 			position = {
 				x = 0
 				y = 2
-			}
-		}
-	}
-	
-	train_1_equipment_technology = {
-		enable_equipments = {
-			train_1_equipment
-		}
-		path = {
-			leads_to_tech = train_2_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1936
-			}
-		}
-	}
-	train_2_equipment_technology = {
-		enable_equipments = {
-			train_2_equipment
-		}
-		path = {
-			leads_to_tech = train_3_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1938
-			}
-		}
-	}
-	train_3_equipment_technology = {
-		enable_equipments = {
-			train_3_equipment
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1940
-			}
-		}
-	}
-	
-	armored_car_1_equipment_technology = {
-		enable_equipments = {
-			armored_car_1_equipment
-		}
-		path = {
-			leads_to_tech = armored_car_2_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1936
-			}
-		}
-	}
-	armored_car_2_equipment_technology = {
-		enable_equipments = {
-			armored_car_2_equipment
-		}
-		path = {
-			leads_to_tech = armored_car_3_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1938
-			}
-		}
-	}
-	armored_car_3_equipment_technology = {
-		enable_equipments = {
-			armored_car_3_equipment
-		}
-		path = {
-			leads_to_tech = armored_car_4_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1940
-			}
-		}
-	}
-	armored_car_4_equipment_technology = {
-		enable_equipments = {
-			armored_car_4_equipment
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1942
-			}
-		}
-	}
-	
-	motorised_equipment_technology = {
-		enable_equipments = {
-			motorised_equipment
-		}
-		path = {
-			leads_to_tech = mechanised_1_equipment_technology
-		}
-		path = {
-			leads_to_tech = amtracs_1_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = @1936
-			}
-		}
-	}
-	mechanised_1_equipment_technology = {
-		enable_equipments = {
-			mechanised_1_equipment
-		}
-		path = {
-			leads_to_tech = mechanised_2_equipment_technology
-		}
-		path = {
-			leads_to_tech = amtracs_1_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = -2
-				y = @1938
-			}
-		}
-	}
-	amtracs_1_equipment_technology = {
-		enable_equipments = {
-			amtracs_1_equipment
-		}
-		path = {
-			leads_to_tech = amtracs_2_equipment_technology
-		}
-		path = {
-			leads_to_tech = mechanised_1_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 2
-				y = @1938
-			}
-		}
-	}
-	mechanised_2_equipment_technology = {
-		enable_equipments = {
-			mechanised_2_equipment
-		}
-		path = {
-			leads_to_tech = mechanised_3_equipment_technology
-		}
-		path = {
-			leads_to_tech = amtracs_2_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = -2
-				y = @1940
-			}
-		}
-	}
-	amtracs_2_equipment_technology = {
-		enable_equipments = {
-			amtracs_2_equipment
-		}
-		path = {
-			leads_to_tech = amtracs_3_equipment_technology
-		}
-		path = {
-			leads_to_tech = mechanised_2_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 2
-				y = @1940
-			}
-		}
-	}
-	mechanised_3_equipment_technology = {
-		enable_equipments = {
-			mechanised_3_equipment
-		}
-		path = {
-			leads_to_tech = amtracs_3_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = -2
-				y = @1942
-			}
-		}
-	}
-	amtracs_3_equipment_technology = {
-		enable_equipments = {
-			amtracs_3_equipment
-		}
-		path = {
-			leads_to_tech = mechanised_3_equipment_technology
-		}
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 2
-				y = @1942
 			}
 		}
 	}

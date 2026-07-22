@@ -5,14 +5,17 @@ technology_folders = {
 	infantry_folder = {
 		ledger = army
 	}
+	logistics_folder = {
+		ledger = army
+	}
 	support_folder = {
 		ledger = army
 	}
 	armour_ger_folder = {
 		ledger = army
-		available = {
-			original_tag = GER
-		}
+		#available = {
+		#	original_tag = GER
+		#}
 	}
 	armour_ita_folder = {
 		ledger = army

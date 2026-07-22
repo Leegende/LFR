@@ -1,25 +1,25 @@
 sub_units = {
-	fighter_equipment = {
+	fighter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = fighter
 		need = {
-			fighter_equipment_archetype = 1
+			fighter_archetype = 1
 		}
 		land_air_wing_size = 100
 	}
-	cas_equipment = {
+	cas = {
 		sprite = light_plane
 		priority = 2
 		active = yes
 		type = cas
 		need = {
-			cas_equipment_archetype = 1
+			cas_archetype = 1
 		}
 		land_air_wing_size = 100
 	}
-	fighter_bomber_equipment = {
+	fighter_bomber = {
 		sprite = light_plane
 		priority = 3
 		active = yes
@@ -28,17 +28,17 @@ sub_units = {
 			cas
 		}
 		need = {
-			fighter_bomber_equipment_archetype = 1
+			fighter_bomber_archetype = 1
 		}
 		land_air_wing_size = 100
 	}
-	tactical_bomber_equipment = {
+	tactical_bomber = {
 		sprite = medium_plane
 		priority = 4
 		active = yes
 		type = tactical_bomber
 		need = {
-			tactical_bomber_equipment_archetype = 1
+			tactical_bomber_archetype = 1
 		}
 		land_air_wing_size = 100
 	}
@@ -48,17 +48,17 @@ sub_units = {
 		active = yes
 		type = heavy_fighter
 		need = {
-			heavy_fighter_equipment_archetype = 1
+			heavy_fighter_archetype = 1
 		}
 		land_air_wing_size = 100
 	}
-	transport_plane_equipment = {
+	transport_plane = {
 		sprite = medium_plane
 		priority = 5
 		active = yes
 		type = air_transport
 		need = {
-			transport_plane_equipment = 1
+			transport_plane_archetype = 1
 		}
 		land_air_wing_size = 10
 	}

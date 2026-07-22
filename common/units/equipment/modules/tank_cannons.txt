@@ -1,6 +1,6 @@
 equipment_modules = {
-	flamethrower_1 = {
-		category = flamethrower
+	flamethrower_1_module = {
+		category = flamethrower_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
@@ -10,15 +10,9 @@ equipment_modules = {
 			anti_tank
 			artillery
 		}
-		add_stats = {
-			soft_attack = 20
-			build_cost_ic = 4
-			reliability = -0.1
-		}
-		dismantle_cost_ic = 1
 	}
-	flamethrower_2 = {
-		category = flamethrower
+	flamethrower_2_module = {
+		category = flamethrower_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
@@ -28,15 +22,9 @@ equipment_modules = {
 			anti_tank
 			artillery
 		}
-		add_stats = {
-			soft_attack = 25
-			build_cost_ic = 5
-			reliability = -0.1
-		}
-		dismantle_cost_ic = 2
 	}
-	flamethrower_3 = {
-		category = flamethrower
+	flamethrower_3_module = {
+		category = flamethrower_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
@@ -46,106 +34,25 @@ equipment_modules = {
 			anti_tank
 			artillery
 		}
-		add_stats = {
-			soft_attack = 30
-			build_cost_ic = 6
-			reliability = -0.1
-		}
-		dismantle_cost_ic = 2.5
 	}
-	modern_soft_attack = {
-		category = modern_cannons
+	###
+	light_soft_cannon_1_module = {
+		category = light_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
-		forbid_equipment_type = {
-			anti_air
-			anti_tank
-		}
-		add_stats = {
-			soft_attack = 90
-			hard_attack = 70
-			build_cost_ic = 14
-		}
-		multiply_stats = {
-			breakthrough = 0.1
-		}
-		dismantle_cost_ic = 3
 	}
-	modern_hard_attack = {
-		category = modern_cannons
-		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = anti_tank
-		forbid_equipment_type = {
-			anti_air
-			artillery
-		}
-		add_stats = {
-			soft_attack = 70
-			hard_attack = 90
-			ap_attack = 200
-			build_cost_ic = 14
-		}
-		multiply_stats = {
-			breakthrough = 0.1
-		}
-		dismantle_cost_ic = 3
-	}
-	modern_aa = {
-		category = modern_cannons
-		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = anti_air
-		forbid_equipment_type = {
-			anti_tank
-			artillery
-		}
-		add_stats = {
-			soft_attack = 30
-			hard_attack = 30
-			ap_attack = 50
-			air_attack = 50
-			breakthrough = 15
-			build_cost_ic = 14
-		}
-		dismantle_cost_ic = 3
-	}
-	small_soft_cannon_1 = {
-		category = tank_armament_tier_light_1
+	light_soft_cannon_2_module = {
+		category = light_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
-		add_stats = {
-			soft_attack = 30
-			hard_attack = 12.5
-			ap_attack = 20
-			build_cost_ic = 6
-		}
-		dismantle_cost_ic = 2
 	}
-	small_soft_cannon_2 = {
-		category = tank_armament_tier_light_2
+	light_soft_cannon_3_module = {
+		category = light_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
-		add_stats = {
-			soft_attack = 35
-			hard_attack = 15
-			ap_attack = 35
-			build_cost_ic = 8
-		}
-		dismantle_cost_ic = 2
 	}
-	small_soft_cannon_3 = {
-		category = tank_armament_tier_light_3
-		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = artillery
-		add_stats = {
-			soft_attack = 45
-			hard_attack = 20
-			ap_attack = 50
-			build_cost_ic = 10
-		}
-		dismantle_cost_ic = 2
-	}
-	small_hard_cannon_1 = {
-		category = tank_armament_tier_light_1
+	light_hard_cannon_1_module = {
+		category = light_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -156,8 +63,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	small_hard_cannon_2 = {
-		category = tank_armament_tier_light_2
+	light_hard_cannon_2_module = {
+		category = light_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -168,8 +75,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	small_hard_cannon_3 = {
-		category = tank_armament_tier_light_3
+	light_hard_cannon_3_module = {
+		category = light_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -180,8 +87,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	medium_soft_cannon_1 = {
-		category = tank_armament_tier_medium_1
+	medium_soft_cannon_1_module = {
+		category = medium_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -192,8 +99,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	medium_soft_cannon_2 = {
-		category = tank_armament_tier_medium_2
+	medium_soft_cannon_2_module = {
+		category = medium_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -204,8 +111,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	medium_soft_cannon_3 = {
-		category = tank_armament_tier_medium_3
+	medium_soft_cannon_3_module = {
+		category = medium_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -216,8 +123,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	medium_hard_cannon_1 = {
-		category = tank_armament_tier_medium_1
+	medium_hard_cannon_1_module = {
+		category = medium_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = {
 			anti_tank
@@ -230,8 +137,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	medium_hard_cannon_2 = {
-		category = tank_armament_tier_medium_2
+	medium_hard_cannon_2_module = {
+		category = medium_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -242,8 +149,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	medium_hard_cannon_3 = {
-		category = tank_armament_tier_medium_3
+	medium_hard_cannon_3_module = {
+		category = medium_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -254,8 +161,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 0.5
 	}
-	heavy_soft_cannon_1 = {
-		category = tank_armament_tier_heavy_1
+	heavy_soft_cannon_1_module = {
+		category = heavy_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -266,8 +173,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_soft_cannon_2 = {
-		category = tank_armament_tier_heavy_2
+	heavy_soft_cannon_2_module = {
+		category = heavy_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -278,8 +185,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_soft_cannon_3 = {
-		category = tank_armament_tier_heavy_3
+	heavy_soft_cannon_3_module = {
+		category = heavy_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		add_stats = {
@@ -293,8 +200,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_hard_cannon_1 = {
-		category = tank_armament_tier_heavy_1
+	heavy_hard_cannon_1_module = {
+		category = heavy_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -305,8 +212,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_hard_cannon_2 = {
-		category = tank_armament_tier_heavy_2
+	heavy_hard_cannon_2_module = {
+		category = heavy_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -317,8 +224,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_hard_cannon_3 = {
-		category = tank_armament_tier_heavy_3
+	heavy_hard_cannon_3_module = {
+		category = heavy_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
 		add_stats = {
@@ -332,8 +239,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	small_anti_air_cannon_1 = {
-		category = tank_armament_tier_light_1
+	light_anti_air_cannon_1_module = {
+		category = light_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -343,9 +250,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_light_turret_type_1
-			tank_light_turret_type_2
-			tank_light_turret_type_3
+			light_turret_1_module_category
+			light_turret_2_module_category
+			light_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 20
@@ -356,8 +263,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	small_anti_air_cannon_2 = {
-		category = tank_armament_tier_light_2
+	light_anti_air_cannon_2_module = {
+		category = light_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -367,9 +274,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_light_turret_type_1
-			tank_light_turret_type_2
-			tank_light_turret_type_3
+			light_turret_1_module_category
+			light_turret_2_module_category
+			light_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 30
@@ -380,8 +287,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1
 	}
-	small_anti_air_cannon_3 = {
-		category = tank_armament_tier_light_3
+	light_anti_air_cannon_3_module = {
+		category = light_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -391,9 +298,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_light_turret_type_1
-			tank_light_turret_type_2
-			tank_light_turret_type_3
+			light_turret_1_module_category
+			light_turret_2_module_category
+			light_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 40
@@ -404,8 +311,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	medium_anti_air_cannon_1 = {
-		category = tank_armament_tier_medium_1
+	medium_anti_air_cannon_1_module = {
+		category = medium_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -415,9 +322,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_medium_turret_type_1
-			tank_medium_turret_type_2
-			tank_medium_turret_type_3
+			medium_turret_1_module_category
+			medium_turret_2_module_category
+			medium_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 25
@@ -428,8 +335,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	medium_anti_air_cannon_2 = {
-		category = tank_armament_tier_medium_2
+	medium_anti_air_cannon_2_module = {
+		category = medium_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -439,9 +346,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_medium_turret_type_1
-			tank_medium_turret_type_2
-			tank_medium_turret_type_3
+			medium_turret_1_module_category
+			medium_turret_2_module_category
+			medium_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 35
@@ -452,8 +359,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	medium_anti_air_cannon_3 = {
-		category = tank_armament_tier_medium_3
+	medium_anti_air_cannon_3_module = {
+		category = medium_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -463,9 +370,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_medium_turret_type_1
-			tank_medium_turret_type_2
-			tank_medium_turret_type_3
+			medium_turret_1_module_category
+			medium_turret_2_module_category
+			medium_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 45
@@ -476,8 +383,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3
 	}
-	heavy_anti_air_cannon_1 = {
-		category = tank_armament_tier_heavy_1
+	heavy_anti_air_cannon_1_module = {
+		category = heavy_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -487,9 +394,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_heavy_turret_type_1
-			tank_heavy_turret_type_2
-			tank_heavy_turret_type_3
+			heavy_turret_1_module_category
+			heavy_turret_2_module_category
+			heavy_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 40
@@ -500,8 +407,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	heavy_anti_air_cannon_2 = {
-		category = tank_armament_tier_heavy_2
+	heavy_anti_air_cannon_2_module = {
+		category = heavy_armament_2_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -511,9 +418,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_heavy_turret_type_1
-			tank_heavy_turret_type_2
-			tank_heavy_turret_type_3
+			heavy_turret_1_module_category
+			heavy_turret_2_module_category
+			heavy_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 50
@@ -524,8 +431,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 	}
-	heavy_anti_air_cannon_3 = {
-		category = tank_armament_tier_heavy_3
+	heavy_anti_air_cannon_3_module = {
+		category = heavy_armament_3_module_category
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_air
 		forbid_equipment_type = {
@@ -535,9 +442,9 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
-			tank_heavy_turret_type_1
-			tank_heavy_turret_type_2
-			tank_heavy_turret_type_3
+			heavy_turret_1_module_category
+			heavy_turret_2_module_category
+			heavy_turret_3_module_category
 		}
 		add_stats = {
 			air_attack = 60
