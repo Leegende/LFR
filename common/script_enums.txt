@@ -360,70 +360,7 @@ script_enum_equipment_bonus_type = {
 	super_heavy_self_propelled_artillery_1_equipment
 	rocket_artillery_1_equipment
 	motorised_rocket_artillery_1_equipment
-	mechanised_anti_air_equipment
-	mechanised_artillery_equipment
-	mechanised_anti_tank_equipment
-	mechanised_utility_equipment
-	mechanised_flame_equipment
-	amtrac_anti_air_equipment
-	amtrac_artillery_equipment
-	amtrac_anti_tank_equipment
-	amtrac_utility_equipment
-	amtrac_flame_equipment
-	mechanised_anti_air_equipment1
-	mechanised_anti_air_equipment2
-	mechanised_anti_air_equipment3
-	mechanised_artillery_equipment1
-	mechanised_artillery_equipment2
-	mechanised_artillery_equipment3
-	mechanised_anti_tank_equipment1
-	mechanised_anti_tank_equipment2
-	mechanised_anti_tank_equipment3
-	mechanised_utility_equipment1
-	mechanised_utility_equipment2
-	mechanised_utility_equipment3
-	mechanised_flame_equipment1
-	mechanised_flame_equipment2
-	mechanised_flame_equipment3
-	amtrac_anti_air_equipment1_equipment
-	amtrac_anti_air_equipment2_equipment
-	amtrac_anti_air_equipment3_equipment
-	amtrac_artillery_equipment1_equipment
-	amtrac_artillery_equipment2_equipment
-	amtrac_artillery_equipment3_equipment
-	amtrac_anti_tank_equipment1_equipment
-	amtrac_anti_tank_equipment2_equipment
-	amtrac_anti_tank_equipment3_equipment
-	amtrac_utility_equipment1_equipment
-	amtrac_utility_equipment2_equipment
-	amtrac_utility_equipment3_equipment
-	amtrac_flame_equipment1_equipment
-	amtrac_flame_equipment2_equipment
-	amtrac_flame_equipment3_equipment
 	support_equipment_1_equipment
 	special_forces_equipment
-	light_anti_air_tank
-	light_artillery_tank
-	light_anti_tank_tank
-	light_flame_tank
-	medium_anti_air_tank
-	medium_artillery_tank
-	medium_anti_tank_tank
-	medium_flame_tank
-	heavy_anti_air_tank
-	heavy_artillery_tank
-	heavy_anti_tank_tank
-	heavy_flame_tank
-	light_amphibious_anti_air_tank
-	light_amphibious_artillery_tank
-	light_amphibious_anti_tank_tank
-	light_amphibious_flame_tank
-	medium_amphibious_anti_air_tank
-	medium_amphibious_artillery_tank
-	medium_amphibious_anti_tank_tank
-	medium_amphibious_flame_tank
-	heavy_amphibious_anti_air_tank
-	heavy_amphibious_artillery_tank
-	heavy_amphibious_anti_tank_tank
-	heavy_amphibious_flame_tank
+	light_tank_aa_chassis
 }

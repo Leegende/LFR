@@ -1,12 +1,12 @@
 guiTypes = {
 	containerWindowType = {
-		name = "equipment_designer_light_artillery_tankschwimmpanzer_38t_chassis"
+		name = "equipment_designer_light_tank_luchs_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			#spriteType = "GFX_schwimmpanzer_38t_blueprint"
+			#spriteType = "GFX_luchs_blueprint"
 			position = { x=0 y=0 }
 		}
 

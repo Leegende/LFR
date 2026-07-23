@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "equipment_designer_light_flame_tankschwimmpanzer_38t_chassis"
+		name = "equipment_designer_light_anti_tank_schwimmpanzer_38t_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 

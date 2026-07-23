@@ -1,0 +1,170 @@
+duplicate_archetypes = {
+	light_tank_anti_air_ = {
+		archetype = light_tank_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	light_tank_artillery_ = {
+		archetype = light_tank_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	light_tank_anti_tank_ = {
+		archetype = light_tank_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	light_tank_flame_ = {
+		archetype = light_tank_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	medium_tank_anti_air_ = {
+		archetype = medium_tank_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	medium_tank_artillery_ = {
+		archetype = medium_tank_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	medium_tank_anti_tank_ = {
+		archetype = medium_tank_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	medium_tank_flame_ = {
+		archetype = medium_tank_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	heavy_tank_anti_air_ = {
+		archetype = heavy_tank_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	heavy_tank_artillery_ = {
+		archetype = heavy_tank_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	heavy_tank_anti_tank_ = {
+		archetype = heavy_tank_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	heavy_tank_flame_ = {
+		archetype = heavy_tank_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	light_tank_amphibious_anti_air_ = {
+		archetype = light_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	light_tank_amphibious_artillery_ = {
+		archetype = light_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	light_tank_amphibious_anti_tank_ = {
+		archetype = light_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	light_tank_amphibious_flame_ = {
+		archetype = light_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	medium_tank_amphibious_anti_air_ = {
+		archetype = medium_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	medium_tank_amphibious_artillery_ = {
+		archetype = medium_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	medium_tank_amphibious_anti_tank_ = {
+		archetype = medium_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	medium_tank_amphibious_flame_ = {
+		archetype = medium_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	heavy_tank_amphibious_anti_air_ = {
+		archetype = heavy_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	heavy_tank_amphibious_artillery_ = {
+		archetype = heavy_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	heavy_tank_amphibious_anti_tank_ = {
+		archetype = heavy_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	heavy_tank_amphibious_flame_ = {
+		archetype = heavy_tank_amphibious_chassis_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+}

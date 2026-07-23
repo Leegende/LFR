@@ -99,7 +99,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_modules/expand_fuel_tank.dds"
 		legacy_lazy_load = no
 	}
-	
 	spriteType = {
 		name = "GFX_EMI_flamethrower_1_module"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/flamethrower_1.dds"
