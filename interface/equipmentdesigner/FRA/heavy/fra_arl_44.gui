@@ -187,7 +187,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_anti_tank_arl_44_chassis"
+		name = "equipment_designer_heavy_tank_anti_tank_arl_44_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -374,7 +374,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_artillery_arl_44_chassis"
+		name = "equipment_designer_heavy_tank_artillery_arl_44_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -561,7 +561,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_flame_arl_44_chassis"
+		name = "equipment_designer_heavy_tank_flame_arl_44_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -748,7 +748,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_anti_air_arl_44_chassis"
+		name = "equipment_designer_heavy_tank_anti_air_arl_44_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 

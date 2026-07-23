@@ -187,7 +187,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_anti_tank_valentine_chassis"
+		name = "equipment_designer_heavy_tank_anti_tank_valentine_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -374,7 +374,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_artillery_valentine_chassis"
+		name = "equipment_designer_heavy_tank_artillery_valentine_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -561,7 +561,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_flame_valentine_chassis"
+		name = "equipment_designer_heavy_tank_flame_valentine_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
@@ -748,7 +748,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_heavy_anti_air_valentine_chassis"
+		name = "equipment_designer_heavy_tank_anti_air_valentine_chassis"
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
