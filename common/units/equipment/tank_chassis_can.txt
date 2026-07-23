@@ -1,9 +1,66 @@
 equipments = {
 	medium_tank_ram_chassis = {
 		archetype = medium_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
 	}
 	medium_tank_grizzly_chassis = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_ram_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_turret_3_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
 	}
 }

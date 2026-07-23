@@ -1,0 +1,32 @@
+equipments = {
+	helicopter_equipment_archetype = {
+		year = 1936
+		is_archetype = yes
+		picture = archetype_helicopter_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+			support
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	helicopter_equipment = {
+		archetype = helicopter_equipment_archetype
+	}
+	motorbike_equipment_archetype = {
+		is_archetype = yes
+		picture = archetype_motorized_equipment
+		is_buildable = no
+		type = {
+			motorized
+			support
+		}
+		group_by = archetype
+		interface_category = interface_category_land
+	}
+	motorbike_equipment = {
+		archetype = motorbike_equipment_archetype
+	}
+}

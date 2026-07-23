@@ -1,18 +1,126 @@
 equipments = {
 	light_tank_bt5_chassis = {
 		archetype = light_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	light_tank_bt7_chassis = {
 		archetype = light_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	light_tank_t70_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_bt7_chassis
-		parent = light_tank_bt5_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_turret_2_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	light_tank_t40_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_t70_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_turret_2_module_category
+					light_turret_3_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	light_tank_zis30_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -20,40 +128,324 @@ equipments = {
 	}
 	medium_tank_t28_chassis = {
 		archetype = medium_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	medium_tank_t34_57_chassis = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_t28_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	medium_tank_t35_85_chassis = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_t34_57_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	medium_tank_t35_85_amphibious_chassis = {
 		archetype = medium_tank_amphibious_chassis_archetype
 		parent = medium_tank_t35_85_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	medium_tank_t44_chassis = {
 		archetype = medium_tank_chassis_archetype
 		parent = medium_tank_t35_85_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_turret_2_module_category
+					medium_turret_3_module_category
+					medium_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	heavy_tank_t35_chassis = {
 		archetype = heavy_tank_chassis_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	heavy_tank_kv1_chassis = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_t35_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_turret_2_module_category
+					heavy_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	heavy_tank_kv1_amphibious_chassis = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_kv1_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_turret_2_module_category
+					heavy_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	heavy_tank_kv2_chassis = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_kv1_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_turret_2_module_category
+					heavy_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 	heavy_tank_is4_chassis = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_kv2_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_turret_2_module_category
+					heavy_turret_3_module_category
+					heavy_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
 	}
 }

@@ -144,6 +144,129 @@ equipments = {
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
+		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_turret_1_module_category
+					medium_casemate_module_category
+				}
+			}
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					medium_armament_1_module_category
+					flamethrower_module_category
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					suspension_module_category
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					armor_module_category
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					engine_module_category
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					radio_module_category
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		module_count_limit = {
+			module = add_on_rockets_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_heavy_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate_module
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank_module
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower_module
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers_module
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer_module
+			count < 2
+		}
+		module_count_limit = {
+			module = wet_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = easy_maintenance_module
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+		}
+		maximum_speed = 6
 	}
 	heavy_tank_chassis_archetype = {
 		is_archetype = yes
@@ -155,6 +278,129 @@ equipments = {
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
+		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_turret_1_module_category
+					heavy_casemate_module_category
+				}
+			}
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_armament_1_module_category
+					flamethrower_module_category
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					suspension_module_category
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					armor_module_category
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					engine_module_category
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					radio_module_category
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					special_module_category
+				}
+			}
+		}
+		module_count_limit = {
+			module = add_on_rockets_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_heavy_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate_module
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank_module
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower_module
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers_module
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer_module
+			count < 2
+		}
+		module_count_limit = {
+			module = wet_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = easy_maintenance_module
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+		}
+		maximum_speed = 6
 	}
 	light_tank_amphibious_chassis_archetype = {
 		is_archetype = yes

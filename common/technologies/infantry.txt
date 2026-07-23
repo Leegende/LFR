@@ -238,6 +238,7 @@ technologies = {
 			}
 		}
 	}
+	##headquarter
 	headquarter_technology = {
 		path = {
 			leads_to_tech = headquarter_infantry_technology
@@ -331,6 +332,7 @@ technologies = {
 			}
 		}
 	}
+	##upgade
 	soft_attack_infantry_weapon_1_technology = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_2_technology
@@ -421,6 +423,7 @@ technologies = {
 			}
 		}
 	}
+	##night vision
 	night_vision_1_technology = {
 		path = {
 			leads_to_tech = night_vision_2_technology
@@ -439,6 +442,139 @@ technologies = {
 			position = {
 				x = 0
 				y = 2
+			}
+		}
+	}
+	##special forces upgrade
+	marines_upgrade_1_technology = {
+		path = {
+			leads_to_tech = marines_upgrade_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	marines_upgrade_2_technology = {
+		path = {
+			leads_to_tech = marines_upgrade_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	marines_upgrade_3_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	mountaineers_upgrade_1_technology = {
+		path = {
+			leads_to_tech = mountaineers_upgrade_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	mountaineers_upgrade_2_technology = {
+		path = {
+			leads_to_tech = mountaineers_upgrade_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	mountaineers_upgrade_3_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	ranger_upgrade_1_technology = {
+		path = {
+			leads_to_tech = ranger_upgrade_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	ranger_upgrade_2_technology = {
+		path = {
+			leads_to_tech = ranger_upgrade_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	ranger_upgrade_3_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
+			}
+		}
+	}
+	shocktroops_upgrade_1_technology = {
+		path = {
+			leads_to_tech = shocktroops_upgrade_2_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1937
+			}
+		}
+	}
+	shocktroops_upgrade_2_technology = {
+		path = {
+			leads_to_tech = shocktroops_upgrade_3_technology
+		}
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1939
+			}
+		}
+	}
+	shocktroops_upgrade_3_technology = {
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = @1941
 			}
 		}
 	}

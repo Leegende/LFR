@@ -80,7 +80,7 @@ technologies = {
 			name = armour_can_folder
 			position = {
 				x = @medium_tanks_center
-				y = @1938
+				y = @1937
 			}
 		}
 	}

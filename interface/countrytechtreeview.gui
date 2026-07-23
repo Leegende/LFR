@@ -162,12 +162,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-			gridboxtype = {
-				name = "headquarter_technology_tree"
-				position = { x = 1200 y = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+		
 
 			gridboxtype = {
 				name = "soft_attack_infantry_weapon_1_technology_tree"
@@ -187,6 +182,38 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "headquarter_technology_tree"
+				position = { x = 1200 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "marines_upgrade_1_technology_tree"
+				position = { x = 1500 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "mountaineers_upgrade_1_technology_tree"
+				position = { x = 1600 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "ranger_upgrade_1_technology_tree"
+				position = { x = 1700 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "shocktroops_upgrade_1_technology_tree"
+				position = { x = 1800 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 		}
 		#logistics
 		containerWindowType = {
@@ -339,6 +366,13 @@ guiTypes = {
 				format = "UP"
 			}
 
+			gridboxtype = {
+				name = "railways_technology_tree"
+				position = { x = 1050 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
 
 		}
 		#support
@@ -619,7 +653,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "artillery_1_equipment_technology_tree"
+				name = "artillery_0_equipment_technology_tree"
 				position = { x = 980 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -2398,7 +2432,7 @@ guiTypes = {
 	}
 	###logistics folder small item
 	containerWindowType = {
-		name = "techtree_logistics_folder_small_item"
+		name = "techtree_logistics_small_item"
 		position = { x = 0 y = 0 }
 		size = { width = 72 height = 72 }
 		clipping = no

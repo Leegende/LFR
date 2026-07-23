@@ -17,7 +17,7 @@
 @heavy_artillery_upgrade = 7
 @heavy_artillery = 9
 technologies = {
-	artillery_1_equipment_technology = {
+	artillery_0_equipment_technology = {
 		#enable_equipments = {
 		#	artillery_1_equipment
 		#}
@@ -230,7 +230,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_2_equipment_technology = {
+	artillery_1_equipment_technology = {
 		enable_equipments = {
 			artillery_1_equipment
 		}
@@ -278,7 +278,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_3_equipment_technology = {
+	artillery_2_equipment_technology = {
 		enable_equipments = {
 			artillery_2_equipment
 		}
@@ -317,7 +317,7 @@ technologies = {
 			}
 		}
 	}
-	artillery_4_equipment_technology = {
+	artillery_3_equipment_technology = {
 		enable_equipments = {
 			artillery_3_equipment
 		}

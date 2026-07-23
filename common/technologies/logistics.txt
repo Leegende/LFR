@@ -212,4 +212,124 @@ technologies = {
 			}
 		}
 	}
+	##upgrades
+	railways_technology = {
+		path = {
+			leads_to_tech = railways_building_upgrade_1_technology
+		}
+		path = {
+			leads_to_tech = supply_node_building_upgrade_1_technology
+		}
+		path = {
+			leads_to_tech = naval_base_building_upgrade_1_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	railways_building_upgrade_1_technology = {
+		path = {
+			leads_to_tech = railways_building_upgrade_2_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -3
+				y = @1938
+			}
+		}
+	}
+	railways_building_upgrade_2_technology = {
+		path = {
+			leads_to_tech = railways_building_upgrade_3_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -3
+				y = @1940
+			}
+		}
+	}
+	railways_building_upgrade_3_technology = {
+		path = {
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = -3
+				y = @1942
+			}
+		}
+	}
+	supply_node_building_upgrade_1_technology = {
+		path = {
+			leads_to_tech = supply_node_building_upgrade_2_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	supply_node_building_upgrade_2_technology = {
+		path = {
+			leads_to_tech = supply_node_building_upgrade_3_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	supply_node_building_upgrade_3_technology = {
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1942
+			}
+		}
+	}
+	naval_base_building_upgrade_1_technology = {
+		path = {
+			leads_to_tech = naval_base_building_upgrade_2_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 3
+				y = @1938
+			}
+		}
+	}
+	naval_base_building_upgrade_2_technology = {
+		path = {
+			leads_to_tech = naval_base_building_upgrade_3_technology
+		}
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 3
+				y = @1940
+			}
+		}
+	}
+	naval_base_building_upgrade_3_technology = {
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 3
+				y = @1942
+			}
+		}
+	}
 }
