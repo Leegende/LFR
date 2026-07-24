@@ -1827,7 +1827,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "sov_light_tank_bt5_chassis_technology_tree"
+				name = "sov_light_tank_t26_chassis_technology_tree"
 				position = { x = 400 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

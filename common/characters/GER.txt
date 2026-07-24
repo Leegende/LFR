@@ -1,2 +1,18 @@
 characters = {
+	GER_adolf_hitler = {
+		name = GER_adolf_hitler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	GER_end = {
+		name = GER_end
+	}
 }

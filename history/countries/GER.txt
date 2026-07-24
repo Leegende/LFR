@@ -12,3 +12,31 @@ set_popularities = {
 	communism = 10
 	neutrality = 15
 }
+
+set_technology = {
+	infantry_weapon_1_equipment_technology = 1
+	special_forces_equipment_technology = 1
+	motorised_equipment_technology = 1
+	railways_technology = 1
+	armored_car_1_equipment_technology = 1
+	train_1_equipment_technology = 1
+	support_equipment_technology = 1
+	artillery_0_equipment_technology = 1
+	ger_light_tank_panzer_1_chassis_technology = 1
+	ger_light_tank_panzer_2_chassis_technology = 1
+	ger_medium_tank_panzer_3_ausf_a_chassis_technology = 1
+	ger_medium_tank_panzer_4_ausf_a_chassis_technology = 1
+	ger_heavy_tank_neubaufahrzeug_chassis_technology = 1
+	air_base_building_technology = 1
+	anti_air_building_technology = 1
+	cas_1_equipment_technology = 1
+	fighter_1_equipment_technology = 1
+	fighter_bomber_1_equipment_technology = 1
+	heavy_fighter_1_equipment_technology = 1
+	tactical_bomber_1_equipment_technology = 1
+	transport_plane_1_equipment_technology = 1
+	rubber_processing_1_technology = 1
+}
+
+recruit_character = GER_adolf_hitler
+recruit_character = GER_end

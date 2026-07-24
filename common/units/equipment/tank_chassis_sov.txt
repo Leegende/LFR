@@ -1,5 +1,5 @@
 equipments = {
-	light_tank_bt5_chassis = {
+	light_tank_t26_chassis = {
 		archetype = light_tank_chassis_archetype
 		module_slots = {
 			main_armament_slot = inherit

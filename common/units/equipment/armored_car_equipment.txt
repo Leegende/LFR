@@ -1,20 +1,172 @@
 equipments = {
-	armored_car_chassis_archetype = {
+	armored_car_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		type = motorized
+		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
+		priority = 0
+		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					armored_car_turret_module_category
+				}
+			}
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_armament_1_module_category
+					light_armament_2_module_category
+					light_armament_3_module_category
+					flamethrower_module_category
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					armored_car_suspension_module_category
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					armor_module_category
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					engine_module_category
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					radio_module_category
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					armored_car_special_module_category
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					armored_car_special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					armored_car_special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					armored_car_special_module_category
+				}
+			}
+		}
+		module_count_limit = {
+			module = add_on_rockets_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_heavy_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = additional_machine_guns_module
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_artillery_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = apcr_round_module
+			count < 2
+		}
+		module_count_limit = {
+			module = panzergranate_module
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank_module
+			count < 2
+		}
+		module_count_limit = {
+			module = extra_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = hull_flamethrower_module
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_launchers_module
+			count < 2
+		}
+		module_count_limit = {
+			module = stabilizer_module
+			count < 2
+		}
+		module_count_limit = {
+			module = wet_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = easy_maintenance_module
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+		}
+		maximum_speed = 6
 	}
 	armored_car_1_equipment = {
-		archetype = armored_car_chassis_archetype
+		archetype = armored_car_archetype
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
 	}
 	armored_car_2_equipment = {
-		archetype = armored_car_chassis_archetype
+		archetype = armored_car_archetype
 		parent = armored_car_1_equipment
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
 	}
 	armored_car_3_equipment = {
-		archetype = armored_car_chassis_archetype
+		archetype = armored_car_archetype
 		parent = armored_car_2_equipment
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
 	}
 }

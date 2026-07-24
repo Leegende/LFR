@@ -1,0 +1,113 @@
+equipment_modules = {
+	armored_car_signals_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = rocket
+	}
+	armored_car_ce_view_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_smoke_launcher_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_wet_ammo_storage_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_armor_skirts_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_easy_maintenance_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_extra_ammo_storage_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_ostketten_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_rangefinder_module = {
+		category = armored_car_special_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	###
+	armored_car_6x6_suspension_module = {
+		category = armored_car_suspension_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_8x8_suspension_module = {
+		category = armored_car_suspension_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	###
+	armored_car_hulllocked_turret_module = {
+		category = armored_car_turret_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_open_top_turret_module = {
+		category = armored_car_turret_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+	armored_car_oscillating_turret_module = {
+		category = armored_car_turret_module_category
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			fuel_capacity = 200
+			build_cost_ic = 1.5
+		}
+	}
+}

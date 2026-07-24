@@ -1,0 +1,47 @@
+characters = {
+	FRA_pierre_laval = {
+		name = FRA_pierre_laval
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_fra_pierre_laval"
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	FRA_edouard_daladier = {
+		name = FRA_edouard_daladier
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_edouard_daladier
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	FRA_charles_de_gaulle = {
+		name = FRA_charles_de_gaulle
+		portraits = {
+			army = {
+				small = "GFX_idea_charles_de_gaulle"
+			}
+			civilian = {
+				large = GFX_portrait_FRA_charles_de_gaulle
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	FRA_end = {
+		name = FRA_end
+	}
+}

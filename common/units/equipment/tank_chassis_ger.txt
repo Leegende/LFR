@@ -87,7 +87,7 @@ equipments = {
 			suspension_type_slot = empty
 		}
 	}
-	light_tank_schwimmpanzer_38t_chassis = {
+	light_tank_schwimmpanzer_2_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_panzer_38t_chassis
 		module_slots = {
@@ -119,7 +119,7 @@ equipments = {
 			suspension_type_slot = empty
 		}
 	}
-	light_tank_luchs_chassis = {
+	light_tank_leopard_chassis = {
 		archetype = light_tank_chassis_archetype
 		module_slots = {
 			main_armament_slot = inherit

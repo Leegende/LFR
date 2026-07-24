@@ -94,7 +94,7 @@ technologies = {
 	}
 	fra_heavy_tank_arl_44_chassis_technology = {
 		path = {
-			leads_to_tech = fra_heavy_tank_amx_50_chassis_technology
+			leads_to_tech = fra_heavy_tank_amx_45_chassis_technology
 		}
 		folder = {
 			name = armour_fra_folder
@@ -104,7 +104,7 @@ technologies = {
 			}
 		}
 	}
-	fra_heavy_tank_amx_50_chassis_technology = {
+	fra_heavy_tank_amx_45_chassis_technology = {
 		path = {
 			leads_to_tech = fra_heavy_tank_char_c2_chassis_technology
 		}

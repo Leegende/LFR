@@ -13,7 +13,7 @@
 @heavy_tanks_center = 0
 technologies = {
 
-	sov_light_tank_bt5_chassis_technology = {
+	sov_light_tank_t26_chassis_technology = {
 		path = {
 			leads_to_tech = sov_light_tank_bt7_chassis_technology
 		}

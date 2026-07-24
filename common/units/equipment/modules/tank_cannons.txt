@@ -5,7 +5,6 @@ equipment_modules = {
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
 		forbid_equipment_type = {
-			amphibious
 			anti_air
 			anti_tank
 			artillery
@@ -17,7 +16,6 @@ equipment_modules = {
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
 		forbid_equipment_type = {
-			amphibious
 			anti_air
 			anti_tank
 			artillery
@@ -29,7 +27,6 @@ equipment_modules = {
 		allow_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
 		forbid_equipment_type = {
-			amphibious
 			anti_air
 			anti_tank
 			artillery
@@ -246,7 +243,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -270,7 +266,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -294,7 +289,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -318,7 +312,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -342,7 +335,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -366,7 +358,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -390,7 +381,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -414,7 +404,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {
@@ -438,7 +427,6 @@ equipment_modules = {
 		forbid_equipment_type = {
 			anti_tank
 			artillery
-			amphibious
 		}
 		forbid_equipment_type_exact_match = armor
 		forbid_module_categories = {

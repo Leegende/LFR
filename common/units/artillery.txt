@@ -108,7 +108,7 @@ sub_units = {
 		type = {
 			mechanized
 			artillery
-			amphibious
+			
 		}
 		group = mobile
 	}

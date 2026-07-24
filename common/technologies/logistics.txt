@@ -112,7 +112,7 @@ technologies = {
 	}
 	mechanised_1_equipment_technology = {
 		enable_equipments = {
-			mechanised_1
+			mechanised_1_equipment
 		}
 		path = {
 			leads_to_tech = mechanised_2_equipment_technology
@@ -148,7 +148,7 @@ technologies = {
 	}
 	mechanised_2_equipment_technology = {
 		enable_equipments = {
-			mechanised_2
+			mechanised_2_equipment
 		}
 		path = {
 			leads_to_tech = mechanised_3_equipment_technology
@@ -184,7 +184,7 @@ technologies = {
 	}
 	mechanised_3_equipment_technology = {
 		enable_equipments = {
-			mechanised_3
+			mechanised_3_equipment
 		}
 		path = {
 			leads_to_tech = amtrac_3_equipment_technology

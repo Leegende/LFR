@@ -1,21 +1,171 @@
 equipments = {
 	mechanised_archetype = {
 		is_archetype = yes
+		picture = archetype_motorised_equipment
 		is_buildable = no
-		type = mechanized
+		type = armor
+		module_slots = {
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_secondary_armament_module_category
+					mech_armament_module_category
+				}
+			}
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_turret_module_category
+				}
+			}
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_suspension_module_category
+				}
+			}
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					mech_armor_module_category
+				}
+			}
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					engine_module_category
+				}
+			}
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					radio_module_category
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					mech_special_module_category
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					mech_special_module_category
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					mech_special_module_category
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					mech_special_module_category
+				}
+			}
+		}
+		module_count_limit = {
+			module = mech_ostketten_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armored_roof_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_amtrac_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_sloped_armor_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_stabilizer_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_smoke_launchers_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_extra_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_wet_ammo_storage_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_armor_skirts_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_auto_loader_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_tungston_core_ammunition_module
+			count < 2
+		}
+		module_count_limit = {
+			module = mech_commanders_cupola_module
+			count < 2
+		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = empty
+			suspension_type_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+		}
 		group_by = archetype
 		interface_category = interface_category_land
-		supply_truck = no
+		maximum_speed = 6
 	}
-	mechanised_1 = {
+	mechanised_0_equipment = {
 		archetype = mechanised_archetype
+		is_buildable = no
 	}
-	mechanised_2 = {
+	mechanised_1_equipment = {
 		archetype = mechanised_archetype
-		parent = mechanised_1
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
 	}
-	mechanised_3 = {
+	mechanised_2_equipment = {
 		archetype = mechanised_archetype
-		parent = mechanised_2
+		parent = mechanised_1_equipment
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
+	}
+	mechanised_3_equipment = {
+		archetype = mechanised_archetype
+		parent = mechanised_2_equipment
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = inherit
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+		}
 	}
 }

@@ -103,6 +103,62 @@ technologies = {
 		enable_equipments = {
 			infantry_weapon_2_equipment
 		}
+		enable_equipment_modules = {
+			mech_ostketten_module
+			mech_armored_roof_module
+			mech_amtrac_module
+			mech_sloped_armor_module
+			mech_stabilizer_module
+			mech_smoke_launchers_module
+			mech_extra_ammo_storage_module
+			mech_wet_ammo_storage_module
+			mech_armor_skirts_module
+			mech_auto_loader_module
+			mech_easy_maintenance_module
+			mech_additional_machine_guns_module
+			mech_external_fuel_tank_module
+			mech_tungston_core_ammunition_module
+			mech_commanders_cupola_module
+			mech_bogie_suspension_module
+			mech_wheeled_suspension_module
+			mech_half_track_suspension_module
+			mech_riveted_armor_module
+			mech_cast_armor_module
+			mech_welded_armor_module
+			mech_anti_air_cannon_1_module
+			mech_anti_air_cannon_2_module
+			mech_anti_air_cannon_3_module
+			mech_soft_cannon_1_module
+			mech_soft_cannon_2_module
+			mech_soft_cannon_3_module
+			mech_close_support_gun_1_module
+			mech_close_support_gun_2_module
+			mech_close_support_gun_3_module
+			mech_hard_cannon_1_module
+			mech_hard_cannon_2_module
+			mech_hard_cannon_3_module
+			mech_rocket_cannon_module
+			mech_heavy_machine_gun_module
+			mech_light_cannon_module
+			mech_turret_heavy_machine_gun_module
+			mech_utility_module
+			mech_troop_carrier_module
+			mech_light_superstructure_module
+			armored_car_signals_module
+			armored_car_ce_view_module
+			armored_car_smoke_launcher_module
+			armored_car_wet_ammo_storage_module
+			armored_car_armor_skirts_module
+			armored_car_easy_maintenance_module
+			armored_car_extra_ammo_storage_module
+			armored_car_ostketten_module
+			armored_car_rangefinder_module
+			armored_car_6x6_suspension_module
+			armored_car_8x8_suspension_module
+			armored_car_hulllocked_turret_module
+			armored_car_open_top_turret_module
+			armored_car_oscillating_turret_module
+		}
 		path = {
 			leads_to_tech = infantry_weapon_3_equipment_technology
 		}

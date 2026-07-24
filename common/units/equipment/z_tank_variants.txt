@@ -167,4 +167,109 @@ duplicate_archetypes = {
 			flame
 		}
 	}
+	mechanised_anti_air_ = {
+		archetype = mechanised_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	mechanised_artillery_ = {
+		archetype = mechanised_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	mechanised_anti_tank_ = {
+		archetype = mechanised_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	mechanised_rocket_ = {
+		archetype = mechanised_archetype
+		type = {
+			armor
+			rocket
+		}
+	}
+	mechanised_utility_ = {
+		archetype = mechanised_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	amtrac_anti_air_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	amtrac_artillery_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	amtrac_anti_tank_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	amtrac_utility_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	amtrac_rocket_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			rocket
+		}
+	}
+	armored_car_anti_air_ = {
+		archetype = armored_car_archetype
+		type = {
+			armor
+			anti_air
+		}
+	}
+	armored_car_artillery_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			artillery
+		}
+	}
+	armored_car_anti_tank_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			anti_tank
+		}
+	}
+	armored_car_flame_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			flame
+		}
+	}
+	armored_car_recon_ = {
+		archetype = amtrac_archetype
+		type = {
+			armor
+			rocket
+		}
+	}
 }

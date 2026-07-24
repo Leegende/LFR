@@ -257,7 +257,7 @@ equipments = {
 			suspension_type_slot = empty
 		}
 	}
-	heavy_tank_amx_50_chassis = {
+	heavy_tank_amx_45_chassis = {
 		archetype = heavy_tank_chassis_archetype
 		parent = heavy_tank_arl_44_chassis
 		module_slots = {
@@ -297,7 +297,7 @@ equipments = {
 	}
 	heavy_tank_char_c2_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_amx_50_chassis
+		parent = heavy_tank_amx_45_chassis
 		module_slots = {
 			main_armament_slot = inherit
 			turret_type_slot = {

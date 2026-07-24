@@ -1,0 +1,44 @@
+characters = {
+	ENG_stanley_baldwin = {
+		name = ENG_stanley_baldwin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_stanley_baldwin
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1938.1.1.1"
+			id = -1
+		}
+	}
+	ENG_neville_chamberlain = {
+		name = ENG_neville_chamberlain
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_neville_chamberlain
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	ENG_winston_churchill = {
+		name = ENG_winston_churchill
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_winston_churchill
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	ENG_end = {
+		name = ENG_end
+	}
+}

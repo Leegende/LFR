@@ -50,7 +50,7 @@ technologies = {
 			light_tank_panzer_2_chassis
 		}
 		path = {
-			leads_to_tech = ger_light_tank_luchs_chassis_technology
+			leads_to_tech = ger_light_tank_leopard_chassis_technology
 		}
 		path = {
 			leads_to_tech = ger_light_tank_hetzer_technology
@@ -68,10 +68,10 @@ technologies = {
 			light_tank_panzer_38t_chassis
 		}
 		path = {
-			leads_to_tech = ger_light_tank_schwimmpanzer_38t_chassis_technology
+			leads_to_tech = ger_light_tank_schwimmpanzer_2_chassis_technology
 		}
 		path = {
-			leads_to_tech = ger_light_tank_luchs_chassis_technology
+			leads_to_tech = ger_light_tank_leopard_chassis_technology
 		}
 		folder = {
 			name = armour_ger_folder
@@ -81,9 +81,9 @@ technologies = {
 			}
 		}
 	}
-	ger_light_tank_schwimmpanzer_38t_chassis_technology = {
+	ger_light_tank_schwimmpanzer_2_chassis_technology = {
 		enable_equipments = {
-			light_tank_schwimmpanzer_38t_chassis
+			light_tank_schwimmpanzer_2_chassis
 		}
 		folder = {
 			name = armour_ger_folder
@@ -102,9 +102,9 @@ technologies = {
 			}
 		}
 	}
-	ger_light_tank_luchs_chassis_technology = {
+	ger_light_tank_leopard_chassis_technology = {
 		enable_equipments = {
-			light_tank_luchs_chassis
+			light_tank_leopard_chassis
 		}
 		folder = {
 			name = armour_ger_folder

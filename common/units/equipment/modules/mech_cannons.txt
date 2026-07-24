@@ -1,0 +1,209 @@
+equipment_modules = {
+	mech_anti_air_cannon_1_module = {
+		category = mech_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			rocket
+			flame
+		}
+	}
+	mech_anti_air_cannon_2_module = {
+		category = mech_armament_module_category
+		parent = mech_anti_air_cannon_1_module
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			rocket
+			flame
+		}
+	}
+	mech_anti_air_cannon_3_module = {
+		category = mech_armament_module_category
+		parent = mech_anti_air_cannon_2_module
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = anti_air
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			anti_tank
+			artillery
+			rocket
+			flame
+		}
+	}
+	mech_soft_cannon_1_module = {
+		category = mech_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_soft_cannon_2_module = {
+		category = mech_armament_module_category
+		parent = mech_soft_cannon_1_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_soft_cannon_3_module = {
+		category = mech_armament_module_category
+		parent = mech_soft_cannon_2_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_close_support_gun_1_module = {
+		category = mech_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_close_support_gun_2_module = {
+		category = mech_armament_module_category
+		parent = mech_close_support_gun_1_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_close_support_gun_3_module = {
+		category = mech_armament_module_category
+		parent = mech_close_support_gun_2_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = artillery
+		forbid_equipment_type = {
+			anti_tank
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_hard_cannon_1_module = {
+		category = mech_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = {
+			artillery
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_hard_cannon_2_module = {
+		category = mech_armament_module_category
+		parent = mech_hard_cannon_1_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = {
+			artillery
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_hard_cannon_3_module = {
+		category = mech_armament_module_category
+		parent = mech_hard_cannon_2_module
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = anti_tank
+		forbid_equipment_type = {
+			artillery
+			anti_air
+			rocket
+			flame
+		}
+	}
+	mech_rocket_cannon_module = {
+		category = mech_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type_exact_match = armor
+		allow_equipment_type = rocket
+		forbid_equipment_type = {
+			artillery
+			anti_air
+			anti_tank
+			flame
+		}
+	}
+	## secondary
+	mech_heavy_machine_gun_module = {
+		category = mech_secondary_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			artillery
+			anti_tank
+			anti_air
+			flame
+		}
+	}
+	mech_light_cannon_module = {
+		category = mech_secondary_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			artillery
+			anti_tank
+			anti_air
+			flame
+		}
+	}
+	mech_turret_heavy_machine_gun_module = {
+		category = mech_secondary_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = {
+			artillery
+			anti_tank
+			anti_air
+			flame
+		}
+	}
+	mech_utility_module = {
+		category = mech_secondary_armament_module_category
+		sfx = sfx_ui_sd_module_turret
+		allow_equipment_type = flame
+		forbid_equipment_type_exact_match = armor
+		forbid_equipment_type = {
+			artillery
+			anti_tank
+			anti_air
+			rocket
+		}
+	}
+}

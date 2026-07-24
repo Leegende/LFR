@@ -13,7 +13,7 @@
 technologies = {
 	hun_light_tank_38m_chassis_technology = {
 		path = {
-			leads_to_tech = hun_light_tank_luchs_chassis_technology
+			leads_to_tech = hun_light_tank_leopard_chassis_technology
 		}
 		folder = {
 			name = armour_hun_folder
@@ -23,7 +23,7 @@ technologies = {
 			}
 		}
 	}
-	hun_light_tank_luchs_chassis_technology = {
+	hun_light_tank_leopard_chassis_technology = {
 		folder = {
 			name = armour_hun_folder
 			position = {
