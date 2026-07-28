@@ -215,10 +215,10 @@ technologies = {
 	##special forces
 	special_forces_equipment_technology = {
 		path = {
-			leads_to_tech = less_special_forces_equipment_technology
+			leads_to_tech = less_special_forces_technology
 		}
 		path = {
-			leads_to_tech = more_special_forces_equipment_technology
+			leads_to_tech = more_special_forces_technology
 		}
 		enable_equipments = {
 			special_forces_equipment
@@ -231,12 +231,12 @@ technologies = {
 			}
 		}
 	}
-	less_special_forces_equipment_technology = {
+	less_special_forces_technology = {
 		xor = {
-			more_special_forces_equipment_technology
+			more_special_forces_technology
 		}
 		path = {
-			leads_to_tech = defense_special_forces_equipment_technology
+			leads_to_tech = defense_special_forces_technology
 		}
 		folder = {
 			name = infantry_folder
@@ -246,12 +246,12 @@ technologies = {
 			}
 		}
 	}
-	more_special_forces_equipment_technology = {
+	more_special_forces_technology = {
 		xor = {
-			less_special_forces_equipment_technology
+			less_special_forces_technology
 		}
 		path = {
-			leads_to_tech = attack_special_forces_equipment_technology
+			leads_to_tech = attack_special_forces_technology
 		}
 		folder = {
 			name = infantry_folder
@@ -261,9 +261,9 @@ technologies = {
 			}
 		}
 	}
-	defense_special_forces_equipment_technology = {
+	defense_special_forces_technology = {
 		path = {
-			leads_to_tech = organisation_special_forces_equipment_technology
+			leads_to_tech = organisation_special_forces_technology
 		}
 		folder = {
 			name = infantry_folder
@@ -273,9 +273,9 @@ technologies = {
 			}
 		}
 	}
-	attack_special_forces_equipment_technology = {
+	attack_special_forces_technology = {
 		path = {
-			leads_to_tech = organisation_special_forces_equipment_technology
+			leads_to_tech = organisation_special_forces_technology
 		}
 		folder = {
 			name = infantry_folder
@@ -285,7 +285,7 @@ technologies = {
 			}
 		}
 	}
-	organisation_special_forces_equipment_technology = {
+	organisation_special_forces_technology = {
 		folder = {
 			name = infantry_folder
 			position = {

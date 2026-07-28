@@ -1,0 +1,119 @@
+GER = {
+	### Panzer 1
+	light_tank_panzer_1_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/panzer_1.dds"
+			}
+			models = {
+				GER_light_armor_entity
+			}
+		}
+	}
+	light_tank_artillery_panzer_1_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/bison.dds"
+			}
+		}
+	}
+	light_tank_anti_tank_panzer_1_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/panzerjaeger_1.dds"
+			}
+		}
+	}
+	light_tank_anti_air_panzer_1_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/flakpanzer_1.dds"
+			}
+		}
+	}
+	light_tank_flame_panzer_1_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/flammpanzer_1.dds"
+			}
+		}
+	}
+	### Panzer 2
+	light_tank_panzer_2_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/panzer_2.dds"
+			}
+			models = {
+				GER_light_armor_entity
+			}
+		}
+	}
+	light_tank_artillery_panzer_2_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/wespe_2.dds"
+			}
+		}
+	}
+	light_tank_anti_tank_panzer_2_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/marder_2.dds"
+			}
+		}
+	}
+	light_tank_anti_air_panzer_2_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/flakpanzer_2.dds"
+			}
+		}
+	}
+	light_tank_flame_panzer_2_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/flammpanzer_2.dds"
+			}
+		}
+	}
+	### panzer 38t
+	light_tank_panzer_38t_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_38t/panzer_38t.dds"
+			}
+			models = {
+				GER_light_armor_entity
+			}
+		}
+	}
+	light_tank_artillery_panzer_38t_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_38t/grille.dds"
+			}
+		}
+	}
+	light_tank_anti_tank_panzer_38t_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_38t/hetzer.dds"
+			}
+		}
+	}
+	light_tank_anti_air_panzer_38t_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_38t/flakpanzer_38t.dds"
+			}
+		}
+	}
+	light_tank_flame_panzer_38t_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_38t/flammpanzer_38t.dds"
+			}
+		}
+	}
+}

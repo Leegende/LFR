@@ -215,13 +215,13 @@ technologies = {
 	##upgrades
 	railways_technology = {
 		path = {
-			leads_to_tech = railways_building_upgrade_1_technology
+			leads_to_tech = railways_upgrade_1_technology
 		}
 		path = {
-			leads_to_tech = supply_node_building_upgrade_1_technology
+			leads_to_tech = supply_node_upgrade_1_technology
 		}
 		path = {
-			leads_to_tech = naval_base_building_upgrade_1_technology
+			leads_to_tech = infrastructure_upgrade_1_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -231,9 +231,9 @@ technologies = {
 			}
 		}
 	}
-	railways_building_upgrade_1_technology = {
+	railways_upgrade_1_technology = {
 		path = {
-			leads_to_tech = railways_building_upgrade_2_technology
+			leads_to_tech = railways_upgrade_2_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -243,9 +243,9 @@ technologies = {
 			}
 		}
 	}
-	railways_building_upgrade_2_technology = {
+	railways_upgrade_2_technology = {
 		path = {
-			leads_to_tech = railways_building_upgrade_3_technology
+			leads_to_tech = railways_upgrade_3_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -255,7 +255,7 @@ technologies = {
 			}
 		}
 	}
-	railways_building_upgrade_3_technology = {
+	railways_upgrade_3_technology = {
 		path = {
 		}
 		folder = {
@@ -266,9 +266,9 @@ technologies = {
 			}
 		}
 	}
-	supply_node_building_upgrade_1_technology = {
+	supply_node_upgrade_1_technology = {
 		path = {
-			leads_to_tech = supply_node_building_upgrade_2_technology
+			leads_to_tech = supply_node_upgrade_2_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -278,9 +278,9 @@ technologies = {
 			}
 		}
 	}
-	supply_node_building_upgrade_2_technology = {
+	supply_node_upgrade_2_technology = {
 		path = {
-			leads_to_tech = supply_node_building_upgrade_3_technology
+			leads_to_tech = supply_node_upgrade_3_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -290,7 +290,7 @@ technologies = {
 			}
 		}
 	}
-	supply_node_building_upgrade_3_technology = {
+	supply_node_upgrade_3_technology = {
 		folder = {
 			name = logistics_folder
 			position = {
@@ -299,9 +299,9 @@ technologies = {
 			}
 		}
 	}
-	naval_base_building_upgrade_1_technology = {
+	infrastructure_upgrade_1_technology = {
 		path = {
-			leads_to_tech = naval_base_building_upgrade_2_technology
+			leads_to_tech = infrastructure_upgrade_2_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -311,9 +311,9 @@ technologies = {
 			}
 		}
 	}
-	naval_base_building_upgrade_2_technology = {
+	infrastructure_upgrade_2_technology = {
 		path = {
-			leads_to_tech = naval_base_building_upgrade_3_technology
+			leads_to_tech = infrastructure_upgrade_3_technology
 		}
 		folder = {
 			name = logistics_folder
@@ -323,7 +323,7 @@ technologies = {
 			}
 		}
 	}
-	naval_base_building_upgrade_3_technology = {
+	infrastructure_upgrade_3_technology = {
 		folder = {
 			name = logistics_folder
 			position = {

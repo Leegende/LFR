@@ -1,0 +1,43 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_infantry_weapon_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_infantry_weapon_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_infantry_weapon_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_infantry_weapon_4_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_4_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GER_infantry_weapon_5_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_5_equipment.dds"
+		legacy_lazy_load = no
+	}
+	# armor
+	spriteType = {
+		name = "GFX_ger_light_tank_panzer_1_chassis_technology_medium"
+		textureFile = "gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/panzer_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_light_tank_panzer_1_chassis"
+		textureFile = "gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/panzer_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_light_tank_panzer_2_chassis"
+		textureFile = "gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_2/panzer_2.dds"
+		legacy_lazy_load = no
+	}
+}

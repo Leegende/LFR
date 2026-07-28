@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_logistics_tech_tree_bg"
+		textureFile = "gfx/interface/logistics_tech_tree_bg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_logistics_folder_tab"
+		textureFile = "gfx/interface/logistics_folder_tab.dds"
+		noOfFrames = 2
+	}
+}

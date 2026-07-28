@@ -18,9 +18,10 @@
 @heavy_artillery = 9
 technologies = {
 	artillery_0_equipment_technology = {
-		#enable_equipments = {
-		#	artillery_1_equipment
-		#}
+		enable_equipments = {
+			artillery_0_equipment
+			anti_tank_0_equipment
+		}
 		path = {
 			leads_to_tech = pack_artillery_1_upgrade_technology
 		}
@@ -34,13 +35,13 @@ technologies = {
 			leads_to_tech = defense_artillery_technology
 		}
 		path = {
-			leads_to_tech = offense_artillery_technology
+			leads_to_tech = attack_artillery_technology
 		}
 		path = {
 			leads_to_tech = defense_anti_tank_technology
 		}
 		path = {
-			leads_to_tech = offense_anti_tank_technology
+			leads_to_tech = attack_anti_tank_technology
 		}
 		folder = {
 			name = artillery_folder
@@ -59,7 +60,7 @@ technologies = {
 			}
 		}
 	}
-	offense_artillery_technology = {
+	attack_artillery_technology = {
 		folder = {
 			name = artillery_folder
 			position = {
@@ -77,7 +78,7 @@ technologies = {
 			}
 		}
 	}
-	offense_anti_tank_technology = {
+	attack_anti_tank_technology = {
 		folder = {
 			name = artillery_folder
 			position = {
@@ -180,6 +181,7 @@ technologies = {
 		path = {
 			leads_to_tech = pack_anti_tank_3_equipment_technology
 		}
+		
 		folder = {
 			name = artillery_folder
 			position = {
@@ -309,6 +311,7 @@ technologies = {
 		path = {
 			leads_to_tech = anti_tank_3_equipment_technology
 		}
+		
 		folder = {
 			name = artillery_folder
 			position = {
@@ -435,6 +438,7 @@ technologies = {
 		path = {
 			leads_to_tech = heavy_anti_tank_3_equipment_technology
 		}
+		
 		folder = {
 			name = artillery_folder
 			position = {

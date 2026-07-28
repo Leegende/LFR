@@ -70,8 +70,12 @@ equipments = {
 		archetype = pack_artillery_archetype
 		parent = pack_artillery_2_equipment
 	}
+	artillery_0_equipment = {
+		archetype = artillery_archetype
+	}
 	artillery_1_equipment = {
 		archetype = artillery_archetype
+		parent = artillery_0_equipment
 	}
 	artillery_2_equipment = {
 		archetype = artillery_archetype
@@ -80,10 +84,6 @@ equipments = {
 	artillery_3_equipment = {
 		archetype = artillery_archetype
 		parent = artillery_2_equipment
-	}
-	artillery_4_equipment = {
-		archetype = artillery_archetype
-		parent = artillery_3_equipment
 	}
 	heavy_artillery_1_equipment = {
 		archetype = heavy_artillery_archetype

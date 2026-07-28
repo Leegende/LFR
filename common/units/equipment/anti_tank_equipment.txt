@@ -31,18 +31,18 @@ equipments = {
 		archetype = pack_anti_tank_archetype
 		parent = pack_anti_tank_2_equipment
 	}
-	anti_tank_1_equipment = {
+	anti_tank_0_equipment = {
 		archetype = anti_tank_archetype
 	}
-	anti_tank_2_equipment = {
+	anti_tank_1_equipment = {
 		archetype = anti_tank_archetype
 		parent = anti_tank_1_equipment
 	}
-	anti_tank_3_equipment = {
+	anti_tank_2_equipment = {
 		archetype = anti_tank_archetype
 		parent = anti_tank_2_equipment
 	}
-	anti_tank_4_equipment = {
+	anti_tank_3_equipment = {
 		archetype = anti_tank_archetype
 		parent = anti_tank_2_equipment
 	}

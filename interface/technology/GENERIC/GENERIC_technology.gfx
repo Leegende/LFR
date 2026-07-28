@@ -1,0 +1,899 @@
+spriteTypes = {
+	### infantry
+	spriteType = {
+		name = "GFX_infantry_weapon_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_weapon_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_weapon_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_weapon_4_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_4_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_weapon_5_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_5_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_soft_attack_infantry_weapon_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/soft_attack_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_soft_attack_infantry_weapon_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/soft_attack_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_soft_attack_infantry_weapon_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/soft_attack_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_soft_attack_infantry_weapon_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/soft_attack_upgrade_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_hard_attack_infantry_weapon_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/hard_attack_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_hard_attack_infantry_weapon_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/hard_attack_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_hard_attack_infantry_weapon_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/hard_attack_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_hard_attack_infantry_weapon_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/hard_attack_upgrade_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_night_vision_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/night_vision_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_night_vision_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/night_vision_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_special_forces_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/special_forces_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_more_special_forces_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/mroe_special_forces.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_less_special_forces_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/less_special_forces.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_attack_special_forces_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/attack_special_forces.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_defense_special_forces_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/defense_special_forces.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_organisation_special_forces_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/organisation_special_forces.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_organisation_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_organisation_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_infantry_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_infantry.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_motorised_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_motorised.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_armored_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_armored.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_defense_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_defense_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_organisation_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_organisation_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_headquarter_defense_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/headquarter_defense_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_marines_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/marines_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_marines_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/marines_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_marines_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/marines_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mountaineers_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/mountaineers_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mountaineers_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/mountaineers_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mountaineers_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/mountaineers_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ranger_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ranger_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ranger_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_shocktroops_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/shocktroops_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_shocktroops_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/shocktroops_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_shocktroops_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/shocktroops_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	###logistics
+	spriteType = {
+		name = "GFX_railways_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railways.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_railways_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railway_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_railways_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railway_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_railways_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railway_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_supply_node_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/supply_node_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_supply_node_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/supply_node_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_supply_node_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/supply_node_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infrastructure_upgrade_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/infrastructure_upgrade_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infrastructure_upgrade_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/infrastructure_upgrade_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infrastructure_upgrade_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/infrastructure_upgrade_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_train_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_train_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_train_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_armored_car_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/armored_car_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_armored_car_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/armored_car_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_armored_car_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/armored_car_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_motorised_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/motorised_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mechanised_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/mechanised_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mechanised_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/mechanised_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mechanised_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/mechanised_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_amtrac_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/amtrac_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_amtrac_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/amtrac_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_amtrac_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/amtrac_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	##support
+	spriteType = {
+		name = "GFX_support_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/support_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_engineering_company_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/engineering_company_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_engineering_company_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/engineering_company_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_engineering_company_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/engineering_company_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_engineering_company_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/engineering_company_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_recon_company_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/recon_company_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_recon_company_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/recon_company_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_recon_company_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/recon_company_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_recon_company_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/recon_company_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_military_police_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/military_police_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_military_police_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/military_police_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_military_police_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/military_police_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_military_police_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/military_police_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_maintenance_company_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/maintenance_company_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_maintenance_company_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/maintenance_company_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_maintenance_company_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/maintenance_company_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_maintenance_company_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/maintenance_company_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_field_hospital_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/field_hospital_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_field_hospital_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/field_hospital_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_field_hospital_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/field_hospital_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_field_hospital_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/field_hospital_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_logistics_company_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/logistics_company_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_logistics_company_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/logistics_company_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_logistics_company_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/logistics_company_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_logistics_company_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/logistics_company_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_signal_company_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/signal_company_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_signal_company_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/signal_company_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_signal_company_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/signal_company_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_signal_company_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/signal_company_4.dds"
+		legacy_lazy_load = no
+	}
+	#artillery
+	spriteType = {
+		name = "GFX_artillery_0_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_0_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_tank_0_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/anti_tank_0_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_tank_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/anti_tank_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_tank_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/anti_tank_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_tank_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/anti_tank_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_anti_tank_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_anti_tank_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_anti_tank_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_anti_tank_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_anti_tank_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_anti_tank_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_anti_tank_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_anti_tank_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_anti_tank_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_anti_tank_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_anti_tank_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_anti_tank_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_1_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_2_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_3_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_attack_artillery_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/attack_artillery.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_defense_artillery_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/defense_artillery.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_attack_anti_tank_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/attack_anti_tank.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_defense_anti_tank_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/defense_anti_tank.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_1_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_1_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_2_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_2_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_pack_artillery_3_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_artillery_3_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_1_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_1_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_2_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_2_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_artillery_3_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_3_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_1_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_1_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_2_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_2_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_artillery_3_upgrade_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_3_upgrade.dds"
+		legacy_lazy_load = no
+	}
+	### industry
+	spriteType = {
+		name = "GFX_tools_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tools_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tools_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tools_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tools_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_concentrated_industry_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/concentrated_industry_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_concentrated_industry_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/concentrated_industry_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_concentrated_industry_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/concentrated_industry_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_concentrated_industry_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/concentrated_industry_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_concentrated_industry_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/concentrated_industry_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dispersed_industry_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/dispersed_industry_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dispersed_industry_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/dispersed_industry_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dispersed_industry_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/dispersed_industry_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dispersed_industry_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/dispersed_industry_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dispersed_industry_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/dispersed_industry_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_construction_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/construction_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_construction_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/construction_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_construction_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/construction_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_construction_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/construction_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_construction_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/construction_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_excavation_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_excavation_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_excavation_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_excavation_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_excavation_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_5.dds"
+		legacy_lazy_load = no
+	}
+	## electric
+	spriteType = {
+		name = "GFX_engineering_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/engineering_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_computing_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/computing_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_computing_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/computing_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_computing_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/computing_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_computing_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/computing_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radar_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radar_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radar_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radar_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radar_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radar_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radar_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radar_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_aa_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/aa_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_engineer_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/engineer_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_infantry_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/inf_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_infantry_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/inf_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_infantry_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/inf_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_artillery_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/art_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_artillery_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/art_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_artillery_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/art_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_tank_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/mot_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_tank_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tank_radio.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_radio_tank_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tank_radio.dds"
+		legacy_lazy_load = no
+	}
+	### rubber
+	spriteType = {
+		name = "GFX_rubber_processing_1_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rubber_processing_2_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rubber_processing_3_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rubber_processing_4_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_rubber_processing_5_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_5.dds"
+		legacy_lazy_load = no
+	}
+}

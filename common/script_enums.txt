@@ -233,11 +233,11 @@ script_enum_equipment_bonus_type = {
 	anti_tank_1_equipment
 	anti_tank_2_equipment
 	anti_tank_3_equipment
-	anti_tank_4_equipment
+	anti_tank_0_equipment
 	artillery_1_equipment
 	artillery_2_equipment
 	artillery_3_equipment
-	artillery_4_equipment
+	artillery_0_equipment
 	heavy_fighter_1_equipment
 	heavy_fighter_2_equipment
 	heavy_fighter_3_equipment
