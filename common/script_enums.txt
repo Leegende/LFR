@@ -217,7 +217,6 @@ script_enum_equipment_bonus_type = {
 	heavy_anti_air_archetype
 	armored_support_vehicle_chassis_archetype
 	super_heavy_artillery_archetype
-	super_heavy_self_propelled_artillery_archetype
 	rocket_artillery_archetype
 	motorised_rocket_artillery_archetype
 	special_forces_equipment_archetype
@@ -356,7 +355,6 @@ script_enum_equipment_bonus_type = {
 	heavy_anti_air_1_equipment
 	armored_support_vehicle_chassis_1_equipment
 	super_heavy_artillery_1_equipment
-	super_heavy_self_propelled_artillery_1_equipment
 	rocket_artillery_1_equipment
 	motorised_rocket_artillery_1_equipment
 	support_equipment_1_equipment

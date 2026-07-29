@@ -43,7 +43,6 @@ sub_units = {
 		active = yes
 		type = {
 			armor
-			
 		}
 		group = amphibious_armor
 	}
@@ -55,7 +54,6 @@ sub_units = {
 		active = yes
 		type = {
 			armor
-			
 		}
 		group = armor
 	}
@@ -67,7 +65,6 @@ sub_units = {
 		active = yes
 		type = {
 			armor
-			
 		}
 		group = amphibious_armor
 	}

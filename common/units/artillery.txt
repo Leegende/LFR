@@ -10,7 +10,7 @@ sub_units = {
 	@light_tank_need = 10
 	@medium_tank_need = 10
 	@heavy_tank_need = 10
-	pack_artillery = {
+	pack_artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -21,7 +21,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	artillery = {
+	artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -32,7 +32,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	heavy_artillery = {
+	heavy_artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -43,7 +43,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	super_heavy_artillery = {
+	super_heavy_artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
@@ -54,18 +54,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	super_heavy_self_propelled_artillery = {
-		sprite = artillery
-		map_icon_category = infantry
-		priority = 0
-		affects_speed = yes
-		active = yes
-		type = {
-			artillery
-		}
-		group = artillery
-	}
-	rocket_artillery = {
+	rocket_artillery_battalion = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -77,7 +66,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	motorised_rocket_artillery = {
+	motorised_rocket_artillery_battalion = {
 		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
@@ -89,7 +78,7 @@ sub_units = {
 		}
 		group = artillery
 	}
-	mechanised_artillery = {
+	mechanised_artillery_battalion = {
 		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
@@ -100,7 +89,7 @@ sub_units = {
 		}
 		group = mobile
 	}
-	amtrac_artillery = {
+	amtrac_artillery_battalion = {
 		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
@@ -112,7 +101,7 @@ sub_units = {
 		}
 		group = mobile
 	}
-	light_artillery_tank = {
+	light_artillery_tank_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -124,7 +113,7 @@ sub_units = {
 		}
 		group = armor
 	}
-	medium_artillery_tank = {
+	medium_artillery_tank_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -136,7 +125,7 @@ sub_units = {
 		}
 		group = armor
 	}
-	heavy_artillery_tank = {
+	heavy_artillery_tank_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -148,7 +137,7 @@ sub_units = {
 		}
 		group = armor
 	}
-	light_amphibious_artillery_tank = {
+	light_amphibious_artillery_tank_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -160,7 +149,7 @@ sub_units = {
 		}
 		group = amphibious_armor
 	}
-	medium_amphibious_artillery_tank = {
+	medium_amphibious_artillery_tank_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -172,7 +161,7 @@ sub_units = {
 		}
 		group = amphibious_armor
 	}
-	heavy_amphibious_artillery_tank = {
+	heavy_amphibious_artillery_tank_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
