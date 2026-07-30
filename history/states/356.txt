@@ -9,42 +9,6 @@ state = {
 			industrial_complex = 4
 			arms_factory = 2
 		}
-		victory_points = {
-			14604
-			2
-		}
-		victory_points = {
-			14611
-			5
-		}
-		victory_points = {
-			14576
-			2
-		}
-		victory_points = {
-			8560
-			40
-		}
-		victory_points = {
-			14667
-			10
-		}
-		victory_points = {
-			8806
-			5
-		}
-		victory_points = {
-			8802
-			2
-		}
-		victory_points = {
-			14737
-			10
-		}
-		victory_points = {
-			1712
-			5
-		}
 	}
 	provinces = {
 		3619

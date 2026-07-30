@@ -79,7 +79,6 @@ state = {
 		17328
 		17838
 		18865
-		18890
 		2
 		623
 		3982
@@ -105,6 +104,7 @@ state = {
 		9445
 		10279
 		10304
+		18403
 	}
 	history = {
 		buildings = {
@@ -113,38 +113,6 @@ state = {
 		}
 		owner = SOV
 		add_core_of = SOV
-		victory_points = {
-			5553
-			20
-		}
-		victory_points = {
-			8530
-			5
-		}
-		victory_points = {
-			3784
-			20
-		}
-		victory_points = {
-			10471
-			5
-		}
-		victory_points = {
-			10481
-			10
-		}
-		victory_points = {
-			4068
-			10
-		}
-		victory_points = {
-			10596
-			5
-		}
-		victory_points = {
-			10300
-			5
-		}
 	}
 	manpower = 1989102
 	buildings_max_level_factor = 1

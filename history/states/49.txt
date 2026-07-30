@@ -1,6 +1,5 @@
-
 state = {
-id = 49
+	id = 49
 	name = "STATE_49"
 	history = {
 		owner = FIN
@@ -9,22 +8,6 @@ id = 49
 			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
-		}
-		victory_points = {
-			19678
-			5
-		}
-		victory_points = {
-			3715
-			2
-		}
-		victory_points = {
-			19712
-			5
-		}
-		victory_points = {
-			9900
-			2
 		}
 	}
 	provinces = {
@@ -36,9 +19,6 @@ id = 49
 		9947
 		9951
 		18648
-		19287
-		19678
-		19694
 		599
 		2805
 		3782
@@ -50,15 +30,17 @@ id = 49
 		18559
 		18581
 		18772
-		19691
-		19692
-		19704
-		19712
-		19713
+		8836
+		8809
+		8701
+		8594
+		8581
+		8572
+		8333
+		3876
 	}
 	manpower = 219460
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = rural
 }
-

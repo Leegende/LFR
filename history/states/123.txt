@@ -1,6 +1,5 @@
-
 state = {
-id = 123
+	id = 123
 	name = "STATE_123"
 	history = {
 		owner = DMZ
@@ -11,55 +10,13 @@ id = 123
 			industrial_complex = 4
 			arms_factory = 2
 		}
-		victory_points = {
-			20070
-			20
-		}
-		victory_points = {
-			13091
-			5
-		}
-		victory_points = {
-			13101
-			5
-		}
-		victory_points = {
-			13146
-			5
-		}
-		victory_points = {
-			13248
-			5
-		}
-		victory_points = {
-			3029
-			2
-		}
-		victory_points = {
-			13016
-			5
-		}
-		victory_points = {
-			4579
-			5
-		}
-		victory_points = {
-			9477
-			5
-		}
-		victory_points = {
-			13354
-			5
-		}
 	}
 	provinces = {
 		12871
 		16767
-		20070
 		4148
 		12942
 		13017
-		20085
 		12972
 		1384
 		5066
@@ -86,20 +43,15 @@ id = 123
 		13248
 		13333
 		13370
-		20078
-		20079
 		3193
 		13016
 		13032
-		20069
 		4579
 		4695
 		5262
 		6712
 		9477
 		13301
-		20076
-		20077
 		1729
 		3203
 		3772
@@ -115,12 +67,18 @@ id = 123
 		1014
 		6411
 		13354
-		20074
-		19939
+		11905
+		11864
+		11858
+		11847
+		11841
+		11828
+		11794
+		11782
+		10537
 	}
 	manpower = 2115955
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

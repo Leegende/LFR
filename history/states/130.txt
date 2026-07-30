@@ -1,6 +1,5 @@
-
 state = {
-id = 130
+	id = 130
 	name = "STATE_130"
 	history = {
 		owner = YUG
@@ -9,22 +8,6 @@ id = 130
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 2
-		}
-		victory_points = {
-			14328
-			20
-		}
-		victory_points = {
-			14265
-			2
-		}
-		victory_points = {
-			14201
-			2
-		}
-		victory_points = {
-			14117
-			5
 		}
 	}
 	provinces = {
@@ -50,8 +33,7 @@ id = 130
 		14147
 	}
 	manpower = 815882
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

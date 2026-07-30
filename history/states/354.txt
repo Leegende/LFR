@@ -13,7 +13,6 @@ state = {
 		14431
 		14435
 		14485
-		20492
 		1986
 		3725
 		4621
@@ -21,7 +20,6 @@ state = {
 		5915
 		14589
 		14603
-		20491
 		5987
 		7899
 		14708
@@ -29,10 +27,12 @@ state = {
 		5379
 		6510
 		6703
-		19828
-		20522
 		2873
-		20523
+		16479
+		16475
+		16391
+		16390
+		9776
 	}
 	history = {
 		owner = FRA
@@ -41,22 +41,6 @@ state = {
 			infrastructure = 7
 			industrial_complex = 4
 			arms_factory = 2
-		}
-		victory_points = {
-			14431
-			20
-		}
-		victory_points = {
-			20492
-			5
-		}
-		victory_points = {
-			5987
-			5
-		}
-		victory_points = {
-			5379
-			5
 		}
 	}
 	manpower = 1392630

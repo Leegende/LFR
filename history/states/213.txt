@@ -7,50 +7,14 @@ state = {
 		buildings = {
 			infrastructure = 6
 		}
-		victory_points = {
-			347
-			2
-		}
-		victory_points = {
-			4836
-			2
-		}
-		victory_points = {
-			7397
-			2
-		}
-		victory_points = {
-			15897
-			2
-		}
-		victory_points = {
-			1937
-			20
-		}
-		victory_points = {
-			1643
-			2
-		}
-		victory_points = {
-			20879
-			20
-		}
-		victory_points = {
-			20878
-			2
-		}
 	}
 	provinces = {
 		2602
 		4010
-		20879
-		20873
-		20878
 		525
 		2120
 		7643
 		5387
-		20876
 		7697
 		5917
 		4836
@@ -60,19 +24,14 @@ state = {
 		3655
 		1656
 		7397
-		20868
-		20870
 		15781
 		9557
-		20869
 		1937
 		1643
 		2724
 		2411
 		5367
 		15788
-		20871
-		20872
 		5187
 		15897
 		3016
@@ -80,6 +39,15 @@ state = {
 		347
 		6136
 		2087
+		17430
+		17426
+		17422
+		17419
+		17418
+		17414
+		17407
+		17405
+		17402
 	}
 	manpower = 16640
 	state_category = pastoral

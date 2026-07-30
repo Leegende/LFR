@@ -8,46 +8,14 @@ state = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		victory_points = {
-			20912
-			10
-		}
-		victory_points = {
-			20909
-			10
-		}
-		victory_points = {
-			3292
-			5
-		}
-		victory_points = {
-			20908
-			5
-		}
-		victory_points = {
-			20910
-			10
-		}
-		victory_points = {
-			20913
-			20
-		}
-		victory_points = {
-			19768
-			5
-		}
 	}
 	provinces = {
-		20911
 		5095
 		8599
 		15589
-		20912
 		2256
 		3292
 		8510
-		20907
-		20909
 		3031
 		8820
 		15611
@@ -56,14 +24,18 @@ state = {
 		3299
 		6286
 		8108
-		20908
 		5587
 		8595
-		20902
-		20906
-		20910
-		20913
-		19768
+		17528
+		17527
+		17524
+		17518
+		17515
+		17507
+		17505
+		17504
+		17489
+		9438
 	}
 	manpower = 879446
 	state_category = large_town

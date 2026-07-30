@@ -11,8 +11,6 @@ state = {
 		12902
 		12915
 		12953
-		20741
-		20731
 		8803
 		12910
 		6884
@@ -23,17 +21,13 @@ state = {
 		8179
 		12737
 		12746
-		20740
 		2682
 		7510
 		12876
-		20713
-		20729
 		6957
 		9577
 		13035
 		13073
-		20742
 		6453
 		9312
 		9478
@@ -43,8 +37,14 @@ state = {
 		4408
 		5086
 		12985
-		20743
 		12853
+		17065
+		17064
+		17063
+		17055
+		17034
+		17031
+		16971
 	}
 	history = {
 		owner = GER
@@ -55,54 +55,6 @@ state = {
 			arms_factory = 2
 		}
 		set_demilitarized_zone = yes
-		victory_points = {
-			12836
-			10
-		}
-		victory_points = {
-			12953
-			5
-		}
-		victory_points = {
-			13106
-			2
-		}
-		victory_points = {
-			7401
-			2
-		}
-		victory_points = {
-			20729
-			10
-		}
-		victory_points = {
-			12876
-			5
-		}
-		victory_points = {
-			6957
-			2
-		}
-		victory_points = {
-			13047
-			10
-		}
-		victory_points = {
-			6453
-			2
-		}
-		victory_points = {
-			20743
-			10
-		}
-		victory_points = {
-			5086
-			5
-		}
-		victory_points = {
-			12853
-			2
-		}
 	}
 	manpower = 2818000
 	buildings_max_level_factor = 1

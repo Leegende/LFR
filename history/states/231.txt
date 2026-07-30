@@ -51,30 +51,6 @@ state = {
 			infrastructure = 6
 			arms_factory = 1
 		}
-		victory_points = {
-			6360
-			10
-		}
-		victory_points = {
-			13864
-			2
-		}
-		victory_points = {
-			3340
-			40
-		}
-		victory_points = {
-			4987
-			1
-		}
-		victory_points = {
-			9218
-			10
-		}
-		victory_points = {
-			5157
-			1
-		}
 	}
 	manpower = 1633579
 	state_category = town

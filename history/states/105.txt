@@ -1,6 +1,5 @@
-
 state = {
-id = 105
+	id = 105
 	name = "STATE_105"
 	history = {
 		owner = DMZ
@@ -11,9 +10,9 @@ id = 105
 		}
 	}
 	manpower = 1
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 	provinces = {
 		16871
 		6445
@@ -38,7 +37,6 @@ id = 105
 		17348
 		10327
 		10354
-		19970
 		3594
 		6205
 		6259
@@ -53,15 +51,15 @@ id = 105
 		16275
 		16697
 		17025
-		19308
-		19971
 		16330
 		17047
 		3791
 		8811
 		10538
-		19013
 		18294
+		10930
+		10926
+		4084
+		1081
 	}
 }
-

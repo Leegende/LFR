@@ -68,38 +68,6 @@ state = {
 			industrial_complex = 2
 			arms_factory = 2
 		}
-		victory_points = {
-			1322
-			2
-		}
-		victory_points = {
-			10952
-			20
-		}
-		victory_points = {
-			11347
-			2
-		}
-		victory_points = {
-			8742
-			10
-		}
-		victory_points = {
-			8960
-			2
-		}
-		victory_points = {
-			1726
-			2
-		}
-		victory_points = {
-			5804
-			5
-		}
-		victory_points = {
-			9145
-			2
-		}
 	}
 	state_category = rural
 	manpower = 1

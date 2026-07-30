@@ -65,30 +65,6 @@ state = {
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			11491
-			5
-		}
-		victory_points = {
-			11379
-			20
-		}
-		victory_points = {
-			11548
-			5
-		}
-		victory_points = {
-			1361
-			2
-		}
-		victory_points = {
-			18650
-			2
-		}
-		victory_points = {
-			506
-			2
-		}
 	}
 	manpower = 17452
 	state_category = pastoral

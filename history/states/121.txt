@@ -6,7 +6,6 @@ state = {
 		9290
 		13090
 		13031
-		20065
 		6771
 		12837
 		7264
@@ -27,8 +26,6 @@ state = {
 		6325
 		12930
 		12941
-		20066
-		20068
 		713
 		5512
 		5679
@@ -40,6 +37,9 @@ state = {
 		13040
 		13061
 		13062
+		11781
+		11761
+		11755
 	}
 	history = {
 		owner = DMZ
@@ -48,34 +48,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 4
 			arms_factory = 2
-		}
-		victory_points = {
-			12810
-			20
-		}
-		victory_points = {
-			13031
-			2
-		}
-		victory_points = {
-			7351
-			5
-		}
-		victory_points = {
-			3539
-			2
-		}
-		victory_points = {
-			20066
-			10
-		}
-		victory_points = {
-			13040
-			20
-		}
-		victory_points = {
-			6771
-			2
 		}
 	}
 	manpower = 2201300

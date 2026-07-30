@@ -4,10 +4,6 @@ state = {
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		victory_points = {
-			9375
-			20
-		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -67,7 +63,7 @@ state = {
 		14825
 		14927
 		18737
-		19142
+		2401
 	}
 	manpower = 364793
 	state_category = large_town

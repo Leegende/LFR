@@ -78,26 +78,6 @@ state = {
 			industrial_complex = 1
 		}
 		add_core_of = SOV
-		victory_points = {
-			12604
-			5
-		}
-		victory_points = {
-			1848
-			10
-		}
-		victory_points = {
-			2600
-			2
-		}
-		victory_points = {
-			12812
-			2
-		}
-		victory_points = {
-			12555
-			2
-		}
 	}
 	manpower = 318156
 	state_category = pastoral

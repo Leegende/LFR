@@ -2,7 +2,6 @@ state = {
 	id = 299
 	name = "STATE_299"
 	provinces = {
-		19838
 		7502
 		13964
 		5415
@@ -16,8 +15,6 @@ state = {
 		14395
 		8596
 		13803
-		19839
-		20503
 		7433
 		7670
 		9100
@@ -50,8 +47,6 @@ state = {
 		14187
 		14269
 		14288
-		19824
-		19825
 		3998
 		8715
 		14366
@@ -63,6 +58,11 @@ state = {
 		8468
 		14448
 		14455
+		16417
+		9843
+		9842
+		9768
+		9767
 	}
 	history = {
 		owner = FRA
@@ -71,42 +71,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 2
-		}
-		victory_points = {
-			13803
-			2
-		}
-		victory_points = {
-			5307
-			2
-		}
-		victory_points = {
-			8264
-			2
-		}
-		victory_points = {
-			7670
-			1
-		}
-		victory_points = {
-			14039
-			2
-		}
-		victory_points = {
-			9456
-			2
-		}
-		victory_points = {
-			14288
-			10
-		}
-		victory_points = {
-			19824
-			2
-		}
-		victory_points = {
-			3998
-			2
 		}
 	}
 	manpower = 2582424

@@ -2,9 +2,7 @@ state = {
 	id = 322
 	name = "STATE_322"
 	provinces = {
-		18624
-		18638
-		18911
+		18624 18638 178
 	}
 	impassable = yes
 	manpower = 1

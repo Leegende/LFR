@@ -73,38 +73,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		victory_points = {
-			7542
-			40
-		}
-		victory_points = {
-			491
-			5
-		}
-		victory_points = {
-			3407
-			2
-		}
-		victory_points = {
-			5968
-			2
-		}
-		victory_points = {
-			10447
-			5
-		}
-		victory_points = {
-			10288
-			2
-		}
-		victory_points = {
-			8925
-			2
-		}
-		victory_points = {
-			17856
-			10
-		}
 	}
 	manpower = 1274648
 	buildings_max_level_factor = 1

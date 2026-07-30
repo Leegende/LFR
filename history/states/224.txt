@@ -75,42 +75,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 2
 		}
-		victory_points = {
-			3320
-			2
-		}
-		victory_points = {
-			4837
-			1
-		}
-		victory_points = {
-			225
-			1
-		}
-		victory_points = {
-			6680
-			20
-		}
-		victory_points = {
-			2158
-			20
-		}
-		victory_points = {
-			8427
-			2
-		}
-		victory_points = {
-			3066
-			2
-		}
-		victory_points = {
-			3267
-			1
-		}
-		victory_points = {
-			7125
-			2
-		}
 	}
 	manpower = 1525021
 	state_category = pastoral

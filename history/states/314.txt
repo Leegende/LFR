@@ -16,9 +16,7 @@ id = 314
 		}
 	}
 	provinces = {
-		19868
-		20324
-		19867
+		15991 10023 10019
 	}
 	manpower = 93171
 	buildings_max_level_factor = 1.000

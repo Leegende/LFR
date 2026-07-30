@@ -9,54 +9,6 @@ state = {
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			13652
-			2
-		}
-		victory_points = {
-			13652
-			1
-		}
-		victory_points = {
-			7054
-			1
-		}
-		victory_points = {
-			2926
-			1
-		}
-		victory_points = {
-			13844
-			1
-		}
-		victory_points = {
-			13328
-			1
-		}
-		victory_points = {
-			9169
-			20
-		}
-		victory_points = {
-			2628
-			20
-		}
-		victory_points = {
-			3974
-			1
-		}
-		victory_points = {
-			4629
-			1
-		}
-		victory_points = {
-			13888
-			20
-		}
-		victory_points = {
-			15855
-			1
-		}
 	}
 	provinces = {
 		5369

@@ -12,7 +12,6 @@ state = {
 		11572
 		4925
 		11449
-		20554
 		11375
 		833
 		4226
@@ -49,7 +48,6 @@ state = {
 		11650
 		11715
 		11772
-		20553
 		1221
 		1781
 		6623
@@ -60,6 +58,8 @@ state = {
 		12045
 		12112
 		12172
+		16552
+		16551
 	}
 	history = {
 		owner = POL
@@ -69,34 +69,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 3
 			arms_factory = 2
-		}
-		victory_points = {
-			4870
-			40
-		}
-		victory_points = {
-			9585
-			2
-		}
-		victory_points = {
-			11924
-			5
-		}
-		victory_points = {
-			8903
-			2
-		}
-		victory_points = {
-			11715
-			1
-		}
-		victory_points = {
-			1781
-			5
-		}
-		victory_points = {
-			7764
-			5
 		}
 	}
 	manpower = 1416100

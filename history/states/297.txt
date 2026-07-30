@@ -8,18 +8,6 @@ state = {
 			infrastructure = 5
 			industrial_complex = 1
 		}
-		victory_points = {
-			12105
-			10
-		}
-		victory_points = {
-			6937
-			2
-		}
-		victory_points = {
-			12241
-			2
-		}
 	}
 	provinces = {
 		756

@@ -9,30 +9,6 @@ state = {
 			industrial_complex = 4
 			arms_factory = 2
 		}
-		victory_points = {
-			19891
-			10
-		}
-		victory_points = {
-			12494
-			2
-		}
-		victory_points = {
-			5375
-			20
-		}
-		victory_points = {
-			12533
-			5
-		}
-		victory_points = {
-			9341
-			5
-		}
-		victory_points = {
-			19890
-			10
-		}
 	}
 	provinces = {
 		1969
@@ -40,7 +16,6 @@ state = {
 		9510
 		3006
 		12494
-		19891
 		5375
 		5887
 		7971
@@ -50,13 +25,14 @@ state = {
 		12522
 		12533
 		12557
-		21669
 		1891
 		4555
 		11829
 		12516
 		12620
-		19890
+		16486
+		10144
+		10137
 	}
 	manpower = 3028946
 	state_category = pastoral

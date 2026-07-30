@@ -9,30 +9,6 @@ state = {
 			industrial_complex = 2
 			arms_factory = 2
 		}
-		victory_points = {
-			12814
-			5
-		}
-		victory_points = {
-			19850
-			10
-		}
-		victory_points = {
-			13169
-			5
-		}
-		victory_points = {
-			13363
-			5
-		}
-		victory_points = {
-			13307
-			2
-		}
-		victory_points = {
-			2444
-			2
-		}
 	}
 	provinces = {
 		12908
@@ -63,7 +39,6 @@ state = {
 		13217
 		13229
 		13257
-		19850
 		440
 		3358
 		6274
@@ -83,8 +58,9 @@ state = {
 		8975
 		13395
 		13562
-		20486
-		20504
+		16418
+		16383
+		9936
 	}
 	manpower = 1483789
 	buildings_max_level_factor = 1

@@ -21,7 +21,6 @@ state = {
 		16570
 		17601
 		18254
-		19079
 		383
 		2186
 		2989
@@ -39,16 +38,9 @@ state = {
 		13808
 		13880
 		13932
+		1798
 	}
 	history = {
-		victory_points = {
-			4104
-			10
-		}
-		victory_points = {
-			13792
-			2
-		}
 		owner = SOV
 		buildings = {
 			infrastructure = 6

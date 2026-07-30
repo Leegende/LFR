@@ -50,30 +50,12 @@ state = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		victory_points = {
-			7343
-			20
-		}
-		victory_points = {
-			12610
-			2
-		}
-		victory_points = {
-			12188
-			20
-		}
-		victory_points = {
-			2463
-			2
-		}
-		victory_points = {
-			18368
-			2
-		}
-		victory_points = {
-			5749
-			2
-		}
+		
+		
+		
+		
+		
+		
 	}
 	manpower = 800973
 	state_category = large_town

@@ -7,15 +7,11 @@ state = {
 		buildings = {
 			infrastructure = 6
 		}
-		victory_points = {
-			20535
-			1
-		}
 	}
 	provinces = {
-		20535
-		20536
-		21504
+		16512
+		16511
+		6785
 	}
 	manpower = 258367
 	state_category = city

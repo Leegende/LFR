@@ -11,14 +11,6 @@ state = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		victory_points = {
-			19716
-			20
-		}
-		victory_points = {
-			17908
-			2
-		}
 	}
 	provinces = {
 		959
@@ -43,10 +35,6 @@ state = {
 		18142
 		18164
 		18637
-		18984
-		18991
-		19716
-		19726
 		4899
 		9928
 		16020
@@ -54,7 +42,6 @@ state = {
 		16802
 		17094
 		17920
-		19722
 		348
 		405
 		1915
@@ -82,8 +69,13 @@ state = {
 		18578
 		18669
 		18760
-		19283
-		19717
+		8953
+		8907
+		8871
+		8869
+		3838
+		911
+		827
 	}
 	manpower = 321367
 	buildings_max_level_factor = 1

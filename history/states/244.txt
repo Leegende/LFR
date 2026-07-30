@@ -1,4 +1,3 @@
-
 state = {
 	id = 244
 	name = "STATE_244"
@@ -18,14 +17,11 @@ state = {
 		10682
 		10746
 		10828
-		19043
 		5723
 		15878
 		8207
 		10815
 		10816
-		18960
-		19071
 		10715
 		15890
 		3185
@@ -61,6 +57,9 @@ state = {
 		10687
 		431
 		3589
+		1654
+		1395
+		635
 	}
 	history = {
 		owner = SOV
@@ -69,18 +68,6 @@ state = {
 			infrastructure = 7
 			industrial_complex = 2
 			arms_factory = 2
-		}
-		victory_points = {
-			8109
-			10
-		}
-		victory_points = {
-			15878
-			10
-		}
-		victory_points = {
-			10730
-			20
 		}
 	}
 	manpower = 697964

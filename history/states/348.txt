@@ -1,36 +1,13 @@
-
 state = {
-id = 348
+	id = 348
 	name = "STATE_348"
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		
-		victory_points = {
-			9560
-			2
-		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
-			
-		}
-		victory_points = {
-			13755
-			10
-		}
-		victory_points = {
-			2887
-			2
-		}
-		victory_points = {
-			2934
-			2
-		}
-		victory_points = {
-			13418
-			2
 		}
 	}
 	provinces = {
@@ -39,7 +16,6 @@ id = 348
 		2190
 		9560
 		13629
-		19835
 		35
 		1730
 		2987
@@ -63,7 +39,6 @@ id = 348
 		13769
 		13818
 		13857
-		
 		1899
 		2934
 		3303
@@ -77,10 +52,10 @@ id = 348
 		13528
 		13606
 		13664
+		9814
 	}
 	manpower = 1128215
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = rural
 }
-

@@ -7,50 +7,16 @@ state = {
 		buildings = {
 			infrastructure = 6
 		}
-		victory_points = {
-			21014
-			10
-		}
-		victory_points = {
-			20917
-			5
-		}
-		victory_points = {
-			20922
-			1
-		}
-		victory_points = {
-			21012
-			20
-		}
-		victory_points = {
-			21013
-			5
-		}
-		victory_points = {
-			20921
-			2
-		}
-		victory_points = {
-			21011
-			20
-		}
+		
+		
+		
+		
+		
+		
+		
 	}
 	provinces = {
-		20924
-		21014
-		20915
-		20917
-		20918
-		20920
-		20922
-		21012
-		20916
-		20919
-		20921
-		20923
-		21011
-		21013
+		17770 17769 17768 17764 17559 17554 17551 17550 17549 17546 17544 17539 17536 17534
 	}
 	manpower = 1
 	state_category = city

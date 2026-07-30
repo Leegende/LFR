@@ -1,6 +1,5 @@
-
 state = {
-id = 124
+	id = 124
 	name = "STATE_124"
 	history = {
 		owner = DMZ
@@ -10,18 +9,6 @@ id = 124
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
-		}
-		victory_points = {
-			13403
-			2
-		}
-		victory_points = {
-			13239
-			20
-		}
-		victory_points = {
-			20075
-			2
 		}
 	}
 	provinces = {
@@ -38,21 +25,20 @@ id = 124
 		3592
 		13239
 		13359
-		20081
-		20084
 		8547
 		13488
 		13529
-		20075
 		13487
 		13548
 		13564
 		13579
 		13608
+		11897
+		11875
+		11832
 	}
 	manpower = 1065080
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = rural
 }
-

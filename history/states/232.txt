@@ -63,30 +63,6 @@ state = {
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			6966
-			5
-		}
-		victory_points = {
-			14393
-			20
-		}
-		victory_points = {
-			13806
-			10
-		}
-		victory_points = {
-			14325
-			10
-		}
-		victory_points = {
-			8718
-			5
-		}
-		victory_points = {
-			3523
-			20
-		}
 	}
 	manpower = 2557328
 	state_category = large_city

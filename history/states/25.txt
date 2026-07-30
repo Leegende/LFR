@@ -1,6 +1,5 @@
-
 state = {
-id = 25
+	id = 25
 	name = "STATE_25"
 	history = {
 		owner = GRE
@@ -10,51 +9,20 @@ id = 25
 			industrial_complex = 4
 			arms_factory = 4
 		}
-		victory_points = {
-			20274
-			2
-		}
-		victory_points = {
-			20356
-			2
-		}
-		victory_points = {
-			20255
-			5
-		}
-		victory_points = {
-			20249
-			2
-		}
-		victory_points = {
-			15233
-			5
-		}
 	}
 	provinces = {
 		15209
-		20330
 		15233
 		2587
 		6132
-		20274
-		20275
-		20276
-		20277
 		803
-		20356
 		5150
 		15264
-		20357
 		15223
-		20280
 		6483
 		15137
 		16100
-		20333
-		20334
 		4197
-		20331
 		3220
 		15057
 		5443
@@ -63,20 +31,30 @@ id = 25
 		15153
 		15187
 		15193
-		20255
-		20329
-		20335
-		20249
 		3245
 		9028
-		20326
 		3133
 		15324
-		20278
+		16068
+		16066
+		16021
+		16015
+		16014
+		16009
+		16008
+		16007
+		15994
+		15710
+		15496
+		15474
+		15458
+		15442
+		15428
+		15332
+		15297
 	}
 	manpower = 623900
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

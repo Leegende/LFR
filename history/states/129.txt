@@ -9,64 +9,12 @@ state = {
 			arms_factory = 3
 		}
 		add_core_of = YUG
-		victory_points = {
-			20120
-			40
-		}
-		victory_points = {
-			14073
-			2
-		}
-		victory_points = {
-			14096
-			2
-		}
-		victory_points = {
-			14344
-			5
-		}
-		victory_points = {
-			14414
-			1
-		}
-		victory_points = {
-			14289
-			3
-		}
-		victory_points = {
-			14327
-			2
-		}
-		victory_points = {
-			4635
-			4
-		}
-		victory_points = {
-			4355
-			2
-		}
-		victory_points = {
-			14289
-			2
-		}
-		victory_points = {
-			14272
-			5
-		}
-		victory_points = {
-			3816
-			5
-		}
 	}
 	provinces = {
 		6382
-		20150
 		6599
 		7206
 		9457
-		20120
-		20156
-		20183
 		14072
 		14073
 		14091
@@ -82,31 +30,26 @@ state = {
 		1966
 		14344
 		14414
-		20159
 		1511
 		14367
 		5162
 		14289
-		20243
 		1089
 		8994
 		14327
 		4635
 		5612
 		17666
-		20184
 		4355
 		8533
 		9018
 		14295
-		20158
 		4371
 		16239
 		6375
 		14262
 		14272
 		14316
-		20227
 		3816
 		5998
 		14426
@@ -114,7 +57,16 @@ state = {
 		4519
 		14253
 		14315
-		20157
+		15271
+		15175
+		14946
+		14944
+		14864
+		14862
+		14861
+		14855
+		14830
+		14694
 	}
 	manpower = 2330089
 	buildings_max_level_factor = 1

@@ -30,7 +30,6 @@ state = {
 		12872
 		12911
 		12926
-		19909
 		948
 		2320
 		2778
@@ -67,7 +66,6 @@ state = {
 		8189
 		8912
 		12483
-		19937
 		64
 		1734
 		2389
@@ -77,7 +75,6 @@ state = {
 		12677
 		12706
 		12744
-		19910
 		6002
 		8463
 		12678
@@ -94,6 +91,9 @@ state = {
 		12558
 		12568
 		12622
+		10475
+		10255
+		10250
 	}
 	history = {
 		owner = POL
@@ -103,74 +103,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 4
 			arms_factory = 2
-		}
-		victory_points = {
-			5186
-			5
-		}
-		victory_points = {
-			6862
-			40
-		}
-		victory_points = {
-			19909
-			5
-		}
-		victory_points = {
-			914
-			2
-		}
-		victory_points = {
-			12722
-			2
-		}
-		victory_points = {
-			7368
-			2
-		}
-		victory_points = {
-			12818
-			5
-		}
-		victory_points = {
-			6830
-			5
-		}
-		victory_points = {
-			19937
-			5
-		}
-		victory_points = {
-			12483
-			5
-		}
-		victory_points = {
-			12706
-			10
-		}
-		victory_points = {
-			19910
-			5
-		}
-		victory_points = {
-			6002
-			10
-		}
-		victory_points = {
-			12960
-			2
-		}
-		victory_points = {
-			12622
-			20
-		}
-		victory_points = {
-			12568
-			5
-		}
-		victory_points = {
-			12588
-			2
 		}
 	}
 	manpower = 3423309

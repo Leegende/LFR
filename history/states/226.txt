@@ -65,12 +65,12 @@ state = {
 		11722
 		11751
 		11839
-		19075
 		11153
 		17858
 		7029
 		7475
 		16234
+		1717
 	}
 	history = {
 		owner = SOV
@@ -78,26 +78,6 @@ state = {
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-		}
-		victory_points = {
-			8309
-			5
-		}
-		victory_points = {
-			11656
-			2
-		}
-		victory_points = {
-			4761
-			2
-		}
-		victory_points = {
-			11394
-			20
-		}
-		victory_points = {
-			19075
-			2
 		}
 	}
 	manpower = 1716294

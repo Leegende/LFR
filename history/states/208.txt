@@ -2,7 +2,7 @@ state={
 id = 208
 	name="STATE_208"		
 	provinces={
-		18809 19101
+		18809 2020
 	}
 	manpower=1
 	state_category=wasteland

@@ -1,30 +1,12 @@
-
 state = {
-id = 113
+	id = 113
 	name = "STATE_113"
-
 	history = {
 		owner = FIN
 		add_core_of = FIN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
-		}
-		victory_points = {
-			59
-			2
-		}
-		victory_points = {
-			9716
-			2
-		}
-		victory_points = {
-			9727
-			2
-		}
-		victory_points = {
-			1191
-			1
 		}
 	}
 	provinces = {
@@ -58,7 +40,6 @@ id = 113
 		18680
 		18859
 		18880
-		19260
 		390
 		472
 		780
@@ -80,12 +61,12 @@ id = 113
 		42
 		1715
 		9684
-		19676
-		19677
+		8308
+		8306
+		3583
 	}
 	manpower = 126210
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

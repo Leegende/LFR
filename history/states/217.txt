@@ -35,7 +35,6 @@ state = {
 		10748
 		10794
 		18345
-		19039
 		884
 		3289
 		4071
@@ -93,6 +92,7 @@ state = {
 		17714
 		18120
 		18747
+		1375
 	}
 	history = {
 		owner = SOV
@@ -100,54 +100,6 @@ state = {
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-		}
-		victory_points = {
-			7806
-			80
-		}
-		victory_points = {
-			8057
-			5
-		}
-		victory_points = {
-			19039
-			40
-		}
-		victory_points = {
-			10628
-			20
-		}
-		victory_points = {
-			10690
-			2
-		}
-		victory_points = {
-			10727
-			5
-		}
-		victory_points = {
-			4225
-			2
-		}
-		victory_points = {
-			4932
-			10
-		}
-		victory_points = {
-			442
-			5
-		}
-		victory_points = {
-			10843
-			5
-		}
-		victory_points = {
-			10936
-			2
-		}
-		victory_points = {
-			6752
-			5
 		}
 	}
 	manpower = 2305013

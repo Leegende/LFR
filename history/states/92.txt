@@ -2,7 +2,7 @@ state = {
 	id = 92
 	name = "STATE_92"
 	provinces = {
-		19397
+		5165
 	}
 	history = {
 		owner = ENG
@@ -14,10 +14,6 @@ state = {
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 1
-		}
-		victory_points = {
-			19397
-			1
 		}
 	}
 	manpower = 50800

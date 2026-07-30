@@ -1,6 +1,5 @@
-
 state = {
-id = 201
+	id = 201
 	name = "STATE_201"
 	history = {
 		owner = HUN
@@ -9,50 +8,6 @@ id = 201
 			infrastructure = 7
 			industrial_complex = 6
 			arms_factory = 4
-		}
-		victory_points = {
-			20091
-			10
-		}
-		victory_points = {
-			4997
-			2
-		}
-		victory_points = {
-			13958
-			2
-		}
-		victory_points = {
-			13539
-			10
-		}
-		victory_points = {
-			7774
-			2
-		}
-		victory_points = {
-			8222
-			20
-		}
-		victory_points = {
-			13790
-			2
-		}
-		victory_points = {
-			13853
-			2
-		}
-		victory_points = {
-			5120
-			2
-		}
-		victory_points = {
-			13946
-			5
-		}
-		victory_points = {
-			20092
-			10
 		}
 	}
 	provinces = {
@@ -69,14 +24,10 @@ id = 201
 		14003
 		14011
 		14055
-		20091
-		20405
 		3620
 		5594
 		13958
-		19226
 		16808
-		20093
 		14059
 		14080
 		1760
@@ -92,14 +43,11 @@ id = 201
 		7774
 		9607
 		13640
-		20861
 		4570
 		8222
 		9333
 		13707
 		17112
-		20859
-		20860
 		1685
 		4098
 		13656
@@ -107,7 +55,6 @@ id = 201
 		13824
 		13842
 		13853
-		20095
 		5120
 		8839
 		13696
@@ -117,11 +64,9 @@ id = 201
 		9046
 		13946
 		13980
-		20399
 		8542
 		14027
 		14097
-		20092
 		14018
 		14051
 		14074
@@ -129,10 +74,19 @@ id = 201
 		14092
 		18337
 		14012
+		17383
+		17382
+		17381
+		16179
+		16167
+		12013
+		11981
+		11964
+		11963
+		3234
 	}
 	manpower = 2458597
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

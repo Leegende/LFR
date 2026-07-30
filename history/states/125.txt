@@ -5,7 +5,7 @@ state = {
 		owner = DMZ
 		add_core_of = DMZ
 		buildings = {
-			infrastructure =6
+			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 2
 		}
@@ -20,9 +20,6 @@ state = {
 		17211
 		17225
 		17440
-		19976
-		19977
-		19980
 		4597
 		4969
 		5934
@@ -31,7 +28,10 @@ state = {
 		10192
 		16682
 		17086
-		19978
-		19981
+		11101
+		11081
+		11054
+		11049
+		11048
 	}
 }

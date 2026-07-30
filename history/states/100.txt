@@ -7,18 +7,10 @@ state = {
 		buildings = {
 			infrastructure = 6
 		}
-		victory_points = {
-			19151
-			20
-		}
+		
 	}
 	provinces = {
-		1708
-		17204
-		17545
-		18119
-		19151
-		17731
+		1708 17204 17545 18119 17731 2501
 	}
 	manpower = 114120
 	state_category = pastoral

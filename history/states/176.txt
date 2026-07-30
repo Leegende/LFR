@@ -9,50 +9,6 @@ state = {
 			industrial_complex = 3
 			arms_factory = 2
 		}
-		victory_points = {
-			12599
-			2
-		}
-		victory_points = {
-			9490
-			40
-		}
-		victory_points = {
-			5425
-			10
-		}
-		victory_points = {
-			8402
-			10
-		}
-		victory_points = {
-			5693
-			5
-		}
-		victory_points = {
-			12364
-			5
-		}
-		victory_points = {
-			12313
-			2
-		}
-		victory_points = {
-			8095
-			2
-		}
-		victory_points = {
-			8274
-			10
-		}
-		victory_points = {
-			20607
-			5
-		}
-		victory_points = {
-			6045
-			5
-		}
 	}
 	provinces = {
 		12529
@@ -70,7 +26,6 @@ state = {
 		7753
 		12022
 		12086
-		20605
 		7107
 		7281
 		12457
@@ -79,7 +34,6 @@ state = {
 		9490
 		12278
 		12288
-		20601
 		1037
 		1562
 		5425
@@ -87,14 +41,11 @@ state = {
 		9555
 		12071
 		12132
-		20606
 		332
 		11877
 		12327
 		6959
-		20604
 		8125
-		20600
 		1067
 		5693
 		8402
@@ -106,10 +57,8 @@ state = {
 		12364
 		12449
 		12313
-		20599
 		12044
 		2876
-		20584
 		12119
 		12299
 		12307
@@ -125,7 +74,14 @@ state = {
 		12005
 		12055
 		12123
-		20607
+		16677
+		16675
+		16674
+		16672
+		16669
+		16668
+		16667
+		16620
 	}
 	manpower = 2578494
 	buildings_max_level_factor = 1

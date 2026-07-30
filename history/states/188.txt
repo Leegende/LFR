@@ -96,38 +96,6 @@ state = {
 			infrastructure = 4
 			industrial_complex = 3
 		}
-		victory_points = {
-			428
-			2
-		}
-		victory_points = {
-			11030
-			5
-		}
-		victory_points = {
-			2540
-			2
-		}
-		victory_points = {
-			10755
-			2
-		}
-		victory_points = {
-			3599
-			10
-		}
-		victory_points = {
-			12150
-			2
-		}
-		victory_points = {
-			2236
-			2
-		}
-		victory_points = {
-			11631
-			2
-		}
 	}
 	manpower = 4419426
 	state_category = megalopolis

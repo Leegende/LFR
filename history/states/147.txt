@@ -4,10 +4,6 @@ state = {
 	history = {
 		owner = ITA
 		add_core_of = ITA
-		victory_points = {
-			7274
-			5
-		}
 		buildings = {
 			20297 = {
 				naval_base = 4
@@ -19,19 +15,19 @@ state = {
 		}
 	}
 	provinces = {
-		20297
-		20316
-		20317
-		20318
-		20321
-		20322
-		20323
-		20325
 		7274
 		2379
 		15347
 		15410
 		15371
+		15992
+		15990
+		15988
+		15987
+		15980
+		15979
+		15978
+		15938
 	}
 	manpower = 120247
 	buildings_max_level_factor = 1

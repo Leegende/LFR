@@ -57,46 +57,6 @@ state = {
 			industrial_complex = 3
 			arms_factory = 4
 		}
-		victory_points = {
-			13463
-			2
-		}
-		victory_points = {
-			3298
-			20
-		}
-		victory_points = {
-			7168
-			20
-		}
-		victory_points = {
-			4196
-			2
-		}
-		victory_points = {
-			13499
-			5
-		}
-		victory_points = {
-			13839
-			10
-		}
-		victory_points = {
-			13760
-			10
-		}
-		victory_points = {
-			13799
-			80
-		}
-		victory_points = {
-			13383
-			5
-		}
-		victory_points = {
-			8565
-			20
-		}
 	}
 	manpower = 3334186
 	buildings_max_level_factor = 1

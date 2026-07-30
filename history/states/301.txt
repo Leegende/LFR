@@ -1,4 +1,3 @@
-
 state = {
 	id = 301
 	name = "STATE_301"
@@ -11,17 +10,12 @@ state = {
 			industrial_complex = 2
 			arms_factory = 2
 		}
-		victory_points = {
-			7483
-			10
-		}
 	}
 	provinces = {
 		3983
 		9622
 		14060
 		14081
-		20425
 		1688
 		14008
 		892
@@ -35,6 +29,7 @@ state = {
 		16298
 		319
 		9229
+		16231
 	}
 	manpower = 738988
 	buildings_max_level_factor = 1

@@ -2,7 +2,6 @@ state = {
 	id = 46
 	name = "STATE_46"
 	provinces = {
-		19926
 		82
 		6255
 		10911
@@ -10,7 +9,6 @@ state = {
 		18215
 		9162
 		10756
-		19928
 		2947
 		7221
 		7549
@@ -19,9 +17,11 @@ state = {
 		10864
 		15960
 		16436
-		19927
 		3475
-		20464
+		16327
+		10384
+		10378
+		10362
 	}
 	history = {
 		owner = POL
@@ -30,14 +30,6 @@ state = {
 			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 1
-		}
-		victory_points = {
-			19928
-			2
-		}
-		victory_points = {
-			19927
-			40
 		}
 	}
 	manpower = 512375

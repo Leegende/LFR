@@ -9,34 +9,6 @@ state = {
 			arms_factory = 1
 		}
 		add_core_of = SOV
-		victory_points = {
-			18842
-			2
-		}
-		victory_points = {
-			7738
-			2
-		}
-		victory_points = {
-			18610
-			40
-		}
-		victory_points = {
-			10296
-			2
-		}
-		victory_points = {
-			10221
-			20
-		}
-		victory_points = {
-			10160
-			2
-		}
-		victory_points = {
-			10274
-			2
-		}
 	}
 	provinces = {
 		496
@@ -66,15 +38,12 @@ state = {
 		18866
 		638
 		10274
-		18949
 		10251
 		3965
 		7859
-		18996
 		18336
 		18722
 		18838
-		18929
 		10178
 		10200
 		10206
@@ -111,6 +80,9 @@ state = {
 		10109
 		10141
 		10147
+		952
+		515
+		325
 	}
 	manpower = 52699606
 	buildings_max_level_factor = 1

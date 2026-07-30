@@ -1,6 +1,5 @@
-
 state = {
-id = 34
+	id = 34
 	name = "STATE_34"
 	history = {
 		owner = FIN
@@ -9,25 +8,9 @@ id = 34
 			19662 = {
 				naval_base = 4
 			}
-			infrastructure =6
-			industrial_complex =2
+			infrastructure = 6
+			industrial_complex = 2
 			arms_factory = 2
-		}
-		victory_points = {
-			19662
-			10
-		}
-		victory_points = {
-			9940
-			2
-		}
-		victory_points = {
-			19661
-			5
-		}
-		victory_points = {
-			2832
-			2
 		}
 	}
 	provinces = {
@@ -40,11 +23,6 @@ id = 34
 		9909
 		9940
 		9955
-		19654
-		19655
-		19656
-		19662
-		19663
 		470
 		2832
 		4877
@@ -54,12 +32,16 @@ id = 34
 		9594
 		9852
 		9888
-		19046
-		19661
+		8176
+		8163
+		8150
+		8087
+		8080
+		8078
+		1418
 	}
 	manpower = 481810
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = city
 }
-

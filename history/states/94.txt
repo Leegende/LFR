@@ -7,19 +7,10 @@ state = {
 		buildings = {
 			infrastructure = 6
 		}
-		victory_points = {
-			21111
-			2
-		}
 	}
 	provinces = {
-		21111
-		21112
-		21115
-		21118
 		15859
 		303
-		19181
 		15252
 		15272
 		7315
@@ -36,8 +27,13 @@ state = {
 		15870
 		785
 		15864
-		21613
 		7673
+		18043
+		18036
+		18033
+		18032
+		9502
+		2886
 	}
 	manpower = 2000000
 	state_category = large_city

@@ -6,19 +6,7 @@ state = {
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
-			arms_factory =1
-		}
-		victory_points = {
-			8634
-			5
-		}
-		victory_points = {
-			16843
-			10
-		}
-		victory_points = {
-			8301
-			10
+			arms_factory = 1
 		}
 	}
 	provinces = {
@@ -165,12 +153,12 @@ state = {
 		17578
 		18213
 		18630
-		19118
-		19129
-		19218
-		19327
-		19329
-		19330
+		4319
+		4318
+		4308
+		3156
+		2279
+		2178
 	}
 	manpower = 242953
 	buildings_max_level_factor = 1

@@ -2,8 +2,7 @@ state = {
 	id = 126
 	name = "STATE_126"
 	provinces = {
-		19840
-		
+		9846
 	}
 	history = {
 	}

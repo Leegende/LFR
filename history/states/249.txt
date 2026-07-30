@@ -19,14 +19,6 @@ state = {
 			arms_factory = 2
 		}
 		set_state_flag = PRUSSIA
-		victory_points = {
-			5322
-			20
-		}
-		victory_points = {
-			12690
-			5
-		}
 	}
 	manpower = 911781
 	buildings_max_level_factor = 1

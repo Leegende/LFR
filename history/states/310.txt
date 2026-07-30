@@ -1,6 +1,5 @@
-
 state = {
-id = 310
+	id = 310
 	name = "STATE_310"
 	provinces = {
 		718
@@ -11,7 +10,7 @@ id = 310
 		71
 		16858
 		17140
-		19706
+		8737
 	}
 	history = {
 		owner = FIN
@@ -21,11 +20,9 @@ id = 310
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		
 	}
 	manpower = 46702
 	state_category = pastoral
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 }
-
