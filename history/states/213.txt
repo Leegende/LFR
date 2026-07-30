@@ -2,8 +2,8 @@ state = {
 	id = 213
 	name = "STATE_213"
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
 		}
@@ -11,9 +11,75 @@ state = {
 			347
 			2
 		}
+		victory_points = {
+			4836
+			2
+		}
+		victory_points = {
+			7397
+			2
+		}
+		victory_points = {
+			15897
+			2
+		}
+		victory_points = {
+			1937
+			20
+		}
+		victory_points = {
+			1643
+			2
+		}
+		victory_points = {
+			20879
+			20
+		}
+		victory_points = {
+			20878
+			2
+		}
 	}
 	provinces = {
+		2602
+		4010
+		20879
+		20873
+		20878
+		525
+		2120
+		7643
+		5387
+		20876
+		7697
+		5917
+		4836
+		3928
+		7883
+		15799
+		3655
+		1656
+		7397
+		20868
+		20870
+		15781
+		9557
+		20869
+		1937
+		1643
+		2724
+		2411
+		5367
+		15788
+		20871
+		20872
+		5187
+		15897
+		3016
+		15791
 		347
+		6136
+		2087
 	}
 	manpower = 16640
 	state_category = pastoral

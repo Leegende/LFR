@@ -22,11 +22,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			motorised_equipment
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			motorised_equipment = 20
 		}
 		same_support_type = logistics_company_support
@@ -54,11 +54,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			motorised_equipment
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			motorised_equipment = 20
 		}
 		same_support_type = logistics_company_support
@@ -86,11 +86,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			motorbike_equipment
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			motorbike_equipment = 20
 		}
 		same_support_type = logistics_company_support
@@ -119,11 +119,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			motorised_equipment
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			motorised_equipment = 20
 		}
 		same_support_type = logistics_company_support
@@ -151,11 +151,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			mechanised_utility_
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			mechanised_utility_ = 20
 		}
 		same_support_type = logistics_company_support
@@ -183,11 +183,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			helicopter_equipment_archetype
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			helicopter_equipment_archetype = 20
 		}
 		same_support_type = logistics_company_support

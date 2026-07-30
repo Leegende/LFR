@@ -44,9 +44,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 19466;9521;sea;16420;-1;-1;-1;-1;;Norway Islands 6
 2263;19464;sea;16334;-1;-1;-1;-1;;Norway Islands 8
 19467;19468;sea;16334;-1;-1;-1;-1;;Norway Islands 33
-
-
-
 5084;19653;sea;17255;-1;-1;-1;-1;;Finland Islands 1
 19665;19652;sea;17782;-1;-1;-1;-1;;Finland Islands 2
 19656;19663;sea;16755;-1;-1;-1;-1;;Finland Islands 3
@@ -95,7 +92,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 20300;20301;sea;16799;-1;-1;-1;-1;;Kyklades 7
 20302;20301;sea;18458;-1;-1;-1;-1;;Kyklades 8
 20311;20301;sea;18458;-1;-1;-1;-1;;Kyklades 9
-19804;20538;sea;16233;-1;-1;-1;-1;;Ibiza-Formentera
 14346;641;sea;16302;-1;-1;-1;-1;;Krym
 312;641;sea;16302;-1;-1;-1;-1;;Krym
 3436;15879;sea;16302;-1;-1;-1;-1;;Krym
@@ -122,6 +118,3 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 19660;11027;sea;17981;-1;-1;-1;-1;;Wolin 1
 19660;20563;sea;17981;-1;-1;-1;-1;;Wolin 2
 19160;19165;sea;18500;-1;-1;-1;-1;;Al-Sabiyyah Channel
-7148;19383;sea;18108;-1;-1;-1;-1;;Northumberland Strait
-3033;19386;sea;16391;-1;-1;-1;-1;;Northampton
--1;-1;;-1;-1;-1;-1;-1;-1

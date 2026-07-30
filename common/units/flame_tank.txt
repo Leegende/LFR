@@ -23,12 +23,12 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = light_tank_flame_chassis
+		transport = light_tank_flame_
 		essential = {
-			light_tank_flame_chassis
+			light_tank_flame_
 		}
 		need = {
-			light_tank_flame_chassis = @flame_need
+			light_tank_flame_ = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -55,12 +55,12 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = medium_tank_flame_chassis
+		transport = medium_tank_flame_
 		essential = {
-			medium_tank_flame_chassis
+			medium_tank_flame_
 		}
 		need = {
-			medium_tank_flame_chassis = @flame_need
+			medium_tank_flame_ = @flame_need
 		}
 		same_support_type = flame
 	}
@@ -89,12 +89,12 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = heavy_tank_flame_chassis
+		transport = heavy_tank_flame_
 		essential = {
-			heavy_tank_flame_chassis
+			heavy_tank_flame_
 		}
 		need = {
-			heavy_tank_flame_chassis = @flame_need
+			heavy_tank_flame_ = @flame_need
 		}
 		same_support_type = flame
 	}

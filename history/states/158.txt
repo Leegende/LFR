@@ -2,13 +2,21 @@ state = {
 	id = 158
 	name = "STATE_158"
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
-			969
+			16442
+			2
+		}
+		victory_points = {
+			12503
+			5
+		}
+		victory_points = {
+			12256
 			10
 		}
 	}
@@ -17,27 +25,17 @@ state = {
 	local_supplies = 0
 	state_category = wasteland
 	provinces = {
-		969
-		9764
-		2848
-		8281
-		761
-		1408
-		2272
-		3218
-		5226
-		2812
-		2905
-		6881
-		9484
-		9743
-		9745
-		9749
-		256
-		1072
-		1425
-		2755
-		6975
-		8163
+		2929
+		7144
+		16442
+		12256
+		12542
+		19903
+		11556
+		19896
+		12481
+		19904
+		12306
+		12503
 	}
 }

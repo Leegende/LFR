@@ -2,41 +2,45 @@ state = {
 	id = 337
 	name = "STATE_337"
 	provinces = {
-		382
-		476
-		804
-		1013
-		1139
-		3030
-		3876
-		4216
-		7642
-		7808
-		9739
-		134
-		1317
-		1323
-		2250
-		4054
-		4411
-		4970
-		5195
-		5298
-		7040
-		7858
-		9740
-		9746
-		9755
-		9769
+		11376
+		3258
+		11332
+		7795
+		11249
+		9152
+		19932
+		11092
+		6989
+		11439
+		5860
+		11483
+		8356
+		1069
+		11518
+		7232
+		11712
+		7930
+		19945
+		9262
+		11597
 	}
 	history = {
-		owner = ENG
-		add_core_of = ENG
+		owner = POL
+		add_core_of = POL
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			3258
+			2
+		}
+		victory_points = {
+			19932
+			20
 		}
 	}
-	manpower = 1
+	manpower = 574425
 	buildings_max_level_factor = 0
 	local_supplies = 0
 	state_category = wasteland

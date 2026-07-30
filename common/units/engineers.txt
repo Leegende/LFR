@@ -30,10 +30,10 @@ sub_units = {
 			add = yes
 		}
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @eng_need
+			support_equipment_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}
@@ -62,10 +62,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @eng_need
+			support_equipment_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}
@@ -95,12 +95,12 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
-			armored_support_vehicle
+			support_equipment_archetype
+			armored_support_vehicle_chassis_archetype
 		}
 		need = {
-			support_equipment = @eng_need
-			armored_support_vehicle = @eng_need
+			support_equipment_archetype = @eng_need
+			armored_support_vehicle_chassis_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}
@@ -130,11 +130,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			mechanised_utility_
 		}
 		need = {
-			support_equipment = @eng_need
+			support_equipment_archetype = @eng_need
 			mechanised_utility_ = @eng_need
 		}
 		same_support_type = engineers_support
@@ -164,11 +164,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			amtrac_utility_
 		}
 		need = {
-			support_equipment = @eng_need
+			support_equipment_archetype = @eng_need
 			amtrac_utility_ = @eng_need
 		}
 		same_support_type = engineers_support
@@ -198,10 +198,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @eng_need
+			support_equipment_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}

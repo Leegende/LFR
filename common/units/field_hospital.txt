@@ -22,10 +22,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @field_need
+			support_equipment_archetype = @field_need
 		}
 		same_support_type = field_hospital_support
 	}
@@ -52,10 +52,10 @@ sub_units = {
 		training_time = 100
 		essential = {
 			mechanised_utility_
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @field_need
+			support_equipment_archetype = @field_need
 			mechanised_utility_ = @field_need
 		}
 		same_support_type = field_hospital_support
@@ -83,10 +83,10 @@ sub_units = {
 		training_time = 100
 		essential = {
 			helicopter_equipment_archetype
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = @field_need
+			support_equipment_archetype = @field_need
 			helicopter_equipment_archetype = @field_need
 		}
 		same_support_type = field_hospital_support

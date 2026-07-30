@@ -20,10 +20,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 		}
 	}
 	commandos_regimental = {
@@ -47,10 +47,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 		}
 	}
 	sniper_regimental = {
@@ -74,10 +74,10 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 		}
 	}
 }

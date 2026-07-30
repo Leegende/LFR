@@ -10,18 +10,6 @@ state = {
 			arms_factory = 2
 		}
 		victory_points = {
-			12901
-			2
-		}
-		victory_points = {
-			12503
-			5
-		}
-		victory_points = {
-			12549
-			5
-		}
-		victory_points = {
 			19891
 			10
 		}
@@ -45,27 +33,8 @@ state = {
 			19890
 			10
 		}
-		victory_points = {
-			7962
-			1
-		}
-		victory_points = {
-			16442
-			2
-		}
 	}
 	provinces = {
-		19904
-		7144
-		16442
-		12901
-		1744
-		2586
-		12581
-		12481
-		12503
-		12542
-		12549
 		1969
 		5818
 		9510
@@ -88,17 +57,6 @@ state = {
 		12516
 		12620
 		19890
-		2150
-		2929
-		7944
-		7962
-		12671
-		12726
-		12736
-		12806
-		12844
-		12880
-		12909
 	}
 	manpower = 3028946
 	state_category = pastoral

@@ -2,10 +2,11 @@ state = {
 	id = 51
 	name = "STATE_51"
 	history = {
-		owner = SPR
-		add_core_of = SPR
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 1
 		}
 		victory_points = {
 			20912
@@ -38,7 +39,6 @@ state = {
 	}
 	provinces = {
 		20911
-
 		5095
 		8599
 		15589

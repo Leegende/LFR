@@ -1,0 +1,55 @@
+state = {
+	id = 397
+	name = "STATE_397"
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			16640
+			2
+		}
+		victory_points = {
+			19847
+			10
+		}
+		victory_points = {
+			4400
+			2
+		}
+		victory_points = {
+			19864
+			2
+		}
+	}
+	provinces = {
+		9231
+		7175
+		19851
+		19847
+		12958
+		4400
+		12945
+		9356
+		12754
+		19864
+		13419
+		9248
+		479
+		16743
+		16640
+		6011
+		13423
+		19846
+		4740
+		17274
+		13483
+	}
+	manpower = 442419
+	buildings_max_level_factor = 1
+	local_supplies = 0
+	state_category = pastoral
+}

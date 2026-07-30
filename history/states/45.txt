@@ -1,14 +1,7 @@
-
 state = {
-id = 45
+	id = 45
 	name = "STATE_45"
 	provinces = {
-		7232
-		7930
-		9262
-		11597
-		11712
-		19945
 		2909
 		4024
 		4195
@@ -33,8 +26,6 @@ id = 45
 		11640
 		11702
 		11741
-		7795
-		11332
 		2407
 		4532
 		7325
@@ -65,26 +56,13 @@ id = 45
 		1134
 		4816
 		5922
-		9152
 		11068
 		11078
-		11092
 		11123
 		11139
 		11191
 		11195
-		11249
-		19932
-		1069
-		3258
-		5860
-		6989
-		8356
 		11279
-		11376
-		11439
-		11483
-		11518
 		4037
 		4200
 		5558
@@ -101,7 +79,7 @@ id = 45
 		add_core_of = POL
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
 		}
 		victory_points = {
@@ -117,14 +95,6 @@ id = 45
 			10
 		}
 		victory_points = {
-			19932
-			20
-		}
-		victory_points = {
-			3258
-			2
-		}
-		victory_points = {
 			11238
 			2
 		}
@@ -133,9 +103,8 @@ id = 45
 			5
 		}
 	}
-	manpower = 1574425
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	manpower = 1000000
+	buildings_max_level_factor = 1
+	local_supplies = 0
 	state_category = rural
 }
-

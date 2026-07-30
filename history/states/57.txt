@@ -2,8 +2,8 @@ state = {
 	id = 57
 	name = "STATE_57"
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = DMZ
+		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
 		}
@@ -30,10 +30,6 @@ state = {
 		victory_points = {
 			7967
 			5
-		}
-		victory_points = {
-			20878
-			2
 		}
 		victory_points = {
 			20885
@@ -74,10 +70,6 @@ state = {
 		victory_points = {
 			15746
 			2
-		}
-		victory_points = {
-			20879
-			20
 		}
 		victory_points = {
 			15717
@@ -153,16 +145,7 @@ state = {
 		15751
 		20880
 		20931
-		525
-		5917
-		20876
-		20878
-		5387
-		7643
-		7697
-		4010
 		5530
-		20873
 		15690
 		20929
 		6804
@@ -203,8 +186,6 @@ state = {
 		3804
 		15746
 		15749
-		2120
-		20879
 		7567
 		7905
 		15717

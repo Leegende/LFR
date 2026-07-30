@@ -324,7 +324,7 @@ spriteTypes = {
 	##support
 	spriteType = {
 		name = "GFX_support_equipment_technology_medium"
-		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/support_equipment.dds"
+		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/support_equipment_archetype.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

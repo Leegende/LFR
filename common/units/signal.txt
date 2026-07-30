@@ -21,11 +21,11 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
+			support_equipment_archetype
 			motorised_equipment
 		}
 		need = {
-			support_equipment = 20
+			support_equipment_archetype = 20
 			motorised_equipment = 20
 		}
 		same_support_type = signal_company_support
@@ -52,12 +52,12 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			support_equipment
-			armored_support_vehicle
+			support_equipment_archetype
+			armored_support_vehicle_chassis_archetype
 		}
 		need = {
-			support_equipment = 20
-			armored_support_vehicle = 20
+			support_equipment_archetype = 20
+			armored_support_vehicle_chassis_archetype = 20
 		}
 		same_support_type = signal_company_support
 	}

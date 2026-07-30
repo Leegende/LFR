@@ -1,4 +1,3 @@
-
 state = {
 	id = 211
 	name = "STATE_211"
@@ -20,10 +19,6 @@ state = {
 		}
 		victory_points = {
 			11951
-			10
-		}
-		victory_points = {
-			12256
 			10
 		}
 		victory_points = {
@@ -65,15 +60,11 @@ state = {
 		11951
 		19872
 		19895
-		12256
-		19896
 		6618
 		6625
 		5879
 		12107
 		12039
-		19903
-		11556
 		1705
 		3044
 		11969
@@ -90,7 +81,6 @@ state = {
 		12100
 		12130
 		12151
-		12306
 	}
 	manpower = 2393745
 	state_category = pastoral
