@@ -13,6 +13,21 @@
 @heavy_tanks_center = 0
 technologies = {
 	can_light_tank_mk6_chassis_technology = {
+		enable_equipments = {
+			light_tank_mk6_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+		}
 		path = {
 			leads_to_tech = can_light_tank_tetrach_chassis_technology
 		}
@@ -25,6 +40,19 @@ technologies = {
 		}
 	}
 	can_light_tank_tetrach_chassis_technology = {
+		enable_equipments = {
+			light_tank_tetrach_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1938
 		path = {
 			leads_to_tech = can_light_tank_tetrach_dd_chassis_technology
 		}
@@ -40,6 +68,11 @@ technologies = {
 		}
 	}
 	can_light_tank_tetrach_dd_chassis_technology = {
+		enable_equipments = {
+			light_tank_tetrach_dd_chassis
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -49,6 +82,19 @@ technologies = {
 		}
 	}
 	can_light_tank_harry_hopkins_chassis_technology = {
+		enable_equipments = {
+			light_tank_harry_hopkins_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -58,6 +104,23 @@ technologies = {
 		}
 	}
 	can_medium_tank_cruiser_mk_2_chassis_technology = {
+		enable_equipments = {
+			medium_tank_cruiser_mk_2_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+		}
+		research_cost = 2
+		start_year = 1936
 		path = {
 			leads_to_tech = can_medium_tank_cruiser_mk_4_chassis_technology
 		}
@@ -70,6 +133,11 @@ technologies = {
 		}
 	}
 	can_medium_tank_cruiser_mk_4_chassis_technology = {
+		enable_equipments = {
+			medium_tank_cruiser_mk_4_chassis
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = can_medium_tank_ram_chassis_technology
 		}
@@ -85,6 +153,19 @@ technologies = {
 		}
 	}
 	can_medium_tank_ram_chassis_technology = {
+		enable_equipments = {
+			medium_tank_ram_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -94,6 +175,19 @@ technologies = {
 		}
 	}
 	can_medium_tank_grizzly_chassis_technology = {
+		enable_equipments = {
+			medium_tank_grizzly_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -103,6 +197,23 @@ technologies = {
 		}
 	}
 	can_heavy_tank_matilda_1_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_matilda_1_chassis
+		}
+		enable_equipment_modules = {
+			heavy_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+		}
+		research_cost = 2
+		start_year = 1936
 		path = {
 			leads_to_tech = can_heavy_tank_matilda_2_chassis_technology
 		}
@@ -115,6 +226,11 @@ technologies = {
 		}
 	}
 	can_heavy_tank_matilda_2_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_matilda_2_chassis
+		}
+		research_cost = 2
+		start_year = 1938
 		path = {
 			leads_to_tech = can_heavy_tank_valentine_chassis_technology
 		}
@@ -127,6 +243,19 @@ technologies = {
 		}
 	}
 	can_heavy_tank_valentine_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_valentine_chassis
+		}
+		enable_equipment_modules = {
+			heavy_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1940
 		path = {
 			leads_to_tech = can_heavy_tank_churchill_chassis_technology
 		}
@@ -139,6 +268,19 @@ technologies = {
 		}
 	}
 	can_heavy_tank_churchill_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_churchill_chassis
+		}
+		enable_equipment_modules = {
+			heavy_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1942
 		folder = {
 			name = armour_can_folder
 			position = {

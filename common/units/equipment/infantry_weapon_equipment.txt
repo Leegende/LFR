@@ -2,28 +2,97 @@ equipments = {
 	infantry_weapon_archetype = {
 		is_archetype = yes
 		is_buildable = no
+		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
 		type = infantry
 		group_by = archetype
 		interface_category = interface_category_land
-		active = yes
 	}
 	infantry_weapon_1_equipment = {
 		archetype = infantry_weapon_archetype
+		soft_attack = 3
+		hard_attack = 1
+		defense = 10
+		breakthrough = 1
+		ap_attack = 10
+		reliability = 0.8
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 0.5
+		resources = {
+			steel = 10
+		}
 	}
 	infantry_weapon_2_equipment = {
 		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_1_equipment
+		soft_attack = 5
+		hard_attack = 2
+		defense = 15
+		breakthrough = 2
+		ap_attack = 13
+		reliability = 0.8
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 0.65
+		resources = {
+			steel = 11
+		}
 	}
 	infantry_weapon_3_equipment = {
 		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_2_equipment
+		soft_attack = 8
+		hard_attack = 4
+		defense = 20
+		breakthrough = 4
+		ap_attack = 18
+		reliability = 0.85
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 0.8
+		resources = {
+			steel = 13
+		}
 	}
 	infantry_weapon_4_equipment = {
 		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_3_equipment
+		soft_attack = 10
+		hard_attack = 5
+		defense = 25
+		breakthrough = 5
+		ap_attack = 20
+		reliability = 0.75
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 0.9
+		resources = {
+			steel = 15
+		}
 	}
 	infantry_weapon_5_equipment = {
 		archetype = infantry_weapon_archetype
 		parent = infantry_weapon_4_equipment
+		soft_attack = 15
+		hard_attack = 8
+		defense = 30
+		breakthrough = 8
+		ap_attack = 25
+		reliability = 0.75
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 1
+		resources = {
+			steel = 15
+		}
 	}
 }

@@ -12,5 +12,12 @@ equipments = {
 	}
 	support_equipment_1_equipment = {
 		archetype = support_equipment_archetype
+		reliability = 0.8
+		lend_lease_cost = 0
+		build_cost_ic = 5
+		resources = {
+			aluminium = 5
+			steel = 10
+		}
 	}
 }

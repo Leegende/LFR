@@ -257,18 +257,18 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_train_1_equipment_technology_medium"
-		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_1_equipment.dds"
+		name = "GFX_train_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_equipment.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_train_2_equipment_technology_medium"
-		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_2_equipment.dds"
+		name = "GFX_railway_gun_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railway_gun_1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_train_3_equipment_technology_medium"
-		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/train_3_equipment.dds"
+		name = "GFX_railway_gun_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railway_gun_2.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -468,6 +468,21 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	#artillery
+	spriteType = {
+		name = "GFX_pack_anti_air_equipment_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_anti_air_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_air_equipment_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/anti_air_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_anti_air_equipment_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_anti_air_equipment.dds"
+		legacy_lazy_load = no
+	}
 	spriteType = {
 		name = "GFX_artillery_0_equipment_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_0_equipment.dds"
@@ -821,7 +836,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_radio_engineer_technology_medium"
+		name = "GFX_radio_engineers_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/engineer_radio.dds"
 		legacy_lazy_load = no
 	}
@@ -894,6 +909,117 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_rubber_processing_5_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_5.dds"
+		legacy_lazy_load = no
+	}
+	### Air
+	spriteType = {
+		name = "GFX_air_base_building_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/airbase.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_anti_air_building_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/antiair.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cas_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/cas_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cas_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/cas_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cas_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/cas_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_bomber_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_bomber_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_bomber_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_fighter_bomber_4_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_fighter_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_fighter_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_fighter_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tactical_bomber_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/tactical_bomber_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tactical_bomber_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/tactical_bomber_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tactical_bomber_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/tactical_bomber_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tactical_bomber_4_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/tactical_bomber_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_transport_plane_1_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/transport_plane_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_transport_plane_2_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/transport_plane_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_transport_plane_3_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/transport_plane_3.dds"
 		legacy_lazy_load = no
 	}
 }

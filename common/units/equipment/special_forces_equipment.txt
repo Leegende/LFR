@@ -8,5 +8,15 @@ equipments = {
 	}
 	special_forces_equipment = {
 		archetype = special_forces_equipment_archetype
+		reliability = 0.8
+		defense = 2
+		breakthrough = 4
+		soft_attack = 1
+		lend_lease_cost = 0
+		build_cost_ic = 5
+		resources = {
+			steel = 10
+			rubber = 5
+		}
 	}
 }

@@ -11,6 +11,7 @@ set_popularities = {
 	fascism = 2
 	communism = 1
 }
+
 recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_neville_chamberlain
 recruit_character = ENG_winston_churchill

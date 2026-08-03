@@ -142,8 +142,8 @@ buildings = {
 	}
 	synthetic_refinery = {
 		base_cost = 3000
-		icon_frame = 9
-		local_resources_rubber = 1
+		icon_frame = 22
+		local_resources_rubber = 10
 		refinery = yes
 		value = 5
 		infrastructure_construction_effect = yes
@@ -161,7 +161,7 @@ buildings = {
 	steel_refinery = {
 		show_on_map = 1
 		base_cost = 3000
-		icon_frame = 16
+		icon_frame = 23
 		local_resources_steel = 100
 		local_resources_aluminium = 10
 		local_resources_chromium = 5
@@ -180,7 +180,7 @@ buildings = {
 	radar_station = {
 		show_on_map = 1
 		base_cost = 1000
-		icon_frame = 10
+		icon_frame = 9
 		radar = yes
 		damage_factor = 0.5
 		value = 4
@@ -191,15 +191,30 @@ buildings = {
 			state_max = 5
 		}
 	}
-	
-
-
-
+	fuel_silo = {
+		show_on_map = 1
+		base_cost = 4000
+		icon_frame = 10
+		value = 999
+		allied_build = yes
+		infrastructure_construction_effect = yes
+		fuel_silo = yes
+		damage_factor = -0.5
+		show_modifier = yes
+		country_modifiers = {
+			modifiers = {
+				max_fuel_building = 250
+			}
+		}
+		level_cap = {
+			shares_slots = no
+			state_max = 999
+		}
+	}
 	rocket_site = {
 		show_on_map = 1
 		base_cost = 999999
 		hide_if_missing_tech = yes
-		
 		icon_frame = 99
 		rocket_production = 0
 		rocket_launch_capacity = 1

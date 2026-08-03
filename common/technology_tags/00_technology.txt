@@ -13,9 +13,9 @@ technology_folders = {
 	}
 	armour_ger_folder = {
 		ledger = army
-		#available = {
+		available = {
 		#	original_tag = GER
-		#}
+		}
 	}
 	armour_ita_folder = {
 		ledger = army
@@ -65,12 +65,12 @@ technology_folders = {
 	air_folder = {
 		ledger = air
 		available = {
-			OR = {
-				original_tag = SOV
-				original_tag = ENG
-				original_tag = ITA
-				original_tag = GER
-			}
+			#OR = {
+			#	original_tag = SOV
+			#	original_tag = ENG
+			#	original_tag = ITA
+			#	original_tag = GER
+			#}
 		}
 	}
 	industry_folder = {

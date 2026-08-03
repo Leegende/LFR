@@ -189,7 +189,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "equipment_designer_amtrac_anti_air_1_equipment"
+		name = "equipment_designer_amtrac_anti_air_equipment"
 		position = { x = 13 y = 146 }
 		size = { width = 508 height = 248 }
 

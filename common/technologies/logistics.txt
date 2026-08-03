@@ -8,12 +8,57 @@
 @1943 = 14
 @1944 = 16
 technologies = {
-	train_1_equipment_technology = {
+	train_equipment_technology = {
 		enable_equipments = {
-			train_1_equipment
+			train_equipment
 		}
 		path = {
-			leads_to_tech = train_2_equipment_technology
+			leads_to_tech = railway_gun_1_equipment_technology
+		}
+		research_cost = 0
+		start_year = 1936
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1936
+			}
+		}
+	}
+	railway_gun_1_equipment_technology = {
+		enable_equipments = {
+			railway_gun_1_equipment
+		}
+		path = {
+			leads_to_tech = railway_gun_2_equipment_technology
+		}
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1938
+			}
+		}
+	}
+	railway_gun_2_equipment_technology = {
+		enable_equipments = {
+			railway_gun_2_equipment
+		}
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = logistics_folder
+			position = {
+				x = 0
+				y = @1940
+			}
+		}
+	}
+	train_equipment_technology = {
+		enable_equipments = {
+			train_equipment
 		}
 		folder = {
 			name = logistics_folder
@@ -23,36 +68,25 @@ technologies = {
 			}
 		}
 	}
-	train_2_equipment_technology = {
-		enable_equipments = {
-			train_2_equipment
-		}
-		path = {
-			leads_to_tech = train_3_equipment_technology
-		}
-		folder = {
-			name = logistics_folder
-			position = {
-				x = 0
-				y = @1938
-			}
-		}
-	}
-	train_3_equipment_technology = {
-		enable_equipments = {
-			train_3_equipment
-		}
-		folder = {
-			name = logistics_folder
-			position = {
-				x = 0
-				y = @1940
-			}
-		}
-	}
 	armored_car_1_equipment_technology = {
 		enable_equipments = {
 			armored_car_1_equipment
+		}
+		enable_equipment_modules = {
+			armored_car_signals_module
+			armored_car_ce_view_module
+			armored_car_smoke_launcher_module
+			armored_car_wet_ammo_storage_module
+			armored_car_armor_skirts_module
+			armored_car_easy_maintenance_module
+			armored_car_extra_ammo_storage_module
+			armored_car_ostketten_module
+			armored_car_rangefinder_module
+			armored_car_6x6_suspension_module
+			armored_car_8x8_suspension_module
+			armored_car_hulllocked_turret_module
+			armored_car_open_top_turret_module
+			armored_car_oscillating_turret_module
 		}
 		path = {
 			leads_to_tech = armored_car_2_equipment_technology
@@ -72,6 +106,8 @@ technologies = {
 		path = {
 			leads_to_tech = armored_car_3_equipment_technology
 		}
+		start_year = 1938
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -84,6 +120,8 @@ technologies = {
 		enable_equipments = {
 			armored_car_3_equipment
 		}
+		start_year = 1940
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -95,6 +133,20 @@ technologies = {
 	motorised_equipment_technology = {
 		enable_equipments = {
 			motorised_equipment
+		}
+		enable_equipment_modules = {
+			gasoline_engine_module
+			diesel_engine_module
+			petrol_electric_engine_module
+			gas_turbine_engine_module
+			riveted_armor_module
+			cast_armor_module
+			welded_armor_module
+			torsion_bar_suspension_module
+			horstmann_suspension_module
+			christie_suspension_module
+			bogie_suspension_module
+			interleaved_suspension_module
 		}
 		path = {
 			leads_to_tech = mechanised_1_equipment_technology
@@ -114,6 +166,26 @@ technologies = {
 		enable_equipments = {
 			mechanised_1_equipment
 		}
+		enable_equipment_modules = {
+			mech_anti_air_cannon_1_module
+			mech_bogie_suspension_module
+			mech_wheeled_suspension_module
+			mech_half_track_suspension_module
+			mech_riveted_armor_module
+			mech_cast_armor_module
+			mech_welded_armor_module
+			mech_smoke_launchers_module
+			mech_extra_ammo_storage_module
+			mech_wet_ammo_storage_module
+			mech_heavy_machine_gun_module
+			mech_light_cannon_module
+			mech_turret_heavy_machine_gun_module
+			mech_utility_module
+			mech_troop_carrier_module
+			mech_light_superstructure_module
+		}
+		start_year = 1938
+		research_cost = 2.5
 		path = {
 			leads_to_tech = mechanised_2_equipment_technology
 		}
@@ -132,12 +204,31 @@ technologies = {
 		enable_equipments = {
 			amtrac_1_equipment
 		}
+		enable_equipment_modules = {
+			mech_anti_air_cannon_1_module
+			mech_bogie_suspension_module
+			mech_wheeled_suspension_module
+			mech_half_track_suspension_module
+			mech_riveted_armor_module
+			mech_cast_armor_module
+			mech_welded_armor_module
+			mech_amtrac_module
+			mech_smoke_launchers_module
+			mech_extra_ammo_storage_module
+			mech_wet_ammo_storage_module
+			mech_external_fuel_tank_module
+			mech_armor_skirts_module
+			mech_easy_maintenance_module
+			mech_additional_machine_guns_module
+		}
 		path = {
 			leads_to_tech = amtrac_2_equipment_technology
 		}
 		path = {
 			leads_to_tech = mechanised_1_equipment_technology
 		}
+		start_year = 1938
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -150,12 +241,21 @@ technologies = {
 		enable_equipments = {
 			mechanised_2_equipment
 		}
+		enable_equipment_modules = {
+			mech_anti_air_cannon_2_module
+			mech_external_fuel_tank_module
+			mech_armor_skirts_module
+			mech_easy_maintenance_module
+			mech_additional_machine_guns_module
+		}
 		path = {
 			leads_to_tech = mechanised_3_equipment_technology
 		}
 		path = {
 			leads_to_tech = amtrac_2_equipment_technology
 		}
+		start_year = 1940
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -168,12 +268,21 @@ technologies = {
 		enable_equipments = {
 			amtrac_2_equipment
 		}
+		enable_equipment_modules = {
+			mech_anti_air_cannon_2_module
+			mech_external_fuel_tank_module
+			mech_armor_skirts_module
+			mech_easy_maintenance_module
+			mech_additional_machine_guns_module
+		}
 		path = {
 			leads_to_tech = amtrac_3_equipment_technology
 		}
 		path = {
 			leads_to_tech = mechanised_2_equipment_technology
 		}
+		start_year = 1940
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -186,9 +295,20 @@ technologies = {
 		enable_equipments = {
 			mechanised_3_equipment
 		}
+		enable_equipment_modules = {
+			mech_armored_roof_module
+			mech_anti_air_cannon_3_module
+			mech_sloped_armor_module
+			mech_tungston_core_ammunition_module
+			mech_commanders_cupola_module
+			mech_auto_loader_module
+			mech_stabilizer_module
+		}
 		path = {
 			leads_to_tech = amtrac_3_equipment_technology
 		}
+		start_year = 1942
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -201,9 +321,20 @@ technologies = {
 		enable_equipments = {
 			amtrac_3_equipment
 		}
+		enable_equipment_modules = {
+			mech_armored_roof_module
+			mech_anti_air_cannon_3_module
+			mech_sloped_armor_module
+			mech_tungston_core_ammunition_module
+			mech_commanders_cupola_module
+			mech_auto_loader_module
+			mech_stabilizer_module
+		}
 		path = {
 			leads_to_tech = mechanised_3_equipment_technology
 		}
+		start_year = 1942
+		research_cost = 2.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -214,6 +345,10 @@ technologies = {
 	}
 	##upgrades
 	railways_technology = {
+		enable_building = {
+			building = rail_way
+			level = 5
+		}
 		path = {
 			leads_to_tech = railways_upgrade_1_technology
 		}
@@ -232,9 +367,17 @@ technologies = {
 		}
 	}
 	railways_upgrade_1_technology = {
+		supply_consumption_factor = -0.05
+		category_armor = {
+			supply_consumption = -0.01
+		}
+		production_speed_rail_way_factor = 0.1
+		repair_speed_rail_way_factor = 0.05
 		path = {
 			leads_to_tech = railways_upgrade_2_technology
 		}
+		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -244,9 +387,18 @@ technologies = {
 		}
 	}
 	railways_upgrade_2_technology = {
+		supply_consumption_factor = -0.05
+		category_armor = {
+			supply_consumption = -0.01
+		}
+		production_speed_supply_node_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		repair_speed_rail_way_factor = 0.05
 		path = {
 			leads_to_tech = railways_upgrade_3_technology
 		}
+		start_year = 1940
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -256,8 +408,17 @@ technologies = {
 		}
 	}
 	railways_upgrade_3_technology = {
+		supply_consumption_factor = -0.05
+		category_armor = {
+			supply_consumption = -0.01
+		}
+		production_speed_supply_node_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		repair_speed_rail_way_factor = 0.05
 		path = {
 		}
+		start_year = 1942
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -267,9 +428,15 @@ technologies = {
 		}
 	}
 	supply_node_upgrade_1_technology = {
+		supply_node_range = 0.05
+		supply_factor = 0.05
+		production_speed_supply_node_factor = 0.1
+		repair_speed_supply_node_factor = 0.05
 		path = {
 			leads_to_tech = supply_node_upgrade_2_technology
 		}
+		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -279,9 +446,15 @@ technologies = {
 		}
 	}
 	supply_node_upgrade_2_technology = {
+		supply_node_range = 0.05
+		supply_factor = 0.05
+		production_speed_supply_node_factor = 0.1
+		repair_speed_supply_node_factor = 0.05
 		path = {
 			leads_to_tech = supply_node_upgrade_3_technology
 		}
+		start_year = 1940
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -291,6 +464,12 @@ technologies = {
 		}
 	}
 	supply_node_upgrade_3_technology = {
+		supply_node_range = 0.05
+		supply_factor = 0.05
+		production_speed_supply_node_factor = 0.1
+		repair_speed_supply_node_factor = 0.05
+		start_year = 1942
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -300,9 +479,14 @@ technologies = {
 		}
 	}
 	infrastructure_upgrade_1_technology = {
+		truck_attrition_factor = -0.05
+		production_speed_infrastructure_factor = 0.1
+		repair_speed_infrastructure_factor = 0.05
 		path = {
 			leads_to_tech = infrastructure_upgrade_2_technology
 		}
+		start_year = 1938
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -312,9 +496,14 @@ technologies = {
 		}
 	}
 	infrastructure_upgrade_2_technology = {
+		truck_attrition_factor = -0.05
+		production_speed_infrastructure_factor = 0.1
+		repair_speed_infrastructure_factor = 0.05
 		path = {
 			leads_to_tech = infrastructure_upgrade_3_technology
 		}
+		start_year = 1940
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {
@@ -324,6 +513,11 @@ technologies = {
 		}
 	}
 	infrastructure_upgrade_3_technology = {
+		truck_attrition_factor = -0.05
+		production_speed_infrastructure_factor = 0.1
+		repair_speed_infrastructure_factor = 0.05
+		start_year = 1942
+		research_cost = 1.5
 		folder = {
 			name = logistics_folder
 			position = {

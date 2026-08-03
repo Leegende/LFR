@@ -2,21 +2,12 @@ equipments = {
 	train_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		active = no
 		type = train
 		group_by = archetype
 		sprite = train
 		interface_category = interface_category_land
 	}
-	train_1_equipment = {
+	train_equipment = {
 		archetype = train_archetype
-	}
-	train_2_equipment = {
-		archetype = train_archetype
-		parent = train_1_equipment
-	}
-	train_3_equipment = {
-		archetype = train_archetype
-		parent = train_2_equipment
 	}
 }

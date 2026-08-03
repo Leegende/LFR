@@ -11,7 +11,24 @@
 @medium_tanks_center = 0
 @heavy_tanks_center = 0
 technologies = {
-	spr_light_tank_panzer_2_chassis_technology = {
+	spr_light_tank_panzer_1_chassis_technology = {
+		enable_equipments = {
+			light_tank_panzer_1_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+		}
+		research_cost = 2
+		start_year = 1936
 		path = {
 			leads_to_tech = spr_light_tank_trubia_a4_chassis_technology
 		}
@@ -27,6 +44,19 @@ technologies = {
 		}
 	}
 	spr_light_tank_trubia_a4_chassis_technology = {
+		enable_equipments = {
+			light_tank_trubia_a4_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = spr_light_tank_verdeja_1_chassis_technology
 		}
@@ -39,6 +69,19 @@ technologies = {
 		}
 	}
 	spr_light_tank_verdeja_1_chassis_technology = {
+		enable_equipments = {
+			light_tank_verdeja_1_chassis
+		}
+		enable_equipment_modules = {
+			light_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -48,6 +91,19 @@ technologies = {
 		}
 	}
 	spr_medium_tank_verdeja_2_chassis_technology = {
+		enable_equipments = {
+			medium_tank_verdeja_2_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+		}
+		research_cost = 2
+		start_year = 1938
 		path = {
 			leads_to_tech = spr_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
@@ -60,6 +116,22 @@ technologies = {
 		}
 	}
 	spr_medium_tank_panzer_5_ausf_a_chassis_technology = {
+		path = {
+			leads_to_tech = spr_medium_tank_panzer_5_ausf_g_chassis_technology
+		}
+		enable_equipments = {
+			medium_tank_panzer_5_ausf_a_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -68,7 +140,52 @@ technologies = {
 			}
 		}
 	}
+	spr_medium_tank_panzer_5_ausf_g_chassis_technology = {
+		enable_equipments = {
+			medium_tank_panzer_5_ausf_g_chassis
+		}
+		enable_equipment_modules = {
+			medium_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = armour_spr_folder
+			position = {
+				x = @medium_tanks_center
+				y = @1942
+			}
+		}
+	}
 	spr_heavy_tank_tiger_1_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_tiger_1_chassis
+		}
+		enable_equipment_modules = {
+			heavy_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+			heavy_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			sloped_armor_module
+			advanced_artillery_round_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = spr_heavy_tank_tiger_2_chassis_technology
 		}
@@ -81,6 +198,19 @@ technologies = {
 		}
 	}
 	spr_heavy_tank_tiger_2_chassis_technology = {
+		enable_equipments = {
+			heavy_tank_tiger_2_chassis
+		}
+		enable_equipment_modules = {
+			heavy_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = armour_spr_folder
 			position = {

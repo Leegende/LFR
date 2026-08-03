@@ -1,0 +1,12 @@
+technologies = {
+	unused_building_technology = {
+		enable_building = {
+			building = rocket_site
+			level = 0
+		}
+		enable_building = {
+			building = mega_gun_emplacement
+			level = 0
+		}
+	}
+}

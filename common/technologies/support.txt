@@ -45,6 +45,15 @@ technologies = {
 		path = {
 			leads_to_tech = engineering_company_2_technology
 		}
+		enable_subunits = {
+			engineers_support
+		}
+		category_engineers_company = {
+			entrenchment = 0.5
+			max_organisation = 2
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -58,6 +67,12 @@ technologies = {
 			leads_to_tech = engineering_company_3_technology
 			research_cost_coeff = 1
 		}
+		category_engineers_company = {
+			entrenchment = 0.5
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -70,6 +85,12 @@ technologies = {
 		path = {
 			leads_to_tech = engineering_company_4_technology
 		}
+		category_engineers_company = {
+			entrenchment = 0.5
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -79,6 +100,12 @@ technologies = {
 		}
 	}
 	engineering_company_4_technology = {
+		category_engineers_company = {
+			entrenchment = 0.5
+			max_organisation = 2
+		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -92,6 +119,15 @@ technologies = {
 			leads_to_tech = recon_company_2_technology
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			recon_support
+		}
+		category_recon_company = {
+			recon = 1
+			max_organisation = 2
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -105,6 +141,12 @@ technologies = {
 			leads_to_tech = recon_company_3_technology
 			research_cost_coeff = 1
 		}
+		category_recon_company = {
+			recon = 1
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -118,6 +160,12 @@ technologies = {
 			leads_to_tech = recon_company_4_technology
 			research_cost_coeff = 1
 		}
+		category_recon_company = {
+			recon = 1
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -127,6 +175,12 @@ technologies = {
 		}
 	}
 	recon_company_4_technology = {
+		category_recon_company = {
+			recon = 1
+			max_organisation = 2
+		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -140,6 +194,8 @@ technologies = {
 			leads_to_tech = military_police_2_technology
 			research_cost_coeff = 1
 		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -152,6 +208,8 @@ technologies = {
 		path = {
 			leads_to_tech = military_police_3_technology
 		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -164,6 +222,8 @@ technologies = {
 		path = {
 			leads_to_tech = military_police_4_technology
 		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -173,6 +233,8 @@ technologies = {
 		}
 	}
 	military_police_4_technology = {
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -186,6 +248,16 @@ technologies = {
 			leads_to_tech = maintenance_company_2_technology
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			maintenance_company_support
+		}
+		category_maintenance_company = {
+			reliability_factor = 0.05
+			experience_loss_factor = -0.025
+			max_organisation = 2
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -198,6 +270,13 @@ technologies = {
 		path = {
 			leads_to_tech = maintenance_company_3_technology
 		}
+		category_maintenance_company = {
+			reliability_factor = 0.05
+			experience_loss_factor = -0.025
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -210,6 +289,13 @@ technologies = {
 		path = {
 			leads_to_tech = maintenance_company_4_technology
 		}
+		category_maintenance_company = {
+			reliability_factor = 0.05
+			experience_loss_factor = -0.025
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -219,6 +305,11 @@ technologies = {
 		}
 	}
 	maintenance_company_4_technology = {
+		category_maintenance_company = {
+			reliability_factor = 0.05
+			experience_loss_factor = -0.025
+			max_organisation = 2
+		}
 		folder = {
 			name = support_folder
 			position = {
@@ -231,6 +322,16 @@ technologies = {
 		path = {
 			leads_to_tech = field_hospital_2_technology
 		}
+		category_field_hospital_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
+			max_organisation = 2
+		}
+		enable_subunits = {
+			field_hospital_support
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -243,6 +344,13 @@ technologies = {
 		path = {
 			leads_to_tech = field_hospital_3_technology
 		}
+		category_field_hospital_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -256,6 +364,13 @@ technologies = {
 			leads_to_tech = field_hospital_4_technology
 			research_cost_coeff = 1
 		}
+		category_field_hospital_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -265,6 +380,13 @@ technologies = {
 		}
 	}
 	field_hospital_4_technology = {
+		category_field_hospital_company = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.1
+			max_organisation = 2
+		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -278,6 +400,16 @@ technologies = {
 			leads_to_tech = logistics_company_2_technology
 			research_cost_coeff = 1
 		}
+		enable_subunits = {
+			logistics_company_support
+		}
+		category_logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+			max_organisation = 2
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -291,6 +423,13 @@ technologies = {
 			leads_to_tech = logistics_company_3_technology
 			research_cost_coeff = 1
 		}
+		category_logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -303,6 +442,13 @@ technologies = {
 		path = {
 			leads_to_tech = logistics_company_4_technology
 		}
+		category_logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -312,6 +458,13 @@ technologies = {
 		}
 	}
 	logistics_company_4_technology = {
+		category_logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+			max_organisation = 2
+		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {
@@ -324,6 +477,15 @@ technologies = {
 		path = {
 			leads_to_tech = signal_company_2_technology
 		}
+		category_signal_company = {
+			initiative = 0.12
+			max_organisation = 2
+		}
+		enable_subunits = {
+			signal_company_support
+		}
+		research_cost = 1.25
+		start_year = 1938
 		folder = {
 			name = support_folder
 			position = {
@@ -336,6 +498,12 @@ technologies = {
 		path = {
 			leads_to_tech = signal_company_3_technology
 		}
+		category_signal_company = {
+			initiative = 0.12
+			max_organisation = 2
+		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = support_folder
 			position = {
@@ -348,6 +516,12 @@ technologies = {
 		path = {
 			leads_to_tech = signal_company_4_technology
 		}
+		category_signal_company = {
+			initiative = 0.12
+			max_organisation = 2
+		}
+		research_cost = 1.75
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = {
@@ -357,6 +531,12 @@ technologies = {
 		}
 	}
 	signal_company_4_technology = {
+		category_signal_company = {
+			initiative = 0.12
+			max_organisation = 2
+		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = support_folder
 			position = {

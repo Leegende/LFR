@@ -1,0 +1,107 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_unit_camelry_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/camelry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_camelry_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/camelry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_cavalry_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/cavalry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_cavalry_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/cavalry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_converts_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/converts.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_converts_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/converts.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_infantry_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_light_infantry_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/light_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_light_infantry_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/light_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_marine_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/marine.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_marine_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/marine.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_mountaineer_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/mountaineer.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_mountaineer_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/mountaineer.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_ranger_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/ranger.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_ranger_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/ranger.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_shocktrooper_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/shocktrooper.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_shocktrooper_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/shocktrooper.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_sturmtruppe_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/sturmtruppe.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_sturmtruppe_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/infantry/sturmtruppe.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_unit_artillery_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_artillery_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/artillery/artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_pack_artillery_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/pack_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_pack_artillery_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/artillery/pack_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/heavy_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/artillery/heavy_artillery.dds"
+	}
+}

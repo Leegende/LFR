@@ -1,15 +1,16 @@
 sub_units = {
-	@pack_art_need = 10
-	@art_need = 10
-	@heavy_art_need = 10
-	@super_art_need = 10
-	@rocket_art_need = 10
-	@mot_rocket_art_need = 10
-	@mech_art_need = 10
-	@amtrac_art_need = 10
-	@light_tank_need = 10
-	@medium_tank_need = 10
-	@heavy_tank_need = 10
+	@support_equipment_need = 5
+	@pack_art_need = 12
+	@art_need = 12
+	@heavy_art_need = 12
+	@super_art_need = 12
+	@rocket_art_need = 12
+	@mot_rocket_art_need = 12
+	@mech_art_need = 12
+	@amtrac_art_need = 12
+	@light_tank_need = 12
+	@medium_tank_need = 12
+	@heavy_tank_need = 12
 	pack_artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
@@ -20,6 +21,57 @@ sub_units = {
 			artillery
 		}
 		group = artillery
+		categories = {
+			category_artillery
+			category_pack
+			category_pack_artillery
+		}
+		combat_width = 1
+		manpower = 500
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		training_time = 100
+		weight = 0
+		supply_consumption = 0.14
+		supply_consumption_factor = 0.03
+		forest = {
+			attack = 0.075
+		}
+		hills = {
+			attack = 0.075
+		}
+		mountain = {
+			attack = 0.15
+		}
+		rock = {
+			attack = 0.15
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.2
+		}
+		amphibious = {
+			attack = -0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+		dense_urban = {
+			attack = 0.1
+		}
+		transport = pack_artillery_archetype
+		essential = {
+			pack_artillery_archetype
+		}
+		need = {
+			pack_artillery_archetype = @pack_art_need
+		}
 	}
 	artillery_battalion = {
 		sprite = artillery
@@ -31,6 +83,69 @@ sub_units = {
 			artillery
 		}
 		group = artillery
+		categories = {
+			category_artillery
+			category_medium
+			category_medium_artillery
+		}
+		combat_width = 1
+		manpower = 500
+		max_strength = -1
+		max_organisation = -2
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.18
+		supply_consumption_factor = 0.04
+		forest = {
+			attack = -0.1
+			movement = -0.1
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+		}
+		rock = {
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.15
+			movement = -0.1
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.15
+		}
+		fort = {
+			attack = 0.4
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
+		urban = {
+			attack = 0.1
+		}
+		dense_urban = {
+			attack = 0.2
+		}
+		town = {
+			attack = 0.05
+		}
+		transport = artillery_archetype
+		essential = {
+			artillery_archetype
+			support_equipment_archetype
+		}
+		need = {
+			artillery_archetype = @art_need
+			support_equipment_archetype = @support_equipment_need
+		}
 	}
 	heavy_artillery_battalion = {
 		sprite = artillery
@@ -42,6 +157,18 @@ sub_units = {
 			artillery
 		}
 		group = artillery
+		categories = {
+			category_artillery
+			category_heavy
+			category_heavy_artillery
+		}
+		transport = heavy_artillery_archetype
+		essential = {
+			heavy_artillery_archetype
+		}
+		need = {
+			heavy_artillery_archetype = @heavy_art_need
+		}
 	}
 	super_heavy_artillery_battalion = {
 		sprite = artillery
@@ -97,7 +224,6 @@ sub_units = {
 		type = {
 			mechanized
 			artillery
-			
 		}
 		group = mobile
 	}

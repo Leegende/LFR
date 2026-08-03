@@ -18,6 +18,9 @@ technologies = {
 		path = {
 			leads_to_tech = dispersed_industry_1_technology
 		}
+		production_factory_max_efficiency_factor = 0.05
+		research_cost = 1.5
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = {
@@ -30,6 +33,12 @@ technologies = {
 		path = {
 			leads_to_tech = tools_3_technology
 		}
+		production_factory_max_efficiency_factor = 0.05
+		industry_repair_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.05
+		equipment_conversion_speed = 0.2
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -42,6 +51,11 @@ technologies = {
 		path = {
 			leads_to_tech = tools_4_technology
 		}
+		production_factory_max_efficiency_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
+		research_cost = 2.5
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -54,6 +68,13 @@ technologies = {
 		path = {
 			leads_to_tech = tools_5_technology
 		}
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
+		equipment_conversion_speed = 0.4
+		research_cost = 2.5
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -63,6 +84,13 @@ technologies = {
 		}
 	}
 	tools_5_technology = {
+		production_factory_max_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.15
+		industry_repair_factor = 0.25
+		research_cost = 3
+		start_year = 1941
 		folder = {
 			name = industry_folder
 			position = {
@@ -78,6 +106,11 @@ technologies = {
 		XOR = {
 			dispersed_industry_1_technology
 		}
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1937
 		folder = {
 			name = industry_folder
 			position = {
@@ -90,6 +123,11 @@ technologies = {
 		path = {
 			leads_to_tech = concentrated_industry_3_technology
 		}
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -102,6 +140,11 @@ technologies = {
 		path = {
 			leads_to_tech = concentrated_industry_4_technology
 		}
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -114,6 +157,11 @@ technologies = {
 		path = {
 			leads_to_tech = concentrated_industry_5_technology
 		}
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -123,6 +171,11 @@ technologies = {
 		}
 	}
 	concentrated_industry_5_technology = {
+		industrial_capacity_factory = 0.1
+		local_resources_factor = 0.05
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1941
 		folder = {
 			name = industry_folder
 			position = {
@@ -138,6 +191,13 @@ technologies = {
 		XOR = {
 			concentrated_industry_1_technology
 		}
+		industrial_capacity_factory = 0.05
+		production_factory_start_efficiency_factor = 0.06
+		line_change_production_efficiency_factor = 0.1
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1937
 		folder = {
 			name = industry_folder
 			position = {
@@ -150,6 +210,13 @@ technologies = {
 		path = {
 			leads_to_tech = dispersed_industry_3_technology
 		}
+		industrial_capacity_factory = 0.05
+		production_factory_start_efficiency_factor = 0.06
+		line_change_production_efficiency_factor = 0.1
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -162,6 +229,13 @@ technologies = {
 		path = {
 			leads_to_tech = dispersed_industry_4_technology
 		}
+		industrial_capacity_factory = 0.05
+		production_factory_start_efficiency_factor = 0.06
+		line_change_production_efficiency_factor = 0.1
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -174,6 +248,13 @@ technologies = {
 		path = {
 			leads_to_tech = dispersed_industry_5_technology
 		}
+		industrial_capacity_factory = 0.05
+		production_factory_start_efficiency_factor = 0.06
+		line_change_production_efficiency_factor = 0.1
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -183,6 +264,13 @@ technologies = {
 		}
 	}
 	dispersed_industry_5_technology = {
+		industrial_capacity_factory = 0.05
+		production_factory_start_efficiency_factor = 0.06
+		line_change_production_efficiency_factor = 0.1
+		industry_air_damage_factor = -0.15
+		global_building_slots_factor = 0.2
+		research_cost = 2.5
+		start_year = 1941
 		folder = {
 			name = industry_folder
 			position = {
@@ -191,7 +279,6 @@ technologies = {
 			}
 		}
 	}
-	
 	construction_1_technology = {
 		path = {
 			leads_to_tech = construction_2_technology
@@ -199,22 +286,31 @@ technologies = {
 		path = {
 			leads_to_tech = excavation_1_technology
 		}
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
+		research_cost = 2.5
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = {
 				x = 0
-				y = @1936
+				y = @1937
 			}
 		}
 	}
 	excavation_1_technology = {
-		path = {
+		enable_building = {
+			building = steel_refinery
+			level = 1
 		}
+		local_resources_factor = 0.05
+		research_cost = 2
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = {
 				x = 2
-				y = @1936
+				y = @1937
 			}
 		}
 	}
@@ -225,22 +321,34 @@ technologies = {
 		path = {
 			leads_to_tech = excavation_2_technology
 		}
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
+		research_cost = 2.5
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
 				x = 0
-				y = @1937
+				y = @1938
 			}
 		}
 	}
 	excavation_2_technology = {
-		path = {
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_refinery
+				resource = steel
+				amount = 50
+			}
 		}
+		local_resources_factor = 0.05
+		start_year = 2
+		research_cost = 1938
 		folder = {
 			name = industry_folder
 			position = {
 				x = 2
-				y = @1937
+				y = @1938
 			}
 		}
 	}
@@ -251,22 +359,43 @@ technologies = {
 		path = {
 			leads_to_tech = excavation_3_technology
 		}
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
+		research_cost = 2.5
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
 				x = 0
-				y = @1938
+				y = @1939
 			}
 		}
 	}
 	excavation_3_technology = {
-		path = {
+		local_resources_factor = 0.05
+		enable_building = {
+			building = steel_refinery
+			level = 2
 		}
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_refinery
+				resource = aluminium
+				amount = 20
+			}
+			modify_building_resources = {
+				building = steel_refinery
+				resource = steel
+				amount = 50
+			}
+		}
+		start_year = 1939
+		research_cost = 2
 		folder = {
 			name = industry_folder
 			position = {
 				x = 2
-				y = @1938
+				y = @1939
 			}
 		}
 	}
@@ -277,22 +406,44 @@ technologies = {
 		path = {
 			leads_to_tech = excavation_4_technology
 		}
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
+		research_cost = 2.5
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
 				x = 0
-				y = @1939
+				y = @1940
 			}
 		}
 	}
 	excavation_4_technology = {
-		path = {
+		local_resources_factor = 0.05
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_refinery
+				resource = chromium
+				amount = 10
+			}
+			modify_building_resources = {
+				building = steel_refinery
+				resource = tungsten
+				amount = 10
+			}
+			modify_building_resources = {
+				building = steel_refinery
+				resource = aluminium
+				amount = 40
+			}
 		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
 				x = 2
-				y = @1939
+				y = @1940
 			}
 		}
 	}
@@ -300,22 +451,43 @@ technologies = {
 		path = {
 			leads_to_tech = excavation_5_technology
 		}
+		production_speed_buildings_factor = 0.05
+		industry_repair_factor = 0.05
+		research_cost = 2.5
+		start_year = 1941
 		folder = {
 			name = industry_folder
 			position = {
 				x = 0
-				y = @1940
+				y = @1941
 			}
 		}
 	}
 	excavation_5_technology = {
-		path = {
+		local_resources_factor = 0.05
+		enable_building = {
+			building = steel_refinery
+			level = 3
 		}
+		on_research_complete = {
+			modify_building_resources = {
+				building = steel_refinery
+				resource = chromium
+				amount = 10
+			}
+			modify_building_resources = {
+				building = steel_refinery
+				resource = tungsten
+				amount = 10
+			}
+		}
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = industry_folder
 			position = {
 				x = 2
-				y = @1940
+				y = @1941
 			}
 		}
 	}
@@ -329,6 +501,9 @@ technologies = {
 		path = {
 			leads_to_tech = radar_1_technology
 		}
+		research_speed_factor = 0.05
+		research_cost = 1
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = {
@@ -353,6 +528,18 @@ technologies = {
 		path = {
 			leads_to_tech = radio_engineers_technology
 		}
+		land_reinforce_rate = 0.02
+		coordination_bonus = 0.05
+		category_infantry = {
+			max_organisation = 5
+			default_morale = 0.05
+			need = {
+				support_equipment_archetype = 2
+			}
+			breakthrough = 0.1
+		}
+		start_year = 1936
+		research_cost = 1.5
 		folder = {
 			name = industry_folder
 			position = {
@@ -383,6 +570,30 @@ technologies = {
 		path = {
 			leads_to_tech = radio_infantry_2_technology
 		}
+		category_infantry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		category_cavalry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		start_year = 1938
+		research_cost = 2
 		folder = {
 			name = industry_folder
 			position = {
@@ -395,6 +606,30 @@ technologies = {
 		path = {
 			leads_to_tech = radio_infantry_3_technology
 		}
+		category_infantry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 4
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		category_cavalry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 4
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		start_year = 1939
+		research_cost = 2
 		folder = {
 			name = industry_folder
 			position = {
@@ -404,11 +639,35 @@ technologies = {
 		}
 	}
 	radio_infantry_3_technology = {
+		category_infantry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 5
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		category_cavalry = {
+			max_organisation = 5
+			default_morale = 0.02
+			need = {
+				support_equipment_archetype = 5
+			}
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		start_year = 1940
+		research_cost = 2
 		folder = {
 			name = industry_folder
 			position = {
 				x = -3
-				y =  @1940
+				y = @1940
 			}
 		}
 	}
@@ -416,6 +675,16 @@ technologies = {
 		path = {
 			leads_to_tech = radio_artillery_2_technology
 		}
+		category_artillery = {
+			default_morale = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+			need = {
+				support_equipment_archetype = 3
+			}
+		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -428,6 +697,16 @@ technologies = {
 		path = {
 			leads_to_tech = radio_artillery_3_technology
 		}
+		category_artillery = {
+			default_morale = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+			need = {
+				support_equipment_archetype = 4
+			}
+		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -437,6 +716,16 @@ technologies = {
 		}
 	}
 	radio_artillery_3_technology = {
+		category_artillery = {
+			default_morale = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+			need = {
+				support_equipment_archetype = 4
+			}
+		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -449,6 +738,51 @@ technologies = {
 		path = {
 			leads_to_tech = radio_tank_2_technology
 		}
+		category_motorised = {
+			max_organisation = 5
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_mechanised = {
+			max_organisation = 5
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_amtrac = {
+			max_organisation = 5
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_armored_car = {
+			max_organisation = 5
+			need = {
+				support_equipment_archetype = 3
+			}
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		enable_equipment_modules = {
+			tank_radio_1
+		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -461,6 +795,21 @@ technologies = {
 		path = {
 			leads_to_tech = radio_tank_3_technology
 		}
+		category_armor = {
+			breakthrough = 0.05
+			defense = 0.05
+			default_morale = 0.05
+			need = {
+				support_equipment_archetype = 6
+			}
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		enable_equipment_modules = {
+			tank_radio_2
+		}
+		start_year = 1939
+		research_cost = 2
 		folder = {
 			name = industry_folder
 			position = {
@@ -468,11 +817,23 @@ technologies = {
 				y = @1939
 			}
 		}
-		enable_equipment_modules = {
-			tank_radio_2
-		}
 	}
 	radio_tank_3_technology = {
+		category_armor = {
+			breakthrough = 0.05
+			defense = 0.05
+			default_morale = 0.05
+			need = {
+				support_equipment_archetype = 8
+			}
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		enable_equipment_modules = {
+			tank_radio_3
+		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -485,6 +846,9 @@ technologies = {
 		path = {
 			leads_to_tech = computing_2_technology
 		}
+		research_speed_factor = 0.1
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = industry_folder
 			position = {
@@ -497,6 +861,9 @@ technologies = {
 		path = {
 			leads_to_tech = computing_3_technology
 		}
+		research_speed_factor = 0.1
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -509,6 +876,9 @@ technologies = {
 		path = {
 			leads_to_tech = computing_4_technology
 		}
+		research_speed_factor = 0.15
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -518,6 +888,9 @@ technologies = {
 		}
 	}
 	computing_4_technology = {
+		research_speed_factor = 0.15
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -530,6 +903,13 @@ technologies = {
 		path = {
 			leads_to_tech = radar_2_technology
 		}
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		research_speed_factor = 0.025
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = industry_folder
 			position = {
@@ -542,6 +922,13 @@ technologies = {
 		path = {
 			leads_to_tech = radar_3_technology
 		}
+		enable_building = {
+			building = radar_station
+			level = 2
+		}
+		research_speed_factor = 0.025
+		research_cost = 1.5
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -554,6 +941,13 @@ technologies = {
 		path = {
 			leads_to_tech = radar_4_technology
 		}
+		enable_building = {
+			building = radar_station
+			level = 3
+		}
+		research_speed_factor = 0.025
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -563,6 +957,13 @@ technologies = {
 		}
 	}
 	radar_4_technology = {
+		enable_building = {
+			building = radar_station
+			level = 4
+		}
+		research_speed_factor = 0.025
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {
@@ -575,6 +976,16 @@ technologies = {
 		path = {
 			leads_to_tech = rubber_processing_2_technology
 		}
+		enable_building = {
+			building = fuel_silo
+			level = 999
+		}
+		enable_building = {
+			building = synthetic_refinery
+			level = 3
+		}
+		research_cost = 3
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = {
@@ -587,6 +998,17 @@ technologies = {
 		path = {
 			leads_to_tech = rubber_processing_3_technology
 		}
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 10
+			}
+		}
+		fuel_gain_factor = 0.2
+		fuel_gain_factor_from_states = 0.25
+		research_cost = 3
+		start_year = 1937
 		folder = {
 			name = industry_folder
 			position = {
@@ -599,6 +1021,17 @@ technologies = {
 		path = {
 			leads_to_tech = rubber_processing_4_technology
 		}
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 10
+			}
+		}
+		fuel_gain_factor = 0.2
+		fuel_gain_factor_from_states = 0.25
+		research_cost = 3
+		start_year = 1938
 		folder = {
 			name = industry_folder
 			position = {
@@ -611,6 +1044,22 @@ technologies = {
 		path = {
 			leads_to_tech = rubber_processing_5_technology
 		}
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 10
+			}
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 5
+			}
+		}
+		fuel_gain_factor = 0.2
+		fuel_gain_factor_from_states = 0.25
+		research_cost = 3
+		start_year = 1939
 		folder = {
 			name = industry_folder
 			position = {
@@ -620,6 +1069,22 @@ technologies = {
 		}
 	}
 	rubber_processing_5_technology = {
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 10
+			}
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 5
+			}
+		}
+		fuel_gain_factor = 0.2
+		fuel_gain_factor_from_states = 0.25
+		research_cost = 3
+		start_year = 1940
 		folder = {
 			name = industry_folder
 			position = {

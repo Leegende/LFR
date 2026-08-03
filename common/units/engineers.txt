@@ -37,9 +37,9 @@ sub_units = {
 		}
 		same_support_type = engineers_support
 	}
-	assault_engineers_support = {
+	armored_car_engineers_support = {
 		sprite = infantry
-		map_icon_category = infantry
+		map_icon_category = transport
 		priority = 0
 		type = {
 			support
@@ -48,11 +48,12 @@ sub_units = {
 		affects_speed = no
 		type = {
 			support
+			mechanized
 		}
 		group = support
 		categories = {
-			category_support_company
-			category_assault_engineers_company
+			category_armored_car
+			category_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2
@@ -63,44 +64,11 @@ sub_units = {
 		training_time = 100
 		essential = {
 			support_equipment_archetype
+			mechanised_utility_
 		}
 		need = {
 			support_equipment_archetype = @eng_need
-		}
-		same_support_type = engineers_support
-	}
-	armored_assault_engineers_support = {
-		sprite = medium_armor
-		map_icon_category = armored
-		priority = 0
-		type = {
-			support
-		}
-		active = yes
-		affects_speed = no
-		type = {
-			support
-			armor
-		}
-		group = support
-		categories = {
-			category_armor_support_company
-			category_assault_engineers_company
-		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = no
-		training_time = 100
-		essential = {
-			support_equipment_archetype
-			armored_support_vehicle_chassis_archetype
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-			armored_support_vehicle_chassis_archetype = @eng_need
+			mechanised_utility_ = @eng_need
 		}
 		same_support_type = engineers_support
 	}
@@ -119,7 +87,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			category_mechanised_support_company
+			category_mechanised
 			category_engineers_company
 		}
 		combat_width = 0
@@ -153,7 +121,7 @@ sub_units = {
 		}
 		group = support
 		categories = {
-			category_amtrac_support_company
+			category_amtrac
 			category_engineers_company
 		}
 		combat_width = 0
@@ -188,7 +156,6 @@ sub_units = {
 		group = support
 		categories = {
 			category_support_company
-			category_assault_engineers_company
 		}
 		combat_width = 0
 		max_strength = 2

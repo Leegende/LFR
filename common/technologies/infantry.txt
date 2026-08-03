@@ -12,85 +12,11 @@ technologies = {
 		enable_equipments = {
 			infantry_weapon_1_equipment
 		}
-		enable_equipment_modules = {
-			gasoline_engine_module
-			diesel_engine_module
-			petrol_electric_engine_module
-			gas_turbine_engine_module
-			riveted_armor_module
-			cast_armor_module
-			welded_armor_module
-			torsion_bar_suspension_module
-			horstmann_suspension_module
-			christie_suspension_module
-			bogie_suspension_module
-			interleaved_suspension_module
-			flamethrower_1_module
-			flamethrower_2_module
-			flamethrower_3_module
-			light_soft_cannon_1_module
-			light_soft_cannon_2_module
-			light_soft_cannon_3_module
-			light_hard_cannon_1_module
-			light_hard_cannon_2_module
-			light_hard_cannon_3_module
-			medium_soft_cannon_1_module
-			medium_soft_cannon_2_module
-			medium_soft_cannon_3_module
-			medium_hard_cannon_1_module
-			medium_hard_cannon_2_module
-			medium_hard_cannon_3_module
-			heavy_soft_cannon_1_module
-			heavy_soft_cannon_2_module
-			heavy_soft_cannon_3_module
-			heavy_hard_cannon_1_module
-			heavy_hard_cannon_2_module
-			heavy_hard_cannon_3_module
-			light_anti_air_cannon_1_module
-			light_anti_air_cannon_2_module
-			light_anti_air_cannon_3_module
-			medium_anti_air_cannon_1_module
-			medium_anti_air_cannon_2_module
-			medium_anti_air_cannon_3_module
-			heavy_anti_air_cannon_1_module
-			heavy_anti_air_cannon_2_module
-			heavy_anti_air_cannon_3_module
-			tank_radio_1_module
-			tank_radio_2_module
-			tank_radio_3_module
-			amphibious_drive_module
-			stabilizer_module
-			smoke_launchers_module
-			extra_ammo_storage_module
-			wet_ammo_storage_module
-			armor_skirts_module
-			easy_maintenance_module
-			additional_machine_guns_module
-			additional_heavy_machine_guns_module
-			hull_flamethrower_module
-			dozer_blade_module
-			add_on_rockets_module
-			sloped_armor_module
-			apcr_round_module
-			panzergranate_module
-			advanced_artillery_round_module
-			expanded_fuel_tank_module
-			light_turret_1_module
-			light_turret_2_module
-			light_turret_3_module
-			medium_turret_1_module
-			medium_turret_2_module
-			medium_turret_3_module
-			heavy_turret_1_module
-			heavy_turret_2_module
-			heavy_turret_3_module
-			light_superstructure_module
-			medium_superstructure_module
-			heavy_superstructure_module
-		}
 		path = {
 			leads_to_tech = infantry_weapon_2_equipment_technology
 		}
+		research_cost = 0
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = {
@@ -103,65 +29,11 @@ technologies = {
 		enable_equipments = {
 			infantry_weapon_2_equipment
 		}
-		enable_equipment_modules = {
-			mech_ostketten_module
-			mech_armored_roof_module
-			mech_amtrac_module
-			mech_sloped_armor_module
-			mech_stabilizer_module
-			mech_smoke_launchers_module
-			mech_extra_ammo_storage_module
-			mech_wet_ammo_storage_module
-			mech_armor_skirts_module
-			mech_auto_loader_module
-			mech_easy_maintenance_module
-			mech_additional_machine_guns_module
-			mech_external_fuel_tank_module
-			mech_tungston_core_ammunition_module
-			mech_commanders_cupola_module
-			mech_bogie_suspension_module
-			mech_wheeled_suspension_module
-			mech_half_track_suspension_module
-			mech_riveted_armor_module
-			mech_cast_armor_module
-			mech_welded_armor_module
-			mech_anti_air_cannon_1_module
-			mech_anti_air_cannon_2_module
-			mech_anti_air_cannon_3_module
-			mech_soft_cannon_1_module
-			mech_soft_cannon_2_module
-			mech_soft_cannon_3_module
-			mech_close_support_gun_1_module
-			mech_close_support_gun_2_module
-			mech_close_support_gun_3_module
-			mech_hard_cannon_1_module
-			mech_hard_cannon_2_module
-			mech_hard_cannon_3_module
-			mech_rocket_cannon_module
-			mech_heavy_machine_gun_module
-			mech_light_cannon_module
-			mech_turret_heavy_machine_gun_module
-			mech_utility_module
-			mech_troop_carrier_module
-			mech_light_superstructure_module
-			armored_car_signals_module
-			armored_car_ce_view_module
-			armored_car_smoke_launcher_module
-			armored_car_wet_ammo_storage_module
-			armored_car_armor_skirts_module
-			armored_car_easy_maintenance_module
-			armored_car_extra_ammo_storage_module
-			armored_car_ostketten_module
-			armored_car_rangefinder_module
-			armored_car_6x6_suspension_module
-			armored_car_8x8_suspension_module
-			armored_car_hulllocked_turret_module
-			armored_car_open_top_turret_module
-			armored_car_oscillating_turret_module
-		}
 		path = {
 			leads_to_tech = infantry_weapon_3_equipment_technology
 		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = infantry_folder
 			position = {
@@ -177,6 +49,8 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapon_4_equipment_technology
 		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = {
@@ -192,6 +66,8 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapon_5_equipment_technology
 		}
+		research_cost = 2
+		start_year = 1942
 		folder = {
 			name = infantry_folder
 			position = {
@@ -204,6 +80,8 @@ technologies = {
 		enable_equipments = {
 			infantry_weapon_5_equipment
 		}
+		research_cost = 2
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = {
@@ -223,6 +101,8 @@ technologies = {
 		enable_equipments = {
 			special_forces_equipment
 		}
+		research_cost = 2
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -238,6 +118,12 @@ technologies = {
 		path = {
 			leads_to_tech = defense_special_forces_technology
 		}
+		category_special_forces = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -253,6 +139,12 @@ technologies = {
 		path = {
 			leads_to_tech = attack_special_forces_technology
 		}
+		category_special_forces = {
+			breakthrough = 0.05
+			max_strength = 1
+		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -262,6 +154,13 @@ technologies = {
 		}
 	}
 	defense_special_forces_technology = {
+		category_special_forces = {
+			default_morale = 0.1
+		}
+		land_reinforce_rate = 0.05
+		special_forces_no_supply_grace = 72
+		research_cost = 2
+		start_year = 1941
 		path = {
 			leads_to_tech = organisation_special_forces_technology
 		}
@@ -277,6 +176,13 @@ technologies = {
 		path = {
 			leads_to_tech = organisation_special_forces_technology
 		}
+		category_special_forces = {
+			hard_attack = 0.05
+		}
+		coordination_bonus = 0.025
+		special_forces_no_supply_grace = 48
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -286,6 +192,16 @@ technologies = {
 		}
 	}
 	organisation_special_forces_technology = {
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.2
+			acclimatization_cold_climate_gain_factor = 0.2
+			max_organisation = 5
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		special_forces_no_supply_grace = 48
+		research_cost = 2
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = {
@@ -305,6 +221,8 @@ technologies = {
 		path = {
 			leads_to_tech = headquarter_defense_1_technology
 		}
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -314,6 +232,8 @@ technologies = {
 		}
 	}
 	headquarter_organisation_1_technology = {
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -323,6 +243,8 @@ technologies = {
 		}
 	}
 	headquarter_defense_1_technology = {
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -332,6 +254,8 @@ technologies = {
 		}
 	}
 	headquarter_infantry_technology = {
+		research_cost = 1.5
+		start_year = 1939
 		path = {
 			leads_to_tech = headquarter_motorised_technology
 		}
@@ -353,6 +277,8 @@ technologies = {
 		path = {
 			leads_to_tech = headquarter_defense_2_technology
 		}
+		research_cost = 1.5
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = {
@@ -362,6 +288,8 @@ technologies = {
 		}
 	}
 	headquarter_organisation_2_technology = {
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -371,6 +299,8 @@ technologies = {
 		}
 	}
 	headquarter_defense_2_technology = {
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -380,6 +310,8 @@ technologies = {
 		}
 	}
 	headquarter_armored_technology = {
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -393,6 +325,15 @@ technologies = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_2_technology
 		}
+		category_infantry = {
+			soft_attack = 0.05
+			hard_attack = -0.1
+			ap_attack = -0.1
+			defense = -0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -405,6 +346,15 @@ technologies = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_3_technology
 		}
+		category_infantry = {
+			soft_attack = 0.05
+			hard_attack = -0.1
+			ap_attack = -0.1
+			defense = -0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -417,6 +367,15 @@ technologies = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_4_technology
 		}
+		category_infantry = {
+			soft_attack = 0.05
+			hard_attack = -0.1
+			ap_attack = -0.1
+			defense = -0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -426,6 +385,15 @@ technologies = {
 		}
 	}
 	soft_attack_infantry_weapon_4_technology = {
+		category_infantry = {
+			soft_attack = 0.05
+			hard_attack = -0.1
+			ap_attack = -0.1
+			defense = -0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = {
@@ -438,6 +406,15 @@ technologies = {
 		path = {
 			leads_to_tech = hard_attack_infantry_weapon_2_technology
 		}
+		category_infantry = {
+			soft_attack = -0.1
+			hard_attack = 0.1
+			ap_attack = 0.15
+			defense = 0.05
+			breakthrough = -0.05
+		}
+		research_cost = 1
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -450,6 +427,15 @@ technologies = {
 		path = {
 			leads_to_tech = hard_attack_infantry_weapon_3_technology
 		}
+		category_infantry = {
+			soft_attack = -0.1
+			hard_attack = 0.1
+			ap_attack = 0.15
+			defense = 0.05
+			breakthrough = -0.05
+		}
+		research_cost = 1
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -462,6 +448,15 @@ technologies = {
 		path = {
 			leads_to_tech = hard_attack_infantry_weapon_4_technology
 		}
+		category_infantry = {
+			soft_attack = -0.1
+			hard_attack = 0.1
+			ap_attack = 0.15
+			defense = 0.05
+			breakthrough = -0.05
+		}
+		research_cost = 1
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -471,6 +466,15 @@ technologies = {
 		}
 	}
 	hard_attack_infantry_weapon_4_technology = {
+		category_infantry = {
+			soft_attack = -0.1
+			hard_attack = 0.1
+			ap_attack = 0.15
+			defense = 0.05
+			breakthrough = -0.05
+		}
+		research_cost = 1
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = {
@@ -484,6 +488,9 @@ technologies = {
 		path = {
 			leads_to_tech = night_vision_2_technology
 		}
+		land_night_attack = 0.1
+		research_cost = 1.5
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = {
@@ -493,6 +500,9 @@ technologies = {
 		}
 	}
 	night_vision_2_technology = {
+		land_night_attack = 0.15
+		research_cost = 1.5
+		start_year = 1945
 		folder = {
 			name = infantry_folder
 			position = {
@@ -506,6 +516,15 @@ technologies = {
 		path = {
 			leads_to_tech = marines_upgrade_2_technology
 		}
+		category_marines = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -518,6 +537,15 @@ technologies = {
 		path = {
 			leads_to_tech = marines_upgrade_3_technology
 		}
+		category_marines = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -527,6 +555,15 @@ technologies = {
 		}
 	}
 	marines_upgrade_3_technology = {
+		category_marines = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 2
+			}
+		}
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -539,6 +576,15 @@ technologies = {
 		path = {
 			leads_to_tech = mountaineers_upgrade_2_technology
 		}
+		category_mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -551,6 +597,15 @@ technologies = {
 		path = {
 			leads_to_tech = mountaineers_upgrade_3_technology
 		}
+		category_mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -560,6 +615,15 @@ technologies = {
 		}
 	}
 	mountaineers_upgrade_3_technology = {
+		category_mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 2
+			}
+		}
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -572,6 +636,15 @@ technologies = {
 		path = {
 			leads_to_tech = ranger_upgrade_2_technology
 		}
+		category_rangers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -584,6 +657,15 @@ technologies = {
 		path = {
 			leads_to_tech = ranger_upgrade_3_technology
 		}
+		category_rangers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -593,6 +675,15 @@ technologies = {
 		}
 	}
 	ranger_upgrade_3_technology = {
+		category_rangers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 2
+			}
+		}
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {
@@ -605,6 +696,15 @@ technologies = {
 		path = {
 			leads_to_tech = shocktroops_upgrade_2_technology
 		}
+		category_shocktroopers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1937
 		folder = {
 			name = infantry_folder
 			position = {
@@ -617,6 +717,15 @@ technologies = {
 		path = {
 			leads_to_tech = shocktroops_upgrade_3_technology
 		}
+		category_shocktroopers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 1
+			}
+		}
+		research_cost = 1.5
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = {
@@ -626,6 +735,15 @@ technologies = {
 		}
 	}
 	shocktroops_upgrade_3_technology = {
+		category_shocktroopers = {
+			max_organisation = 5
+			soft_attack = 0.05
+			need = {
+				special_forces_equipment_archetype = 2
+			}
+		}
+		research_cost = 1.5
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = {

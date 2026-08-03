@@ -22,6 +22,21 @@ technologies = {
 		enable_equipments = {
 			light_tank_panzer_1_chassis
 		}
+		enable_equipment_modules = {
+			light_turret_1_module
+			amphibious_drive_module
+			light_superstructure_module
+			medium_superstructure_module
+			heavy_superstructure_module
+			###
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+		}
+		research_cost = 2
+		start_year = 1936
 		path = {
 			leads_to_tech = ger_light_tank_panzer_2_chassis_technology
 		}
@@ -49,6 +64,8 @@ technologies = {
 		enable_equipments = {
 			light_tank_panzer_2_chassis
 		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = ger_light_tank_leopard_chassis_technology
 		}
@@ -67,17 +84,28 @@ technologies = {
 		enable_equipments = {
 			light_tank_panzer_38t_chassis
 		}
+		enable_equipment_modules = {
+			light_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			panzergranate_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
 		path = {
 			leads_to_tech = ger_light_tank_schwimmpanzer_2_chassis_technology
 		}
 		path = {
 			leads_to_tech = ger_light_tank_leopard_chassis_technology
 		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = armour_ger_folder
 			position = {
 				x = @light_tanks_left
-				y = @1937
+				y = @1938
 			}
 		}
 	}
@@ -85,15 +113,19 @@ technologies = {
 		enable_equipments = {
 			light_tank_schwimmpanzer_2_chassis
 		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_ger_folder
 			position = {
 				x = @light_amphibious_left
-				y = @1938
+				y = @1939
 			}
 		}
 	}
 	ger_light_tank_hetzer_technology = {
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -106,6 +138,16 @@ technologies = {
 		enable_equipments = {
 			light_tank_leopard_chassis
 		}
+		enable_equipment_modules = {
+			light_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -118,6 +160,16 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_3_ausf_a_chassis
 		}
+		enable_equipment_modules = {
+			medium_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = ger_medium_tank_tauchpanzer_3_ausf_a_chassis_technology
 		}
@@ -139,6 +191,8 @@ technologies = {
 		enable_equipments = {
 			medium_tank_tauchpanzer_3_ausf_a_chassis
 		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -151,6 +205,16 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_4_ausf_a_chassis
 		}
+		enable_equipment_modules = {
+			medium_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = ger_medium_tank_tauchpanzer_4_ausf_a_chassis_technology
 		}
@@ -172,6 +236,8 @@ technologies = {
 		enable_equipments = {
 			medium_tank_tauchpanzer_4_ausf_a_chassis
 		}
+		research_cost = 2
+		start_year = 1938
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -184,9 +250,20 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_3_ausf_f_chassis
 		}
+		enable_equipment_modules = {
+			medium_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			panzergranate_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -199,9 +276,20 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_4_ausf_j_chassis
 		}
+		enable_equipment_modules = {
+			medium_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			panzergranate_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -214,9 +302,19 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_5_ausf_a_chassis
 		}
+		enable_equipment_modules = {
+			medium_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_g_chassis_technology
 		}
+		research_cost = 2
+		start_year = 1940
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -229,6 +327,8 @@ technologies = {
 		enable_equipments = {
 			medium_tank_panzer_5_ausf_g_chassis
 		}
+		research_cost = 2
+		start_year = 1942
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -241,6 +341,16 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_neubaufahrzeug_chassis
 		}
+		enable_equipment_modules = {
+			heavy_turret_1_module
+			stabilizer_module
+			smoke_launchers_module
+			extra_ammo_storage_module
+			wet_ammo_storage_module
+			additional_machine_guns_module
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_1_chassis_technology
 		}
@@ -256,6 +366,17 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_tiger_1_chassis
 		}
+		enable_equipment_modules = {
+			heavy_turret_2_module
+			armor_skirts_module
+			add_on_rockets_module
+			apcr_round_module
+			panzergranate_module
+			sloped_armor_module
+			advanced_artillery_round_module
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_2_chassis_technology
 		}
@@ -271,6 +392,16 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_tiger_2_chassis
 		}
+		enable_equipment_modules = {
+			heavy_turret_3_module
+			expanded_fuel_tank_module
+			additional_heavy_machine_guns_module
+			hull_flamethrower_module
+			dozer_blade_module
+			easy_maintenance_module
+		}
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = armour_ger_folder
 			position = {

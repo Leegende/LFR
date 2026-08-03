@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_header_production_bg"
+		texturefile = "gfx/interface/header_production_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_equipment_item_large_03"
+		textureFile = "gfx//interface//equipment_item_large_03.dds"
+		noOfFrames = 2
+	}
+	progressbartype = {
+		name = "GFX_efficiency_progressbar_to_max"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\efficiency_progressbar_bg_max.dds"
+		textureFile2 = "gfx\\interface\\efficiency_progressbar_bg.dds"
+		size = { x = 243 y = 9 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_efficiency_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\efficiency_progressbar.dds"
+		textureFile2 = "gfx\\interface\\efficiency_progressbar_bg_transparent.dds"
+		size = { x = 243 y = 9 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+}

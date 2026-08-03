@@ -2,21 +2,45 @@ equipments = {
 	pack_artillery_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		type = artillery
+		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
 	artillery_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		type = artillery
+		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
 	heavy_artillery_archetype = {
 		is_archetype = yes
 		is_buildable = no
-		type = artillery
+		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
@@ -24,8 +48,15 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
 		picture = archetype_artillery_equipment
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
@@ -33,8 +64,16 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
 		picture = archetype_artillery_equipment
-		type = artillery
+		type = {
+			infantry
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
 	}
@@ -42,8 +81,13 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
+		can_be_lend_leased = {
+			always = no
+		}
+		active = yes
 		picture = archetype_artillery_equipment
 		type = {
+			infantry
 			artillery
 			motorized
 		}
@@ -52,40 +96,180 @@ equipments = {
 	}
 	pack_artillery_1_equipment = {
 		archetype = pack_artillery_archetype
+		soft_attack = 15
+		hard_attack = 3
+		defense = 12
+		breakthrough = 3
+		ap_attack = 15
+		reliability = 0.8
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 8.5
+		resources = {
+			steel = 15
+			tungsten = 3
+		}
 	}
 	pack_artillery_2_equipment = {
 		archetype = pack_artillery_archetype
 		parent = pack_artillery_1_equipment
+		soft_attack = 21
+		hard_attack = 5
+		defense = 15
+		breakthrough = 5
+		ap_attack = 25
+		reliability = 0.8
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 11
+		resources = {
+			steel = 15
+			tungsten = 5
+		}
 	}
 	pack_artillery_3_equipment = {
 		archetype = pack_artillery_archetype
 		parent = pack_artillery_2_equipment
+		soft_attack = 27
+		hard_attack = 7
+		defense = 20
+		breakthrough = 7
+		ap_attack = 30
+		reliability = 0.85
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 15
+		resources = {
+			steel = 15
+			tungsten = 5
+		}
 	}
 	artillery_0_equipment = {
 		archetype = artillery_archetype
+		soft_attack = 7
+		hard_attack = 2
+		defense = 8
+		breakthrough = 3
+		ap_attack = 15
+		reliability = 0.9
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 7
+		resources = {
+			steel = 10
+			tungsten = 2
+		}
 	}
 	artillery_1_equipment = {
 		archetype = artillery_archetype
 		parent = artillery_0_equipment
+		soft_attack = 20
+		hard_attack = 5
+		defense = 10
+		breakthrough = 5
+		ap_attack = 20
+		reliability = 0.7
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 9.5
+		resources = {
+			steel = 20
+			tungsten = 5
+		}
 	}
 	artillery_2_equipment = {
 		archetype = artillery_archetype
 		parent = artillery_1_equipment
+		soft_attack = 27
+		hard_attack = 7
+		defense = 15
+		breakthrough = 8
+		ap_attack = 25
+		reliability = 0.75
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 12
+		resources = {
+			steel = 20
+			tungsten = 5
+		}
 	}
 	artillery_3_equipment = {
 		archetype = artillery_archetype
 		parent = artillery_2_equipment
+		soft_attack = 34
+		hard_attack = 10
+		defense = 18
+		breakthrough = 11
+		ap_attack = 30
+		reliability = 0.7
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 15
+		resources = {
+			steel = 25
+			tungsten = 5
+		}
 	}
 	heavy_artillery_1_equipment = {
 		archetype = heavy_artillery_archetype
+		soft_attack = 30
+		hard_attack = 11
+		defense = 15
+		breakthrough = 4
+		ap_attack = 30
+		reliability = 0.6
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 17.5
+		resources = {
+			steel = 30
+			tungsten = 10
+		}
 	}
 	heavy_artillery_2_equipment = {
 		archetype = heavy_artillery_archetype
 		parent = heavy_artillery_1_equipment
+		soft_attack = 40
+		hard_attack = 15
+		defense = 25
+		breakthrough = 7
+		ap_attack = 35
+		reliability = 0.7
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 25
+		resources = {
+			steel = 32
+			tungsten = 10
+		}
 	}
 	heavy_artillery_3_equipment = {
 		archetype = heavy_artillery_archetype
 		parent = heavy_artillery_2_equipment
+		soft_attack = 50
+		hard_attack = 19
+		defense = 35
+		breakthrough = 10
+		ap_attack = 40
+		reliability = 0.8
+		maximum_speed = 4
+		armor_value = 0
+		lend_lease_cost = 0
+		build_cost_ic = 34
+		resources = {
+			steel = 35
+			tungsten = 10
+		}
 	}
 	super_heavy_artillery_1_equipment = {
 		archetype = super_heavy_artillery_archetype

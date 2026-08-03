@@ -14,8 +14,11 @@
 @tactical_bomber_x = 0
 @transport_plane_x = 3
 technologies = {
-	
 	air_base_building_technology = {
+		enable_building = {
+			building = air_base
+			level = 20
+		}
 		path = {
 			leads_to_tech = fighter_1_equipment_technology
 		}
@@ -34,9 +37,14 @@ technologies = {
 		}
 	}
 	fighter_1_equipment_technology = {
+		enable_equipments = {
+			fighter_1_equipment
+		}
 		path = {
 			leads_to_tech = fighter_2_equipment_technology
 		}
+		research_cost = 2
+		start_year = 1937
 		folder = {
 			name = air_folder
 			position = {
@@ -46,9 +54,14 @@ technologies = {
 		}
 	}
 	fighter_2_equipment_technology = {
+		enable_equipments = {
+			fighter_2_equipment
+		}
 		path = {
 			leads_to_tech = fighter_3_equipment_technology
 		}
+		research_cost = 2
+		start_year = 1939
 		folder = {
 			name = air_folder
 			position = {
@@ -58,9 +71,14 @@ technologies = {
 		}
 	}
 	fighter_3_equipment_technology = {
-		path = {
-			leads_to_tech = fighter_4_equipment_technology
+		enable_equipments = {
+			fighter_3_equipment
 		}
+		path = {
+			leads_to_tech = fighter_bomber_4_equipment_technology
+		}
+		research_cost = 2
+		start_year = 1941
 		folder = {
 			name = air_folder
 			position = {
@@ -69,16 +87,12 @@ technologies = {
 			}
 		}
 	}
-	fighter_4_equipment_technology = {
-		folder = {
-			name = air_folder
-			position = {
-				x = @fighter_x
-				y = @1943
-			}
-		}
-	}
 	cas_1_equipment_technology = {
+		enable_equipments = {
+			cas_1_equipment
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = cas_2_equipment_technology
 		}
@@ -91,6 +105,11 @@ technologies = {
 		}
 	}
 	cas_2_equipment_technology = {
+		enable_equipments = {
+			cas_2_equipment
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = cas_3_equipment_technology
 		}
@@ -103,8 +122,13 @@ technologies = {
 		}
 	}
 	cas_3_equipment_technology = {
+		enable_equipments = {
+			cas_3_equipment
+		}
+		research_cost = 2
+		start_year = 1941
 		path = {
-			leads_to_tech = fighter_4_equipment_technology
+			leads_to_tech = fighter_bomber_4_equipment_technology
 		}
 		folder = {
 			name = air_folder
@@ -115,6 +139,11 @@ technologies = {
 		}
 	}
 	fighter_bomber_1_equipment_technology = {
+		enable_equipments = {
+			fighter_bomber_1_equipment
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = fighter_bomber_2_equipment_technology
 		}
@@ -127,6 +156,11 @@ technologies = {
 		}
 	}
 	fighter_bomber_2_equipment_technology = {
+		enable_equipments = {
+			fighter_bomber_2_equipment
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = fighter_bomber_3_equipment_technology
 		}
@@ -139,8 +173,13 @@ technologies = {
 		}
 	}
 	fighter_bomber_3_equipment_technology = {
+		enable_equipments = {
+			fighter_bomber_3_equipment
+		}
+		research_cost = 2
+		start_year = 1941
 		path = {
-			leads_to_tech = fighter_4_equipment_technology
+			leads_to_tech = fighter_bomber_4_equipment_technology
 		}
 		folder = {
 			name = air_folder
@@ -150,8 +189,25 @@ technologies = {
 			}
 		}
 	}
-	
+	fighter_bomber_4_equipment_technology = {
+		enable_equipments = {
+			fighter_bomber_4_equipment
+		}
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = air_folder
+			position = {
+				x = @fighter_x
+				y = @1943
+			}
+		}
+	}
 	anti_air_building_technology = {
+		enable_building = {
+			building = anti_air_building
+			level = 5
+		}
 		path = {
 			leads_to_tech = heavy_fighter_1_equipment_technology
 		}
@@ -170,6 +226,11 @@ technologies = {
 		}
 	}
 	heavy_fighter_1_equipment_technology = {
+		enable_equipments = {
+			heavy_fighter_1_equipment
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = heavy_fighter_2_equipment_technology
 		}
@@ -182,6 +243,11 @@ technologies = {
 		}
 	}
 	heavy_fighter_2_equipment_technology = {
+		enable_equipments = {
+			heavy_fighter_2_equipment
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = heavy_fighter_3_equipment_technology
 		}
@@ -194,6 +260,11 @@ technologies = {
 		}
 	}
 	heavy_fighter_3_equipment_technology = {
+		enable_equipments = {
+			heavy_fighter_3_equipment
+		}
+		research_cost = 2
+		start_year = 1941
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
 		}
@@ -206,6 +277,11 @@ technologies = {
 		}
 	}
 	tactical_bomber_1_equipment_technology = {
+		enable_equipments = {
+			tactical_bomber_1_equipment
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = tactical_bomber_2_equipment_technology
 		}
@@ -218,6 +294,11 @@ technologies = {
 		}
 	}
 	tactical_bomber_2_equipment_technology = {
+		enable_equipments = {
+			tactical_bomber_2_equipment
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = tactical_bomber_3_equipment_technology
 		}
@@ -230,6 +311,11 @@ technologies = {
 		}
 	}
 	tactical_bomber_3_equipment_technology = {
+		enable_equipments = {
+			tactical_bomber_3_equipment
+		}
+		research_cost = 2
+		start_year = 1941
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
 		}
@@ -242,6 +328,11 @@ technologies = {
 		}
 	}
 	tactical_bomber_4_equipment_technology = {
+		enable_equipments = {
+			tactical_bomber_4_equipment
+		}
+		research_cost = 2
+		start_year = 1943
 		folder = {
 			name = air_folder
 			position = {
@@ -251,6 +342,11 @@ technologies = {
 		}
 	}
 	transport_plane_1_equipment_technology = {
+		enable_equipments = {
+			transport_plane_1_equipment
+		}
+		research_cost = 2
+		start_year = 1937
 		path = {
 			leads_to_tech = transport_plane_2_equipment_technology
 		}
@@ -263,6 +359,11 @@ technologies = {
 		}
 	}
 	transport_plane_2_equipment_technology = {
+		enable_equipments = {
+			transport_plane_2_equipment
+		}
+		research_cost = 2
+		start_year = 1939
 		path = {
 			leads_to_tech = transport_plane_3_equipment_technology
 		}
@@ -275,6 +376,11 @@ technologies = {
 		}
 	}
 	transport_plane_3_equipment_technology = {
+		enable_equipments = {
+			transport_plane_3_equipment
+		}
+		research_cost = 2
+		start_year = 1941
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
 		}

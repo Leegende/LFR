@@ -116,6 +116,7 @@ sub_units = {
 			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_light_tank
+			category_amphibious_light_tank
 		}
 		combat_width = 0
 		training_time = 100
@@ -151,6 +152,7 @@ sub_units = {
 			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_medium_tank
+			category_amphibious_medium_tank
 		}
 		combat_width = 0
 		training_time = 100
@@ -186,6 +188,7 @@ sub_units = {
 			category_amphibious_armor_flamethrower
 			category_amphibious_armor_support_company
 			category_heavy_tank
+			category_amphibious_heavy_tank
 		}
 		combat_width = 0
 		training_time = 100

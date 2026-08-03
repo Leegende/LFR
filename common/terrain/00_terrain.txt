@@ -12,6 +12,7 @@ categories = {
 			83
 			176
 		}
+		naval_terrain = yes
 		minimum_seazone_dominance = 250
 	}
 	rock = {

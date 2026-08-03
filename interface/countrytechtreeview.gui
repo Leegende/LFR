@@ -372,7 +372,7 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "train_1_equipment_technology_tree"
+				name = "train_equipment_technology_tree"
 				position = { x = 1750 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -682,6 +682,30 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+			gridboxtype = {
+				name = "defense_artillery_technology_tree"
+				position = { x = 675 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "attack_artillery_technology_tree"
+				position = { x = 795 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "defense_anti_tank_technology_tree"
+				position = { x = 1175 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "attack_anti_tank_technology_tree"
+				position = { x = 1295 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 		#armour ger folder
 		containerWindowType = {
@@ -958,7 +982,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "light_tank_l3_33_chassis_technology_tree"
+				name = "ita_light_tank_l3_33_chassis_technology_tree"
 				position = { x = 940 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1107,7 +1131,7 @@ guiTypes = {
 
 			}
 			gridboxtype = {
-				name = "spr_light_tank_panzer_2_chassis_technology_tree"
+				name = "spr_light_tank_panzer_1_chassis_technology_tree"
 				position = { x = 880 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -2170,7 +2194,7 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "construction_1_technology_tree"
-				position = { x = 740 y = 240 }
+				position = { x = 740 y = 100 }
 				size = { width = 72 height = 650 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -4110,28 +4134,28 @@ guiTypes = {
 	####air folder small item
 	containerWindowType = {
 		name = "techtree_air_folder_item"
-		position = { x = -56 y = -7 }
+		position = { x=-54 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_technology_unavailable_item_bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
-		gridboxtype = {
 
+		gridboxtype = {
+			# contains special_project_specialization
 			name = "special_project_specialization_list"
 		}
-
 
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
-			texturefile = ""
+			textureFile = ""
 			font = "hoi_20bs"
-			borderSize = { x = 4 y = 4 }
+			borderSize = {x = 4 y = 4}
 			text = ""
-			maxwidth = 166
+			maxWidth = 166
 			maxHeight = 20
 			fixedsize = yes
 			format = left
@@ -4139,7 +4163,73 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x = 89 y = 50 }
+			position = { x=95 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=111 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 111 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=142 y=5 }
+			size = { width = 35 height = 26 }
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtech_carrier_plane_bg"
+			}
+
+			iconType = {
+				name = "picture"
+				position = { x=6 y=2 }
+				spriteType = "GFX_airwing_carrier_icon"
+				alwaystransparent = yes
+			}
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
+	}
+	containerWindowType = {
+		name = "techtree_air_folder_small_item"
+		position = { x=-54 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+		
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+		iconType = {
+			name = "Icon"
+			position = { x = 85 y = 40 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
@@ -4150,85 +4240,21 @@ guiTypes = {
 			position = { x = 111 y = -22 }
 			spriteType = "GFX_tech_bonus"
 		}
-
-		instantTextBoxType = {
-			name = "bonus"
-			position = { x = 111 y = -22 }
-			texturefile = ""
-			font = "hoi_16mbs"
-			borderSize = { x = 4 y = 4 }
-			text = "lol boat"
-			maxwidth = 80
-			maxHeight = 20
-			format = center
-		}
-
-		containerWindowType = {
-			name = "sub_technology_slot_0"
-			position = { x = 142 y = 5 }
-			size = { width = 35 height = 26 }
-			clipping = no
-
-			background = {
-				name = "Background"
-				spriteType = "GFX_subtech_carrier_plane_bg"
-			}
-
-			iconType = {
-				name = "picture"
-				position = { x = 6 y = 2 }
-				spriteType = "GFX_airwing_carrier_icon"
-				alwaystransparent = yes
-			}
-		}
-
-		iconType = {
-			name = "can_assign_design_team_icon"
-			position = { x = 5 y = 55 }
-			spriteType = "GFX_design_team_icon"
-		}
-	}
-	containerWindowType = {
-		name = "techtree_air_folder_small_item"
-		position = { x = -56 y = -7 }
-		size = { width = 72 height = 72 }
-		clipping = no
-
-		background = {
-			name = "Background"
-			quadTextureSprite = "GFX_technology_unavailable_item_bg"
-		}
-		gridboxtype = {
-
-			name = "special_project_specialization_list"
-		}
-
-		iconType = {
-			name = "Icon"
-			position = { x = 3 y = 3 }
-			spriteType = "GFX_technology_medium"
-			alwaystransparent = yes
-		}
-		iconType = {
-			name = "bonus_icon"
-			position = { x = 3 y = -22 }
-			spriteType = "GFX_tech_bonus"
-		}
 		instantTextBoxType = {
 			name = "bonus"
 			position = { x = 17 y = -22 }
-			texturefile = ""
+			textureFile = ""
 			font = "hoi_16mbs"
-			borderSize = { x = 4 y = 4 }
+			borderSize = {x = 4 y = 4}
 			text = "lol boat"
-			maxwidth = 50
+			maxWidth = 50
 			maxHeight = 20
 			format = right
 		}
 
 		iconType = {
 			name = "can_assign_design_team_icon"
-			position = { x = 0 y = 42 }
+			position = { x=0 y=42 }
 			spriteType = "GFX_design_team_icon"
 		}
 	}

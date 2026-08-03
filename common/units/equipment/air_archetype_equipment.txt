@@ -3,17 +3,28 @@ equipments = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = fighter
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 1
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
+		allow_mission_type = {
+			training
+			air_superiority
+			interception
+		}
 	}
 	fighter_bomber_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = {
 			fighter
 			cas
@@ -23,49 +34,87 @@ equipments = {
 		air_map_icon_frame = 2
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
+		allow_mission_type = {
+			training
+			air_superiority
+			interception
+			cas
+			attack_logistics
+		}
 	}
 	cas_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = cas
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 3
 		interface_category = interface_category_air
 		interface_overview_category_index = 1
+		allow_mission_type = {
+			training
+			cas
+			attack_logistics
+		}
 	}
 	heavy_fighter_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = fighter
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 4
 		interface_category = interface_category_air
 		interface_overview_category_index = 3
+		allow_mission_type = {
+			training
+			air_superiority
+			interception
+		}
 	}
 	tactical_bomber_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = tactical_bomber
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 5
 		interface_category = interface_category_air
 		interface_overview_category_index = 3
+		allow_mission_type = {
+			training
+			cas
+			attack_logistics
+			strategic_bomber
+		}
 	}
 	transport_plane_archetype = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		can_be_lend_leased = {
+			always = no
+		}
 		type = air_transport
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 6
 		interface_category = interface_category_air
 		interface_overview_category_index = 3
+		allow_mission_type = {
+			air_supply
+		}
 	}
 }
