@@ -1,5 +1,3 @@
-
-
 GER_autarky_category = {
 	GER_drill_baby_drill = {
 		icon = GFX_decision_generic_construction
@@ -104,7 +102,7 @@ GER_autarky_category = {
 			always = yes
 		}
 		available = {
-			has_tech = excavation3
+			has_tech = excavation_3_technology
 		}
 		cost = 25
 		fire_only_once = yes
@@ -223,7 +221,7 @@ GER_autarky_category = {
 			always = yes
 		}
 		available = {
-			has_tech = excavation2
+			has_tech = excavation_2_technology
 		}
 		cost = 25
 		fire_only_once = yes
