@@ -1,0 +1,149 @@
+GER_weisung_nr_1_trigger = {
+	GER = {
+		has_completed_focus = GER_fall_weiss
+	}
+	NOT = {
+		has_global_flag = GER_weisung_nr_1
+	}
+}
+
+GER_weisung_nr_10a_trigger = {
+	GER = {
+		has_completed_focus = GER_operation_weseruebung
+	}
+	NOT = {
+		has_global_flag = GER_weisung_nr_10a
+	}
+}
+
+GER_weisung_nr_11_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_11
+		}
+	}
+}
+
+GER_weisung_nr_31_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_31
+		}
+	}
+}
+
+GER_weisung_nr_17_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_17
+		}
+	}
+}
+
+GER_weisung_nr_19b_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_19b
+		}
+	}
+}
+
+GER_weisung_nr_20_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_20
+		}
+	}
+}
+
+GER_weisung_nr_21_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_21
+		}
+	}
+}
+
+GER_weisung_nr_22b_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_22b
+		}
+	}
+}
+
+GER_weisung_nr_26_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_26
+		}
+	}
+}
+
+GER_weisung_nr_28_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_28
+		}
+	}
+}
+
+GER_weisung_nr_35a_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_35a
+		}
+	}
+}
+
+GER_weisung_nr_40_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_40
+		}
+	}
+}
+
+GER_weisung_nr_63_trigger = {
+	AND = {
+		GER = {
+			has_completed_focus = GER_fall_gelb
+		}
+		NOT = {
+			has_global_flag = GER_weisung_nr_63
+		}
+	}
+}

@@ -9,3 +9,7 @@ set_popularities = {
 	fascism = 35
 	neutrality = 60
 }
+
+recruit_character = BUL_boris_iii
+recruit_character = BUL_hristo_lukov
+recruit_character = BUL_end

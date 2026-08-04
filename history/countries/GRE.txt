@@ -10,3 +10,7 @@ set_popularities = {
 	communism = 17
 	neutrality = 38
 }
+recruit_character = GRE_eleftherios_venizelos
+recruit_character = GRE_george_ii
+recruit_character = GRE_konstantinos_demertzis
+recruit_character = GRE_end

@@ -1,0 +1,16 @@
+characters = {
+	UAC_faud_i = {
+		name = "Faud I"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_UAC_faud_i
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	UAC_end = {
+		name = ""
+	}
+}

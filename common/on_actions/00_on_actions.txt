@@ -6,4 +6,18 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_global_flag = startup_done
+					}
+				}
+				GER = {
+					LFR_starting_scripted_effect = yes
+				}
+			}
+		}
+	}
 }

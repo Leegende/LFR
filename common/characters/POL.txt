@@ -1,0 +1,16 @@
+characters = {
+	POL_ignacy_moscicki = {
+		name = "Ignacy Moscicki"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_ignacy_moscicki
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	POL_end = {
+		name = ""
+	}
+}

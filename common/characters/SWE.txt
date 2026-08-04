@@ -1,4 +1,16 @@
-characters={
-
-
+characters = {
+	SWE_per_albin_hansson = {
+		name = "Per Albin Hansson"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SWE_per_albin_hansson
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	SWE_end = {
+		name = ""
+	}
 }

@@ -1,3 +1,16 @@
-characters={
-	
+characters = {
+	IRE_eamon_de_varela = {
+		name = "Eamon de Varela"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_IRE_eamon_de_varela
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
+	IRE_end = {
+		name = ""
+	}
 }

@@ -1,0 +1,38 @@
+characters = {
+	ROM_gheorge_tatarescu = {
+		name = "Gheorge Tatarescu"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_gheorge_taterescu
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
+	ROM_ion_antonescu = {
+		name = "Ion Antonescu"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ROM_ion_antonescu
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	ROM_octavian_goga = {
+		name = "Octavian Goga"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_octavian_goga
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	ROM_end = {
+		name = ""
+	}
+}

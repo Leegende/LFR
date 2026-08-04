@@ -12,3 +12,5 @@ set_popularities = {
 	communism = 5
 	neutrality = 50
 }
+recruit_character = UAC_faud_i
+recruit_character = UAC_end

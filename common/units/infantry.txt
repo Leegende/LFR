@@ -20,10 +20,6 @@ sub_units = {
 		manpower = 750
 		training_time = 75
 		supply_consumption = 0.10
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 15
 		}
@@ -48,10 +44,6 @@ sub_units = {
 		manpower = 1000
 		training_time = 100
 		supply_consumption = 0.15
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 50
 		}
@@ -78,10 +70,6 @@ sub_units = {
 		maximum_speed = 0.5
 		training_time = 120
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 		}
@@ -109,15 +97,11 @@ sub_units = {
 		maximum_speed = 0.5
 		training_time = 120
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 70
 		}
 	}
-	marine_battalion = {
+	marines_battalion = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 1
@@ -141,17 +125,12 @@ sub_units = {
 		manpower = 1500
 		training_time = 150
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-			special_forces_equipment_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 			special_forces_equipment_archetype = @special_forces_need
 		}
 	}
-	mountaineer_battalion = {
+	mountaineers_battalion = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 1
@@ -175,11 +154,6 @@ sub_units = {
 		manpower = 1500
 		training_time = 150
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-			special_forces_equipment_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 			special_forces_equipment_archetype = @special_forces_need
@@ -209,17 +183,12 @@ sub_units = {
 		manpower = 1500
 		training_time = 150
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-			special_forces_equipment_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 			special_forces_equipment_archetype = @special_forces_need
 		}
 	}
-	ranger_battalion = {
+	rangers_battalion = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 1
@@ -243,11 +212,6 @@ sub_units = {
 		manpower = 1500
 		training_time = 150
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-			special_forces_equipment_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 			special_forces_equipment_archetype = @special_forces_need
@@ -258,7 +222,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 1
 		affects_speed = yes
-		active = no
+		active = yes
 		type = {
 			infantry
 		}
@@ -277,11 +241,6 @@ sub_units = {
 		manpower = 1500
 		training_time = 150
 		supply_consumption = 0.20
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-			special_forces_equipment_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 65
 			special_forces_equipment_archetype = @special_forces_need
@@ -312,10 +271,6 @@ sub_units = {
 		training_time = 5
 		supply_consumption = 0
 		training_time = 100
-		transport = infantry_weapon_archetype
-		essential = {
-			infantry_weapon_archetype
-		}
 		need = {
 			infantry_weapon_archetype = 10
 		}

@@ -10,6 +10,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_armor_flamethrower
@@ -23,13 +24,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = light_tank_flame_
-		essential = {
-			light_tank_flame_
-		}
-		need = {
-			light_tank_flame_ = @flame_need
-		}
+		#need = {
+		#	light_tank_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 	medium_tank_flamethrower_support = {
@@ -42,6 +39,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_armor_flamethrower
@@ -55,13 +53,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = medium_tank_flame_
-		essential = {
-			medium_tank_flame_
-		}
-		need = {
-			medium_tank_flame_ = @flame_need
-		}
+		#need = {
+		#	medium_tank_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 	heavy_tank_flamethrower_support = {
@@ -76,6 +70,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_armor_flamethrower
@@ -89,13 +84,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = heavy_tank_flame_
-		essential = {
-			heavy_tank_flame_
-		}
-		need = {
-			heavy_tank_flame_ = @flame_need
-		}
+		#need = {
+		#	heavy_tank_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 	light_tank_amphibious_flamethrower_support = {
@@ -111,6 +102,7 @@ sub_units = {
 			amphibious
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_amphibious_armor_flamethrower
@@ -125,13 +117,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = light_tank_amphibious_flame_
-		essential = {
-			light_tank_amphibious_flame_
-		}
-		need = {
-			light_tank_amphibious_flame_ = @flame_need
-		}
+		#need = {
+		#	light_tank_amphibious_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 	medium_tank_amphibious_flamethrower_support = {
@@ -147,6 +135,7 @@ sub_units = {
 			amphibious
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_amphibious_armor_flamethrower
@@ -161,13 +150,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = medium_tank_amphibious_flame_
-		essential = {
-			medium_tank_amphibious_flame_
-		}
-		need = {
-			medium_tank_amphibious_flame_ = @flame_need
-		}
+		#need = {
+		#	medium_tank_amphibious_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 	heavy_tank_amphibious_flamethrower_support = {
@@ -183,6 +168,7 @@ sub_units = {
 			amphibious
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor
 			category_amphibious_armor_flamethrower
@@ -197,13 +183,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		transport = heavy_tank_amphibious_flame_
-		essential = {
-			heavy_tank_amphibious_flame_
-		}
-		need = {
-			heavy_tank_amphibious_flame_ = @flame_need
-		}
+		#need = {
+		#	heavy_tank_amphibious_flame_ = @flame_need
+		#}
 		same_support_type = flame
 	}
 }

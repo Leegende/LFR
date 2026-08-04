@@ -10,3 +10,5 @@ set_popularities = {
 	communism = 19
 	neutrality = 38
 }
+recruit_character = POL_ignacy_moscicki
+recruit_character = POL_end

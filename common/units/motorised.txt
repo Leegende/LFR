@@ -1,5 +1,5 @@
 sub_units = {
-	motorised = {
+	motorised_battalion = {
 		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
@@ -21,13 +21,60 @@ sub_units = {
 		manpower = 1000
 		training_time = 100
 		supply_consumption = 0.15
-		essential = {
-			infantry_weapon_archetype
-			motorised_equipment
+		#need = {
+		#	infantry_weapon_archetype = 50
+		#	motorised_equipment = 50
+		#}
+	}
+	mechanised_battalion = {
+		sprite = mechanised
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		type = {
+			mechanized
 		}
-		need = {
-			infantry_weapon_archetype = 50
-			motorised_equipment = 50
+		group = infantry
+		categories = {
+			category_mechanised
+			category_infantry
 		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.3
+		manpower = 1000
+		training_time = 100
+		supply_consumption = 0.15
+		#need = {
+		#	infantry_weapon_archetype = 50
+		#	mechanised_archetype = 50
+		#}
+	}
+	amtrac_battalion = {
+		sprite = amtrac
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		group = infantry
+		type = {
+			mechanized
+		}
+		categories = {
+			category_amtrac
+			category_infantry
+		}
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 50
+		default_morale = 0.5
+		manpower = 500
+		training_time = 100
+		supply_consumption = 0.1
+		fuel_consumption = 1
+		#need = {
+		#	infantry_weapon_archetype = 100
+		#	amtrac_archetype = 100
+		#}
 	}
 }

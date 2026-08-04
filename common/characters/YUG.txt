@@ -1,2 +1,16 @@
 characters = {
+	YUG_prince_paul = {
+		name = "Prince Paul"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_YUG_prince_paul
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	YUG_end = {
+		name = ""
+	}
 }

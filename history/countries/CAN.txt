@@ -11,3 +11,6 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 }
+
+recruit_character = CAN_mackenzie_king
+recruit_character = CAN_end

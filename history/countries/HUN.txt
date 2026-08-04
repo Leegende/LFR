@@ -9,3 +9,5 @@ set_popularities = {
 	fascism = 31
 	neutrality = 44
 }
+recruit_character = HUN_miklos_horthy
+recruit_character = HUN_end

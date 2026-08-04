@@ -6,13 +6,13 @@ bookmarks = {
 		default = yes
 		picture = GFX
 		default_country = GER
-		"GER" = {
+		"SPR" = {
 			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
-		"FRA" = {
-			ideology = democratic
+		"HUN" = {
+			ideology = neutrality
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
@@ -21,23 +21,23 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
+		"GER" = {
+			ideology = fascism
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
 		"SOV" = {
+			ideology = fascism
+			history = "OTHER_GATHERING_STORM_DESC"
+			version = base_game
+		}
+		"ENG" = {
 			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}
-		"CAN" = {
-			ideology = democratic
-			history = "OTHER_GATHERING_STORM_DESC"
-			version = base_game
-		}
-		"HUN" = {
-			ideology = democratic
-			history = "OTHER_GATHERING_STORM_DESC"
-			version = base_game
-		}
-		"SPR" = {
-			ideology = democratic
+		"FRA" = {
+			ideology = communism
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}

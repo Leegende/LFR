@@ -24,9 +24,9 @@ idea_categories = {
 	}
 	research_production = {
 		slot = tank_industrial_concern
-		slot = artillery_industrial_concern
+		slot = mech_industrial_concern
 		slot = aircraft_industrial_concern
-		slot = materiel_industrial_concern
+		slot = material_industrial_concern
 		slot = industrial_concern
 		character_slot = theorist
 		ledger = civilian
@@ -51,9 +51,9 @@ slot_ledgers = {
 	artillery_chief = artillery
 	air_chief = air
 	tank_industrial_concern = army
-	artillery_industrial_concern = artillery
+	mech_industrial_concern = mech
 	aircraft_industrial_concern = air
-	theorist = invalid
-	high_command = invalid
+	theorist = army
+	high_command = army
 	mobilization_laws = civilian
 }

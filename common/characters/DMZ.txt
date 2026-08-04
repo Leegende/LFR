@@ -1,0 +1,16 @@
+characters = {
+	DMZ_big_yahu = {
+		name = "Big Yahu"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_DMZ_big_yahu"
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	DMZ_end = {
+		name = ""
+	}
+}

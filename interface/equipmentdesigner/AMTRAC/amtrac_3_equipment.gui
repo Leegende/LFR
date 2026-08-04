@@ -1,40 +1,40 @@
 guiTypes = {
 	containerWindowType = {
 		name = "equipment_designer_amtrac_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -43,24 +43,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -69,29 +69,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -99,24 +99,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -125,30 +125,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -157,30 +157,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -190,40 +190,40 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "equipment_designer_amtrac_anti_air_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -232,24 +232,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -258,29 +258,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -288,24 +288,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -314,30 +314,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -346,30 +346,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -379,40 +379,40 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "equipment_designer_amtrac_anti_tank_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -421,24 +421,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -447,29 +447,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -477,24 +477,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -503,30 +503,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -535,30 +535,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -568,40 +568,40 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "equipment_designer_amtrac_rocket_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -610,24 +610,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -636,29 +636,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -666,24 +666,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -692,30 +692,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -724,30 +724,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -757,40 +757,40 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "equipment_designer_amtrac_artillery_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -799,24 +799,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -825,29 +825,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -855,24 +855,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -881,30 +881,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -913,30 +913,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -946,40 +946,40 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "equipment_designer_amtrac_utility_3_equipment"
-		position = { x=13 y=146 }
-		size = { width=508 height=248 }
+		position = { x = 13 y = 146 }
+		size = { width = 508 height = 248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
 			#spriteType = "GFX_TC_amtrac_chassis"
-			position = { x=0 y=0 }
+			position = { x = 0 y = 0 }
 		}
 
 		containerWindowType = {
 			name = "module_slots"
-			position = { x=0 y=0 }
-			size = { width=100% height=100% }
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
 
 			containerWindowType = {
 				name = "main_armament_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "main_armament_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "main_armament_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -988,24 +988,24 @@ guiTypes = {
 			################# MODULE SLOT: Turret #################
 			containerWindowType = {
 				name = "turret_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "turret_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "turret_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -1014,29 +1014,29 @@ guiTypes = {
 			################# MODULE SLOT: Special #################
 			containerWindowType = {
 				name = "special_type_slot_1"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_2"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_3"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
 			containerWindowType = {
 				name = "special_type_slot_4"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				#### MODULE: Todo ####
 			}
@@ -1044,24 +1044,24 @@ guiTypes = {
 			################# MODULE SLOT: Suspension #################
 			containerWindowType = {
 				name = "suspension_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "suspension_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "suspension_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -1070,30 +1070,30 @@ guiTypes = {
 			################# MODULE SLOT: Armor #################
 			containerWindowType = {
 				name = "armor_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "armor_type_slot"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "armor_type_slot@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_armor"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
-						position = { x=0 y=0 }
+						#spriteType = "GFX_TM_mech_house_type_slot"
+						position = { x = 0 y = 0 }
 					}
 				}
 
@@ -1102,30 +1102,30 @@ guiTypes = {
 			################# MODULE SLOT: Engine #################
 			containerWindowType = {
 				name = "engine_type_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
 
 				containerWindowType = {
 					name = "tank_engine_type"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 				}
 
 				containerWindowType = {
 					name = "tank_engine_type@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
 
 					iconType = {
 						name = "blueprint_generic"
 						spriteType = "GFX_TM_tank_engine"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot"
-						position = { x=0 y=0 }
+						position = { x = 0 y = 0 }
 					}
 				}
 

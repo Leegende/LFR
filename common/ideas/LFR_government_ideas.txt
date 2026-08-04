@@ -1,14 +1,5 @@
 ideas = {
 	hidden_ideas = {
-		start_eff = {
-			allowed = {
-				always = yes
-			}
-			removal_cost = -1
-			modifier = {
-				production_factory_start_efficiency_factor = 0.4
-			}
-		}
 		free_tank_designer = {
 			allowed = {
 				always = no
@@ -27,7 +18,7 @@ ideas = {
 				materiel_industrial_concern_cost_factor = -1
 			}
 		}
-		free_naval_designer = {
+		free_artillery_designer = {
 			allowed = {
 				always = no
 			}
@@ -46,12 +37,5 @@ ideas = {
 			}
 		}
 	}
-	tank_industrial_concern = {
-	}
-	materiel_industrial_concern = {
-	}
-	artillery_industrial_concern = {
-	}
-	aircraft_industrial_concern = {
-	}
+	
 }

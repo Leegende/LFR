@@ -1,0 +1,34 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_anti_air_tank_mio"
+		texturefile = "gfx/interface/military_industrial_organization/TANK/anti_air.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_artillery_tank_mio"
+		texturefile = "gfx/interface/military_industrial_organization/TANK/artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_anti_tank_tank_mio"
+		texturefile = "gfx/interface/military_industrial_organization/TANK/anti_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_tank_mio"
+		texturefile = "gfx/interface/military_industrial_organization/TANK/tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_truck_mio"
+		texturefile = "gfx/interface/military_industrial_organization/TANK/truck.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_infantry_weapon_mio"
+		texturefile = "gfx/interface/military_industrial_organization/MATERIAL/infantry_weapon.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_artillery_mio"
+		texturefile = "gfx/interface/military_industrial_organization/MATERIAL/artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_plane_mio"
+		texturefile = "gfx/interface/military_industrial_organization/AIR/plane.dds"
+	}
+}

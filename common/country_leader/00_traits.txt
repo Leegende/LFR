@@ -1,17 +1,2 @@
 leader_traits = {
-	infantry_manufacturer = {
-		random = no
-	}
-	artillery_manufacturer = {
-		random = no
-	}
-	tank_manufacturer = {
-		random = no
-	}
-	plane_manufacturer = {
-		random = no
-	}
-	plane_manufacturer = {
-		random = no
-	}
 }

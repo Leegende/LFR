@@ -1,3 +1,38 @@
 characters = {
-
+	FIN_pehr_evind_svinhufvud = {
+		name = "Pehr Evind Svinhufvud"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_pehr_evind_svinhufvud
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	FIN_carl_mannerheim = {
+		name = "Carl Mannerheim"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_carl_mannerheim
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	FIN_nikolaus_von_falkenhorst = {
+		name = "Nikolaus von Falkenhorst"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FIN_nikolaus_von_falkenhorst
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	FIN_end = {
+		name = ""
+	}
 }

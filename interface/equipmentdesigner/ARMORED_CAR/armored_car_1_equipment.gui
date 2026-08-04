@@ -33,7 +33,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -59,7 +59,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -115,7 +115,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -147,7 +147,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -222,7 +222,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -248,7 +248,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -304,7 +304,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -336,7 +336,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -411,7 +411,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -437,7 +437,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -493,7 +493,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -525,7 +525,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -600,7 +600,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -626,7 +626,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -682,7 +682,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -714,7 +714,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -789,7 +789,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -815,7 +815,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -871,7 +871,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -903,7 +903,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -978,7 +978,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_main_armament_slot"
+						#spriteType = "GFX_TM_mech_chassis_main_armament_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -1004,7 +1004,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_turret_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_turret_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -1060,7 +1060,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
+						#spriteType = "GFX_TM_mech_chassis_suspension_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -1092,7 +1092,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_TM_mech_house_type_slot"
+						#spriteType = "GFX_TM_mech_house_type_slot"
 						position = { x = 0 y = 0 }
 					}
 				}

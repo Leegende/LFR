@@ -1,2 +1,27 @@
 characters = {
+	BUL_boris_iii = {
+		name = "Boris III"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_boris_iii
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	BUL_hristo_lukov = {
+		name = "Hristo Lukov"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_BUL_hristo_lukov"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	BUL_end = {
+		name = ""
+	}
 }

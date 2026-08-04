@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_focus_continuous_mobilisation"
+		textureFile = "gfx/interface/focus/continuous_focus/continuous_mobilisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_continuous_efficiency"
+		textureFile = "gfx/interface/focus/continuous_focus/continuous_efficiency.dds"
+	}
+}

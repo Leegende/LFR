@@ -1,6 +1,6 @@
 characters = {
 	GER_adolf_hitler = {
-		name = GER_adolf_hitler
+		name = "Adolf Hitler"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_GER_adolf_hitler
@@ -8,8 +8,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = fascism_ideology
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	GER_end = {

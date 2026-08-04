@@ -484,7 +484,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_artillery_0_equipment_technology_medium"
+		name = "GFX_artillery_0_equipment_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/artillery_0_equipment.dds"
 		legacy_lazy_load = no
 	}

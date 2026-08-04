@@ -12,6 +12,13 @@ sub_units = {
 			armor
 		}
 		group = armor
+		categories = {
+			category_armor
+			category_light_tank
+		}
+		#need = {
+		#	light_tank_chassis = @light_tank_need
+		#}
 	}
 	medium_tank_battalion = {
 		sprite = medium_armor
@@ -23,6 +30,13 @@ sub_units = {
 			armor
 		}
 		group = armor
+		categories = {
+			category_armor
+			category_medium_tank
+		}
+		#need = {
+		#	medium_tank_chassis = @medium_tank_need
+		#}
 	}
 	heavy_tank_battalion = {
 		sprite = heavy_armor
@@ -34,8 +48,15 @@ sub_units = {
 			armor
 		}
 		group = armor
+		categories = {
+			category_armor
+			category_heavy_tank
+		}
+		#need = {
+		#	heavy_tank_chassis = @heavy_tank_need
+		#}
 	}
-	light_amphibious_tank_battalion = {
+	light_tank_amphibious_battalion = {
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 0
@@ -45,19 +66,16 @@ sub_units = {
 			armor
 		}
 		group = amphibious_armor
-	}
-	medium_amphibious_tank_battalion = {
-		sprite = amphibious_armor
-		map_icon_category = armored
-		priority = 0
-		affects_speed = yes
-		active = yes
-		type = {
-			armor
+		categories = {
+			category_armor
+			category_light_tank
+			category_amphibious_light_tank
 		}
-		group = armor
+		#need = {
+		#	light_tank_amphibious_chassis = @light_tank_need
+		#}
 	}
-	heavy_amphibious_tank_battalion = {
+	medium_tank_amphibious_battalion = {
 		sprite = amphibious_armor
 		map_icon_category = armored
 		priority = 0
@@ -67,5 +85,32 @@ sub_units = {
 			armor
 		}
 		group = amphibious_armor
+		categories = {
+			category_armor
+			category_medium_tank
+			category_amphibious_medium_tank
+		}
+		#need = {
+		#	medium_tank_amphibious_chassis = @medium_tank_need
+		#}
+	}
+	heavy_tank_amphibious_battalion = {
+		sprite = amphibious_armor
+		map_icon_category = armored
+		priority = 0
+		affects_speed = yes
+		active = yes
+		type = {
+			armor
+		}
+		group = amphibious_armor
+		categories = {
+			category_armor
+			category_heavy_tank
+			category_amphibious_heavy_tank
+		}
+		#need = {
+		#	heavy_tank_amphibious_chassis = @heavy_tank_need
+		#}
 	}
 }

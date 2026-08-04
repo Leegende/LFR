@@ -7,3 +7,5 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+recruit_character = SWE_per_albin_hansson
+recruit_character = SWE_end

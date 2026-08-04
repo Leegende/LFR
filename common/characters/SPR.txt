@@ -1,4 +1,27 @@
-characters={
-
-
+characters = {
+	SPR_niceto_alcala_zamora = {
+		name = "Niceto Alcala Zamora"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_niceto_alcala_zamora
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
+	SPR_francisco_franco = {
+		name = "Francisco Franco"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SPR_francisco_franco
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	SPR_end = {
+		name = ""
+	}
 }

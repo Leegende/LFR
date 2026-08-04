@@ -1,0 +1,16 @@
+characters = {
+	HUN_miklos_horthy = {
+		name = "Miklos Horthy"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_miklos_horthy
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	HUN_end = {
+		name = ""
+	}
+}

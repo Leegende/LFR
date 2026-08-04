@@ -9,6 +9,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_maintenance_company
@@ -20,12 +21,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#}
 		same_support_type = maintenance_company_support
 	}
 	armored_maintenance_company_support = {
@@ -39,6 +37,7 @@ sub_units = {
 			armor
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor_support_company
 			category_maintenance_company
@@ -50,14 +49,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-			armored_support_vehicle_chassis_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-			armored_support_vehicle_chassis_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#	armored_support_vehicle_chassis_archetype = 20
+		#}
 		same_support_type = maintenance_company_support
 	}
 }

@@ -549,6 +549,8 @@ technologies = {
 		}
 	}
 	radio_aa_technology = {
+		start_year = 1937
+		research_cost = 1
 		folder = {
 			name = industry_folder
 			position = {
@@ -558,6 +560,8 @@ technologies = {
 		}
 	}
 	radio_engineers_technology = {
+		start_year = 1937
+		research_cost = 1
 		folder = {
 			name = industry_folder
 			position = {

@@ -60,7 +60,7 @@ generic = {
 		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 	}
-	marine = {
+	marines = {
 		prefix = ""
 		generic = {
 			"Marine Division"

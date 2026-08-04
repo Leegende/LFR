@@ -7,3 +7,5 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+recruit_character = DMZ_big_yahu
+recruit_character = DMZ_end

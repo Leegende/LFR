@@ -271,13 +271,13 @@ equipments = {
 			tungsten = 10
 		}
 	}
-	super_heavy_artillery_1_equipment = {
+	super_heavy_artillery_equipment = {
 		archetype = super_heavy_artillery_archetype
 	}
-	rocket_artillery_1_equipment = {
+	rocket_artillery_equipment = {
 		archetype = rocket_artillery_archetype
 	}
-	motorised_rocket_artillery_1_equipment = {
+	motorised_rocket_artillery_equipment = {
 		archetype = motorised_rocket_artillery_archetype
 	}
 }

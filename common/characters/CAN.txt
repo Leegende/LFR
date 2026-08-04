@@ -1,0 +1,16 @@
+characters = {
+	CAN_mackenzie_king = {
+		name = "Mackenzie King"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_mackenzie_king
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
+	CAN_end = {
+		name = ""
+	}
+}

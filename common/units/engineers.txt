@@ -4,14 +4,15 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
-		type = {
-			support
-		}
 		active = yes
+		affects_speed = no
 		type = {
 			support
 		}
-		group = support
+		type = {
+			support
+		}
+		group = support regimental = no
 		categories = {
 			category_support_company
 			category_engineers_company
@@ -24,33 +25,25 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		entrenchment = 2
-		battalion_mult = {
-			category = category_infantry
-			entrenchment = 0.2
-			add = yes
-		}
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-		}
+		#need = {
+		#	support_equipment_archetype = @eng_need
+		#}
 		same_support_type = engineers_support
 	}
 	armored_car_engineers_support = {
 		sprite = infantry
 		map_icon_category = transport
 		priority = 0
-		type = {
-			support
-		}
 		active = yes
 		affects_speed = no
 		type = {
 			support
+		}
+		type = {
+			support
 			mechanized
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_armored_car
 			category_engineers_company
@@ -62,14 +55,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-			mechanised_utility_
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-			mechanised_utility_ = @eng_need
-		}
+		#need = {
+		#	mechanised_utility_ = @eng_need
+		#}
 		same_support_type = engineers_support
 	}
 	mechanised_engineers_support = {
@@ -84,8 +72,8 @@ sub_units = {
 		type = {
 			support
 			mechanized
-		}
-		group = support
+		} 
+		group = support regimental = no
 		categories = {
 			category_mechanised
 			category_engineers_company
@@ -97,14 +85,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-			mechanised_utility_
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-			mechanised_utility_ = @eng_need
-		}
+		#need = {
+		#	mechanised_utility_ = @eng_need
+		#}
 		same_support_type = engineers_support
 	}
 	amtrac_engineers_support = {
@@ -119,7 +102,7 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_amtrac
 			category_engineers_company
@@ -131,14 +114,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-			amtrac_utility_
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-			amtrac_utility_ = @eng_need
-		}
+		#need = {
+		#	amtrac_utility_ = @eng_need
+		#}
 		same_support_type = engineers_support
 	}
 	pioneers_support = {
@@ -153,7 +131,7 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_support_company
 		}
@@ -164,12 +142,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = @eng_need
-		}
+		#need = {
+		#	
+		#}
 		same_support_type = engineers_support
 	}
 }

@@ -11,3 +11,6 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 }
+
+recruit_character = IRE_eamon_de_varela
+recruit_character = IRE_end

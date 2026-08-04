@@ -9,7 +9,7 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_support_company
 			category_field_hospital_company
@@ -21,12 +21,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = @field_need
-		}
+		#need = {
+		#	support_equipment_archetype = @field_need
+		#}
 		same_support_type = field_hospital_support
 	}
 	mechanised_field_hospital_support = {
@@ -38,7 +35,7 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_mechanised
 			category_field_hospital_company
@@ -50,14 +47,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			mechanised_utility_
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = @field_need
-			mechanised_utility_ = @field_need
-		}
+		#need = {
+		#	support_equipment_archetype = @field_need
+		#	mechanised_utility_ = @field_need
+		#}
 		same_support_type = field_hospital_support
 	}
 	helicopter_field_hospital_support = {
@@ -69,7 +62,7 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support
+		group = support regimental = no
 		categories = {
 			category_helicopter
 			category_field_hospital_company
@@ -81,14 +74,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			helicopter_equipment_archetype
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = @field_need
-			helicopter_equipment_archetype = @field_need
-		}
+		#need = {
+		#	support_equipment_archetype = @field_need
+		#	helicopter_equipment_archetype = @field_need
+		#}
 		same_support_type = field_hospital_support
 	}
 }

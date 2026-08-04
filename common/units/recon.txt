@@ -9,6 +9,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_recon_company
@@ -20,13 +21,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = support_equipment_archetype
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	rangers_support = {
@@ -39,6 +36,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_recon_company
@@ -50,13 +48,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		transport = support_equipment_archetype
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	motorised_recon_support = {
@@ -69,6 +63,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_recon_company
@@ -80,14 +75,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		essential = {
-			support_equipment_archetype
-			motorised_equipment
-		}
-		need = {
-			motorised_equipment = 20
-			support_equipment_archetype = 20
-		}
+		#need = {
+		#	motorised_equipment = 20
+		#	support_equipment_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	armored_car_recon_support = {
@@ -100,6 +91,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor_support_company
 			category_recon_company
@@ -111,15 +103,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = armored_car_archetype
-		essential = {
-			support_equipment_archetype
-			armored_car_archetype
-		}
-		need = {
-			motorised_equipment = 20
-			armored_car_archetype = 20
-		}
+		#need = {
+		#	motorised_equipment = 20
+		#	armored_car_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	light_tank_recon_support = {
@@ -133,6 +120,7 @@ sub_units = {
 			armor
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_armor_support_company
 			category_recon_company
@@ -145,15 +133,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = light_tank_chassis_archetype
-		essential = {
-			support_equipment_archetype
-			light_tank_chassis_archetype
-		}
-		need = {
-			motorised_equipment = 20
-			light_tank_chassis_archetype = 20
-		}
+		#need = {
+		#	motorised_equipment = 20
+		#	light_tank_chassis_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	light_tank_amphibious_recon_support = {
@@ -167,6 +150,7 @@ sub_units = {
 			armor
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_amphibious_armor_support_company
 			category_recon_company
@@ -180,15 +164,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = light_tank_amphibious_chassis_archetype
-		essential = {
-			support_equipment_archetype
-			light_tank_amphibious_chassis_archetype
-		}
-		need = {
-			motorised_equipment = 20
-			light_tank_amphibious_chassis_archetype = 20
-		}
+		#need = {
+		#	motorised_equipment = 20
+		#	light_tank_amphibious_chassis_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	ranger_recon_support = {
@@ -201,6 +180,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_recon_company
@@ -212,13 +192,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = support_equipment_archetype
-		essential = {
-			support_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	mechanised_recon_support = {
@@ -231,6 +207,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_mechanised
 			category_recon_company
@@ -242,15 +219,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = mechanised_archetype
-		essential = {
-			support_equipment_archetype
-			mechanised_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-			mechanised_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#	mechanised_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	amtrac_recon_support = {
@@ -263,6 +235,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_amtrac
 			category_recon_company
@@ -274,15 +247,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = amtrac_archetype
-		essential = {
-			support_equipment_archetype
-			amtrac_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-			amtrac_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#	amtrac_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 	helicopter_recon_support = {
@@ -295,6 +263,7 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_helicopter
 			category_recon_company
@@ -306,15 +275,10 @@ sub_units = {
 		manpower = 300
 		affects_speed = yes
 		training_time = 100
-		transport = helicopter_equipment_archetype
-		essential = {
-			support_equipment_archetype
-			helicopter_equipment_archetype
-		}
-		need = {
-			support_equipment_archetype = 20
-			helicopter_equipment_archetype = 20
-		}
+		#need = {
+		#	support_equipment_archetype = 20
+		#	helicopter_equipment_archetype = 20
+		#}
 		same_support_type = recon_support
 	}
 }

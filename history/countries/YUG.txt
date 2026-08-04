@@ -12,3 +12,5 @@ set_popularities = {
 	communism = 15
 	neutrality = 60
 }
+recruit_character = YUG_prince_paul
+recruit_character = YUG_end

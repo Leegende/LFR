@@ -1,2 +1,16 @@
 characters = {
+	ITA_benito_mussolini = {
+		name = "Benito Mussolini"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_benito_mussolini
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+	ITA_end = {
+		name = ""
+	}
 }

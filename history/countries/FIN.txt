@@ -12,3 +12,7 @@ set_popularities = {
 	communism = 1
 	neutrality = 65
 }
+recruit_character = FIN_pehr_evind_svinhufvud
+recruit_character = FIN_carl_mannerheim
+recruit_character = FIN_nikolaus_von_falkenhorst
+recruit_character = FIN_end

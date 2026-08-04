@@ -1,11 +1,12 @@
 sub_units = {
 	@anti_air_need = 10
-	pack_anti_air_battalion = {
+	pack_anti_air_support = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		same_support_type = anti_air
+		regimental = no
 		group = support
 		type = {
 			support
@@ -15,20 +16,17 @@ sub_units = {
 			category_anti_air
 			category_pack
 		}
-		transport = pack_anti_air_archetype
-		essential = {
-			pack_anti_air_archetype
-		}
-		need = {
-			pack_anti_air_archetype = @anti_air_need
-		}
+		#		need = {
+		#			pack_anti_air_archetype = @anti_air_need
+		#		}
 	}
-	anti_air_battalion = {
+	anti_air_support = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
@@ -37,20 +35,17 @@ sub_units = {
 			category_anti_air
 			category_medium
 		}
-		transport = anti_air_archetype
-		essential = {
-			anti_air_archetype
-		}
-		need = {
-			anti_air_archetype = @anti_air_need
-		}
+		#		need = {
+		#			anti_air_archetype = @anti_air_need
+		#		}
 	}
-	heavy_anti_air_battalion = {
+	heavy_anti_air_support = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
@@ -58,34 +53,32 @@ sub_units = {
 			category_anti_air
 			category_heavy
 		}
-		transport = heavy_anti_air_archetype
-		essential = {
-			heavy_anti_air_archetype
-		}
-		need = {
-			heavy_anti_air_archetype = @anti_air_need
-		}
+		#		need = {
+		#			heavy_anti_air_archetype = @anti_air_need
+		#		}
 	}
-	motorised_anti_air_battalion = {
+	motorised_anti_air_support = {
 		sprite = motorised
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
-		categories = {
-			category_anti_air
-			category_motorised
-		}
+		#		categories = {
+		#			category_anti_air
+		#			category_motorised
+		#		}
 	}
-	mechanised_anti_air_battalion = {
+	mechanised_anti_air_support = {
 		sprite = mechanised
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 			mechanized
@@ -94,20 +87,17 @@ sub_units = {
 			category_anti_air
 			category_mechanised
 		}
-		transport = mechanised_anti_air_
-		essential = {
-			mechanised_anti_air_
-		}
-		need = {
-			mechanised_anti_air_ = @anti_air_need
-		}
+		#		need = {
+		#			mechanised_anti_air_ = @anti_air_need
+		#		}
 	}
-	armored_car_anti_air_battalion = {
+	armored_car_anti_air_support = {
 		sprite = armored_car
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
@@ -115,20 +105,17 @@ sub_units = {
 			category_anti_air
 			category_armored_car
 		}
-		transport = armored_car_anti_air_
-		essential = {
-			armored_car_anti_air_
-		}
-		need = {
-			armored_car_anti_air_ = @anti_air_need
-		}
+		#		need = {
+		#			armored_car_anti_air_ = @anti_air_need
+		#		}
 	}
-	amtrac_anti_air_battalion = {
+	amtrac_anti_air_support = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
@@ -136,15 +123,11 @@ sub_units = {
 			category_anti_air
 			category_amtrac
 		}
-		transport = amtrac_anti_air_
-		essential = {
-			amtrac_anti_air_
-		}
-		need = {
-			amtrac_anti_air_ = @anti_air_need
-		}
+		#		need = {
+		#			amtrac_anti_air_ = @anti_air_need
+		#		}
 	}
-	light_anti_air_tank_battalion = {
+	light_tank_anti_air_support = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -153,20 +136,17 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_anti_air
 			category_armor
 			category_light_tank
 		}
-		transport = light_tank_anti_air_
-		essential = {
-			light_tank_anti_air_
-		}
-		need = {
-			light_tank_anti_air_ = @anti_air_need
-		}
+		#		need = {
+		#			light_tank_anti_air_ = @anti_air_need
+		#		}
 	}
-	light_amphibious_anti_air_tank_battalion = {
+	light_tank_amphibious_anti_air_support = {
 		sprite = light_amphibious_armor
 		map_icon_category = armored
 		priority = 0
@@ -175,21 +155,18 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
 		categories = {
 			category_anti_air
 			category_armor
 			category_light_tank
 			category_amphibious_light_tank
 		}
-		transport = light_tank_anti_air_
-		essential = {
-			light_tank_anti_air_
-		}
-		need = {
-			light_tank_anti_air_ = @anti_air_need
-		}
+		#		need = {
+		#			light_tank_amphibious_anti_air_ = @anti_air_need
+		#		}
 	}
-	medium_anti_air_tank_battalion = {
+	medium_tank_anti_air_support = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -198,8 +175,17 @@ sub_units = {
 		}
 		active = yes
 		group = support
+		regimental = no
+		categories = {
+			category_anti_air
+			category_armor
+			category_medium_tank
+		}
+		#		need = {
+		#			medium_tank_anti_air_ = @anti_air_need
+		#		}
 	}
-	medium_amphibious_anti_air_tank_battalion = {
+	medium_tank_amphibious_anti_air_support = {
 		sprite = medium_amphibious_armor
 		map_icon_category = armored
 		priority = 0
@@ -208,8 +194,18 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
+		categories = {
+			category_anti_air
+			category_armor
+			category_medium_tank
+			category_amphibious_medium_tank
+		}
+		#		need = {
+		#			medium_tank_amphibious_anti_air_ = @anti_air_need
+		#		}
 	}
-	heavy_anti_air_tank_battalion = {
+	heavy_tank_anti_air_support = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -218,15 +214,34 @@ sub_units = {
 			support
 		}
 		group = support
+		regimental = no
+		categories = {
+			category_anti_air
+			category_armor
+			category_heavy_tank
+		}
+		#		need = {
+		#			heavy_tank_anti_air_ = @anti_air_need
+		#		}
 	}
-	heavy_amphibious_anti_air_tank_battalion = {
+	heavy_tank_amphibious_anti_air_support = {
 		sprite = heavy_amphibious_armor
 		map_icon_category = armored
 		priority = 0
 		active = yes
 		group = support
+		regimental = no
 		type = {
 			support
 		}
+		categories = {
+			category_anti_air
+			category_armor
+			category_heavy_tank
+			category_amphibious_medium_tank
+		}
+		#		need = {
+		#			heavy_tank_amphibious_anti_air_ = @anti_air_need
+		#		}
 	}
 }

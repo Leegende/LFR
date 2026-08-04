@@ -1,3 +1,4 @@
+@anti_tank_need = 10
 sub_units = {
 	pack_anti_tank_battalion = {
 		sprite = anti_tank
@@ -6,9 +7,19 @@ sub_units = {
 		active = yes
 		affects_speed = yes
 		type = {
+			infantry
+			artillery
 			anti_tank
 		}
 		group = artillery
+		affects_speed = yes
+		categories = {
+			category_anti_tank
+			category_pack
+		}
+		#need = {
+		#	pack_anti_tank_archetype = @anti_tank_need
+		#}
 	}
 	anti_tank_battalion = {
 		sprite = infantry
@@ -16,6 +27,13 @@ sub_units = {
 		priority = 0
 		active = yes
 		group = artillery
+		categories = {
+			category_anti_tank
+			category_medium
+		}
+		#need = {
+		#	anti_tank_archetype = @anti_tank_need
+		#}
 	}
 	heavy_anti_tank_battalion = {
 		sprite = infantry
@@ -23,6 +41,13 @@ sub_units = {
 		priority = 0
 		active = yes
 		group = artillery
+		categories = {
+			category_anti_tank
+			category_heavy
+		}
+		#need = {
+		#	heavy_anti_tank_archetype = @anti_tank_need
+		#}
 	}
 	mechanised_anti_tank_battalion = {
 		sprite = mechanised
@@ -33,23 +58,44 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = artillery
+		categories = {
+			category_anti_tank
+			category_mechanised
+		}
+		#need = {
+		#	mechanised_anti_tank_ = @anti_tank_need
+		#}
 	}
 	amtrac_anti_tank_battalion = {
 		sprite = amtrac
 		map_icon_category = infantry
 		priority = 0
 		active = yes
-		group = mobile
+		group = artillery
+		categories = {
+			category_anti_tank
+			category_amtrac
+		}
+		#need = {
+		#	amtrac_anti_tank_ = @anti_tank_need
+		#}
 	}
 	armored_anti_tank_car_battalion = {
 		sprite = armored_car
 		map_icon_category = infantry
 		priority = 0
 		active = yes
-		group = mobile
+		group = artillery
+		categories = {
+			category_anti_tank
+			category_armored_car
+		}
+		#need = {
+		#	armored_car_anti_tank_ = @anti_tank_need
+		#}
 	}
-	light_anti_tank_tank_battalion = {
+	light_tank_anti_tank_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -60,8 +106,15 @@ sub_units = {
 			anti_tank
 		}
 		group = armor
+		categories = {
+			category_anti_tank
+			category_light_tank
+		}
+		#need = {
+		#	light_tank_anti_tank_ = @anti_tank_need
+		#}
 	}
-	light_amphibious_anti_tank_tank_battalion = {
+	light_tank_amphibious_anti_tank_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -71,8 +124,17 @@ sub_units = {
 			anti_tank
 			armor
 		}
+		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_light_tank
+			category_amphibious_light_tank
+		}
+		#need = {
+		#	light_tank_amphibious_anti_tank_ = @anti_tank_need
+		#}
 	}
-	medium_anti_tank_tank_battalion = {
+	medium_tank_anti_tank_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -83,8 +145,15 @@ sub_units = {
 			anti_tank
 		}
 		group = armor
+		categories = {
+			category_anti_tank
+			category_medium_tank
+		}
+		#need = {
+		#	medium_tank_anti_tank_ = @anti_tank_need
+		#}
 	}
-	medium_amphibious_destroyer_tank_battalion = {
+	medium_tank_amphibious_anti_tank_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -95,8 +164,16 @@ sub_units = {
 			armor
 		}
 		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_medium_tank
+			category_amphibious_medium_tank
+		}
+		#need = {
+		#	medium_tank_amphibious_anti_tank_ = @anti_tank_need
+		#}
 	}
-	heavy_anti_tank_tank_battalion = {
+	heavy_tank_anti_tank_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -106,8 +183,15 @@ sub_units = {
 			anti_tank
 		}
 		group = armor
+		categories = {
+			category_anti_tank
+			category_heavy_tank
+		}
+		#need = {
+		#	heavy_tank_anti_tank_ = @anti_tank_need
+		#}
 	}
-	heavy_amphibious_anti_tank_tank_battalion = {
+	heavy_tank_amphibious_anti_tank_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -117,5 +201,13 @@ sub_units = {
 			anti_tank
 		}
 		group = amphibious_armor
+		categories = {
+			category_anti_tank
+			category_heavy_tank
+			category_amphibious_heavy_tank
+		}
+		#need = {
+		#	heavy_tank_amphibious_anti_tank_ = @anti_tank_need
+		#}
 	}
 }

@@ -1,2 +1,16 @@
 characters = {
+	SOV_joseph_stalin = {
+		name = "Joseph Stalin"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_joseph_stalin
+			}
+		}
+		country_leader = {
+			ideology = communism_ideology
+		}
+	}
+	SOV_end = {
+		name = ""
+	}
 }

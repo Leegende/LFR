@@ -1,3 +1,38 @@
-characters={
-	
+characters = {
+	GRE_eleftherios_venizelos = {
+		name = "Eleftherios Venizelos"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GRE_eleftherios_venizelos
+			}
+		}
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
+	GRE_george_ii = {
+		name = "George II"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GRE_george_ii
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	GRE_konstantinos_demertzis = {
+		name = "Konstantinos Demertzis"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GRE_konstantinos_demertzis
+			}
+		}
+		country_leader = {
+			ideology = neutrality_ideology
+		}
+	}
+	GRE_end = {
+		name = ""
+	}
 }

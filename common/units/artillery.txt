@@ -65,13 +65,9 @@ sub_units = {
 		dense_urban = {
 			attack = 0.1
 		}
-		transport = pack_artillery_archetype
-		essential = {
-			pack_artillery_archetype
-		}
-		need = {
-			pack_artillery_archetype = @pack_art_need
-		}
+		#need = {
+		#	pack_artillery_archetype = @pack_art_need
+		#}
 	}
 	artillery_battalion = {
 		sprite = artillery
@@ -80,6 +76,7 @@ sub_units = {
 		affects_speed = yes
 		active = yes
 		type = {
+			anti_tank
 			artillery
 		}
 		group = artillery
@@ -88,6 +85,9 @@ sub_units = {
 			category_medium
 			category_medium_artillery
 		}
+		#need = {
+		#	artillery_archetype = @art_need
+		#}
 		combat_width = 1
 		manpower = 500
 		max_strength = -1
@@ -137,15 +137,6 @@ sub_units = {
 		town = {
 			attack = 0.05
 		}
-		transport = artillery_archetype
-		essential = {
-			artillery_archetype
-			support_equipment_archetype
-		}
-		need = {
-			artillery_archetype = @art_need
-			support_equipment_archetype = @support_equipment_need
-		}
 	}
 	heavy_artillery_battalion = {
 		sprite = artillery
@@ -162,13 +153,10 @@ sub_units = {
 			category_heavy
 			category_heavy_artillery
 		}
-		transport = heavy_artillery_archetype
-		essential = {
-			heavy_artillery_archetype
-		}
-		need = {
-			heavy_artillery_archetype = @heavy_art_need
-		}
+		#need = {
+		#	heavy_artillery_archetype = @heavy_art_need
+		#}
+		combat_width = 1
 	}
 	super_heavy_artillery_battalion = {
 		sprite = artillery
@@ -180,6 +168,9 @@ sub_units = {
 			artillery
 		}
 		group = artillery
+		#need = {
+		#	super_heavy_artillery_archetype = @art_need
+		#}
 	}
 	rocket_artillery_battalion = {
 		sprite = infantry
@@ -188,10 +179,13 @@ sub_units = {
 		affects_speed = yes
 		active = yes
 		type = {
-			infantry
 			artillery
 		}
 		group = artillery
+		#need = {
+		#	rocket_artillery_archetype = @art_need
+		#}
+		combat_width = 1
 	}
 	motorised_rocket_artillery_battalion = {
 		sprite = mechanised
@@ -204,6 +198,9 @@ sub_units = {
 			artillery
 		}
 		group = artillery
+		#need = {
+		#	motorised_rocket_artillery_archetype = @art_need
+		#}
 	}
 	mechanised_artillery_battalion = {
 		sprite = mechanised
@@ -214,7 +211,11 @@ sub_units = {
 		type = {
 			mechanized
 		}
-		group = mobile
+		group = artillery
+		#need = {
+		#	mechanised_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
 	amtrac_artillery_battalion = {
 		sprite = mechanised
@@ -225,9 +226,13 @@ sub_units = {
 			mechanized
 			artillery
 		}
-		group = mobile
+		group = artillery
+		#need = {
+		#	mechanised_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	light_artillery_tank_battalion = {
+	light_tank_artillery_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -238,8 +243,12 @@ sub_units = {
 			artillery
 		}
 		group = armor
+		#need = {
+		#	light_tank_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	medium_artillery_tank_battalion = {
+	medium_tank_artillery_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -250,8 +259,12 @@ sub_units = {
 			artillery
 		}
 		group = armor
+		#need = {
+		#	medium_tank_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	heavy_artillery_tank_battalion = {
+	heavy_tank_artillery_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -262,8 +275,12 @@ sub_units = {
 			artillery
 		}
 		group = armor
+		#need = {
+		#	heavy_tank_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	light_amphibious_artillery_tank_battalion = {
+	light_tank_amphibious_artillery_battalion = {
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 0
@@ -274,8 +291,12 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
+		#need = {
+		#	light_tank_amphibious_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	medium_amphibious_artillery_tank_battalion = {
+	medium_tank_amphibious_artillery_battalion = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 0
@@ -286,8 +307,12 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
+		#need = {
+		#	medium_tank_amphibious_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
-	heavy_amphibious_artillery_tank_battalion = {
+	heavy_tank_amphibious_artillery_battalion = {
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 0
@@ -298,5 +323,9 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
+		#need = {
+		#	heavy_tank_amphibious_artillery_ = @art_need
+		#}
+		combat_width = 1
 	}
 }
