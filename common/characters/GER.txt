@@ -10,7 +10,199 @@ characters = {
 			ideology = fascism_ideology
 		}
 	}
+	### advisor
+	#GER_hjalmar_schacht = {
+	#	name = "Hjalmar Schacht"
+	#	advisor = {
+	#		slot = political_advisor
+	#		idea_token = GER_hjalmar_schacht
+	#		cost = 75
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_four_year_plan
+	#		}
+	#		visible = {
+	#			always = yes
+	#		}
+	#		traits = {
+	#			GER_traits_mefo_bills_architect
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/advisor/GER/hjalmar_schacht.dds"
+	#		}
+	#	}
+	#}
+	#GER_albert_speer = {
+	#	name = "Albert Speer"
+	#	advisor = {
+	#		slot = political_advisor
+	#		idea_token = speer
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_appoint_speer
+	#		}
+	#		visible = {
+	#			always = yes
+	#		}
+	#		traits = {
+	#			GER_traits_armament_genius
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			large = "gfx/interface/advisor/GER/Portrait_Albert_Speer.dds"
+	#			small = "gfx/interface/advisor/GER/albert_speer.dds"
+	#		}
+	#	}
+	#}
+	#### general
+	#GER_sepp_dietrich = {
+	#	name = "Sepp Dietrich"
+	#	corps_commander = {
+	#		skill = 1
+	#		attack_skill = 1
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#		visible = {
+	#			always = yes
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			large = "gfx/interface/advisor/GER/Portrait_Sepp_Dietrich.dds"
+	#			small = "gfx/interface/advisor/GER/sepp_dietrich.dds"
+	#		}
+	#	}
+	#}
+	#GER_heinz_guderian = {
+	#	name = "Heinz Guderian"
+	#	corps_commander = {
+	#		skill = 1
+	#		attack_skill = 1
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#		visible = {
+	#			always = yes
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			large = "gfx/interface/advisor/GER/Portrait_Heinz_Guderian.dds"
+	#			small = "gfx/interface/advisor/GER/heinz_guderian.dds"
+	#		}
+	#	}
+	#}
+	#GER_walter_model = {
+	#	name = "Walter Model"
+	#	corps_commander = {
+	#		skill = 1
+	#		attack_skill = 1
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#		visible = {
+	#			always = yes
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			large = "gfx/interface/advisor/GER/Portrait_Walter_Model.dds"
+	#			small = "gfx/interface/advisor/GER/walter_model.dds"
+	#		}
+	#	}
+	#}
+	#GER_gunther_von_kluge = {
+	#	name = "Gunther von Kluge"
+	#	corps_commander = {
+	#		skill = 1
+	#		attack_skill = 1
+	#		defense_skill = 1
+	#		planning_skill = 1
+	#		logistics_skill = 1
+	#		visible = {
+	#			always = yes
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/advisor/GER/gunther_von_kluge.dds"
+	#		}
+	#	}
+	#}
+	#GER_kurt_student = {
+	#	name = "Kurt Student"
+	#	advisor = {
+	#		slot = political_advisor
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_appoint_kurt_student
+	#		}
+	#		visible = {
+	#			always = yes
+	#		}
+	#		traits = {
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/advisor/GER/kurt_student.dds"
+	#		}
+	#	}
+	#}
+	#GER_albert_kesselring = {
+	#	name = "Albert Kesselring"
+	#	advisor = {
+	#		slot = political_advisor
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_appoint_albert_kesselring
+	#		}
+	#		visible = {
+	#			always = yes
+	#		}
+	#		traits = {
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/advisor/GER/albert_kesselring.dds"
+	#		}
+	#	}
+	#}
+	#GER_erhard_milch = {
+	#	name = "Erhard Milch"
+	#	advisor = {
+	#		slot = political_advisor
+	#		allowed = {
+	#			original_tag = GER
+	#		}
+	#		available = {
+	#			has_completed_focus = GER_appoint_erhard_milch
+	#		}
+	#		visible = {
+	#			always = yes
+	#		}
+	#		traits = {
+	#		}
+	#	}
+	#	portraits = {
+	#		army = {
+	#			small = "gfx/interface/advisor/GER/erhard_milch.dds"
+	#		}
+	#	}
+	#}
 	GER_end = {
-		name = GER_end
 	}
 }

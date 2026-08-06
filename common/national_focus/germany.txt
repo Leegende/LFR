@@ -356,14 +356,14 @@ focus_tree = {
 				name = GER_molotov_ribbentrop_pact
 				bonus = 2
 				uses = 1
-				category = armor
+				category = technology_category_armor
 			}
 			SOV = {
 				add_tech_bonus = {
 					name = GER_molotov_ribbentrop_pact
 					bonus = 2
 					uses = 1
-					category = armor
+					category = technology_category_armor
 				}
 			}
 			every_state = {
@@ -685,7 +685,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			#show_ideas_tooltip = GER_hjalmar_schacht
+			show_ideas_tooltip = GER_hjalmar_schacht
 			190 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -755,15 +755,15 @@ focus_tree = {
 				name = GER_short_term
 				bonus = 1.5
 				uses = 2
-				technology = advanced_machine_tools
-				technology = flexible_line
-				technology = assembly_line_production
-				technology = concentrated_industry3
-				technology = concentrated_industry4
-				technology = concentrated_industry5
-				technology = dispersed_industry3
-				technology = dispersed_industry4
-				technology = dispersed_industry5
+				technology = tools_3_technology
+				technology = tools_4_technology
+				technology = tools_5_technology
+				technology = concentrated_industry_3_technology
+				technology = concentrated_industry_4_technology
+				technology = concentrated_industry_5_technology
+				technology = dispersed_industry_3_technology
+				technology = dispersed_industry_4_technology
+				technology = dispersed_industry_5_technology
 			}
 			196 = {
 				add_extra_state_shared_building_slots = 3
@@ -1051,7 +1051,6 @@ focus_tree = {
 				technology = rubber_processing_3_technology
 				technology = rubber_processing_3_technology
 				technology = rubber_processing_4_technology
-
 			}
 		}
 	}
@@ -1253,26 +1252,26 @@ focus_tree = {
 		completion_reward = {
 			GER = {
 				set_technology = {
-					excavation1 = 1
-					excavation2 = 1
+					excavation_1_technology = 1
+					excavation_2_technology = 1
 				}
 			}
 			HUN = {
 				set_technology = {
-					excavation1 = 1
-					excavation2 = 1
+					excavation_1_technology = 1
+					excavation_2_technology = 1
 				}
 			}
 			ROM = {
 				set_technology = {
-					excavation1 = 1
-					excavation2 = 1
+					excavation_1_technology = 1
+					excavation_2_technology = 1
 				}
 			}
 			ITA = {
 				set_technology = {
-					excavation1 = 1
-					excavation2 = 1
+					excavation_1_technology = 1
+					excavation_2_technology = 1
 				}
 			}
 		}
@@ -1577,12 +1576,12 @@ focus_tree = {
 				name = GER_short_term
 				bonus = 1
 				uses = 2
-				technology = flexible_line
-				technology = assembly_line_production
-				technology = concentrated_industry4
-				technology = concentrated_industry5
-				technology = dispersed_industry4
-				technology = dispersed_industry5
+				technology = tools_4_technology
+				technology = tools_5_technology
+				technology = concentrated_industry_4_technology
+				technology = concentrated_industry_5_technology
+				technology = dispersed_industry_4_technology
+				technology = dispersed_industry_5_technology
 			}
 			170 = {
 				add_extra_state_shared_building_slots = 3
@@ -2632,7 +2631,7 @@ focus_tree = {
 				name = GER_schwere_panzer_abteilung
 				bonus = 1
 				uses = 1
-				technology = improved_heavy_tank
+				technology = ger_heavy_tank_tiger_1_chassis_technology
 			}
 		}
 	}
@@ -2657,7 +2656,7 @@ focus_tree = {
 				name = GER_bigger_means_better
 				bonus = 1
 				uses = 3
-				category = artillery_heavy
+				category = technology_category_heavy_artillery
 			}
 		}
 	}
@@ -2711,79 +2710,79 @@ focus_tree = {
 				priority = 2
 				division_cap = 9
 				regiments = {
-					converts = {
+					converts_battalion = {
 						x = 0
 						y = 0
 					}
-					converts = {
+					converts_battalion = {
 						x = 0
 						y = 1
 					}
-					converts = {
+					converts_battalion = {
 						x = 0
 						y = 2
 					}
-					converts = {
+					converts_battalion = {
 						x = 0
 						y = 3
 					}
-					converts = {
+					converts_battalion = {
 						x = 1
 						y = 0
 					}
-					converts = {
+					converts_battalion = {
 						x = 1
 						y = 1
 					}
-					converts = {
+					converts_battalion = {
 						x = 1
 						y = 2
 					}
-					converts = {
+					converts_battalion = {
 						x = 1
 						y = 3
 					}
-					converts = {
+					converts_battalion = {
 						x = 2
 						y = 0
 					}
-					converts = {
+					converts_battalion = {
 						x = 2
 						y = 1
 					}
-					converts = {
+					converts_battalion = {
 						x = 2
 						y = 2
 					}
-					converts = {
+					converts_battalion = {
 						x = 3
 						y = 0
 					}
-					converts = {
+					converts_battalion = {
 						x = 3
 						y = 1
 					}
-					converts = {
+					converts_battalion = {
 						x = 3
 						y = 2
 					}
-					converts = {
+					converts_battalion = {
 						x = 3
 						y = 3
 					}
-					converts = {
+					converts_battalion = {
 						x = 4
 						y = 0
 					}
-					converts = {
+					converts_battalion = {
 						x = 4
 						y = 1
 					}
-					converts = {
+					converts_battalion = {
 						x = 4
 						y = 2
 					}
-					converts = {
+					converts_battalion = {
 						x = 4
 						y = 3
 					}
@@ -2834,7 +2833,7 @@ focus_tree = {
 				bonus = 1
 				ahead_reduction = 0.5
 				uses = 1
-				technology = advanced_heavy_tank
+				technology = ger_heavy_tank_tiger_2_chassis_technology
 			}
 		}
 	}
@@ -2860,7 +2859,7 @@ focus_tree = {
 				name = GER_mechanised_support
 				bonus = 1
 				uses = 2
-				category = truck
+				category = technology_category_mechanised
 			}
 		}
 	}
@@ -2885,8 +2884,8 @@ focus_tree = {
 				name = GER_german_kwks
 				bonus = 1
 				uses = 3
-				category = artillery_light
-				category = artillery_medium
+				category = technology_category_pack_artillery
+				category = technology_category_medium_artillery
 			}
 		}
 	}
@@ -2911,7 +2910,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_der_luchs
+		id = GER_der_leopard
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
@@ -2928,11 +2927,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				name = GER_der_luchs
+				name = GER_der_leopard
 				bonus = 1
 				ahead_reduction = 0.5
 				uses = 1
-				technology = advanced_light_tank
+				technology = ger_light_tank_leopard_chassis_technology
 			}
 		}
 	}
@@ -3364,7 +3363,7 @@ focus_tree = {
 				name = GER_balance_of_tank_trinity
 				bonus = 1
 				uses = 2
-				category = armor_medium
+				category = technology_category_medium_tank
 			}
 		}
 	}
@@ -3437,7 +3436,7 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				ahead_reduction = 1
-				technology = mechanised_infantry
+				category = technology_category_mechanised
 			}
 		}
 	}
@@ -3885,8 +3884,8 @@ focus_tree = {
 				name = stukageschader
 				bonus = 2
 				uses = 1
-				technology = CAS2
-				technology = CAS3
+				technology = cas_2_equipment_technology
+				technology = cas_3_equipment_technology
 			}
 			add_ideas = stukageschader
 		}
@@ -3915,8 +3914,8 @@ focus_tree = {
 				name = stukageschader
 				bonus = 2
 				uses = 1
-				technology = CAS2
-				technology = CAS3
+				technology = cas_2_equipment_technology
+				technology = cas_3_equipment_technology
 			}
 			add_ideas = flying_artillery
 		}
@@ -4307,8 +4306,8 @@ focus_tree = {
 				bonus = 1.5
 				ahead_reduction = 0.5
 				uses = 1
-				technology = medium_anti_tank
-				technology = medium_artillery
+				technology = anti_tank_1_equipment_technology
+				technology = artillery_1_equipment_technology
 			}
 		}
 	}
@@ -4331,10 +4330,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
-				name = GER_mp_38
+				name = GER_mp_40
 				bonus = 1
 				uses = 1
-				technology = infantry_weapons1
+				technology = infantry_weapon_3_equipment_technology
 			}
 		}
 	}
@@ -4386,8 +4385,8 @@ focus_tree = {
 				bonus = 1.5
 				ahead_reduction = 0.5
 				uses = 1
-				technology = medium_anti_tank1
-				technology = medium_artillery1
+				technology = anti_tank_2_equipment_technology
+				technology = artillery_2_equipment_technology
 			}
 		}
 	}
@@ -4594,7 +4593,7 @@ focus_tree = {
 				name = GER_gen_2_fighter
 				bonus = 1
 				uses = 1
-				technology = fighter2
+				technology = fighter_2_equipment_technology
 			}
 		}
 	}
@@ -4619,7 +4618,7 @@ focus_tree = {
 				name = GER_gen_3_fighter
 				bonus = 1
 				uses = 1
-				technology = fighter3
+				technology = fighter_3_equipment_technology
 			}
 		}
 	}

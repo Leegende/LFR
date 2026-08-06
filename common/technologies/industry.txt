@@ -1118,10 +1118,6 @@ technologies = {
 			technology_category_electronics
 			technology_category_radar
 		}
-		categories = {
-			technology_category_electronics
-			technology_category_radar
-		}
 		folder = {
 			name = industry_folder
 			position = {

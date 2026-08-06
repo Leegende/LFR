@@ -10,8 +10,6 @@ ideas = {
 			available = {
 				always = no
 			}
-			research_bonus = {
-			}
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.2
 			}

@@ -9,4 +9,32 @@ technologies = {
 			level = 0
 		}
 	}
+	panzergranate_technology = {
+		research_cost = 0
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_equipment_modules = {
+			panzergranate_module
+		}
+	}
+	enable_stormtroopers = {
+		research_cost = 0
+		ai_will_do = {
+			base = -9999999
+		}
+		enable_subunits = {
+			sturmtruppe_battalion
+		}
+	}
+	ss_heavy_tank_technology = {
+		allow = {
+			always = no
+		}
+		research_cost = 0
+		#enable_subunits = {
+		#	heavy_tank_ss
+		#	heavy_tank_amphibious_ss
+		#}
+	}
 }
