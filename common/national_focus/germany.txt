@@ -77,10 +77,14 @@ focus_tree = {
 		completion_reward = {
 			every_state = {
 				limit = {
-					is_core_of = AUS
+					has_state_flag = AUS
 				}
 				transfer_state_to = GER
 				add_core_of = GER
+				add_dynamic_modifier = {
+					modifier = GER_heim_ins_reich
+					days = 100
+				}
 			}
 			add_political_power = 75
 			add_war_support = 0.05
@@ -92,9 +96,9 @@ focus_tree = {
 				}
 				every_state = {
 					limit = {
-						is_core_of = AUS
+						has_state_flag = AUS
 					}
-					remove_core_of = AUS
+					clr_state_flag = AUS
 				}
 			}
 		}
@@ -128,15 +132,15 @@ focus_tree = {
 			add_threat = 5
 			hidden_effect = {
 				128 = {
-					remove_core_of = CZE
+					clr_state_flag = CZE
 				}
 				126 = {
-					remove_core_of = CZE
+					clr_state_flag = CZE
 				}
 				212 = {
 					transfer_state_to = POL
 					add_core_of = POL
-					remove_core_of = CZE
+					clr_state_flag = CZE
 				}
 				news_event = {
 					hours = 0
@@ -227,7 +231,7 @@ focus_tree = {
 		completion_reward = {
 			every_state = {
 				limit = {
-					is_core_of = CZE
+					has_state_flag = CZE
 					NOT = {
 						has_state_flag = SLOVAKIA
 						has_state_flag = SUDETENLAND
@@ -244,17 +248,28 @@ focus_tree = {
 			HUN = {
 				every_state = {
 					limit = {
-						is_core_of = CZE
+						has_state_flag = CZE
 						has_state_flag = SLOVAKIA
 					}
 					transfer_state_to = HUN
 					hidden_effect = {
 						set_compliance = 100
 						set_resistance = 0
+						clr_state_flag = CZE
+						clr_state_flag = SLOVAKIA
 					}
 				}
 				add_political_power = 50
 				add_war_support = 0.05
+			}
+			POL = {
+				transfer_state = 212
+				hidden_effect = {
+					212 = {
+						set_compliance = 100
+						set_resistance = 0
+					}
+				}
 			}
 			add_threat = 5
 			hidden_effect = {
@@ -713,7 +728,7 @@ focus_tree = {
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_production_factory_max_efficiency_factor = -0.05
+				GER_mefo_bills_production_factory_max_efficiency_factor = -0.1
 				tooltip = production_factory_max_efficiency_factor_tt
 			}
 			add_to_variable = {
@@ -836,9 +851,14 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
+			add_ideas = trade_cost_idea
 			add_to_variable = {
-				GER_mefo_bills_min_export = -0.1
+				GER_mefo_bills_min_export = -0.05
 				tooltip = min_export_tt
+			}
+			add_to_variable = {
+				GER_mefo_bills_local_resources_factor = 0.1
+				tooltip = local_resources_factor_tt
 			}
 			add_ideas = autarkic_economy
 		}
@@ -976,11 +996,11 @@ focus_tree = {
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_production_speed_buildings_factor = 0.05
+				GER_mefo_bills_production_speed_buildings_factor = 0.1
 				tooltip = production_speed_buildings_factor_tt
 			}
 			add_to_variable = {
-				GER_mefo_bills_industrial_capacity_factory = 0.025
+				GER_mefo_bills_industrial_capacity_factory = 0.05
 				tooltip = industrial_capacity_factory_tt
 			}
 		}
@@ -1028,8 +1048,10 @@ focus_tree = {
 				name = GER_short_term
 				bonus = 1.5
 				uses = 2
-				technology = rubber_processing
-				technology = improved_rubber_processing
+				technology = rubber_processing_3_technology
+				technology = rubber_processing_3_technology
+				technology = rubber_processing_4_technology
+
 			}
 		}
 	}
@@ -1074,7 +1096,12 @@ focus_tree = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 3
+				amount = 5
+			}
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 10
 			}
 		}
 	}
@@ -1450,7 +1477,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_local_resources_factor = 0.025
+				GER_mefo_bills_local_resources_factor = 0.05
 				tooltip = local_resources_factor_tt
 			}
 		}
@@ -1475,7 +1502,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_local_resources_factor = 0.025
+				GER_mefo_bills_local_resources_factor = 0.05
 				tooltip = local_resources_factor_tt
 			}
 		}
@@ -1500,7 +1527,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_local_resources_factor = 0.025
+				GER_mefo_bills_local_resources_factor = 0.05
 				tooltip = local_resources_factor_tt
 			}
 		}
@@ -1790,7 +1817,7 @@ focus_tree = {
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_mefo_bills_industrial_capacity_factory = 0.05
+				GER_mefo_bills_industrial_capacity_factory = 0.1
 				tooltip = industrial_capacity_factory_tt
 			}
 			165 = {
@@ -2554,7 +2581,6 @@ focus_tree = {
 				}
 			}
 			GER_wehrmacht_dynamic_modifier_tt = yes
-			
 			add_to_variable = {
 				GER_wehrmacht_army_org_factor = 0.1
 				tooltip = army_org_factor_tt
@@ -2564,11 +2590,11 @@ focus_tree = {
 				tooltip = army_defence_factor_tt
 			}
 			add_to_variable = {
-				GER_wehrmacht_supply_consumption_factor  = 0.1
+				GER_wehrmacht_supply_consumption_factor = 0.1
 				tooltip = supply_consumption_factor_tt
 			}
 			add_to_variable = {
-				GER_wehrmacht_attrition  = 0.1
+				GER_wehrmacht_attrition = 0.1
 				tooltip = attrition_tt
 			}
 			add_to_variable = {
@@ -2583,9 +2609,6 @@ focus_tree = {
 				GER_werhmacht_training_time_factor = 0.5
 				tooltip = training_time_factor_tt
 			}
-
-
-			
 		}
 	}
 	focus = {
@@ -2980,14 +3003,12 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
 				GER_mefo_bills_political_power_gain = 0.05
 				tooltip = political_power_gain_tt
 			}
 			GER_wehrmacht_dynamic_modifier_tt = yes
-			
 			add_to_variable = {
 				GER_wehrmacht_experience_loss_factor = -0.1
 				tooltip = experience_loss_factor_tt
@@ -3004,11 +3025,6 @@ focus_tree = {
 				GER_wehrmacht_conscription_factor = -0.15
 				tooltip = conscription_factor_tt
 			}
-
-
-
-
-
 		}
 	}
 	focus = {
@@ -3045,7 +3061,6 @@ focus_tree = {
 				tooltip = political_power_gain_tt
 			}
 			GER_wehrmacht_dynamic_modifier_tt = yes
-			
 			add_to_variable = {
 				GER_wehrmacht_army_speed_factor = 0.15
 				tooltip = army_speed_factor_tt
@@ -3054,7 +3069,6 @@ focus_tree = {
 				GER_wehrmacht_army_fuel_consumption_factor = -0.15
 				tooltip = army_fuel_consumption_factor_tt
 			}
-
 			custom_effect_tooltip = GER_ss_heavy_tank_technology_tt
 			set_technology = {
 				ss_heavy_tank_technology = 1
@@ -3107,10 +3121,7 @@ focus_tree = {
 				GER_wehrmacht_max_planning_factor = 0.1
 				tooltip = max_planning_factor_tt
 			}
-
 			add_ideas = ss_uebermenschentum
-
-			
 		}
 	}
 	focus = {
@@ -3141,7 +3152,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			
 		}
 	}
 	focus = {
@@ -3203,7 +3213,7 @@ focus_tree = {
 				tooltip = army_armor_speed_factor_tt
 			}
 			add_to_variable = {
-				GER_wehrmacht_supply_consumption_factor  = 0.05
+				GER_wehrmacht_supply_consumption_factor = 0.05
 				tooltip = supply_consumption_factor_tt
 			}
 			add_to_variable = {

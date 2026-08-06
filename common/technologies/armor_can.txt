@@ -31,6 +31,10 @@ technologies = {
 		path = {
 			leads_to_tech = can_light_tank_tetrach_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -59,6 +63,10 @@ technologies = {
 		path = {
 			leads_to_tech = can_light_tank_harry_hopkins_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -73,6 +81,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -95,6 +108,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -124,6 +141,10 @@ technologies = {
 		path = {
 			leads_to_tech = can_medium_tank_cruiser_mk_4_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -143,6 +164,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = can_medium_tank_grizzly_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_can_folder
@@ -166,6 +191,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -188,6 +217,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -217,6 +250,10 @@ technologies = {
 		path = {
 			leads_to_tech = can_heavy_tank_matilda_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -233,6 +270,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = can_heavy_tank_valentine_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_can_folder
@@ -259,6 +300,10 @@ technologies = {
 		path = {
 			leads_to_tech = can_heavy_tank_churchill_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {
@@ -281,6 +326,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_can_folder
 			position = {

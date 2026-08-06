@@ -8,107 +8,107 @@ scripted_gui = {
 			}
 			GER_weisung_nr_10a_button_click = {
 				GER = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				HUN = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				ROM = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				BUL = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				SPR = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				set_global_flag = GER_weisung_nr_10a
 			}
 			GER_weisung_nr_11_button_click = {
 				GER = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				HUN = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				ROM = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				BUL = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				SPR = {
-					declare_war_on = {
-						target = NOR
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = DEN
-						type = annex_everything
-					}
+					#declare_war_on = {
+					#	target = NOR
+					#	type = annex_everything
+					#}
+					#declare_war_on = {
+					#	target = DEN
+					#	type = annex_everything
+					#}
 				}
 				set_global_flag = GER_weisung_nr_11
 			}

@@ -35,6 +35,10 @@ technologies = {
 		path = {
 			leads_to_tech = spr_medium_tank_verdeja_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -60,6 +64,10 @@ technologies = {
 		path = {
 			leads_to_tech = spr_light_tank_verdeja_1_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -82,6 +90,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -106,6 +118,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = spr_medium_tank_panzer_5_ausf_a_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_spr_folder
@@ -132,6 +148,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -154,6 +174,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -189,6 +213,10 @@ technologies = {
 		path = {
 			leads_to_tech = spr_heavy_tank_tiger_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {
@@ -211,6 +239,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_spr_folder
 			position = {

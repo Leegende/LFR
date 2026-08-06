@@ -17,6 +17,9 @@ technologies = {
 		}
 		research_cost = 0
 		start_year = 1936
+		categories = {
+			technology_category_railway_gun
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -34,6 +37,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1938
+		categories = {
+			technology_category_railway_gun
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -48,23 +54,14 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_railway_gun
+		}
 		folder = {
 			name = logistics_folder
 			position = {
 				x = 0
 				y = @1940
-			}
-		}
-	}
-	train_equipment_technology = {
-		enable_equipments = {
-			train_equipment
-		}
-		folder = {
-			name = logistics_folder
-			position = {
-				x = 0
-				y = @1936
 			}
 		}
 	}
@@ -91,6 +88,9 @@ technologies = {
 		path = {
 			leads_to_tech = armored_car_2_equipment_technology
 		}
+		categories = {
+			technology_category_armored_car
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -108,6 +108,9 @@ technologies = {
 		}
 		start_year = 1938
 		research_cost = 2.5
+		categories = {
+			technology_category_armored_car
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -122,6 +125,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 2.5
+		categories = {
+			technology_category_armored_car
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -192,6 +198,9 @@ technologies = {
 		path = {
 			leads_to_tech = amtrac_1_equipment_technology
 		}
+		categories = {
+			technology_category_mechanised
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -227,6 +236,9 @@ technologies = {
 		path = {
 			leads_to_tech = mechanised_1_equipment_technology
 		}
+		categories = {
+			technology_category_amtrac
+		}
 		start_year = 1938
 		research_cost = 2.5
 		folder = {
@@ -256,6 +268,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 2.5
+		categories = {
+			technology_category_mechanised
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -283,6 +298,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 2.5
+		categories = {
+			technology_category_amtrac
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -309,6 +327,9 @@ technologies = {
 		}
 		start_year = 1942
 		research_cost = 2.5
+		categories = {
+			technology_category_mechanised
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -335,6 +356,9 @@ technologies = {
 		}
 		start_year = 1942
 		research_cost = 2.5
+		categories = {
+			technology_category_amtrac
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -358,6 +382,9 @@ technologies = {
 		path = {
 			leads_to_tech = infrastructure_upgrade_1_technology
 		}
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -378,6 +405,9 @@ technologies = {
 		}
 		start_year = 1938
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -399,6 +429,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -415,10 +448,11 @@ technologies = {
 		production_speed_supply_node_factor = 0.1
 		production_speed_rail_way_factor = 0.1
 		repair_speed_rail_way_factor = 0.05
-		path = {
-		}
 		start_year = 1942
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -437,6 +471,9 @@ technologies = {
 		}
 		start_year = 1938
 		research_cost = 1.5
+		categories = {
+			technology_category_supply_node
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -455,6 +492,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 1.5
+		categories = {
+			technology_category_supply_node
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -470,6 +510,9 @@ technologies = {
 		repair_speed_supply_node_factor = 0.05
 		start_year = 1942
 		research_cost = 1.5
+		categories = {
+			technology_category_supply_node
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -487,6 +530,9 @@ technologies = {
 		}
 		start_year = 1938
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -504,6 +550,9 @@ technologies = {
 		}
 		start_year = 1940
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {
@@ -518,6 +567,9 @@ technologies = {
 		repair_speed_infrastructure_factor = 0.05
 		start_year = 1942
 		research_cost = 1.5
+		categories = {
+			technology_category_infrastructure
+		}
 		folder = {
 			name = logistics_folder
 			position = {

@@ -81,7 +81,7 @@ sub_units = {
 		#	amtrac_anti_tank_ = @anti_tank_need
 		#}
 	}
-	armored_anti_tank_car_battalion = {
+	armored_car_anti_tank_battalion = {
 		sprite = armored_car
 		map_icon_category = infantry
 		priority = 0

@@ -86,6 +86,6 @@ is_diplomatic_action_valid_request_foreign_manpower = {
 	always = no
 }
 
-is_diplomatic_action_valid_transfert_spymaster = {
+is_diplomatic_action_valid_transfer_spymaster = {
 	always = no
 }

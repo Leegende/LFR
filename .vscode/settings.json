@@ -1,4 +1,8 @@
 {
     "hoi4.gamePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hearts of Iron IV",
-    "hoi4.themePromptDismissed": true
+    "hoi4.themePromptDismissed": true,
+    "cwtools.debug_mode": true,
+    "cwtools.errors.vanilla": true,
+    "cwtools.logging.diagnostic": true,
+    "cwtools.trace.server": "verbose"
 }

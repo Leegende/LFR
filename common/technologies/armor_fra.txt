@@ -35,6 +35,10 @@ technologies = {
 		path = {
 			leads_to_tech = fra_medium_tank_somua_s35_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -52,7 +56,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -60,6 +63,10 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = light_tank_amx13_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_fra_folder
@@ -83,6 +90,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -108,6 +119,10 @@ technologies = {
 		path = {
 			leads_to_tech = fra_medium_tank_somua_s40_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -125,7 +140,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -133,6 +147,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = fra_medium_tank_sarl_42_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_fra_folder
@@ -156,6 +174,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -185,6 +207,10 @@ technologies = {
 		path = {
 			leads_to_tech = fra_heavy_tank_arl_44_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_fra_folder
 			position = {
@@ -202,7 +228,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -210,6 +235,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = fra_heavy_tank_amx_45_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_fra_folder
@@ -227,6 +256,10 @@ technologies = {
 		start_year = 1940
 		path = {
 			leads_to_tech = fra_heavy_tank_char_c2_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_fra_folder
@@ -247,6 +280,10 @@ technologies = {
 			hull_flamethrower_module
 			dozer_blade_module
 			easy_maintenance_module
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		research_cost = 2
 		start_year = 1942

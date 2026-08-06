@@ -17,6 +17,9 @@ technologies = {
 		}
 		research_cost = 0
 		start_year = 1936
+		categories = {
+			technology_category_infantry
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -34,6 +37,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1938
+		categories = {
+			technology_category_infantry
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -51,6 +57,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_infantry
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -68,6 +77,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_infantry
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -82,6 +94,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1944
+		categories = {
+			technology_category_infantry
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -103,6 +118,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
+		categories = {
+			technology_category_special_forces
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -124,6 +142,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_special_forces
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -145,6 +166,9 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_special_forces
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -163,6 +187,9 @@ technologies = {
 		start_year = 1941
 		path = {
 			leads_to_tech = organisation_special_forces_technology
+		}
+		categories = {
+			technology_category_special_forces
 		}
 		folder = {
 			name = infantry_folder
@@ -183,6 +210,9 @@ technologies = {
 		special_forces_no_supply_grace = 48
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_special_forces
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -202,6 +232,9 @@ technologies = {
 		special_forces_no_supply_grace = 48
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_special_forces
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -223,6 +256,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -234,6 +270,9 @@ technologies = {
 	headquarter_organisation_1_technology = {
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -245,6 +284,9 @@ technologies = {
 	headquarter_defense_1_technology = {
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -258,6 +300,9 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = headquarter_motorised_technology
+		}
+		categories = {
+			technology_category_headquarter
 		}
 		folder = {
 			name = infantry_folder
@@ -279,6 +324,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -290,6 +338,9 @@ technologies = {
 	headquarter_organisation_2_technology = {
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -301,6 +352,9 @@ technologies = {
 	headquarter_defense_2_technology = {
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -312,6 +366,9 @@ technologies = {
 	headquarter_armored_technology = {
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_headquarter
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -334,6 +391,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1937
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -355,6 +415,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -376,6 +439,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -394,6 +460,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -415,6 +484,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1937
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -436,6 +508,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1939
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -457,6 +532,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1941
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -475,6 +553,9 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1943
+		categories = {
+			technology_category_infantry_upgrade
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -491,6 +572,9 @@ technologies = {
 		land_night_attack = 0.1
 		research_cost = 1.5
 		start_year = 1944
+		categories = {
+			technology_category_night_vision
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -503,6 +587,9 @@ technologies = {
 		land_night_attack = 0.15
 		research_cost = 1.5
 		start_year = 1945
+		categories = {
+			technology_category_night_vision
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -525,6 +612,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
+		categories = {
+			technology_category_marines
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -546,6 +636,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_marines
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -564,6 +657,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_marines
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -585,6 +681,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
+		categories = {
+			technology_category_mountaineers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -606,6 +705,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_mountaineers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -624,6 +726,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_mountaineers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -632,9 +737,9 @@ technologies = {
 			}
 		}
 	}
-	ranger_upgrade_1_technology = {
+	rangers_upgrades_1_technology = {
 		path = {
-			leads_to_tech = ranger_upgrade_2_technology
+			leads_to_tech = rangers_upgrades_2_technology
 		}
 		category_rangers = {
 			max_organisation = 5
@@ -645,6 +750,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
+		categories = {
+			technology_category_rangers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -653,9 +761,9 @@ technologies = {
 			}
 		}
 	}
-	ranger_upgrade_2_technology = {
+	rangers_upgrades_2_technology = {
 		path = {
-			leads_to_tech = ranger_upgrade_3_technology
+			leads_to_tech = rangers_upgrades_3_technology
 		}
 		category_rangers = {
 			max_organisation = 5
@@ -666,6 +774,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_rangers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -674,7 +785,7 @@ technologies = {
 			}
 		}
 	}
-	ranger_upgrade_3_technology = {
+	rangers_upgrades_3_technology = {
 		category_rangers = {
 			max_organisation = 5
 			soft_attack = 0.05
@@ -684,6 +795,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_rangers
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -705,6 +819,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1937
+		categories = {
+			technology_category_shocktroops
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -726,6 +843,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1939
+		categories = {
+			technology_category_shocktroops
+		}
 		folder = {
 			name = infantry_folder
 			position = {
@@ -744,6 +864,9 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1941
+		categories = {
+			technology_category_shocktroops
+		}
 		folder = {
 			name = infantry_folder
 			position = {

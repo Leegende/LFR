@@ -33,6 +33,10 @@ technologies = {
 		path = {
 			leads_to_tech = eng_light_tank_tetrach_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -50,7 +54,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -61,6 +64,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = eng_light_tank_harry_hopkins_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_eng_folder
@@ -76,6 +83,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -101,6 +113,10 @@ technologies = {
 		path = {
 			leads_to_tech = eng_light_tank_m18_hellcat_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -115,6 +131,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -144,6 +164,10 @@ technologies = {
 		path = {
 			leads_to_tech = eng_medium_tank_cruiser_mk_4_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -164,6 +188,10 @@ technologies = {
 		path = {
 			leads_to_tech = eng_medium_tank_sherman_dd_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -181,7 +209,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -189,6 +216,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = eng_medium_tank_cromwell_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_eng_folder
@@ -204,6 +235,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -226,6 +262,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -255,6 +295,10 @@ technologies = {
 		path = {
 			leads_to_tech = eng_heavy_tank_matilda_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_eng_folder
 			position = {
@@ -267,11 +311,14 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_matilda_2_chassis
 		}
-		
 		research_cost = 2
 		start_year = 1938
 		path = {
 			leads_to_tech = eng_heavy_tank_valentine_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_eng_folder
@@ -290,7 +337,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -298,6 +344,10 @@ technologies = {
 		start_year = 1940
 		path = {
 			leads_to_tech = eng_heavy_tank_churchill_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_eng_folder
@@ -318,6 +368,10 @@ technologies = {
 			hull_flamethrower_module
 			dozer_blade_module
 			easy_maintenance_module
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		research_cost = 2
 		start_year = 1942

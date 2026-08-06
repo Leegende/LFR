@@ -42,6 +42,10 @@ technologies = {
 		path = {
 			leads_to_tech = heavy_artillery_1_upgrade_technology
 		}
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -62,6 +66,10 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -82,6 +90,10 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -99,6 +111,10 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -116,6 +132,10 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -146,6 +166,11 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -163,6 +188,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -180,6 +210,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -214,6 +249,11 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -231,6 +271,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -248,6 +293,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -274,6 +324,11 @@ technologies = {
 		path = {
 			leads_to_tech = pack_anti_tank_3_equipment_technology
 		}
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_pack_artillery
+		}
 		research_cost = 2
 		start_year = 1942
 		folder = {
@@ -293,6 +348,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -310,6 +370,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_pack_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -340,6 +405,11 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -357,6 +427,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -374,6 +449,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -411,6 +491,11 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -428,6 +513,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -445,6 +535,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -473,6 +568,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -490,6 +590,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -507,6 +612,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_medium_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -537,6 +647,11 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1938
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -554,6 +669,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -571,6 +691,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -605,6 +730,11 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1940
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -622,6 +752,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -639,6 +774,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -667,6 +807,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_upgrade
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -684,6 +829,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {
@@ -701,6 +851,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_artillery
+			technology_category_artillery_gun
+			technology_category_heavy_artillery
+		}
 		folder = {
 			name = artillery_folder
 			position = {

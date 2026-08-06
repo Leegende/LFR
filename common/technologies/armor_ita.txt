@@ -35,6 +35,10 @@ technologies = {
 		path = {
 			leads_to_tech = ita_medium_tank_m11_39_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -52,7 +56,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -60,6 +63,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = ita_light_tank_panzer_2_ausf_c_dak_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_ita_folder
@@ -83,6 +90,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -108,6 +119,10 @@ technologies = {
 		path = {
 			leads_to_tech = ita_medium_tank_m13_40_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -125,7 +140,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -136,6 +150,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = ita_medium_tank_m15_42_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_ita_folder
@@ -151,6 +169,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -173,6 +195,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -202,6 +228,10 @@ technologies = {
 		path = {
 			leads_to_tech = ita_heavy_tank_p43_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {
@@ -218,6 +248,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = ita_heavy_tank_tiger_1_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_ita_folder
@@ -236,7 +270,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -244,6 +277,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = ita_heavy_tank_tiger_2_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_ita_folder
@@ -267,6 +304,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_ita_folder
 			position = {

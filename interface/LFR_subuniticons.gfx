@@ -156,43 +156,43 @@ spriteTypes = {
 	###
 	spriteType = {
 		name = "GFX_group_amphibious_armor_icon"
-		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_heavy_tank_amphibious_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/heavy_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/heavy_tank_amphibious.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_heavy_tank_amphibious_anti_tank_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/heavy_tank_anti_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/heavy_tank_amphibious_anti_tank.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_heavy_tank_amphibious_artillery_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/heavy_tank_artillery.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/heavy_tank_amphibious_artillery.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_light_tank_amphibious_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/light_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/light_tank_amphibious.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_light_tank_amphibious_anti_tank_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/light_tank_anti_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/light_tank_amphibious_anti_tank.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_light_tank_amphibious_artillery_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/light_tank_artillery.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/light_tank_amphibious_artillery.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_medium_tank_amphibious_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_medium_tank_amphibious_anti_tank_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank_anti_tank.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious_anti_tank.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_medium_tank_amphibious_artillery_battalion_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank_artillery.dds"
+		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious_artillery.dds"
 	}
 	###
 	spriteType = {

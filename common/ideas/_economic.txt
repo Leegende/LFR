@@ -140,7 +140,9 @@ ideas = {
 		use_list_view = yes
 		free_trade = {
 			available = {
-				always = yes
+				NOT = {
+					has_idea = trade_cost_idea
+				}
 			}
 			visible = {
 				NOT = {

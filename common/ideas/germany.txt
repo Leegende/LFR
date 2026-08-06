@@ -3,6 +3,7 @@ ideas = {
 		ig_farben_idea = {
 			cost = 0
 			removal_cost = 0
+			picture = german_advisors
 			allowed = {
 				always = no
 			}
@@ -10,7 +11,6 @@ ideas = {
 				always = no
 			}
 			research_bonus = {
-				synthetics = 0.2
 			}
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.2
@@ -23,8 +23,18 @@ ideas = {
 			removal_cost = -1
 			picture = german_advisors
 			research_bonus = {
-				armor = 0.25
-				air = 0.25
+				technology_category_armor = 0.25
+				technology_category_air = 0.25
+			}
+		}
+		trade_cost_idea = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = german_advisors
+			modifier = {
+				trade_laws_cost_factor = 1
 			}
 		}
 		prepare_barbarossa = {
@@ -32,7 +42,6 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			
 			picture = german_advisors
 			modifier = {
 				production_speed_infrastructure_factor = 0.25
@@ -40,8 +49,7 @@ ideas = {
 				production_speed_air_base_factor = 0.25
 				supply_consumption_factor = -0.05
 				mobilization_speed = 0.5
-				training_time_army_factor  = -0.1
-
+				training_time_army_factor = -0.1
 			}
 		}
 		porsche_motors = {
@@ -51,18 +59,18 @@ ideas = {
 			removal_cost = -1
 			picture = german_advisors
 			equipment_bonus = {
-				heavy_tank_chassis = {
-					maximum_speed = 0.15
-					reliability = 0.075
-					build_cost_ic = -0.075
-					instant = yes
-				}
-				heavy_tank_amphibious_chassis = {
-					maximum_speed = 0.2
-					reliability = 0.1
-					build_cost_ic = -0.05
-					instant = yes
-				}
+				#heavy_tank_chassis = {
+				#	maximum_speed = 0.15
+				#	reliability = 0.075
+				#	build_cost_ic = -0.075
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_chassis = {
+				#	maximum_speed = 0.2
+				#	reliability = 0.1
+				#	build_cost_ic = -0.05
+				#	instant = yes
+				#}
 			}
 		}
 		gehaerteter_panzerstahl = {
@@ -72,18 +80,18 @@ ideas = {
 			removal_cost = -1
 			picture = german_advisors
 			equipment_bonus = {
-				heavy_tank_chassis = {
-					armor_value = 0.15
-					hardness = 0.075
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				heavy_tank_amphibious_chassis = {
-					armor_value = 0.2
-					hardness = 0.1
-					build_cost_ic = 0.075
-					instant = yes
-				}
+				#heavy_tank_chassis = {
+				#	armor_value = 0.15
+				#	hardness = 0.075
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_chassis = {
+				#	armor_value = 0.2
+				#	hardness = 0.1
+				#	build_cost_ic = 0.075
+				#	instant = yes
+				#}
 			}
 		}
 		support_tank = {
@@ -93,54 +101,54 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				light_tank_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				light_tank_amphibious_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				light_tank_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				light_tank_amphibious_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_amphibious_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_amphibious_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_amphibious_flame_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_amphibious_aa_chassis = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
+				#light_tank_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#light_tank_amphibious_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#light_tank_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#light_tank_amphibious_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_flame_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_aa_chassis = {
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
 			}
 			modifier = {
 				equipment_conversion_speed = 0.75
@@ -153,78 +161,78 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				light_tank_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				light_tank_amphibious_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				light_tank_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				light_tank_amphibious_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				medium_tank_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				medium_tank_amphibious_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				medium_tank_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				medium_tank_amphibious_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				heavy_tank_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				heavy_tank_amphibious_destroyer_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				heavy_tank_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
-				heavy_tank_amphibious_artillery_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					build_cost_ic = 0.05
-					instant = yes
-				}
+				#light_tank_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#light_tank_amphibious_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#light_tank_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#light_tank_amphibious_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#medium_tank_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#medium_tank_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#heavy_tank_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_destroyer_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#heavy_tank_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_artillery_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	build_cost_ic = 0.05
+				#	instant = yes
+				#}
 			}
 		}
 		tank_quality = {
@@ -234,60 +242,60 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				light_tank_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				medium_tank_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				heavy_tank_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				light_tank_amphibious_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				medium_tank_amphibious_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
-				heavy_tank_amphibious_chassis = {
-					soft_attack = 0.05
-					hard_attack = 0.05
-					breakthrough = 0.05
-					hardness = 0.05
-					reliability = 0.05
-					build_cost_ic = 0.1
-					instant = yes
-				}
+				#light_tank_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
+				#medium_tank_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
+				#heavy_tank_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
+				#light_tank_amphibious_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_chassis = {
+				#	soft_attack = 0.05
+				#	hard_attack = 0.05
+				#	breakthrough = 0.05
+				#	hardness = 0.05
+				#	reliability = 0.05
+				#	build_cost_ic = 0.1
+				#	instant = yes
+				#}
 			}
 		}
 		tank_quantity = {
@@ -297,60 +305,60 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				light_tank_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				light_tank_amphibious_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				medium_tank_amphibious_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				heavy_tank_amphibious_chassis = {
-					soft_attack = -0.05
-					hard_attack = -0.05
-					breakthrough = -0.05
-					hardness = -0.05
-					reliability = -0.05
-					build_cost_ic = -0.1
-					instant = yes
-				}
+				#light_tank_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#light_tank_amphibious_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#medium_tank_amphibious_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_chassis = {
+				#	soft_attack = -0.05
+				#	hard_attack = -0.05
+				#	breakthrough = -0.05
+				#	hardness = -0.05
+				#	reliability = -0.05
+				#	build_cost_ic = -0.1
+				#	instant = yes
+				#}
 			}
 		}
 		nebelwand = {
@@ -491,7 +499,6 @@ ideas = {
 				air_superiority_efficiency = 0.05
 			}
 		}
-		
 		stukageschader = {
 			allowed = {
 				always = no
@@ -553,18 +560,18 @@ ideas = {
 				ground_attack_factor = 0.1
 			}
 			equipment_bonus = {
-				heavy_artillery_equipment = {
-					soft_attack = 0.1
-					breakthrough = 0.1
-				}
-				artillery_equipment = {
-					soft_attack = 0.075
-					breakthrough = 0.075
-				}
-				pack_artillery_equipment = {
-					soft_attack = 0.05
-					breakthrough = 0.05
-				}
+				#heavy_artillery_equipment = {
+				#	soft_attack = 0.1
+				#	breakthrough = 0.1
+				#}
+				#artillery_equipment = {
+				#	soft_attack = 0.075
+				#	breakthrough = 0.075
+				#}
+				#pack_artillery_equipment = {
+				#	soft_attack = 0.05
+				#	breakthrough = 0.05
+				#}
 			}
 		}
 		guns_for_everyone = {
@@ -577,10 +584,10 @@ ideas = {
 				mobilization_speed = 0.5
 			}
 			equipment_bonus = {
-				infantry_archetype = {
-					build_cost_ic = -0.1
-					reliability = -0.1
-				}
+				#infantry_archetype = {
+				#	build_cost_ic = -0.1
+				#	reliability = -0.1
+				#}
 			}
 		}
 		panzerbuechse = {
@@ -590,11 +597,11 @@ ideas = {
 			removal_cost = -1
 			picture = generic_acquire_tanks
 			equipment_bonus = {
-				infantry_archetype = {
-					build_cost_ic = 0.05
-					hard_attack = 1
-					ap_attack = 0.2
-				}
+				#infantry_archetype = {
+				#	build_cost_ic = 0.05
+				#	hard_attack = 1
+				#	ap_attack = 0.2
+				#}
 			}
 		}
 		camouflage_mastery = {
@@ -615,42 +622,40 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				medium_tank_chassis = {
-					reliability = -0.05
-					hardness = -0.05
-					build_cost_ic = -0.05
-					instant = yes
-				}
+				#medium_tank_chassis = {
+				#	reliability = -0.05
+				#	hardness = -0.05
+				#	build_cost_ic = -0.05
+				#	instant = yes
+				#}
 			}
 		}
 		conversion_programm = {
+			removal_cost = -1
+			picture = generic_armor
 			modifier = {
 				equipment_conversion_speed = 0.75
 			}
 		}
 		army_cohesion = {
+			removal_cost = -1
+			picture = generic_armor
 			modifier = {
 				army_morale_factor = 0.1
 				army_org_regain = 0.1
 			}
 		}
 		german_cooperation_focus = {
-			
 			allowed = {
 				always = no
 			}
-
-			
 			removal_cost = -1
-
 			picture = german_advisors
-	
-			research_bonus = {
-				armor = 0.1
-				air = -0.25
-				infantry = -0.25
-				
-			}
+			#research_bonus = {
+			#	armor = 0.1
+			#	air = -0.25
+			#	infantry = -0.25
+			#}
 			modifier = {
 				land_doctrine_cost_factor = -0.15
 			}
@@ -662,24 +667,21 @@ ideas = {
 			removal_cost = -1
 			picture = generic_armor
 			equipment_bonus = {
-				heavy_tank_chassis = {
-					reliability = -0.15
-					soft_attack = 0.1
-					hard_attack = 0.1
-					instant = yes
-				}
-				heavy_tank_amphibious_chassis = {
-					reliability = -0.2
-					soft_attack = 0.15
-					hard_attack = 0.15
-					maximum_speed = 0.05
-					instant = yes
-				}
+				#heavy_tank_chassis = {
+				#	reliability = -0.15
+				#	soft_attack = 0.1
+				#	hard_attack = 0.1
+				#	instant = yes
+				#}
+				#heavy_tank_amphibious_chassis = {
+				#	reliability = -0.2
+				#	soft_attack = 0.15
+				#	hard_attack = 0.15
+				#	maximum_speed = 0.05
+				#	instant = yes
+				#}
 			}
-			
 		}
-		
-
 		german_trade_deal = {
 			allowed = {
 				always = no
@@ -729,6 +731,7 @@ ideas = {
 	}
 	industrial_concern = {
 		ig_farben_concern = {
+			picture = generic_armor
 			cost = 50
 			removal_cost = 0
 			allowed = {
@@ -737,9 +740,9 @@ ideas = {
 			available = {
 				has_completed_focus = GER_ig_farben
 			}
-			research_bonus = {
-				synthetics = 0.2
-			}
+			#research_bonus = {
+			#	synthetics = 0.2
+			#}
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.2
 			}

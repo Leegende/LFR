@@ -208,7 +208,7 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "ranger_upgrade_1_technology_tree"
+				name = "rangers_upgrades_1_technology_tree"
 				position = { x = 1700 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

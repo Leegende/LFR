@@ -1,6 +1,5 @@
-
 state = {
-id = 120
+	id = 120
 	name = "STATE_120"
 	history = {
 		owner = DMZ
@@ -24,7 +23,6 @@ id = 120
 		120
 		7473
 		12786
-		
 		2167
 		12600
 		12624
@@ -43,8 +41,7 @@ id = 120
 		21640
 	}
 	manpower = 639322
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }
-

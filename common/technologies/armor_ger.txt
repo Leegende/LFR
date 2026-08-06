@@ -52,6 +52,10 @@ technologies = {
 		path = {
 			leads_to_tech = ger_heavy_tank_neubaufahrzeug_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -71,6 +75,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = ger_light_tank_hetzer_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_ger_folder
@@ -101,6 +109,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1938
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -115,6 +127,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -126,6 +142,10 @@ technologies = {
 	ger_light_tank_hetzer_technology = {
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -148,6 +168,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -179,6 +203,10 @@ technologies = {
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -193,6 +221,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1938
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -224,6 +257,10 @@ technologies = {
 		path = {
 			leads_to_tech = ger_medium_tank_panzer_5_ausf_a_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -238,6 +275,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1938
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -264,6 +306,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -290,6 +336,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -315,6 +365,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -329,6 +383,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -353,6 +411,10 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_1_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_ger_folder
@@ -380,6 +442,10 @@ technologies = {
 		path = {
 			leads_to_tech = ger_heavy_tank_tiger_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {
@@ -402,6 +468,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1941
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_ger_folder
 			position = {

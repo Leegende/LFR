@@ -4,6 +4,7 @@ state = {
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
+		set_state_flag = AUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 5

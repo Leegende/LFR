@@ -69,6 +69,7 @@ GER_mefo_bills = {
 	conversion_cost_mil_to_civ_factor = GER_mefo_bills_conversion_cost_mil_to_civ_factor
 	production_speed_buildings_factor = GER_mefo_bills_production_speed_buildings_factor
 	political_power_gain = GER_mefo_bills_political_power_gain
+	
 }
 
 GER_wehrmacht = {
@@ -144,4 +145,12 @@ GER_dirlewanger_action = {
 	local_resources = 0.1
 	resistance_target = -0.05
 	icon = GFX_idea_GER_army
+}
+
+GER_heim_ins_reich = {
+	enable = {
+		always = yes
+	}
+	local_resources = 0.1
+	production_speed_buildings_factor = 0.1
 }

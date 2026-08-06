@@ -28,6 +28,10 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_bomber_1_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -45,6 +49,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1937
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -59,6 +68,11 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = fighter_3_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter
 		}
 		research_cost = 2
 		start_year = 1939
@@ -76,6 +90,11 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = fighter_bomber_4_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter
 		}
 		research_cost = 2
 		start_year = 1941
@@ -96,6 +115,11 @@ technologies = {
 		path = {
 			leads_to_tech = cas_2_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_cas
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -112,6 +136,11 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = cas_3_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_cas
 		}
 		folder = {
 			name = air_folder
@@ -130,6 +159,11 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_bomber_4_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_cas
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -146,6 +180,11 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = fighter_bomber_2_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter_bomber
 		}
 		folder = {
 			name = air_folder
@@ -164,6 +203,11 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_bomber_3_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter_bomber
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -181,6 +225,11 @@ technologies = {
 		path = {
 			leads_to_tech = fighter_bomber_4_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_light_air
+			technology_category_fighter_bomber
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -192,6 +241,11 @@ technologies = {
 	fighter_bomber_4_equipment_technology = {
 		enable_equipments = {
 			fighter_bomber_4_equipment
+		}
+		categories = {
+			technology_category_air
+			technology_category_jet_air
+			technology_category_fighter_bomber
 		}
 		research_cost = 2
 		start_year = 1943
@@ -217,6 +271,10 @@ technologies = {
 		path = {
 			leads_to_tech = transport_plane_1_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -233,6 +291,11 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = heavy_fighter_2_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_heavy_fighter
 		}
 		folder = {
 			name = air_folder
@@ -251,6 +314,11 @@ technologies = {
 		path = {
 			leads_to_tech = heavy_fighter_3_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_heavy_fighter
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -267,6 +335,11 @@ technologies = {
 		start_year = 1941
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_heavy_fighter
 		}
 		folder = {
 			name = air_folder
@@ -285,6 +358,11 @@ technologies = {
 		path = {
 			leads_to_tech = tactical_bomber_2_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_tactical_bomber
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -301,6 +379,11 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = tactical_bomber_3_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_tactical_bomber
 		}
 		folder = {
 			name = air_folder
@@ -319,6 +402,11 @@ technologies = {
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_tactical_bomber
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -333,6 +421,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_tactical_bomber
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -349,6 +442,11 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = transport_plane_2_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_transport_plane
 		}
 		folder = {
 			name = air_folder
@@ -367,6 +465,11 @@ technologies = {
 		path = {
 			leads_to_tech = transport_plane_3_equipment_technology
 		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_transport_plane
+		}
 		folder = {
 			name = air_folder
 			position = {
@@ -383,6 +486,11 @@ technologies = {
 		start_year = 1941
 		path = {
 			leads_to_tech = tactical_bomber_4_equipment_technology
+		}
+		categories = {
+			technology_category_air
+			technology_category_heavy_air
+			technology_category_transport_plane
 		}
 		folder = {
 			name = air_folder

@@ -21,7 +21,6 @@
 
  GER_weisung_nr_22b_tt:0 "§YFuehrerweisung Nr. 22b§!\n§LAb 5:45 wird zurueckgeschossen!§!\n\nRequires §YFrance§! to be §Rcapitualed§!:\n\nEffect:\n -  §YItaly§! joins the War against the §RAllies§! "
 
-
  GER_weisung_nr_35a_tt:0 "§YFuehrerweisung Nr. 35a§!\n§LMoskau Moskau!§!\n\nRequires §YGermany§! to control §RMoskau§!:\n\nEffect:\n -  §YGermany§! gets Idea:"
 
  GER_weisung_nr_40_tt:0 "§YFuehrerweisung Nr. 40§!\n§LHeinz get se Flammenwerfer!§!\n\nRequires the Atlantikwall to be finished\n - all §YAtlantic§! & §YNorthsea§! provinces need\n  - lvl. 5 coastal fort\n  - one division \n\nEffect:\n -  All Coastal §YSates§! get Idea"

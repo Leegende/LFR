@@ -15,7 +15,7 @@ spriteTypes = {
 		name = "GFX_portrait_DMZ_big_yahu"
 		texturefile = "gfx/leaders/DMZ/big_yahu.dds"
 		noOfFrames = 56
-		animation_rate_fps = 8
+		animation_rate_fps = 10
 		looping = yes
 		play_on_show = yes
 	}

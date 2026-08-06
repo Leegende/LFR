@@ -33,6 +33,10 @@ technologies = {
 		path = {
 			leads_to_tech = sov_light_tank_bt7_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -49,6 +53,10 @@ technologies = {
 		start_year = 1937
 		path = {
 			leads_to_tech = sov_light_tank_t70_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_sov_folder
@@ -67,7 +75,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -75,6 +82,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = sov_light_tank_t40_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_sov_folder
@@ -100,6 +111,10 @@ technologies = {
 		start_year = 1940
 		path = {
 			leads_to_tech = eng_light_tank_tetrach_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_sov_folder
@@ -130,6 +145,10 @@ technologies = {
 		path = {
 			leads_to_tech = sov_medium_tank_t34_57_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -147,7 +166,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -155,6 +173,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = sov_medium_tank_t35_85_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_sov_folder
@@ -176,6 +198,10 @@ technologies = {
 		path = {
 			leads_to_tech = sov_medium_tank_t44_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -190,6 +216,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -212,6 +243,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -238,6 +273,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1936
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		path = {
 			leads_to_tech = sov_heavy_tank_kv1_chassis_technology
 		}
@@ -258,7 +297,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -269,6 +307,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = sov_heavy_tank_kv2_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
 		}
 		folder = {
 			name = armour_sov_folder
@@ -284,6 +326,11 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+			technology_category_amphibious_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -309,6 +356,10 @@ technologies = {
 		path = {
 			leads_to_tech = sov_heavy_tank_is4_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {
@@ -323,6 +374,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_sov_folder
 			position = {

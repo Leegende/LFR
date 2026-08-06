@@ -32,6 +32,10 @@ technologies = {
 		path = {
 			leads_to_tech = hun_light_tank_turret_2_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -53,6 +57,10 @@ technologies = {
 		start_year = 1939
 		path = {
 			leads_to_tech = hun_light_tank_leopard_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
 		}
 		folder = {
 			name = armour_hun_folder
@@ -76,6 +84,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1940
+		categories = {
+			technology_category_armor
+			technology_category_light_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -105,6 +117,10 @@ technologies = {
 		path = {
 			leads_to_tech = hun_medium_tank_40m_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -126,6 +142,10 @@ technologies = {
 		start_year = 1938
 		path = {
 			leads_to_tech = hun_medium_tank_44m_chassis_technology
+		}
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
 		}
 		folder = {
 			name = armour_hun_folder
@@ -149,6 +169,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1942
+		categories = {
+			technology_category_armor
+			technology_category_medium_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -184,6 +208,10 @@ technologies = {
 		path = {
 			leads_to_tech = hun_heavy_tank_tiger_2_chassis_technology
 		}
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {
@@ -206,6 +234,10 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1939
+		categories = {
+			technology_category_armor
+			technology_category_heavy_tank
+		}
 		folder = {
 			name = armour_hun_folder
 			position = {

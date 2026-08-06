@@ -176,17 +176,17 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ranger_upgrade_1_technology_medium"
+		name = "GFX_rangers_upgrades_1_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ranger_upgrade_2_technology_medium"
+		name = "GFX_rangers_upgrades_2_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_2.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ranger_upgrade_3_technology_medium"
+		name = "GFX_rangers_upgrades_3_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/ranger_upgrade_3.dds"
 		legacy_lazy_load = no
 	}
