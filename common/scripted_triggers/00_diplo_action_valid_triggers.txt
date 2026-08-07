@@ -86,3 +86,38 @@ is_diplomatic_action_valid_request_foreign_manpower = {
 	always = no
 }
 
+is_diplomatic_action_valid_air_base_access = {
+	always = no
+}
+
+is_diplomatic_action_valid_offer_air_base_access = {
+	always = no
+}
+
+is_diplomatic_action_valid_naval_blockade = {
+	always = no
+}
+
+is_diplomatic_action_valid_send_attache = {
+	always = no
+}
+
+is_diplomatic_action_valid_lend_lease = {
+	always = no
+}
+
+is_diplomatic_action_valid_incoming_lend_lease = {
+	always = no
+}
+
+is_diplomatic_action_valid_send_volunteers = {
+	always = no
+}
+
+is_diplomatic_action_valid_send_exp_force = {
+	always = no
+}
+
+is_diplomatic_action_valid_return_exp_force = {
+	always = no
+}

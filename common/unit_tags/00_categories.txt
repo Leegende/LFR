@@ -16,11 +16,18 @@ sub_unit_categories = {
 	category_amtrac
 	category_mechanised
 	category_armored_car
+	category_vehicle
+	category_vehicle_anti_tank
+	category_vehicle_artillery
+	category_vehicle_anti_air
+	category_tank_anti_tank
+	category_tank_artillery
+	category_tank_anti_air
 	###
 	category_miscellaneous_support_company
 	category_support_company
 	category_engineers_company
-	category_field_hospital_company
+	category_field_hospital
 	category_logistics_company
 	category_maintenance_company
 	category_recon_company
@@ -33,7 +40,6 @@ sub_unit_categories = {
 	category_amphibious_armor_flamethrower
 	category_amphibious_armor_support_company
 	category_railway_gun
-
 	##
 	category_pack
 	category_medium
@@ -54,6 +60,14 @@ sub_unit_categories = {
 	category_pack_anti_air
 	category_medium_anti_air
 	category_heavy_anti_air
-
 	##
+	category_air
+	category_light_air
+	category_heavy_air
+	category_fighter
+	category_cas
+	category_fighter_bomber
+	category_heavy_fighter
+	category_tactical_bomber
+	category_transport_plane
 }

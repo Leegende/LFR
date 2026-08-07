@@ -15,18 +15,22 @@ sub_units = {
 			category_support_company
 			category_logistics_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = logistics_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	motorised_equipment = 20
 		#}
-		same_support_type = logistics_company_support
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		supply_consumption_factor = -0.25
+		fuel_consumption_factor = -0.1
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
 	}
 	horse_logistics_company_support = {
 		sprite = infantry
@@ -44,18 +48,21 @@ sub_units = {
 			category_support_company
 			category_logistics_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = logistics_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	motorised_equipment = 20
 		#}
-		same_support_type = logistics_company_support
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 120
+		supply_consumption_factor = -0.1
+		fuel_consumption_factor = -0.05
+		own_equipment_fuel_consumption_mult = 0
 	}
 	motorbike_logistics_company_support = {
 		sprite = infantry
@@ -73,18 +80,22 @@ sub_units = {
 			category_support_company
 			category_logistics_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = logistics_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	motorbike_equipment = 20
 		#}
-		same_support_type = logistics_company_support
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 10
+		default_morale = 0.3
+		manpower = 400
+		training_time = 100
+		supply_consumption_factor = -0.2
+		fuel_consumption_factor = -0.1
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
 	}
 	motorised_logistics_company_support = {
 		sprite = infantry
@@ -103,47 +114,22 @@ sub_units = {
 			category_logistics_company
 			category_motorised
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = logistics_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	motorised_equipment = 20
 		#}
-		same_support_type = logistics_company_support
-	}
-	mechanised_logistics_company_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		affects_speed = no
-		active = yes
-		affects_speed = no
-		type = {
-			support
-		}
-		group = support
-		regimental = no
-		categories = {
-			category_mechanised
-			category_logistics_company
-		}
 		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
+		max_strength = 1
+		max_organisation = 10
 		default_morale = 0.3
-		manpower = 300
-		affects_speed = no
-		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#	mechanised_utility_ = 20
-		#}
-		same_support_type = logistics_company_support
+		manpower = 400
+		training_time = 120
+		supply_consumption_factor = -0.4
+		fuel_consumption_factor = -0.1
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
 	}
 	helicopter_logistics_company_support = {
 		sprite = infantry
@@ -157,21 +143,49 @@ sub_units = {
 		}
 		group = support
 		regimental = no
-		#categories = {
-		#	category_helicopter
-		#	category_logistics_company
-		#}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
+		categories = {
+			category_support_company
+			category_helicopter
+			category_logistics_company
+		}
 		affects_speed = no
-		training_time = 100
+		same_support_type = logistics_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	helicopter_equipment_archetype = 20
 		#}
-		same_support_type = logistics_company_support
+		combat_width = 0
+		regimental = no
+		max_strength = 1
+		max_organisation = 12
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		supply_consumption_factor = -0.15
+		own_equipment_fuel_consumption_mult = 0
+		forest = {
+			movement = 0.05
+		}
+		hills = {
+			movement = 0.05
+		}
+		mountain = {
+			movement = 0.05
+		}
+		jungle = {
+			movement = 0.05
+		}
+		marsh = {
+			movement = 0.05
+		}
+		plains = {
+			movement = 0.05
+		}
+		desert = {
+			movement = 0.05
+		}
+		river = {
+			movement = 0.05
+		}
 	}
 }

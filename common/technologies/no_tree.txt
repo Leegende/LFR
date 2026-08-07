@@ -11,18 +11,34 @@ technologies = {
 	}
 	panzergranate_technology = {
 		research_cost = 0
-		ai_will_do = {
-			base = -9999999
-		}
+		
 		enable_equipment_modules = {
 			panzergranate_module
 		}
 	}
+	heat_or_op_technology = {
+		research_cost = 0
+		
+		enable_equipment_modules = {
+			apcr_round_module
+			advanced_artillery_round_module
+		}
+	}
+	schmalturm_technology = {
+		research_cost = 0
+		
+		enable_equipment_modules = {
+			#schmalturm
+		}
+	}
+	super_heavy_artillery_technology = {
+		enable_equipments = {
+			super_heavy_artillery_equipment
+		}
+	}
 	enable_stormtroopers = {
 		research_cost = 0
-		ai_will_do = {
-			base = -9999999
-		}
+		
 		enable_subunits = {
 			sturmtruppe_battalion
 		}

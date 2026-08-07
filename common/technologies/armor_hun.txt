@@ -115,7 +115,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1938
 		path = {
-			leads_to_tech = hun_medium_tank_40m_chassis_technology
+			leads_to_tech = hun_medium_tank_turret_2_technology
 		}
 		categories = {
 			technology_category_armor
@@ -139,7 +139,7 @@ technologies = {
 			advanced_artillery_round_module
 		}
 		research_cost = 2
-		start_year = 1938
+		start_year = 1940
 		path = {
 			leads_to_tech = hun_medium_tank_44m_chassis_technology
 		}
@@ -151,7 +151,7 @@ technologies = {
 			name = armour_hun_folder
 			position = {
 				x = @medium_tanks_center
-				y = @1938
+				y = @1940
 			}
 		}
 	}

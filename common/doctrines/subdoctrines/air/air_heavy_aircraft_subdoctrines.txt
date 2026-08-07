@@ -1,0 +1,140 @@
+air_subdoctrine_night_bombing = {
+	track = heavy_aircraft
+	name = SUBDOCTRINE_NIGHT_BOMBING
+	description = SUBDOCTRINE_NIGHT_BOMBING_DESC
+	icon = GFX_doctrine_night_bombing_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	air_strategic_bomber_night_penalty = -0.25
+	rewards = {
+		night_raids = {
+			air_night_penalty = -0.15
+		}
+		stealth_approach = {
+			strategic_bomb_visibility = -0.15
+		}
+		shared_principles = {
+			air_strategic_bomber_defence_factor = 0.05
+		}
+		bombing_discipline = {
+			air_strategic_bomber_bombing_factor = 0.125
+		}
+		durable_airframes = {
+			air_strategic_bomber_defence_factor = 0.10
+		}
+	}
+}
+
+air_subdoctrine_carpet_bombing = {
+	track = heavy_aircraft
+	name = SUBDOCTRINE_CARPET_BOMBING
+	description = SUBDOCTRINE_CARPET_BOMBING_DESC
+	icon = GFX_doctrine_mass_destruction_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	air_strategic_bomber_bombing_factor = 0.05
+	rewards = {
+		veteran_bomber_crews = {
+			air_strategic_bomber_bombing_factor = 0.05
+		}
+		breaking_the_spirit = {
+			air_strategic_bomber_bombing_factor = 0.05
+		}
+		destruction_campaigns = {
+			air_strategic_bomber_bombing_factor = 0.1
+		}
+		coordinated_air_operations = {
+			air_strategic_bomber_defence_factor = 0.1
+			category_tactical_bomber = {
+				air_range = 0.05
+			}
+		}
+		defensive_formation = {
+			air_strategic_bomber_defence_factor = 0.15
+		}
+	}
+}
+
+air_subdoctrine_deep_air_raids = {
+	track = heavy_aircraft
+	name = SUBDOCTRINE_DEEP_AIR_RAIDS
+	description = SUBDOCTRINE_DEEP_AIR_RAIDS_DESC
+	icon = GFX_doctrine_offensive_formations_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	category_heavy_air = {
+		air_range = 0.1
+	}
+	rewards = {
+		bad_weather_operations = {
+			air_weather_penalty = -0.15
+		}
+		effective_targetting = {
+			air_strategic_bomber_bombing_factor = 0.1
+		}
+		improved_mission_control = {
+			category_heavy_air = {
+				air_range = 0.1
+			}
+		}
+		escort_cooperation = {
+			category_heavy_air = {
+				air_defence = 0.05
+			}
+		}
+		long_range_missions = {
+			air_range_factor = 0.05
+		}
+	}
+}
+
+air_subdoctrine_flying_fortresses = {
+	track = heavy_aircraft
+	name = SUBDOCTRINE_FLYING_FORTRESSES
+	description = SUBDOCTRINE_FLYING_FORTRESSES_DESC
+	icon = GFX_doctrine_flying_fortress_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	category_tactical_bomber = {
+		air_defence = 0.1
+	}
+	rewards = {
+		high_level_bombing = {
+			air_strategic_bomber_defence_factor = 0.2
+		}
+		experienced_gunners = {
+			category_tactical_bomber = {
+				air_attack = 0.15
+			}
+		}
+		pilot_rescue_missions = {
+			air_wing_xp_loss_when_killed_factor = -0.1
+			category_tactical_bomber = {
+				air_defence = 0.05
+			}
+		}
+		extensive_training = {
+			category_heavy_air = {
+				air_agility = 0.1
+			}
+		}
+		safety_landing_procedures = {
+			air_accidents_factor = -0.5
+			category_tactical_bomber = {
+				air_defence = 0.1
+			}
+		}
+	}
+}

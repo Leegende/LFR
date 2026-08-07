@@ -74,65 +74,75 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
 		}
-		maximum_speed = 6
+		fuel_consumption = 0
+		maximum_speed = 4
+		build_cost_ic = 1
+		reliability = 0.8
+		hardness = 0.45
+		armor_value = 5
+		resources = {
+			steel = 10
+			tungsten = 5
+			chromium = 5
+		}
 	}
 	medium_tank_chassis_archetype = {
 		is_archetype = yes
@@ -208,58 +218,58 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty
@@ -267,6 +277,17 @@ equipments = {
 			engine_type_slot = empty
 		}
 		maximum_speed = 6
+		fuel_consumption = 0
+		maximum_speed = 4
+		build_cost_ic = 2
+		reliability = 1
+		armor_value = 15
+		hardness = 0.8
+		resources = {
+			steel = 15
+			tungsten = 10
+			chromium = 10
+		}
 	}
 	heavy_tank_chassis_archetype = {
 		is_archetype = yes
@@ -342,65 +363,75 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty
 			armor_type_slot = empty
 			engine_type_slot = empty
 		}
-		maximum_speed = 6
+		fuel_consumption = 0
+		maximum_speed = 3.5
+		build_cost_ic = 10
+		reliability = 1
+		armor_value = 25
+		hardness = 0.85
+		resources = {
+			steel = 35
+			tungsten = 25
+			chromium = 15
+		}
 	}
 	light_tank_amphibious_chassis_archetype = {
 		is_archetype = yes
@@ -477,58 +508,58 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty
@@ -611,58 +642,58 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty
@@ -745,58 +776,58 @@ equipments = {
 				}
 			}
 		}
-		module_count_limit = {
-			module = add_on_rockets_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_heavy_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = additional_machine_guns_module
-			count < 2
-		}
-		module_count_limit = {
-			module = advanced_artillery_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = apcr_round_module
-			count < 2
-		}
-		module_count_limit = {
-			module = panzergranate_module
-			count < 2
-		}
-		module_count_limit = {
-			module = expanded_fuel_tank_module
-			count < 2
-		}
-		module_count_limit = {
-			module = extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = hull_flamethrower_module
-			count < 2
-		}
-		module_count_limit = {
-			module = smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = easy_maintenance_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = add_on_rockets_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_heavy_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = additional_machine_guns_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = advanced_artillery_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = apcr_round_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = panzergranate_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = expanded_fuel_tank_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = hull_flamethrower_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = easy_maintenance_module
+		#	count < 2
+		#}
 		default_modules = {
 			main_armament_slot = empty
 			suspension_type_slot = empty

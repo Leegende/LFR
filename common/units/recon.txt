@@ -14,19 +14,49 @@ sub_units = {
 			category_support_company
 			category_recon_company
 		}
+		affects_speed = yes
+		same_support_type = recon_support
+		#need = {
+		#	support_equipment_archetype = 20
+		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		affects_speed = yes
-		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
-		same_support_type = recon_support
+		manpower = 400
+		training_time = 120
+		
+		supply_consumption = 0.02
+		recon = 1
+		forest = {
+			movement = 0.04
+		}
+		hills = {
+			movement = 0.04
+		}
+		mountain = {
+			movement = 0.04
+		}
+		rock = {
+			movement = 0.04
+		}
+		jungle = {
+			movement = 0.04
+		}
+		marsh = {
+			movement = 0.04
+		}
+		plains = {
+			movement = 0.04
+		}
+		desert = {
+			movement = 0.04
+		}
+		river = {
+			movement = 0.04
+		}
 	}
-	rangers_support = {
+	rangers_recon_support = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -41,17 +71,38 @@ sub_units = {
 			category_support_company
 			category_recon_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = no
-		training_time = 100
+		affects_speed = yes
+		same_support_type = recon_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#}
-		same_support_type = recon_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 30
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.06
+		recon = 1
+		forest = {
+			movement = 0.15
+			attack = 0.05
+		}
+		hills = {
+			movement = 0.15
+			attack = 0.05
+		}
+		mountain = {
+			movement = 0.1
+			defence = 0.05
+		}
+		jungle = {
+			movement = 0.1
+		}
+		plains = {
+			movement = 0.1
+		}
 	}
 	motorised_recon_support = {
 		sprite = infantry
@@ -68,46 +119,50 @@ sub_units = {
 			category_support_company
 			category_recon_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = no
-		training_time = 100
+		affects_speed = yes
+		same_support_type = recon_support
 		#need = {
 		#	motorised_equipment = 20
 		#	support_equipment_archetype = 20
 		#}
-		same_support_type = recon_support
-	}
-	armored_car_recon_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = yes
-		affects_speed = no
-		type = {
-			support
-		}
-		group = support
-		regimental = no
-		categories = {
-			category_armor_support_company
-			category_recon_company
-		}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		affects_speed = yes
-		training_time = 100
-		#need = {
-		#	motorised_equipment = 20
-		#	armored_car_archetype = 20
-		#}
-		same_support_type = recon_support
+		manpower = 400
+		training_time = 120
+		
+		supply_consumption = 0.02
+		recon = 2
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
+		forest = {
+			movement = 0.06
+		}
+		hills = {
+			movement = 0.06
+		}
+		mountain = {
+			movement = 0.06
+		}
+		rock = {
+			movement = 0.06
+		}
+		jungle = {
+			movement = 0.06
+		}
+		marsh = {
+			movement = 0.06
+		}
+		plains = {
+			movement = 0.06
+		}
+		desert = {
+			movement = 0.06
+		}
+		river = {
+			movement = 0.06
+		}
 	}
 	light_tank_recon_support = {
 		sprite = light_tank
@@ -126,18 +181,48 @@ sub_units = {
 			category_recon_company
 			category_light_tank
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = yes
-		training_time = 100
+		same_support_type = recon_support
 		#need = {
 		#	motorised_equipment = 20
 		#	light_tank_chassis_archetype = 20
 		#}
-		same_support_type = recon_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.02
+		recon = 3
+		forest = {
+			movement = 0.08
+		}
+		hills = {
+			movement = 0.08
+		}
+		mountain = {
+			movement = 0.08
+		}
+		rock = {
+			movement = 0.08
+		}
+		jungle = {
+			movement = 0.08
+		}
+		marsh = {
+			movement = 0.08
+		}
+		plains = {
+			movement = 0.08
+		}
+		desert = {
+			movement = 0.08
+		}
+		river = {
+			movement = 0.08
+		}
 	}
 	light_tank_amphibious_recon_support = {
 		sprite = light_tank
@@ -157,101 +242,52 @@ sub_units = {
 			category_light_tank
 			category_amphibious_light_tank
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = yes
-		training_time = 100
+		same_support_type = recon_support
 		#need = {
 		#	motorised_equipment = 20
 		#	light_tank_amphibious_chassis_archetype = 20
 		#}
-		same_support_type = recon_support
-	}
-	ranger_recon_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = no
-		affects_speed = no
-		type = {
-			support
-		}
-		group = support
-		regimental = no
-		categories = {
-			category_support_company
-			category_recon_company
-		}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 300
-		affects_speed = yes
-		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
-		same_support_type = recon_support
-	}
-	mechanised_recon_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = yes
-		affects_speed = no
-		type = {
-			support
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.02
+		recon = 3
+		forest = {
+			movement = 0.08
 		}
-		group = support
-		regimental = no
-		categories = {
-			category_mechanised
-			category_recon_company
+		hills = {
+			movement = 0.08
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = yes
-		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#	mechanised_archetype = 20
-		#}
-		same_support_type = recon_support
-	}
-	amtrac_recon_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = yes
-		affects_speed = no
-		type = {
-			support
+		mountain = {
+			movement = 0.08
 		}
-		group = support
-		regimental = no
-		categories = {
-			category_amtrac
-			category_recon_company
+		rock = {
+			movement = 0.08
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = yes
-		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#	amtrac_archetype = 20
-		#}
-		same_support_type = recon_support
+		jungle = {
+			movement = 0.08
+		}
+		marsh = {
+			movement = 0.08
+		}
+		plains = {
+			movement = 0.08
+		}
+		desert = {
+			movement = 0.08
+		}
+		river = {
+			movement = 0.08
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.1
+		}
 	}
 	helicopter_recon_support = {
 		sprite = infantry
@@ -268,17 +304,110 @@ sub_units = {
 			category_helicopter
 			category_recon_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = yes
-		training_time = 100
+		same_support_type = recon_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	helicopter_equipment_archetype = 20
 		#}
-		same_support_type = recon_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.07
+		recon = 4
+		forest = {
+			movement = 0.15
+		}
+		hills = {
+			movement = 0.1
+		}
+		mountain = {
+			movement = 0.1
+		}
+		jungle = {
+			movement = 0.15
+		}
+		marsh = {
+			movement = 0.15
+		}
+		plains = {
+			movement = 0.15
+		}
+		desert = {
+			movement = 0.15
+		}
+		river = {
+			movement = 0.15
+		}
 	}
+	#armored_car_recon_support = {
+	#	sprite = infantry
+	#	map_icon_category = infantry
+	#	priority = 0
+	#	active = yes
+	#	affects_speed = no
+	#	type = {
+	#		support
+	#	}
+	#	group = support
+	#	regimental = no
+	#	categories = {
+	#		category_armor_support_company
+	#		category_recon_company
+	#	}
+	#	affects_speed = yes
+	#	same_support_type = recon_support
+	#	#need = {
+	#	#	motorised_equipment = 20
+	#	#	armored_car_archetype = 20
+	#	#}
+	#}
+	#mechanised_recon_support = {
+	#	sprite = infantry
+	#	map_icon_category = infantry
+	#	priority = 0
+	#	active = yes
+	#	affects_speed = no
+	#	type = {
+	#		support
+	#	}
+	#	group = support
+	#	regimental = no
+	#	categories = {
+	#		category_mechanised
+	#		category_recon_company
+	#	}
+	#	affects_speed = yes
+	#	same_support_type = recon_support
+	#	#need = {
+	#	#	support_equipment_archetype = 20
+	#	#	mechanised_archetype = 20
+	#	#}
+	#}
+	#amtrac_recon_support = {
+	#	sprite = infantry
+	#	map_icon_category = infantry
+	#	priority = 0
+	#	active = yes
+	#	affects_speed = no
+	#	type = {
+	#		support
+	#	}
+	#	group = support
+	#	regimental = no
+	#	categories = {
+	#		category_amtrac
+	#		category_recon_company
+	#	}
+	#	affects_speed = yes
+	#	same_support_type = recon_support
+	#	#need = {
+	#	#	support_equipment_archetype = 20
+	#	#	amtrac_archetype = 20
+	#	#}
+	#}
 }

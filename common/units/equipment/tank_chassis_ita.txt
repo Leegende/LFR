@@ -22,6 +22,12 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 10
+		reliability = 0.8
+		armor_value = 10
+		defense = 4
+		breakthrough = 8
 	}
 	light_tank_l6_40_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -54,6 +60,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 14
+		reliability = 0.85
+		armor_value = 15
+		defense = 5
+		breakthrough = 12
+		soft_attack = 3
+		hard_attack = 1
 	}
 	light_tank_panzer_2_ausf_c_dak_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -87,6 +101,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7.5
+		build_cost_ic = 22
+		reliability = 0.85
+		armor_value = 20
+		defense = 6
+		breakthrough = 20
+		soft_attack = 5
+		hard_attack = 3
+		hardness = 0.5
 	}
 	medium_tank_m11_39_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -112,6 +135,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 25
+		reliability = 0.8
+		armor_value = 27
+		defense = 7
+		breakthrough = 20
+		soft_attack = 2
+		hardness = 0.75
 	}
 	medium_tank_m13_40_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -139,6 +170,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 25
+		reliability = 0.8
+		armor_value = 35
+		defense = 10
+		breakthrough = 30
+		soft_attack = 5
+		hard_attack = 2
+		hardness = 0.75
 	}
 	medium_tank_m13_40_amphibious_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -166,6 +206,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 29
+		reliability = 0.75
+		armor_value = 25
+		defense = 5
+		breakthrough = 18
+		soft_attack = 1.5
+		hardness = 0.7
 	}
 	medium_tank_m15_42_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -200,6 +248,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 37
+		reliability = 0.8
+		armor_value = 55
+		defense = 11
+		breakthrough = 40
+		soft_attack = 12
+		hard_attack = 7.5
+		hardness = 0.75
 	}
 	heavy_tank_p26_40_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -225,6 +282,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 40
+		reliability = 0.7
+		armor_value = 25
+		defense = 6
+		breakthrough = 45
+		soft_attack = 7
+		hard_attack = 3
 	}
 	heavy_tank_p43_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -257,5 +322,13 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5
+		build_cost_ic = 45
+		reliability = 0.75
+		armor_value = 35
+		defense = 7
+		breakthrough = 50
+		soft_attack = 10
+		hard_attack = 5
 	}
 }

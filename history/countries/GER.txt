@@ -268,10 +268,6 @@ set_variable = {
 }
 
 set_variable = {
-	GER_wehrmacht_equipment_capture_factor = 0
-}
-
-set_variable = {
 	GER_wehrmacht_experience_gain_air = 0
 }
 
@@ -372,7 +368,7 @@ set_variable = {
 }
 
 set_variable = {
-	GER_wehrmacht_supply_factor = 0
+	GER_wehrmacht_supply_consumption_factor = 0
 }
 
 set_variable = {

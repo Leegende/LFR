@@ -1,0 +1,269 @@
+add_namespace = germany
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	option = {
+		name = germany.1.a
+	}
+	option = {
+		name = germany.1.b
+	}
+	option = {
+		name = germany.1.c
+	}
+}
+
+country_event = {
+	id = germany.11
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_dietrich_1
+	}
+}
+
+country_event = {
+	id = germany.12
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_dietrich_2
+	}
+}
+
+country_event = {
+	id = germany.13
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_dietrich_3
+	}
+}
+
+country_event = {
+	id = germany.14
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_dietrich_4
+	}
+}
+
+country_event = {
+	id = germany.21
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_guderian_1
+	}
+}
+
+country_event = {
+	id = germany.22
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_guderian_2
+	}
+}
+
+country_event = {
+	id = germany.23
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_guderian_3
+	}
+}
+
+country_event = {
+	id = germany.24
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_guderian_4
+	}
+}
+
+country_event = {
+	id = germany.31
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_model_1
+	}
+}
+
+country_event = {
+	id = germany.32
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_model_2
+	}
+}
+
+country_event = {
+	id = germany.33
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_model_3
+	}
+}
+
+country_event = {
+	id = germany.34
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_model_4
+	}
+}
+
+country_event = {
+	id = germany.41
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kluge_1
+	}
+}
+
+country_event = {
+	id = germany.42
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kluge_2
+	}
+}
+
+country_event = {
+	id = germany.43
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kluge_3
+	}
+}
+
+country_event = {
+	id = germany.44
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kluge_4
+	}
+}
+
+country_event = {
+	id = germany.51
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_student_1
+	}
+}
+
+country_event = {
+	id = germany.52
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_student_2
+	}
+}
+
+country_event = {
+	id = germany.53
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_student_3
+	}
+}
+
+country_event = {
+	id = germany.54
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_student_4
+	}
+}
+
+country_event = {
+	id = germany.61
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kesselring_1
+	}
+}
+
+country_event = {
+	id = germany.62
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kesselring_2
+	}
+}
+
+country_event = {
+	id = germany.63
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kesselring_3
+	}
+}
+
+country_event = {
+	id = germany.64
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_kesselring_4
+	}
+}
+
+country_event = {
+	id = germany.71
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_milch_1
+	}
+}
+
+country_event = {
+	id = germany.72
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_milch_2
+	}
+}
+
+country_event = {
+	id = germany.73
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_milch_3
+	}
+}
+
+country_event = {
+	id = germany.74
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		activate_shine_on_focus = GER_milch_4
+	}
+}

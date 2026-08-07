@@ -22,6 +22,13 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 14
+		reliability = 0.80
+		armor_value = 10
+		defense = 4
+		breakthrough = 10
+		soft_attack = 1
 	}
 	light_tank_r35_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -54,6 +61,13 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 13
+		reliability = 0.85
+		armor_value = 15
+		defense = 5
+		breakthrough = 12
+		soft_attack = 2
 	}
 	light_tank_amx13_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -87,6 +101,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 9
+		build_cost_ic = 19
+		reliability = 0.8
+		armor_value = 20
+		defense = 7
+		breakthrough = 18
+		soft_attack = 3
+		hard_attack = 5
+		hardness = 0.5
 	}
 	medium_tank_somua_s35_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -117,6 +140,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7
+		build_cost_ic = 28
+		reliability = 0.8
+		armor_value = 30
+		defense = 6
+		breakthrough = 25
+		soft_attack = 3
+		hard_attack = 3
+		hardness = 0.75
 	}
 	medium_tank_somua_s40_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -155,6 +187,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7
+		build_cost_ic = 35
+		reliability = 0.85
+		armor_value = 40
+		defense = 8
+		breakthrough = 30
+		soft_attack = 5
+		hard_attack = 5
+		hardness = 0.75
 	}
 	medium_tank_sarl_42_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -194,6 +235,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7
+		build_cost_ic = 40
+		reliability = 0.85
+		armor_value = 55
+		defense = 10
+		breakthrough = 40
+		soft_attack = 7
+		hard_attack = 5
+		hardness = 0.8
 	}
 	heavy_tank_char_b1_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -224,6 +274,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 40
+		reliability = 0.7
+		armor_value = 20
+		defense = 6
+		breakthrough = 50
+		soft_attack = 7
+		hard_attack = 3
 	}
 	heavy_tank_arl_44_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -256,6 +314,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 40
+		reliability = 0.7
+		armor_value = 35
+		defense = 7
+		breakthrough = 50
+		soft_attack = 10
+		hard_attack = 5
 	}
 	heavy_tank_amx_45_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -294,6 +360,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5
+		build_cost_ic = 50
+		reliability = 0.75
+		armor_value = 65
+		defense = 10
+		breakthrough = 70
+		soft_attack = 12
+		hard_attack = 7
+		hardness = 0.85
 	}
 	heavy_tank_char_c2_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -339,5 +414,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.25
+		build_cost_ic = 55
+		reliability = 0.75
+		armor_value = 85
+		defense = 12
+		breakthrough = 85
+		soft_attack = 20
+		hard_attack = 15
+		hardness = 0.95
 	}
 }

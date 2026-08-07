@@ -1,0 +1,478 @@
+motorised_infantry_support = {
+	folder = naval
+	name = "Motorised Infantry"
+	description = ""
+	icon = GFX_doctrine_mobile_warfare_medium
+	available = {
+		always = yes
+	}
+	xp_cost = 0
+	xp_type = army
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations
+	}
+	army_speed_factor = 0.15
+	category_support_company = {
+		max_organisation = 10
+		breakthrough = 0.1
+	}
+	##enable_tactic = tactic_unexpected_thrust
+	milestones = {
+		{
+			land_reinforce_rate = 0.02
+			supply_consumption_factor = -0.05
+			##enable_tactic = tactic_delay
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			category_vehicle = {
+				max_organisation = 5
+				default_morale = 0.05
+			}
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = {
+						support_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						support_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			category_vehicle = {
+				max_organisation = 5
+				default_morale = 0.05
+				breakthrough = 0.1
+			}
+			planning_speed = 0.2
+			##enable_tactic = tactic_blitz
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = {
+						armor_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						armor_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			#Operations
+			category_vehicle = {
+				max_strength = 2
+				max_organisation = 5
+				default_morale = 0.05
+			}
+			##enable_tactic = tactic_backhand_blow
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = {
+						operations_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						operations_milestone_var = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+main_battle_force = {
+	folder = naval
+	name = "Main Battle Force"
+	description = ""
+	icon = GFX_doctrine_superior_firepower_medium
+	available = {
+		always = yes
+	}
+	xp_cost = 0
+	xp_type = army
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations
+	}
+	##enable_tactic = tactic_overwhelming_fire
+	category_armor = {
+		soft_attack = 0.05
+		hard_attack = 0.1
+	}
+	milestones = {
+		{
+			#Infantry
+			##enable_tactic = tactic_elastic_defense
+			category_armor = {
+				max_strength = 1.5
+				max_organisation = 5
+			}
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			category_armor = {
+				max_strength = 1.5
+			}
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = {
+						support_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						support_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			category_armor = {
+				defense = 0.1
+				breakthrough = 0.1
+			}
+			category_vehicle = {
+				defense = -0.1
+				max_organisation = -0.1
+			}
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = {
+						armor_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						armor_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			category_armor = {
+				default_morale = 0.1
+			}
+			category_vehicle = {
+				default_morale = -0.1
+			}
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = {
+						operations_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						operations_milestone_var = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+specialised_reaction = {
+	folder = naval
+	name = "Specialised Reaction"
+	description = ""
+	icon = "GFX_doctrine_grand_battleplan_medium"
+	available = {
+		always = yes
+	}
+	xp_cost = 0
+	xp_type = army
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations
+	}
+	planning_speed = 0.25
+	command_power_gain = 0.25
+	milestones = {
+		{
+			max_planning = 0.05
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			#category_artillery/Support
+			coordination_bonus = 0.05
+			max_dig_in_factor = 0.1
+			category_support_company = {
+				max_organisation = 5
+				breakthrough = 0.2
+			}
+			##enable_tactic = tactic_overwhelming_fire
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = {
+						support_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						support_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			land_reinforce_rate = 0.02
+			max_planning = 0.15
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = {
+						armor_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						armor_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			coordination_bonus = 0.05
+			max_command_power = 50
+			max_planning = 0.05
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = {
+						operations_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						operations_milestone_var = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+supply_lines = {
+	folder = naval
+	name = "Supply Lines"
+	description = ""
+	icon = GFX_doctrine_mass_assault_medium
+	available = {
+		always = yes
+	}
+	xp_cost = 0
+	xp_type = army
+	tracks = {
+		infantry
+		combat_support
+		armor
+		operations
+	}
+	no_supply_grace = 48
+	out_of_supply_factor = -0.1
+	milestones = {
+		{
+			land_reinforce_rate = 0.03
+			dig_in_speed_factor = 0.05
+			category_infantry = {
+				max_strength = 2.5
+			}
+			land_reinforce_rate = 0.05
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = infantry_milestone_var
+						}
+					}
+					set_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						infantry_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			#category_artillery/Support
+			#enable_tactic = tactic_elastic_defense
+			out_of_supply_factor = -0.05
+			minimum_training_level = -0.05
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = support_milestone_var
+						}
+					}
+					set_variable = {
+						support_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						support_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			#Armor
+			category_infantry = {
+				max_organisation = 5
+				defense = 0.1
+				default_morale = 0.05
+			}
+			#enable_tactic = tactic_overwhelming_fire
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = armor_milestone_var
+						}
+					}
+					set_variable = {
+						armor_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						armor_milestone_var = 1
+					}
+				}
+			}
+		}
+		{
+			#Operations
+			#enable_tactic = tactic_backhand_blow
+			weekly_casualties_war_support = 0.001
+			minimum_training_level = -0.1
+			supply_factor = 0.1
+			effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_variable = operations_milestone_var
+						}
+					}
+					set_variable = {
+						operations_milestone_var = 1
+					}
+				}
+				else = {
+					add_to_variable = {
+						operations_milestone_var = 1
+					}
+				}
+			}
+		}
+	}
+}

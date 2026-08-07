@@ -421,7 +421,6 @@ technologies = {
 		category_armor = {
 			supply_consumption = -0.01
 		}
-		production_speed_supply_node_factor = 0.1
 		production_speed_rail_way_factor = 0.1
 		repair_speed_rail_way_factor = 0.05
 		path = {
@@ -445,7 +444,6 @@ technologies = {
 		category_armor = {
 			supply_consumption = -0.01
 		}
-		production_speed_supply_node_factor = 0.1
 		production_speed_rail_way_factor = 0.1
 		repair_speed_rail_way_factor = 0.05
 		start_year = 1942
@@ -463,7 +461,7 @@ technologies = {
 	}
 	supply_node_upgrade_1_technology = {
 		supply_node_range = 0.05
-		supply_factor = 0.05
+		supply_consumption_factor = 0.05
 		production_speed_supply_node_factor = 0.1
 		repair_speed_supply_node_factor = 0.05
 		path = {
@@ -484,7 +482,7 @@ technologies = {
 	}
 	supply_node_upgrade_2_technology = {
 		supply_node_range = 0.05
-		supply_factor = 0.05
+		supply_consumption_factor = 0.05
 		production_speed_supply_node_factor = 0.1
 		repair_speed_supply_node_factor = 0.05
 		path = {
@@ -505,7 +503,7 @@ technologies = {
 	}
 	supply_node_upgrade_3_technology = {
 		supply_node_range = 0.05
-		supply_factor = 0.05
+		supply_consumption_factor = 0.05
 		production_speed_supply_node_factor = 0.1
 		repair_speed_supply_node_factor = 0.05
 		start_year = 1942

@@ -264,7 +264,7 @@ script_enum_equipment_bonus_type = {
 	fighter_bomber_1_equipment
 	fighter_bomber_2_equipment
 	fighter_bomber_3_equipment
-	fighter_bomber_4_equipment
+	fighter_4_equipment
 	cas_1_equipment
 	cas_2_equipment
 	cas_3_equipment

@@ -1,0 +1,906 @@
+on_actions = {
+	on_daily_GER = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_variable = sepp_dietrich_level_1
+					}
+				}
+				set_variable = {
+					sepp_dietrich_level_1 = 750
+				}
+				set_variable = {
+					sepp_dietrich_level_2 = 250
+				}
+				set_variable = {
+					sepp_dietrich_level_3 = 500
+				}
+				set_variable = {
+					sepp_dietrich_level_4 = 500
+				}
+				###
+				set_variable = {
+					heinz_guderian_level_1 = 750
+				}
+				set_variable = {
+					heinz_guderian_level_2 = 500
+				}
+				set_variable = {
+					heinz_guderian_level_3 = 250
+				}
+				set_variable = {
+					heinz_guderian_level_4 = 250
+				}
+				###
+				set_variable = {
+					walter_model_level_1 = 750
+				}
+				set_variable = {
+					walter_model_level_2 = 500
+				}
+				set_variable = {
+					walter_model_level_3 = 250
+				}
+				set_variable = {
+					walter_model_level_4 = 250
+				}
+				###
+				set_variable = {
+					guenther_von_kluge_level_1 = 750
+				}
+				set_variable = {
+					guenther_von_kluge_level_2 = 500
+				}
+				set_variable = {
+					guenther_von_kluge_level_3 = 250
+				}
+				set_variable = {
+					guenther_von_kluge_level_4 = 250
+				}
+				###
+				set_variable = {
+					kurt_student_level_1 = 750
+				}
+				set_variable = {
+					kurt_student_level_2 = 500
+				}
+				set_variable = {
+					kurt_student_level_3 = 250
+				}
+				set_variable = {
+					kurt_student_level_4 = 250
+				}
+				###
+				set_variable = {
+					albert_kesselring_level_1 = 750
+				}
+				set_variable = {
+					albert_kesselring_level_2 = 500
+				}
+				set_variable = {
+					albert_kesselring_level_3 = 250
+				}
+				set_variable = {
+					albert_kesselring_level_4 = 250
+				}
+				###
+				set_variable = {
+					erhard_milch_level_1 = 750
+				}
+				set_variable = {
+					erhard_milch_level_2 = 500
+				}
+				set_variable = {
+					erhard_milch_level_3 = 250
+				}
+				set_variable = {
+					erhard_milch_level_4 = 250
+				}
+				###
+			}
+			set_variable = {
+				GER_appointed_generals = 0
+			}
+			# Ensure appointment variables exist so focus checks do not fail
+			if = {
+				limit = {
+					NOT = {
+						has_variable = GER_appointment_remaining_days
+					}
+				}
+				set_variable = {
+					GER_appointment_remaining_days = 0
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_variable = GER_appointed_generals
+					}
+				}
+				set_variable = {
+					GER_appointed_generals = 0
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_dietrich_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_guderian_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_model_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_kluge_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_student_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_kesselring_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = GER_milch_selected
+				}
+				add_to_variable = {
+					GER_appointed_generals = 1
+				}
+			}
+			# Appointment cooldown and available slot logic
+			if = {
+				limit = {
+					has_country_flag = GER_general_appointment_pending
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_appointment_remaining_days
+						}
+					}
+					set_variable = {
+						GER_appointment_remaining_days = 90
+					}
+				}
+				add_to_variable = {
+					GER_appointment_remaining_days = -1
+				}
+				if = {
+					limit = {
+						check_variable = {
+							GER_appointment_remaining_days < 1
+						}
+					}
+					clr_country_flag = GER_general_appointment_pending
+					set_country_flag = GER_general_appointment_available
+					set_variable = {
+						GER_appointment_remaining_days = 0
+					}
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_appointment_remaining_days
+						value < 1
+					}
+					check_variable = {
+						var = GER_appointed_generals
+						value < 3
+					}
+					NOT = {
+						has_country_flag = GER_general_appointment_pending
+					}
+				}
+				set_country_flag = GER_general_appointment_available
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_appointed_generals
+						value > 3
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = GER_general_appointment_available
+					}
+					clr_country_flag = GER_general_appointment_available
+				}
+				if = {
+					limit = {
+						has_country_flag = GER_general_appointment_pending
+					}
+					clr_country_flag = GER_general_appointment_pending
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_sepp_dietrich
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_dietrich_1
+							has_country_flag = GER_dietrich_2
+							has_country_flag = GER_dietrich_3
+							has_country_flag = GER_dietrich_4
+						}
+					}
+					add_to_variable = {
+						GER_dietrich_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_dietrich_1
+							check_variable = {
+								GER_dietrich_days > sepp_dietrich_level_1
+							}
+						}
+						clr_country_flag = GER_dietrich_1
+						set_country_flag = GER_dietrich_2
+						complete_national_focus = GER_dietrich_1
+						country_event = {
+							id = germany.12
+						}
+						set_variable = {
+							GER_dietrich_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_dietrich_2
+							check_variable = {
+								GER_dietrich_days > sepp_dietrich_level_2
+							}
+						}
+						clr_country_flag = GER_dietrich_2
+						set_country_flag = GER_dietrich_3
+						complete_national_focus = GER_dietrich_2
+						country_event = {
+							id = germany.13
+						}
+						set_variable = {
+							GER_dietrich_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_dietrich_3
+							check_variable = {
+								GER_dietrich_days > sepp_dietrich_level_3
+							}
+						}
+						clr_country_flag = GER_dietrich_3
+						set_country_flag = GER_dietrich_4
+						complete_national_focus = GER_dietrich_3
+						country_event = {
+							id = germany.14
+						}
+						set_variable = {
+							GER_dietrich_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_dietrich_4
+							check_variable = {
+								GER_dietrich_days > sepp_dietrich_level_4
+							}
+						}
+						clr_country_flag = GER_dietrich_4
+						complete_national_focus = GER_dietrich_4
+						country_event = {
+							id = germany.14
+						}
+						set_variable = {
+							GER_dietrich_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_heinz_guderian
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_guderian_days
+						}
+					}
+					set_variable = {
+						GER_guderian_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_guderian_1
+							has_country_flag = GER_guderian_2
+							has_country_flag = GER_guderian_3
+							has_country_flag = GER_guderian_4
+						}
+					}
+					add_to_variable = {
+						GER_guderian_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_guderian_1
+							check_variable = {
+								GER_guderian_days > heinz_guderian_level_1
+							}
+						}
+						clr_country_flag = GER_guderian_1
+						set_country_flag = GER_guderian_2
+						complete_national_focus = GER_guderian_1
+						country_event = {
+							id = germany.21
+						}
+						set_variable = {
+							GER_guderian_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_guderian_2
+							check_variable = {
+								GER_guderian_days > heinz_guderian_level_2
+							}
+						}
+						clr_country_flag = GER_guderian_2
+						set_country_flag = GER_guderian_3
+						complete_national_focus = GER_guderian_2
+						country_event = {
+							id = germany.22
+						}
+						set_variable = {
+							GER_guderian_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_guderian_3
+							check_variable = {
+								GER_guderian_days > heinz_guderian_level_3
+							}
+						}
+						clr_country_flag = GER_guderian_3
+						set_country_flag = GER_guderian_4
+						complete_national_focus = GER_guderian_3
+						country_event = {
+							id = germany.23
+						}
+						set_variable = {
+							GER_guderian_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_guderian_4
+							check_variable = {
+								GER_guderian_days > heinz_guderian_level_4
+							}
+						}
+						clr_country_flag = GER_guderian_4
+						complete_national_focus = GER_guderian_4
+						country_event = {
+							id = germany.24
+						}
+						set_variable = {
+							GER_guderian_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_walter_model
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_model_days
+						}
+					}
+					set_variable = {
+						GER_model_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_model_1
+							has_country_flag = GER_model_2
+							has_country_flag = GER_model_3
+							has_country_flag = GER_model_4
+						}
+					}
+					add_to_variable = {
+						GER_model_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_model_1
+							check_variable = {
+								GER_model_days > walter_model_level_1
+							}
+						}
+						clr_country_flag = GER_model_1
+						set_country_flag = GER_model_2
+						complete_national_focus = GER_model_1
+						country_event = {
+							id = germany.31
+						}
+						set_variable = {
+							GER_model_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_model_2
+							check_variable = {
+								GER_model_days > walter_model_level_2
+							}
+						}
+						clr_country_flag = GER_model_2
+						set_country_flag = GER_model_3
+						complete_national_focus = GER_model_2
+						country_event = {
+							id = germany.32
+						}
+						set_variable = {
+							GER_model_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_model_3
+							check_variable = {
+								GER_model_days > walter_model_level_3
+							}
+						}
+						clr_country_flag = GER_model_3
+						set_country_flag = GER_model_4
+						complete_national_focus = GER_model_3
+						country_event = {
+							id = germany.33
+						}
+						set_variable = {
+							GER_model_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_model_4
+							check_variable = {
+								GER_model_days > walter_model_level_4
+							}
+						}
+						clr_country_flag = GER_model_4
+						complete_national_focus = GER_model_4
+						country_event = {
+							id = germany.34
+						}
+						set_variable = {
+							GER_model_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_guenther_von_kluge
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_kluge_days
+						}
+					}
+					set_variable = {
+						GER_kluge_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_kluge_1
+							has_country_flag = GER_kluge_2
+							has_country_flag = GER_kluge_3
+							has_country_flag = GER_kluge_4
+						}
+					}
+					add_to_variable = {
+						GER_kluge_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_kluge_1
+							check_variable = {
+								GER_kluge_days > guenther_von_kluge_level_1
+							}
+						}
+						clr_country_flag = GER_kluge_1
+						set_country_flag = GER_kluge_2
+						complete_national_focus = GER_kluge_1
+						country_event = {
+							id = germany.41
+						}
+						set_variable = {
+							GER_kluge_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kluge_2
+							check_variable = {
+								GER_kluge_days > guenther_von_kluge_level_2
+							}
+						}
+						clr_country_flag = GER_kluge_2
+						set_country_flag = GER_kluge_3
+						complete_national_focus = GER_kluge_2
+						country_event = {
+							id = germany.42
+						}
+						set_variable = {
+							GER_kluge_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kluge_3
+							check_variable = {
+								GER_kluge_days > guenther_von_kluge_level_3
+							}
+						}
+						clr_country_flag = GER_kluge_3
+						set_country_flag = GER_kluge_4
+						complete_national_focus = GER_kluge_3
+						country_event = {
+							id = germany.43
+						}
+						set_variable = {
+							GER_kluge_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kluge_4
+							check_variable = {
+								GER_kluge_days > guenther_von_kluge_level_4
+							}
+						}
+						clr_country_flag = GER_kluge_4
+						complete_national_focus = GER_kluge_4
+						country_event = {
+							id = germany.44
+						}
+						set_variable = {
+							GER_kluge_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_kurt_student
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_student_days
+						}
+					}
+					set_variable = {
+						GER_student_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_student_1
+							has_country_flag = GER_student_2
+							has_country_flag = GER_student_3
+							has_country_flag = GER_student_4
+						}
+					}
+					add_to_variable = {
+						GER_student_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_student_1
+							check_variable = {
+								GER_student_days > kurt_student_level_1
+							}
+						}
+						clr_country_flag = GER_student_1
+						set_country_flag = GER_student_2
+						complete_national_focus = GER_student_1
+						country_event = {
+							id = germany.51
+						}
+						set_variable = {
+							GER_student_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_student_2
+							check_variable = {
+								GER_student_days > kurt_student_level_2
+							}
+						}
+						clr_country_flag = GER_student_2
+						set_country_flag = GER_student_3
+						complete_national_focus = GER_student_2
+						country_event = {
+							id = germany.52
+						}
+						set_variable = {
+							GER_student_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_student_3
+							check_variable = {
+								GER_student_days > kurt_student_level_3
+							}
+						}
+						clr_country_flag = GER_student_3
+						set_country_flag = GER_student_4
+						complete_national_focus = GER_student_3
+						country_event = {
+							id = germany.53
+						}
+						set_variable = {
+							GER_student_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_student_4
+							check_variable = {
+								GER_student_days > kurt_student_level_4
+							}
+						}
+						clr_country_flag = GER_student_4
+						complete_national_focus = GER_student_4
+						country_event = {
+							id = germany.54
+						}
+						set_variable = {
+							GER_student_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_albert_kesselring
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_kesselring_days
+						}
+					}
+					set_variable = {
+						GER_kesselring_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_kesselring_1
+							has_country_flag = GER_kesselring_2
+							has_country_flag = GER_kesselring_3
+							has_country_flag = GER_kesselring_4
+						}
+					}
+					add_to_variable = {
+						GER_kesselring_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_kesselring_1
+							check_variable = {
+								GER_kesselring_days > albert_kesselring_level_1
+							}
+						}
+						clr_country_flag = GER_kesselring_1
+						set_country_flag = GER_kesselring_2
+						complete_national_focus = GER_kesselring_1
+						country_event = {
+							id = germany.61
+						}
+						set_variable = {
+							GER_kesselring_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kesselring_2
+							check_variable = {
+								GER_kesselring_days > albert_kesselring_level_2
+							}
+						}
+						clr_country_flag = GER_kesselring_2
+						set_country_flag = GER_kesselring_3
+						complete_national_focus = GER_kesselring_2
+						country_event = {
+							id = germany.62
+						}
+						set_variable = {
+							GER_kesselring_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kesselring_3
+							check_variable = {
+								GER_kesselring_days > albert_kesselring_level_3
+							}
+						}
+						clr_country_flag = GER_kesselring_3
+						set_country_flag = GER_kesselring_4
+						complete_national_focus = GER_kesselring_3
+						country_event = {
+							id = germany.63
+						}
+						set_variable = {
+							GER_kesselring_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_kesselring_4
+							check_variable = {
+								GER_kesselring_days > albert_kesselring_level_4
+							}
+						}
+						clr_country_flag = GER_kesselring_4
+						complete_national_focus = GER_kesselring_4
+						country_event = {
+							id = germany.64
+						}
+						set_variable = {
+							GER_kesselring_days = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = GER_appoint_erhard_milch
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_variable = GER_milch_days
+						}
+					}
+					set_variable = {
+						GER_milch_days = 0
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = GER_milch_1
+							has_country_flag = GER_milch_2
+							has_country_flag = GER_milch_3
+							has_country_flag = GER_milch_4
+						}
+					}
+					add_to_variable = {
+						GER_milch_days = 1
+					}
+					if = {
+						limit = {
+							has_country_flag = GER_milch_1
+							check_variable = {
+								GER_milch_days > erhard_milch_level_1
+							}
+						}
+						clr_country_flag = GER_milch_1
+						set_country_flag = GER_milch_2
+						complete_national_focus = GER_milch_1
+						country_event = {
+							id = germany.71
+						}
+						set_variable = {
+							GER_milch_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_milch_2
+							check_variable = {
+								GER_milch_days > erhard_milch_level_2
+							}
+						}
+						clr_country_flag = GER_milch_2
+						set_country_flag = GER_milch_3
+						complete_national_focus = GER_milch_2
+						country_event = {
+							id = germany.72
+						}
+						set_variable = {
+							GER_milch_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_milch_3
+							check_variable = {
+								GER_milch_days > erhard_milch_level_3
+							}
+						}
+						clr_country_flag = GER_milch_3
+						set_country_flag = GER_milch_4
+						complete_national_focus = GER_milch_3
+						country_event = {
+							id = germany.73
+						}
+						set_variable = {
+							GER_milch_days = 0
+						}
+					}
+					else_if = {
+						limit = {
+							has_country_flag = GER_milch_4
+							check_variable = {
+								GER_milch_days > erhard_milch_level_4
+							}
+						}
+						clr_country_flag = GER_milch_4
+						complete_national_focus = GER_milch_4
+						country_event = {
+							id = germany.74
+						}
+						set_variable = {
+							GER_milch_days = 0
+						}
+					}
+				}
+			}
+		}
+	}
+}

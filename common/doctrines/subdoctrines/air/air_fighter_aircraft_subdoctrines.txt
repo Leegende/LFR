@@ -1,0 +1,130 @@
+air_subdoctrine_tactical_flexibility = {
+	track = fighter_aircraft
+	name = SUBDOCTRINE_TACTICAL_FLEXIBILITY
+	description = SUBDOCTRINE_TACTICAL_FLEXIBILITY_DESC
+	icon = GFX_doctrine_formation_flying_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	air_superiority_efficiency = 0.15
+	rewards = {
+		loose_formation = {
+			air_superiority_bonus_in_combat = 0.1
+		}
+		high_altitude_approach = {
+			air_superiority_detect_factor = 0.15
+		}
+		combat_discipline = {
+			air_mission_efficiency = 0.1
+		}
+		high_speed_dive = {
+			air_power_projection_factor = 0.1
+		}
+		aces_of_the_sky = {
+			night_spotting_chance = 0.25
+		}
+	}
+}
+
+air_subdoctrine_dogfighting_mastery = {
+	track = fighter_aircraft
+	name = SUBDOCTRINE_DOGFIGHTING_MASTERY
+	description = SUBDOCTRINE_DOGFIGHTING_MASTERY_DESC
+	icon = GFX_doctrine_air_skirmish_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	category_fighter = {
+		air_attack = 0.1
+	}
+	rewards = {
+		pilot_quality_focus = {
+			air_accidents_factor = -0.25
+		}
+		force_rotation = {
+			category_fighter = {
+				air_defence = 0.05
+			}
+		}
+		fighter_command_system = {
+			category_fighter = {
+				air_agility = 0.1
+			}
+		}
+		combat_routines = {
+			air_superiority_efficiency = 0.05
+		}
+		improved_support_integration = {
+			air_accidents_factor = -0.1
+			air_manpower_requirement_factor = -0.1
+		}
+	}
+}
+
+air_subdoctrine_fighter_bombers = {
+	track = fighter_aircraft
+	name = SUBDOCTRINE_FIGHTER_BOMBERS
+	description = SUBDOCTRINE_FIGHTER_BOMBERS_DESC
+	icon = GFX_doctrine_low_echelon_support_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	category_fighter_bomber = {
+		air_ground_attack = 0.1
+	}
+	rewards = {
+		target_prioritization = {
+			air_cas_efficiency = 0.1
+		}
+		strafing_runs = {
+			air_cas_present_factor = 0.1
+		}
+		versatile_experience = {
+			air_superiority_efficiency = 0.1
+		}
+		multi_mission_assignment = {
+			air_mission_efficiency = 0.05
+		}
+		night_target_search = {
+			air_night_penalty = -0.1
+		}
+	}
+}
+
+air_subdoctrine_escort_fighter = {
+	track = fighter_aircraft
+	name = SUBDOCTRINE_ESCORT_FIGHTER
+	description = SUBDOCTRINE_ESCORT_FIGHTER_DESC
+	icon = GFX_doctrine_escort_relay_system_medium
+	xp_cost = 100
+	xp_type = air
+	available = {
+		always = yes
+	}
+	category_fighter = {
+		air_range = 0.15
+	}
+	rewards = {
+		escort_procedures = {
+			air_weather_penalty = -0.2
+		}
+		extended_search_patterns = {
+			air_superiority_efficiency = 0.1
+		}
+		improved_maintenance_protocols = {
+			air_accidents_factor = -0.3
+		}
+		increased_sky_presence = {
+			air_power_projection_factor = 0.1
+		}
+		constant_air_offensive = {
+			air_night_penalty = -0.2
+		}
+	}
+}

@@ -9,22 +9,35 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_support_company
-			category_field_hospital_company
+			category_field_hospital
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
-		affects_speed = no
-		training_time = 100
+		same_support_type = field_hospital_support
 		#need = {
 		#	support_equipment_archetype = @field_need
 		#}
-		same_support_type = field_hospital_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.6
+		manpower = 400
+		training_time = 120
+		supply_consumption = 0.05
+		casualty_trickleback = 0.2
+		experience_loss_factor = -0.15
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
+		battalion_mult = {
+			category = category_infantry
+			max_strength = 0.05
+		}
+		battalion_mult = {
+			category = category_vehicle
+			max_strength = 0.05
+		}
 	}
 	mechanised_field_hospital_support = {
 		sprite = infantry
@@ -35,23 +48,41 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_mechanised
-			category_field_hospital_company
+			category_field_hospital
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = field_hospital_support
 		#need = {
 		#	support_equipment_archetype = @field_need
 		#	mechanised_utility_ = @field_need
 		#}
-		same_support_type = field_hospital_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.6
+		manpower = 400
+		training_time = 120
+		supply_consumption = 0.1
+		casualty_trickleback = 0.25
+		experience_loss_factor = -0.25
+		soft_attack = -1
+		hard_attack = -1
+		breakthrough = -1
+		defense = -1
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
+		battalion_mult = {
+			category = category_infantry
+			max_strength = 0.1
+		}
+		battalion_mult = {
+			category = category_vehicle
+			max_strength = 0.1
+		}
 	}
 	helicopter_field_hospital_support = {
 		sprite = infantry
@@ -62,22 +93,49 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_helicopter
-			category_field_hospital_company
+			category_field_hospital
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
+		same_support_type = field_hospital_support
 		affects_speed = no
-		training_time = 100
 		#need = {
 		#	support_equipment_archetype = @field_need
 		#	helicopter_equipment_archetype = @field_need
 		#}
-		same_support_type = field_hospital_support
+		combat_width = 0
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.6
+		manpower = 400
+		training_time = 120
+		supply_consumption = 0.1
+		casualty_trickleback = 0.25
+		experience_loss_factor = -0.25
+		soft_attack = -1
+		hard_attack = -1
+		breakthrough = -1
+		defense = -1
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
+		battalion_mult = {
+			category = category_infantry
+			max_strength = 0.15
+		}
+		battalion_mult = {
+			category = category_vehicle
+			max_strength = 0.15
+		}
+		forest = {
+			movement = 0.05
+		}
+		plains = {
+			movement = 0.05
+		}
+		hills = {
+			movement = 0.05
+		}
 	}
 }

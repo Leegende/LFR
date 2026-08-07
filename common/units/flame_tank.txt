@@ -17,17 +17,52 @@ sub_units = {
 			category_armor_support_company
 			category_light_tank
 		}
-		combat_width = 0
-		training_time = 100
-		max_strength = 0
-		max_organisation = 0
-		default_morale = 0
-		manpower = 250
-		supply_consumption = 0.1
+		same_support_type = flame
 		#need = {
 		#	light_tank_flame_ = @flame_need
 		#}
-		same_support_type = flame
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		supply_consumption = 0.02
+		battalion_mult = {
+			category = category_infantry
+			breakthrough = 0.05
+		}
+		breakthrough = -0.5
+		defense = -0.75
+		armor_value = -0.75
+		forest = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
 	}
 	medium_tank_flamethrower_support = {
 		sprite = medium_tank
@@ -46,17 +81,53 @@ sub_units = {
 			category_armor_support_company
 			category_medium_tank
 		}
-		combat_width = 0
-		training_time = 100
-		max_strength = 0
-		max_organisation = 0
-		default_morale = 0
-		manpower = 250
-		supply_consumption = 0.1
+		same_support_type = flame
 		#need = {
 		#	medium_tank_flame_ = @flame_need
 		#}
-		same_support_type = flame
+		combat_width = 0
+		battalion_mult = {
+			category = category_infantry
+			breakthrough = 0.05
+		}
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		supply_consumption = 0.025
+		breakthrough = -0.45
+		defense = -0.7
+		armor_value = -0.7
+		forest = {
+			attack = 0.1
+		}
+		mountain = {
+			attack = 0.05
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.15
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.2
+			movement = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.1
+		}
 	}
 	heavy_tank_flamethrower_support = {
 		sprite = heavy_tank
@@ -77,17 +148,50 @@ sub_units = {
 			category_armor_support_company
 			category_heavy_tank
 		}
-		combat_width = 0
-		training_time = 100
-		max_strength = 0
-		max_organisation = 0
-		default_morale = 0
-		manpower = 250
-		supply_consumption = 0.1
+		same_support_type = flame
 		#need = {
 		#	heavy_tank_flame_ = @flame_need
 		#}
-		same_support_type = flame
+		battalion_mult = {
+			category = category_infantry
+			breakthrough = 0.05
+		}
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+		
+		supply_consumption = 0.03
+		can_be_parachuted = no
+		breakthrough = -0.4
+		defense = -0.625
+		armor_value = -0.625
+		forest = {
+			attack = 0.1
+		}
+		hills = {
+			attack = 0.05
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.25
+			movement = 0.1
+		}
+		river = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
 	}
 	light_tank_amphibious_flamethrower_support = {
 		sprite = light_tank

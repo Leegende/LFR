@@ -22,6 +22,13 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 12
+		reliability = 0.85
+		armor_value = 10
+		defense = 4
+		breakthrough = 10
+		soft_attack = 1
 	}
 	light_tank_panzer_2_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -54,6 +61,13 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 14
+		reliability = 0.85
+		armor_value = 15
+		defense = 5
+		breakthrough = 12
+		soft_attack = 2
 	}
 	light_tank_panzer_38t_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -86,6 +100,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 9
+		build_cost_ic = 18
+		reliability = 0.8
+		armor_value = 15
+		defense = 5
+		breakthrough = 15
+		soft_attack = 2
+		hard_attack = 2
+		hardness = 0.475
 	}
 	light_tank_schwimmpanzer_2_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -118,6 +141,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7
+		build_cost_ic = 16
+		reliability = 0.75
+		armor_value = 15
+		defense = 6
+		breakthrough = 16
+		soft_attack = 2
+		hard_attack = 1
+		hardness = 0.4
 	}
 	light_tank_leopard_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -150,6 +182,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7.5
+		build_cost_ic = 22
+		reliability = 0.85
+		armor_value = 20
+		defense = 6
+		breakthrough = 20
+		soft_attack = 4
+		hard_attack = 2
+		hardness = 0.5
 	}
 	medium_tank_panzer_3_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -175,6 +216,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 28
+		reliability = 0.8
+		armor_value = 30
+		defense = 6
+		breakthrough = 20
+		soft_attack = 3
+		hardness = 0.75
 	}
 	medium_tank_panzer_4_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -200,6 +249,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.5
+		build_cost_ic = 33
+		reliability = 0.8
+		armor_value = 35
+		defense = 8
+		breakthrough = 23
+		soft_attack = 2
+		hard_attack = 5
 	}
 	medium_tank_tauchpanzer_3_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -226,6 +283,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 29
+		reliability = 0.75
+		armor_value = 25
+		defense = 5
+		breakthrough = 18
+		soft_attack = 1.5
+		hardness = 0.70
 	}
 	medium_tank_tauchpanzer_4_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -246,6 +311,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.5
+		build_cost_ic = 34
+		reliability = 0.75
+		armor_value = 30
+		defense = 6
+		breakthrough = 20
+		soft_attack = 2
+		hard_attack = 5
+		hardness = 0.75
 	}
 	medium_tank_panzer_3_ausf_f_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -279,6 +353,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 20
+		reliability = 0.8
+		armor_value = 35
+		defense = 6
+		breakthrough = 25
+		soft_attack = 5
+		hardness = 0.75
 	}
 	medium_tank_panzer_4_ausf_j_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -312,6 +394,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.5
+		build_cost_ic = 23
+		reliability = 0.8
+		armor_value = 40
+		defense = 8
+		breakthrough = 25
+		soft_attack = 7
+		hard_attack = 5
 	}
 	medium_tank_panzer_5_ausf_a_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -346,6 +436,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 35
+		reliability = 0.8
+		armor_value = 50
+		defense = 10
+		breakthrough = 40
+		soft_attack = 10
+		hard_attack = 7.5
 	}
 	medium_tank_panzer_5_ausf_g_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -381,6 +479,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 46
+		reliability = 0.8
+		armor_value = 60
+		defense = 15
+		breakthrough = 60
+		soft_attack = 15
+		hard_attack = 10
 	}
 	heavy_tank_neubaufahrzeug_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -406,6 +512,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 40
+		reliability = 0.7
+		armor_value = 20
+		defense = 6
+		breakthrough = 50
+		soft_attack = 10
+		hard_attack = 5
 	}
 	heavy_tank_tiger_1_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -445,6 +559,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 50
+		reliability = 0.75
+		armor_value = 65
+		defense = 10
+		breakthrough = 70
+		soft_attack = 15
+		hard_attack = 10
+		hardness = 0.90
 	}
 	heavy_tank_tiger_2_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -485,5 +608,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.25
+		build_cost_ic = 55
+		reliability = 0.75
+		armor_value = 85
+		defense = 12
+		breakthrough = 85
+		soft_attack = 20
+		hard_attack = 15
+		hardness = 0.95
 	}
 }

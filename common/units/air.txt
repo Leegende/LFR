@@ -8,6 +8,11 @@ sub_units = {
 			fighter_archetype = 1
 		}
 		land_air_wing_size = 100
+		categories = {
+			category_air
+			category_light_air
+			category_fighter
+		}
 	}
 	cas = {
 		sprite = light_plane
@@ -18,6 +23,11 @@ sub_units = {
 			cas_archetype = 1
 		}
 		land_air_wing_size = 100
+		categories = {
+			category_air
+			category_light_air
+			category_cas
+		}
 	}
 	fighter_bomber = {
 		sprite = light_plane
@@ -31,6 +41,11 @@ sub_units = {
 			fighter_bomber_archetype = 1
 		}
 		land_air_wing_size = 100
+		categories = {
+			category_air
+			category_light_air
+			category_fighter_bomber
+		}
 	}
 	tactical_bomber = {
 		sprite = medium_plane
@@ -41,6 +56,11 @@ sub_units = {
 			tactical_bomber_archetype = 1
 		}
 		land_air_wing_size = 100
+		categories = {
+			category_air
+			category_heavy_air
+			category_tactical_bomber
+		}
 	}
 	heavy_fighter = {
 		sprite = medium_plane
@@ -51,6 +71,11 @@ sub_units = {
 			heavy_fighter_archetype = 1
 		}
 		land_air_wing_size = 100
+		categories = {
+			category_air
+			category_heavy_air
+			category_heavy_fighter
+		}
 	}
 	transport_plane = {
 		sprite = medium_plane
@@ -61,5 +86,10 @@ sub_units = {
 			transport_plane_archetype = 1
 		}
 		land_air_wing_size = 10
+		categories = {
+			category_air
+			category_heavy_air
+			category_transport_plane
+		}
 	}
 }

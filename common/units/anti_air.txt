@@ -67,10 +67,12 @@ sub_units = {
 		type = {
 			support
 		}
-		#		categories = {
-		#			category_anti_air
-		#			category_motorised
-		#		}
+		categories = {
+			category_anti_air
+			category_motorised
+			category_vehicle
+			category_vehicle_anti_air
+		}
 	}
 	mechanised_anti_air_support = {
 		sprite = mechanised
@@ -86,6 +88,8 @@ sub_units = {
 		categories = {
 			category_anti_air
 			category_mechanised
+			category_vehicle
+			category_vehicle_anti_air
 		}
 		#		need = {
 		#			mechanised_anti_air_ = @anti_air_need
@@ -104,10 +108,20 @@ sub_units = {
 		categories = {
 			category_anti_air
 			category_armored_car
+			category_vehicle
+			category_vehicle_anti_air
 		}
 		#		need = {
 		#			armored_car_anti_air_ = @anti_air_need
 		#		}
+		max_organisation = 5
+		default_morale = 0.2
+		max_strength = 0.4
+		manpower = 500
+		training_time = 120
+		supply_consumption = 0.1
+		armor_value = -0.75
+		breakthrough = -0.95
 	}
 	amtrac_anti_air_support = {
 		sprite = amtrac
@@ -122,6 +136,8 @@ sub_units = {
 		categories = {
 			category_anti_air
 			category_amtrac
+			category_vehicle
+			category_vehicle_anti_air
 		}
 		#		need = {
 		#			amtrac_anti_air_ = @anti_air_need
@@ -141,6 +157,7 @@ sub_units = {
 			category_anti_air
 			category_armor
 			category_light_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			light_tank_anti_air_ = @anti_air_need
@@ -161,6 +178,7 @@ sub_units = {
 			category_armor
 			category_light_tank
 			category_amphibious_light_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			light_tank_amphibious_anti_air_ = @anti_air_need
@@ -180,6 +198,7 @@ sub_units = {
 			category_anti_air
 			category_armor
 			category_medium_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			medium_tank_anti_air_ = @anti_air_need
@@ -200,6 +219,7 @@ sub_units = {
 			category_armor
 			category_medium_tank
 			category_amphibious_medium_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			medium_tank_amphibious_anti_air_ = @anti_air_need
@@ -219,6 +239,7 @@ sub_units = {
 			category_anti_air
 			category_armor
 			category_heavy_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			heavy_tank_anti_air_ = @anti_air_need
@@ -239,6 +260,7 @@ sub_units = {
 			category_armor
 			category_heavy_tank
 			category_amphibious_medium_tank
+			category_tank_anti_air
 		}
 		#		need = {
 		#			heavy_tank_amphibious_anti_air_ = @anti_air_need

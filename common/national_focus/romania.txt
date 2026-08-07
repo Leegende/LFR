@@ -22,9 +22,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 			add_political_power = 100
 			add_war_support = 0.1
@@ -44,9 +42,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 			transfer_state = 1
 		}
@@ -64,9 +60,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 			custom_effect_tooltip = juggle1_gain
 		}
@@ -84,9 +78,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 			BUL = {
 				add_political_power = 100
@@ -110,9 +102,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 			add_ideas = war_economy
 		}

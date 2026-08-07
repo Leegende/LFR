@@ -34,9 +34,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_political_power = 150
 			add_war_support = 0.05
@@ -70,9 +67,6 @@ focus_tree = {
 		relative_position_id = GER_rhineland
 		available = {
 			date > 1937.1.1
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			every_state = {
@@ -115,9 +109,6 @@ focus_tree = {
 		relative_position_id = GER_rhineland
 		available = {
 			has_completed_focus = GER_anschluss
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			every_state = {
@@ -162,9 +153,6 @@ focus_tree = {
 		available = {
 			has_completed_focus = GER_anschluss
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			251 = {
 				transfer_state_to = GER
@@ -194,9 +182,6 @@ focus_tree = {
 		available = {
 			has_completed_focus = GER_demand_sudetenland
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			HUN = {
 				transfer_state = 130
@@ -224,9 +209,6 @@ focus_tree = {
 		relative_position_id = GER_rhineland
 		available = {
 			has_completed_focus = GER_first_vienna_award
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			every_state = {
@@ -293,9 +275,6 @@ focus_tree = {
 		available = {
 			has_completed_focus = GER_first_vienna_award
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			HUN = {
 				every_state = {
@@ -348,9 +327,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_molotov_ribbentrop_pact
@@ -388,9 +364,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = GER_second_world_war_tooltip
 		}
@@ -407,9 +380,6 @@ focus_tree = {
 		relative_position_id = GER_fall_weiss
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_second_world_war_tooltip
@@ -428,9 +398,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = "italian trade for savoy"
 		}
@@ -447,9 +414,6 @@ focus_tree = {
 		relative_position_id = GER_fall_weiss
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_second_world_war_tooltip
@@ -468,9 +432,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -486,9 +447,6 @@ focus_tree = {
 		relative_position_id = GER_fall_weiss
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -506,9 +464,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -524,9 +479,6 @@ focus_tree = {
 		relative_position_id = GER_fall_weiss
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			249 = {
@@ -559,9 +511,6 @@ focus_tree = {
 		relative_position_id = GER_integrate_poland
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = "Gives Core Polish States Dirlewanger Effect"
@@ -597,9 +546,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_timed_idea = {
 				idea = prepare_barbarossa
@@ -620,9 +566,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = GER_second_world_war_tooltip
 		}
@@ -639,9 +582,6 @@ focus_tree = {
 		relative_position_id = GER_unternehmen_barbarossa
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = "decision to build oder-neisse, weichsel or dnejpr line"
@@ -660,9 +600,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = "spawn in divs"
 		}
@@ -679,9 +616,6 @@ focus_tree = {
 		cost = 5
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
@@ -721,9 +655,6 @@ focus_tree = {
 		}
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
@@ -812,9 +743,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.1
@@ -845,9 +773,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
@@ -876,9 +801,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
@@ -900,9 +822,6 @@ focus_tree = {
 		relative_position_id = GER_war_economy
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			186 = {
@@ -943,9 +862,6 @@ focus_tree = {
 		relative_position_id = GER_rheinmetall_merger
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			177 = {
@@ -990,9 +906,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
@@ -1018,9 +931,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_research_slot = 1
 			add_ideas = specialized_research
@@ -1039,9 +949,6 @@ focus_tree = {
 		relative_position_id = GER_four_year_plan
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -1067,9 +974,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ig_farben_idea
@@ -1087,9 +991,6 @@ focus_tree = {
 		relative_position_id = GER_ig_farben
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			modify_building_resources = {
@@ -1116,9 +1017,6 @@ focus_tree = {
 		relative_position_id = GER_ig_farben
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			172 = {
@@ -1152,9 +1050,6 @@ focus_tree = {
 		relative_position_id = GER_ig_farben
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			164 = {
@@ -1203,9 +1098,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			254 = {
 				add_extra_state_shared_building_slots = 2
@@ -1245,9 +1137,6 @@ focus_tree = {
 		relative_position_id = GER_economical_integration
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER = {
@@ -1289,9 +1178,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_resource = {
 				type = aluminium
@@ -1329,9 +1215,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_resource = {
 				type = oil
@@ -1368,9 +1251,6 @@ focus_tree = {
 		relative_position_id = GER_substitute_trade
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			give_resource_rights = {
@@ -1412,9 +1292,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			HUN = {
 				add_timed_idea = {
@@ -1449,9 +1326,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = german_trade_deal
 		}
@@ -1468,9 +1342,6 @@ focus_tree = {
 		relative_position_id = GER_trade_deal
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
@@ -1494,9 +1365,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
 			GER_economy_dynamic_modifier_tt = yes
@@ -1518,9 +1386,6 @@ focus_tree = {
 		relative_position_id = GER_trade_deal
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_autarky_tooltip
@@ -1546,9 +1411,6 @@ focus_tree = {
 		}
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
@@ -1614,9 +1476,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			367 = {
 				add_building_construction = {
@@ -1668,9 +1527,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			176 = {
 				add_extra_state_shared_building_slots = 3
@@ -1702,9 +1558,6 @@ focus_tree = {
 		relative_position_id = GER_kdf_wagen
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			181 = {
@@ -1738,9 +1591,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_stability = 0.1
 			if = {
@@ -1768,9 +1618,6 @@ focus_tree = {
 		relative_position_id = GER_schlattmann_programm
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
@@ -1810,9 +1657,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
@@ -1850,9 +1694,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_research_slot = 1
 			GER_economy_dynamic_modifier_tt = yes
@@ -1870,9 +1711,6 @@ focus_tree = {
 		cost = 1
 		available = {
 			has_war_with_major = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = totaler_krieg_economy
@@ -1894,9 +1732,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -1912,9 +1747,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_speer
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -1932,9 +1764,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -1950,9 +1779,6 @@ focus_tree = {
 		relative_position_id = GER_zentrale_planung
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -1970,9 +1796,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -1988,9 +1811,6 @@ focus_tree = {
 		relative_position_id = GER_optimize_reich_labour_service
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2011,9 +1831,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2029,9 +1846,6 @@ focus_tree = {
 		relative_position_id = GER_ministry_of_armaments_and_war_production
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2050,9 +1864,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2068,9 +1879,6 @@ focus_tree = {
 		relative_position_id = GER_eastern_infrastructre
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2088,9 +1896,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2106,9 +1911,6 @@ focus_tree = {
 		relative_position_id = GER_balkan_railway_integration
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2126,9 +1928,6 @@ focus_tree = {
 		relative_position_id = GER_balkan_railway_integration
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2150,9 +1949,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2168,9 +1964,6 @@ focus_tree = {
 		relative_position_id = GER_counter_soviet_armor
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2188,9 +1981,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2207,9 +1997,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2225,9 +2012,6 @@ focus_tree = {
 		relative_position_id = GER_e_series
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2249,9 +2033,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2267,9 +2048,6 @@ focus_tree = {
 		relative_position_id = GER_goering_programm
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2287,9 +2065,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2306,9 +2081,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2324,9 +2096,6 @@ focus_tree = {
 		relative_position_id = GER_stuka_tabletten
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2347,9 +2116,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2365,9 +2131,6 @@ focus_tree = {
 		relative_position_id = GER_himmlers_shadow_economy
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2385,9 +2148,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2403,9 +2163,6 @@ focus_tree = {
 		relative_position_id = GER_forced_labor
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2423,9 +2180,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2441,9 +2195,6 @@ focus_tree = {
 		relative_position_id = GER_integrate_eastern_territories
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -2464,9 +2215,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2483,9 +2231,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -2497,9 +2242,6 @@ focus_tree = {
 		cost = 14.3
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_appoint_okw_tooltip
@@ -2562,12 +2304,9 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.2
+				country_event = germany.11
 				set_country_flag = GER_dietrich_1
 				set_country_flag = GER_dietrich_selected
 				clr_country_flag = GER_general_appointment_available
@@ -2623,9 +2362,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_schwere_panzer_abteilung
@@ -2647,9 +2383,6 @@ focus_tree = {
 		relative_position_id = GER_schwere_panzer_abteilung
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2673,9 +2406,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = porsche_motors
 		}
@@ -2693,9 +2423,6 @@ focus_tree = {
 		relative_position_id = GER_schwere_panzer_abteilung
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			set_technology = {
@@ -2804,9 +2531,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = gehaerteter_panzerstahl
 		}
@@ -2823,9 +2547,6 @@ focus_tree = {
 		relative_position_id = GER_ss_uebermenschen
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2851,9 +2572,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_mechanised_support
@@ -2875,9 +2593,6 @@ focus_tree = {
 		relative_position_id = GER_mechanised_support
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2902,9 +2617,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = support_tank
 		}
@@ -2921,9 +2633,6 @@ focus_tree = {
 		relative_position_id = GER_support_tanks
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -2948,11 +2657,8 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
-			add_ideas = specialized_tank_variants
+			add_ideas = specialised_tank_variants
 		}
 	}
 	focus = {
@@ -2968,10 +2674,10 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			set_technology = {
+				heat_or_op_technology = 1
+			}
 		}
 	}
 	focus = {
@@ -2997,9 +2703,6 @@ focus_tree = {
 				}
 				always = no
 			}
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
@@ -3050,9 +2753,6 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
 			add_to_variable = {
@@ -3061,7 +2761,7 @@ focus_tree = {
 			}
 			GER_wehrmacht_dynamic_modifier_tt = yes
 			add_to_variable = {
-				GER_wehrmacht_army_speed_factor = 0.15
+				GER_wehrmacht_army_speed_factor = 0.1
 				tooltip = army_speed_factor_tt
 			}
 			add_to_variable = {
@@ -3097,9 +2797,6 @@ focus_tree = {
 				}
 				always = no
 			}
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			GER_economy_dynamic_modifier_tt = yes
@@ -3147,10 +2844,28 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.5
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				GER_mefo_bills_local_resources_factor = -0.1
+				tooltip = local_resources_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_attack_factor = 0.15
+				tooltip = army_core_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_core_defence_factor = 0.25
+				tooltip = army_core_defence_factor_tt
+			}
+			#GER_sepp_dietrich = {
+			#	add_trait = { trait = desert_fox }
+			#}
 		}
 	}
 	focus = {
@@ -3185,9 +2900,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.3
@@ -3215,10 +2927,6 @@ focus_tree = {
 				GER_wehrmacht_supply_consumption_factor = 0.05
 				tooltip = supply_consumption_factor_tt
 			}
-			add_to_variable = {
-				GER_wehrmacht_supply_factor = -0.1
-				tooltip = supply_factor_tt
-			}
 		}
 	}
 	focus = {
@@ -3245,10 +2953,21 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.15
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_fuel_consumption_factor = -0.25
+				tooltip = army_fuel_consumption_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_coordination_bonus = 0.05
+				tooltip = coordination_bonus_tt
+			}
 		}
 	}
 	focus = {
@@ -3275,10 +2994,25 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.2
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				GER_mefo_bills_research_speed_factor = 0.1
+				tooltip = research_speed_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_org_factor = 0.1
+				tooltip = army_org_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_defence_factor = 0.1
+				tooltip = army_defence_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -3305,10 +3039,21 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.2
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_initiative_factor = 0.1
+				tooltip = initiative_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_land_night_attack = 0.15
+				tooltip = land_night_attack_tt
+			}
 		}
 	}
 	focus = {
@@ -3335,10 +3080,20 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.2
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_armor_attack_factor = 0.025
+				tooltip = army_armor_attack_factor_tt
+			}
+			#GER_heinz_guderian = {
+			#	add_trait = { trait = desert_fox }
+			#}
 		}
 	}
 	focus = {
@@ -3354,9 +3109,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_heinz_guderian
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -3383,9 +3135,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = tank_quality
 		}
@@ -3406,9 +3155,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_tank_quality
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = tank_quantity
 		}
@@ -3426,9 +3172,6 @@ focus_tree = {
 		relative_position_id = GER_balance_of_tank_trinity
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -3453,9 +3196,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = beyond_obstacles
 		}
@@ -3472,9 +3212,6 @@ focus_tree = {
 		relative_position_id = GER_tank_quality
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = camouflage_mastery
@@ -3493,9 +3230,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = rasputiza
 		}
@@ -3512,9 +3246,6 @@ focus_tree = {
 		relative_position_id = GER_tank_quantity
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = nebelwand
@@ -3552,9 +3283,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.5
@@ -3569,6 +3297,19 @@ focus_tree = {
 					GER_appointed_generals = 1
 				}
 			}
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_line_change_production_efficiency_factor = 0.05
+				tooltip = line_change_production_efficiency_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_conscription_factor = 0.15
+				tooltip = conscription_factor_tt
+			}
+			set_technology = {
+				super_heavy_artillery_technology = 1
+			}
 		}
 	}
 	focus = {
@@ -3577,14 +3318,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 107.2
+		cost = 600
 		prerequisite = {
 			focus = GER_appoint_guenther_von_kluge
 		}
 		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 600
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -3595,10 +3336,13 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				ahead_reduction = 0.5
+				uses = 1
+				category = technology_category_artillery_upgrade
+			}
 		}
 	}
 	focus = {
@@ -3607,18 +3351,36 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 4.3
+		cost = 500
 		prerequisite = {
 			focus = GER_kluge_1
 		}
 		relative_position_id = GER_kluge_1
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 500
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Guenther von Kluge"
+					FLAG_DAYS = [?GER_kluge_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = -0.25
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_conscription_factor = -0.05
+				tooltip = conscription_factor_tt
+			}
+			add_ideas = flakburschen
 		}
 	}
 	focus = {
@@ -3627,18 +3389,39 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 8.3
+		cost = 250
 		prerequisite = {
 			focus = GER_kluge_2
 		}
 		relative_position_id = GER_kluge_2
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Guenther von Kluge"
+					FLAG_DAYS = [?GER_kluge_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.1
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_infantry_attack_factor = 0.15
+				tooltip = army_infantry_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_defence_factor = 0.2
+				tooltip = army_defence_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -3647,18 +3430,44 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 12.9
+		cost = 250
 		prerequisite = {
 			focus = GER_kluge_3
 		}
 		relative_position_id = GER_kluge_3
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Guenther von Kluge"
+					FLAG_DAYS = [?GER_kluge_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.15
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_conscription = 0.01
+				tooltip = conscription_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_dig_in_speed_factor = 0.5
+				tooltip = dig_in_speed_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_non_core_manpower = 0.01
+				tooltip = non_core_manpower_tt
+			}
+			## doctrine
 		}
 	}
 	focus = {
@@ -3674,9 +3483,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = the_prussian_legacy
@@ -3695,9 +3501,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_guenther_von_kluge
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = artillery_bombardment
@@ -3719,9 +3522,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = lessons_of_the_great_war
 		}
@@ -3738,9 +3538,6 @@ focus_tree = {
 		relative_position_id = GER_lessons_of_the_great_war
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			set_technology = {
@@ -3761,9 +3558,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = guns_for_everyone
 		}
@@ -3780,9 +3574,6 @@ focus_tree = {
 		relative_position_id = GER_stormtroopers
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = panzerbuechse
@@ -3820,9 +3611,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.6
@@ -3836,6 +3624,20 @@ focus_tree = {
 				add_to_variable = {
 					GER_appointed_generals = 1
 				}
+			}
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_training_time_factor = 0.5
+				tooltip = training_time_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_minimum_training_level = 0.15
+				tooltip = minimum_training_level_tt
 			}
 		}
 	}
@@ -3852,9 +3654,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_kurt_student
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = combined_arms
@@ -3875,9 +3674,6 @@ focus_tree = {
 		}
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -3906,9 +3702,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = stukageschader
@@ -3933,9 +3726,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = leuna_benzin
 		}
@@ -3953,10 +3743,13 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 999.99
+				ahead_reduction = 999.99
+				uses = 1
+				technology = cas_2_equipment_technology
+			}
 		}
 	}
 	focus = {
@@ -3971,9 +3764,6 @@ focus_tree = {
 		relative_position_id = GER_stukageschwader
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = flak_vierling
@@ -3992,10 +3782,13 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 999.99
+				ahead_reduction = 999.99
+				uses = 1
+				technology = fighter_bomber_2_equipment_technology
+			}
 		}
 	}
 	focus = {
@@ -4012,9 +3805,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = combined_arms
@@ -4028,28 +3818,39 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 107.2
+		cost = 750
 		prerequisite = {
 			focus = GER_appoint_kurt_student
 		}
 		relative_position_id = GER_appoint_kurt_student
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 750
 			}
 			custom_override_tooltip = {
 				tooltip = {
 					localization_key = GER_inner_circle_focus_in_progress_tt
-					CHARACTER = "Guenther von Kluge"
+					CHARACTER = "Kurt Student"
 					FLAG_DAYS = [?GER_student_days]
 				}
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_research_speed_factor = 0.05
+				tooltip = research_speed_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_air_superiority_bonus_in_combat = 0.25
+				tooltip = air_superiority_bonus_in_combat_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_conscription_factor = -0.25
+				tooltip = air_superiority_bonus_in_combat_tt
+			}
 		}
 	}
 	focus = {
@@ -4058,18 +3859,39 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 4.3
+		cost = 500
 		prerequisite = {
 			focus = GER_student_1
 		}
 		relative_position_id = GER_student_1
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 500
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Kurt Student"
+					FLAG_DAYS = [?GER_student_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_local_resources_factor = 0.05
+				tooltip = local_resources_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_infantry_attack_factor = 0.1
+				tooltip = army_infantry_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_artillery_attack_factor = 0.1
+				tooltip = army_artillery_attack_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -4078,18 +3900,43 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 8.6
+		cost = 250
 		prerequisite = {
 			focus = GER_student_2
 		}
 		relative_position_id = GER_student_2
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Kurt Student"
+					FLAG_DAYS = [?GER_student_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_industrial_capacity_factory = 0.05
+				tooltip = industrial_capacity_factory_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_army_infantry_defence_factor = 0.2
+				tooltip = army_infantry_defence_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_artillery_defence_factor = 0.2
+				tooltip = army_artillery_defence_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_conscription = -0.01
+				tooltip = conscription_tt
+			}
 		}
 	}
 	focus = {
@@ -4098,18 +3945,43 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 12.9
+		cost = 250
 		prerequisite = {
 			focus = GER_student_3
 		}
 		relative_position_id = GER_student_3
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Kurt Student"
+					FLAG_DAYS = [?GER_student_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_ground_attack_factor = 0.2
+				tooltip = ground_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_max_planning_factor = 0.15
+				tooltip = max_planning_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_land_night_attack = 0.1
+				tooltip = land_night_attack_tt
+			}
 		}
 	}
 	focus = {
@@ -4144,9 +4016,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.4
@@ -4161,6 +4030,20 @@ focus_tree = {
 					GER_appointed_generals = 1
 				}
 			}
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_production_speed_arms_factory_factor = 0.05
+				tooltip = production_speed_arms_factory_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_land_doctrine_cost_factor = -0.25
+				tooltip = land_doctrine_cost_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_mobilization_speed = 0.25
+				tooltip = mobilization_speed_tt
+			}
 		}
 	}
 	focus = {
@@ -4169,14 +4052,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 107.2
+		cost = 750
 		prerequisite = {
 			focus = GER_appoint_walter_model
 		}
 		relative_position_id = GER_appoint_walter_model
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 750
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4187,10 +4070,21 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			add_to_variable = {
+				GER_mefo_bills_production_speed_infrastracture_factor = 0.1
+				tooltip = production_speed_infrastructure_factor_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_planning_speed = 0.15
+				tooltip = planning_speed_tt
+			}
 		}
 	}
 	focus = {
@@ -4199,14 +4093,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 4.3
+		cost = 500
 		prerequisite = {
 			focus = GER_model_1
 		}
 		relative_position_id = GER_model_1
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 500
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4217,10 +4111,25 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_attrition = 0.1
+				tooltip = attrition_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_minimum_training_level = -0.05
+				tooltip = minimum_training_level_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_org_loss_when_moving = -0.3
+				tooltip = org_loss_when_moving_tt
+			}
 		}
 	}
 	focus = {
@@ -4229,14 +4138,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 8.6
+		cost = 250
 		prerequisite = {
 			focus = GER_model_2
 		}
 		relative_position_id = GER_model_2
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 250
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4247,10 +4156,29 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.05
+				tooltip = political_power_gain_tt
+			}
+			GER_wehrmacht_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_wehrmacht_ground_attack_factor = 0.075
+				tooltip = ground_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_coordination_bonus = 0.075
+				tooltip = coordination_bonus_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_armor_attack_factor = 0.025
+				tooltip = army_armor_attack_factor_tt
+			}
+			add_to_variable = {
+				GER_wehrmacht_army_infantry_attack_factor = 0.025
+				tooltip = army_infantry_attack_factor_tt
+			}
 		}
 	}
 	focus = {
@@ -4259,14 +4187,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 12.9
+		cost = 250
 		prerequisite = {
 			focus = GER_model_3
 		}
 		relative_position_id = GER_model_3
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 250
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4277,10 +4205,18 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
+			GER_economy_dynamic_modifier_tt = yes
+			add_to_variable = {
+				GER_mefo_bills_political_power_gain = 0.1
+				tooltip = political_power_gain_tt
+			}
+			#GER_walter_model = {
+			#	add_trait = { trait = desert_fox }
+			#}
+			set_technology = {
+				schmalturm_technology = 1
+			}
 		}
 	}
 	focus = {
@@ -4296,9 +4232,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_walter_model
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -4325,9 +4258,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_mp_40
@@ -4353,9 +4283,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = quantity_has_its_own_quality
 		}
@@ -4375,9 +4302,6 @@ focus_tree = {
 		relative_position_id = GER_quantity_has_its_own_quality
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -4403,9 +4327,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_ideas = conversion_programm
 		}
@@ -4422,9 +4343,6 @@ focus_tree = {
 		relative_position_id = GER_7_5_cm_KwK_40
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ideas = army_cohesion
@@ -4462,9 +4380,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.7
@@ -4487,14 +4402,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 107.2
+		cost = 750
 		prerequisite = {
 			focus = GER_appoint_albert_kesselring
 		}
 		relative_position_id = GER_appoint_albert_kesselring
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 750
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4505,9 +4420,6 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4517,16 +4429,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 4.3
+		cost = 500
 		prerequisite = {
 			focus = GER_kesselring_1
 		}
 		relative_position_id = GER_kesselring_1
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 500
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Albert Kesselring"
+					FLAG_DAYS = [?GER_kesselring_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4537,16 +4456,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 8.6
+		cost = 250
 		prerequisite = {
 			focus = GER_kesselring_2
 		}
 		relative_position_id = GER_kesselring_2
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Albert Kesselring"
+					FLAG_DAYS = [?GER_kesselring_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4557,16 +4483,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 12.9
+		cost = 250
 		prerequisite = {
 			focus = GER_kesselring_3
 		}
 		relative_position_id = GER_kesselring_3
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Albert Kesselring"
+					FLAG_DAYS = [?GER_kesselring_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4584,9 +4517,6 @@ focus_tree = {
 		relative_position_id = GER_appoint_albert_kesselring
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_tech_bonus = {
@@ -4610,9 +4540,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_gen_3_fighter
@@ -4634,9 +4561,6 @@ focus_tree = {
 		relative_position_id = GER_gen_3_fighter
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ace = {
@@ -4684,9 +4608,6 @@ focus_tree = {
 		relative_position_id = GER_NSFK
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 			add_ace = {
@@ -4738,9 +4659,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4756,9 +4674,6 @@ focus_tree = {
 		relative_position_id = GER_decisive_battle
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -4795,9 +4710,6 @@ focus_tree = {
 				always = yes
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 			hidden_effect = {
 				country_event = germany.8
@@ -4820,14 +4732,14 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 107.2
+		cost = 750
 		prerequisite = {
 			focus = GER_appoint_erhard_milch
 		}
 		relative_position_id = GER_appoint_erhard_milch
 		available = {
 			set_temp_variable = {
-				level_one_days = 90
+				level_one_days = 750
 			}
 			custom_override_tooltip = {
 				tooltip = {
@@ -4838,9 +4750,6 @@ focus_tree = {
 				always = no
 			}
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4850,16 +4759,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 4.3
+		cost = 500
 		prerequisite = {
 			focus = GER_milch_1
 		}
 		relative_position_id = GER_milch_1
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 500
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Erhard Milch"
+					FLAG_DAYS = [?GER_milch_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4870,16 +4786,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 8.6
+		cost = 250
 		prerequisite = {
 			focus = GER_milch_2
 		}
 		relative_position_id = GER_milch_2
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 250
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Erhard Milch"
+					FLAG_DAYS = [?GER_milch_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4890,16 +4813,23 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 12.9
+		cost = 250
 		prerequisite = {
 			focus = GER_milch_3
 		}
 		relative_position_id = GER_milch_3
 		available = {
-			always = yes
-		}
-		ai_will_do = {
-			factor = 10
+			set_temp_variable = {
+				level_one_days = 750
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = GER_inner_circle_focus_in_progress_tt
+					CHARACTER = "Erhard Milch"
+					FLAG_DAYS = [?GER_milch_days]
+				}
+				always = no
+			}
 		}
 		completion_reward = {
 		}
@@ -4917,9 +4847,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4936,9 +4863,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4954,9 +4878,6 @@ focus_tree = {
 		relative_position_id = GER_big_machines
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}
@@ -4977,9 +4898,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -4996,9 +4914,6 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = 10
-		}
 		completion_reward = {
 		}
 	}
@@ -5014,9 +4929,6 @@ focus_tree = {
 		relative_position_id = GER_heavy_escorts
 		available = {
 			always = yes
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		completion_reward = {
 		}

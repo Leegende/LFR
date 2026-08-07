@@ -14,18 +14,23 @@ sub_units = {
 			category_support_company
 			category_signal_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = signal_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	motorised_equipment = 20
 		#}
-		same_support_type = signal_company_support
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 80
+		default_morale = 0.8
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.02
+		initiative = 0.2
+		fuel_capacity = -1
+		own_equipment_fuel_consumption_mult = 0
 	}
 	armored_signal_company_support = {
 		sprite = infantry
@@ -42,17 +47,25 @@ sub_units = {
 			category_armor_support_company
 			category_signal_company
 		}
-		combat_width = 0
-		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
-		manpower = 300
 		affects_speed = no
-		training_time = 100
+		same_support_type = signal_company_support
 		#need = {
 		#	support_equipment_archetype = 20
 		#	armored_support_vehicle_chassis_archetype = 20
 		#}
-		same_support_type = signal_company_support
+		battalion_mult = {
+			category = category_armor
+			breakthrough = 0.05
+			add = yes
+		}
+		combat_width = 0
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+		
+		supply_consumption = 0.035
+		initiative = 0.25
 	}
 }

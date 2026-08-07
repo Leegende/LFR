@@ -20,6 +20,47 @@ sub_units = {
 		#need = {
 		#	pack_anti_tank_archetype = @anti_tank_need
 		#}
+		combat_width = 1
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.1
+		training_time = 120
+		maximum_speed = -0.5
+		supply_consumption = 0.08
+		supply_consumption_factor = 0.02
+		forest = {
+			attack = 0.1
+		}
+		hills = {
+			attack = 0.1
+			defence = 0.1
+		}
+		mountain = {
+			attack = 0.15
+			defence = 0.1
+		}
+		rock = {
+			attack = 0.15
+			defence = 0.1
+		}
+		jungle = {
+			attack = 0.1
+		}
+		marsh = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.2
+		}
+		amphibious = {
+			attack = -0.1
+		}
+		urban = {
+			attack = 0.075
+		}
+		dense_urban = {
+			attack = 0.125
+		}
 	}
 	anti_tank_battalion = {
 		sprite = infantry
@@ -33,7 +74,47 @@ sub_units = {
 		}
 		#need = {
 		#	anti_tank_archetype = @anti_tank_need
-		#}
+		#} 
+		combat_width = 1
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0
+		max_strength = 1
+		training_time = 120
+		maximum_speed = 0.25
+		supply_consumption = 0.08
+		supply_consumption_factor = 0.02
+		forest = {
+			attack = -0.1
+			movement = -0.1
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+		}
+		rock = {
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.15
+			movement = -0.1
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.15
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
 	}
 	heavy_anti_tank_battalion = {
 		sprite = infantry
@@ -48,6 +129,107 @@ sub_units = {
 		#need = {
 		#	heavy_anti_tank_archetype = @anti_tank_need
 		#}
+		combat_width = 1
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.1
+		max_strength = 1
+		training_time = 120
+		supply_consumption = 0.3
+		supply_consumption_factor = 0.06
+		maximum_speed = -0.5
+		forest = {
+			attack = -0.1
+			movement = -0.3
+		}
+		hills = {
+			movement = -0.1
+		}
+		mountain = {
+			movement = -0.4
+		}
+		rock = {
+			movement = -0.4
+		}
+		jungle = {
+			attack = -0.15
+			movement = -0.3
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.25
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	motorised_anti_tank_battalion = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		active = yes
+		priority = 0
+		type = {
+			motorized
+			artillery
+			anti_tank
+		}
+		group = artillery
+		categories = {
+			category_anti_tank
+			category_motorised
+			category_vehicle
+			category_vehicle_anti_tank
+		}
+		combat_width = 2
+		#need = {
+		#	anti_tank_equipment = 12
+		#	motorized_equipment = 14
+		#}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0
+		max_strength = 1
+		training_time = 120
+		supply_consumption = 0.08
+		supply_consumption_factor = 0.02
+		forest = {
+			attack = -0.1
+			movement = -0.2
+		}
+		hills = {
+			movement = -0.05
+		}
+		mountain = {
+			movement = -0.2
+		}
+		rock = {
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.15
+			movement = -0.2
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.15
+		}
+		fort = {
+			attack = 0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+		}
 	}
 	mechanised_anti_tank_battalion = {
 		sprite = mechanised
@@ -62,10 +244,65 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_mechanised
+			category_vehicle
+			category_vehicle_anti_tank
 		}
 		#need = {
 		#	mechanised_anti_tank_ = @anti_tank_need
-		#}
+		#} 
+		combat_width = 2
+		manpower = 500
+		max_organisation = 30
+		default_morale = 0.3
+		max_strength = 1
+		training_time = 100
+		supply_consumption = 0.25
+		supply_consumption_factor = 0.045
+		breakthrough = -0.2
+		forest = {
+			attack = -0.2
+			defence = -0.25
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		rock = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.25
+			defence = -0.3
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.3
+		}
+		town = {
+			attack = -0.1
+			defence = -0.05
+		}
+		urban = {
+			attack = -0.2
+			defence = -0.15
+		}
+		dense_urban = {
+			attack = -0.3
+			defence = -0.25
+		}
+		river = {
+			attack = -0.25
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+		}
 	}
 	amtrac_anti_tank_battalion = {
 		sprite = amtrac
@@ -76,10 +313,65 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_amtrac
+			category_vehicle
+			category_vehicle_anti_tank
 		}
 		#need = {
 		#	amtrac_anti_tank_ = @anti_tank_need
-		#}
+		#} 
+		combat_width = 2
+		manpower = 500
+		max_organisation = 25
+		default_morale = 0.3
+		max_strength = 1
+		training_time = 100
+		supply_consumption = 0.25
+		supply_consumption_factor = 0.045
+		breakthrough = -0.2
+		forest = {
+			attack = -0.2
+			defence = -0.25
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		rock = {
+			attack = -0.15
+			defence = -0.2
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.2
+			defence = -0.25
+			movement = -0.45
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.15
+			movement = -0.25
+		}
+		town = {
+			attack = -0.15
+			defence = -0.1
+		}
+		urban = {
+			attack = -0.25
+			defence = -0.2
+		}
+		dense_urban = {
+			attack = -0.35
+			defence = -0.3
+		}
+		river = {
+			attack = -0.15
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -0.3
+		}
 	}
 	armored_car_anti_tank_battalion = {
 		sprite = armored_car
@@ -90,10 +382,77 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_armored_car
+			category_vehicle
+			category_vehicle_anti_tank
 		}
 		#need = {
 		#	armored_car_anti_tank_ = @anti_tank_need
 		#}
+		combat_width = 2
+		manpower = 500
+		max_strength = 0.4
+		max_organisation = 0
+		default_morale = 0.2
+		training_time = 120
+		supply_consumption = 0.1
+		supply_consumption_factor = 0.02
+		breakthrough = -1.75
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			defence = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.05
+			movement = -0.1
+			defence = -0.05
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.05
+		}
+		mountain = {
+			attack = -0.1
+			movement = -0.15
+			defence = -0.05
+		}
+		rock = {
+			attack = -0.1
+			movement = -0.15
+			defence = -0.05
+		}
+		jungle = {
+			attack = -0.1
+			movement = -0.15
+			defence = -0.05
+		}
+		marsh = {
+			attack = -0.15
+			movement = -0.2
+			defence = -0.05
+		}
+		river = {
+			attack = -0.15
+			movement = -0.25
+		}
+		amphibious = {
+			attack = -1
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.05
+		}
+		dense_urban = {
+			attack = 0.15
+			defence = 0.1
+		}
+		town = {
+			attack = 0.05
+		}
 	}
 	light_tank_anti_tank_battalion = {
 		sprite = light_armor
@@ -109,10 +468,78 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_light_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	light_tank_anti_tank_ = @anti_tank_need
 		#}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		training_time = 180
+		supply_consumption = 0.28
+		supply_consumption_factor = 0
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.1
+			defence = 0.075
+			movement = 0.15
+		}
+		forest = {
+			attack = -0.1
+			movement = -0.2
+			defence = -0.15
+		}
+		hills = {
+			attack = 0.025
+			defence = -0.3
+			movement = 0.05
+		}
+		mountain = {
+			attack = -0.2
+			movement = -0.25
+			defence = -0.5
+		}
+		jungle = {
+			attack = 0.05
+			defence = -0.2
+			movement = 0.05
+		}
+		marsh = {
+			attack = 0.025
+			defence = -0.2
+			movement = 0.05
+		}
+		urban = {
+			attack = -0.3
+			defence = -0.9
+		}
+		dense_urban = {
+			attack = -0.4
+			defence = -1
+		}
+		town = {
+			attack = -0.2
+			defence = -0.6
+		}
+		river = {
+			attack = -0.05
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -1
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 	light_tank_amphibious_anti_tank_battalion = {
 		sprite = light_armor
@@ -129,10 +556,78 @@ sub_units = {
 			category_anti_tank
 			category_light_tank
 			category_amphibious_light_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	light_tank_amphibious_anti_tank_ = @anti_tank_need
 		#}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		training_time = 180
+		supply_consumption = 0.28
+		supply_consumption_factor = 0
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.1
+			defence = 0.075
+			movement = 0.15
+		}
+		forest = {
+			attack = -0.1
+			movement = -0.2
+			defence = -0.15
+		}
+		hills = {
+			attack = 0.025
+			defence = -0.3
+			movement = 0.05
+		}
+		mountain = {
+			attack = -0.2
+			movement = -0.25
+			defence = -0.5
+		}
+		jungle = {
+			attack = 0.05
+			defence = -0.2
+			movement = 0.05
+		}
+		marsh = {
+			attack = 0.025
+			defence = -0.2
+			movement = 0.05
+		}
+		urban = {
+			attack = -0.3
+			defence = -0.9
+		}
+		dense_urban = {
+			attack = -0.4
+			defence = -1
+		}
+		town = {
+			attack = -0.2
+			defence = -0.6
+		}
+		river = {
+			attack = 0.1
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -0.6
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 	medium_tank_anti_tank_battalion = {
 		sprite = medium_armor
@@ -148,10 +643,77 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_medium_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	medium_tank_anti_tank_ = @anti_tank_need
-		#}
+		#} 
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		training_time = 180
+		supply_consumption = 0.45
+		supply_consumption_factor = 0.065
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.15
+			movement = -0.3
+			defence = -0.3
+		}
+		hills = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.5
+		}
+		mountain = {
+			attack = -0.35
+			movement = -0.35
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.275
+			movement = -0.375
+			defence = -0.35
+		}
+		marsh = {
+			attack = -0.3
+			movement = -0.25
+			defence = -0.45
+		}
+		urban = {
+			attack = -0.45
+			defence = -1
+		}
+		dense_urban = {
+			attack = -0.5
+			defence = -1.75
+		}
+		town = {
+			attack = -0.2
+			defence = -0.6
+		}
+		river = {
+			attack = -0.2
+			movement = -0.3
+		}
+		amphibious = {
+			attack = -1.6
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 	medium_tank_amphibious_anti_tank_battalion = {
 		sprite = medium_armor
@@ -168,10 +730,75 @@ sub_units = {
 			category_anti_tank
 			category_medium_tank
 			category_amphibious_medium_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	medium_tank_amphibious_anti_tank_ = @anti_tank_need
-		#}
+		#} 
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		training_time = 180
+		supply_consumption = 0.45
+		supply_consumption_factor = 0.065
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.15
+			movement = -0.3
+			defence = -0.3
+		}
+		hills = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.5
+		}
+		mountain = {
+			attack = -0.35
+			movement = -0.35
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.275
+			movement = -0.375
+			defence = -0.35
+		}
+		marsh = {
+			attack = -0.3
+			movement = -0.25
+			defence = -0.45
+		}
+		urban = {
+			attack = -0.45
+			defence = -1
+		}
+		dense_urban = {
+			attack = -0.5
+			defence = -1.75
+		}
+		town = {
+			attack = -0.2
+			defence = -0.6
+		}
+		river = {
+			movement = -0.3
+		}
+		amphibious = {
+			attack = -1.2
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 	heavy_tank_anti_tank_battalion = {
 		sprite = heavy_armor
@@ -186,10 +813,80 @@ sub_units = {
 		categories = {
 			category_anti_tank
 			category_heavy_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	heavy_tank_anti_tank_ = @anti_tank_need
-		#}
+		#} 
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		.5
+		supply_consumption = 0.5
+		supply_consumption_factor = 0.08
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.35
+		}
+		hills = {
+			attack = -0.35
+			movement = -0.3
+			defence = -0.7
+		}
+		mountain = {
+			attack = -0.45
+			movement = -0.6
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.45
+			defence = -0.55
+		}
+		marsh = {
+			attack = -0.45
+			movement = -0.4
+			defence = -0.675
+		}
+		town = {
+			attack = -0.3
+			defence = -0.65
+		}
+		urban = {
+			attack = -0.6
+			defence = -1.2
+		}
+		dense_urban = {
+			attack = -0.7
+			defence = -2
+		}
+		river = {
+			attack = -0.4
+			movement = -0.4
+		}
+		amphibious = {
+			attack = -2
+		}
+		fort = {
+			attack = 0.35
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 	heavy_tank_amphibious_anti_tank_battalion = {
 		sprite = heavy_armor
@@ -205,9 +902,79 @@ sub_units = {
 			category_anti_tank
 			category_heavy_tank
 			category_amphibious_heavy_tank
+			category_tank_anti_tank
 		}
 		#need = {
 		#	heavy_tank_amphibious_anti_tank_ = @anti_tank_need
 		#}
+		combat_width = 2
+		manpower = 500
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 2
+		.5
+		supply_consumption = 0.5
+		supply_consumption_factor = 0.08
+		breakthrough = -1
+		defense = -0.25
+		plains = {
+			attack = 0.05
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.05
+		}
+		forest = {
+			attack = -0.2
+			movement = -0.3
+			defence = -0.35
+		}
+		hills = {
+			attack = -0.35
+			movement = -0.3
+			defence = -0.7
+		}
+		mountain = {
+			attack = -0.45
+			movement = -0.6
+			defence = -0.7
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.45
+			defence = -0.55
+		}
+		marsh = {
+			attack = -0.45
+			movement = -0.4
+			defence = -0.675
+		}
+		town = {
+			attack = -0.3
+			defence = -0.65
+		}
+		urban = {
+			attack = -0.6
+			defence = -1.2
+		}
+		dense_urban = {
+			attack = -0.7
+			defence = -2
+		}
+		river = {
+			attack = -0.2
+			movement = -0.4
+		}
+		amphibious = {
+			attack = -1.6
+		}
+		fort = {
+			attack = 0.35
+		}
+		rock = {
+			attack = -2
+			defence = -2
+		}
 	}
 }

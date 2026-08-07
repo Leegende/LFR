@@ -210,9 +210,7 @@ ideas = {
 				lend_lease_tension = 0.2
 			}
 			cancel_if_invalid = no
-			ai_will_do = {
-				base = -9999
-			}
+			
 		}
 		planned_economy = {
 			picture = new_economic_policy

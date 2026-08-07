@@ -67,7 +67,6 @@ equipments = {
 				}
 			}
 		}
-		
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = empty
@@ -77,59 +76,21 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
-		maximum_speed = 6
+		armor_value = 20
+		ap_attack = 11
+		air_attack = 0
+		lend_lease_cost = 0
+		hardness = 0.6
+		fuel_capacity = 50
+		resources = {
+			steel = 30
+			rubber = 20
+		}
+		fuel_consumption = 4
 	}
 	mechanised_0_equipment = {
 		archetype = mechanised_archetype
 		is_buildable = no
-		module_count_limit = {
-			module = mech_ostketten_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armored_roof_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_amtrac_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_sloped_armor_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armor_skirts_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_auto_loader_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_tungston_core_ammunition_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_commanders_cupola_module
-			count < 2
-		}
 	}
 	mechanised_1_equipment = {
 		archetype = mechanised_archetype
@@ -142,54 +103,63 @@ equipments = {
 			special_type_slot_1 = inherit
 			special_type_slot_2 = inherit
 		}
-		module_count_limit = {
-			module = mech_ostketten_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armored_roof_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_amtrac_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_sloped_armor_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armor_skirts_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_auto_loader_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_tungston_core_ammunition_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_commanders_cupola_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = mech_ostketten_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armored_roof_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_amtrac_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_sloped_armor_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armor_skirts_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_auto_loader_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_tungston_core_ammunition_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_commanders_cupola_module
+		#	count < 2
+		#}
+		soft_attack = 5
+		hard_attack = 5
+		build_cost_ic = 10
+		ap_attack = 12
+		maximum_speed = 6
+		hardness = 0.65
+		reliability = 0.8
+		defense = 5
+		breakthrough = 10
 	}
 	mechanised_2_equipment = {
 		archetype = mechanised_archetype
@@ -203,54 +173,63 @@ equipments = {
 			special_type_slot_1 = inherit
 			special_type_slot_2 = inherit
 		}
-		module_count_limit = {
-			module = mech_ostketten_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armored_roof_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_amtrac_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_sloped_armor_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armor_skirts_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_auto_loader_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_tungston_core_ammunition_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_commanders_cupola_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = mech_ostketten_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armored_roof_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_amtrac_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_sloped_armor_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armor_skirts_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_auto_loader_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_tungston_core_ammunition_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_commanders_cupola_module
+		#	count < 2
+		#}
+		soft_attack = 7
+		hard_attack = 5
+		build_cost_ic = 12
+		ap_attack = 14
+		maximum_speed = 7
+		hardness = 0.65
+		reliability = 0.85
+		defense = 7
+		breakthrough = 12
 	}
 	mechanised_3_equipment = {
 		archetype = mechanised_archetype
@@ -264,53 +243,62 @@ equipments = {
 			special_type_slot_1 = inherit
 			special_type_slot_2 = inherit
 		}
-		module_count_limit = {
-			module = mech_ostketten_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armored_roof_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_amtrac_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_sloped_armor_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_stabilizer_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_smoke_launchers_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_extra_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_wet_ammo_storage_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_armor_skirts_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_auto_loader_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_tungston_core_ammunition_module
-			count < 2
-		}
-		module_count_limit = {
-			module = mech_commanders_cupola_module
-			count < 2
-		}
+		#module_count_limit = {
+		#	module = mech_ostketten_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armored_roof_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_amtrac_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_sloped_armor_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_stabilizer_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_smoke_launchers_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_extra_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_wet_ammo_storage_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_armor_skirts_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_auto_loader_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_tungston_core_ammunition_module
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	module = mech_commanders_cupola_module
+		#	count < 2
+		#}
+		soft_attack = 10
+		hard_attack = 7
+		build_cost_ic = 13
+		ap_attack = 20
+		maximum_speed = 8
+		hardness = 0.70
+		reliability = 0.8
+		defense = 10
+		breakthrough = 15
 	}
 }

@@ -173,7 +173,7 @@ technologies = {
 			easy_maintenance_module
 		}
 		research_cost = 2
-		start_year = 1940
+		start_year = 1942
 		categories = {
 			technology_category_armor
 			technology_category_medium_tank
@@ -182,7 +182,7 @@ technologies = {
 			name = armour_fra_folder
 			position = {
 				x = @medium_tanks_center
-				y = @1940
+				y = @1942
 			}
 		}
 	}

@@ -389,7 +389,7 @@ technologies = {
 		path = {
 			leads_to_tech = field_hospital_2_technology
 		}
-		category_field_hospital_company = {
+		category_field_hospital = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.1
 			max_organisation = 2
@@ -415,7 +415,7 @@ technologies = {
 		path = {
 			leads_to_tech = field_hospital_3_technology
 		}
-		category_field_hospital_company = {
+		category_field_hospital = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.1
 			max_organisation = 2
@@ -439,7 +439,7 @@ technologies = {
 			leads_to_tech = field_hospital_4_technology
 			research_cost_coeff = 1
 		}
-		category_field_hospital_company = {
+		category_field_hospital = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.1
 			max_organisation = 2
@@ -459,7 +459,7 @@ technologies = {
 		}
 	}
 	field_hospital_4_technology = {
-		category_field_hospital_company = {
+		category_field_hospital = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.1
 			max_organisation = 2

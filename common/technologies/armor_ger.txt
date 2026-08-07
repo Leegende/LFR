@@ -97,7 +97,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			panzergranate_module
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -297,7 +296,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			panzergranate_module
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -327,7 +325,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			panzergranate_module
 			sloped_armor_module
 			advanced_artillery_round_module
 		}
@@ -433,7 +430,6 @@ technologies = {
 			armor_skirts_module
 			add_on_rockets_module
 			apcr_round_module
-			panzergranate_module
 			sloped_armor_module
 			advanced_artillery_round_module
 		}

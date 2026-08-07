@@ -28,18 +28,6 @@ GER_reichsautobahn_construct_dynamic_modifier = {
 	state_production_speed_infrastructure_factor = 0.25
 }
 
-GER_failed_reform_the_okw = {
-	enable = {
-		always = yes
-	}
-	icon = GFX_modifiers_SOV_civilian_labor_in_defense
-	#army_attack_factor = GER_failed_reform_the_okw_army_attack_factor
-	#army_morale_factor = GER_failed_reform_the_okw_army_morale_factor
-	#army_org_factor = GER_failed_reform_the_okw_army_org_factor
-	#political_advisor_cost_factor = GER_failed_reform_the_okw_political_advisor_cost_factor
-	#political_power_gain = GER_failed_reform_the_okw_political_power_gain
-}
-
 GER_mefo_bills = {
 	enable = {
 		always = yes
@@ -104,7 +92,6 @@ GER_wehrmacht = {
 	coordination_bonus = GER_wehrmacht_coordination_bonus
 	dig_in_speed_factor = GER_wehrmacht_dig_in_speed_factor
 	equipment_capture = GER_wehrmacht_equipment_capture
-	equipment_capture_factor = GER_wehrmacht_equipment_capture_factor
 	experience_gain_air = GER_wehrmacht_experience_gain_air
 	experience_gain_army = GER_wehrmacht_experience_gain_army
 	experience_gain_army_factor = GER_wehrmacht_experience_gain_army_factor
@@ -130,7 +117,7 @@ GER_wehrmacht = {
 	special_forces_cap = GER_wehrmacht_special_forces_cap
 	spotting_chance = GER_wehrmacht_spotting_chance
 	supply_consumption_factor = GER_wehrmacht_supply_consumption_factor
-	supply_factor = GER_wehrmacht_supply_factor
+	supply_consumption_factor = GER_wehrmacht_supply_consumption_factor
 	training_time_factor = GER_wehrmacht_training_time_factor
 	unit_leader_as_advisor_cp_cost_factor = GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor
 	attrition = GER_wehrmacht_attrition

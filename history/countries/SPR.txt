@@ -1,4 +1,4 @@
-capital = 364
+capital = 358
 set_popularities = {
 	democratic = 47
 	fascism = 46

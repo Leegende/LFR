@@ -342,7 +342,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_EMI_heavy_turret_1_module"
-		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/tank_module_heavy_one_man_turret.dds"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_turret_1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -408,6 +408,76 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_light_casemate_module_category"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/light_superstructure.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_armament_1_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/medium_soft_cannon_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_armament_2_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/medium_soft_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_armament_3_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/medium_soft_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_turret_1_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/medium_turret_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_turret_2_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/medium_turret_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_turret_3_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/medium_turret_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_medium_casemate_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/medium_superstructure.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_armament_1_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/heavy_soft_cannon_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_armament_2_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/heavy_soft_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_armament_3_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/heavy_soft_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_turret_1_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_turret_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_turret_2_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_turret_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_turret_3_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_turret_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_heavy_casemate_module_category"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_superstructure.dds"
 		legacy_lazy_load = no
 	}
 	####mech

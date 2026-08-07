@@ -968,8 +968,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_fighter_bomber_4_equipment_technology_medium"
-		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_bomber_4.dds"
+		name = "GFX_fighter_4_equipment_technology_medium"
+		textureFile = "gfx/interface/technologies/GENERIC/AIR/fighter_4.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

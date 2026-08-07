@@ -274,7 +274,7 @@ technologies = {
 			advanced_artillery_round_module
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1940
 		path = {
 			leads_to_tech = ita_heavy_tank_tiger_2_chassis_technology
 		}
@@ -286,7 +286,7 @@ technologies = {
 			name = armour_ita_folder
 			position = {
 				x = @heavy_tanks_center
-				y = @1939
+				y = @1940
 			}
 		}
 	}
@@ -303,7 +303,7 @@ technologies = {
 			easy_maintenance_module
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1942
 		categories = {
 			technology_category_armor
 			technology_category_heavy_tank
@@ -312,7 +312,7 @@ technologies = {
 			name = armour_ita_folder
 			position = {
 				x = @heavy_tanks_center
-				y = @1941
+				y = @1942
 			}
 		}
 	}

@@ -89,7 +89,7 @@ technologies = {
 			fighter_3_equipment
 		}
 		path = {
-			leads_to_tech = fighter_bomber_4_equipment_technology
+			leads_to_tech = fighter_4_equipment_technology
 		}
 		categories = {
 			technology_category_air
@@ -157,7 +157,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1941
 		path = {
-			leads_to_tech = fighter_bomber_4_equipment_technology
+			leads_to_tech = fighter_4_equipment_technology
 		}
 		categories = {
 			technology_category_air
@@ -223,7 +223,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1941
 		path = {
-			leads_to_tech = fighter_bomber_4_equipment_technology
+			leads_to_tech = fighter_4_equipment_technology
 		}
 		categories = {
 			technology_category_air
@@ -238,9 +238,9 @@ technologies = {
 			}
 		}
 	}
-	fighter_bomber_4_equipment_technology = {
+	fighter_4_equipment_technology = {
 		enable_equipments = {
-			fighter_bomber_4_equipment
+			fighter_4_equipment
 		}
 		categories = {
 			technology_category_air

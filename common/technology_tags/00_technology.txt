@@ -84,7 +84,7 @@ technology_folders = {
 	armour_ger_folder = {
 		ledger = army
 		available = {
-			#	original_tag = GER
+			original_tag = GER
 		}
 	}
 	armour_ita_folder = {
@@ -125,9 +125,9 @@ technology_folders = {
 	}
 	armour_sov_folder = {
 		ledger = army
-		available = {
-			original_tag = SOV
-		}
+		#available = {
+		#	original_tag = SOV
+		#}
 	}
 	artillery_folder = {
 		ledger = army

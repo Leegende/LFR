@@ -23,6 +23,12 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 7
+		build_cost_ic = 10
+		reliability = 0.85
+		armor_value = 10
+		defense = 4
+		breakthrough = 10
 	}
 	light_tank_bt7_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -54,6 +60,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 14
+		reliability = 0.85
+		armor_value = 15
+		defense = 5
+		breakthrough = 12
+		hardness = 0.48
+		soft_attack = 2
 	}
 	light_tank_t70_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -87,6 +101,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 20
+		reliability = 0.85
+		armor_value = 20
+		defense = 6
+		breakthrough = 20
+		hardness = 0.5
+		soft_attack = 2
+		hard_attack = 1
 	}
 	light_tank_t40_chassis = {
 		archetype = light_tank_chassis_archetype
@@ -121,10 +144,52 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 25
+		reliability = 0.85
+		armor_value = 25
+		defense = 7
+		breakthrough = 25
+		hardness = 0.55
+		soft_attack = 5
+		hard_attack = 3
 	}
 	light_tank_zis30_chassis = {
 		archetype = light_tank_chassis_archetype
 		parent = light_tank_t70_chassis
+		module_slots = {
+			main_armament_slot = inherit
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					light_turret_1_module_category
+					light_turret_2_module_category
+					light_turret_3_module_category
+					light_casemate_module_category
+				}
+			}
+			suspension_type_slot = inherit
+			armor_type_slot = inherit
+			engine_type_slot = inherit
+			special_type_slot_1 = inherit
+			special_type_slot_2 = inherit
+			special_type_slot_3 = inherit
+		}
+		default_modules = {
+			main_armament_slot = empty
+			armor_type_slot = empty
+			engine_type_slot = empty
+			suspension_type_slot = empty
+		}
+		maximum_speed = 8
+		build_cost_ic = 15
+		reliability = 0.85
+		armor_value = 15
+		defense = 7
+		breakthrough = 25
+		hardness = 0.5
+		soft_attack = 3
+		hard_attack = 3
 	}
 	medium_tank_t28_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -150,6 +215,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5
+		build_cost_ic = 25
+		reliability = 0.7
+		armor_value = 20
+		defense = 6
+		breakthrough = 18
+		soft_attack = 3
+		hard_attack = 1
+		hardness = 0.7
 	}
 	medium_tank_t34_57_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -177,6 +251,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.5
+		build_cost_ic = 33
+		reliability = 0.8
+		armor_value = 35
+		defense = 8
+		breakthrough = 20
+		soft_attack = 3
+		hard_attack = 2
 	}
 	medium_tank_t35_85_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -210,6 +292,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5.5
+		build_cost_ic = 28
+		reliability = 0.8
+		armor_value = 40
+		defense = 12
+		breakthrough = 26
+		soft_attack = 5
+		hard_attack = 3
 	}
 	medium_tank_t35_85_amphibious_chassis = {
 		archetype = medium_tank_amphibious_chassis_archetype
@@ -243,6 +333,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 25
+		reliability = 0.8
+		armor_value = 35
+		defense = 10
+		breakthrough = 25
+		soft_attack = 5
+		hardness = 0.75
 	}
 	medium_tank_t44_chassis = {
 		archetype = medium_tank_chassis_archetype
@@ -277,6 +375,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 8
+		build_cost_ic = 34
+		reliability = 0.8
+		armor_value = 45
+		defense = 15
+		breakthrough = 35
+		soft_attack = 7
+		hard_attack = 4
 	}
 	heavy_tank_t35_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -302,6 +408,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 4.5
+		build_cost_ic = 38
+		reliability = 0.7
+		armor_value = 23
+		defense = 6
+		breakthrough = 40
+		soft_attack = 7
+		hard_attack = 3
 	}
 	heavy_tank_kv1_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -335,6 +449,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 5
+		build_cost_ic = 48
+		reliability = 0.75
+		armor_value = 60
+		defense = 10
+		breakthrough = 65
+		soft_attack = 13
+		hard_attack = 8
+		hardness = 0.8
 	}
 	heavy_tank_kv1_amphibious_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -368,6 +491,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 48
+		reliability = 0.75
+		armor_value = 60
+		defense = 10
+		breakthrough = 65
+		soft_attack = 13
+		hard_attack = 8
+		hardness = 0.8
 	}
 	heavy_tank_kv2_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -407,6 +539,15 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 58
+		reliability = 0.75
+		armor_value = 65
+		defense = 10
+		breakthrough = 75
+		soft_attack = 17
+		hard_attack = 11
+		hardness = 0.9
 	}
 	heavy_tank_is4_chassis = {
 		archetype = heavy_tank_chassis_archetype
@@ -447,5 +588,14 @@ equipments = {
 			engine_type_slot = empty
 			suspension_type_slot = empty
 		}
+		maximum_speed = 6
+		build_cost_ic = 65
+		reliability = 0.8
+		armor_value = 70
+		defense = 10
+		breakthrough = 83
+		soft_attack = 20
+		hard_attack = 15
+		hardness = 0.95
 	}
 }

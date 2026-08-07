@@ -47,6 +47,10 @@ spriteTypes = {
 		name = "GFX_unit_motorised_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/infantry/motorised.dds"
 	}
+	spriteType = {
+		name = "GFX_unit_armored_car_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/infantry/armored_car.dds"
+	}
 	####
 	spriteType = {
 		name = "GFX_group_artillery_icon"
@@ -83,6 +87,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_heavy_artillery_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/artillery/heavy_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_motorised_anti_tank_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/motorised_anti_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_motorised_artillery_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/artillery/motorised_artillery.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_mechanised_anti_tank_battalion_icon_medium"
@@ -252,14 +264,14 @@ spriteTypes = {
 		name = "GFX_unit_amtrac_engineers_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/amtrac_engineers.dds"
 	}
-	spriteType = {
-		name = "GFX_unit_amtrac_recon_support_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/support/amtrac_recon.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_armored_car_recon_support_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/support/armored_car_recon.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_unit_amtrac_recon_support_icon_medium"
+	#	textureFile = "gfx/interface/counters/divisions_large/support/amtrac_recon.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_unit_armored_car_recon_support_icon_medium"
+	#	textureFile = "gfx/interface/counters/divisions_large/support/armored_car_recon.dds"
+	#}
 	spriteType = {
 		name = "GFX_unit_armored_engineers_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/armored_engineers.dds"
@@ -320,14 +332,10 @@ spriteTypes = {
 		name = "GFX_unit_mechanised_field_hospital_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/mechanised_field_hospital.dds"
 	}
-	spriteType = {
-		name = "GFX_unit_mechanised_logistics_company_support_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/support/mechanised_logistics_company.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_mechanised_recon_support_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/support/mechanised_recon.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_unit_mechanised_recon_support_icon_medium"
+	#	textureFile = "gfx/interface/counters/divisions_large/support/mechanised_recon.dds"
+	#}
 	spriteType = {
 		name = "GFX_unit_military_police_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/military_police.dds"
@@ -349,7 +357,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/support/pioneers.dds"
 	}
 	spriteType = {
-		name = "GFX_unit_rangers_support_icon_medium"
+		name = "GFX_unit_rangers_recon_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/rangers.dds"
 	}
 	spriteType = {

@@ -12,23 +12,73 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_support_company
 			category_engineers_company
 		}
-		combat_width = 0
+		same_support_type = engineers_support
+		#need = {
+		#	support_equipment_archetype = @eng_need
+		#}
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
-		affects_speed = no
-		training_time = 100
-		entrenchment = 2
-		#need = {
-		#	support_equipment_archetype = @eng_need
-		#}
-		same_support_type = engineers_support
+		training_time = 120
+		own_equipment_fuel_consumption_mult = 0
+		supply_consumption = 0.04
+		defense = -0.1
+		soft_attack = -0.5
+		hard_attack = -0.5
+		entrenchment = 4
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.1
+			add = yes
+		}
+		battalion_mult = {
+			category = category_vehicle
+			entrenchment = 0.1
+			add = yes
+		}
+		forest = {
+			defence = 0.15
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.15
+		}
+		marsh = {
+			defence = 0.15
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.15
+		}
+		river = {
+			defence = 0.15
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.2
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.15
+		}
+		dense_urban = {
+			attack = 0.2
+			defence = 0.25
+		}
+		town = {
+			attack = 0.05
+			defence = 0.1
+		}
 	}
 	armored_car_engineers_support = {
 		sprite = infantry
@@ -43,22 +93,79 @@ sub_units = {
 			support
 			mechanized
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_armored_car
 			category_engineers_company
 		}
+		affects_speed = no
+		same_support_type = engineers_support
+		#need = {
+		#	mechanised_utility_ = @eng_need
+		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
-		affects_speed = no
-		training_time = 100
-		#need = {
-		#	mechanised_utility_ = @eng_need
-		#}
-		same_support_type = engineers_support
+		training_time = 120
+		supply_consumption = 0.035
+		soft_attack = -0.5
+		hard_attack = -0.5
+		entrenchment = 3
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.2
+			add = yes
+		}
+		battalion_mult = {
+			category = category_armor
+			breakthrough = 0.05
+			add = yes
+		}
+		defense = 0.15
+		breakthrough = 1
+		soft_attack = -0.5
+		forest = {
+			defence = 0.25
+			movement = 0.1
+		}
+		plains = {
+			movement = 0.1
+		}
+		desert = {
+			movement = 0.1
+		}
+		hills = {
+			defence = 0.1
+			movement = 0.05
+		}
+		jungle = {
+			defence = 0.15
+			movement = 0.05
+		}
+		marsh = {
+			defence = 0.15
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.15
+			defence = 0.25
+		}
+		river = {
+			attack = 0.1
+			defence = 0.15
+			movement = 0.4
+		}
+		amphibious = {
+			attack = 0.2
+		}
+		urban = {
+			attack = 0.2
+			defence = 0.1
+			movement = 0.1
+		}
 	}
 	mechanised_engineers_support = {
 		sprite = infantry
@@ -72,23 +179,75 @@ sub_units = {
 		type = {
 			support
 			mechanized
-		} 
-		group = support regimental = no
+		}
+		group = support
+		regimental = no
+		same_support_type = engineers_support
 		categories = {
 			category_mechanised
 			category_engineers_company
 		}
+		#need = {
+		#	mechanised_utility_ = @eng_need
+		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
-		affects_speed = no
 		training_time = 100
-		#need = {
-		#	mechanised_utility_ = @eng_need
-		#}
-		same_support_type = engineers_support
+		supply_consumption = 0.04
+		defense = -0.1
+		soft_attack = -0.5
+		hard_attack = -0.5
+		entrenchment = 4
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.1
+			add = yes
+		}
+		battalion_mult = {
+			category = category_vehicle
+			entrenchment = 0.1
+			add = yes
+		}
+		own_equipment_fuel_consumption_mult = 0
+		forest = {
+			defence = 0.175
+			movement = 0.01
+		}
+		hills = {
+			defence = 0.125
+		}
+		jungle = {
+			defence = 0.175
+		}
+		marsh = {
+			defence = 0.175
+			movement = 0.15
+		}
+		fort = {
+			attack = 0.15
+		}
+		river = {
+			defence = 0.15
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.25
+		}
+		urban = {
+			attack = 0.125
+			defence = 0.175
+		}
+		dense_urban = {
+			attack = 0.225
+			defence = 0.275
+		}
+		town = {
+			attack = 0.075
+			defence = 0.125
+		}
 	}
 	amtrac_engineers_support = {
 		sprite = infantry
@@ -99,25 +258,79 @@ sub_units = {
 		}
 		active = yes
 		affects_speed = no
+		same_support_type = engineers_support
+		regimental = no
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_amtrac
 			category_engineers_company
 		}
+		#need = {
+		#	amtrac_utility_ = @eng_need
+		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
-		affects_speed = no
 		training_time = 100
-		#need = {
-		#	amtrac_utility_ = @eng_need
-		#}
-		same_support_type = engineers_support
+		supply_consumption = 0.04
+		defense = -0.1
+		soft_attack = -0.5
+		hard_attack = -0.5
+		entrenchment = 4
+		battalion_mult = {
+			category = category_infantry
+			entrenchment = 0.1
+			add = yes
+		}
+		battalion_mult = {
+			category = category_vehicle
+			entrenchment = 0.1
+			add = yes
+		}
+		own_equipment_fuel_consumption_mult = 0
+		forest = {
+			defence = 0.175
+			movement = 0.01
+		}
+		hills = {
+			defence = 0.125
+		}
+		jungle = {
+			defence = 0.175
+		}
+		marsh = {
+			defence = 0.175
+			movement = 0.15
+		}
+		fort = {
+			attack = 0.15
+		}
+		river = {
+			attack = 0.1
+			defence = 0.15
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.5
+		}
+		urban = {
+			attack = 0.125
+			defence = 0.175
+		}
+		dense_urban = {
+			attack = 0.225
+			defence = 0.275
+		}
+		town = {
+			attack = 0.075
+			defence = 0.125
+		}
 	}
 	pioneers_support = {
 		sprite = infantry
@@ -131,20 +344,75 @@ sub_units = {
 		type = {
 			support
 		}
-		group = support regimental = no
+		group = support
+		regimental = no
 		categories = {
 			category_support_company
 		}
+		affects_speed = no
+		same_support_type = engineers_support
+		training_time = 100
+		#need = {
+		#	infantry_equipment = 10
+		#	support_equipment = 30
+		#	squad_equipment = 5
+		#	sf_equipment = 20
+		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
-		affects_speed = no
-		training_time = 100
-		#need = {
-		#	
-		#}
-		same_support_type = engineers_support
+		training_time = 120
+		supply_consumption = 0.02
+		entrenchment = 4
+		battalion_mult = {
+			category = category_marines
+			breakthrough = 0.1
+			#add = yes
+		}
+		entrenchment = 2.5
+		defense = 0.1
+		breakthrough = 0.5
+		soft_attack = -0.5
+		forest = {
+			defence = 0.15
+			movement = 0.05
+		}
+		hills = {
+			defence = 0.1
+		}
+		jungle = {
+			defence = 0.15
+		}
+		marsh = {
+			attack = 0.1
+			defence = 0.15
+			movement = 0.2
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.1
+		}
+		river = {
+			attack = 0.15
+			defence = 0.15
+			movement = 0.25
+		}
+		amphibious = {
+			attack = 0.2
+		}
+		urban = {
+			attack = 0.1
+			defence = 0.15
+		}
+		dense_urban = {
+			attack = 0.2
+			defence = 0.25
+		}
+		town = {
+			attack = 0.05
+			defence = 0.1
+		}
 	}
 }

@@ -340,9 +340,7 @@ political_actions = {
 		complete_effect = {
 			replace_civ_with_arms_factories = yes
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		
 	}
 	women_in_the_workforce = {
 		icon = generic_industry

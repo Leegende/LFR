@@ -22,9 +22,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -41,9 +39,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -60,9 +56,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -79,9 +73,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -98,9 +90,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -117,9 +107,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -136,9 +124,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -157,9 +143,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -179,9 +163,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -201,9 +183,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -223,9 +203,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -245,9 +223,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -267,9 +243,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
@@ -289,9 +263,7 @@
 		available = {
 			always = yes
 		}
-		ai_will_do = {
-			factor = -99999
-		}
+		
 		completion_reward = {
 		}
 	}
