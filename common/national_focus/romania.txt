@@ -15,14 +15,13 @@
 	}
 	focus = {
 		id = ROM_maxi_bring_den_muell_raus
-		icon = GFX_rhineland
+		icon = GFX_goal_unknown
 		x = 0
 		y = 0
 		cost = 5
 		available = {
 			always = yes
 		}
-		
 		completion_reward = {
 			add_political_power = 100
 			add_war_support = 0.1
@@ -31,7 +30,7 @@
 	}
 	focus = {
 		id = ROM_31_geburtstag
-		icon = GFX_rhineland
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		relative_position_id = ROM_maxi_bring_den_muell_raus
@@ -42,14 +41,13 @@
 		available = {
 			always = yes
 		}
-		
 		completion_reward = {
 			transfer_state = 1
 		}
 	}
 	focus = {
 		id = ROM_download_loli_content
-		icon = GFX_rhineland
+		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		relative_position_id = ROM_31_geburtstag
@@ -60,14 +58,13 @@
 		available = {
 			always = yes
 		}
-		
 		completion_reward = {
 			custom_effect_tooltip = juggle1_gain
 		}
 	}
 	focus = {
 		id = ROM_download_vtuber_content
-		icon = GFX_rhineland
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		relative_position_id = ROM_31_geburtstag
@@ -78,7 +75,6 @@
 		available = {
 			always = yes
 		}
-		
 		completion_reward = {
 			BUL = {
 				add_political_power = 100
@@ -88,7 +84,7 @@
 	}
 	focus = {
 		id = ROM_adresse_leaken
-		icon = GFX_rhineland
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = ROM_31_geburtstag
@@ -102,7 +98,6 @@
 		available = {
 			always = yes
 		}
-		
 		completion_reward = {
 			add_ideas = war_economy
 		}

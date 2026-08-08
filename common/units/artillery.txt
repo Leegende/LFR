@@ -58,10 +58,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.05
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.1
 		}
 		#need = {
@@ -126,10 +126,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.2
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.1
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.2
 		}
 		town = {
@@ -195,10 +195,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.75
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.3
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.5
 		}
 		town = {
@@ -262,10 +262,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.8
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.35
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.55
 		}
 		town = {
@@ -324,10 +324,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.1
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.15
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.3
 		}
 		town = {
@@ -394,10 +394,10 @@ sub_units = {
 		amphibious = {
 			attack = -0.075
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.1
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.15
 		}
 		town = {
@@ -461,11 +461,11 @@ sub_units = {
 			attack = -0.1
 			defence = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.2
 			defence = -0.15
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.3
 			defence = -0.25
 		}
@@ -534,11 +534,11 @@ sub_units = {
 			attack = -0.15
 			defence = -0.1
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.25
 			defence = -0.2
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.35
 			defence = -0.3
 		}
@@ -608,10 +608,10 @@ sub_units = {
 			movement = -0.2
 			defence = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.2
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.4
 		}
 		town = {
@@ -691,11 +691,11 @@ sub_units = {
 			defence = -0.2
 			movement = 0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.3
 			defence = -0.9
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.4
 			defence = -1
 		}
@@ -773,11 +773,11 @@ sub_units = {
 			movement = -0.25
 			defence = -0.45
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.45
 			defence = -1
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.5
 			defence = -1.75
 		}
@@ -816,7 +816,7 @@ sub_units = {
 		max_organisation = 20
 		default_morale = 0.3
 		max_strength = 2
-		.5
+
 		supply_consumption = 0.5
 		supply_consumption_factor = 0.08
 		breakthrough = -1
@@ -859,11 +859,11 @@ sub_units = {
 			attack = -0.3
 			defence = -0.65
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.6
 			defence = -1.2
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.7
 			defence = -2
 		}
@@ -938,11 +938,11 @@ sub_units = {
 			defence = -0.15
 			movement = 0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.35
 			defence = -0.9
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.45
 			defence = -1
 		}
@@ -1013,11 +1013,11 @@ sub_units = {
 			movement = -0.25
 			defence = -0.45
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.5
 			defence = -1
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.55
 			defence = -1.75
 		}

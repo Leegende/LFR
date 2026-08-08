@@ -26,7 +26,6 @@ sub_units = {
 		default_morale = 0.8
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.02
 		initiative = 0.2
 		fuel_capacity = -1
@@ -64,7 +63,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.035
 		initiative = 0.25
 	}

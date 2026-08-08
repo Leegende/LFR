@@ -57,13 +57,13 @@ ideas = {
 			removal_cost = -1
 			picture = german_advisors
 			equipment_bonus = {
-				heavy_tank_chassis = {
+				heavy_tank_chassis_archetype = {
 					maximum_speed = 0.15
 					reliability = 0.075
 					build_cost_ic = -0.075
 					instant = yes
 				}
-				heavy_tank_amphibious_chassis = {
+				heavy_tank_amphibious_chassis_archetype = {
 					maximum_speed = 0.2
 					reliability = 0.1
 					build_cost_ic = -0.05
@@ -78,13 +78,13 @@ ideas = {
 			removal_cost = -1
 			picture = german_advisors
 			equipment_bonus = {
-				heavy_tank_chassis = {
+				heavy_tank_chassis_archetype = {
 					armor_value = 0.15
 					hardness = 0.075
 					build_cost_ic = 0.05
 					instant = yes
 				}
-				heavy_tank_amphibious_chassis = {
+				heavy_tank_amphibious_chassis_archetype = {
 					armor_value = 0.2
 					hardness = 0.1
 					build_cost_ic = 0.075
@@ -149,7 +149,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				quipment_conversion_speed = 0.75
+				equipment_conversion_speed = 0.75
 			}
 		}
 		specialised_tank_variants = {

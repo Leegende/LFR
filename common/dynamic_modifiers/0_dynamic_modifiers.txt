@@ -117,7 +117,6 @@ GER_wehrmacht = {
 	special_forces_cap = GER_wehrmacht_special_forces_cap
 	spotting_chance = GER_wehrmacht_spotting_chance
 	supply_consumption_factor = GER_wehrmacht_supply_consumption_factor
-	supply_consumption_factor = GER_wehrmacht_supply_consumption_factor
 	training_time_factor = GER_wehrmacht_training_time_factor
 	unit_leader_as_advisor_cp_cost_factor = GER_wehrmacht_unit_leader_as_advisor_cp_cost_factor
 	attrition = GER_wehrmacht_attrition

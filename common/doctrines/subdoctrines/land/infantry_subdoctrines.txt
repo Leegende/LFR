@@ -124,7 +124,7 @@ assault_infantry = {
 				ap_attack = 0.1
 				hard_attack = 0.1
 			}
-			anti_air = {
+			category_anti_air = {
 				air_attack = 0.1
 			}
 		}
@@ -297,7 +297,7 @@ commandos = {
 			category_field_hospital = {
 				casualty_trickleback = 0.05
 			}
-			helicopter_brigade = {
+			category_helicopter = {
 				casualty_trickleback = 0.05
 			}
 			category_field_hospital = {
@@ -480,7 +480,7 @@ great_war_infantry = {
 	rewards = {
 		traverse_digging = {
 			dig_in_speed_factor = 0.05
-			engineer = {
+			category_engineers_company = {
 				battalion_mult = {
 					category = category_infantry
 					entrenchment = 0.05

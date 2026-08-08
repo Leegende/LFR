@@ -8,6 +8,10 @@ state = {
 		18041
 		18794
 	}
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+	}
 	manpower = 1
 	impassable = yes
 	state_category = wasteland

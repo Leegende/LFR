@@ -6,6 +6,10 @@ state = {
 		18638
 		18911
 	}
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+	}
 	impassable = yes
 	manpower = 1
 	buildings_max_level_factor = 1

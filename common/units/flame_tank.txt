@@ -26,7 +26,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
-		
 		supply_consumption = 0.02
 		battalion_mult = {
 			category = category_infantry
@@ -50,7 +49,7 @@ sub_units = {
 		marsh = {
 			attack = 0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.1
 		}
 		fort = {
@@ -95,7 +94,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
-		
 		supply_consumption = 0.025
 		breakthrough = -0.45
 		defense = -0.7
@@ -115,7 +113,7 @@ sub_units = {
 		marsh = {
 			attack = 0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.15
 		}
 		fort = {
@@ -161,7 +159,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
-		
 		supply_consumption = 0.03
 		can_be_parachuted = no
 		breakthrough = -0.4
@@ -179,7 +176,7 @@ sub_units = {
 		marsh = {
 			attack = 0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.1
 		}
 		fort = {

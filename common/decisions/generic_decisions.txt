@@ -412,7 +412,7 @@ political_actions = {
 		icon = generic_prepare_civil_war
 		available = {
 			threat > 0.25
-			has_tech = radio
+			has_tech = radio_technology
 			has_war = yes
 		}
 		visible = {

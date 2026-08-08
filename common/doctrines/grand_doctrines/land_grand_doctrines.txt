@@ -46,9 +46,6 @@ new_mobile_warfare = {
 		}
 		{
 			org_loss_when_moving = -0.15
-			#category_artillery/Support
-			#breakthrough_factor = 0.1
-			##enable_tactic = tactic_overwhelming_fire
 			effect = {
 				if = {
 					limit = {
@@ -94,7 +91,6 @@ new_mobile_warfare = {
 			}
 		}
 		{
-			#Operations
 			planning_speed = 0.3
 			category_infantry = {
 				max_organisation = 5
@@ -195,7 +191,7 @@ superior_firepower = {
 		}
 		{
 			##enable_tactic = tactic_delay
-			default_morale = 0.2
+			army_morale = 0.2
 			effect = {
 				if = {
 					limit = {
@@ -376,7 +372,6 @@ mass_assault = {
 	out_of_supply_factor = -0.1
 	milestones = {
 		{
-			land_reinforce_rate = 0.03
 			dig_in_speed_factor = 0.05
 			category_infantry = {
 				max_strength = 2.5

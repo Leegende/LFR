@@ -5,7 +5,6 @@ bookmarks = {
 		date = 1936.1.1.12
 		default = yes
 		picture = GFX
-		default_country = GER
 		"SPR" = {
 			ideology = democratic
 			history = "OTHER_GATHERING_STORM_DESC"
@@ -27,7 +26,7 @@ bookmarks = {
 			version = base_game
 		}
 		"SOV" = {
-			ideology = fascism
+			ideology = communism
 			history = "OTHER_GATHERING_STORM_DESC"
 			version = base_game
 		}

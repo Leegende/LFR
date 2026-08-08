@@ -25,7 +25,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 400
 		training_time = 120
-		
 		supply_consumption = 0.02
 		recon = 1
 		forest = {
@@ -82,7 +81,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.06
 		recon = 1
 		forest = {
@@ -131,7 +129,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 400
 		training_time = 120
-		
 		supply_consumption = 0.02
 		recon = 2
 		fuel_capacity = -1
@@ -193,7 +190,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.02
 		recon = 3
 		forest = {
@@ -254,7 +250,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.02
 		recon = 3
 		forest = {
@@ -316,7 +311,6 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
-		
 		supply_consumption = 0.07
 		recon = 4
 		forest = {

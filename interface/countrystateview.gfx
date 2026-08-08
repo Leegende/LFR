@@ -223,7 +223,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/terrains/terrain_plains.dds"
 	}
 	spriteType = {
-		name = "GFX_terrain_urban"
+		name = "GFX_terrain_urban_terrain"
 		textureFile = "gfx/interface/terrains/terrain_urban.dds"
 	}
 	spriteType = {
@@ -256,7 +256,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/terrains/terrain_plains_winter.dds"
 	}
 	spriteType = {
-		name = "GFX_terrain_urban_winter"
+		name = "GFX_terrain_urban_terrain_winter"
 		textureFile = "gfx/interface/terrains/terrain_urban_winter.dds"
 	}
 	spriteType = {

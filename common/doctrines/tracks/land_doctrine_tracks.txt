@@ -14,14 +14,14 @@ infantry = {
 combat_support = {
 	name = DOCTRINE_TRACK_COMBAT_SUPPORT
 	background = "GFX_sup_firepower_bg"
-	icon = "GFX_doctrine_milestone_category_artillery_land"
+	icon = "GFX_doctrine_milestone_artillery_land"
 	icon_frame = "GFX_doctrine_decor_land"
 	mastery = {
 		multiplier = 10
 		categories = {
-			category_line_category_artillery
 			category_artillery
-			category_support_battalions
+			category_artillery
+			category_support_company
 		}
 	}
 }
@@ -35,10 +35,7 @@ armor = {
 		multiplier = 4
 		categories = {
 			category_armor
-			category_armor
-		}
-		sub_units = {
-			armored_car
+			category_armored_car
 		}
 	}
 }
@@ -52,7 +49,6 @@ operations = {
 		multiplier = 0.7
 		categories = {
 			category_infantry
-			category_line_category_artillery
 			category_artillery
 			category_armor
 			category_armor

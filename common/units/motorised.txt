@@ -85,11 +85,11 @@ sub_units = {
 			attack = -0.1
 			defence = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.2
 			defence = -0.25
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.3
 			defence = -0.35
 		}
@@ -150,11 +150,11 @@ sub_units = {
 			attack = -0.1
 			defence = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.2
 			defence = -0.25
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.3
 			defence = -0.35
 		}
@@ -227,11 +227,11 @@ sub_units = {
 			movement = -0.25
 			defence = -0.05
 		}
-		urban = {
+		urban_terrain = {
 			attack = -0.15
 			defence = -0.05
 		}
-		dense_urban = {
+		metropolis = {
 			attack = -0.25
 			defence = -0.1
 		}

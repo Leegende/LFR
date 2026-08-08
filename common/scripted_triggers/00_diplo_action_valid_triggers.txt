@@ -114,10 +114,3 @@ is_diplomatic_action_valid_send_volunteers = {
 	always = no
 }
 
-is_diplomatic_action_valid_send_exp_force = {
-	always = no
-}
-
-is_diplomatic_action_valid_return_exp_force = {
-	always = no
-}

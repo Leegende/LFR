@@ -43,7 +43,7 @@ categories = {
 			120
 		}
 	}
-	dense_urban = {
+	metropolis = {
 		color = {
 			121
 			121
@@ -78,7 +78,7 @@ categories = {
 			66
 		}
 	}
-	urban = {
+	urban_terrain = {
 		color = {
 			120
 			120
@@ -225,12 +225,12 @@ terrain = {
 		texture = 8
 	}
 	forest_13 = {
-		type = urban
+		type = urban_terrain
 		color = {
 			13
 		}
 		texture = 10
-		spawn_city = yes
+		#spawn_city = yes
 	}
 	forest_14 = {
 		type = lakes

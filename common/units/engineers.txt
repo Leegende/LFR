@@ -67,11 +67,11 @@ sub_units = {
 		amphibious = {
 			attack = 0.2
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.1
 			defence = 0.15
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.2
 			defence = 0.25
 		}
@@ -161,7 +161,7 @@ sub_units = {
 		amphibious = {
 			attack = 0.2
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.2
 			defence = 0.1
 			movement = 0.1
@@ -236,11 +236,11 @@ sub_units = {
 		amphibious = {
 			attack = 0.25
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.125
 			defence = 0.175
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.225
 			defence = 0.275
 		}
@@ -319,11 +319,11 @@ sub_units = {
 		amphibious = {
 			attack = 0.5
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.125
 			defence = 0.175
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.225
 			defence = 0.275
 		}
@@ -402,11 +402,11 @@ sub_units = {
 		amphibious = {
 			attack = 0.2
 		}
-		urban = {
+		urban_terrain = {
 			attack = 0.1
 			defence = 0.15
 		}
-		dense_urban = {
+		metropolis = {
 			attack = 0.2
 			defence = 0.25
 		}

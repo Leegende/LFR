@@ -2,6 +2,8 @@ state = {
 	id = 17
 	name = "STATE_17"
 	history = {
+		owner = DMZ
+		add_core_of = DMZ
 	}
 	manpower = 1
 	impassable = yes

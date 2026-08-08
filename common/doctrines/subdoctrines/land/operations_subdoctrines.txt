@@ -105,7 +105,6 @@ infiltration_tactics = {
 	supply_consumption_factor = -0.05
 	rewards = {
 		infiltration_assault = {
-			breakthrough = 0.05
 			category_armor_flamethrower = {
 				breakthrough = 0.05
 				max_organisation = 10
@@ -291,33 +290,16 @@ expeditionary_warfare = {
 	icon = GFX_doctrine_expeditionary_warfare_medium
 	xp_cost = 100
 	xp_type = army
-	send_volunteer_divisions_required = -0.5
-	send_volunteer_factor = 0.25
-	send_volunteers_tension = -0.1
 	rewards = {
 		staging_area_security = {
-			dig_in_speed_factor = 0.05
-			out_of_supply_factor = -0.2
-			defense = 0.1
 		}
 		landing_operations = {
-			#2
-			naval_invasion_prep_speed = 0.2
-			naval_invasion_penalty = -0.15
-			naval_invasion_planning_bonus_speed = 0.2
-			soft_attack = 0.1
 		}
 		shore_fire_control_parties = {
-			#3
-			shore_bombardment_bonus = 0.25
 		}
 		breakout_emphasis = {
-			#4
-			no_supply_grace = 32
 		}
 		withdrawal_protocols = {
-			#5
-			org_loss_when_moving = -0.2
 		}
 	}
 }
