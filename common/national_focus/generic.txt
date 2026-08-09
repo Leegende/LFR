@@ -7,6 +7,7 @@ focus_tree = {
 	reset_on_civilwar = no
 	focus = {
 		id = army_effort
+		text = ""
 		icon = GFX_goal_unknown
 		x = 0
 		y = 0

@@ -2295,7 +2295,7 @@
 2294;221;117;204;land;false;plains;1
 2295;152;193;228;land;false;mountain;1
 2296;173;132;249;land;false;hills;7
-2297;233;225;75;land;true;desert;5
+2297;233;225;75;land;false;desert;5
 2298;236;223;100;land;false;hills;7
 2299;233;123;191;land;false;plains;1
 2300;126;174;211;land;false;plains;1

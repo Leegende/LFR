@@ -2902,7 +2902,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.3
+				country_event = germany.21
 				set_country_flag = GER_guderian_1
 				set_country_flag = GER_guderian_selected
 				clr_country_flag = GER_general_appointment_available
@@ -3285,7 +3285,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.5
+				country_event = germany.41
 				set_country_flag = GER_kluge_1
 				set_country_flag = GER_kluge_selected
 				clr_country_flag = GER_general_appointment_available
@@ -3613,7 +3613,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.6
+				country_event = germany.51
 				set_country_flag = GER_student_1
 				set_country_flag = GER_student_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4018,7 +4018,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.4
+				country_event = germany.31
 				set_country_flag = GER_model_1
 				set_country_flag = GER_model_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4382,7 +4382,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.7
+				country_event = germany.61
 				set_country_flag = GER_kesselring_1
 				set_country_flag = GER_kesselring_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4712,7 +4712,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.8
+				country_event = germany.71
 				set_country_flag = GER_milch_1
 				set_country_flag = GER_milch_selected
 				clr_country_flag = GER_general_appointment_available

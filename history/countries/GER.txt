@@ -188,7 +188,7 @@ set_variable = {
 }
 
 set_variable = {
-	GER_wehrmacht_army_attack_factor = 1
+	GER_wehrmacht_army_attack_factor = 0
 }
 
 set_variable = {
