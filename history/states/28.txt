@@ -71,7 +71,7 @@ id = 28
 		20361
 	}
 	manpower = 803263
-	state_category = pastoral
+	state_category = state_level_4
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

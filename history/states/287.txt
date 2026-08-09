@@ -72,7 +72,7 @@ state = {
 		14661
 	}
 	manpower = 1091611
-	state_category = pastoral
+	state_category = state_level_4
 	buildings_max_level_factor = 1
 	local_supplies = 0
 }

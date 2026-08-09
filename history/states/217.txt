@@ -152,6 +152,6 @@ state = {
 	}
 	manpower = 2305013
 	buildings_max_level_factor = 1
-	state_category = megalopolis
+	state_category = state_level_11
 	local_supplies = 0
 }

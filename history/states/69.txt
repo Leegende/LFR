@@ -6,6 +6,8 @@ state = {
 		add_core_of = UAC
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 5
 		}
 		victory_points = {
 			15783
@@ -65,6 +67,6 @@ state = {
 	}
 	manpower = 1
 	buildings_max_level_factor = 1
-	state_category = city
+	state_category = state_level_8
 	local_supplies = 0
 }

@@ -8,9 +8,9 @@ categories = {
 	}
 	ocean = {
 		color = {
-			40
-			83
-			176
+			8
+			31
+			130
 		}
 		naval_terrain = yes
 		minimum_seazone_dominance = 250
@@ -24,9 +24,9 @@ categories = {
 	}
 	lakes = {
 		color = {
-			58
-			91
-			255
+			8
+			31
+			130
 		}
 	}
 	safari = {
@@ -38,51 +38,51 @@ categories = {
 	}
 	town = {
 		color = {
-			120
-			120
-			120
+			240
+			255
+			0
 		}
 	}
 	metropolis = {
 		color = {
-			121
-			121
-			121
+			240
+			255
+			0
 		}
 	}
 	forest = {
 		color = {
-			89
-			199
-			85
+			0
+			86
+			6
 		}
 	}
 	hills = {
 		color = {
-			248
-			255
-			153
+			112
+			74
+			31
 		}
 	}
 	mountain = {
 		color = {
-			157
-			192
-			208
+			92
+			83
+			76
 		}
 	}
 	plains = {
 		color = {
-			255
-			129
-			66
+			86
+			124
+			27
 		}
 	}
 	urban_terrain = {
 		color = {
-			120
-			120
-			120
+			240
+			255
+			0
 		}
 	}
 	jungle = {
@@ -94,15 +94,15 @@ categories = {
 	}
 	marsh = {
 		color = {
-			76
-			96
-			35
+			75
+			147
+			174
 		}
 	}
 	desert = {
 		color = {
+			252
 			255
-			127
 			0
 		}
 	}

@@ -6,7 +6,6 @@ state = {
 		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
 		}
 		victory_points = {
 			20912
@@ -66,7 +65,7 @@ state = {
 		19768
 	}
 	manpower = 879446
-	state_category = large_town
+	state_category = state_level_7
 	buildings_max_level_factor = 1
 	local_supplies = 0
 }

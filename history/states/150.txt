@@ -108,7 +108,7 @@ id = 150
 	}
 	manpower = 1865166
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = state_level_5
 	local_supplies = 0.000
 }
 

@@ -1,13 +1,13 @@
 state_categories = {
-	enclave = {
-		local_building_slots = 4
+	state_level_6 = {
+		local_building_slots = 19
 		buildings_max_level = {
 			air_base = 10
 		}
 		color = {
-			40
-			40
-			40
+			200
+			200
+			0
 		}
 	}
 }

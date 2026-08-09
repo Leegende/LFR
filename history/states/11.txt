@@ -10,7 +10,7 @@ state = {
 	}
 	manpower = 719673
 	buildings_max_level_factor = 1
-	state_category = wasteland
+	state_category = state_level_0
 	local_supplies = 0
 	provinces = {
 		8076

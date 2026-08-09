@@ -1,13 +1,13 @@
 state_categories = {
-	rural = {
-		local_building_slots = 17
+	state_level_0 = {
+		local_building_slots = 1
 		buildings_max_level = {
 			air_base = 10
 		}
 		color = {
-			240
-			160
-			0
+			40
+			40
+			40
 		}
 	}
 }

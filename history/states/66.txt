@@ -57,6 +57,6 @@ state = {
 	}
 	manpower = 1
 	buildings_max_level_factor = 1
-	state_category = city
+	state_category = state_level_8
 	local_supplies = 0
 }

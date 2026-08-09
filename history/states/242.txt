@@ -69,7 +69,7 @@ state = {
 		}
 	}
 	manpower = 1860837
-	state_category = metropolis
+	state_category = state_level_10
 	buildings_max_level_factor = 1
 	local_supplies = 0
 }

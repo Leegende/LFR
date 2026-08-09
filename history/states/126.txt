@@ -10,7 +10,7 @@ state = {
 	}
 	impassable = yes
 	manpower = 1
-	state_category = wasteland
+	state_category = state_level_0
 	buildings_max_level_factor = 1
 	local_supplies = 0
 }
