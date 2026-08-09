@@ -4,6 +4,7 @@ strategic_region = {
 	provinces = {
 		969
 		15942
+		7251
 		15944
 		15964
 		16066

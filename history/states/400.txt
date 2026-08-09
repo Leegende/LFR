@@ -1,0 +1,17 @@
+state = {
+	id = 400
+	name = "STATE_400"
+	provinces = {
+		2435
+		19365
+	}
+	history = {
+		owner = DMZ
+		add_core_of = DMZ
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	impassable = yes
+	state_category = wasteland
+	local_supplies = 0
+}

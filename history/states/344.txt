@@ -3,6 +3,7 @@ state = {
 	name = "STATE_344"
 	provinces = {
 		969
+		7251
 	}
 	history = {
 		owner = ENG

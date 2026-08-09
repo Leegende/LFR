@@ -3,6 +3,13 @@ state = {
 	name = "STATE_399"
 	provinces = {
 		2297
+		19358
+		19373
+		9678
+		19374
+		19376
+		14752
+
 	}
 	history = {
 		owner = DMZ
