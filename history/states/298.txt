@@ -70,7 +70,7 @@ state = {
 		19849
 	}
 	manpower = 1939826
-	buildings_max_level_factor = 1
+	
 	state_category = state_level_8
-	local_supplies = 0
+	
 }

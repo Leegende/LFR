@@ -11,9 +11,9 @@ state = {
 		}
 	}
 	manpower = 1
-	buildings_max_level_factor = 1
+	
 	state_category = state_level_5
-	local_supplies = 0
+	
 	provinces = {
 		3124
 		10814

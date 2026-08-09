@@ -9,9 +9,9 @@ state = {
 		}
 	}
 	manpower = 719673
-	buildings_max_level_factor = 1
-	state_category = state_level_0
-	local_supplies = 0
+	
+	state_category = state_level_2
+	
 	provinces = {
 		8076
 		21511

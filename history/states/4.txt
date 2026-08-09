@@ -3,13 +3,13 @@ state = {
 	name = "STATE_4"
 	manpower = 1
 	impassable = yes
-	buildings_max_level_factor = 1
+	
 	state_category = state_level_0
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
 	}
-	local_supplies = 0
+	
 	provinces = {
 		19243
 		14673

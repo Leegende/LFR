@@ -1,7 +1,6 @@
-
-state={
-id = 174
-	name="STATE_174"
+state = {
+	id = 174
+	name = "STATE_174"
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
@@ -11,12 +10,10 @@ id = 174
 			arms_factory = 2
 		}
 	}
-	provinces={
-		19626 19627 
+	provinces = {
+		19626
+		19627
 	}
-	manpower=45900
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 45900
 	state_category = state_level_2
 }
-

@@ -13,6 +13,6 @@ state = {
 	manpower = 1
 	state_category = state_level_0
 	impassable = yes
-	buildings_max_level_factor = 1
-	local_supplies = 0
+	
+	
 }

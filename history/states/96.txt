@@ -13,8 +13,8 @@ state = {
 		add_core_of = DMZ
 	}
 	manpower = 1
-	buildings_max_level_factor = 1
+	
 	impassable = yes
 	state_category = state_level_0
-	local_supplies = 0
+	
 }

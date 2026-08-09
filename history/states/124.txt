@@ -51,8 +51,8 @@ id = 124
 		13608
 	}
 	manpower = 1065080
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	
+	
 	state_category = state_level_5
 }
 
