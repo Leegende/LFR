@@ -35,4 +35,57 @@ characters = {
 	FIN_end = {
 		name = ""
 	}
+	## advisor
+	#Juho Kusti Pasikivi Staunch Monachist 10% neutrality
+	#Antti Hackzell Silent Workhorse
+	#Aimo Lahti Master Armorer 
+	#Ake Henrik Gartz Captain of industry
+	#Risto Ryti Whit eLiberal 5% cap 5% pp 
+	#Aimo Aaltonen pp 5% st 5%
+	#Vilho Annala Facisct Corporatist 5% pp 5% factory 5% facism 
+	#Bruno Salmiala Subservient Ultranationalist facism 0.05% pp gain 15%
+	#Arvi Kalsta Facist Businessman 5% consumer facism 0.02%
+	## army
+	#Carl Gustav Mannerheim Army Defense genius 
+	#Lauri Malmberg army drill
+	#Karl Fredrik Wilkama Old guard
+	#Hugo Österman army defense 
+	#Aksel Airo Army Planning 
+	#Toivo Antikainen Army Planning
+	## artillery
+	#Vilho Petter Nenonen artillery genius
+	## air
+	#Olavi Sarko Cas
+	## high command
+	#Karl Oesch Army Regrouping Genius
+	#Wiljo Tuompo Commando Expert
+	#Harald Öhquist Entrenchment
+	#Kaarlo Somerto Artillery 
+	#Alpo Marttinen Army logistics 
+	#Frans Helminen Conceealment
+	#Johan Arajuuri Infantry expert
+	#Rudolf Walden Fort Line Organizer Recon bonus while entrenched 10% land fort effectiveness 10% land fort repair sped 50%
+	#Nikolaus von Falkenhorst German Commander Amphibious Invasion Speed 10% Inf attack 5% maximum cp 60%
+	## theorist
+	#Carl Gustav Mannerheim Guerilla Expert 
+	#Vilho Petter Nenonen superior firepower
+	#Arne Somersalo Air cas
+	#Hugo Österman military theorist
+	#Karl Oesch gbp 
+	#Ruben Lagus mobile warfare
+	#Gustaf Magnusson cas 2
+	#Akseli Anttila Mass assault 
+	### gen
+	#Karl Oesch Winter specialist jaeger
+	#Erik Heinrichs ranger homeland connoisseur 2.5% defense jaeger
+	#Vilho Petter Nenonen Artillery homeland winter
+	#Aksel Airo attack inf organizer ranger winter
+	#Aarne Juutilainen trickster commando hill
+	#Woldemar Häggiund inf jaeger trickster commando winter
+	## field marshal
+	#Carl Gustav Mannerheim defense caoutis war hero trickster defense winter
+	#Hugo Österman attack winter
+
+
+
 }

@@ -16,9 +16,9 @@ sub_units = {
 			category_armor
 			category_light_tank
 		}
-		#need = {
-		#	light_tank_chassis = @light_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 10
@@ -67,9 +67,9 @@ sub_units = {
 			category_armor
 			category_medium_tank
 		}
-		#need = {
-		#	medium_tank_chassis = @medium_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 10
@@ -121,9 +121,9 @@ sub_units = {
 			category_armor
 			category_heavy_tank
 		}
-		#need = {
-		#	heavy_tank_chassis = @heavy_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 12
@@ -207,9 +207,9 @@ sub_units = {
 			category_light_tank
 			category_amphibious_light_tank
 		}
-		#need = {
-		#	light_tank_amphibious_chassis = @light_tank_need
-		#}
+		
+		
+		
 	}
 	medium_tank_amphibious_battalion = {
 		sprite = amphibious_armor
@@ -226,9 +226,9 @@ sub_units = {
 			category_medium_tank
 			category_amphibious_medium_tank
 		}
-		#need = {
-		#	medium_tank_amphibious_chassis = @medium_tank_need
-		#}
+		
+		
+		
 	}
 	heavy_tank_amphibious_battalion = {
 		sprite = amphibious_armor
@@ -245,8 +245,8 @@ sub_units = {
 			category_heavy_tank
 			category_amphibious_heavy_tank
 		}
-		#need = {
-		#	heavy_tank_amphibious_chassis = @heavy_tank_need
-		#}
+		
+		
+		
 	}
 }

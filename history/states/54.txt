@@ -1,6 +1,9 @@
 state = {
 	id = 54
 	name = "STATE_54"
+	resources = {
+		chromium = 50		
+	}
 	history = {
 		owner = ENG
 		add_core_of = ENG
@@ -62,6 +65,4 @@ state = {
 	}
 	manpower = 387348
 	state_category = state_level_4
-	
-	
 }

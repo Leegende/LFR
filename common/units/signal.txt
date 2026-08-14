@@ -16,10 +16,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = signal_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	motorised_equipment = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 1
 		max_organisation = 80
@@ -48,10 +48,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = signal_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	armored_support_vehicle_chassis_archetype = 20
-		#}
+		
+		
+		
+		
 		battalion_mult = {
 			category = category_armor
 			breakthrough = 0.05

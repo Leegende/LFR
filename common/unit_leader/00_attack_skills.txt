@@ -1,0 +1,53 @@
+leader_attack_skills = {
+	1 = {
+		type = corps_commander
+	}
+	2 = {
+		type = corps_commander
+		modifier = {
+			offence = 0.05
+		}
+	}
+	3 = {
+		type = corps_commander
+		modifier = {
+			offence = 0.1
+		}
+	}
+	4 = {
+		type = corps_commander
+		modifier = {
+			offence = 0.15
+		}
+	}
+	5 = {
+		type = corps_commander
+		modifier = {
+			offence = 0.2
+		}
+	}
+	6 = {
+		type = corps_commander
+		modifier = {
+			offence = 0.25
+		}
+	}
+	1 = {
+		type = field_marshal
+		modifier = {
+			offence = 0.05
+		}
+	}
+	2 = {
+		type = field_marshal
+		modifier = {
+			offence = 0.1
+		}
+	}
+	3 = {
+		type = field_marshal
+		modifier = {
+			offence = 0.15
+		}
+	}
+}

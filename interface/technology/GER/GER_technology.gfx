@@ -24,7 +24,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GER/INFANTRY/infantry_weapon_5_equipment.dds"
 		legacy_lazy_load = no
 	}
-	# armor
+	
 	spriteType = {
 		name = "GFX_ger_light_tank_panzer_1_chassis_technology_medium"
 		textureFile = "gfx/interface/technologies/GER/ARMOUR_GER/light/PANZER_1/panzer_1.dds"

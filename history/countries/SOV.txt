@@ -12,4 +12,3 @@ set_popularities = {
 	communism = 88
 }
 recruit_character = SOV_joseph_stalin
-recruit_character = SOV_end

@@ -19,12 +19,12 @@ motorised_infantry_support = {
 		max_organisation = 10
 		breakthrough = 0.1
 	}
-	##enable_tactic = tactic_unexpected_thrust
+	
 	milestones = {
 		{
 			land_reinforce_rate = 0.02
 			supply_consumption_factor = -0.05
-			##enable_tactic = tactic_delay
+			
 			effect = {
 				if = {
 					limit = {
@@ -73,7 +73,7 @@ motorised_infantry_support = {
 				breakthrough = 0.1
 			}
 			planning_speed = 0.2
-			##enable_tactic = tactic_blitz
+			
 			effect = {
 				if = {
 					limit = {
@@ -93,13 +93,13 @@ motorised_infantry_support = {
 			}
 		}
 		{
-			#Operations
+			
 			category_vehicle = {
 				max_strength = 2
 				max_organisation = 5
 				default_morale = 0.05
 			}
-			##enable_tactic = tactic_backhand_blow
+			
 			effect = {
 				if = {
 					limit = {
@@ -425,7 +425,7 @@ supply_lines = {
 				max_strength = 0.5
 				default_morale = 0.05
 			}
-			#enable_tactic = tactic_overwhelming_fire
+			
 			effect = {
 				if = {
 					limit = {

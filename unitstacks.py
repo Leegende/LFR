@@ -32,7 +32,7 @@ def fix_unitstacks(unitstacks_path: Path, errors: dict):
 
     for line in lines:
         stripped = line.strip()
-        if not stripped or stripped.startswith('#'):
+        if not stripped or stripped.startswith('
             parsed_lines.append((None, line))
             continue
         
@@ -43,7 +43,7 @@ def fix_unitstacks(unitstacks_path: Path, errors: dict):
                 s_idx = int(parts[1])
                 existing_entries.add((p_id, s_idx))
                 if p_id not in province_templates:
-                    province_templates[p_id] = parts[2:]  # X, Y, Z, Rotation, Scale
+                    province_templates[p_id] = parts[2:]  
                 parsed_lines.append(('entry', line))
             except ValueError:
                 parsed_lines.append((None, line))

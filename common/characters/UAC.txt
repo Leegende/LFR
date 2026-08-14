@@ -13,4 +13,50 @@ characters = {
 	UAC_end = {
 		name = ""
 	}
+	### advisor
+	#Stewart Symes max faac 5% prod growth 5% 
+	#Aziz ezzat pp5%
+	#Ismail Sidky silent workhorse
+	#Ahmad Maher Pasha st 5% ws -5% facis -0.03%
+	#Aly Maher Pasha constr 5% 
+	#Abbud Pasha infra 10% civ 10%
+	#Hussein Sirri Pasha Quartermaster General
+	#Taha Hussein Pharanist pp 10% mob speed 15 % st -8%
+	#Talaat Harb financial expert -15%
+	#Abd al-Rahman al-Mahdi pan africanism 5% core 
+	## army
+	#Hussein Refki defense
+	#Ahmad Ismail Alli army offense
+	#Ibrahim abboud army drill
+	#abdel moneim amin old guard
+	#Ahmed hassanein army maneuver
+	## air 
+	#Victor tait cas
+	##a rty
+	#khalid ibn uthman 
+	#shukri ibn abd allah
+	## high command hussein el-shafei cav 
+	#abdul munim riad arty expert
+	#ahmed ali al-mwawi logistcs
+	#abdel latif boghdadi inf
+	#hassan ibrahim inf
+	##theorist
+	#mohamed naguib military theorist
+	#ali ibn ja'far air warfare
+	#mehmet kaplan gbp expert
+	#youssef ramadan inf
+	##gen 
+	#mohamed naguib armor war hero
+	#hussein el-shafei cav reckless 
+	#ahmad ismail ali def inf
+	#abdul munim riad arty organiser
+	#ahmed ali al-mwawi inf cautious
+	#ibrahim abboud attack cav controversial figure
+	#muhammad anwar sadat attack 
+	#mohamed ahmed sadek inf
+	## marshal
+	#hussein refki egypt old guard planing inf
+	#fuad i war hero egypt core
+	#aziz ezzat cav egypt old guard
+	#hussein sirri amer inf egypt
 }

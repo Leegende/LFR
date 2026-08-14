@@ -2,21 +2,14 @@ on_actions = {
 	on_daily = {
 		effect = {
 			news_event = {
-				id = news.1
+				id = lfr.1
 			}
 		}
 	}
 	on_startup = {
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						has_global_flag = startup_done
-					}
-				}
-				GER = {
-					LFR_starting_scripted_effect = yes
-				}
+			DMZ = {
+				LFR_starting_scripted_effect = yes
 			}
 		}
 	}

@@ -39,22 +39,54 @@ set_technology = {
 }
 
 recruit_character = GER_adolf_hitler
-#recruit_character = GER_hjalmar_schacht
-#recruit_character = GER_albert_speer
-#recruit_character = GER_sepp_dietrich
-#recruit_character = GER_heinz_guderian
-#recruit_character = GER_walter_model
-#recruit_character = GER_gunther_von_kluge
-#recruit_character = GER_kurt_student
-#recruit_character = GER_albert_kesselring
-#recruit_character = GER_erhard_milch
-recruit_character = GER_end
-
-
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_albert_speer
+recruit_character = GER_fritz_todt
+recruit_character = GER_heinrich_himmler
+recruit_character = GER_joseph_goebbels
+recruit_character = GER_rudolf_hess
+recruit_character = GER_martin_bormann
+recruit_character = GER_reinhard_heydrich
+recruit_character = GER_leni_riefenstahl
+recruit_character = GER_joachim_von_ribbentrop
+recruit_character = GER_alfred_becker
+recruit_character = GER_walther_funk
+recruit_character = GER_franz_halder
+recruit_character = GER_wilhelm_keitel
+recruit_character = GER_ludwig_beck
+recruit_character = GER_walther_von_brauchitsch
+recruit_character = GER_werner_von_fritsch
+recruit_character = GER_alfred_jodl
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_erhard_milch
+recruit_character = GER_kurt_student
+recruit_character = GER_albert_kesselring
+recruit_character = GER_hermann_goring
+recruit_character = GER_wolfram_von_richthofen
+recruit_character = GER_robert_knauss
+recruit_character = GER_josef_kammhuber
+recruit_character = GER_werner_von_blomberg
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_walter_nehring
+recruit_character = GER_sepp_dietrich
+recruit_character = GER_paul_hausser
+recruit_character = GER_walter_kruger
+recruit_character = GER_heinz_guderian
+recruit_character = GER_erwin_rommel
+recruit_character = GER_hasso_von_manteuffel
+recruit_character = GER_walter_model
+recruit_character = GER_erich_von_manstein
+recruit_character = GER_hermann_hoth
+recruit_character = GER_gunther_von_kluge
+recruit_character = GER_gerd_von_rundstedt
+recruit_character = GER_erwin_von_witzleben
+recruit_character = GER_richard_heidrich
+recruit_character = GER_ferdinand_schorner
 add_ideas = {
 	partial_economic_mobilisation
 	limited_exports
 }
+
 add_dynamic_modifier = {
 	modifier = GER_mefo_bills
 }
@@ -261,10 +293,6 @@ set_variable = {
 
 set_variable = {
 	GER_wehrmacht_dig_in_speed_factor = 0
-}
-
-set_variable = {
-	GER_wehrmacht_equipment_capture = 0
 }
 
 set_variable = {

@@ -1,6 +1,6 @@
-##germany
+
 spriteTypes = {
-	##blueprint
+	
 	spriteType = {
 		name = "GFX_blueprint_light_tank_panzer_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_1/panzer_1_blueprint.dds"
@@ -26,7 +26,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_1/flammpanzer_1_blueprint.dds"
 		legacy_lazy_load = no
 	}
-	## panzer 2
+	
 	spriteType = {
 		name = "GFX_blueprint_light_tank_panzer_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_2/panzer_2_blueprint.dds"
@@ -52,7 +52,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_2/flammpanzer_2_blueprint.dds"
 		legacy_lazy_load = no
 	}
-	#schwimmpanzer 2
+	
 	spriteType = {
 		name = "GFX_blueprint_light_tank_schwimmpanzer_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/schwimmpanzer_2/schwimmpanzer_2_blueprint.dds"
@@ -78,7 +78,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/schwimmpanzer_2/schwimmflammpanzer_2_blueprint.dds"
 		legacy_lazy_load = no
 	}
-	## panzer 38t
+	
 	spriteType = {
 		name = "GFX_blueprint_light_tank_panzer_38t"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_38t/panzer_38t_blueprint.dds"
@@ -104,7 +104,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/panzer_38t/flammpanzer_38t_blueprint.dds"
 		legacy_lazy_load = no
 	}
-	## leopard
+	
 	spriteType = {
 		name = "GFX_blueprint_light_tank_panzer_leopard"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/GER/light/leopard/leopard_blueprint.dds"
@@ -132,7 +132,7 @@ spriteTypes = {
 	}
 }
 
-##hun
+
 spriteTypes = {
 	spriteType = {
 		name = "GFX_blueprint_light_tank_panzer_1"

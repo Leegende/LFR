@@ -12,6 +12,6 @@ state = {
 			infrastructure = 6
 		}
 	}
-	manpower = 1
+	manpower = 115870
 	state_category = state_level_0
 }

@@ -1,0 +1,27 @@
+equipments = {
+	convoy = {
+		is_archetype = yes
+		type = convoy
+		picture = archetype_convoy
+		group_by = archetype
+		sprite = convoy
+		interface_category = interface_category_other_ships
+		sub_detection = 0
+		fuel_consumption = 0
+		reliability = 0.8
+		naval_speed = 12
+		max_strength = 999
+		max_organisation = 999
+		lend_lease_cost = 0
+		offensive_weapons = no
+		build_cost_ic = 70
+		resources = {
+			steel = 10
+		}
+	}
+	convoy_1 = {
+		archetype = convoy
+		active = yes
+		priority = 10
+	}
+}

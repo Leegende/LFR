@@ -186,7 +186,6 @@ script_enum_equipment_bonus_type = {
 	rocket
 	flame
 	land_cruiser
-	###
 	fighter_archetype
 	fighter_bomber_archetype
 	cas_archetype
@@ -222,7 +221,6 @@ script_enum_equipment_bonus_type = {
 	special_forces_equipment_archetype
 	helicopter_equipment_archetype
 	motorbike_equipment_archetype
-	###
 	armored_car_1_equipment
 	armored_car_2_equipment
 	armored_car_3_equipment
@@ -753,4 +751,5 @@ script_enum_equipment_bonus_type = {
 	railway_gun_archetype
 	railway_gun_1_equipment
 	railway_gun_2_equipment
+	convoy_1
 }

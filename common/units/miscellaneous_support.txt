@@ -19,9 +19,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
 	}
 	commandos_regimental = {
 		sprite = infantry
@@ -43,9 +43,9 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
 	}
 	sniper_regimental = {
 		sprite = infantry
@@ -67,8 +67,8 @@ sub_units = {
 		manpower = 300
 		affects_speed = no
 		training_time = 100
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
 	}
 }

@@ -20,17 +20,12 @@ focus_tree = {
 			y = 1000
 		}
 	}
-	############################################################################################################################
-	############################################################################################################################
-	############################################################################################################################
-	############################################################################################################################
-	#TERRITORIAL AMBITIONS
 	focus = {
 		id = GER_rhineland
 		icon = GFX_goal_unknown
 		x = 18
 		y = 7
-		cost = 5
+		cost = 35
 		available = {
 			always = yes
 		}
@@ -60,7 +55,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -5
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -102,7 +97,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -3
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -145,7 +140,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -174,7 +169,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -202,7 +197,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -267,7 +262,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 5
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -304,7 +299,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2.3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_anschluss
 		}
@@ -356,7 +351,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1.5
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_molotov_ribbentrop_pact
 		}
@@ -373,7 +368,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -2
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_weiss
 		}
@@ -390,7 +385,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_gelb
 		}
@@ -407,7 +402,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 2
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_weiss
 		}
@@ -424,7 +419,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_operation_weseruebung
 		}
@@ -440,7 +435,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_weiss
 		}
@@ -456,7 +451,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_expand_the_ss
 		}
@@ -472,7 +467,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_weiss
 		}
@@ -504,7 +499,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_integrate_poland
 		}
@@ -538,7 +533,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_fall_weiss
 		}
@@ -558,7 +553,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_prepare_the_final_blow
 		}
@@ -575,7 +570,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1.5
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_unternehmen_barbarossa
 		}
@@ -592,7 +587,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1.5
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_unternehmen_barbarossa
 		}
@@ -604,22 +599,18 @@ focus_tree = {
 			custom_effect_tooltip = "spawn in divs"
 		}
 	}
-	###############################################################################
-	###############################################################################
-	###############################################################################
-	#Industry
 	focus = {
 		id = GER_four_year_plan
 		icon = GFX_goal_unknown
 		x = 2
 		y = 7
-		cost = 5
+		cost = 35
 		available = {
 			always = yes
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = GER_hjalmar_schacht
+			#show_ideas_tooltip = GER_hjalmar_schacht
 			190 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -638,14 +629,12 @@ focus_tree = {
 			}
 		}
 	}
-	###################################################################################
-	#Short Term
 	focus = {
 		id = GER_short_term
 		icon = GFX_goal_unknown
 		x = -6
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = GER_four_year_plan
 		}
@@ -735,7 +724,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_short_term
 		}
@@ -765,7 +754,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_war_economy
 		}
@@ -793,7 +782,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_autarky
 		}
@@ -815,7 +804,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_war_economy
 		}
@@ -855,7 +844,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_rheinmetall_merger
 		}
@@ -895,7 +884,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_expand_mefo_bills
 		}
@@ -923,7 +912,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_reichsarbeiterdienst
 		}
@@ -941,7 +930,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_short_term
 			focus = GER_long_term
@@ -966,7 +955,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_coal_liquidization
 		}
@@ -976,7 +965,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = ig_farben_idea
+			#show_ideas_tooltip = ig_farben_idea
 		}
 	}
 	focus = {
@@ -984,7 +973,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_ig_farben
 		}
@@ -1010,7 +999,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_ig_farben
 		}
@@ -1042,7 +1031,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_secure_the_lifeline
 			focus = GER_kickstart_rubber_production
@@ -1086,7 +1075,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_long_term
 			focus = GER_short_term
@@ -1130,7 +1119,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_economical_integration
 		}
@@ -1170,7 +1159,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_substitute_trade
 		}
@@ -1207,7 +1196,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_substitute_trade
 		}
@@ -1244,7 +1233,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_substitute_trade
 		}
@@ -1280,7 +1269,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -3
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_short_term
 			focus = GER_long_term
@@ -1318,7 +1307,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_economical_dependency
 		}
@@ -1335,7 +1324,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_trade_deal
 		}
@@ -1357,7 +1346,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_trade_deal
 		}
@@ -1379,7 +1368,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_trade_deal
 		}
@@ -1401,7 +1390,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 6
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_four_year_plan
 		}
@@ -1468,7 +1457,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_long_term
 		}
@@ -1519,7 +1508,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_reichsautobahn
 		}
@@ -1551,7 +1540,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_kdf_wagen
 		}
@@ -1583,7 +1572,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_reichsautobahn
 		}
@@ -1611,7 +1600,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_schlattmann_programm
 		}
@@ -1646,7 +1635,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_hermann_goring_werke
 		}
@@ -1686,7 +1675,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_deutsche_arbeitsfront
 		}
@@ -1708,7 +1697,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 34
 		y = 7
-		cost = 1
+		cost = 35
 		available = {
 			has_war_with_major = yes
 		}
@@ -1721,7 +1710,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 6
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_totaler_krieg
 		}
@@ -1740,7 +1729,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_speer
 		}
@@ -1756,7 +1745,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_the_new_berlin
 		}
@@ -1772,7 +1761,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_zentrale_planung
 		}
@@ -1788,7 +1777,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_the_new_berlin
 		}
@@ -1804,7 +1793,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_optimize_reich_labour_service
 		}
@@ -1820,7 +1809,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_organization_todt
 		}
@@ -1839,7 +1828,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_ministry_of_armaments_and_war_production
 		}
@@ -1855,7 +1844,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_speer
 			focus = GER_himmlers_shadow_economy
@@ -1872,7 +1861,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_eastern_infrastructre
 		}
@@ -1888,7 +1877,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_balkan_railway_integration
 		}
@@ -1904,7 +1893,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_balkan_railway_integration
 		}
@@ -1920,7 +1909,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_improve_the_logistics_system
 			focus = GER_kriegslokomotiven
@@ -1937,7 +1926,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_speer
 			focus = GER_himmlers_shadow_economy
@@ -1957,7 +1946,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_counter_soviet_armor
 		}
@@ -1973,7 +1962,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_e_series
 		}
@@ -1989,7 +1978,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_e_series
 		}
@@ -2005,7 +1994,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_e_series
 		}
@@ -2021,7 +2010,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -3
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_speer
 			focus = GER_himmlers_shadow_economy
@@ -2041,7 +2030,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_goering_programm
 		}
@@ -2057,7 +2046,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stuka_tabletten
 		}
@@ -2073,7 +2062,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stuka_tabletten
 		}
@@ -2089,7 +2078,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stuka_tabletten
 		}
@@ -2105,7 +2094,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -6
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_totaler_krieg
 		}
@@ -2124,7 +2113,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_himmlers_shadow_economy
 		}
@@ -2140,7 +2129,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_open_the_wvha
 		}
@@ -2156,7 +2145,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_forced_labor
 		}
@@ -2172,7 +2161,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_open_the_wvha
 		}
@@ -2188,7 +2177,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_integrate_eastern_territories
 		}
@@ -2204,7 +2193,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 3
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_underground_factories
 		}
@@ -2223,7 +2212,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_production_outsourcing
 		}
@@ -2239,7 +2228,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 18
 		y = 0
-		cost = 14.3
+		cost = 354.3
 		available = {
 			always = yes
 		}
@@ -2277,7 +2266,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -20
 		y = 1
-		cost = 14
+		cost = 354
 		text_icon = GER_inner_circle_focus_style
 		prerequisite = {
 			focus = GER_appoint_the_okw
@@ -2306,7 +2295,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.11
+				country_event = germany_hidden.11
 				set_country_flag = GER_dietrich_1
 				set_country_flag = GER_dietrich_selected
 				clr_country_flag = GER_general_appointment_available
@@ -2523,7 +2512,7 @@ focus_tree = {
 		text = "Gehaerteter Panzerstahl"
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_ss_uebermenschen
 		}
@@ -2540,7 +2529,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_ss_uebermenschen
 		}
@@ -2563,7 +2552,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_sepp_dietrich
 			focus = GER_appoint_heinz_guderian
@@ -2586,7 +2575,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_mechanised_support
 		}
@@ -2609,7 +2598,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_german_kwks
 		}
@@ -2626,7 +2615,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_support_tanks
 		}
@@ -2649,7 +2638,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_german_kwks
 		}
@@ -2666,7 +2655,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_specialized_tank_variants
 		}
@@ -2780,7 +2769,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_dietrich_2
 		}
@@ -2826,7 +2815,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_dietrich_3
 		}
@@ -2863,9 +2852,6 @@ focus_tree = {
 				GER_wehrmacht_army_core_defence_factor = 0.25
 				tooltip = army_core_defence_factor_tt
 			}
-			#GER_sepp_dietrich = {
-			#	add_trait = { trait = desert_fox }
-			#}
 		}
 	}
 	focus = {
@@ -2874,7 +2860,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = -14
 		y = 1
-		cost = 14
+		cost = 354
 		prerequisite = {
 			focus = GER_appoint_the_okw
 		}
@@ -2902,7 +2888,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.21
+				country_event = germany_hidden.21
 				set_country_flag = GER_guderian_1
 				set_country_flag = GER_guderian_selected
 				clr_country_flag = GER_general_appointment_available
@@ -2976,7 +2962,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_guderian_1
 		}
@@ -3091,9 +3077,6 @@ focus_tree = {
 				GER_wehrmacht_army_armor_attack_factor = 0.025
 				tooltip = army_armor_attack_factor_tt
 			}
-			#GER_heinz_guderian = {
-			#	add_trait = { trait = desert_fox }
-			#}
 		}
 	}
 	focus = {
@@ -3101,7 +3084,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_heinz_guderian
 			focus = GER_appoint_walter_model
@@ -3124,7 +3107,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_balance_of_tank_trinity
 		}
@@ -3144,7 +3127,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_balance_of_tank_trinity
 		}
@@ -3164,7 +3147,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_tank_quality
 			focus = GER_tank_quantity
@@ -3188,7 +3171,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_tank_quality
 		}
@@ -3205,7 +3188,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_tank_quality
 		}
@@ -3222,7 +3205,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_tank_quantity
 		}
@@ -3239,7 +3222,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_tank_quantity
 		}
@@ -3285,7 +3268,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.41
+				country_event = germany_hidden.41
 				set_country_flag = GER_kluge_1
 				set_country_flag = GER_kluge_selected
 				clr_country_flag = GER_general_appointment_available
@@ -3351,7 +3334,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_kluge_1
 		}
@@ -3467,7 +3450,6 @@ focus_tree = {
 				GER_wehrmacht_non_core_manpower = 0.01
 				tooltip = non_core_manpower_tt
 			}
-			## doctrine
 		}
 	}
 	focus = {
@@ -3475,7 +3457,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 2
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_guenther_von_kluge
 			focus = GER_appoint_kurt_student
@@ -3493,7 +3475,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_guenther_von_kluge
 			focus = GER_appoint_kurt_student
@@ -3511,7 +3493,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_artillery_bombardment
 		}
@@ -3531,7 +3513,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_lessons_of_the_great_war
 		}
@@ -3550,7 +3532,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stormtroopers
 		}
@@ -3567,7 +3549,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stormtroopers
 		}
@@ -3613,7 +3595,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.51
+				country_event = germany_hidden.51
 				set_country_flag = GER_student_1
 				set_country_flag = GER_student_selected
 				clr_country_flag = GER_general_appointment_available
@@ -3646,7 +3628,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_kurt_student
 			focus = GER_appoint_albert_kesselring
@@ -3664,7 +3646,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_combined_arms
 		}
@@ -3691,7 +3673,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_combined_arms
 		}
@@ -3718,7 +3700,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_flying_artillery
 		}
@@ -3735,7 +3717,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stukageschwader
 		}
@@ -3757,7 +3739,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stukageschwader
 		}
@@ -3774,7 +3756,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_flying_artillery
 		}
@@ -3796,7 +3778,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_stukageschwader
 			focus = GER_flying_artillery
@@ -3859,7 +3841,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_student_1
 		}
@@ -4018,7 +4000,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.31
+				country_event = germany_hidden.31
 				set_country_flag = GER_model_1
 				set_country_flag = GER_model_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4093,7 +4075,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_model_1
 		}
@@ -4211,9 +4193,6 @@ focus_tree = {
 				GER_mefo_bills_political_power_gain = 0.1
 				tooltip = political_power_gain_tt
 			}
-			#GER_walter_model = {
-			#	add_trait = { trait = desert_fox }
-			#}
 			set_technology = {
 				schmalturm_technology = 1
 			}
@@ -4224,7 +4203,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 2
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_walter_model
 			focus = GER_appoint_guenther_von_kluge
@@ -4249,7 +4228,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_walter_model
 			focus = GER_appoint_guenther_von_kluge
@@ -4272,7 +4251,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_3_7_cm_pak
 		}
@@ -4292,7 +4271,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_3_7_cm_pak
 		}
@@ -4319,7 +4298,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_7_5_cm_KwK_40
 		}
@@ -4336,7 +4315,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_7_5_cm_KwK_40
 		}
@@ -4382,7 +4361,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.61
+				country_event = germany_hidden.61
 				set_country_flag = GER_kesselring_1
 				set_country_flag = GER_kesselring_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4429,7 +4408,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_kesselring_1
 		}
@@ -4509,7 +4488,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_albert_kesselring
 			focus = GER_appoint_erhard_milch
@@ -4532,7 +4511,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_gen_2_fighter
 		}
@@ -4554,7 +4533,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_gen_3_fighter
 		}
@@ -4563,36 +4542,6 @@ focus_tree = {
 			always = yes
 		}
 		completion_reward = {
-			add_ace = {
-				name = "Erich"
-				surname = "Hartmann"
-				callsign = "Bubi"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Gerhard"
-				surname = "Barkhorn"
-				callsign = "Baerchen"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Guenther"
-				surname = "Rall"
-				callsign = "Baer"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Adolf"
-				surname = "Galland"
-				callsign = "Abbe"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Hans-Joachim"
-				surname = "Marseilles"
-				callsign = "Pips"
-				type = fighter_genius
-			}
 			add_ideas = nsfk
 		}
 	}
@@ -4601,7 +4550,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_NSFK
 		}
@@ -4610,36 +4559,6 @@ focus_tree = {
 			always = yes
 		}
 		completion_reward = {
-			add_ace = {
-				name = "Werner"
-				surname = "Moelders"
-				callsign = "Werny"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Kurt"
-				surname = "Wegner"
-				callsign = "Kuddel"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Rudolf"
-				surname = "Sauerbruch"
-				callsign = "Sauer"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Otto"
-				surname = "Kittel"
-				callsign = "Otti"
-				type = fighter_genius
-			}
-			add_ace = {
-				name = "Walter"
-				surname = "Novotny"
-				callsign = "Novi"
-				type = fighter_genius
-			}
 			swap_ideas = {
 				remove_idea = nsfk
 				add_idea = GER_learn_from_the_best
@@ -4651,7 +4570,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_gen_3_fighter
 		}
@@ -4667,7 +4586,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_decisive_battle
 		}
@@ -4712,7 +4631,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			hidden_effect = {
-				country_event = germany.71
+				country_event = germany_hidden.71
 				set_country_flag = GER_milch_1
 				set_country_flag = GER_milch_selected
 				clr_country_flag = GER_general_appointment_available
@@ -4759,7 +4678,7 @@ focus_tree = {
 		text_icon = GER_inner_circle_focus_style
 		x = 0
 		y = 1
-		cost = 500
+		cost = 3500
 		prerequisite = {
 			focus = GER_milch_1
 		}
@@ -4839,7 +4758,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 3
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_appoint_erhard_milch
 		}
@@ -4855,7 +4774,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_big_machines
 		}
@@ -4871,7 +4790,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_big_machines
 		}
@@ -4887,7 +4806,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 0
 		y = 2
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_do_217
 		}
@@ -4906,7 +4825,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_heavy_escorts
 		}
@@ -4922,7 +4841,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -1
 		y = 1
-		cost = 1
+		cost = 35
 		prerequisite = {
 			focus = GER_heavy_escorts
 		}

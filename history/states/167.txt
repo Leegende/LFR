@@ -10,11 +10,12 @@ state = {
 			arms_factory = 1
 		}
 	}
+	resources = {
+		coal = 100
+	}
 	provinces = {
 		1136
 	}
-	manpower = 1
+	manpower = 1000000
 	state_category = state_level_7
-	
-	
 }

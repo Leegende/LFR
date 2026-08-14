@@ -1,22 +1,21 @@
 state = {
 	id = 22
 	name = "STATE_22"
+	resources = {
+		steel = 80
+	}
 	history = {
 		owner = SPR
 		add_core_of = SPR
 		buildings = {
-			infrastructure =5
+			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 2
 		}
-	
-		
 	}
 	provinces = {
 		19757
 	}
-	manpower = 1
-	
-	
+	manpower = 1000000
 	state_category = state_level_7
 }

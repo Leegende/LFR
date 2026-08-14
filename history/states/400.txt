@@ -10,8 +10,6 @@ state = {
 		add_core_of = DMZ
 	}
 	manpower = 1
-	
 	impassable = yes
 	state_category = state_level_0
-	
 }

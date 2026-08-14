@@ -1,6 +1,6 @@
 ideas = {
 	hidden_ideas = {
-		free_tank_designer = {
+		free_tank_industrial_concern = {
 			allowed = {
 				always = no
 			}
@@ -9,25 +9,25 @@ ideas = {
 				tank_industrial_concern_cost_factor = -1
 			}
 		}
-		free_mech_designer = {
+		free_mech_industrial_concern = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 			modifier = {
-				materiel_industrial_concern_cost_factor = -1
+				mech_industrial_concern_cost_factor = -1
 			}
 		}
-		free_artillery_designer = {
+		free_material_industrial_concern = {
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 			modifier = {
-				artillery_industrial_concern_cost_factor = -1
+				material_industrial_concern_cost_factor = -1
 			}
 		}
-		free_air_designer = {
+		free_aircraft_industrial_concern = {
 			allowed = {
 				always = no
 			}
@@ -36,6 +36,14 @@ ideas = {
 				aircraft_industrial_concern_cost_factor = -1
 			}
 		}
+		free_industrial_concern = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_concern_cost_factor = -1
+			}
+		}
 	}
-	
 }

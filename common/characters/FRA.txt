@@ -21,6 +21,12 @@ characters = {
 			ideology = democratic_ideology
 		}
 	}
+	FRA_leon_blum = {
+		name = "Leon Blum1"
+		country_leader = {
+			ideology = democratic_ideology
+		}
+	}
 	FRA_charles_de_gaulle = {
 		name = "Charles de Gaulle"
 		portraits = {
@@ -34,8 +40,321 @@ characters = {
 		country_leader = {
 			ideology = democratic_ideology
 		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = GER
+			}
+			traits = {
+				FRA_blitzkrieg_theorist
+			}
+		}
 	}
-	FRA_end = {
-		name = ""
+	#advisors
+	FRA_charles_laurent = {
+		name = "Charles Laurent"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_trade_unionist
+			}
+			cost = 150
+		}
+	}
+	FRA_paul_faure = {
+		name = "Paul Faure"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_civilian_investor
+			}
+			cost = 150
+		}
+	}
+	FRA_felix_gouin = {
+		name = "Felix Gouin"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_arms_factory_baron
+			}
+			cost = 150
+		}
+	}
+	FRA_pierre_mendes = {
+		name = "Felix Gouin"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_activist
+			}
+			cost = 150
+		}
+	}
+	FRA_georges_bonnet = {
+		name = "Georges Bonnet"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_peace_advocat
+			}
+			cost = 150
+		}
+	}
+	FRA_georges_mandel = {
+		name = "Georges Mandel"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_national_agitator
+			}
+			cost = 150
+		}
+	}
+	FRA_paul_reynaud = {
+		name = "Paul Reynaud"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_deflator
+			}
+			cost = 150
+		}
+	}
+	FRA_felix_eboue = {
+		name = "Paul Reynaud"
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = FRA
+			}
+			traits = {
+				FRA_trait_colonial_administrator
+			}
+			cost = 150
+		}
+	}
+	### army chief
+	FRA_alphonse_georges = {
+		name = "Alphonso Georges"
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+		}
+	}
+	FRA_pierre_alombert_goget = {
+		name = "Pierre Alombert Goget"
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+		}
+	}
+	FRA_maurice_gamelin = {
+		name = "Maurice Gamelin"
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+		}
+	}
+	FRA_maxime_weygand = {
+		name = "Maxime Weygand"
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_chief_entrenchment_3
+			}
+		}
+	}
+	## artillery
+	FRA_edgard_de_larminat = {
+		name = "Edgard de Larminat"
+		advisor = {
+			slot = artillery_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				artillery_chief_offensive_1
+			}
+		}
+	}
+	FRA_georges_catroux = {
+		name = "Georges Catroux"
+		advisor = {
+			slot = artillery_chief
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				artillery_chief_defence_2
+			}
+		}
+	}
+	FRA_rene_prioux = {
+		name = "Rene Prioux"
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_cavalry_2
+			}
+		}
+	}
+	FRA_martial_valin = {
+		name = "Martial Valin"
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_infantry_1
+			}
+		}
+	}
+	FRA_jean_francois_jannekeyn = {
+		name = "Jean-Francois Jannekeyn"
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_artillery_1
+			}
+		}
+	}
+	FRA_phillipe_leclerc = {
+		name = "Phillipe Leclerc"
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_armored_2
+			}
+		}
+	}
+	FRA_charles_huntziger = {
+		name = "Charles Huntziger"
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = FRA
+			}
+			visible = {
+				always = yes
+			}
+			traits = {
+				army_logistics_1
+			}
+		}
+	}
+	FRA_henri_giraud = {
+		name = "Charles Huntziger"
+		advisor = {
+			cost = 150
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = GER
+			}
+			traits = {
+				superior_firepower_expert
+			}
+		}
+	}
+	FRA_andre_gaston_pretelat = {
+		name = "Andre-Gaston Pretelat"
+		advisor = {
+			cost = 150
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = GER
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
 	}
 }

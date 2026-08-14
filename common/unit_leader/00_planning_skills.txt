@@ -1,0 +1,61 @@
+leader_planning_skills = {
+	1 = {
+		type = corps_commander
+	}
+	2 = {
+		type = corps_commander
+		modifier = {
+			planning_speed = 0.05
+			max_planning = 0.025
+		}
+	}
+	3 = {
+		type = corps_commander
+		modifier = {
+			planning_speed = 0.1
+			max_planning = 0.05
+		}
+	}
+	4 = {
+		type = corps_commander
+		modifier = {
+			planning_speed = 0.15
+			max_planning = 0.075
+		}
+	}
+	5 = {
+		type = corps_commander
+		modifier = {
+			planning_speed = 0.2
+			max_planning = 0.1
+		}
+	}
+	6 = {
+		type = corps_commander
+		modifier = {
+			planning_speed = 0.25
+			max_planning = 0.125
+		}
+	}
+	1 = {
+		type = field_marshal
+		modifier = {
+			planning_speed = 0.15
+			max_planning = 0.05
+		}
+	}
+	2 = {
+		type = field_marshal
+		modifier = {
+			planning_speed = 0.2
+			max_planning = 0.075
+		}
+	}
+	3 = {
+		type = field_marshal
+		modifier = {
+			planning_speed = 0.25
+			max_planning = 0.1
+		}
+	}
+}

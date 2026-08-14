@@ -10,7 +10,42 @@ characters = {
 			ideology = neutrality_ideology
 		}
 	}
-	YUG_end = {
-		name = ""
-	}
+	# josip broz tito
+	### advisor
+	#Slobodan Jovanovic popular figurehead
+	#Milovan Djilas war industrialist
+	#Milan nedic prince of terror
+	#Ivan ribar captain of industry
+	#Dragutin Obrenovic paramilitary leader 
+	#Krsto Simovic reorganiser
+	#Bozidar Dapcevic indepedence symbol
+	#Danilo Lesjanin war hero
+	### army 
+	#josip broz tito army morale
+	#Draza mihailovic army defense
+	## air
+	#petar vukcevic ground support
+	#dusan simovic concealment
+	## arty
+	#Borivoje Mirkovic arty
+	## high command 
+	#Mihajlo Lukic army logistics
+	#Arso jovanovic army drill
+	#Ivan gosnjak combined arms
+	## theorist
+	#Ljubomir Maric sfp 
+	#Dusan Simovic cas 
+	#Marijian Polic inf
+	## gen 
+	#Vladimir Cukavac inf attack trickster war hero
+	#Jovan Naumovic inf old guard organiser
+	#Petar urban connected
+	#Josef Depre cav 
+	#Milan kostic engineer trickster
+	#Dusan trifunovic air force hills reckless
+	#Petar vukcevic commando airforce paratrooper
+	### marshal
+	#milutin nedic attack arty brilliant
+	#ljubomir maric old gard inf arty planner
+	#danilo kalafatovic inf skilled staf charismatic
 }

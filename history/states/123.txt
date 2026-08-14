@@ -1,7 +1,9 @@
-
 state = {
-id = 123
+	id = 123
 	name = "STATE_123"
+	resources = {
+		tungsten = 150		
+	}
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
@@ -119,8 +121,5 @@ id = 123
 		19939
 	}
 	manpower = 2115955
-	
-	state_category = state_level_8
-	
+	state_category = state_level_6
 }
-

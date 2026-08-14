@@ -14,7 +14,7 @@ special_forces_quantity = {
 		special_forces_third
 	}
 
-	#special_forces_cap = 0.04
+	
 	special_forces_training_time_factor = -0.2
 	milestones = {
 		{
@@ -111,7 +111,7 @@ special_forces_quality = {
 			category_special_forces = {
 				acclimatization_hot_climate_gain_factor = 0.05
 				acclimatization_cold_climate_gain_factor = 0.05
-				#soft_attack = 0.05
+				
 			}
 			effect = {
 				if = {
@@ -135,7 +135,7 @@ special_forces_quality = {
 			category_special_forces = {
 				acclimatization_hot_climate_gain_factor = 0.05
 				acclimatization_cold_climate_gain_factor = 0.05
-				#defense = 0.05
+				
 			}
 			effect = {
 				if = {

@@ -7,7 +7,7 @@
 @1942 = 12
 @1943 = 14
 @1944 = 16
-###
+
 @pack_anti_tank = -9
 @pack_artillery_upgrade = -7
 @pack_artillery = -5

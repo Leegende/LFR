@@ -9,7 +9,7 @@ state = {
 			industrial_complex = 1
 		}
 	}
-	manpower = 1
+	manpower = 32370
 	state_category = state_level_2
 	provinces = {
 		19985

@@ -46,7 +46,7 @@ guiTypes = {
 			format = centre
 		}
 
-		# window with the equipment preview and the buttons to select the modules
+		
 		containerWindowType = {
 			name = "equipment_modules"
 			position = { x = 13 y = 146 }
@@ -68,7 +68,7 @@ guiTypes = {
 					spriteType = "GFX_generic_tank_blueprint_background"
 				}
 
-				# The window of the appropriate hull/chassis is inserted here by code
+				
 
 			}
 
@@ -83,16 +83,16 @@ guiTypes = {
 			@fixed_btn_mod_row_0 = 1
 			@fixed_btn_mod_row_1 = 300
 
-			# Code checks this position to know if module is in upper or low row to
-			# give the tooltip the correct anchor
+			
+			
 			positionType = {
 				name = "ypos_module_row_0"
 				position = { x = 0 y = @fixed_btn_mod_row_0 }
 			}
 
-			# Each positionType of name pos_custom_module_slot_window_N
-			# defines the position of an instance of the window
-			# equipment_designer_module_slot_entry
+			
+			
+			
 
 			positionType = {
 				name = "pos_custom_module_slot_window_0"
@@ -119,9 +119,9 @@ guiTypes = {
 				position = { x = @fixed_btn_mod_col_2 y = @fixed_btn_mod_row_1 }
 			}
 
-			######################################################################
-			# Special module slot below
-			######################################################################
+			
+			
+			
 
 			positionType = {
 				name = "pos_custom_module_slot_window_5"
@@ -148,9 +148,9 @@ guiTypes = {
 				position = { x = @fixed_btn_mod_col_5 y = @fixed_btn_mod_row_0 }
 			}
 
-			######################################################################
-			# Equipment upgrades
-			######################################################################
+			
+			
+			
 
 			containerWindowType = {
 				name = "equipment_upgrade_0"
@@ -299,7 +299,7 @@ guiTypes = {
 		buttonType = {
 			name = "save_to_file_button"
 			position = { x = -999 y = 380 }
-			#quadTextureSprite ="GFX_preset_button_save"
+			
 			buttonFont = "hoi_18mbs"
 			clicksound = "ui_ship_designer_save"
 			pdx_tooltip = "SAVE_AS_PRESET_TOOLTIP"
@@ -312,7 +312,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_123x34"
 			buttonText = "HISTORICAL_PRESET"
 			buttonFont = "hoi_18mbs"
-			#clicksound = "ui_tank_designer_save"
+			
 		}
 
 		iconType = {
@@ -335,7 +335,7 @@ guiTypes = {
 			position = { x = 461 y = 382 }
 		}
 
-		# right hand side stats
+		
 		containerWindowType = {
 			name = "info"
 			position = { x = 536 y = 13 }
@@ -639,7 +639,7 @@ guiTypes = {
 			buttonType = {
 				name = "import_preset_button"
 				position = { x = 34 y = 408 }
-				#quadTextureSprite ="GFX_preset_button_import"
+				
 				buttonFont = "hoi_18mbs"
 				clicksound = "ui_ship_designer_save"
 				pdx_tooltip = "IMPORT_PRESET_TOOLTIP"
@@ -648,7 +648,7 @@ guiTypes = {
 			buttonType = {
 				name = "export_preset_folder_button"
 				position = { x = 2 y = 408 }
-				#quadTextureSprite ="GFX_preset_button_export"
+				
 				buttonFont = "hoi_18mbs"
 				clicksound = "ui_ship_designer_save"
 				pdx_tooltip = "EXPORT_PRESET_FOLDER_TOOLTIP"
@@ -829,7 +829,7 @@ guiTypes = {
 			clicksound = "ui_tank_designer_save"
 		}
 
-		# drop down for equipment variants
+		
 		dropDownBoxType = {
 			name = "equipments"
 			position = { x = 20 y = 60 }
@@ -879,7 +879,7 @@ guiTypes = {
 				size = { width = 230 height = 325 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
-				#clipping = no
+				
 
 				background = {
 					name = "Background"
@@ -895,7 +895,7 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 
-					# contains designer_equipment_entry
+					
 
 				}
 			}
@@ -912,7 +912,7 @@ guiTypes = {
 			multiline = no
 			format = right
 		}
-		# chassi name
+		
 		instantTextboxType = {
 			name = "blueprint_type_name"
 			position = { x = 20 y = 415 }
@@ -922,7 +922,7 @@ guiTypes = {
 			format = center
 		}
 
-		# drop down for tank roles
+		
 		dropDownBoxType = {
 			name = "dropdown_tank_roles"
 			position = { x = 20 y = 95 }
@@ -970,7 +970,7 @@ guiTypes = {
 				name = "expanded_window"
 				position = { x = 0 y = -250 }
 				show_position = { x = 0 y = 42 }
-				size = { width = 285 height = 608 } # height must be at be large enough to hold the largest possible list.
+				size = { width = 285 height = 608 } 
 				margin = { left = 4 right = 4 top = 4 bottom = 4 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
@@ -989,7 +989,7 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 
-					# contains tank_designer_role_entry
+					
 
 				}
 			}
@@ -1048,11 +1048,11 @@ guiTypes = {
 			font = "hoi_18mbs"
 			maxWidth = 210
 			maxHeight = 25
-			#pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_COST_DESC"
+			
 			format = right
 		}
 
-		# Module selection sub-window
+		
 		containerWindowType = {
 			name = "module_selector_window"
 			position = { x = 2 y = 40 }
@@ -1075,9 +1075,9 @@ guiTypes = {
 			iconType = {
 				name = "icon_module_slot"
 				position = { x = 56 y = 42 }
-				#size = { width=76 height=47 }
+				
 				spriteType = "GFX_locked_icon"
-				#Orientation = "CENTER"
+				
 				centerPosition = yes
 			}
 
@@ -1107,7 +1107,7 @@ guiTypes = {
 				max_slots_horizontal = 2
 				format = UPPER_LEFT
 
-				# code inserts equipment_module_category_entry or equipment_module_entry here
+				
 			}
 		}
 
@@ -1205,8 +1205,8 @@ guiTypes = {
 				size = { width = 256 height = 444 }
 				position = { x = 0 y = 84 }
 				clipping = yes
-				#moveable = no
-				#autohide_scrollbars = no
+				
+				
 
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 42
@@ -1225,7 +1225,7 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = UPPER_LEFT
 
-					# contains designer_equipment_entry
+					
 
 				}
 			}
@@ -1235,8 +1235,8 @@ guiTypes = {
 				size = { width = 70 height = 509 }
 				position = { x = 247 y = 16 }
 				clipping = yes
-				#moveable = no
-				#autohide_scrollbars = no
+				
+				
 
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 42
@@ -1255,7 +1255,7 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = UPPER_LEFT
 
-					# contains designer_creator_entry
+					
 
 				}
 			}
@@ -1410,7 +1410,7 @@ guiTypes = {
 
 	}
 
-	# tank role entry for the drop-down menu
+	
 	containerWindowType = {
 		name = "tank_designer_role_entry"
 		size = { width = 277 height = 50 }
@@ -1463,10 +1463,10 @@ guiTypes = {
 			spriteType = "GFX_naval_equipment_item_large_simple"
 		}
 
-		#background_margin = {
-		#	top = 5
-		#	bottom = 5
-		#}
+		
+		
+		
+		
 
 		iconType = {
 			name = "role"

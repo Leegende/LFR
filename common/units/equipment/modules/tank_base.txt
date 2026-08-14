@@ -1,5 +1,5 @@
 equipment_modules = {
-	#engine
+	
 	gasoline_engine_module = {
 		category = engine_module_category
 		sfx = sfx_ui_sd_module_engine
@@ -16,7 +16,7 @@ equipment_modules = {
 		category = engine_module_category
 		sfx = sfx_ui_sd_module_engine
 	}
-	#armor
+	
 	riveted_armor_module = {
 		category = armor_module_category
 		sfx = sfx_ui_sd_module_sonar
@@ -29,7 +29,7 @@ equipment_modules = {
 		category = armor_module_category
 		sfx = sfx_ui_sd_module_sonar
 	}
-	### suspension
+	
 	torsion_bar_suspension_module = {
 		category = suspension_module_category
 		sfx = sfx_ui_sd_module_sonar

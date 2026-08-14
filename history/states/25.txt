@@ -1,7 +1,10 @@
-
 state = {
-id = 25
+	id = 25
 	name = "STATE_25"
+	resources = {
+		chromium = 140		
+		steel = 70		
+	}
 	history = {
 		owner = GRE
 		add_core_of = GRE
@@ -75,8 +78,5 @@ id = 25
 		20278
 	}
 	manpower = 623900
-	
 	state_category = state_level_5
-	
 }
-

@@ -1,7 +1,10 @@
-
 state = {
-id = 34
+	id = 34
 	name = "STATE_34"
+	resources = {
+		steel = 100
+		chromium = 100
+	}
 	history = {
 		owner = FIN
 		add_core_of = FIN
@@ -9,8 +12,8 @@ id = 34
 			19662 = {
 				naval_base = 4
 			}
-			infrastructure =6
-			industrial_complex =2
+			infrastructure = 6
+			industrial_complex = 2
 			arms_factory = 2
 		}
 		victory_points = {
@@ -58,8 +61,5 @@ id = 34
 		19661
 	}
 	manpower = 481810
-	
-	
 	state_category = state_level_8
 }
-

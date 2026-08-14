@@ -1,7 +1,9 @@
-
 state = {
-id = 137
+	id = 137
 	name = "STATE_137"
+	resources = {
+		steel = 30
+	}
 	history = {
 		owner = YUG
 		add_core_of = YUG
@@ -118,8 +120,5 @@ id = 137
 		18320
 	}
 	manpower = 1606323
-	
 	state_category = state_level_5
-	
 }
-

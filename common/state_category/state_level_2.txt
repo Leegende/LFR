@@ -2,8 +2,7 @@ state_categories = {
 	state_level_2 = {
 		local_building_slots = 6
 		buildings_max_level = {
-			naval_base = 6
-			air_base = 4
+			air_base = 10
 		}
 		color = {
 			200

@@ -52,8 +52,6 @@ state = {
 		21565
 		15333
 	}
-	manpower = 1
+	manpower = 269136
 	state_category = state_level_5
-	
-	
 }

@@ -1,48 +1,92 @@
-
 weather_rain_light = {
-	
+	local_org_regain = -0.05
 }
-weather_rain_heavy = { 
-	
+
+weather_rain_heavy = {
+	local_org_regain = -0.2
 }
+
 weather_snow = {
-	
+	local_org_regain = -0.05
 }
-weather_blizzard = { 
+
+weather_blizzard = {
+	local_org_regain = -0.5
 }
+
 weather_sandstorm = {
+	local_org_regain = -0.5
 }
 
 weather_arctic_water = {
 }
 
-weather_mud = { 
+weather_mud = {
+	attrition = 0.7
+	army_speed_factor = -0.5
+	army_attack_factor = -0.4
+	supply_consumption_factor = 0.25
 }
-weather_extreme_cold = { 
 
+weather_extreme_cold = {
+	winter_attrition = 0.5
+	dig_in_speed_factor = -0.8
+	local_org_regain = -0.1
+	army_attack_factor = -0.35
+	army_speed_factor = -0.25
+	supply_consumption_factor = 0.6
 }
-weather_very_cold = { 
+
+weather_very_cold = {
+	winter_attrition = 0.3
+	dig_in_speed_factor = -0.4
+	army_attack_factor = -0.2
+	army_speed_factor = -0.1
+	supply_consumption_factor = 0.4
 }
+
 weather_very_hot = {
+	heat_attrition = 0.15
+	local_org_regain = -0.1
+	supply_consumption_factor = 0.25
 }
-weather_extreme_hot = { 
 
+weather_extreme_hot = {
+	heat_attrition = 0.3
+	local_org_regain = -0.2
+	supply_consumption_factor = 0.5
+	army_attack_factor = -0.1
 }
+
 weather_ground_snow_medium = {
-
+	army_attack_factor = -0.2
+	army_speed_factor = -0.25
+	local_org_regain = -0.05
+	supply_consumption_factor = 0.1
 }
-weather_ground_snow_high = { 
 
+weather_ground_snow_high = {
+	army_attack_factor = -0.4
+	army_speed_factor = -0.4
+	local_org_regain = -0.1
+	naval_retreat_speed = 0.1
+	supply_consumption_factor = 0.2
 }
 
 flooded = {
-
+	army_speed_factor = -0.75
+	army_defence_factor = 0.5
+	army_attack_factor = -0.25
+	attrition = 0.25
 }
 
 unplanned_offensive = {
+	army_speed_factor = -0.4
+	army_attack_factor = -0.5
+	local_org_regain = -0.33
 }
 
-night = { 
+night = {
 }
 
 resistance_effect_base = {
@@ -52,14 +96,18 @@ resistance_effect = {
 }
 
 compliance_effect_base = {
-	
 }
 
 compliance_effect = {
-	
+	resistance_damage_to_garrison = -0.25
+	local_factories = 0.5
+	local_non_core_manpower = 0.1
+	local_resources = 0.4
 }
 
 non_core = {
+	local_factories = -0.6
+	local_resources = -0.5
 }
 
 non_core_controller = {
@@ -69,57 +117,65 @@ lacking_consumer_goods = {
 }
 
 gain_focus = {
+	political_power_cost = 1
 }
 
 free_license = {
 	valid_relation_trigger = {
 		FROM = {
-			NOT = { has_war_with = ROOT }
+			NOT = {
+				has_war_with = ROOT
+			}
 		}
 	}
-	license_purchase_cost = 0 
+	license_purchase_cost = 0
 }
 
 stability_good_modifier = {
-	
+	industrial_capacity_factory = 0.2
+	industrial_capacity_dockyard = 0.2
+	consumer_goods_factor = -0.1
+	political_power_factor = 0.1
 }
 
 stability_bad_modifier = {
-	
+	industrial_capacity_factory = -0.5
+	industrial_capacity_dockyard = -0.5
+	political_power_factor = -0.2
 }
 
 war_support_good_modifier = {
-	
+	mobilization_speed = 0.3
+	army_attack_factor = 0.1
+	army_defence_factor = 0.15
+	command_power_gain_mult = 0.5
 }
 
 war_support_bad_modifier = {
-
+	mobilization_speed = -0.5
+	command_power_gain_mult = -0.95
 }
 
-war_support_during_war = { 
+war_support_during_war = {
+	stability_factor = -0.3
 }
 
 attache_sent = {
 }
 
-
 diff_very_easy_player = {
-
 }
 
 diff_easy_player = {
-	
 }
 
 diff_normal_player = {
 }
 
 diff_hard_player = {
-	
 }
 
 diff_very_hard_player = {
-	
 }
 
 diff_very_easy_ai = {
@@ -138,7 +194,6 @@ diff_very_hard_ai = {
 }
 
 diff_strong_ai_generic = {
-
 }
 
 naval_mines_effect = {
@@ -187,28 +242,51 @@ country_is_at_war = {
 }
 
 passive_decryption_modifier = {
-	
+	air_detection = 0.1
+	air_intercept_efficiency = 0.25
+	civilian_intel_decryption_bonus = 20
+	army_intel_decryption_bonus = 20
+	navy_intel_decryption_bonus = 20
+	airforce_intel_decryption_bonus = 20
 }
 
 active_decryption_modifier = {
-	
+	attack_bonus_against = 0.05
+	defense_bonus_against = 0.15
+	breakthrough_bonus_against = 0.15
+	naval_invasion_prep_speed = 0.5
+	naval_invasion_penalty = -0.15
+	planning_speed = 0.5
+	air_detection = 0.2
+	civilian_intel_decryption_bonus = 50
+	army_intel_decryption_bonus = 50
+	navy_intel_decryption_bonus = 50
+	airforce_intel_decryption_bonus = 50
 }
 
 intel_network_state_level_bonus = {
+	amphibious_invasion_defence = 0.5
+	planning_speed = 0.25
 }
 
 intel_network_state_level_penalty = {
 }
 
 created_intelligence_agency = {
+	operative_slot = 1
+	new_operative_slot_bonus = 3
 }
 
 root_out_resistance_mission_modifier = {
+	resistance_target = -0.1
 }
 
 operative_nationality_mission = {
+	intel_network_gain_factor = 0.3
+	own_operative_detection_chance_factor = -0.1
 }
 
 operative_nationality_operation = {
+	operation_outcome = 0.1
+	operation_cost = -0.1
 }
-

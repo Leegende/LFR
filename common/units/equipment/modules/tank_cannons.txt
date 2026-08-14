@@ -47,7 +47,7 @@ equipment_modules = {
 			reliability = -0.1
 		}
 	}
-	###
+	
 	light_soft_cannon_1_module = {
 		category = light_armament_1_module_category
 		sfx = sfx_ui_sd_module_turret

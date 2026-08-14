@@ -1,23 +1,8 @@
-add_namespace = germany
+add_namespace = germany_hidden
 country_event = {
-	id = germany.1
-	title = germany.1.t
-	desc = germany.1.d
-	picture = GFX_report_event_german_speech
-	is_triggered_only = yes
-	option = {
-		name = germany.1.a
-	}
-	option = {
-		name = germany.1.b
-	}
-	option = {
-		name = germany.1.c
-	}
-}
-
-country_event = {
-	id = germany.11
+	id = germany_hidden.11
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -26,7 +11,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.12
+	id = germany_hidden.12
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -35,7 +22,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.13
+	id = germany_hidden.13
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -44,7 +33,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.14
+	id = germany_hidden.14
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -53,7 +44,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.21
+	id = germany_hidden.21
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -62,7 +55,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.22
+	id = germany_hidden.22
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -71,7 +66,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.23
+	id = germany_hidden.23
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -80,7 +77,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.24
+	id = germany_hidden.24
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -89,7 +88,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.31
+	id = germany_hidden.31
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -98,7 +99,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.32
+	id = germany_hidden.32
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -107,7 +110,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.33
+	id = germany_hidden.33
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -116,7 +121,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.34
+	id = germany_hidden.34
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -125,7 +132,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.41
+	id = germany_hidden.41
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -134,7 +143,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.42
+	id = germany_hidden.42
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -143,7 +154,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.43
+	id = germany_hidden.43
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -152,7 +165,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.44
+	id = germany_hidden.44
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -161,7 +176,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.51
+	id = germany_hidden.51
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -170,7 +187,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.52
+	id = germany_hidden.52
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -179,7 +198,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.53
+	id = germany_hidden.53
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -188,7 +209,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.54
+	id = germany_hidden.54
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -197,7 +220,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.61
+	id = germany_hidden.61
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -206,7 +231,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.62
+	id = germany_hidden.62
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -215,7 +242,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.63
+	id = germany_hidden.63
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -224,7 +253,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.64
+	id = germany_hidden.64
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -233,7 +264,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.71
+	id = germany_hidden.71
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -242,7 +275,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.72
+	id = germany_hidden.72
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -251,7 +286,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.73
+	id = germany_hidden.73
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -260,7 +297,9 @@ country_event = {
 }
 
 country_event = {
-	id = germany.74
+	id = germany_hidden.74
+	title = ""
+	desc = ""
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {

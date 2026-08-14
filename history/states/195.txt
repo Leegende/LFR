@@ -1,6 +1,9 @@
 state = {
 	id = 195
 	name = "STATE_195"
+	resources = {
+		coal = 80		
+	}
 	history = {
 		owner = GER
 		add_core_of = GER
@@ -21,7 +24,6 @@ state = {
 			4871
 			5
 		}
-		
 		victory_points = {
 			12730
 			10
@@ -130,7 +132,5 @@ state = {
 		20774
 	}
 	manpower = 3164986
-	
 	state_category = state_level_7
-	
 }

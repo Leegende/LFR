@@ -1,15 +1,18 @@
 state = {
 	id = 4
 	name = "STATE_4"
+	resources = {
+		coal = 100
+		chromium = 2300
+		steel = 200
+	}
 	manpower = 1
 	impassable = yes
-	
 	state_category = state_level_0
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
 	}
-	
 	provinces = {
 		19243
 		14673

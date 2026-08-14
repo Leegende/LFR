@@ -28,7 +28,7 @@ technologies = {
 		research_cost = 0
 		
 		enable_equipment_modules = {
-			#schmalturm
+			
 		}
 	}
 	super_heavy_artillery_technology = {
@@ -48,9 +48,9 @@ technologies = {
 			always = no
 		}
 		research_cost = 0
-		#enable_subunits = {
-		#	heavy_tank_ss
-		#	heavy_tank_amphibious_ss
-		#}
+		
+		
+		
+		
 	}
 }

@@ -63,14 +63,7 @@ spriteTypes = {
 		name = "GFX_portrait_GRE_eleftherios_venizelos"
 		texturefile = "gfx/leaders/GRE/eleftherios_venizelos.dds"
 	}
-	SpriteType = {
-		name = "GFX_portrait_GRE_george_ii"
-		texturefile = "gfx/leaders/GRE/george_ii.dds"
-	}
-	SpriteType = {
-		name = "GFX_portrait_GRE_konstantinos_demertzis"
-		texturefile = "gfx/leaders/GRE/konstantinos_demertzis.dds"
-	}
+	
 	SpriteType = {
 		name = "GFX_portrait_HUN_miklos_horthy"
 		texturefile = "gfx/leaders/HUN/miklos_horthy.dds"
@@ -122,5 +115,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_portrait_YUG_prince_paul"
 		texturefile = "gfx/leaders/YUG/prince_paul.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_GER_sepp_dietrich
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Josef_Dietrich.dds"
 	}
 }

@@ -64,9 +64,9 @@ sub_units = {
 		metropolis = {
 			attack = 0.1
 		}
-		#need = {
-		#	pack_artillery_archetype = @pack_art_need
-		#}
+		
+		
+		
 	}
 	artillery_battalion = {
 		sprite = artillery
@@ -84,9 +84,9 @@ sub_units = {
 			category_medium
 			category_medium_artillery
 		}
-		#need = {
-		#	artillery_archetype = @art_need
-		#}
+		
+		
+		
 		combat_width = 1
 		manpower = 500
 		max_strength = -1
@@ -151,9 +151,9 @@ sub_units = {
 			category_heavy
 			category_heavy_artillery
 		}
-		#need = {
-		#	heavy_artillery_archetype = @heavy_art_need
-		#}
+		
+		
+		
 		combat_width = 1
 		max_strength = 1
 		max_organisation = 20
@@ -218,9 +218,9 @@ sub_units = {
 		categories = {
 			category_artillery
 		}
-		#need = {
-		#	super_heavy_artillery_archetype = @art_need
-		#}
+		
+		
+		
 		combat_width = 1
 		max_strength = 1
 		max_organisation = 20
@@ -285,9 +285,9 @@ sub_units = {
 		categories = {
 			category_artillery
 		}
-		#need = {
-		#	rocket_artillery_archetype = @art_need
-		#}
+		
+		
+		
 		combat_width = 1
 		manpower = 500
 		max_organisation = 20
@@ -351,9 +351,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_artillery
 		}
-		#need = {
-		#	motorised_rocket_artillery_archetype = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -420,9 +420,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_artillery
 		}
-		#need = {
-		#	mechanised_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 30
@@ -493,9 +493,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_artillery
 		}
-		#need = {
-		#	mechanised_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 25
@@ -562,9 +562,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_tank
 		}
-		#need = {
-		#	armored_car_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_strength = 0.4
@@ -643,9 +643,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_artillery
 		}
-		#need = {
-		#	light_tank_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -726,9 +726,9 @@ sub_units = {
 			artillery
 		}
 		group = armor
-		#need = {
-		#	medium_tank_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -808,9 +808,9 @@ sub_units = {
 			artillery
 		}
 		group = armor
-		#need = {
-		#	heavy_tank_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -893,9 +893,9 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
-		#need = {
-		#	light_tank_amphibious_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		combat_width = 2
 		manpower = 500
@@ -973,9 +973,9 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
-		#need = {
-		#	medium_tank_amphibious_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 		combat_width = 2
 		manpower = 500
@@ -1048,9 +1048,9 @@ sub_units = {
 			artillery
 		}
 		group = amphibious_armor
-		#need = {
-		#	heavy_tank_amphibious_artillery_ = @art_need
-		#}
+		
+		
+		
 		combat_width = 2
 	}
 }

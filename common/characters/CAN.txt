@@ -13,4 +13,38 @@ characters = {
 	CAN_end = {
 		name = ""
 	}
+	## advisor
+	#C.D. Howe Captain of Industry 
+	#James Isley War Industrialist
+	#Leo Rivher Popular Figurehead 12% stab
+	#Ian A. MacKenzie Silent Workhorse
+	#Wiliam Kashtan Communist 
+	#Chuck Crate Fascist
+	#Newton Wesley Rowell pp popularity
+	#### army
+	#Herry Crerar Old Guard
+	#Andrew McNaughton army offense
+	#george pearkes army defense
+	## artillery 
+	#Guy Simonds tank artillery
+	## cas
+	#George Croil
+	## high command 
+	#wilfred curtis cas
+	#F. F. Worthington Armor
+	#Frederick m. W. Harvey commando
+	## theorist
+	#Kenneth Stuart Military Theorist
+	#Robert Leckie Cas
+	#Leonard W. Murray arty
+	#George Volkoff mech
+	## gens
+	#Thomas Victor Anderson inf engineer
+	#F. F Worthington tank trickster
+	#Andrew McNaughton motorised cautious
+	#John Montague Cav Organizor
+	#Bert Hoffmeister Tank Attack
+	#John Rockingham hill mountain engineer artillery
+	##marshal
+	#harry crerar organizer old guard
 }

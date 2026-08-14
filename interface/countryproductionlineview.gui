@@ -16,7 +16,7 @@ guiTypes = {
 		animation_time = 300
 		size = { width = 745 height = 100%% }
 
-		#hide_sound = menu_close_window
+		
 		show_sound = menu_open_window
 
 		background = {
@@ -96,12 +96,12 @@ guiTypes = {
 					position = { x = 0 y = 16 }
 					size = { width = -20 height = 25 }
 
-					#iconType ={
-					#	name = "resources_bg"
-					#	quadTextureSprite = "GFX_trade_filter_bg"
-					#	position = { x= 0 y = 0 }
-					#	Orientation = "UPPER_LEFT"
-					#}
+					
+					
+					
+					
+					
+					
 
 					gridBoxType = {
 						orientation = "CENTER_UP"
@@ -115,7 +115,7 @@ guiTypes = {
 					}
 				}
 
-				#################################
+				
 				iconType = {
 					name = "docyards_output_icon"
 					position = { x = 90 y = 58 }
@@ -133,7 +133,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				iconType = {
 					name = "production_output_icon"
 					position = { x = 187 y = 53 }
@@ -151,7 +151,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				iconType = {
 					name = "efficiency_cap_icon"
 					position = { x = 287 y = 57 }
@@ -169,7 +169,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				iconType = {
 					name = "production_efficiency_loss_icon"
 					position = { x = 378 y = 57 }
@@ -187,7 +187,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				iconType = {
 					name = "factory_bombing_defence_icon"
 					position = { x = 542 y = 53 }
@@ -205,7 +205,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				iconType = {
 					name = "efficiency_growth_icon"
 					position = { x = 457 y = 58 }
@@ -223,12 +223,12 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+				
 				buttonType = {
 					name = "infantry_button"
 					position = { x = 30 y = 122 }
 					quadTextureSprite = "GFX_add_prod_inf_art_line"
-					#pdx_tooltip = "PRODUCTION_INFANTRY_BUTTON"
+					
 					clicksound = click_checkbox
 				}
 
@@ -243,7 +243,7 @@ guiTypes = {
 					name = "tank_button"
 					position = { x = 110 y = 122 }
 					quadTextureSprite = "GFX_add_prod_armour_line"
-					#pdx_tooltip = "PRODUCTION_VEHICLES_BUTTON"
+					
 					clicksound = click_checkbox
 				}
 
@@ -258,7 +258,7 @@ guiTypes = {
 					name = "aircraft_button"
 					position = { x = 190 y = 122 }
 					quadTextureSprite = "GFX_add_prod_aircraft_line"
-					#pdx_tooltip = "PRODUCTION_AIRCRAFT_BUTTON"
+					
 					clicksound = click_checkbox
 				}
 
@@ -273,7 +273,7 @@ guiTypes = {
 					name = "naval_button"
 					position = { x = 530 y = 122 }
 					spriteType = "GFX_add_prod_naval_line"
-					#pdx_tooltip = "PRODUCTION_SHIPS_BUTTON"
+					
 					clicksound = click_checkbox
 				}
 
@@ -292,12 +292,12 @@ guiTypes = {
 					frame = 1
 				}
 
-				#iconType = {
-				#	name = "naval_repair_button_glow"
-				#	position = { x = 430 y = 123 }
-				#	spriteType = "GFX_prod_new_equipment_glow"
-				#	alwaystransparent = yes
-				#}
+				
+				
+				
+				
+				
+				
 
 				iconType = {
 					name = "tutorial_glow"
@@ -508,14 +508,14 @@ guiTypes = {
 					pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
 				}
 
-				# SECOND LINE OF FILTERS
+				
 
-				#checkBoxType = {
-				#	name = "toggle_expand_all"
-				#	position = { x = 5 y = 209 }
-				#	quadTextureSprite ="GFX_expand_all_checkbox_vertical"
-				#	clicksound = click_checkbox
-				#}
+				
+				
+				
+				
+				
+				
 
 				checkBoxType = {
 					name = "show_resources"
@@ -532,7 +532,7 @@ guiTypes = {
 					maxWidth = 40
 					maxHeight = 20
 					format = center
-					#pdx_tooltip = PRODUCTION_FILTER_ARMS_FACTORIES
+					
 				}
 
 				checkBoxType = {
@@ -550,7 +550,7 @@ guiTypes = {
 					maxWidth = 40
 					maxHeight = 20
 					format = center
-					#pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
+					
 				}
 
 				checkBoxType = {
@@ -568,7 +568,7 @@ guiTypes = {
 					maxWidth = 40
 					maxHeight = 20
 					format = center
-					#pdx_tooltip = PRODUCTION_FILTER_ARMS_FACTORIES
+					
 				}
 
 				checkBoxType = {
@@ -586,7 +586,7 @@ guiTypes = {
 					maxWidth = 40
 					maxHeight = 20
 					format = center
-					#pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
+					
 				}
 
 				checkBoxType = {
@@ -604,7 +604,7 @@ guiTypes = {
 					maxWidth = 40
 					maxHeight = 20
 					format = center
-					#pdx_tooltip = PRODUCTION_FILTER_DOCKYARDS
+					
 				}
 
 				checkBoxType = {
@@ -624,41 +624,41 @@ guiTypes = {
 					format = center
 				}
 
-				#				instantTextboxType = {
-				#					name = "equipment"
-				#					position = { x = 85 y = 200 }
-				#					textureFile = ""
-				#					font = "hoi_20bs"
-				#					borderSize = {x = 0 y = 0}
-				#					text = "PRODUCTION_EQUIPMENT_LABEL"
-				#					maxWidth = 100
-				#					maxHeight = 20
-				#					format = centre
-				#				}
-				#
-				#				instantTextboxType = {
-				#					name = "materials"
-				#					position = { x = 431 y = 200 }
-				#					textureFile = ""
-				#					font = "hoi_20bs"
-				#					borderSize = {x = 0 y = 0}
-				#					text = "PRODUCTION_MATERIALS_LABEL"
-				#					maxWidth = 100
-				#					maxHeight = 20
-				#					format = centre
-				#				}
-				#
-				#				instantTextboxType = {
-				#					name = "factories"
-				#					position = { x = 325 y = 200 }
-				#					textureFile = ""
-				#					font = "hoi_20bs"
-				#					borderSize = {x = 0 y = 0}
-				#					text = "PRODUCTION_FACTORIES_LABEL"
-				#					maxWidth = 100
-				#					maxHeight = 20
-				#					format = centre
-				#				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			}
 		}
 
@@ -932,9 +932,9 @@ guiTypes = {
 
 		iconType = {
 			name = "ship_button"
-			position = { x = 80 y = 17 } # Y is centered in code
+			position = { x = 80 y = 17 } 
 			spriteType = "GFX_navalcombat_ship_icon_unknown"
-			#vertical_alignment = center
+			
 			alwaystransparent = yes
 			centerposition = yes
 		}
@@ -1134,7 +1134,7 @@ guiTypes = {
 				position = { x = 5 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 1
-				#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
+				
 			}
 
 			buttonType = {
@@ -1150,7 +1150,7 @@ guiTypes = {
 				position = { x = 68 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 3
-				#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
+				
 			}
 
 			buttonType = {
@@ -1166,7 +1166,7 @@ guiTypes = {
 				position = { x = 133 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 5
-				#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
+				
 			}
 
 			buttonType = {
@@ -1182,7 +1182,7 @@ guiTypes = {
 				position = { x = 203 y = 1 }
 				spriteType = "GFX_resources_strip"
 				frame = 2
-				#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
+				
 			}
 
 			buttonType = {
@@ -1198,7 +1198,7 @@ guiTypes = {
 				position = { x = 269 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 4
-				#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
+				
 			}
 
 			buttonType = {
@@ -1214,7 +1214,7 @@ guiTypes = {
 				position = { x = 337 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 6
-				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+				
 			}
 
 			buttonType = {
@@ -1229,7 +1229,7 @@ guiTypes = {
 				position = { x = 405 y = 2 }
 				spriteType = "GFX_resources_strip"
 				frame = 7
-				#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
+				
 			}
 
 			buttonType = {
@@ -1710,7 +1710,7 @@ guiTypes = {
 			maxHeight = 20
 			text = "Total need: 200"
 			format = right
-			#alwaystransparent = yes
+			
 		}
 
 		buttonType = {
@@ -1992,7 +1992,7 @@ guiTypes = {
 			maxHeight = 20
 			text = "Total need: 200"
 			format = right
-			#alwaystransparent = yes
+			
 		}
 
 		buttonType = {
@@ -2273,7 +2273,7 @@ guiTypes = {
 			maxWidth = 290
 			maxHeight = 25
 			fixedsize = yes
-			#format = center
+			
 			alwaystransparent = yes
 		}
 
@@ -2382,7 +2382,7 @@ guiTypes = {
 			maxHeight = 20
 			text = "Total need: 200"
 			format = right
-			#alwaystransparent = yes
+			
 		}
 
 		iconType = {
@@ -2752,7 +2752,7 @@ guiTypes = {
 			maxHeight = 20
 			text = "Total need: 200"
 			format = right
-			#alwaystransparent = yes
+			
 		}
 
 		buttonType = {
@@ -4400,16 +4400,16 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		containerWindowType = { #Currently unused, but we might put something in here eventually.
+		containerWindowType = { 
 			name = "missions"
 			position = { x = 72 y = 58 }
 			size = { width = 200 height = 20 }
 			orientation = upper_left
 
-			# background = {
-			# 	name = "Background"
-			# 	quadTextureSprite ="GFX_tiled_window_transparent"
-			# }
+			
+			
+			
+			
 
 			gridboxtype = {
 				name = "mission_grid"

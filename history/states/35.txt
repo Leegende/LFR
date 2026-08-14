@@ -1,6 +1,13 @@
 state = {
 	id = 35
 	name = "STATE_35"
+	resources = {
+		steel = 1400
+		coal = 50
+		aluminium = 200
+		tungsten = 1200
+		chromium = 500
+	}
 	history = {
 		owner = SWE
 		add_core_of = SWE
@@ -15,8 +22,6 @@ state = {
 		19347
 	}
 	manpower = 1
-	
 	impassable = yes
 	state_category = state_level_0
-	
 }

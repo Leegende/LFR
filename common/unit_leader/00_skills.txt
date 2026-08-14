@@ -1,0 +1,58 @@
+leader_skills = {
+	1 = {
+		cost = 100
+		type = navy
+	}
+	1 = {
+		cost = 100
+		type = corps_commander
+	}
+	2 = {
+		cost = 300
+		type = corps_commander
+	}
+	3 = {
+		cost = 500
+		type = corps_commander
+	}
+	4 = {
+		cost = 1000
+		type = corps_commander
+	}
+	5 = {
+		cost = 1500
+		type = corps_commander
+	}
+	6 = {
+		cost = 1500
+		type = corps_commander
+	}
+	1 = {
+		cost = 100
+		type = field_marshal
+	}
+	2 = {
+		cost = 300
+		type = field_marshal
+	}
+	3 = {
+		cost = 500
+		type = field_marshal
+	}
+	4 = {
+		cost = 1000
+		type = field_marshal
+	}
+	5 = {
+		cost = 1500
+		type = field_marshal
+	}
+	6 = {
+		cost = 1500
+		type = field_marshal
+	}
+	1 = {
+		cost = 100
+		type = operative
+	}
+}

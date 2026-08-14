@@ -16,9 +16,6 @@ sub_units = {
 			category_field_hospital
 		}
 		same_support_type = field_hospital_support
-		#need = {
-		#	support_equipment_archetype = @field_need
-		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -56,10 +53,6 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = field_hospital_support
-		#need = {
-		#	support_equipment_archetype = @field_need
-		#	mechanised_utility_ = @field_need
-		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -101,10 +94,6 @@ sub_units = {
 		}
 		same_support_type = field_hospital_support
 		affects_speed = no
-		#need = {
-		#	support_equipment_archetype = @field_need
-		#	helicopter_equipment_archetype = @field_need
-		#}
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20

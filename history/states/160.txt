@@ -1,6 +1,10 @@
 state = {
 	id = 160
-	name = "STATE_160"
+	name = "STATE_160" 	resources={
+		steel=240 
+		chromium=120 
+	}
+
 	history = {
 		owner = SOV
 		add_core_of = SOV

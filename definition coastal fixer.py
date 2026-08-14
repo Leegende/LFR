@@ -1,12 +1,12 @@
 import os
 
-# ==============================================================================
-# FEHLERANALYSE & KORREKTUR:
-# 1. parts[0].strip() behebt Whitespace-Probleme beim ID-Abgleich.
-# 2. parts[5] muss auf "true" gesetzt werden, da die Provinzen laut Bitmap 
-#    an Wasser grenzen (Küste) und die Definition dies bisher fälschlicherweise 
-#    auf "false" gesetzt hat ("Bitmap adjacency result will be preferred").
-# ==============================================================================
+
+
+
+
+
+
+
 
 TARGET_PROVINCES = {
     "4114", "4185", "5240", "8365", "18041", "18624", "18638", "18678", 
@@ -43,9 +43,9 @@ def fix_coastal_provinces_inplace(file_path, target_ids):
             province_id = parts[0].strip()
             if province_id in target_ids:
                 if len(parts) > 5:
-                    # Auf "true" setzen, da die Engine bei Diskrepanzen 
-                    # ("Bitmap adjacency result will be preferred") die Küsteneigenschaft 
-                    # erzwingt, die Definition aber synchronisiert sein muss.
+                    
+                    
+                    
                     parts[5] = "true"
                     line = ";".join(parts) + "\n"
                     modified_count += 1

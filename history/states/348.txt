@@ -1,11 +1,12 @@
-
 state = {
-id = 348
+	id = 348
 	name = "STATE_348"
+	resources = {
+		aluminium = 180		
+	}
 	history = {
 		owner = FRA
 		add_core_of = FRA
-		
 		victory_points = {
 			9560
 			2
@@ -14,7 +15,6 @@ id = 348
 			infrastructure = 7
 			industrial_complex = 3
 			arms_factory = 2
-			
 		}
 		victory_points = {
 			13755
@@ -63,7 +63,6 @@ id = 348
 		13769
 		13818
 		13857
-		
 		1899
 		2934
 		3303
@@ -79,8 +78,5 @@ id = 348
 		13664
 	}
 	manpower = 1128215
-	
-	
 	state_category = state_level_5
 }
-

@@ -13,4 +13,69 @@ characters = {
 	ITA_end = {
 		name = ""
 	}
+
+
+	#### advisor
+	#Dino Grandi Justice Minister 5% pp 5% facism resistance
+	#Carlo Scorza 10% facism 
+	#Dino Alfieri 10% war support
+	#Giovanni Marinelli 2% non core 25% damage to garrison 
+	#Giacomo Acerbo 10% mil 
+	#Paolo Thaon di Revel 15% air base 10% radar 
+	#Carlo Favagrossa -20% civ to mil, supply hub steel mill
+	#Alberto Beneduce 10% civ
+	#Guido Jung -15% consumer goods
+	#Adelchi Serena Silent Workhorse
+	#Curzio Malaparte 5% stability 5% pp gain
+	#Serafino Mazzolini Party popularity 10% 
+	#Giuseppe Bianchi Locomative Superintendet Train -25% supply hub -10 railway 10%
+	### chief
+	#Pietro Badoglio Army Morale
+	#Emilio De Bono Army defense
+	#Ugo Cavallero army organisation
+	#Vittorio Ambrosio
+	#Alberto Pariani maneuver 
+	### air 
+	#italo balbo all weather
+	#rino corso fougier air safety
+	#francesco pricolo air reformer
+	#aldo pellegrini cas 
+	#giovanni messi armor
+	#alberto da zara artillery defense
+	#mario roatta army regrouping
+	#vittorio ambrosio cav 
+	#alfredo guzzoni infantry
+	#ettoro muti tactical bombing
+	#marziale cerutti  air
+	#silvio scaroni bomber interception 
+	#randolfo pacciardi regoruping
+	#luigi mascherpa supply
+	## theory
+	#giovanni messe mobile warfare tank
+	#rodolfo graziana gbp 
+	#amedeo mecozzi cas
+	#renato sandalli
+#
+	#### general
+	#giovanni messe tank
+	#ugo cavallero old guard inf
+	#annibale bergonzoli special forces
+	#vittorio ambrosio cav
+	#ettore baldassare inf fortress 
+	#giovanni duca hill inf
+	#sebastian visconti prasca old guard inf 
+	#ubaldo soddu artillery 
+	#italo balbo cas concealment
+	#giulio martinat mountain winter inf
+	#francesco zingales motorised
+#
+	## marshal
+	#rodolfo graziani assault desert fox
+	#emilio de bono defense old guard 
+	#pietro badoglio old guard defense 
+
+
+
+
+
 }

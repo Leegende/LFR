@@ -18,9 +18,9 @@ sub_units = {
 			category_light_tank
 		}
 		same_support_type = flame
-		#need = {
-		#	light_tank_flame_ = @flame_need
-		#}
+		
+		
+		
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
@@ -81,9 +81,9 @@ sub_units = {
 			category_medium_tank
 		}
 		same_support_type = flame
-		#need = {
-		#	medium_tank_flame_ = @flame_need
-		#}
+		
+		
+		
 		combat_width = 0
 		battalion_mult = {
 			category = category_infantry
@@ -147,9 +147,9 @@ sub_units = {
 			category_heavy_tank
 		}
 		same_support_type = flame
-		#need = {
-		#	heavy_tank_flame_ = @flame_need
-		#}
+		
+		
+		
 		battalion_mult = {
 			category = category_infantry
 			breakthrough = 0.05
@@ -218,9 +218,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		#need = {
-		#	light_tank_amphibious_flame_ = @flame_need
-		#}
+		
+		
+		
 		same_support_type = flame
 	}
 	medium_tank_amphibious_flamethrower_support = {
@@ -251,9 +251,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		#need = {
-		#	medium_tank_amphibious_flame_ = @flame_need
-		#}
+		
+		
+		
 		same_support_type = flame
 	}
 	heavy_tank_amphibious_flamethrower_support = {
@@ -284,9 +284,9 @@ sub_units = {
 		default_morale = 0
 		manpower = 250
 		supply_consumption = 0.1
-		#need = {
-		#	heavy_tank_amphibious_flame_ = @flame_need
-		#}
+		
+		
+		
 		same_support_type = flame
 	}
 }

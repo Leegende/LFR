@@ -1,0 +1,42 @@
+leader_traits = {
+	trait_SOV_slimed_by_stalin_1 = {
+		type = {
+			land
+		}
+		trait_type = personality_trait
+		allowed = {
+			FROM = {
+				tag = SOV
+			}
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		attack_skill = -1
+		defense_skill = -1
+		modifier = {
+			army_morale_factor = -0.1
+			land_reinforce_rate = -0.05
+		}
+	}
+	trait_SOV_slimed_by_stalin_2 = {
+		type = {
+			land
+		}
+		trait_type = personality_trait
+		allowed = {
+			FROM = {
+				tag = SOV
+			}
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+		attack_skill = -2
+		defense_skill = -2
+		modifier = {
+			army_morale_factor = -0.1
+			land_reinforce_rate = -0.1
+		}
+	}
+}

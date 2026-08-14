@@ -13,4 +13,45 @@ characters = {
 	HUN_end = {
 		name = ""
 	}
+	## advisor
+	#Kalman Kanya Captain of Industry
+	#Vilmos Röder War Industrialist
+	#Zoltan Tildy Silent Workhorse 
+	#Jousef Szell democratic reformer
+	#Gyula Gömbös de Jakfa pp 5% 
+	#Benedek Poeltenberg paramilitary leader recruitable pop 0.5%
+	#Tivadar Kiss max factory in state 10%
+	#Lajos Gungl Core attack defense
+	#Karoly Batthyany army xp daily st 10% 
+	#Ferenc szalasi recruit pop 0.5% facism 0.1% law -25%
+	#Gusztav Gratz pp 0.5% consumer goods -10% 
+	#Kalman Daranyi resourc gain 10% democ 10% mil cons 5%
+	#Gabor Vajna recruit 0.2% required garrison -25%
+	#Lajos Egressy facism 10%
+	## army 
+	#Ferenc Szombathelyi army defense 
+	#Hugo Sonyi offense 
+	## air
+	#Bela Rakosi cas
+	### arty
+	#Gusztav Jany arty
+	## high command
+	#Ivan Hindy Armor genius 
+	#Karoly Beregfy combined arms
+	#Dezsö Laszlo army regrouping
+	#Henrik Werth cav
+	#Jenö Ratz supply
+	## theorist
+	#Shvoy Kalman Military theorist
+	#Shvoy Kalman cas
+	### field marshal 
+	#Ferenc Feketehalmy-Czeydner attack organizer
+	## gen
+	#Geza Lakatos inf hill commando
+	#Ivan Hindy trickster armor ranger
+	#Laszlo Hollosly Kuthy inf arty
+	#Karoly Beregfy cav river trickster
+	#Lajos Veress ranger tank
+	
+
 }

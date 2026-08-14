@@ -17,9 +17,9 @@ sub_units = {
 			category_anti_tank
 			category_pack
 		}
-		#need = {
-		#	pack_anti_tank_archetype = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 1
 		max_strength = 1
 		max_organisation = 20
@@ -72,9 +72,9 @@ sub_units = {
 			category_anti_tank
 			category_medium
 		}
-		#need = {
-		#	anti_tank_archetype = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 1
 		manpower = 500
 		max_organisation = 20
@@ -126,9 +126,9 @@ sub_units = {
 			category_anti_tank
 			category_heavy
 		}
-		#need = {
-		#	heavy_anti_tank_archetype = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 1
 		manpower = 500
 		max_organisation = 20
@@ -188,10 +188,10 @@ sub_units = {
 			category_vehicle_anti_tank
 		}
 		combat_width = 2
-		#need = {
-		#	anti_tank_equipment = 12
-		#	motorized_equipment = 14
-		#}
+		
+		
+		
+		
 		manpower = 500
 		max_organisation = 0
 		default_morale = 0
@@ -247,9 +247,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_tank
 		}
-		#need = {
-		#	mechanised_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 30
@@ -316,9 +316,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_tank
 		}
-		#need = {
-		#	amtrac_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 25
@@ -385,9 +385,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_tank
 		}
-		#need = {
-		#	armored_car_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_strength = 0.4
@@ -470,9 +470,9 @@ sub_units = {
 			category_light_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	light_tank_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -558,9 +558,9 @@ sub_units = {
 			category_amphibious_light_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	light_tank_amphibious_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -645,9 +645,9 @@ sub_units = {
 			category_medium_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	medium_tank_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -732,9 +732,9 @@ sub_units = {
 			category_amphibious_medium_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	medium_tank_amphibious_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		manpower = 500
 		max_organisation = 20
 		default_morale = 0.3
@@ -815,9 +815,9 @@ sub_units = {
 			category_heavy_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	heavy_tank_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20
@@ -903,9 +903,9 @@ sub_units = {
 			category_amphibious_heavy_tank
 			category_tank_anti_tank
 		}
-		#need = {
-		#	heavy_tank_amphibious_anti_tank_ = @anti_tank_need
-		#}
+		
+		
+		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 20

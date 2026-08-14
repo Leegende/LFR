@@ -90,8 +90,6 @@ state = {
 			2
 		}
 	}
-	manpower = 17452
+	manpower = 1041084
 	state_category = state_level_4
-	
-	
 }

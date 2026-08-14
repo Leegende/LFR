@@ -42,8 +42,6 @@ state = {
 			industrial_complex = 1
 		}
 	}
-	manpower = 1
-	
+	manpower = 971940
 	state_category = state_level_3
-	
 }

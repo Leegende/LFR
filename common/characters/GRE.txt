@@ -1,38 +1,58 @@
 characters = {
-	GRE_eleftherios_venizelos = {
-		name = "Eleftherios Venizelos"
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GRE_eleftherios_venizelos
-			}
-		}
-		country_leader = {
-			ideology = democratic_ideology
-		}
-	}
-	GRE_george_ii = {
-		name = "George II"
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GRE_george_ii
-			}
-		}
-		country_leader = {
-			ideology = neutrality_ideology
-		}
-	}
-	GRE_konstantinos_demertzis = {
-		name = "Konstantinos Demertzis"
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GRE_konstantinos_demertzis
-			}
-		}
-		country_leader = {
-			ideology = neutrality_ideology
-		}
-	}
-	GRE_end = {
-		name = ""
-	}
+	
+	#leader
+	#konstantinos_demertzis
+	#democratic 
+	#eleftherios_venizelos
+	#communism
+	#nikos_zachariadis
+	### advisor communism
+	#Andreas Tzimas communism 0.05% pp 10%
+	#Markos Vafiadis recruitable 0.2% garrison -25%
+	#Dimitris Glinos Marxist Academic commu 10% pp 5% 
+	#Dimtrios Holevas ws 5% core defense 5% 
+	#Dimitrios Maximos cap 5% consumer good -5% 
+	#Kostas Theos commu 0.1%
+	#Konstantinos Droulias civ 10%
+	### advisor democratic
+	#Ionnis Metaxas pp 10% output 5% 
+	#Konstantinos Tsaldaris 
+	#Aristeidis Dimitratos War industrialist
+	#Georgios Papandreou social democrat 5% st 5% demo 10%
+	#Ioannis Bernitsas 10% output pp 5% 
+	#Dimitrios Maximos cap 5% consumer goods -5% 
+	#Evangelos Sekeris research speed 5%
+	#Konstantinos Droulias civ 10% infra 10%
+	#
+	## army 
+	#Athanasios Klaras defensee 10 
+	#Alexandros Papagos supply
+	#Nikolaos Plastiras maneuver
+	##artillery
+	#Georgios Kosmas artillery
+	### air
+	#Panagiotis Gazis cas
+	## high command
+	#Napoleon Batas army regrouping
+	#Nikos Beloyannis
+	#Napoleon Zervas inf # demo
+    #Dimitrios Oikonmou # demo entrenchment
+	##theorist
+	#Konstantinos Ventiris gbp
+	#Alexandros Papagos military
+	#Marinos Mitralexis cas
+	#Spyridon Avgeris artillery
+	### general
+	#Nikolaos Plastiras cav attack trickster
+	#Charalambos Katsimitros hill trickster cautious
+	#Markos Drakos inf trickster mountain
+	#Georgios Tsolakogiou capitops 
+	#Theodoros Pangalos commando attack 
+	#Napoleon Zervas attack commando
+	#Markos Vafiadis urban commando media
+	#Georgios Stanotas cav ranger
+	#Georgios Kosmas artillery defense
+
+
+
 }

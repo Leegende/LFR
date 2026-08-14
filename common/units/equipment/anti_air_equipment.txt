@@ -29,7 +29,7 @@ equipments = {
 		group_by = archetype
 		interface_category = interface_category_land
 	}
-	####
+	
 	pack_anti_air_equipment = {
 		archetype = pack_anti_air_archetype
 		soft_attack = 5
@@ -41,7 +41,7 @@ equipments = {
 		reliability = 0.85
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 9
 		resources = {
 			steel = 20
@@ -58,7 +58,7 @@ equipments = {
 		reliability = 0.85
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 10
 		resources = {
 			steel = 20
@@ -75,7 +75,7 @@ equipments = {
 		reliability = 0.75
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 18
 		resources = {
 			steel = 20

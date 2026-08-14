@@ -52,7 +52,7 @@ large_unit_tactics = {
 	}
 	effect = {
 	}
-	#OTHER BASE REWARDS
+	
 	category_infantry = {
 		supply_consumption = -0.01
 	}
@@ -66,13 +66,13 @@ large_unit_tactics = {
 			}
 		}
 		unit_knowledge_sharing = {
-			#3
+			
 			category_infantry = {
 				experience_loss_factor = -0.01
 			}
 		}
 		large_front_offensive = {
-			#4
+			
 			category_infantry = {
 				max_organisation = 10
 				soft_attack = 0.1
@@ -80,7 +80,7 @@ large_unit_tactics = {
 			army_morale = 0.2
 		}
 		motorization_initiative = {
-			#5
+			
 			category_infantry = {
 				breakthrough = 0.1
 				soft_attack = 0.1
@@ -116,7 +116,7 @@ assault_infantry = {
 			}
 		}
 		organic_battalion_fire_support = {
-			#2
+			
 			category_artillery = {
 				soft_attack = 0.05
 			}
@@ -129,14 +129,14 @@ assault_infantry = {
 			}
 		}
 		integrated_support_batteries = {
-			#3
+			
 			category_artillery = {
 				max_organisation = 10
 				soft_attack = 0.05
 			}
 		}
 		breakthrough_fireteams = {
-			#4
+			
 			light_tank_recon_support = {
 				max_organisation = 10
 				battalion_mult = {
@@ -163,31 +163,31 @@ assault_infantry = {
 			}
 		}
 		assault_detachments = {
-			#5
+			
 			category_artillery = {
 				supply_consumption = -0.02
 			}
-			#light_flame_tank = {
-			#    battalion_mult = {
-			#        category = category_infantry
-			#        breakthrough = 0.1
-			#        soft_attack = 0.1
-			#    }
-			#}
-			#medium_flame_tank = {
-			#    battalion_mult = {
-			#        category = category_infantry
-			#        breakthrough = 0.1
-			#        soft_attack = 0.1
-			#    }
-			#}
-			#heavy_flame_tank = {
-			#    battalion_mult = {
-			#        category = category_infantry
-			#        breakthrough = 0.1
-			#        soft_attack = 0.1
-			#    }
-			#}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 	}
 }
@@ -280,7 +280,7 @@ commandos = {
 	available = {
 		always = yes
 	}
-	#enable_tactic = tactic_infantry_charge
+	
 	logistics_company_support = {
 		battalion_mult = {
 			category = category_infantry
@@ -391,8 +391,8 @@ irregulars = {
 		improvised_officer_groups = {
 			category_infantry = {
 				max_organisation = 10
-				#soft_attack = 0.1
-				#breakthrough = 0.1
+				
+				
 			}
 		}
 		levee_en_masse = {
@@ -402,7 +402,7 @@ irregulars = {
 		standardization_efforts = {
 			category_infantry = {
 				max_organisation = 10
-				#soft_attack = 0.1
+				
 			}
 		}
 	}
@@ -418,7 +418,7 @@ peoples_war = {
 	available = {
 		has_government = communism
 	}
-	#enable_tactic = tactic_guerrilla_tactics
+	
 	light_infantry_battalion = {
 		soft_attack = 0.1
 		defense = 0.2
@@ -435,14 +435,14 @@ peoples_war = {
 			}
 		}
 		destruction_over_land_gains = {
-			#2
+			
 			mastery = 50
 			category_infantry = {
 				default_morale = 0.2
 			}
 		}
 		quick_decision_offensive_warfare = {
-			#3
+			
 			light_infantry_battalion = {
 				initiative = 0.2
 				max_organisation = 10
@@ -450,7 +450,7 @@ peoples_war = {
 			}
 		}
 		people_not_things = {
-			#4
+			
 			mastery = 50
 			category_infantry = {
 				soft_attack = 0.1
@@ -497,7 +497,7 @@ great_war_infantry = {
 		}
 		centralized_category_artillery_control = {
 			category_artillery = {
-				#soft_attack = 0.1
+				
 				battalion_mult = {
 					category = category_infantry
 					soft_attack = 0.1

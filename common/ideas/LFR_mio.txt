@@ -1,354 +1,374 @@
 ideas = {
 	tank_industrial_concern = {
-		designer = yes
 		soft_attack_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			allowed = {
 				always = yes
 			}
 			traits = {
-				soft_attack_manufacturer
+				trait_soft_attack_designer
 			}
 		}
 		hard_attack_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#hard_attack_manufacturer
+				trait_hard_attack_designer
 			}
 		}
 		mobile_tank_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#mobile_tank_manufacturer
+				trait_mobile_tank_designer
 			}
 		}
 		breakthrough_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_breakthrough_designer
 			}
 		}
 		main_battle_tank = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_armor_tank_designer
 			}
 		}
 		blitzkrieg_tank_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_blitzkrieg_tank_designer
 			}
 		}
 		mass_tank_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_mass_tank_designer
 			}
 		}
 		support_tank_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_tank_designer
+				add_ideas = free_tank_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_support_tank_designer
 			}
 		}
 	}
 	mech_industrial_concern = {
-		designer = yes
-		hardness_mech_designer = {
+		low_hardness_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_low_hardness_mech_designer
 			}
 		}
 		quality_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#hard_attack_manufacturer
+				trait_quality_mech_designer
 			}
 		}
 		speed_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#mobile_tank_manufacturer
+				trait_speed_mech_designer
 			}
 		}
 		breakthrough_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_breakthrough_mech_designer
 			}
 		}
 		quantity_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_quantity_mech_designer
 			}
 		}
 		defense_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_defense_mech_designer
 			}
 		}
 		armor_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_armor_mech_designer
 			}
 		}
 		support_mech_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_mech_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_support_mech_designer
 			}
 		}
 	}
 	material_industrial_concern = {
-		designer = yes
 		soft_weapon_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_soft_weapon_designer
 			}
 		}
 		hard_weapon_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#hard_attack_manufacturer
+				trait_hard_weapon_designer
 			}
 		}
 		cheap_weapon_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#mobile_tank_manufacturer
+				trait_cheap_weapon_designer
 			}
 		}
 		defense_weapon_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_defense_weapon_designer
 			}
 		}
-		artillery_designer = {
+		attack_artillery_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_attack_artillery_designer
+			}
+		}
+		defense_artillery_designer = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_material_industrial_concern
+			}
+			traits = {
+				trait_defense_artillery_designer
 			}
 		}
 		anti_air_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_anti_air_designer
 			}
 		}
 		anti_tank_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_material_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_anti_tank_designer
 			}
 		}
 	}
 	aircraft_industrial_concern = {
-		designer = yes
 		attack_plane_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_aircraft_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
-			}
-		}
-		cas_designer = {
-			picture = GFX_idea_tank_mio
-			on_add = {
-				add_ideas = free_mech_designer
-			}
-			traits = {
-				#hard_attack_manufacturer
+				trait_attack_plane_designer
 			}
 		}
 		defense_plane_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_aircraft_industrial_concern
 			}
 			traits = {
-				#mobile_tank_manufacturer
+				trait_defense_plane_designer
 			}
 		}
 		range_plane_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_aircraft_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_range_plane_designer
+			}
+		}
+		cas_designer = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_aircraft_industrial_concern
+			}
+			traits = {
+				trait_cas_designer
 			}
 		}
 		bombing_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_aircraft_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
-			}
-		}
-		anti_air_building_designer = {
-			picture = GFX_idea_tank_mio
-			on_add = {
-				add_ideas = free_mech_designer
-			}
-			traits = {
-				#soft_attack_manufacturer
+				trait_bombing_designer
 			}
 		}
 		transport_plane_designer = {
 			picture = GFX_idea_tank_mio
 			on_add = {
-				add_ideas = free_mech_designer
+				add_ideas = free_aircraft_industrial_concern
 			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_transport_plane_designer
+			}
+		}
+		anti_air_building_designer = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_aircraft_industrial_concern
+			}
+			traits = {
+				trait_anti_air_building_designer
+			}
+		}
+		radar_building_designer = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_aircraft_industrial_concern
+			}
+			traits = {
+				trait_radar_building_designer
 			}
 		}
 	}
 	industrial_concern = {
 		industrial_concern = {
 			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_industrial_concern
+			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_industrial_concern
 			}
 		}
 		railway_company = {
 			picture = GFX_idea_tank_mio
-			traits = {
-				#soft_attack_manufacturer
+			on_add = {
+				add_ideas = free_industrial_concern
 			}
-		}
-		construction_company = {
-			picture = GFX_idea_tank_mio
 			traits = {
-				#soft_attack_manufacturer
+				trait_railway_company
 			}
 		}
 		forestry_company = {
 			picture = GFX_idea_tank_mio
-			traits = {
-				#soft_attack_manufacturer
+			on_add = {
+				add_ideas = free_industrial_concern
 			}
-		}
-		refining_concern = {
-			picture = GFX_idea_tank_mio
 			traits = {
-				#soft_attack_manufacturer
+				trait_forestry_company
 			}
 		}
 		refinery_concern = {
 			picture = GFX_idea_tank_mio
-			traits = {
-				#soft_attack_manufacturer
+			on_add = {
+				add_ideas = free_industrial_concern
 			}
-		}
-		central_bank = {
-			picture = GFX_idea_tank_mio
 			traits = {
-				#soft_attack_manufacturer
-			}
-		}
-		electronics_concern = {
-			picture = GFX_idea_tank_mio
-			traits = {
-				#soft_attack_manufacturer
-			}
-		}
-		telephone_company = {
-			picture = GFX_idea_tank_mio
-			traits = {
-				#soft_attack_manufacturer
+				trait_refinery_concern
 			}
 		}
 		mining_company = {
 			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_industrial_concern
+			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_mining_company
 			}
 		}
 		electronics_developer = {
 			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_industrial_concern
+			}
 			traits = {
-				#soft_attack_manufacturer
+				trait_electronics_concern
+			}
+		}
+		food_distributor = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_industrial_concern
+			}
+			traits = {
+				trait_food_distributor
+			}
+		}
+		energy_company = {
+			picture = GFX_idea_tank_mio
+			on_add = {
+				add_ideas = free_industrial_concern
+			}
+			traits = {
+				trait_energy_company
 			}
 		}
 	}

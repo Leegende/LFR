@@ -1,0 +1,52 @@
+leader_traits = {
+	trait_SS = {
+		type = {
+			land
+		}
+		trait_type = personality_trait
+		allowed = {
+			FROM = {
+				tag = GER
+			}
+		}
+		attack_skill = 1
+		defense_skill = 1
+		modifier = {
+			army_morale_factor = 0.1
+			max_organisation = 0.05
+			supply_consumption_factor = 0.05
+		}
+	}
+	trait_spitzfindig = {
+		type = {
+			land
+		}
+		trait_type = personality_trait
+		allowed = {
+			FROM = {
+				tag = GER
+			}
+		}
+		attack_skill = 1
+		modifier = {
+			recon_factor = 0.5
+			army_retreat_speed_factor = 0.2
+		}
+	}
+	trait_feuerwehrmann = {
+		type = {
+			land
+		}
+		trait_type = personality_trait
+		allowed = {
+			FROM = {
+				tag = GER
+			}
+		}
+		attack_skill = 1
+		modifier = {
+			army_speed_factor = 0.1
+			army_retreat_speed_factor = 0.2
+		}
+	}
+}

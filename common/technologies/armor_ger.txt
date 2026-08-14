@@ -28,7 +28,7 @@ technologies = {
 			light_superstructure_module
 			medium_superstructure_module
 			heavy_superstructure_module
-			###
+			
 			stabilizer_module
 			smoke_launchers_module
 			extra_ammo_storage_module

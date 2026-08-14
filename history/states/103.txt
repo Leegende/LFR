@@ -1,20 +1,17 @@
-
 state = {
-id = 103
+	id = 103
 	name = "STATE_103"
 	history = {
 		owner = DMZ
 		add_core_of = DMZ
 		buildings = {
 			infrastructure = 6
-			industrial_complex =2
+			industrial_complex = 2
 			arms_factory = 1
 		}
 	}
-	manpower = 1
-	
+	manpower = 315500
 	state_category = state_level_4
-	
 	provinces = {
 		7594
 		10349
@@ -45,4 +42,3 @@ id = 103
 		19997
 	}
 }
-

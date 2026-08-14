@@ -35,7 +35,7 @@ def clean_unitstacks(unitstacks_path: Path, errors: set):
 
     for line in lines:
         stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
+        if not stripped or stripped.startswith("
             new_lines.append(line)
             continue
             
@@ -46,7 +46,7 @@ def clean_unitstacks(unitstacks_path: Path, errors: set):
                 stack_idx = int(parts[1])
                 if (prov_id, stack_idx) in errors:
                     removed_count += 1
-                    continue  # Drop the invalid/out-of-bounds stack line
+                    continue  
             except ValueError:
                 pass
                 

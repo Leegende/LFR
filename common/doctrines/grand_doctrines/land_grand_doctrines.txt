@@ -1,4 +1,4 @@
-new_mobile_warfare = {
+mobile_warfare = {
 	folder = land
 	name = "Mobile Warfare"
 	description = ""
@@ -20,12 +20,10 @@ new_mobile_warfare = {
 		breakthrough = 0.1
 	}
 	supply_consumption_factor = -0.1
-	##enable_tactic = tactic_unexpected_thrust
 	milestones = {
 		{
 			org_loss_when_moving = -0.1
 			land_reinforce_rate = 0.02
-			##enable_tactic = tactic_delay
 			effect = {
 				if = {
 					limit = {
@@ -71,7 +69,6 @@ new_mobile_warfare = {
 				breakthrough = 0.1
 			}
 			planning_speed = 0.2
-			##enable_tactic = tactic_blitz
 			effect = {
 				if = {
 					limit = {
@@ -96,7 +93,6 @@ new_mobile_warfare = {
 				max_organisation = 5
 				default_morale = 0.05
 			}
-			##enable_tactic = tactic_backhand_blow
 			effect = {
 				if = {
 					limit = {
@@ -134,7 +130,6 @@ superior_firepower = {
 		armor
 		operations
 	}
-	##enable_tactic = tactic_overwhelming_fire
 	category_artillery = {
 		soft_attack = 0.15
 		hard_attack = 0.3
@@ -142,8 +137,6 @@ superior_firepower = {
 	}
 	milestones = {
 		{
-			#Infantry
-			##enable_tactic = tactic_elastic_defense
 			category_artillery = {
 				soft_attack = 0.1
 			}
@@ -166,11 +159,9 @@ superior_firepower = {
 			}
 		}
 		{
-			#category_artillery/Support
 			category_support_company = {
 				max_organisation = 10
 			}
-			##enable_tactic = tactic_barrage
 			effect = {
 				if = {
 					limit = {
@@ -190,7 +181,6 @@ superior_firepower = {
 			}
 		}
 		{
-			##enable_tactic = tactic_delay
 			army_morale = 0.2
 			effect = {
 				if = {
@@ -211,8 +201,6 @@ superior_firepower = {
 			}
 		}
 		{
-			#Operations
-			##enable_tactic = tactic_tactical_withdrawal
 			category_infantry = {
 				default_morale = 0.1
 			}
@@ -280,14 +268,12 @@ grand_battleplan = {
 			}
 		}
 		{
-			#category_artillery/Support
 			coordination_bonus = 0.05
 			max_dig_in_factor = 0.1
 			category_support_company = {
 				max_organisation = 5
 				breakthrough = 0.2
 			}
-			##enable_tactic = tactic_overwhelming_fire
 			effect = {
 				if = {
 					limit = {
@@ -396,8 +382,6 @@ mass_assault = {
 			}
 		}
 		{
-			#category_artillery/Support
-			#enable_tactic = tactic_elastic_defense
 			out_of_supply_factor = -0.05
 			minimum_training_level = -0.05
 			effect = {
@@ -419,13 +403,11 @@ mass_assault = {
 			}
 		}
 		{
-			#Armor
 			category_infantry = {
 				max_organisation = 5
 				defense = 0.1
 				default_morale = 0.05
 			}
-			#enable_tactic = tactic_overwhelming_fire
 			effect = {
 				if = {
 					limit = {
@@ -445,8 +427,6 @@ mass_assault = {
 			}
 		}
 		{
-			#Operations
-			#enable_tactic = tactic_backhand_blow
 			weekly_casualties_war_support = 0.001
 			minimum_training_level = -0.1
 			supply_factor = 0.1

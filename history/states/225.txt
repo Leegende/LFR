@@ -1,6 +1,9 @@
 state = {
 	id = 225
 	name = "STATE_225"
+	resources = {
+		steel = 200
+	}
 	provinces = {
 		260
 		12477
@@ -92,6 +95,4 @@ state = {
 	}
 	manpower = 932247
 	state_category = state_level_4
-	
-	
 }

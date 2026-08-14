@@ -1,6 +1,9 @@
 state = {
-id = 117
+	id = 117
 	name = "STATE_117"
+	resources = {
+		coal = 10		
+	}
 	history = {
 		owner = ITA
 		add_core_of = ITA
@@ -73,12 +76,6 @@ id = 117
 		21491
 		15335
 		15322
-
-
-
-
-
-
 		2660
 		2790
 		6905
@@ -108,8 +105,5 @@ id = 117
 		20034
 	}
 	manpower = 1034200
-	
 	state_category = state_level_6
-	
 }
-

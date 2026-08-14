@@ -1,19 +1,5 @@
 ideas = {
 	country = {
-		ig_farben_idea = {
-			cost = 0
-			removal_cost = 0
-			picture = german_advisors
-			allowed = {
-				always = no
-			}
-			available = {
-				always = no
-			}
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.2
-			}
-		}
 		specialized_research = {
 			allowed = {
 				always = no
@@ -739,25 +725,6 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				local_resources_factor = 0.1
-			}
-		}
-	}
-	industrial_concern = {
-		ig_farben_concern = {
-			picture = generic_armor
-			cost = 50
-			removal_cost = 0
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				has_completed_focus = GER_ig_farben
-			}
-			research_bonus = {
-				technology_category_synthetics = 0.2
-			}
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.2
 			}
 		}
 	}

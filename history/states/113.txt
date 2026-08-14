@@ -2,8 +2,11 @@
 state = {
 id = 113
 	name = "STATE_113"
-
-	history = {
+	resources={
+		steel=170 
+		chromium=150 
+	}
+	history = { 
 		owner = FIN
 		add_core_of = FIN
 		buildings = {

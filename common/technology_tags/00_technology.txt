@@ -1,36 +1,36 @@
 technology_categories = {
-	###air
+	
 	technology_category_air
 	technology_category_light_air
 	technology_category_heavy_air
 	technology_category_jet_air
-	###
+	
 	technology_category_fighter
 	technology_category_cas
 	technology_category_fighter_bomber
 	technology_category_heavy_fighter
 	technology_category_tactical_bomber
 	technology_category_transport_plane
-	###armor
+	
 	technology_category_armor
-	###
+	
 	technology_category_light_tank
 	technology_category_medium_tank
 	technology_category_heavy_tank
 	technology_category_amphibious_tank
-	#artillery
+	
 	technology_category_artillery
 	technology_category_artillery_gun
 	technology_category_artillery_upgrade
-	###
+	
 	technology_category_pack_artillery
 	technology_category_medium_artillery
 	technology_category_heavy_artillery
-	###
+	
 	technology_category_industry
 	technology_category_electronics
 	technology_category_synthetics
-	###
+	
 	technology_category_tools
 	technology_category_dispersed
 	technology_category_concentrated
@@ -42,7 +42,7 @@ technology_categories = {
 	technology_category_inf_radio
 	technology_category_radar
 	technology_category_computing
-	###
+	
 	technology_category_infantry
 	technology_category_special_forces
 	technology_category_headquarter
@@ -52,7 +52,7 @@ technology_categories = {
 	technology_category_mountaineers
 	technology_category_rangers
 	technology_category_shocktroops
-	###
+	
 	technology_category_railway_gun
 	technology_category_armored_car
 	technology_category_mechanised
@@ -60,7 +60,7 @@ technology_categories = {
 	technology_category_railways
 	technology_category_supply_node
 	technology_category_infrastructure
-	###
+	
 	technology_category_support
 	technology_category_engineering
 	technology_category_recon
@@ -125,9 +125,9 @@ technology_folders = {
 	}
 	armour_sov_folder = {
 		ledger = army
-		#available = {
-		#	original_tag = SOV
-		#}
+		
+		
+		
 	}
 	artillery_folder = {
 		ledger = army
@@ -135,12 +135,12 @@ technology_folders = {
 	air_folder = {
 		ledger = air
 		available = {
-			#OR = {
-			#	original_tag = SOV
-			#	original_tag = ENG
-			#	original_tag = ITA
-			#	original_tag = GER
-			#}
+			
+			
+			
+			
+			
+			
 		}
 	}
 	industry_folder = {

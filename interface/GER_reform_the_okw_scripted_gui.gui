@@ -90,7 +90,7 @@ guiTypes = {
 			pdx_tooltip = GER_weisung_nr_35a_tt
 			position = { x=250	 y=120 }
 		}
-		#row 2
+		
 		buttonType = {
 			name ="GER_weisung_nr_40"
 			spriteType = "GFX_GER_gui_paceholder_2"

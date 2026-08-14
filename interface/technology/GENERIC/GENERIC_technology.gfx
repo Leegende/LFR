@@ -1,5 +1,5 @@
 spriteTypes = {
-	### infantry
+	
 	spriteType = {
 		name = "GFX_infantry_weapon_1_equipment_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/infantry_weapon_1_equipment.dds"
@@ -205,7 +205,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/INFANTRY/shocktroops_upgrade_3.dds"
 		legacy_lazy_load = no
 	}
-	###logistics
+	
 	spriteType = {
 		name = "GFX_railways_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/railways.dds"
@@ -321,7 +321,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/LOGISTICS/amtrac_3_equipment.dds"
 		legacy_lazy_load = no
 	}
-	##support
+	
 	spriteType = {
 		name = "GFX_support_equipment_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/support_equipment_archetype.dds"
@@ -467,7 +467,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/SUPPORT/signal_company_4.dds"
 		legacy_lazy_load = no
 	}
-	#artillery
+	
 	spriteType = {
 		name = "GFX_pack_anti_air_equipment_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/pack_anti_air_equipment.dds"
@@ -648,7 +648,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/ARTILLERY/heavy_artillery_3_upgrade.dds"
 		legacy_lazy_load = no
 	}
-	### industry
+	
 	spriteType = {
 		name = "GFX_tools_1_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tools_1.dds"
@@ -774,7 +774,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/excavation_5.dds"
 		legacy_lazy_load = no
 	}
-	## electric
+	
 	spriteType = {
 		name = "GFX_engineering_1_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/engineering_1.dds"
@@ -885,7 +885,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/tank_radio.dds"
 		legacy_lazy_load = no
 	}
-	### rubber
+	
 	spriteType = {
 		name = "GFX_rubber_processing_1_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_1.dds"
@@ -911,7 +911,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/GENERIC/INDUSTRY/rubber_processing_5.dds"
 		legacy_lazy_load = no
 	}
-	### Air
+	
 	spriteType = {
 		name = "GFX_air_base_building_technology_medium"
 		textureFile = "gfx/interface/technologies/GENERIC/AIR/airbase.dds"

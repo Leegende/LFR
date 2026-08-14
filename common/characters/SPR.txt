@@ -21,7 +21,44 @@ characters = {
 			ideology = neutrality_ideology
 		}
 	}
-	SPR_end = {
-		name = ""
-	}
+	### advisor
+	#Augusto Barcia Trelles Leftist Freemason intelligenec 10%
+	#Diego Martinzed Barrio pp 25%
+	#Juan Negrin recruitable pop 0.5% consumer good -10% stab 5% 
+	#Francisco Largo Caballero pp 15%
+	#Luis Valdes Cavanillas prince of terror 
+	#Tomas Garciano Goni non core stab 10% garrison 15%
+	#Jose Antonio Giron industrial falangist facism 5% infra 10% civ 10% railway 10%
+	#Diego Hidalgo y Duran War industrialist
+	## army
+	#Juan Yagüe Army offense
+	#Rafael Garcia Valino Army organi
+	#Heli Rolando de Tella army defense
+	#Migual Ponte army drill 
+	### arty
+	#Antonio Azarola y Gresillon arty
+	### air 
+	#Joaquin Garcia-Morato y Castano cas
+	#Juan Vigon Suero-Diaz Air reformer
+	## high command
+	#Migual Cabanellas army regrouping
+	#Enrique Canovas Lacruz supply
+	#Ricardo de Rada y Peral entrenchment
+	#Antonio Ortego Gutierrez inf
+	#Wilhem Ritter von Thoma Armor
+	## theorist
+	#Jose Enrique Varela military theorist
+	#Nicolas Molero cav
+	#Felipe Diaz Sandino cas
+	### gens
+	#Juan Yagüe attack trickster hills
+	#Mohamed Meziane attack engineer armor
+	#Jose Enrique Varela arty defense organiser inf
+	#Valentin gonzalez combined arms attack armor
+	#Enrique Lister inf trickster 
+	#Gonzalo Queipo de Llano ranger inf
+	#Jose Millan Astray Commando invader swamp
+	### field marshal
+	#Francisco Franco Organiser trickster armor
+	#Emilio Mola organiser infantry urban
 }

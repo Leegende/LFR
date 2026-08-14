@@ -1,6 +1,5 @@
-
 state = {
-id = 148
+	id = 148
 	name = "STATE_148"
 	history = {
 		owner = DMZ
@@ -10,10 +9,8 @@ id = 148
 			industrial_complex = 1
 		}
 	}
-	manpower = 1
-	
+	manpower = 225840
 	state_category = state_level_5
-	
 	provinces = {
 		1303
 		3255
@@ -49,4 +46,3 @@ id = 148
 		17934
 	}
 }
-

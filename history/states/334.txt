@@ -1,15 +1,6 @@
 state = {
 	id = 334
 	name = "STATE_334"
-	resources = {
-		coal = 10000
-		rubber = 10000
-		aluminium = 10000
-		tungsten = 10000
-		chromium = 10000
-		steel = 10000
-		oil = 10000
-	}
 	history = {
 		owner = FRA
 		add_core_of = FRA
@@ -96,7 +87,5 @@ state = {
 		19887
 	}
 	manpower = 7447800
-	
-	
 	state_category = state_level_11
 }

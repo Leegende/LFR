@@ -174,7 +174,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/medium_hard_cannon_3.dds"
 		legacy_lazy_load = no
 	}
-	# heavy soft
+	
 	spriteType = {
 		name = "GFX_EMI_heavy_soft_cannon_1_module"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_cannons/heavy_soft_cannon_1.dds"
@@ -480,7 +480,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_turrets/heavy_superstructure.dds"
 		legacy_lazy_load = no
 	}
-	####mech
+	
 	spriteType = {
 		name = "GFX_EMI_mech_troop_carrier_module"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/mech_turrets/troop_carrier.dds"
@@ -701,7 +701,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/mech_turrets/light_superstructure.dds"
 		legacy_lazy_load = no
 	}
-	### armor cars
+	
 	spriteType = {
 		name = "GFX_EMI_armored_car_signals_module"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/armored_car_modules/signals.dds"

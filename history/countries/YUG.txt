@@ -13,4 +13,3 @@ set_popularities = {
 	neutrality = 60
 }
 recruit_character = YUG_prince_paul
-recruit_character = YUG_end

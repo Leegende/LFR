@@ -16,9 +16,9 @@ sub_units = {
 			category_anti_air
 			category_pack
 		}
-		#		need = {
-		#			pack_anti_air_archetype = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	anti_air_support = {
 		sprite = infantry
@@ -35,9 +35,9 @@ sub_units = {
 			category_anti_air
 			category_medium
 		}
-		#		need = {
-		#			anti_air_archetype = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	heavy_anti_air_support = {
 		sprite = infantry
@@ -53,9 +53,9 @@ sub_units = {
 			category_anti_air
 			category_heavy
 		}
-		#		need = {
-		#			heavy_anti_air_archetype = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	motorised_anti_air_support = {
 		sprite = motorised
@@ -91,9 +91,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_air
 		}
-		#		need = {
-		#			mechanised_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	armored_car_anti_air_support = {
 		sprite = armored_car
@@ -111,9 +111,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_air
 		}
-		#		need = {
-		#			armored_car_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 		max_organisation = 5
 		default_morale = 0.2
 		max_strength = 0.4
@@ -139,9 +139,9 @@ sub_units = {
 			category_vehicle
 			category_vehicle_anti_air
 		}
-		#		need = {
-		#			amtrac_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	light_tank_anti_air_support = {
 		sprite = light_armor
@@ -159,9 +159,9 @@ sub_units = {
 			category_light_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			light_tank_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	light_tank_amphibious_anti_air_support = {
 		sprite = light_amphibious_armor
@@ -180,9 +180,9 @@ sub_units = {
 			category_amphibious_light_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			light_tank_amphibious_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	medium_tank_anti_air_support = {
 		sprite = medium_armor
@@ -200,9 +200,9 @@ sub_units = {
 			category_medium_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			medium_tank_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	medium_tank_amphibious_anti_air_support = {
 		sprite = medium_amphibious_armor
@@ -221,9 +221,9 @@ sub_units = {
 			category_amphibious_medium_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			medium_tank_amphibious_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	heavy_tank_anti_air_support = {
 		sprite = heavy_armor
@@ -241,9 +241,9 @@ sub_units = {
 			category_heavy_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			heavy_tank_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 	heavy_tank_amphibious_anti_air_support = {
 		sprite = heavy_amphibious_armor
@@ -262,8 +262,8 @@ sub_units = {
 			category_amphibious_medium_tank
 			category_tank_anti_air
 		}
-		#		need = {
-		#			heavy_tank_amphibious_anti_air_ = @anti_air_need
-		#		}
+		
+		
+		
 	}
 }

@@ -1,5 +1,0 @@
-leader_traits = {
-	soft_attack_manufacturer = {
-		random = no
-	}
-}

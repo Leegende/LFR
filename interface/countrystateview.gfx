@@ -201,7 +201,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/building_level_bar.dds"
 		noOfFrames = 4
 	}
-	# TERRAIN		
+	
 	spriteType = {
 		name = "GFX_terrain_default"
 		textureFile = "gfx/interface/terrains/terrain_placeholder.dds"
@@ -238,7 +238,7 @@ spriteTypes = {
 		name = "GFX_terrain_desert"
 		textureFile = "gfx/interface/terrains/terrain_desert.dds"
 	}
-	# TERRAIN WINTER
+	
 	spriteType = {
 		name = "GFX_terrain_forest_winter"
 		textureFile = "gfx/interface/terrains/terrain_forest_winter.dds"
@@ -275,8 +275,8 @@ spriteTypes = {
 		name = "GFX_required_rule"
 		textureFile = "gfx/interface/strait_canal_icon.dds"
 	}
-	### Water Terrain
-	# Water
+	
+	
 	spriteType = {
 		name = "GFX_terrain_water_day"
 		textureFile = "gfx/interface/terrains/terrain_water_day.dds"
@@ -317,7 +317,7 @@ spriteTypes = {
 		name = "GFX_terrain_water_night_snow_storm"
 		textureFile = "gfx/interface/terrains/terrain_water_night_snow_storm.dds"
 	}
-	# Deep Ocean
+	
 	spriteType = {
 		name = "GFX_terrain_water_deep_ocean_night_rain"
 		textureFile = "gfx/interface/terrains/terrain_deep_ocean_night_rain.dds"
@@ -358,7 +358,7 @@ spriteTypes = {
 		name = "GFX_terrain_water_deep_ocean_night"
 		textureFile = "gfx/interface/terrains/terrain_deep_ocean_night.dds"
 	}
-	# Shallow Sea
+	
 	spriteType = {
 		name = "GFX_terrain_water_shallow_sea_night_storm"
 		textureFile = "gfx/interface/terrains/terrain_shallow_sea_night_storm.dds"
@@ -403,7 +403,7 @@ spriteTypes = {
 		name = "GFX_terrain_water_shallow_sea_night"
 		textureFile = "gfx/interface/terrains/terrain_shallow_sea_night.dds"
 	}
-	# Archipelago	
+	
 	spriteType = {
 		name = "GFX_terrain_water_fjords_day"
 		textureFile = "gfx/interface/terrains/terrain_archipelago_day.dds"
@@ -444,8 +444,8 @@ spriteTypes = {
 		name = "GFX_terrain_water_fjords_night_snow_storm"
 		textureFile = "gfx/interface/terrains/terrain_archipelago_night_snow_storm.dds"
 	}
-	### Water Terrain - Ongoing Battle
-	# Water
+	
+	
 	spriteType = {
 		name = "GFX_terrain_ongoing_sea_battle_water_day_snow"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_water_day_snow.dds"
@@ -486,7 +486,7 @@ spriteTypes = {
 		name = "GFX_terrain_ongoing_sea_battle_water_day"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_water_day.dds"
 	}
-	# Deep Ocean
+	
 	spriteType = {
 		name = "GFX_terrain_ongoing_sea_battle_water_deep_ocean_day"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_deep_ocean_day.dds"
@@ -527,7 +527,7 @@ spriteTypes = {
 		name = "GFX_terrain_ongoing_sea_battle_water_deep_ocean_night_storm"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_deep_ocean_night_storm.dds"
 	}
-	# Shallow Sea
+	
 	spriteType = {
 		name = "GFX_terrain_ongoing_sea_battle_water_shallow_sea_day"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_shallow_sea_day.dds"
@@ -568,7 +568,7 @@ spriteTypes = {
 		name = "GFX_terrain_ongoing_sea_battle_water_shallow_sea_day_storm"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_shallow_sea_day_storm.dds"
 	}
-	# Archipelago
+	
 	spriteType = {
 		name = "GFX_terrain_ongoing_sea_battle_water_fjords_day"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_archipelago_day.dds"
@@ -609,7 +609,7 @@ spriteTypes = {
 		name = "GFX_terrain_ongoing_sea_battle_water_fjords_night_storm"
 		textureFile = "gfx/interface/terrains/terrain_ongoing_sea_battle_archipelago_night_storm.dds"
 	}
-	###
+	
 	progressbartype = {
 		name = "GFX_damage_bar"
 		color = {

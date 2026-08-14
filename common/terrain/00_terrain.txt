@@ -230,7 +230,7 @@ terrain = {
 			13
 		}
 		texture = 10
-		#spawn_city = yes
+		
 	}
 	forest_14 = {
 		type = lakes

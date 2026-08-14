@@ -10,10 +10,8 @@ state = {
 			arms_factory = 2
 		}
 	}
-	manpower = 1
-	
+	manpower = 275220
 	state_category = state_level_7
-	
 	provinces = {
 		367
 		1223

@@ -22,7 +22,7 @@ mission_type_tactics = {
 			army_org_regain = 0.1
 		}
 		maneouver_drills = {
-			#3
+			
 			category_infantry = {
 				default_morale = 0.2
 			}
@@ -31,14 +31,14 @@ mission_type_tactics = {
 			}
 		}
 		flexible_combat_formations = {
-			#4
+			
 			category_infantry = {
 				breakthrough = 0.1
 				max_organisation = 5
 			}
 		}
 		control_zone_responsibilities = {
-			#5
+			
 			category_infantry = {
 				default_morale = 0.2
 			}
@@ -79,7 +79,7 @@ last_stand = {
 			}
 		}
 		stocking_up = {
-			#4
+			
 			no_supply_grace = 72
 		}
 		breaking_out = {
@@ -315,7 +315,7 @@ dispersed_operations = {
 	land_reinforce_rate = 0.05
 	rewards = {
 		camouflage_discipline = {
-			#1
+			
 			enemy_army_bonus_air_superiority_factor = -0.15
 			logistics_company_support = {
 				battalion_mult = {
@@ -326,7 +326,7 @@ dispersed_operations = {
 			}
 		}
 		hardened_logistics = {
-			#2
+			
 			logistics_company_support = {
 				max_organisation = 5
 			}
@@ -341,7 +341,7 @@ dispersed_operations = {
 			cas_damage_reduction = 0.05
 		}
 		independent_operations = {
-			#5
+			
 			category_infantry = {
 				initiative = 0.01
 				breakthrough = 0.1

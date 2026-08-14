@@ -17,10 +17,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = logistics_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	motorised_equipment = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 1
 		max_organisation = 10
@@ -50,10 +50,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = logistics_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	motorised_equipment = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 1
 		max_organisation = 10
@@ -82,10 +82,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = logistics_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	motorbike_equipment = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 1
 		max_organisation = 10
@@ -116,10 +116,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = logistics_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	motorised_equipment = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 1
 		max_organisation = 10
@@ -150,10 +150,10 @@ sub_units = {
 		}
 		affects_speed = no
 		same_support_type = logistics_company_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	helicopter_equipment_archetype = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		regimental = no
 		max_strength = 1

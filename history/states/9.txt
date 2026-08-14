@@ -1,5 +1,5 @@
 state = {
-id = 9
+	id = 9
 	name = "STATE_9"
 	history = {
 		owner = ITA
@@ -41,8 +41,5 @@ id = 9
 		4513
 	}
 	manpower = 1771700
-	
-	state_category = state_level_8
-	
+	state_category = state_level_4
 }
-

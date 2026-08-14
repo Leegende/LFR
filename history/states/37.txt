@@ -6,14 +6,12 @@ state = {
 		add_core_of = DMZ
 		buildings = {
 			infrastructure = 5
-			industrial_complex =2
+			industrial_complex = 2
 			arms_factory = 1
 		}
 	}
-	manpower = 1
-	
+	manpower = 220001
 	state_category = state_level_5
-	
 	provinces = {
 		3124
 		10814

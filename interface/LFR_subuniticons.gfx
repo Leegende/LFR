@@ -51,7 +51,7 @@ spriteTypes = {
 		name = "GFX_unit_armored_car_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/infantry/armored_car.dds"
 	}
-	####
+	
 	spriteType = {
 		name = "GFX_group_artillery_icon"
 		textureFile = "gfx/interface/counters/divisions_large/artillery/artillery.dds"
@@ -124,7 +124,7 @@ spriteTypes = {
 		name = "GFX_unit_super_heavy_artillery_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/artillery/super_heavy_artillery.dds"
 	}
-	###
+	
 	spriteType = {
 		name = "GFX_group_armor_icon"
 		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank.dds"
@@ -165,7 +165,7 @@ spriteTypes = {
 		name = "GFX_unit_medium_tank_artillery_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/armor/medium_tank_artillery.dds"
 	}
-	###
+	
 	spriteType = {
 		name = "GFX_group_amphibious_armor_icon"
 		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious.dds"
@@ -206,7 +206,7 @@ spriteTypes = {
 		name = "GFX_unit_medium_tank_amphibious_artillery_battalion_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/amphibious_armor/medium_tank_amphibious_artillery.dds"
 	}
-	###
+	
 	spriteType = {
 		name = "GFX_unit_amtrac_anti_air_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/anti_air/amtrac_anti_air.dds"
@@ -259,19 +259,19 @@ spriteTypes = {
 		name = "GFX_unit_pack_anti_air_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/anti_air/pack_anti_air.dds"
 	}
-	##
+	
 	spriteType = {
 		name = "GFX_unit_amtrac_engineers_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/amtrac_engineers.dds"
 	}
-	#spriteType = {
-	#	name = "GFX_unit_amtrac_recon_support_icon_medium"
-	#	textureFile = "gfx/interface/counters/divisions_large/support/amtrac_recon.dds"
-	#}
-	#spriteType = {
-	#	name = "GFX_unit_armored_car_recon_support_icon_medium"
-	#	textureFile = "gfx/interface/counters/divisions_large/support/armored_car_recon.dds"
-	#}
+	
+	
+	
+	
+	
+	
+	
+	
 	spriteType = {
 		name = "GFX_unit_armored_engineers_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/armored_engineers.dds"
@@ -332,10 +332,10 @@ spriteTypes = {
 		name = "GFX_unit_mechanised_field_hospital_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/mechanised_field_hospital.dds"
 	}
-	#spriteType = {
-	#	name = "GFX_unit_mechanised_recon_support_icon_medium"
-	#	textureFile = "gfx/interface/counters/divisions_large/support/mechanised_recon.dds"
-	#}
+	
+	
+	
+	
 	spriteType = {
 		name = "GFX_unit_military_police_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/military_police.dds"
@@ -368,7 +368,7 @@ spriteTypes = {
 		name = "GFX_unit_signal_company_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/support/signal_company.dds"
 	}
-	### flame
+	
 	spriteType = {
 		name = "GFX_unit_heavy_tank_amphibious_flamethrower_support_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/flamethrower/heavy_tank_amphibious_flamethrower.dds"

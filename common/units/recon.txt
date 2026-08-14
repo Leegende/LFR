@@ -16,9 +16,9 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -72,9 +72,9 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 30
@@ -119,10 +119,10 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	motorised_equipment = 20
-		#	support_equipment_archetype = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -180,10 +180,10 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	motorised_equipment = 20
-		#	light_tank_chassis_archetype = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -240,10 +240,10 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	motorised_equipment = 20
-		#	light_tank_amphibious_chassis_archetype = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -301,10 +301,10 @@ sub_units = {
 		}
 		affects_speed = yes
 		same_support_type = recon_support
-		#need = {
-		#	support_equipment_archetype = 20
-		#	helicopter_equipment_archetype = 20
-		#}
+		
+		
+		
+		
 		combat_width = 0
 		max_strength = 2
 		max_organisation = 20
@@ -338,70 +338,70 @@ sub_units = {
 			movement = 0.15
 		}
 	}
-	#armored_car_recon_support = {
-	#	sprite = infantry
-	#	map_icon_category = infantry
-	#	priority = 0
-	#	active = yes
-	#	affects_speed = no
-	#	type = {
-	#		support
-	#	}
-	#	group = support
-	#	regimental = no
-	#	categories = {
-	#		category_armor_support_company
-	#		category_recon_company
-	#	}
-	#	affects_speed = yes
-	#	same_support_type = recon_support
-	#	#need = {
-	#	#	motorised_equipment = 20
-	#	#	armored_car_archetype = 20
-	#	#}
-	#}
-	#mechanised_recon_support = {
-	#	sprite = infantry
-	#	map_icon_category = infantry
-	#	priority = 0
-	#	active = yes
-	#	affects_speed = no
-	#	type = {
-	#		support
-	#	}
-	#	group = support
-	#	regimental = no
-	#	categories = {
-	#		category_mechanised
-	#		category_recon_company
-	#	}
-	#	affects_speed = yes
-	#	same_support_type = recon_support
-	#	#need = {
-	#	#	support_equipment_archetype = 20
-	#	#	mechanised_archetype = 20
-	#	#}
-	#}
-	#amtrac_recon_support = {
-	#	sprite = infantry
-	#	map_icon_category = infantry
-	#	priority = 0
-	#	active = yes
-	#	affects_speed = no
-	#	type = {
-	#		support
-	#	}
-	#	group = support
-	#	regimental = no
-	#	categories = {
-	#		category_amtrac
-	#		category_recon_company
-	#	}
-	#	affects_speed = yes
-	#	same_support_type = recon_support
-	#	#need = {
-	#	#	support_equipment_archetype = 20
-	#	#	amtrac_archetype = 20
-	#	#}
-	#}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

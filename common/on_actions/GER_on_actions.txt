@@ -19,7 +19,6 @@ on_actions = {
 				set_variable = {
 					sepp_dietrich_level_4 = 500
 				}
-				###
 				set_variable = {
 					heinz_guderian_level_1 = 750
 				}
@@ -32,7 +31,6 @@ on_actions = {
 				set_variable = {
 					heinz_guderian_level_4 = 250
 				}
-				###
 				set_variable = {
 					walter_model_level_1 = 750
 				}
@@ -45,7 +43,6 @@ on_actions = {
 				set_variable = {
 					walter_model_level_4 = 250
 				}
-				###
 				set_variable = {
 					guenther_von_kluge_level_1 = 750
 				}
@@ -58,7 +55,6 @@ on_actions = {
 				set_variable = {
 					guenther_von_kluge_level_4 = 250
 				}
-				###
 				set_variable = {
 					kurt_student_level_1 = 750
 				}
@@ -71,7 +67,6 @@ on_actions = {
 				set_variable = {
 					kurt_student_level_4 = 250
 				}
-				###
 				set_variable = {
 					albert_kesselring_level_1 = 750
 				}
@@ -84,7 +79,6 @@ on_actions = {
 				set_variable = {
 					albert_kesselring_level_4 = 250
 				}
-				###
 				set_variable = {
 					erhard_milch_level_1 = 750
 				}
@@ -97,12 +91,10 @@ on_actions = {
 				set_variable = {
 					erhard_milch_level_4 = 250
 				}
-				###
 			}
 			set_variable = {
 				GER_appointed_generals = 0
 			}
-			# Ensure appointment variables exist so focus checks do not fail
 			if = {
 				limit = {
 					NOT = {
@@ -179,7 +171,6 @@ on_actions = {
 					GER_appointed_generals = 1
 				}
 			}
-			# Appointment cooldown and available slot logic
 			if = {
 				limit = {
 					has_country_flag = GER_general_appointment_pending
@@ -273,7 +264,7 @@ on_actions = {
 						set_country_flag = GER_dietrich_2
 						complete_national_focus = GER_dietrich_1
 						country_event = {
-							id = germany.12
+							id = germany_hidden.12
 						}
 						set_variable = {
 							GER_dietrich_days = 0
@@ -290,7 +281,7 @@ on_actions = {
 						set_country_flag = GER_dietrich_3
 						complete_national_focus = GER_dietrich_2
 						country_event = {
-							id = germany.13
+							id = germany_hidden.13
 						}
 						set_variable = {
 							GER_dietrich_days = 0
@@ -307,7 +298,7 @@ on_actions = {
 						set_country_flag = GER_dietrich_4
 						complete_national_focus = GER_dietrich_3
 						country_event = {
-							id = germany.14
+							id = germany_hidden.14
 						}
 						set_variable = {
 							GER_dietrich_days = 0
@@ -323,7 +314,7 @@ on_actions = {
 						clr_country_flag = GER_dietrich_4
 						complete_national_focus = GER_dietrich_4
 						country_event = {
-							id = germany.14
+							id = germany_hidden.14
 						}
 						set_variable = {
 							GER_dietrich_days = 0
@@ -368,7 +359,7 @@ on_actions = {
 						set_country_flag = GER_guderian_2
 						complete_national_focus = GER_guderian_1
 						country_event = {
-							id = germany.21
+							id = germany_hidden.21
 						}
 						set_variable = {
 							GER_guderian_days = 0
@@ -385,7 +376,7 @@ on_actions = {
 						set_country_flag = GER_guderian_3
 						complete_national_focus = GER_guderian_2
 						country_event = {
-							id = germany.22
+							id = germany_hidden.22
 						}
 						set_variable = {
 							GER_guderian_days = 0
@@ -402,7 +393,7 @@ on_actions = {
 						set_country_flag = GER_guderian_4
 						complete_national_focus = GER_guderian_3
 						country_event = {
-							id = germany.23
+							id = germany_hidden.23
 						}
 						set_variable = {
 							GER_guderian_days = 0
@@ -418,7 +409,7 @@ on_actions = {
 						clr_country_flag = GER_guderian_4
 						complete_national_focus = GER_guderian_4
 						country_event = {
-							id = germany.24
+							id = germany_hidden.24
 						}
 						set_variable = {
 							GER_guderian_days = 0
@@ -463,7 +454,7 @@ on_actions = {
 						set_country_flag = GER_model_2
 						complete_national_focus = GER_model_1
 						country_event = {
-							id = germany.31
+							id = germany_hidden.31
 						}
 						set_variable = {
 							GER_model_days = 0
@@ -480,7 +471,7 @@ on_actions = {
 						set_country_flag = GER_model_3
 						complete_national_focus = GER_model_2
 						country_event = {
-							id = germany.32
+							id = germany_hidden.32
 						}
 						set_variable = {
 							GER_model_days = 0
@@ -497,7 +488,7 @@ on_actions = {
 						set_country_flag = GER_model_4
 						complete_national_focus = GER_model_3
 						country_event = {
-							id = germany.33
+							id = germany_hidden.33
 						}
 						set_variable = {
 							GER_model_days = 0
@@ -513,7 +504,7 @@ on_actions = {
 						clr_country_flag = GER_model_4
 						complete_national_focus = GER_model_4
 						country_event = {
-							id = germany.34
+							id = germany_hidden.34
 						}
 						set_variable = {
 							GER_model_days = 0
@@ -558,7 +549,7 @@ on_actions = {
 						set_country_flag = GER_kluge_2
 						complete_national_focus = GER_kluge_1
 						country_event = {
-							id = germany.41
+							id = germany_hidden.41
 						}
 						set_variable = {
 							GER_kluge_days = 0
@@ -575,7 +566,7 @@ on_actions = {
 						set_country_flag = GER_kluge_3
 						complete_national_focus = GER_kluge_2
 						country_event = {
-							id = germany.42
+							id = germany_hidden.42
 						}
 						set_variable = {
 							GER_kluge_days = 0
@@ -592,7 +583,7 @@ on_actions = {
 						set_country_flag = GER_kluge_4
 						complete_national_focus = GER_kluge_3
 						country_event = {
-							id = germany.43
+							id = germany_hidden.43
 						}
 						set_variable = {
 							GER_kluge_days = 0
@@ -608,7 +599,7 @@ on_actions = {
 						clr_country_flag = GER_kluge_4
 						complete_national_focus = GER_kluge_4
 						country_event = {
-							id = germany.44
+							id = germany_hidden.44
 						}
 						set_variable = {
 							GER_kluge_days = 0
@@ -653,7 +644,7 @@ on_actions = {
 						set_country_flag = GER_student_2
 						complete_national_focus = GER_student_1
 						country_event = {
-							id = germany.51
+							id = germany_hidden.51
 						}
 						set_variable = {
 							GER_student_days = 0
@@ -670,7 +661,7 @@ on_actions = {
 						set_country_flag = GER_student_3
 						complete_national_focus = GER_student_2
 						country_event = {
-							id = germany.52
+							id = germany_hidden.52
 						}
 						set_variable = {
 							GER_student_days = 0
@@ -687,7 +678,7 @@ on_actions = {
 						set_country_flag = GER_student_4
 						complete_national_focus = GER_student_3
 						country_event = {
-							id = germany.53
+							id = germany_hidden.53
 						}
 						set_variable = {
 							GER_student_days = 0
@@ -703,7 +694,7 @@ on_actions = {
 						clr_country_flag = GER_student_4
 						complete_national_focus = GER_student_4
 						country_event = {
-							id = germany.54
+							id = germany_hidden.54
 						}
 						set_variable = {
 							GER_student_days = 0
@@ -748,7 +739,7 @@ on_actions = {
 						set_country_flag = GER_kesselring_2
 						complete_national_focus = GER_kesselring_1
 						country_event = {
-							id = germany.61
+							id = germany_hidden.61
 						}
 						set_variable = {
 							GER_kesselring_days = 0
@@ -765,7 +756,7 @@ on_actions = {
 						set_country_flag = GER_kesselring_3
 						complete_national_focus = GER_kesselring_2
 						country_event = {
-							id = germany.62
+							id = germany_hidden.62
 						}
 						set_variable = {
 							GER_kesselring_days = 0
@@ -782,7 +773,7 @@ on_actions = {
 						set_country_flag = GER_kesselring_4
 						complete_national_focus = GER_kesselring_3
 						country_event = {
-							id = germany.63
+							id = germany_hidden.63
 						}
 						set_variable = {
 							GER_kesselring_days = 0
@@ -798,7 +789,7 @@ on_actions = {
 						clr_country_flag = GER_kesselring_4
 						complete_national_focus = GER_kesselring_4
 						country_event = {
-							id = germany.64
+							id = germany_hidden.64
 						}
 						set_variable = {
 							GER_kesselring_days = 0
@@ -843,7 +834,7 @@ on_actions = {
 						set_country_flag = GER_milch_2
 						complete_national_focus = GER_milch_1
 						country_event = {
-							id = germany.71
+							id = germany_hidden.71
 						}
 						set_variable = {
 							GER_milch_days = 0
@@ -860,7 +851,7 @@ on_actions = {
 						set_country_flag = GER_milch_3
 						complete_national_focus = GER_milch_2
 						country_event = {
-							id = germany.72
+							id = germany_hidden.72
 						}
 						set_variable = {
 							GER_milch_days = 0
@@ -877,7 +868,7 @@ on_actions = {
 						set_country_flag = GER_milch_4
 						complete_national_focus = GER_milch_3
 						country_event = {
-							id = germany.73
+							id = germany_hidden.73
 						}
 						set_variable = {
 							GER_milch_days = 0
@@ -893,7 +884,7 @@ on_actions = {
 						clr_country_flag = GER_milch_4
 						complete_national_focus = GER_milch_4
 						country_event = {
-							id = germany.74
+							id = germany_hidden.74
 						}
 						set_variable = {
 							GER_milch_days = 0

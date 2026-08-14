@@ -1,0 +1,60 @@
+leader_logistics_skills = {
+	1 = {
+		type = corps_commander
+	}
+	2 = {
+		type = corps_commander
+		modifier = {
+			supply_consumption_factor = -0.05
+		}
+	}
+	3 = {
+		type = corps_commander
+		modifier = {
+			supply_consumption_factor = -0.075
+			army_fuel_consumption_factor = -0.05
+		}
+	}
+	4 = {
+		type = corps_commander
+		modifier = {
+			supply_consumption_factor = -0.1
+			army_fuel_consumption_factor = -0.1
+		}
+	}
+	5 = {
+		type = corps_commander
+		modifier = {
+			supply_consumption_factor = -0.125
+			army_fuel_consumption_factor = -0.15
+		}
+	}
+	6 = {
+		type = corps_commander
+		modifier = {
+			supply_consumption_factor = -0.15
+			army_fuel_consumption_factor = -0.2
+		}
+	}
+	1 = {
+		type = field_marshal
+		modifier = {
+			supply_consumption_factor = -0.05
+			army_fuel_consumption_factor = -0.05
+		}
+	}
+	2 = {
+		type = field_marshal
+		modifier = {
+			supply_consumption_factor = -0.10
+			army_fuel_consumption_factor = -0.10
+		}
+	}
+	3 = {
+		type = field_marshal
+		modifier = {
+			supply_consumption_factor = -0.15
+			army_fuel_consumption_factor = -0.15
+		}
+	}
+}

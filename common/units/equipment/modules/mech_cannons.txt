@@ -246,7 +246,7 @@ equipment_modules = {
 			breakthrough = 6
 		}
 	}
-	## secondary
+	
 	mech_heavy_machine_gun_module = {
 		category = mech_secondary_armament_module_category
 		sfx = sfx_ui_sd_module_turret

@@ -1,6 +1,10 @@
 state = {
 	id = 297
 	name = "STATE_297"
+	resources = {
+		steel = 140		
+		tungsten = 60		
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
@@ -68,7 +72,5 @@ state = {
 		4636
 	}
 	manpower = 281923
-	
 	state_category = state_level_4
-	
 }

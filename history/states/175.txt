@@ -1,7 +1,12 @@
-
 state = {
-id = 175
+	id = 175
 	name = "STATE_175"
+	resources = {
+		steel = 610
+		aluminium = 40
+		chromium = 20
+		coal = 130
+	}
 	provinces = {
 		5845
 		12054
@@ -67,7 +72,6 @@ id = 175
 		12101
 		20583
 		20620
-		
 		12227
 	}
 	history = {
@@ -126,14 +130,7 @@ id = 175
 			20608
 			40
 		}
-		
-		
-		
-		
 	}
 	manpower = 6715439
-	
-	
-	state_category = state_level_7
+	state_category = state_level_9
 }
-

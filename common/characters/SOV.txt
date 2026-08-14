@@ -10,7 +10,58 @@ characters = {
 			ideology = communism_ideology
 		}
 	}
-	SOV_end = {
-		name = ""
-	}
+	##advisor
+	#Genrikh Yagoda nkvd hired
+	#Arno Andreyev State planner resource gain resource market
+	#Mikhail Kalinin Popular Figurehead stab 15%
+	#Nikita Khrushchyov pp 5% commu 10% max command power 30%
+	#Nikolay Voznesensky captain of industry
+	#Nikolay Yezhov NKVD better
+	#Lavrenty Beriya Head of NKVD st -5% 
+	#Vsevolod Merkulov operative slot 2%
+	##army 
+	#Semyon Timoshenko army reformer
+	#Kliment Voroshilov army org 10%
+	#Semyon Budyonny Army offense 3%
+	## air
+	#Konstantin Vershinin cas 
+	#Yakov Smushkevich air safety
+	#Pavel Rychagov all weather
+	#Aleksandr Novikov air reformer
+	#Vyacheslav Tkachyov air reformer 
+	## arty
+	#Ivan Chernyakhovsky
+	#Pavel Zhigarev
+	## command
+	#Konstantin Rokossovsky armor 
+	#Aleksandr Vasilevsky regrouping
+	#Ivan Konev combined arms
+	#Filipp Golikov army logistics
+	#Sergey Khudyakov cas 
+	#Stepan Krasovsky air superiorty
+	## theorist
+	#Boris Shaposhnikov mil theorist 
+	#Mikhail Tukhachevsky mass assault 
+	#Sergey Rudenko cas 
+	#Aleksandr Golovanov air 
+	#Georgy Zhukov armor
+	#Aleksandr Prokofyev-Seversky fighter 
+	## gen
+	#Georgy Zhukov attack cautious media armor warhero trickster engineer panzer ranger panzer expert winter
+	#Konstantin Rokossovsky attack cautious reckless armor engineer panzer leader ranger panzer expert winter
+	#Aleksandr Vasilevsky panzer leader panzer expert ranger improvision expert
+	#Boris Shaposhnikov inf ambush cautious 
+	#Nikolai Vatutin inf leader ambusher reckless
+	#Ivan Konev cmobined expert panzer leader trickster attack dfefense 
+	#Semyon timoshenko cav combined improvisation expert 
+	#Ivan Chernyakhovsky arty inf engineer buster war hero
+	#Leonid govorov inf cautious  arty
+	#vasily chuikov city inf organiser 
+	## marshal
+	#Kliment vorishilov logstic fast planner defense
+	#Mikhail Tukhachevsky inf attack winter reckless
+	#Semyon Budyonny cav logistic attack fast planner charismatic
+
+
+
 }

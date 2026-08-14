@@ -1,0 +1,512 @@
+leader_traits = {
+	###tank industrial concern
+	trait_soft_attack_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				soft_attack = 0.2
+				reliability = 0.05
+				build_cost_ic = 0.05
+			}
+		}
+	}
+	trait_hard_attack_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				hard_attack = 0.2
+				reliability = 0.05
+				build_cost_ic = 0.05
+			}
+		}
+	}
+	trait_mobile_tank_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				maximum_speed = 0.1
+				hardness = -0.2
+				soft_attack = 0.05
+			}
+		}
+	}
+	trait_breakthrough_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				breakthrough = 0.3
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_armor_tank_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				maximum_speed = -0.1
+				hardness = 0.1
+				armor_value = 0.3
+				hard_attack = 0.05
+			}
+		}
+	}
+	trait_blitzkrieg_tank_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				hard_attack = 0.1
+				soft_attack = 0.1
+				maximum_speed = 0.1
+				breakthrough = 0.125
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_mass_tank_designer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.1
+				breakthrough = -0.05
+			}
+		}
+	}
+	trait_support_tank_designer = {
+		random = no
+		equipment_bonus = {
+			light_tank_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			light_tank_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			light_tank_amphibious_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			light_tank_amphibious_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			medium_tank_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			medium_tank_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			medium_tank_amphibious_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			medium_tank_amphibious_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+			}
+			heavy_tank_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			heavy_tank_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			heavy_tank_amphibious_artillery_ = {
+				soft_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+			heavy_tank_amphibious_anti_tank_ = {
+				hard_attack = 0.2
+				maximum_speed = 0.1
+				reliability = 0.05
+				build_cost_ic = -0.05
+			}
+		}
+	}
+	###mech designer
+	trait_low_hardness_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				hardness = -0.3
+			}
+		}
+	}
+	trait_quality_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				build_cost_ic = 0.2
+				defense = 0.1
+				soft_attack = 0.05
+				hard_attack = 0.05
+				maximum_speed = 0.1
+			}
+		}
+	}
+	trait_speed_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				build_cost_ic = 0.05
+				maximum_speed = 0.3
+			}
+		}
+	}
+	trait_breakthrough_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				breakthrough = 0.3
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_quantity_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				build_cost_ic = -0.1
+			}
+		}
+	}
+	trait_defense_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				defense = 0.3
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_armor_mech_designer = {
+		random = no
+		equipment_bonus = {
+			mechanized = {
+				hardness = -0.3
+				armor_value = 0.3
+			}
+		}
+	}
+	trait_support_mech_designer = {
+		random = no
+		equipment_bonus = {
+			train_archetype = {
+				build_cost_ic = -0.1
+			}
+			mechanised_utility_ = {
+				defense = 0.5
+				build_cost_ic = -0.25
+			}
+			amtrac_utility_ = {
+				defense = 0.5
+				build_cost_ic = -0.25
+			}
+		}
+	}
+	##material concern
+	trait_soft_weapon_designer = {
+		random = no
+		equipment_bonus = {
+			infantry_weapon_archetype = {
+				soft_attack = 0.2
+				breakthrough = 1
+				defense = 0.1
+				build_cost_ic = 0.05
+			}
+		}
+	}
+	trait_hard_weapon_designer = {
+		random = no
+		equipment_bonus = {
+			infantry_weapon_archetype = {
+				hard_attack = 0.2
+				ap_attack = 0.5
+				defense = 0.1
+				build_cost_ic = 0.05
+			}
+		}
+	}
+	trait_cheap_weapon_designer = {
+		random = no
+		equipment_bonus = {
+			infantry_weapon_archetype = {
+				soft_attack = -0.1
+				hard_attack = -0.1
+				defense = -0.2
+				build_cost_ic = -0.2
+			}
+		}
+	}
+	trait_defense_weapon_designer = {
+		random = no
+		equipment_bonus = {
+			infantry_weapon_archetype = {
+				defense = 0.5
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_attack_artillery_designer = {
+		random = no
+		equipment_bonus = {
+			pack_artillery_archetype = {
+				soft_attack = 0.15
+				hard_attack = 0.3
+				breakthrough = 0.1
+				build_cost_ic = 0.1
+			}
+			artillery_archetype = {
+				soft_attack = 0.15
+				hard_attack = 0.3
+				breakthrough = 0.1
+				build_cost_ic = 0.1
+			}
+			heavy_artillery_archetype = {
+				soft_attack = 0.15
+				hard_attack = 0.3
+				breakthrough = 0.1
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_defense_artillery_designer = {
+		random = no
+		equipment_bonus = {
+			pack_artillery_archetype = {
+				soft_attack = 0.05
+				hard_attack = 0.2
+				defense = 0.3
+				ap_attack = 0.2
+				build_cost_ic = 0.1
+			}
+			artillery_archetype = {
+				soft_attack = 0.05
+				hard_attack = 0.2
+				defense = 0.3
+				ap_attack = 0.2
+				build_cost_ic = 0.1
+			}
+			heavy_artillery_archetype = {
+				soft_attack = 0.05
+				hard_attack = 0.2
+				defense = 0.3
+				ap_attack = 0.2
+				build_cost_ic = 0.1
+			}
+		}
+	}
+	trait_anti_air_designer = {
+		random = no
+		equipment_bonus = {
+			pack_anti_air_archetype = {
+				anti_air_attack = 0.3
+				ap_attack = 0.15
+				build_cost_ic = 0.125
+			}
+			anti_air_archetype = {
+				anti_air_attack = 0.4
+				ap_attack = 0.2
+				build_cost_ic = 0.1
+			}
+			heavy_anti_air_archetype = {
+				anti_air_attack = 0.3
+				ap_attack = 0.15
+				build_cost_ic = 0.075
+			}
+		}
+	}
+	trait_anti_tank_designer = {
+		random = no
+		equipment_bonus = {
+			pack_anti_tank_archetype = {
+				anti_air_attack = 0.3
+				ap_attack = 0.15
+				build_cost_ic = 0.125
+			}
+			anti_tank_archetype = {
+				anti_air_attack = 0.4
+				ap_attack = 0.2
+				build_cost_ic = 0.1
+			}
+			heavy_anti_tank_archetype = {
+				anti_air_attack = 0.3
+				ap_attack = 0.15
+				build_cost_ic = 0.075
+			}
+		}
+	}
+	###aircraft industrial concern
+	trait_attack_plane_designer = {
+		random = no
+		equipment_bonus = {
+			fighter_archetype = {
+				air_attack = 0.25
+			}
+			heavy_fighter = {
+				air_attack = 0.2
+			}
+			fighter_bomber_archetype = {
+				air_attack = 0.3
+			}
+		}
+	}
+	trait_defense_plane_designer = {
+		random = no
+		equipment_bonus = {
+			fighter_archetype = {
+				defense = 0.1
+			}
+			cas_archetype = {
+				defense = 0.1
+			}
+			fighter_bomber_archetype = {
+				defense = 0.1
+			}
+			heavy_fighter = {
+				defense = 0.1
+			}
+			tactical_bomber_archetype = {
+				defense = 0.1
+			}
+			transport_plane_archetype = {
+				defense = 0.1
+			}
+		}
+	}
+	trait_range_plane_designer = {
+		random = no
+		equipment_bonus = {
+			fighter_archetype = {
+				air_range = 0.1
+			}
+			cas_archetype = {
+				air_range = 0.1
+			}
+			fighter_bomber_archetype = {
+				air_range = 0.1
+			}
+			heavy_fighter = {
+				air_range = 0.1
+			}
+			tactical_bomber_archetype = {
+				air_range = 0.1
+			}
+			transport_plane_archetype = {
+				air_range = 0.1
+			}
+		}
+	}
+	trait_cas_designer = {
+		random = no
+		equipment_bonus = {
+			cas_archetype = {
+				air_ground_attack = 0.15
+			}
+			fighter_bomber_archetype = {
+				air_ground_attack = 0.25
+			}
+			tactical_bomber_archetype = {
+				air_ground_attack = 0.2
+			}
+		}
+	}
+	trait_bombing_designer = {
+		random = no
+		equipment_bonus = {
+			cas_archetype = {
+				air_bombing = 0.2
+			}
+			tactical_bomber_archetype = {
+				air_bombing = 0.2
+			}
+		}
+	}
+	trait_transport_plane_designer = {
+		random = no
+		equipment_bonus = {
+			transport_plane_archetype = {
+				defense = 0.3
+				build_cost_ic = -0.2
+			}
+		}
+	}
+	trait_anti_air_building_designer = {
+		random = no
+		production_speed_anti_air_building_factor = 0.3
+	}
+	trait_radar_building_designer = {
+		random = no
+		production_speed_radar_station_factor = 0.3
+	}
+	###industrial concern
+	trait_industrial_concern = {
+		random = no
+		industrial_capacity_factory = 0.05
+	}
+	trait_railway_company = {
+		random = no
+		production_speed_rail_way_factor = 0.15
+		production_speed_supply_node_factor = 0.15
+		equipment_bonus = {
+			train_equipment = {
+				instant = yes
+				build_cost_ic = -0.25
+			}
+		}
+	}
+	trait_forestry_company = {
+		random = no
+		global_building_slots_factor = 0.3
+	}
+	trait_refinery_concern = {
+		random = no
+		production_speed_synthetic_refinery_factor = 0.2
+		production_speed_steel_refinery_factor = 0.2
+	}
+	trait_mining_company = {
+		random = no
+		global_building_slots_factor = 0.05
+		local_resources_factor = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
+	}
+	trait_electronics_concern = {
+		random = no
+		research_speed_factor = 0.1
+	}
+	trait_food_distributor = {
+		random = no
+		monthly_population = 0.1
+		industrial_capacity_factory = 0.025
+		global_building_slots_factor = 0.05
+	}
+	trait_energy_company = {
+		random = no
+		local_resources_coal_factor = 0.1
+		factory_energy_consumption = -0.1
+	}
+}

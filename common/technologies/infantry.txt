@@ -105,7 +105,7 @@ technologies = {
 			}
 		}
 	}
-	##special forces
+	
 	special_forces_equipment_technology = {
 		path = {
 			leads_to_tech = less_special_forces_technology
@@ -243,7 +243,7 @@ technologies = {
 			}
 		}
 	}
-	##headquarter
+	
 	headquarter_technology = {
 		path = {
 			leads_to_tech = headquarter_infantry_technology
@@ -377,7 +377,7 @@ technologies = {
 			}
 		}
 	}
-	##upgade
+	
 	soft_attack_infantry_weapon_1_technology = {
 		path = {
 			leads_to_tech = soft_attack_infantry_weapon_2_technology
@@ -564,7 +564,7 @@ technologies = {
 			}
 		}
 	}
-	##night vision
+	
 	night_vision_1_technology = {
 		path = {
 			leads_to_tech = night_vision_2_technology
@@ -598,7 +598,7 @@ technologies = {
 			}
 		}
 	}
-	##special forces upgrade
+	
 	marines_upgrade_1_technology = {
 		path = {
 			leads_to_tech = marines_upgrade_2_technology

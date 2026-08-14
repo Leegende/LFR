@@ -378,7 +378,7 @@ guiTypes = {
 				scale = 1
 			}
 
-			#HIMMLER
+			
 			iconType = {
 				name ="advisor_himmler_portrait"
 				spriteType = "GFX_heinrich_himmler_available_small"
@@ -387,7 +387,7 @@ guiTypes = {
 				scale = 1
 			}
 
-			#GOEBBELS
+			
 			iconType = {
 				name ="advisor_goebbels_portrait"
 				spriteType = "GFX_joseph_goebbels_available_small"
@@ -396,7 +396,7 @@ guiTypes = {
 				scale = 1
 			}
 
-			# HESS
+			
 			iconType = {
 				name ="advisor_hess_portrait"
 				spriteType = "GFX_rudolf_hess_available_small"

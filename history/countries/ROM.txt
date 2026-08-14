@@ -15,4 +15,3 @@ set_popularities = {
 recruit_character = ROM_gheorge_tatarescu
 recruit_character = ROM_ion_antonescu
 recruit_character = ROM_octavian_goga
-recruit_character = ROM_end

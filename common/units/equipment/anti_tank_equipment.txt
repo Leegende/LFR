@@ -30,7 +30,7 @@ equipments = {
 		reliability = 0.75
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 10
 		resources = {
 			steel = 12
@@ -48,7 +48,7 @@ equipments = {
 		reliability = 0.80
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 14
 		resources = {
 			steel = 14
@@ -66,7 +66,7 @@ equipments = {
 		reliability = 0.85
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 16
 		resources = {
 			steel = 15
@@ -83,7 +83,7 @@ equipments = {
 		reliability = 0.9
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 7
 		resources = {
 			steel = 10
@@ -101,7 +101,7 @@ equipments = {
 		reliability = 0.75
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 11
 		resources = {
 			steel = 13
@@ -119,7 +119,7 @@ equipments = {
 		reliability = 0.75
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 14
 		resources = {
 			steel = 15
@@ -137,7 +137,7 @@ equipments = {
 		reliability = 0.70
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 18
 		resources = {
 			steel = 15
@@ -154,7 +154,7 @@ equipments = {
 		reliability = 0.70
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 15
 		resources = {
 			steel = 25
@@ -172,7 +172,7 @@ equipments = {
 		reliability = 0.70
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 20
 		resources = {
 			steel = 25
@@ -190,7 +190,7 @@ equipments = {
 		reliability = 0.65
 		maximum_speed = 4
 		armor_value = 0
-		lend_lease_cost = 0
+		
 		build_cost_ic = 28
 		resources = {
 			steel = 30

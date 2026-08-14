@@ -14,7 +14,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 75
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.1
 	}
 	fighter_2_equipment = {
@@ -33,7 +33,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 90
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.1
 	}
 	fighter_3_equipment = {
@@ -52,7 +52,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 110
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.1
 	}
 	fighter_4_equipment = {
@@ -71,7 +71,7 @@ equipments = {
 			rubber = 5
 		}
 		build_cost_ic = 150
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.5
 	}
 	fighter_bomber_1_equipment = {
@@ -91,7 +91,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 77.5
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.125
 	}
 	fighter_bomber_2_equipment = {
@@ -112,7 +112,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 95
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.125
 	}
 	fighter_bomber_3_equipment = {
@@ -133,7 +133,7 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 95
-		lend_lease_cost = 0
+		
 		fuel_consumption = 0.125
 	}
 	cas_1_equipment = {

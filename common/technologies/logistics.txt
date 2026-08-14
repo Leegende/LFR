@@ -367,7 +367,7 @@ technologies = {
 			}
 		}
 	}
-	##upgrades
+	
 	railways_technology = {
 		enable_building = {
 			building = rail_way

@@ -68,7 +68,7 @@ equipment_modules = {
 			build_cost_ic = 1.5
 		}
 	}
-	###
+	
 	armored_car_6x6_suspension_module = {
 		category = armored_car_suspension_module_category
 		sfx = sfx_ui_sd_module_turret
@@ -85,7 +85,7 @@ equipment_modules = {
 			build_cost_ic = 1.5
 		}
 	}
-	###
+	
 	armored_car_hulllocked_turret_module = {
 		category = armored_car_turret_module_category
 		sfx = sfx_ui_sd_module_turret

@@ -32,7 +32,36 @@ characters = {
 			ideology = fascism_ideology
 		}
 	}
-	ROM_end = {
-		name = ""
-	}
+	## advisor
+	#Armand Calinescu Prince of Terror
+	#Gheorghe Argeseanu workhorse
+	#Nicolae Malaxa captain of industry
+	#Petru Groza backroom backstaaber
+	#Paul Teodorescu mil construction 
+	#Ioan Iliasevici recruit pop 0.5% training time
+	#Gheorghe Critescu 10% state slots 
+	#Constin Crainiceanu core 5%
+	#Eugen Coanda War hero st 10% army 0.05%
+	#Mihail Sturdza facism 10%
+	### army
+	#Ion Antonescu army offense
+	#Constantin Sanatescu army defense 10%
+	## air 
+	#Ermil Gheorghiu cas
+	## command
+	#Gheorghe Avramescu commando
+	#Gheorghe Mihail infantry 
+	#Ioan Mihail Racovita arty
+	#Gheorghe Vasiliu supply
+	## theorist
+	#Gheorghe Potopeanu mil theorist
+	#Emanoil Ionescu cas
+	### marshal
+	#Petre Dumitrescu defen organiser inf
+	#Ion Antonescu attack organ river
+	## gens 
+	#Gheorghe Avramescu inf comando invasion hill
+	#Ioan Mihail Racovita trickster river tank
+	#Niclea Ciuperca commando swamp
+	#Mihail Lascar arty inf trickster
 }

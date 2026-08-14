@@ -1,6 +1,10 @@
 state = {
 	id = 292
 	name = "STATE_292"
+	resources = {
+		steel = 300		
+		aluminium = 400		
+	}
 	history = {
 		owner = FRA
 		add_core_of = FRA
@@ -66,6 +70,4 @@ state = {
 	}
 	manpower = 1274424
 	state_category = state_level_5
-	
-	
 }

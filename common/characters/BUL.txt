@@ -24,4 +24,53 @@ characters = {
 	BUL_end = {
 		name = ""
 	}
+
+	###
+	#advisor
+	#Georgi Ivanov Kyoseivanov weakly stab 0.3 pp gain 0.05
+	#nikola petkov agrarian union pp 10% max factories 10% resources market -10% daily communism 0.05
+	#Stefan Stefanov industry reformer consumer good factores -3% infra 5% civ 5%
+	#Dimitrana ivanova pp gain 5% weakly stab 0.5% daily com 5%
+	#Ivan Dochev facism 5%
+	#Aleksandar Tsankov Statism Adept pp 10% consumer -5% facism 5%
+	#Nikola Zhekov nazi sympathizer 5% facism 
+	#Dobri Bozhilov Captain of Industry
+	#Bogdan Filov Ambitious Negotiator pp gain 10% facism 5%
+	#Kimon Georgiev Technocrat resources 5% research speed 5% civ 5%
+	### army
+	#Kiril Stanchev Army offense
+	#Kiril Yanchulev army defense
+	#Vasil boydev army maneuver
+	#Konstantin Lukash Army Organization 
+	#Nikola Hadzipetkov Army Entrechment
+	### artillery
+	#Ivan Sapundziehv Artillery attack
+	#Stefan Tsanev defense
+	## CAS
+	#Zahari Zahariev CAS
+	## high command
+	#Ferdinand Kozovski Entrenchment
+	#Vladimir Stoychev Infantry
+	#Stoyan Trendafilov Armor 
+	#Trifon Trifonov Army logistics
+	#Atanas Zhilkov Cav genius
+	### Theorist
+	#Teodosi Daskalov Military Theorist
+	#Georgi Petsov Artillery
+	#Sava Ivanov Cav
+	#georgi drenikov cas
+	### gens
+	#georgi popov inf
+	#nikola hadzipetkov inf attack
+	#ivan markov cav 
+	#georgi markov inf
+	#vasil boydev cav
+	#asen nikolev inf
+	#damian zveno velchev 
+	###  field marshal
+	#nikola mihov
+	#angei dotsev organizer river
+	#
+
+
 }

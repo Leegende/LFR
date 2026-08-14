@@ -9,6 +9,36 @@ ideologies = {
 			0
 			255
 		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_factions = no
+			can_declare_war_on_same_ideology = no
+			can_declare_war_without_wargoal_when_in_war = no
+			can_force_government = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_occupy_non_war = no
+			can_only_justify_war_on_threat_country = no
+			can_puppet = no
+			can_send_volunteers = no
+			can_use_kamikaze_pilots = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			civilian_intel_to_others = 0
+			army_intel_to_others = 0
+			navy_intel_to_others = 0
+			airforce_intel_to_others = 0
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 999
+		}
 	}
 	communism = {
 		types = {
@@ -19,6 +49,36 @@ ideologies = {
 			255
 			0
 			0
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_factions = no
+			can_declare_war_on_same_ideology = no
+			can_declare_war_without_wargoal_when_in_war = no
+			can_force_government = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_occupy_non_war = no
+			can_only_justify_war_on_threat_country = no
+			can_puppet = no
+			can_send_volunteers = no
+			can_use_kamikaze_pilots = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			civilian_intel_to_others = 0
+			army_intel_to_others = 0
+			navy_intel_to_others = 0
+			airforce_intel_to_others = 0
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 999
 		}
 	}
 	fascism = {
@@ -31,6 +91,36 @@ ideologies = {
 			75
 			0
 		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_factions = no
+			can_declare_war_on_same_ideology = no
+			can_declare_war_without_wargoal_when_in_war = no
+			can_force_government = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_occupy_non_war = no
+			can_only_justify_war_on_threat_country = no
+			can_puppet = no
+			can_send_volunteers = no
+			can_use_kamikaze_pilots = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			civilian_intel_to_others = 0
+			army_intel_to_others = 0
+			navy_intel_to_others = 0
+			airforce_intel_to_others = 0
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 999
+		}
 	}
 	neutrality = {
 		types = {
@@ -41,6 +131,36 @@ ideologies = {
 			124
 			124
 			124
+		}
+		rules = {
+			can_access_market = no
+			can_be_spymaster = yes
+			can_boost_other_ideologies = no
+			can_boost_own_ideology = no
+			can_create_factions = no
+			can_declare_war_on_same_ideology = no
+			can_declare_war_without_wargoal_when_in_war = no
+			can_force_government = no
+			can_guarantee_other_ideologies = no
+			can_join_factions = no
+			can_join_opposite_factions = no
+			can_lower_tension = no
+			can_not_declare_war = no
+			can_occupy_non_war = no
+			can_only_justify_war_on_threat_country = no
+			can_puppet = no
+			can_send_volunteers = no
+			can_use_kamikaze_pilots = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			civilian_intel_to_others = 0
+			army_intel_to_others = 0
+			navy_intel_to_others = 0
+			airforce_intel_to_others = 0
+		}
+		faction_modifiers = {
+			faction_trade_opinion_factor = 999
 		}
 	}
 }

@@ -36,4 +36,50 @@ characters = {
 	ENG_end = {
 		name = ""
 	}
+	#### advisor
+	#Clement Attlee Democratic Reformer
+	#Philip Kerr Silent Workhorse
+	#Nevile Henderson Backroom Backstabber
+	#Maxwell Aitken War Industrialist
+	#Leslie Hore-Belisha Armament organizer
+	#Ernest Bevin Quartermaster General
+	#Federick Marquis captain of Industry
+	#Stewart Menzies Intelligence Genius
+	#Alan Turing Mastermind Codebreaker
+	## air
+	#Cyril Newall Air Reformer Genius
+	#Charles Portal Night Operations Genius
+	#Edward Ellington Air Safety Genius
+	#Andrew Cunningham range
+	## artillery 
+	#Ivor Thomas 
+	## command
+	#Claude Auchinleck Cavalry Genius
+	#Archibald Wavell regrouping
+	#Kenneth Anderson infantry expert 
+	#shloto douglas air superiorty
+	#trafford leigh-mallory cas
+	#louis mountbatten amphibious invasion speed
+	#david stirlng commando genius
+	## theorist
+	#Bernard Montgomery gbp 
+	#Harold Alexander Military theorist
+	#Hugh Dowding Air warfare theorist
+	#Arthur Harris Carpet bombing
+	#James Fownes Somerville artillery
+	### gens
+	#Claude Auchinleck defense cav 
+	#William Slim trickster War Hero
+	#Harold Alexander inf attack
+	#Neil Ritchele Defense
+	#Alan Cunningham arty mountain
+	#Richard O'Connor Motorised Tanks desertdox
+	#Sir John Crocker mechanised tank 
+	#Henry Wilson old guard defens
+	#Henry Pownall artillery trickster
+	#Edmond Schreiber ranger
+	#Miles Dempsey attack inf
+	## marshal
+	#Bernard Montgomery logistic attack planing defense
+	#alan brooke defense career office caoutious attack
 }

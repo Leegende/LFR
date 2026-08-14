@@ -1,6 +1,11 @@
 state = {
 	id = 70
 	name = "STATE_70"
+	resources = {
+		oil = 10
+		tungsten = 250
+		steel = 100
+	}
 	history = {
 		owner = UAC
 		add_core_of = UAC
@@ -53,8 +58,6 @@ state = {
 		3845
 		6431
 	}
-	manpower = 1
-	
+	manpower = 3000000
 	state_category = state_level_8
-	
 }

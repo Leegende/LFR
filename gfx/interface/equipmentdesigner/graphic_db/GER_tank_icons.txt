@@ -1,5 +1,5 @@
 GER = {
-	### Panzer 1
+	
 	light_tank_panzer_1_chassis = {
 		pool = {
 			icons = {
@@ -38,7 +38,7 @@ GER = {
 			}
 		}
 	}
-	### Panzer 2
+	
 	light_tank_panzer_2_chassis = {
 		pool = {
 			icons = {
@@ -77,7 +77,7 @@ GER = {
 			}
 		}
 	}
-	### panzer 38t
+	
 	light_tank_panzer_38t_chassis = {
 		pool = {
 			icons = {

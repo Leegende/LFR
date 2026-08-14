@@ -1,0 +1,47 @@
+leader_traits = {
+	FRA_trait_trade_unionist = {
+		random = no
+		political_power_factor = 0.1
+		industrial_capacity_factory = 0.1
+		stability_weekly = 0.1
+	}
+	FRA_trait_civilian_investor = {
+		random = no
+		production_speed_infrastructure_factor = 0.15
+		production_speed_industrial_complex_factor = 0.15
+		research_speed_factor = 0.05
+		production_speed_arms_factory_factor = -0.1
+	}
+	FRA_trait_arms_factory_baron = {
+		random = no
+		production_speed_arms_factory_factor = 0.15
+		production_speed_industrial_complex_factor = -0.1
+		production_efficiency_gain_factor = 0.15
+	}
+	FRA_trait_activist = {
+		random = no
+		political_power_factor = 0.4
+		political_advisor_cost_factor = 0.25
+	}
+	FRA_trait_peace_advocat = {
+		random = no
+		stability_factor = 0.1
+		war_support_factor = -0.1
+	}
+	FRA_trait_national_agitator = {
+		random = no
+		conscription = 0.005
+		army_core_defence_factor = 0.05
+	}
+	FRA_trait_deflator = {
+		random = no
+		political_power_factor = -0.1
+		consumer_goods_factor = -0.2
+		production_efficiency_cap_factor = 0.025
+	}
+	FRA_trait_colonial_administrator = {
+		random = no
+		resistance_activity = -0.3
+		compliance_gain = 0.1
+	}
+}
