@@ -55,6 +55,27 @@ state = {
 		3574
 		6901
 		11613
+		11376
+		3258
+		11332
+		7795
+		11249
+		9152
+		19932
+		11092
+		6989
+		11439
+		5860
+		11483
+		8356
+		1069
+		11518
+		7232
+		11712
+		7930
+		19945
+		9262
+		11597
 	}
 	history = {
 		set_state_flag = PRUSSIA
@@ -63,7 +84,7 @@ state = {
 		add_core_of = POL
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			industrial_complex = 3
 			arms_factory = 1
 		}
 		victory_points = {
@@ -94,7 +115,15 @@ state = {
 			4076
 			2
 		}
+		victory_points = {
+			3258
+			2
+		}
+		victory_points = {
+			19932
+			20
+		}
 	}
-	manpower = 1338939
+	manpower = 1913364
 	state_category = state_level_5
 }

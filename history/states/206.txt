@@ -7,7 +7,6 @@ state = {
 		18799
 		18041
 		18794
-		19370
 	}
 	history = {
 		owner = DMZ
@@ -16,6 +15,4 @@ state = {
 	manpower = 1
 	impassable = yes
 	state_category = state_level_0
-	
-	
 }

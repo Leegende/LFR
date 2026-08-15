@@ -14,7 +14,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 75
-		
 		fuel_consumption = 0.1
 	}
 	fighter_2_equipment = {
@@ -33,7 +32,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 90
-		
 		fuel_consumption = 0.1
 	}
 	fighter_3_equipment = {
@@ -52,7 +50,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 110
-		
 		fuel_consumption = 0.1
 	}
 	fighter_4_equipment = {
@@ -71,7 +68,6 @@ equipments = {
 			rubber = 5
 		}
 		build_cost_ic = 150
-		
 		fuel_consumption = 0.5
 	}
 	fighter_bomber_1_equipment = {
@@ -91,7 +87,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 77.5
-		
 		fuel_consumption = 0.125
 	}
 	fighter_bomber_2_equipment = {
@@ -112,7 +107,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 95
-		
 		fuel_consumption = 0.125
 	}
 	fighter_bomber_3_equipment = {
@@ -133,7 +127,6 @@ equipments = {
 			rubber = 4
 		}
 		build_cost_ic = 95
-		
 		fuel_consumption = 0.125
 	}
 	cas_1_equipment = {

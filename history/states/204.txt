@@ -12,9 +12,8 @@ state = {
 	}
 	provinces = {
 		19362
+
 	}
 	manpower = 3170274
-	
 	state_category = state_level_8
-	
 }

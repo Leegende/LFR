@@ -6,8 +6,15 @@ equipments = {
 		group_by = archetype
 		sprite = train
 		interface_category = interface_category_land
+		armor_value = 0
+		build_cost_ic = 80
+		resources = {
+			steel = 10
+		}
 	}
 	train_equipment = {
 		archetype = train_archetype
+		visual_level = 17
+		priority = 17
 	}
 }

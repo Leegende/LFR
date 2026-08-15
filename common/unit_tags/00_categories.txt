@@ -57,9 +57,7 @@ sub_unit_categories = {
 	category_pack_anti_tank
 	category_medium_anti_tank
 	category_heavy_anti_tank
-	category_pack_anti_air
 	category_medium_anti_air
-	category_heavy_anti_air
 	
 	category_air
 	category_light_air

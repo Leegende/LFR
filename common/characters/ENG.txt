@@ -8,7 +8,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = democratic_ideology
-			expire = "1938.1.1.1"
 		}
 	}
 	ENG_neville_chamberlain = {

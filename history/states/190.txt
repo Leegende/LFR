@@ -2,9 +2,9 @@ state = {
 	id = 190
 	name = "STATE_190"
 	resources = {
-		steel = 500		
-		aluminium = 140		
-		coal = 140		
+		steel = 500
+		aluminium = 140
+		coal = 140
 	}
 	provinces = {
 		1105

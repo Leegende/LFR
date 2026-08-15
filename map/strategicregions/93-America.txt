@@ -14,7 +14,6 @@ strategic_region = {
 		19345
 		1253
 		5240
-
 		19381
 		6108
 		7747
@@ -24,7 +23,6 @@ strategic_region = {
 		18673
 		19385
 		19107
-
 	}
 	weather = {
 		period = {

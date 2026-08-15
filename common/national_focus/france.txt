@@ -1,1 +1,762 @@
-﻿
+﻿focus_tree = {
+	id = french_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	continuous_focus_position = {
+		x = 5000
+		y = 5000
+	}
+	default = no
+	focus = {
+		id = FRA_accept_rhineland
+		icon = GFX_goal_unknown
+		x = 11
+		y = 0
+		mutually_exclusive = {
+			focus = FRA_counter_the_aggression
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_social_reforms
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_accept_rhineland
+		prerequisite = {
+			focus = FRA_accept_rhineland
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_satisfy_the_center
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_social_reforms
+		prerequisite = {
+			focus = FRA_social_reforms
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_satisfy_the_left
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_social_reforms
+		prerequisite = {
+			focus = FRA_social_reforms
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_colonial_investments
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_satisfy_the_left
+		prerequisite = {
+			focus = FRA_satisfy_the_left
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_improved_worker_shifts
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_satisfy_the_left
+		prerequisite = {
+			focus = FRA_satisfy_the_left
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_satisfy_the_right
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_social_reforms
+		prerequisite = {
+			focus = FRA_social_reforms
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_tax_reduction
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_satisfy_the_right
+		prerequisite = {
+			focus = FRA_satisfy_the_right
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_colonial_suppression
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_satisfy_the_right
+		prerequisite = {
+			focus = FRA_satisfy_the_right
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_appeasement
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		relative_position_id = FRA_social_reforms
+		prerequisite = {
+			focus = FRA_improved_worker_shifts
+		}
+		prerequisite = {
+			focus = FRA_tax_reduction
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_attend_at_imperial_conference
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_appeasement
+		prerequisite = {
+			focus = FRA_appeasement
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_research_treaty
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_appeasement
+		prerequisite = {
+			focus = FRA_appeasement
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_us_bail_out
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		relative_position_id = FRA_appeasement
+		prerequisite = {
+			focus = FRA_appeasement
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_arms_purchase_us
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_us_bail_out
+		prerequisite = {
+			focus = FRA_us_bail_out
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_belgian_protection
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		relative_position_id = FRA_appeasement
+		prerequisite = {
+			focus = FRA_appeasement
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_extended_maginot_lite
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_belgian_protection
+		prerequisite = {
+			focus = FRA_belgian_protection
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	#### colonial tree
+	focus = {
+		id = FRA_colonial_management
+		icon = GFX_goal_unknown
+		x = 5
+		y = 1
+		relative_position_id = FRA_accept_rhineland
+		prerequisite = {
+			focus = FRA_accept_rhineland
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invest_sohar
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_colonial_management
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invest_abu_dhabi
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_colonial_management
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invest_ras_al_khaimah
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_colonial_management
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invest_cote_d_azure
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_invest_abu_dhabi
+			focus = FRA_invest_sohar
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_invest_aquitaine
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_invest_abu_dhabi
+			focus = FRA_invest_ras_al_khaimah
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_production_investment
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		relative_position_id = FRA_colonial_management
+		prerequisite = {
+			focus = FRA_invest_aquitaine
+			focus = FRA_invest_cote_d_azure
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_military_investment
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_production_investment
+		prerequisite = {
+			focus = FRA_production_investment
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_civilian_investment
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_production_investment
+		prerequisite = {
+			focus = FRA_production_investment
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_research_investment
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_production_investment
+		prerequisite = {
+			focus = FRA_civilian_investment
+			focus = FRA_military_investment
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	### 
+	focus = {
+		id = FRA_counter_the_aggression
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		relative_position_id = FRA_accept_rhineland
+		mutually_exclusive = {
+			focus = FRA_accept_rhineland
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_undermine_anschluss
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		relative_position_id = FRA_counter_the_aggression
+		prerequisite = {
+			focus = FRA_counter_the_aggression
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_evacuate_czech_assets
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_undermine_anschluss
+		prerequisite = {
+			focus = FRA_undermine_anschluss
+		}
+		mutually_exclusive = {
+			focus = FRA_bolster_czech_protection
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_bolster_czech_protection
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_undermine_anschluss
+		mutually_exclusive = {
+			focus = FRA_evacuate_czech_assets
+		}
+		prerequisite = {
+			focus = FRA_undermine_anschluss
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_slovakian_autonomy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_undermine_anschluss
+		prerequisite = {
+			focus = FRA_bolster_czech_protection
+			focus = FRA_evacuate_czech_assets
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_lithuanian_independece
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_slovakian_autonomy
+		prerequisite = {
+			focus = FRA_slovakian_autonomy
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_polish_resistance
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_lithuanian_independece
+		prerequisite = {
+			focus = FRA_lithuanian_independece
+		}
+		mutually_exclusive = {
+			focus = FRA_phoney_war
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_phoney_war
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_lithuanian_independece
+		prerequisite = {
+			focus = FRA_lithuanian_independece
+		}
+		mutually_exclusive = {
+			focus = FRA_polish_resistance
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	#### rearmament
+	focus = {
+		id = FRA_rearmament
+		icon = GFX_goal_unknown
+		x = 30
+		y = 0
+		cost = 35
+		available = {
+			always = yes
+			# has_added_tension_amount
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+			if = {
+				limit = {
+					NOT = {
+						has_idea = civilian_economy
+					}
+				}
+				add_political_power = 150
+			}
+			else = {
+				add_ideas = low_economic_mobilisation
+			}
+		}
+	}
+	focus = {
+		id = FRA_war_material_licence
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_rearmament
+		prerequisite = {
+			focus = FRA_rearmament
+		}
+		cost = 35
+		available = {
+			has_war_support > 0.2
+		}
+		completion_reward = {
+			## make designer better event !
+		}
+	}
+	focus = {
+		id = FRA_commit_automobile_manufacturer
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_rearmament
+		prerequisite = {
+			focus = FRA_rearmament
+		}
+		cost = 35
+		available = {
+			has_war_support > 0.2
+		}
+		completion_reward = {
+			## make designer better event !
+		}
+	}
+	focus = {
+		id = FRA_defense_national_funds
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_rearmament
+		prerequisite = {
+			focus = FRA_war_material_licence
+		}
+		prerequisite = {
+			focus = FRA_commit_automobile_manufacturer
+		}
+		cost = 35
+		available = {
+			has_war_support > 0.25
+			OR = {
+				threat > 0.25
+				any_home_area_neighbor_country = {
+					has_added_tension_amount > 10
+				}
+			}
+		}
+		completion_reward = {
+			# nationalize industry decision spawning mills
+		}
+	}
+	focus = {
+		id = FRA_partial_mobilization
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		relative_position_id = FRA_rearmament
+		prerequisite = {
+			focus = FRA_defense_national_funds
+		}
+		cost = 35
+		available = {
+			has_war_support > 0.25
+			OR = {
+				threat > 0.25
+				any_home_area_neighbor_country = {
+					has_added_tension_amount > 10
+				}
+			}
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+			if = {
+				limit = {
+					NOT = {
+						has_idea = civilian_economy
+					}
+				}
+				add_political_power = 150
+			}
+			else = {
+				add_ideas = low_economic_mobilisation
+			}
+		}
+	}
+	focus = {
+		id = FRA_military_complex_nationalisation
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_defense_national_funds
+		prerequisite = {
+			focus = FRA_defense_national_funds
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_aircraft_manufacturer_nationalisation
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_military_complex_nationalisation
+		prerequisite = {
+			focus = FRA_military_complex_nationalisation
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_wartime_organisation_act
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_defense_national_funds
+		prerequisite = {
+			focus = FRA_defense_national_funds
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_further_armament_program
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = FRA_wartime_organisation_act
+		prerequisite = {
+			focus = FRA_wartime_organisation_act
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+}

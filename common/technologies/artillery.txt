@@ -25,9 +25,7 @@ technologies = {
 		enable_equipments = {
 			artillery_0_equipment
 			anti_tank_0_equipment
-			pack_anti_air_equipment
 			anti_air_equipment
-			heavy_anti_air_equipment
 		}
 		enable_subunits = {
 			pack_anti_tank_battalion

@@ -323,21 +323,13 @@ leader_traits = {
 	trait_anti_air_designer = {
 		random = no
 		equipment_bonus = {
-			pack_anti_air_archetype = {
-				anti_air_attack = 0.3
-				ap_attack = 0.15
-				build_cost_ic = 0.125
-			}
+			
 			anti_air_archetype = {
 				anti_air_attack = 0.4
 				ap_attack = 0.2
 				build_cost_ic = 0.1
 			}
-			heavy_anti_air_archetype = {
-				anti_air_attack = 0.3
-				ap_attack = 0.15
-				build_cost_ic = 0.075
-			}
+			
 		}
 	}
 	trait_anti_tank_designer = {

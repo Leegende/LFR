@@ -9,5 +9,7 @@ equipments = {
 	}
 	motorised_equipment = {
 		archetype = motorised_archetype
+		visual_level = 16
+		priority = 16
 	}
 }

@@ -4,7 +4,7 @@ state = {
 	provinces = {
 		18809
 		19101
-		18911
+		19370
 	}
 	history = {
 		owner = DMZ
@@ -13,6 +13,4 @@ state = {
 	manpower = 1
 	state_category = state_level_0
 	impassable = yes
-	
-	
 }

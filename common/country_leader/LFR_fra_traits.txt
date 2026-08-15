@@ -16,7 +16,7 @@ leader_traits = {
 		random = no
 		production_speed_arms_factory_factor = 0.15
 		production_speed_industrial_complex_factor = -0.1
-		production_efficiency_gain_factor = 0.15
+		industrial_capacity_factory = 0.1
 	}
 	FRA_trait_activist = {
 		random = no
@@ -37,7 +37,7 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.1
 		consumer_goods_factor = -0.2
-		production_efficiency_cap_factor = 0.025
+		production_factory_max_efficiency_factor = 0.025
 	}
 	FRA_trait_colonial_administrator = {
 		random = no

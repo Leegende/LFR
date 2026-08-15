@@ -211,9 +211,7 @@ script_enum_equipment_bonus_type = {
 	pack_artillery_archetype
 	support_equipment_archetype
 	train_archetype
-	pack_anti_air_archetype
 	anti_air_archetype
-	heavy_anti_air_archetype
 	armored_support_vehicle_chassis_archetype
 	super_heavy_artillery_archetype
 	rocket_artillery_archetype
@@ -346,9 +344,7 @@ script_enum_equipment_bonus_type = {
 	light_tank_verdeja_1_chassis
 	medium_tank_verdeja_2_chassis
 	train_equipment
-	pack_anti_air_equipment
 	anti_air_equipment
-	heavy_anti_air_equipment
 	armored_support_vehicle_chassis_1_equipment
 	super_heavy_artillery_equipment
 	rocket_artillery_equipment

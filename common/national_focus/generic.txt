@@ -12,9 +12,6 @@ focus_tree = {
 		x = 0
 		y = 0
 		cost = 1000
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
 		available_if_capitulated = yes
 		completion_reward = {
 		}

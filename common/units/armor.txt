@@ -16,9 +16,6 @@ sub_units = {
 			category_armor
 			category_light_tank
 		}
-		
-		
-		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 10
@@ -67,9 +64,6 @@ sub_units = {
 			category_armor
 			category_medium_tank
 		}
-		
-		
-		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 10
@@ -121,9 +115,6 @@ sub_units = {
 			category_armor
 			category_heavy_tank
 		}
-		
-		
-		
 		combat_width = 2
 		manpower = 500
 		max_organisation = 12
@@ -207,9 +198,13 @@ sub_units = {
 			category_light_tank
 			category_amphibious_light_tank
 		}
-		
-		
-		
+		need = {
+			light_tank_chassis_archetype = 20
+		}
+		manpower = 100
+		max_organisation = 20
+		default_morale = 0.3
+		max_strength = 100
 	}
 	medium_tank_amphibious_battalion = {
 		sprite = amphibious_armor
@@ -226,9 +221,6 @@ sub_units = {
 			category_medium_tank
 			category_amphibious_medium_tank
 		}
-		
-		
-		
 	}
 	heavy_tank_amphibious_battalion = {
 		sprite = amphibious_armor
@@ -245,8 +237,5 @@ sub_units = {
 			category_heavy_tank
 			category_amphibious_heavy_tank
 		}
-		
-		
-		
 	}
 }

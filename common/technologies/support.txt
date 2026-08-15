@@ -10,7 +10,7 @@
 technologies = {
 	support_equipment_technology = {
 		enable_equipments = {
-			support_equipment_archetype
+			support_equipment
 		}
 		path = {
 			leads_to_tech = engineering_company_1_technology

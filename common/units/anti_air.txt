@@ -1,25 +1,6 @@
 sub_units = {
 	@anti_air_need = 10
-	pack_anti_air_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = yes
-		same_support_type = anti_air
-		regimental = no
-		group = support
-		type = {
-			support
-		}
-		affects_speed = yes
-		categories = {
-			category_anti_air
-			category_pack
-		}
-		
-		
-		
-	}
+	
 	anti_air_support = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -39,24 +20,7 @@ sub_units = {
 		
 		
 	}
-	heavy_anti_air_support = {
-		sprite = infantry
-		map_icon_category = infantry
-		priority = 0
-		active = yes
-		group = support
-		regimental = no
-		type = {
-			support
-		}
-		categories = {
-			category_anti_air
-			category_heavy
-		}
-		
-		
-		
-	}
+	
 	motorised_anti_air_support = {
 		sprite = motorised
 		map_icon_category = infantry

@@ -15,10 +15,15 @@ equipments = {
 		archetype = railway_gun_archetype
 		build_cost_ic = 1500
 		railway_gun_attack = 40
+		visual_level = 15
+		priority = 15
 	}
 	railway_gun_2_equipment = {
 		archetype = railway_gun_archetype
+		parent = railway_gun_1_equipment
 		build_cost_ic = 1500
 		railway_gun_attack = 40
+		visual_level = 15
+		priority = 15
 	}
 }

@@ -1,45 +1,91 @@
 state = {
 	id = 337
 	name = "STATE_337"
-	provinces = {
-		11376
-		3258
-		11332
-		7795
-		11249
-		9152
-		19932
-		11092
-		6989
-		11439
-		5860
-		11483
-		8356
-		1069
-		11518
-		7232
-		11712
-		7930
-		19945
-		9262
-		11597
-	}
 	history = {
-		owner = POL
-		add_core_of = POL
+		owner = GER
+		add_core_of = GER
+		set_demilitarized_zone = yes
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 2
 		}
 		victory_points = {
-			3258
+			12672
+			20
+		}
+		victory_points = {
+			12654
 			2
 		}
 		victory_points = {
-			19932
-			20
+			12482
+			5
+		}
+		victory_points = {
+			6415
+			2
+		}
+		victory_points = {
+			8700
+			10
+		}
+		victory_points = {
+			12799
+			10
+		}
+		victory_points = {
+			8152
+			5
+		}
+		victory_points = {
+			12673
+			40
 		}
 	}
-	manpower = 574425
+	manpower = 2046060
 	state_category = state_level_2
+	provinces = {
+		12881
+		20725
+		20726
+		9298
+		20727
+		8152
+		12672
+		12686
+		9589
+		12694
+		20724
+		20714
+		7903
+		12611
+		12606
+		12583
+		12742
+		12654
+		2874
+		7174
+		12673
+		20716
+		12623
+		18983
+		12534
+		12377
+		20717
+		8507
+		12414
+		6415
+		20709
+		8700
+		12250
+		5520
+		12286
+		5731
+		9467
+		3861
+		12482
+		20728
+		12799
+	}
 }
