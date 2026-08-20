@@ -12,7 +12,7 @@ guiTypes = {
 		clipping = no
 		fade_time = 300
 		fade_type = linear
-		
+		#moveable = yes
 
 		background = {
 			name = "Background"
@@ -31,8 +31,8 @@ guiTypes = {
 			size = {x=380 y=23}
 			font = "hoi_18mbs"
 			text = ""
-			
-			
+			#maxWidth = 300
+			#maxHeight = 20
 		}
 		
 		containerWindowType = {
@@ -219,7 +219,7 @@ guiTypes = {
 				name = "btn_order_reshape"
 				position = {x=517 y=32}
 				spriteType = "GFX_BPT_order_reshape_btn"
-				
+				#shortcut = "d"
 				clicksound = click_battleplan
 				oversound = ui_menu_over
 			}
@@ -259,9 +259,9 @@ guiTypes = {
 				name = "battleplantools_area_defense_config_window"
 				position = {x=250 y=-50}
 				size = { width=494 height=280 }
-				
-				
-				
+				#animation_time = 300
+				#Orientation = center_down
+				#clipping = yes
 				fade_time = 300
 				fade_type = linear
 

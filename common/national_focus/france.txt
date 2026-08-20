@@ -279,6 +279,7 @@
 		relative_position_id = FRA_accept_rhineland
 		prerequisite = {
 			focus = FRA_accept_rhineland
+			focus = FRA_counter_the_aggression
 		}
 		cost = 35
 		available = {
@@ -439,7 +440,7 @@
 	focus = {
 		id = FRA_counter_the_aggression
 		icon = GFX_goal_unknown
-		x = 10
+		x = 11
 		y = 0
 		relative_position_id = FRA_accept_rhineland
 		mutually_exclusive = {
@@ -577,11 +578,142 @@
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = FRA_sparking_protest
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = FRA_counter_the_aggression
+		prerequisite = {
+			focus = FRA_counter_the_aggression
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_demolish_the_protests
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = FRA_sparking_protest
+		prerequisite = {
+			focus = FRA_sparking_protest
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_consession_to_the_left
+		icon = GFX_goal_unknown
+		x = -2
+		y = 2
+		relative_position_id = FRA_demolish_the_protests
+		prerequisite = {
+			focus = FRA_demolish_the_protests
+		}
+		mutually_exclusive = {
+			focus = FRA_consession_to_the_center
+			focus = FRA_consession_to_the_right
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+			#output
+		}
+	}
+	focus = {
+		id = FRA_liberte_egalite_solidarite
+		icon = GFX_goal_unknown
+		x = -1
+		y = 3
+		relative_position_id = FRA_demolish_the_protests
+		prerequisite = {
+			focus = FRA_consession_to_the_left
+			focus = FRA_consession_to_the_center
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+			# stab output
+		}
+	}
+	focus = {
+		id = FRA_consession_to_the_center
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		relative_position_id = FRA_demolish_the_protests
+		prerequisite = {
+			focus = FRA_demolish_the_protests
+		}
+		mutually_exclusive = {
+			focus = FRA_consession_to_the_left
+			focus = FRA_consession_to_the_right
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+			# stability 
+		}
+	}
+	focus = {
+		id = FRA_consession_to_the_right
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		relative_position_id = FRA_demolish_the_protests
+		prerequisite = {
+			focus = FRA_demolish_the_protests
+		}
+		mutually_exclusive = {
+			focus = FRA_consession_to_the_center
+			focus = FRA_consession_to_the_left
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+			## core stats
+		}
+	}
+	focus = {
+		id = FRA_old_hegemon
+		icon = GFX_goal_unknown
+		x = 1
+		y = 3
+		relative_position_id = FRA_demolish_the_protests
+		prerequisite = {
+			focus = FRA_consession_to_the_center
+			focus = FRA_consession_to_the_right
+		}
+		cost = 35
+		available = {
+			always = yes
+		}
+		completion_reward = {
+			#ws and stats in belgium
+		}
+	}
 	#### rearmament
 	focus = {
 		id = FRA_rearmament
 		icon = GFX_goal_unknown
-		x = 30
+		x = 40
 		y = 0
 		cost = 35
 		available = {
@@ -752,6 +884,57 @@
 		relative_position_id = FRA_wartime_organisation_act
 		prerequisite = {
 			focus = FRA_wartime_organisation_act
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_tank_program
+		icon = GFX_goal_unknown
+		x = -8
+		y = 1
+		relative_position_id = FRA_rearmament
+		prerequisite = {
+			focus = FRA_rearmament
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_school_of_charles_de_gaulle
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = FRA_tank_program
+		prerequisite = {
+			focus = FRA_tank_program
+		}
+		mutually_exclusive = {
+			focus = FRA_school_of_philippe_leclerc
+		}
+		cost = 35
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_school_of_philippe_leclerc
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = FRA_tank_program
+		prerequisite = {
+			focus = FRA_tank_program
+		}
+		mutually_exclusive = {
+			focus = FRA_school_of_charles_de_gaulle
 		}
 		cost = 35
 		available = {

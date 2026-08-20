@@ -414,14 +414,7 @@ PixelShader =
 
 		return Result;
 	}
-
-
-
-
-
-
-
-
+	
 	struct PointLight
 	{
 		float3 _Position;
@@ -1285,7 +1278,6 @@ PixelShader =
 
 		normal = float3( B.x, 1.0f, B.y );
 
-		// because sometimes, normalize() crashes the compiler(and with sometimes, I mean always)
 		float vMultiplier = 1.0f / sqrt( normal.x * normal.x + normal.y * normal.y + normal.z * normal.z );
 		normal *= vMultiplier;
 	}

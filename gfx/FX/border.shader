@@ -125,23 +125,13 @@ PixelShader =
 		float4 main( VS_OUTPUT_BORDER Input ) : PDX_COLOR
 		{
 			float4 vColor = tex2D( BorderDiffuse, float2( Input.uv.y * BORDER_TILE, Input.uv.x ) );
-						
-			//float4 vMudSnow = GetMudSnowColor( Input.pos, SnowMudData );	
-			//float vIsSnow = saturate( GetSnow( vMudSnow ) * 5.0 );
-			//vColor.rgb = lerp(vColor.rgb, vec3(0.5) - vColor.rgb, (1.0 - vIsSnow));
-			
-			float vPulseFactor = saturate( smoothstep( 0.0f, 1.0f, ( 0.8f - abs( Input.uv.x - 0.5f ) ) + sin( vTime_Transparency.x * 2.5f ) * 0.15f ) ) * vSelectionColor.a; 
+			float vPulseFactor = saturate( smoothstep( 0.0f, 1.0f, ( 0.8f - abs( Input.uv.x - 0.5f ) ) ) ) * vSelectionColor.a; 
 			vColor.rgb = saturate( vColor.rgb + vSelectionColor.rgb * saturate( vPulseFactor - vColor.a * 0.35f ) );
-			
-			// Grab the shadow term
 			float fShadowTerm = GetShadowScaled( SHADOW_WEIGHT_BORDER, Input.vScreenCoord, ShadowMap );		
 			vColor.rgb *=  fShadowTerm;
 			
 			float3 vFOW = ApplyFOW( vColor.rgb, ShadowMap, Input.vScreenCoord );
 			vColor.rgb = lerp( vFOW, vColor.rgb, BORDER_FOW_REMOVAL_FACTOR );
-		
-			vColor.rgb = ApplyDistanceFog( vColor.rgb, Input.pos ) * max( 1.0f, vPulseFactor );
-			vColor.rgb = DayNightWithBlend( vColor.rgb, CalcGlobeNormal( Input.pos.xz ), 1.0 );
 			
 			return float4( vColor.rgb, max( vColor.a, vPulseFactor - 0.2f ) * vTime_Transparency.y );
 		}

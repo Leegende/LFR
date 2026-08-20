@@ -228,9 +228,6 @@ PixelShader =
 	[[		
 		float4 main( VS_OUTPUT_TERRAIN Input ) : PDX_COLOR
 		{
-			//return float4( 0, 1.0f, 0, 1.0f );
-			//clip( Input.prepos.y + TERRAIN_WATER_CLIP_HEIGHT - WATER_HEIGHT );
-		
 			float2 vOffsets = float2( -0.5f / MAP_SIZE_X, -0.5f / MAP_SIZE_Y );
 			
 			float vAllSame;
@@ -244,20 +241,12 @@ PixelShader =
 			float lod = clamp( mipmapLevel( vTileRepeat ) - 0.5f, 0.0f, 6.0f );
 			float vMipTexels = pow( 2.0f, ATLAS_TEXEL_POW2_EXPONENT - lod );
 					
-		#ifdef LOW_END_GFX
 			float3 normal = float3( 0, 1, 0 );
-		#else
-			float3 normal = normalize( tex2D( HeightNormal, Input.uv2 ).rbg - 0.5f );
-		#endif
 			float4 diffuse = tex2Dlod( TerrainDiffuse, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) ).rgba;
 			float vGlossiness = diffuse.a;
 									
-		#ifdef NO_SHADER_TEXTURE_LOD
-			float3 terrain_normal = float3( 0,1,0 );
-		#else	
 			float3 terrain_normal;
 			float4 terrain_normalRaw = tex2Dlod( TerrainNormal, sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod ) );
-		#endif //NO_SHADER_TEXTURE_LOD
 			
 			if ( vAllSame < 1.0f )
 			{
@@ -316,17 +305,13 @@ PixelShader =
 			float vSnowAlpha = 1-vSpec;
 			diffuse.rgb = GetOverlay( diffuse.rgb, TerrainColor.rgb, COLORMAP_OVERLAY_STRENGTH );
 
-		#ifndef LOW_END_GFX
 			float4 vMudSnow = GetMudSnowColor( Input.prepos, SnowMudData );	
 			diffuse.rgb = ApplySnow( diffuse.rgb, Input.prepos, normal, vMudSnow, SnowTexture, CityLightsAndSnowNoise, vGlossiness, vSnowAlpha );
-			diffuse.rgb = GetMudColor( diffuse.rgb, vMudSnow, Input.prepos, normal, vGlossiness, vSpec, MudDiffuseGloss, MudNormalSpec );
-		#endif
+			diffuse.rgb = GetMudColor( diffuse.rgb, vMudSnow, Input.prepos, normal, vGlossiness, vSpec, MudDiffuseGloss, MudNormalSpec, TerrainColor.rgb, CityLightsAndSnowNoise );
 							
-			// Gradient Borders
 			float vBloomAlpha = 0.0f;
 			gradient_border_apply( diffuse.rgb, normal, Input.uv2, GradientBorderChannel1, GradientBorderChannel2, 1.0f, vGBCamDistOverride_GBOutlineCutoff.zw, vGBCamDistOverride_GBOutlineCutoff.xy, vBloomAlpha );
 					
-			// Secondary color mask
 			secondary_color_mask( diffuse.rgb, normal, Input.uv2, ProvinceSecondaryColorMap, vBloomAlpha );
 
 			LightingProperties lightingProperties;
@@ -439,21 +424,16 @@ PixelShader =
 			float3 normal = normalize( tex2D( HeightNormal,Input.uv2 ).rbg - 0.5f );
 			float3 diffuse = tex2D( TerrainDiffuse, Input.uv2 * float2(( MAP_SIZE_X / 32.0f ), ( MAP_SIZE_Y / 32.0f ) ) ).rgb;
 
-			// TOMASZ: SnowTexture texture slot here was some kind of normalmap that is obsolete 
-			//         and makes no visual effect, so I've removed it.
-			//float3 offset = tex2D( SnowTexture, Input.uv2 * float2(( MAP_SIZE_X / 32.0f ), ( MAP_SIZE_Y / 32.0f ) ) ).rgb;
-			//offset -= vec3(0.5);
 			
 			float3 waterColorTint = tex2D( TerrainColorTint, Input.uv2 /*+ offset.xy * WATER_RIPPLE_EFFECT*/ ).rgb;		
-			waterColorTint *= WATER_COLOR_LIGHTNESS;
+			waterColorTint *= 0.35;
 			
-			float vMin = 5.3f; //5.3f; Depthfog ish for bottom
-			float vMax = 13.0f; //30.0f; 
+			float vMin = 0.1f; 
+			float vMax = 0.0f; 
 
-			//float vWaterAlpha = saturate( Input.prepos.y * Input.prepos.y * Input.prepos.y * WATER_HEIGHT_RECP_SQUARED * WATER_HEIGHT_RECP  );
 			float vWaterAlpha = saturate(( Input.prepos.y - vMin ) / ( vMax - vMin ) );
 		
-			float vGlossiness = MAP_SPECULAR_WIDTH;
+			float vGlossiness = 5;
 		
 			LightingProperties lightingProperties;
 			lightingProperties._WorldSpacePos = Input.prepos;
@@ -484,7 +464,6 @@ PixelShader =
 	[[
 		float4 main( VS_OUTPUT_TERRAIN Input ) : PDX_COLOR
 		{	
-			// Grab the shadow term
 			float fShadowTerm = CalculateShadow( Input.vShadowProj, ShadowMap);
 			
 			float FogColorFactor = 0.0;
@@ -509,6 +488,7 @@ Effect terrain_low_gfx
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShaderTerrain"
 	Defines = { "LOW_END_GFX" }
+
 }
 
 Effect terrain
@@ -516,17 +496,22 @@ Effect terrain
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShaderTerrain"
 	Defines = { "LOW_END_GFX" }
+
 }
 
 Effect underwater
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShaderUnderwater"
+	Defines = { "LOW_END_GFX" }
+
 }
 
 Effect terrainunlit
 {
 	VertexShader = "VertexShader"
 	PixelShader = "PixelShaderTerrainUnlit"
+	Defines = { "LOW_END_GFX" }
+
 }
 
