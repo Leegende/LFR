@@ -8,9 +8,6 @@ state = {
 		owner = ENG
 		add_core_of = ENG
 		buildings = {
-			19397 = {
-				naval_base = 1
-			}
 			infrastructure = 6
 			industrial_complex = 2
 			arms_factory = 1

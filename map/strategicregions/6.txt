@@ -4,6 +4,7 @@ strategic_region = {
 	provinces = {
 		16055
 		17754
+		18887
 		5603
 		16359
 		16005
@@ -46,6 +47,12 @@ strategic_region = {
 		17886
 		18371
 		16768
+		2417
+		18041
+		18678
+		18750
+		18794
+		18799
 	}
 	weather = {
 		period = {

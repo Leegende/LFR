@@ -5,9 +5,6 @@ state = {
 		owner = DMZ
 		add_core_of = DMZ
 		buildings = {
-			21001 = {
-				naval_base = 4
-			}
 			infrastructure = 6
 		}
 	}

@@ -48,10 +48,10 @@ idea_categories = {
 
 slot_ledgers = {
 	army_chief = army
-	artillery_chief = artillery
+	artillery_chief = army
 	air_chief = air
 	tank_industrial_concern = army
-	artillery_industrial_concern = artillery
+	artillery_industrial_concern = army
 	aircraft_industrial_concern = air
 	theorist = invalid
 	high_command = invalid

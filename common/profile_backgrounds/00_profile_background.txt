@@ -1,0 +1,5 @@
+profile_backgrounds = {
+	1 = {
+		icon = GFX_profile_background_1_1
+	}
+}

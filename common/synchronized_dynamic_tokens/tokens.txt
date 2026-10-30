@@ -1,0 +1,11 @@
+aluminium
+arms_factory
+communism
+democratic
+fascism
+industrial_complex
+motorized_equipment
+neutrality
+oil
+support_equipment
+synthetic_refinery
