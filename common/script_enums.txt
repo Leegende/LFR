@@ -676,7 +676,7 @@ script_enum_equipment_bonus_type = {
 	amtrac_anti_air_
 	amtrac_artillery_
 	amtrac_anti_tank_
-	amtrac_utility_
+	amtrac_archetype
 	amtrac_rocket_
 	mechanised_anti_air_0_equipment
 	mechanised_anti_air_1_equipment
@@ -690,10 +690,10 @@ script_enum_equipment_bonus_type = {
 	mechanised_anti_tank_1_equipment
 	mechanised_anti_tank_2_equipment
 	mechanised_anti_tank_3_equipment
-	mechanised_utility_0_equipment
-	mechanised_utility_1_equipment
-	mechanised_utility_2_equipment
-	mechanised_utility_3_equipment
+	mechanised_archetype0_equipment
+	mechanised_archetype1_equipment
+	mechanised_archetype2_equipment
+	mechanised_archetype3_equipment
 	mechanised_rocket_0_equipment
 	mechanised_rocket_1_equipment
 	mechanised_rocket_2_equipment
@@ -710,10 +710,10 @@ script_enum_equipment_bonus_type = {
 	amtrac_anti_tank_1_equipment
 	amtrac_anti_tank_2_equipment
 	amtrac_anti_tank_3_equipment
-	amtrac_utility_0_equipment
-	amtrac_utility_1_equipment
-	amtrac_utility_2_equipment
-	amtrac_utility_3_equipment
+	amtrac_archetype0_equipment
+	amtrac_archetype1_equipment
+	amtrac_archetype2_equipment
+	amtrac_archetype3_equipment
 	amtrac_rocket_0_equipment
 	amtrac_rocket_1_equipment
 	amtrac_rocket_2_equipment
@@ -727,7 +727,7 @@ script_enum_equipment_bonus_type = {
 	mechanised_artillery_
 	mechanised_anti_tank_
 	mechanised_rocket_
-	mechanised_utility_
+	mechanised_archetype
 	armored_car_anti_air_
 	armored_car_artillery_
 	armored_car_anti_tank_

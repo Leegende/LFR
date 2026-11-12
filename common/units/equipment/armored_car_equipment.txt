@@ -2,6 +2,7 @@ equipments = {
 	armored_car_archetype = {
 		is_archetype = yes
 		is_buildable = no
+		picture = archetype_armored_car_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor

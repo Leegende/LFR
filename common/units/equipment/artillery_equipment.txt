@@ -1,44 +1,129 @@
 equipments = {
 	pack_artillery_archetype = {
+		year = 1934
 		is_archetype = yes
+		picture = archetype_artillery_equipment
 		is_buildable = no
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.8
+		maximum_speed = 4
+		defense = 11
+		breakthrough = 10
+		soft_attack = 26
+		hard_attack = 2
+		ap_attack = 5
+		lend_lease_cost = 4
+		build_cost_ic = 3.5
+		resources = {
+			steel = 2
+		}
 	}
 	artillery_archetype = {
+		year = 1934
 		is_archetype = yes
+		picture = archetype_artillery_equipment
 		is_buildable = no
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.8
+		maximum_speed = 4
+		defense = 11
+		breakthrough = 10
+		soft_attack = 26
+		hard_attack = 2
+		ap_attack = 5
+		lend_lease_cost = 4
+		build_cost_ic = 3.5
+		resources = {
+			steel = 2
+		}
 	}
 	heavy_artillery_archetype = {
+		year = 1934
 		is_archetype = yes
+		picture = archetype_artillery_equipment
 		is_buildable = no
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.8
+		maximum_speed = 4
+		defense = 14
+		breakthrough = 12
+		soft_attack = 35
+		hard_attack = 4
+		ap_attack = 8
+		lend_lease_cost = 5
+		build_cost_ic = 5.0
+		resources = {
+			steel = 3
+		}
 	}
 	super_heavy_artillery_archetype = {
+		year = 1936
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
 		picture = archetype_artillery_equipment
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.75
+		maximum_speed = 3
+		defense = 18
+		breakthrough = 16
+		soft_attack = 50
+		hard_attack = 8
+		ap_attack = 12
+		lend_lease_cost = 8
+		build_cost_ic = 8.0
+		resources = {
+			steel = 4
+		}
 	}
 	rocket_artillery_archetype = {
+		year = 1938
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
 		picture = archetype_artillery_equipment
-		type = artillery
+		type = {
+			artillery
+			infantry
+		}
 		group_by = archetype
 		interface_category = interface_category_land
+		reliability = 0.8
+		maximum_speed = 4
+		defense = 8
+		breakthrough = 8
+		soft_attack = 30
+		hard_attack = 1
+		ap_attack = 2
+		lend_lease_cost = 4
+		build_cost_ic = 4.0
+		resources = {
+			steel = 2
+			tungsten = 1
+		}
 	}
 	motorised_rocket_artillery_archetype = {
+		year = 1940
 		is_archetype = yes
 		is_buildable = no
 		can_license = no
@@ -49,51 +134,91 @@ equipments = {
 		}
 		group_by = archetype
 		interface_category = interface_category_land
+		maximum_speed = 12
+		reliability = 0.8
+		defense = 10
+		breakthrough = 12
+		soft_attack = 36
+		hard_attack = 2
+		ap_attack = 3
+		lend_lease_cost = 6
+		build_cost_ic = 6.0
+		resources = {
+			steel = 3
+			tungsten = 1
+			rubber = 1
+		}
 	}
 	pack_artillery_1_equipment = {
+		year = 1936
 		archetype = pack_artillery_archetype
+		priority = 50
 	}
 	pack_artillery_2_equipment = {
+		year = 1939
 		archetype = pack_artillery_archetype
 		parent = pack_artillery_1_equipment
+		priority = 50
 	}
 	pack_artillery_3_equipment = {
+		year = 1942
 		archetype = pack_artillery_archetype
 		parent = pack_artillery_2_equipment
+		priority = 50
 	}
 	artillery_0_equipment = {
+		year = 1934
 		archetype = artillery_archetype
+		priority = 50
 	}
 	artillery_1_equipment = {
+		year = 1936
 		archetype = artillery_archetype
 		parent = artillery_0_equipment
+		priority = 50
 	}
 	artillery_2_equipment = {
+		year = 1939
 		archetype = artillery_archetype
 		parent = artillery_1_equipment
+		priority = 50
 	}
 	artillery_3_equipment = {
+		year = 1942
 		archetype = artillery_archetype
 		parent = artillery_2_equipment
+		priority = 50
 	}
 	heavy_artillery_1_equipment = {
+		year = 1936
 		archetype = heavy_artillery_archetype
+		priority = 50
 	}
 	heavy_artillery_2_equipment = {
+		year = 1939
 		archetype = heavy_artillery_archetype
 		parent = heavy_artillery_1_equipment
+		priority = 50
 	}
 	heavy_artillery_3_equipment = {
+		year = 1942
 		archetype = heavy_artillery_archetype
 		parent = heavy_artillery_2_equipment
+		priority = 50
 	}
 	super_heavy_artillery_1_equipment = {
+		year = 1938
 		archetype = super_heavy_artillery_archetype
+		priority = 50
 	}
 	rocket_artillery_1_equipment = {
+		year = 1938
 		archetype = rocket_artillery_archetype
+		priority = 50
 	}
 	motorised_rocket_artillery_1_equipment = {
+		year = 1940
 		archetype = motorised_rocket_artillery_archetype
+		priority = 50
 	}
 }

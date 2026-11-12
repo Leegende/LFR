@@ -27,7 +27,7 @@ equipments = {
 	}
 	light_tank_verdeja_1_chassis = {
 		archetype = light_tank_chassis_archetype
-		parent = light_tank_verdeja_1_chassis
+		parent = light_tank_trubia_a4_chassis
 		module_slots = {
 			main_armament_slot = inherit
 			turret_type_slot = {

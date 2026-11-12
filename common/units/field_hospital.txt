@@ -51,12 +51,12 @@ sub_units = {
 		affects_speed = no
 		training_time = 100
 		essential = {
-			mechanised_utility_
+			mechanised_archetype
 			support_equipment_archetype
 		}
 		need = {
 			support_equipment_archetype = @field_need
-			mechanised_utility_ = @field_need
+			mechanised_archetype = @field_need
 		}
 		same_support_type = field_hospital_support
 	}

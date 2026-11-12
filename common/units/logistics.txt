@@ -152,11 +152,11 @@ sub_units = {
 		training_time = 100
 		essential = {
 			support_equipment_archetype
-			mechanised_utility_
+			mechanised_archetype
 		}
 		need = {
 			support_equipment_archetype = 20
-			mechanised_utility_ = 20
+			mechanised_archetype = 20
 		}
 		same_support_type = logistics_company_support
 	}

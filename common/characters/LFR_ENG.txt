@@ -1,0 +1,5 @@
+characters = {
+	ENG_end = {
+		name = ENG_end
+	}
+}

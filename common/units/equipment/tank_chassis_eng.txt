@@ -393,7 +393,7 @@ equipments = {
 	}
 	heavy_tank_valentine_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_valentine_chassis
+		parent = heavy_tank_matilda_2_chassis
 		module_slots = {
 			main_armament_slot = inherit
 			turret_type_slot = {
@@ -425,7 +425,7 @@ equipments = {
 	}
 	heavy_tank_churchill_chassis = {
 		archetype = heavy_tank_chassis_archetype
-		parent = heavy_tank_churchill_chassis
+		parent = heavy_tank_valentine_chassis
 		module_slots = {
 			main_armament_slot = inherit
 			turret_type_slot = {

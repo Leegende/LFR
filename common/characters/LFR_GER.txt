@@ -1,0 +1,5 @@
+characters = {
+	GER_end = {
+		name = GER_end
+	}
+}

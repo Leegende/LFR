@@ -2,6 +2,7 @@ equipments = {
 	amtrac_archetype = {
 		is_archetype = yes
 		is_buildable = no
+		picture = archetype_motorised_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_land

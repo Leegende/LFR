@@ -131,11 +131,11 @@ sub_units = {
 		training_time = 100
 		essential = {
 			support_equipment_archetype
-			mechanised_utility_
+			mechanised_archetype
 		}
 		need = {
 			support_equipment_archetype = @eng_need
-			mechanised_utility_ = @eng_need
+			mechanised_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}
@@ -165,11 +165,11 @@ sub_units = {
 		training_time = 100
 		essential = {
 			support_equipment_archetype
-			amtrac_utility_
+			amtrac_archetype
 		}
 		need = {
 			support_equipment_archetype = @eng_need
-			amtrac_utility_ = @eng_need
+			amtrac_archetype = @eng_need
 		}
 		same_support_type = engineers_support
 	}
